@@ -2,3 +2,4 @@ multiqc_report
 multiqc_report.zip
 multiqc_report.html
 multiqc_data
+.DS_Store
