@@ -1,0 +1,52 @@
+RNA-Seq QC report
+-----------------------------------
+
+>>>>>>> Input
+
+    bam file = /data/qualimap_release_data/counts/kidney.bam
+    gff file = /data/qualimap_release_data/annotations/human.64.gtf
+    counting algorithm = uniquely-mapped-reads
+    protocol = non-strand-specific
+
+
+>>>>>>> Reads alignment
+
+    reads aligned  = 10,135,485
+    total alignments = 10,135,485
+    secondary alignments = 0
+    non-unique alignments = 4,464,055
+    aligned to genes  = 4,255,142
+    ambiguous alignments = 85,895
+    no feature assigned = 1,330,393
+    not aligned = 0
+
+
+>>>>>>> Reads genomic origin
+
+    exonic =  4,255,142 (76.18%)
+    intronic = 980,432 (17.55%)
+    intergenic = 349,961 (6.27%)
+
+
+>>>>>>> Transcript coverage profile
+
+    5' bias = 0.71
+    3' bias = 0.69
+    5'-3' bias = 1.1
+
+
+>>>>>>> Junction analysis
+
+    reads at junctions = 86,449
+
+    GCCT : 3.99%
+    ACCT : 3.93%
+    AGGT : 3.54%
+    AGGC : 3.54%
+    AGCT : 2.44%
+    TCCT : 2.24%
+    AGGA : 2.15%
+    ATCT : 2.13%
+    AGAT : 1.76%
+    TTCT : 1.52%
+    CCCT : 1.43%
