@@ -1,0 +1,5 @@
+samblaster: Version 0.1.22
+samblaster: Opening /home/vagrant/samblaster_standalone.sam for read.
+samblaster: Outputting to stdout
+samblaster: Loaded 86 header sequence entries.
+samblaster: Marked 0 of 117 (0.00%) read ids as duplicates using 2752k memory in 0.000S CPU seconds and 0S wall time.
