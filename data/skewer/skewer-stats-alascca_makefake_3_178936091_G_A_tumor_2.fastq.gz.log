@@ -1,0 +1,25 @@
+COMMAND LINE:	skewer -z -t 2 --quiet -o /tmp//skewer-66891894-39c6-4560-8b39-1324e4d88d37/skewer /proj/b2010040/python/pyautoseq/tests/fastq/alascca_makefake_3_178936091_G_A_tumor_1.fastq.gz /proj/b2010040/python/pyautoseq/tests/fastq/alascca_makefake_3_178936091_G_A_tumor_2.fastq.gz
+Input file:	/proj/b2010040/python/pyautoseq/tests/fastq/alascca_makefake_3_178936091_G_A_tumor_1.fastq.gz
+Paired file:	/proj/b2010040/python/pyautoseq/tests/fastq/alascca_makefake_3_178936091_G_A_tumor_2.fastq.gz
+trimmed:	/tmp//skewer-66891894-39c6-4560-8b39-1324e4d88d37/skewer-pair1.fastq.gz, /tmp//skewer-66891894-39c6-4560-8b39-1324e4d88d37/skewer-pair2.fastq.gz
+
+Parameters used:
+-- 3' end adapter sequence (-x):	AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC
+-- paired 3' end adapter sequence (-y):	AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA
+-- maximum error ratio allowed (-r):	0.100
+-- maximum indel error ratio allowed (-d):	0.030
+-- minimum read length allowed after trimming (-l):	18
+-- file format (-f):		Sanger/Illumina 1.8+ FASTQ (auto detected)
+-- number of concurrent threads (-t):	2
+Wed Feb 17 07:33:04 2016 >> started
+
+Wed Feb 17 07:33:04 2016 >> done (0.055s)
+118 read pairs processed; of these:
+  0 ( 0.00%) short read pairs filtered out after trimming by size control
+  0 ( 0.00%) empty read pairs filtered out after trimming by size control
+118 (100.00%) read pairs available; of these:
+118 (100.00%) untrimmed read pairs available after processing
+
+Length distribution of reads after trimming:
+length	count	percentage
+101	118	100.00%

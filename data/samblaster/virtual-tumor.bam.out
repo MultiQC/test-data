@@ -1,0 +1,15 @@
+[bam_header_read] EOF marker is absent. The input is probably truncated.
+samblaster: Version 0.1.22
+samblaster: Inputting from stdin
+samblaster: Outputting to stdout
+samblaster: Opening /vagrant/test-out6/virtual-tumor-samblaster-markdups.txt for write.
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] skip orientation FR as there are not enough pairs
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+samblaster: Loaded 86 header sequence entries.
+[samopen] SAM header is present: 86 sequences.
+samblaster: Removed 1 of 118 (0.85%) read ids as duplicates using 1732k memory in 0.001S CPU seconds and 28S wall time.
+[main] Version: 0.7.7-r441
+[main] CMD: bwa mem -M -v 1 -R @RG\tID:virtual-tumor\tSM:virtual-tumor\tLB:virtual-tumor\tPL:ILLUMINA -t 2 /proj/b2010040/private/nobackup/autoseq-genome/bwa/human_g1k_v37_decoy.fasta /vagrant/test-out6/skewer/virtual-tumor_1.fastq.gz /vagrant/test-out6/skewer/virtual-tumor_2.fastq.gz
+[main] Real time: 28.796 sec; CPU: 12.547 sec
