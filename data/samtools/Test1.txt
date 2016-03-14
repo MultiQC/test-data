@@ -1,0 +1,212 @@
+# This file was produced by samtools stats (1.3+htslib-1.3) and can be plotted using plot-bamstats
+# This file contains statistics for all reads.
+# The command line was:  stats /home/lp113/bcbio-nextgen/tests/test_automated_output/align/Test1/Test1.sorted.bam
+# CHK, Checksum	[2]Read Names	[3]Sequences	[4]Qualities
+# CHK, CRC32 of reads which passed filtering followed by addition (32bit overflow)
+CHK	560674ab	1165a6ca	7b309ac6
+# Summary Numbers. Use `grep ^SN | cut -f 2-` to extract this part.
+SN	raw total sequences:	101
+SN	filtered sequences:	0
+SN	sequences:	101
+SN	is sorted:	1
+SN	1st fragments:	101
+SN	last fragments:	0
+SN	reads mapped:	81
+SN	reads mapped and paired:	0	# paired-end technology bit set + both mates mapped
+SN	reads unmapped:	20
+SN	reads properly paired:	0	# proper-pair bit set
+SN	reads paired:	0	# paired-end technology bit set
+SN	reads duplicated:	0	# PCR or optical duplicate bit set
+SN	reads MQ0:	0	# mapped and MQ=0
+SN	reads QC failed:	0
+SN	non-primary alignments:	0
+SN	total length:	3529	# ignores clipping
+SN	bases mapped:	2829	# ignores clipping
+SN	bases mapped (cigar):	2829	# more accurate
+SN	bases trimmed:	0
+SN	bases duplicated:	0
+SN	mismatches:	41	# from NM fields
+SN	error rate:	1.449275e-02	# mismatches / bases mapped (cigar)
+SN	average length:	34
+SN	maximum length:	35
+SN	average quality:	38.5
+SN	insert size average:	0.0
+SN	insert size standard deviation:	0.0
+SN	inward oriented pairs:	0
+SN	outward oriented pairs:	0
+SN	pairs with other orientation:	0
+SN	pairs on different chromosomes:	0
+# First Fragment Qualitites. Use `grep ^FFQ | cut -f 2-` to extract this part.
+# Columns correspond to qualities and rows to cycles. First column is the cycle number.
+FFQ	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	2	14	0	7	76	0	0	0	0	0	0	0	0
+FFQ	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	1	16	0	4	77	0	0	0	0	0	0	0	0
+FFQ	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	2	2	16	8	0	70	0	0	0	0	0
+FFQ	4	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	8	0	89	0	0	0	0	0
+FFQ	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	9	0	88	0	0	0	0	0
+FFQ	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	2	0	1	1	0	10	5	81	0	0	0	0	0
+FFQ	7	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	1	1	0	0	0	0	1	0	11	2	82	0	0	0	0	0
+FFQ	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	0	0	0	3	2	1	3	0	21	5	63	0	0	0
+FFQ	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	6	0	9	9	74	0	0	0
+FFQ	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	1	0	1	2	1	2	0	8	8	76	0	0	0
+FFQ	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	1	1	6	0	5	7	79	0	0	0
+FFQ	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	2	1	0	2	0	9	7	78	0	0	0
+FFQ	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	0	0	0	0	2	0	3	1	1	7	19	13	53	0
+FFQ	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	1	1	5	3	2	14	72	0
+FFQ	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	4	2	7	4	15	68	0
+FFQ	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	2	0	0	3	2	3	4	17	65	0
+FFQ	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	1	0	1	1	0	1	2	0	1	1	1	4	3	14	70	0
+FFQ	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	0	0	0	0	0	2	1	1	0	3	1	2	3	5	18	63	0
+FFQ	19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	1	1	2	3	1	5	2	4	4	9	68	0
+FFQ	20	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	1	2	0	1	3	3	7	20	60	0
+FFQ	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	1	0	1	1	1	2	0	12	3	18	60	0
+FFQ	22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	2	0	4	2	3	9	21	59	0
+FFQ	23	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	2	0	0	0	0	2	0	7	0	6	6	13	64	0
+FFQ	24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	1	2	4	2	3	4	10	8	21	45	0
+FFQ	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	2	0	0	0	0	1	0	3	2	2	8	12	8	12	50	0
+FFQ	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	1	1	0	1	0	0	1	0	2	0	1	1	3	6	7	11	17	47	0
+FFQ	27	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	1	0	0	0	0	0	0	0	0	2	2	0	1	1	0	4	3	8	5	22	51	0
+FFQ	28	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	1	0	0	0	0	0	0	2	1	1	1	0	2	2	12	7	13	58	0
+FFQ	29	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	1	0	2	1	3	2	2	9	1	13	65	0
+FFQ	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	3	0	4	1	3	6	2	20	60	0
+FFQ	31	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	1	0	0	2	1	0	0	1	4	2	2	6	3	18	59	0
+FFQ	32	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	2	2	2	9	4	5	10	5	16	45	0
+FFQ	33	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	1	0	0	0	1	0	3	0	6	1	6	6	10	19	45	0
+FFQ	34	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	1	3	0	6	2	7	6	6	22	45	0
+FFQ	35	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	4	1	7	0	3	5	8	17	52	0
+FFQ	36	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+# Last Fragment Qualitites. Use `grep ^LFQ | cut -f 2-` to extract this part.
+# Columns correspond to qualities and rows to cycles. First column is the cycle number.
+LFQ	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	20	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	23	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	25	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	26	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	27	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	28	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	29	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	30	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	31	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	32	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	33	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	34	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	35	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+LFQ	36	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+# GC Content of first fragments. Use `grep ^GCF | cut -f 2-` to extract this part.
+GCF	1.26	1
+GCF	14.07	0
+GCF	26.88	1
+GCF	31.16	7
+GCF	35.43	4
+GCF	38.19	3
+GCF	41.21	1
+GCF	43.22	13
+GCF	44.47	14
+GCF	45.98	13
+GCF	47.49	12
+GCF	48.99	25
+GCF	50.50	26
+GCF	52.01	20
+GCF	53.52	19
+GCF	55.53	2
+GCF	59.80	1
+GCF	64.07	2
+# GC Content of last fragments. Use `grep ^GCL | cut -f 2-` to extract this part.
+# ACGT content per cycle. Use `grep ^GCC | cut -f 2-` to extract this part. The columns are: cycle; A,C,G,T base counts as a percentage of all A/C/G/T bases [%]; and N and O counts as a percentage of all A/C/G/T bases [%]
+GCC	1	23.76	30.69	5.94	39.60	0.00	0.00
+GCC	2	14.85	42.57	13.86	28.71	0.00	0.00
+GCC	3	26.73	29.70	17.82	25.74	0.00	0.00
+GCC	4	18.81	25.74	23.76	31.68	0.00	0.00
+GCC	5	20.79	27.72	17.82	33.66	0.00	0.00
+GCC	6	29.70	32.67	12.87	24.75	0.00	0.00
+GCC	7	14.85	29.70	24.75	30.69	0.00	0.00
+GCC	8	12.87	25.74	15.84	45.54	0.00	0.00
+GCC	9	26.73	16.83	10.89	45.54	0.00	0.00
+GCC	10	17.82	35.64	5.94	40.59	0.00	0.00
+GCC	11	22.77	38.61	6.93	31.68	0.00	0.00
+GCC	12	26.73	25.74	11.88	35.64	0.00	0.00
+GCC	13	16.83	18.81	25.74	38.61	0.00	0.00
+GCC	14	17.82	26.73	16.83	38.61	0.00	0.00
+GCC	15	20.79	37.62	24.75	16.83	0.00	0.00
+GCC	16	25.74	16.83	17.82	39.60	0.00	0.00
+GCC	17	29.70	12.87	18.81	38.61	0.00	0.00
+GCC	18	14.85	18.81	11.88	54.46	0.00	0.00
+GCC	19	16.83	17.82	25.74	39.60	0.00	0.00
+GCC	20	31.68	19.80	19.80	28.71	0.00	0.00
+GCC	21	21.78	16.83	22.77	38.61	0.00	0.00
+GCC	22	19.80	17.82	35.64	26.73	0.00	0.00
+GCC	23	7.92	38.61	28.71	24.75	0.00	0.00
+GCC	24	17.82	16.83	18.81	46.53	0.00	0.00
+GCC	25	25.74	22.77	22.77	28.71	0.00	0.00
+GCC	26	27.72	8.91	14.85	48.51	0.00	0.00
+GCC	27	33.66	21.78	19.80	24.75	0.00	0.00
+GCC	28	31.68	11.88	19.80	36.63	0.00	0.00
+GCC	29	16.83	21.78	17.82	43.56	0.00	0.00
+GCC	30	17.82	25.74	26.73	29.70	0.00	0.00
+GCC	31	12.87	25.74	27.72	33.66	0.00	0.00
+GCC	32	25.74	22.77	26.73	24.75	0.00	0.00
+GCC	33	21.21	33.33	25.25	20.20	0.00	0.00
+GCC	34	17.17	16.16	38.38	28.28	0.00	0.00
+GCC	35	36.36	24.24	20.20	19.19	0.00	0.00
+# Insert sizes. Use `grep ^IS | cut -f 2-` to extract this part. The columns are: insert size, pairs total, inward oriented pairs, outward oriented pairs, other pairs
+# Read lengths. Use `grep ^RL | cut -f 2-` to extract this part. The columns are: read length, count
+RL	32	2
+RL	35	99
+# Indel distribution. Use `grep ^ID | cut -f 2-` to extract this part. The columns are: length, number of insertions, number of deletions
+# Indels per cycle. Use `grep ^IC | cut -f 2-` to extract this part. The columns are: cycle, number of insertions (fwd), .. (rev) , number of deletions (fwd), .. (rev)
+# Coverage distribution. Use `grep ^COV | cut -f 2-` to extract this part.
+COV	[1-1]	1	39
+COV	[2-2]	2	5
+COV	[3-3]	3	15
+COV	[4-4]	4	8
+COV	[5-5]	5	1
+COV	[6-6]	6	1
+COV	[7-7]	7	14
+COV	[8-8]	8	4
+COV	[9-9]	9	8
+COV	[10-10]	10	5
+COV	[11-11]	11	2
+COV	[13-13]	13	1
+COV	[14-14]	14	1
+COV	[15-15]	15	2
+COV	[16-16]	16	4
+COV	[17-17]	17	1
+COV	[18-18]	18	6
+COV	[19-19]	19	6
+COV	[20-20]	20	2
+COV	[21-21]	21	2
+COV	[22-22]	22	8
+COV	[23-23]	23	3
+COV	[26-26]	26	2
+COV	[27-27]	27	2
+COV	[28-28]	28	2
+COV	[29-29]	29	3
+COV	[30-30]	30	3
+COV	[31-31]	31	14
+COV	[32-32]	32	6
+COV	[33-33]	33	5
+COV	[34-34]	34	5
+COV	[35-35]	35	1
+COV	[36-36]	36	11
+# GC-depth. Use `grep ^GCD | cut -f 2-` to extract this part. The columns are: GC%, unique sequence percentiles, 10th, 25th, 50th, 75th and 90th depth percentile
+GCD	0.0	100.000	0.000	0.000	0.000	0.002	0.002
