@@ -1,0 +1,12 @@
+Status	/home/lp113/bcbio-nextgen/tests/test_automated_output/align/Test1/1_110907_ERP000591_tophat/Test1.nsorted.primary.bam
+Assigned	21332
+Unassigned_Ambiguity	3229
+Unassigned_MultiMapping	0
+Unassigned_NoFeatures	0
+Unassigned_Unmapped	0
+Unassigned_MappingQuality	0
+Unassigned_FragmentLength	0
+Unassigned_Chimera	141
+Unassigned_Secondary	0
+Unassigned_Nonjunction	0
+Unassigned_Duplicate	0
