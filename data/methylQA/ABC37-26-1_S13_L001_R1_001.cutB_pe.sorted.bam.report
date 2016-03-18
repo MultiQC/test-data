@@ -1,0 +1,44 @@
+files provided: 1
+  /foo/bar/ABC37-26-1_S13_L001_R1_001.cutB_pe.sorted.bam
+
+uniquely mappable reads (pair): 21396
+quality failed mapped reads (pair) in the bismark bam: 0
+oversized mapped reads (pair) in the bismark bam: 0
+total base of uniquely mapped reads (pair): 1535018
+total base of uniquely mapped reads (pair) cover genome base (3088286401): 0.0X
+
+in all uniquely mapped reads (pair), found:
+    number of methylated C in CHG context (was protected): 93
+    number of not methylated C in CHG context (was converted): 60583
+        C->T convertion rate in CHG context: 99.85%
+    number of methylated C in CHH context (was protected): 337
+    number of not methylated C in CHH context (was converted): 212821
+        C->T convertion rate in CHH context: 99.84%
+    number of methylated C in CpG context (was protected): 6056
+    number of not methylated C in CpG context (was converted): 6481
+        C->T convertion rate in CpG context: 51.69%
+    number of methylated C in Unknown context (was protected): 0
+    number of not methylated C in Unknown context (was converted): 1
+        C->T convertion rate in Unknown context: 100.00%
+
+in the total 29401362 CpG:
+  Times covered           Count    Percent  |
+              0        29388871      99.96  |***************************************************************************************************
+              1           12448       0.04  |
+              2              40       0.00  |
+              3               3       0.00  |
+              4               0       0.00  |
+              5               0       0.00  |
+              6               0       0.00  |
+              7               0       0.00  |
+              8               0       0.00  |
+              9               0       0.00  |
+             10               0       0.00  |
+          11-20               0       0.00  |
+          21-30               0       0.00  |
+          31-40               0       0.00  |
+          41-50               0       0.00  |
+         51-100               0       0.00  |
+        101-200               0       0.00  |
+        201-300               0       0.00  |
+           >300               0       0.00  |
