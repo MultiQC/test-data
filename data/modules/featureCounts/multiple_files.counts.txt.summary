@@ -1,0 +1,12 @@
+Status	/path/to/data/sample_1.aligned.bam	/path/to/data/sample_2.aligned.bam	/path/to/data/sample_3.aligned.bam	/path/to/data/sample_4.aligned.bam	/path/to/data/sample_5.aligned.bam	/path/to/data/sample_6.aligned.bam	/path/to/data/sample_7.aligned.bam	/path/to/data/sample_8.aligned.bam	/path/to/data/sample_9.aligned.bam
+Assigned	1239096	1739471	841785	2646001	1685393	2601313	1460899	820521	1638594
+Unassigned_Ambiguity	32612	42722	21870	65969	51299	69695	32045	16207	38771
+Unassigned_MultiMapping	7304168	9973222	6323270	16207279	7726817	15360349	8819761	7908762	11453585
+Unassigned_NoFeatures	4171016	2987266	3992106	4110643	6894675	3615216	4868862	4559904	6831109
+Unassigned_Unmapped	0	0	0	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0	0	0	0
+Unassigned_Nonjunction	0	0	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0	0	0
