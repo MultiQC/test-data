@@ -1,0 +1,17 @@
+%GC	44
+Average_insert_size	152.0
+Duplicates	4182.0
+Duplicates_pct	0.052061547654616076
+Mapped_reads	80240.0
+Mapped_reads_pct	0.9989044915845036
+Name	Test1
+Quality_format	standard
+Sequence_length	36-100
+Sequences_flagged_as_poor_quality	0
+Total_reads	80328.0
+Variations_total	13
+mapped	80242
+offtarget	20888
+offtarget_pct	0.260
+avg_coverage_per_region	NA
+sample	Test1
