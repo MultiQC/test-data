@@ -1,0 +1,11 @@
+cutoff_reads	bases_pct	sample
+percentage80	7.12832373975	c-tumor
+percentage70	23.4839281354	c-tumor
+percentage1	100.0	c-tumor
+percentage5	100.0	c-tumor
+percentage40	92.7379516658	c-tumor
+percentage50	78.7894920984	c-tumor
+percentage60	52.7240077446	c-tumor
+percentage100	0.139542996686	c-tumor
+percentage20	98.6220408163	c-tumor
+percentage10	99.9825431711	c-tumor
