@@ -1,0 +1,15 @@
+{
+    "salmon_version": "0.6.0",
+    "index": "/nfs/research2/teichmann/reference/homo-sapiens/salmon/quasi/Homo_sapiens.GRCh38.78.cdna_ERCC_repbase.fa",
+    "libType": "IU",
+    "mates1": "../fastq/19232_1_1.fastq",
+    "mates2": "../fastq/19232_1_2.fastq",
+    "output": "/tmp/19232_1_salmon_out",
+    "geneMap": "/nfs/research2/teichmann/reference/homo-sapiens/Homo_sapiens.GRCh38.78.cdna_ERCC_repbase.gene_map.txt",
+    "biasCorrect": [],
+    "useFSPD": [],
+    "numAuxModelSamples": "75000",
+    "fldMax": "2000",
+    "fldMean": "250",
+    "numPreAuxModelSamples": "75000"
+}
