@@ -1,0 +1,9 @@
+TrimmomaticPE: Started with arguments: -threads 16 -phred33 /proj/4_P1888_101_1.fastq.gz /proj/4_P1888_101_2.fastq.gz /proj/2_P1888_101_1.fastq.gz /proj/2_P1888_101_1_u.fastq.gz /proj/2_P1888_101_2.fastq.gz /proj/2_P1888_101_2_u.fastq.gz ILLUMINACLIP:/resources/TrueSeq_adapters.fasta:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:30
+Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Skipping duplicate Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 0 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 39713966 Both Surviving: 38507233 (96.96%) Forward Only Surviving: 1134492 (2.86%) Reverse Only Surviving: 52230 (0.13%) Dropped: 20011 (0.05%)
+TrimmomaticPE: Completed successfully
