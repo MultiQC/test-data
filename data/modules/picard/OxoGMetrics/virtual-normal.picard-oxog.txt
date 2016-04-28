@@ -1,0 +1,25 @@
+## htsjdk.samtools.metrics.StringHeader
+# picard.analysis.CollectOxoGMetrics INPUT=/vagrant/test-out3/virtual-normal.bam OUTPUT=/vagrant/test-out3/picard/virtual-normal.picard-oxog.txt REFERENCE_SEQUENCE=/proj/genome/human.fasta    MINIMUM_QUALITY_SCORE=20 MINIMUM_MAPPING_QUALITY=30 MINIMUM_INSERT_SIZE=60 MAXIMUM_INSERT_SIZE=600 USE_OQ=true CONTEXT_SIZE=1 STOP_AFTER=2147483647 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false
+## htsjdk.samtools.metrics.StringHeader
+# Started on: Tue Feb 16 08:47:44 UTC 2016
+
+## METRICS CLASS	picard.analysis.CollectOxoGMetrics$CpcgMetrics
+SAMPLE_ALIAS	LIBRARY	CONTEXT	TOTAL_SITES	TOTAL_BASES	REF_NONOXO_BASES	REF_OXO_BASES	REF_TOTAL_BASES	ALT_NONOXO_BASES	ALT_OXO_BASES	OXIDATION_ERROR_RATE	OXIDATION_Q	C_REF_REF_BASES	G_REF_REF_BASES	C_REF_ALT_BASES	G_REF_ALT_BASES	C_REF_OXO_ERROR_RATE	C_REF_OXO_Q	G_REF_OXO_ERROR_RATE	G_REF_OXO_Q
+virtual-normal	virtual-normal	ACT	18	233	145	88	233	0	0	0.004292	23.673559	102	131	0	0	0	100	0	100
+virtual-normal	virtual-normal	GCT	13	193	98	95	193	0	0	0.005181	22.855573	79	114	0	0	0	100	0	100
+virtual-normal	virtual-normal	CCA	16	194	78	116	194	0	0	0.005155	22.878017	17	177	0	0	0	100	0	100
+virtual-normal	virtual-normal	TCT	38	622	283	339	622	0	0	0.001608	27.937904	410	212	0	0	0	100	0	100
+virtual-normal	virtual-normal	CCC	6	12	7	5	12	0	0	0.083333	10.791812	1	11	0	0	0	100	0	100
+virtual-normal	virtual-normal	ACA	30	365	217	148	365	0	0	0.00274	25.622929	213	152	0	0	0	100	0	100
+virtual-normal	virtual-normal	CCG	0	0	0	0	0	0	0	?	-?	0	0	0	0	?	?	?	?
+virtual-normal	virtual-normal	ACC	11	112	55	57	112	0	0	0.008929	20.49218	22	90	0	0	0	100	0	100
+virtual-normal	virtual-normal	GCG	0	0	0	0	0	0	0	?	-?	0	0	0	0	?	?	?	?
+virtual-normal	virtual-normal	TCG	1	26	12	14	26	0	0	0.038462	14.149733	0	26	0	0	?	?	?	?
+virtual-normal	virtual-normal	ACG	2	26	14	12	26	0	0	0.038462	14.149733	26	0	0	0	?	?	?	?
+virtual-normal	virtual-normal	TCA	27	336	179	157	336	0	0	0.002976	25.263393	128	208	0	0	0	100	0	100
+virtual-normal	virtual-normal	GCC	4	31	15	16	31	0	0	0.032258	14.913617	13	18	0	0	0	100	0	100
+virtual-normal	virtual-normal	CCT	12	164	86	78	164	0	0	0.006098	22.148438	74	90	0	0	0	100	0	100
+virtual-normal	virtual-normal	TCC	13	209	91	118	209	0	0	0.004785	23.201463	56	153	0	0	0	100	0	100
+virtual-normal	virtual-normal	GCA	13	219	110	109	219	0	0	0.004566	23.404441	130	89	0	0	0	100	0	100
+
+
