@@ -1,4 +1,4 @@
-TrimmomaticPE: Started with arguments: -threads 16 -phred33 /proj/3_P1888_101_1.fastq.gz /proj/3_P1888_101_2.fastq.gz /proj/1_P1888_101_1.fastq.gz /proj/1_P1888_101_1_u.fastq.gz /proj/1_P1888_101_2.fastq.gz /proj/1_P1888_101_2_u.fastq.gz ILLUMINACLIP:/resources/TrueSeq_adapters.fasta:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:30
+TrimmomaticPE: Started with arguments: -threads 16 -phred33 /input/Sample_1_1.fastq.gz /input/Sample_1_2.fastq.gz /trimmed/Sample_1_1.fastq.gz /trimmed/Sample_1_1_u.fastq.gz /trimmed/Sample_1_2.fastq.gz /trimmed/Sample_1_2_u.fastq.gz ILLUMINACLIP:/resources/TrueSeq_adapters.fasta:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:30
 Using Long Clipping Sequence: 'AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'CAAGCAGAAGACGGCATACGAGATCGGTCTCGGCATTCCTGCTGAACCGCTCTTCCGATCT'
 Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'

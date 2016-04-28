@@ -1,4 +1,4 @@
-TrimmomaticPE: Started with arguments: -threads 16 -phred33 /proj/6_P1837_101_1.fastq.gz /proj/6_P1837_101_2.fastq.gz /proj/01_QC/6_P1837_101_1.fastq.gz /proj/01_QC/6_P1837_101_1_u.fastq.gz /proj/01_QC/6_P1837_101_2.fastq.gz /proj/01_QC/6_P1837_101_2_u.fastq.gz ILLUMINACLIP:/resources/nextera_linkers.txt:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:30
+TrimmomaticPE: Started with arguments: -threads 16 -phred33 /input/Sample_3_1.fastq.gz /input/Sample_3_2.fastq.gz /trimmed/Sample_3_1.fastq.gz /trimmed/Sample_3_1_u.fastq.gz /trimmed/Sample_3_2.fastq.gz /trimmed/Sample_3_2_u.fastq.gz ILLUMINACLIP:/resources/nextera_linkers.txt:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:30
 Using Medium Clipping Sequence: 'AGATGTGTATAAGAGACAG'
 Using Medium Clipping Sequence: 'CTGTCTCTTATACACATCT'
 Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTAGATGTGTATAAGAGACAG'
