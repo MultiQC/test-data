@@ -1,0 +1,17 @@
+discarding /home/phil/anaconda/envs/miRNA/bin from PATH
+prepending /home/phil/anaconda/envs/miRNA/bin to PATH
+Reading reference bed file:  genes.bed  ...  Done
+Load BAM file ...  Done
+
+===================================================================
+Total splicing  Events:	4912805
+Known Splicing Events:	0
+Partial Novel Splicing Events:	0
+Novel Splicing Events:	4867824
+
+Total splicing  Junctions:	299480
+Known Splicing Junctions:	0
+Partial Novel Splicing Junctions:	0
+Novel Splicing Junctions:	299480
+
+===================================================================

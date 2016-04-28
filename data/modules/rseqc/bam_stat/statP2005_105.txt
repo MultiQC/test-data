@@ -1,0 +1,57 @@
+
+The following have been reloaded with a version change:
+  1) samtools/0.1.12-10 => samtools/0.1.19
+
+bam_stat.py 2.6.1
+
+===== Mapping statistics based on all reads =====
+Load BAM file ...  Done
+
+#==================================================
+#All numbers are READ count
+#==================================================
+
+Total records:                          80994632
+
+QC failed:                              0
+Optical/PCR duplicate:                  0
+Non primary hits                        4067856
+Unmapped reads:                         0
+mapq < mapq_cut (non-unique):           1415341
+
+mapq >= mapq_cut (unique):              75511435
+Read-1:                                 37924267
+Read-2:                                 37587168
+Reads map to '+':                       37695212
+Reads map to '-':                       37816223
+Non-splice reads:                       68498806
+Splice reads:                           7012629
+Reads mapped in proper pairs:           62445092
+Proper-paired reads map to different chrom:0
+
+===== Mapping statistics based on reads after duplicate removal =====
+Load BAM file ...  Done
+
+#==================================================
+#All numbers are READ count
+#==================================================
+
+Total records:                          43056841
+
+QC failed:                              0
+Optical/PCR duplicate:                  0
+Non primary hits                        4067856
+Unmapped reads:                         0
+mapq < mapq_cut (non-unique):           986976
+
+mapq >= mapq_cut (unique):              38002009
+Read-1:                                 19037779
+Read-2:                                 18964230
+Reads map to '+':                       19001551
+Reads map to '-':                       19000458
+Non-splice reads:                       33132196
+Splice reads:                           4869813
+Reads mapped in proper pairs:           29880502
+Proper-paired reads map to different chrom:0
+===== Number of spliced alignments (dupRem) =====
+spliced:          5221807
