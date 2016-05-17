@@ -1,0 +1,5 @@
+TrimmomaticPE: Started with arguments:
+ -threads 6 -phred33 [somewhere]/A3_R1.fastq.gz [somewhere]/A3_R2.fastq.gz trim/A3/A3.trim.pair1.fastq.gz trim/A3/A3.trim.single1.fastq.gz trim/A3/A3.trim.pair2.fastq.gz trim/A3/A3.trim.single2.fastq.gz ILLUMINACLIP:[somewhere]/trimmomatic/Trimmomatic-0.32/adapters/TruSeq3-PE-2.fa:2:30:15 TRAILING:30 MINLEN:50
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 60644112 Both Surviving: 54936210 (90.59%) Forward Only Surviving: 5667079 (9.34%) Reverse Only Surviving: 14488 (0.02%) Dropped: 26335 (0.04%)
+TrimmomaticPE: Completed successfully
