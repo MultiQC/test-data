@@ -1,4 +1,4 @@
-Status	/path/to/data/sample_1.aligned.bam	/path/to/data/sample_2.aligned.bam	/path/to/data/sample_3.aligned.bam	/path/to/data/sample_4.aligned.bam	/path/to/data/sample_5.aligned.bam	/path/to/data/sample_6.aligned.bam	/path/to/data/sample_7.aligned.bam	/path/to/data/sample_8.aligned.bam	/path/to/data/sample_9.aligned.bam
+Status	/path/to/data/sample 1.aligned.bam	/path/to/data/sample_2.aligned.bam	/path/to/data/sample_3.aligned.bam	/path/to/data/sample_4.aligned.bam	/path/to/data/sample_5.aligned.bam	/path/to/data/sample_6.aligned.bam	/path/to/data/sample_7.aligned.bam	/path/to/data/sample_8.aligned.bam	/path/to/data/sample_9.aligned.bam
 Assigned	1239096	1739471	841785	2646001	1685393	2601313	1460899	820521	1638594
 Unassigned_Ambiguity	32612	42722	21870	65969	51299	69695	32045	16207	38771
 Unassigned_MultiMapping	7304168	9973222	6323270	16207279	7726817	15360349	8819761	7908762	11453585
