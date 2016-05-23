@@ -1,0 +1,8 @@
+TrimmomaticSE: Started with arguments:
+ -threads 8 /LUSTRE/usuario/estudiantes1/transcriptomas//raw/arizona/DAZ/r002_TM1LR1ss07-18_GTCCGC_L002_R1_merged.fastq.gz output/trimmed/arizona/DAZ/r002_TM1LR1ss07-18_GTCCGC_L002_R1_mergedtrimm.fq.gz ILLUMINACLIP:software/Trimmomatic-0.36/adapters/TruSeq3-SE.fa:2:0:10 MAXINFO:80:0.2
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+ILLUMINACLIP: Using 0 prefix pairs, 2 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Reads: 3532813 Surviving: 3532079 (99,98%) Dropped: 734 (0,02%)
+TrimmomaticSE: Completed successfully
