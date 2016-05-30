@@ -1,0 +1,44 @@
+## htsjdk.samtools.metrics.StringHeader
+# picard.analysis.CollectMultipleMetrics INPUT=alignment/A1/A1.sorted.dup.recal.bam REFERENCE_SEQUENCE=/hpf/tools/centos6/mugqic-pipelines/source/resource/genomes/species/Homo_sapiens.GRCh37/genome/Homo_sapiens.GRCh37.fa OUTPUT=alignment/A1/A1.sorted.dup.recal.all.metrics PROGRAM=[CollectAlignmentSummaryMetrics, CollectInsertSizeMetrics, QualityScoreDistribution, MeanQualityByCycle, CollectBaseDistributionByCycle, CollectAlignmentSummaryMetrics, CollectInsertSizeMetrics] TMP_DIR=[/localhd/5063600] VALIDATION_STRINGENCY=SILENT MAX_RECORDS_IN_RAM=1000000    ASSUME_SORTED=true STOP_AFTER=0 VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5 CREATE_INDEX=false CREATE_MD5_FILE=false
+## htsjdk.samtools.metrics.StringHeader
+# Started on: Thu May 12 02:18:35 EDT 2016
+
+
+## HISTOGRAM	java.lang.Byte
+QUALITY	COUNT_OF_Q
+5	30807
+6	72529
+7	187638
+8	220944
+9	785352
+10	5782067
+11	15695612
+12	23527321
+13	33269359
+14	32298392
+15	33724468
+16	39080905
+17	41951179
+18	50681148
+19	43977217
+20	31178213
+21	18510827
+22	11202350
+23	14762170
+24	21643222
+25	35143548
+26	70197969
+27	101390721
+28	133359291
+29	259255125
+30	628983059
+31	1108103250
+32	1933464461
+33	1548907380
+34	1149633957
+35	1913754489
+36	1356079324
+37	1311916327
+38	150687445
+39	274240
+
