@@ -1,0 +1,5 @@
+P1234_1014Aligned.sortedByCoord.out.bam.markDups.bam duprate at low read counts:  
+P1234_1014Aligned.sortedByCoord.out.bam.markDups.bam 0.2715099 
+P1234_1014Aligned.sortedByCoord.out.bam.markDups.bam progression of the duplication rate:  
+P1234_1014Aligned.sortedByCoord.out.bam.markDups.bam 1.594849 
+

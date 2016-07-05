@@ -1,0 +1,549 @@
+{
+    "summary": {
+        "In Progress": 22,
+        "project_name": "Test_NGI_Project",
+        "reference_genome": "hg19",
+        "project_summary": {
+            "method_document": "1234",
+            "bioinfo_responsible": "Phil Ewels",
+            "all_raw_data_delivered": "2016-06-22",
+            "lab_responsible": "Phil Ewels",
+            "document_version": "7",
+            "signature_all_samples_sequenced": "PE",
+            "signature_queued": "PE",
+            "all_samples_sequenced": "2016-04-20",
+            "signature_all_raw_data_delivered": "PE",
+            "queued": "2016-04-06",
+            "instructions": "This is an example project. All identifying data has been removed."
+        },
+        "affiliation": "KTH",
+        "no_samples": 22,
+        "uppnex_id": "UPPMAX_PROJ/INBOX",
+        "close_date": "2016-06-22",
+        "number_of_pools": 1,
+        "source": "lims",
+        "application": "RNA-seq",
+        "passed_samples": 0,
+        "contact": "phil.ewels@scilifelab.se",
+        "passed_seq_qc": "0/22 P",
+        "open_date": "2016-04-04",
+        "final_number_of_samples": 22,
+        "details": {
+            "customer_project_reference": "This is an example project. All identifying data has been removed.",
+            "disposal_of_any_remaining_samples": "Return to customer after project completion",
+            "custom_capture_design_id": "N/A",
+            "bioinformatic_qc": "RNA-seq",
+            "sequence_units_ordered_(lanes)": 3,
+            "project_comment": "This is an example project, used to test the MultiQC_NGI plugin",
+            "sample_type": "Finished Library",
+            "customer_project_description": "This is an example project, used to test the MultiQC_NGI plugin",
+            "signature_queued": "PE",
+            "all_samples_sequenced": "2016-04-20",
+            "best_practice_bioinformatics": "Yes",
+            "type": "Application",
+            "accredited_(library_preparation)": "N/A",
+            "running_notes": "{\"2016-06-22 11:41:35.982821\": {\"note\": \"Data delivered to user.\", \"category\": \"Bioinformatics\", \"user\": \"Phil Ewels\", \"email\": \"phil.ewels@scilifelab.se\"}}",
+            "low_diversity": false,
+            "custom_primer": false,
+            "survey_sent": "2016-06-26",
+            "shared": "No",
+            "sequencing_platform": "HiSeq 2500 High Output V4",
+            "accredited_(data_processing)": "Yes",
+            "signature_all_samples_sequenced": "PE",
+            "invoice_reference": "12345",
+            "lab_status": "This comment is typically written by someone in the lab",
+            "sequencing_setup": "2x125",
+            "accredited_(sequencing)": "Yes",
+            "organism": "Human",
+            "queued": "2016-04-06"
+        }
+    },
+    "samples": {
+        "P1234_1020": {
+            "details": {
+                "total_reads_(m)": 15.843059,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 3.42
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1020",
+            "customer_name": "Sample 9, Rep 2"
+        },
+        "P1234_1022": {
+            "details": {
+                "total_reads_(m)": 14.601827,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "passed_library_qc": "True",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "sample_type": "Finished library",
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 1.23
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1022",
+            "customer_name": "Failed Library Prep"
+        },
+        "P1234_1019": {
+            "details": {
+                "total_reads_(m)": 16.902605,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 4.10
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1019",
+            "customer_name": "Sample 9, Rep 1"
+        },
+        "P1234_1018": {
+            "details": {
+                "total_reads_(m)": 30.833924,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "passed_library_qc": "True",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "sample_type": "Finished library",
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 6.39
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1018",
+            "customer_name": "Sample 8, Rep 2"
+        },
+        "P1234_1013": {
+            "details": {
+                "total_reads_(m)": 59.012592,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 8.72
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1013",
+            "customer_name": "Sample 6, Rep 1"
+        },
+        "P1234_1012": {
+            "details": {
+                "total_reads_(m)": 26.62935,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 6.12
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1012",
+            "customer_name": "Sample 5, Rep 2"
+        },
+        "P1234_1011": {
+            "details": {
+                "total_reads_(m)": 27.988897,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 4.93
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1011",
+            "customer_name": "Sample 5, Rep 1"
+        },
+        "P1234_1010": {
+            "details": {
+                "total_reads_(m)": 11.357451,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 4.73
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1010",
+            "customer_name": "Sample 4, Rep 2"
+        },
+        "P1234_1017": {
+            "details": {
+                "total_reads_(m)": 34.064465,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 7.23
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1017",
+            "customer_name": "Sample 8, Rep 1"
+        },
+        "P1234_1016": {
+            "details": {
+                "total_reads_(m)": 28.242306,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 4.99
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1016",
+            "customer_name": "Sample 7, Rep 2"
+        },
+        "P1234_1015": {
+            "details": {
+                "total_reads_(m)": 13.216614,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 6.12
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1015",
+            "customer_name": "Sample 7, Rep 1"
+        },
+        "P1234_1014": {
+            "details": {
+                "total_reads_(m)": 46.909968,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 8.99
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1014",
+            "customer_name": "Sample 6, Rep 2"
+        },
+        "P1234_1021": {
+            "details": {
+                "total_reads_(m)": 28.300555,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 5.11
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1021",
+            "customer_name": "Sample 10, Rep 1"
+        },
+        "P1234_1004": {
+            "details": {
+                "total_reads_(m)": 31.19406,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 8.39
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1004",
+            "customer_name": "Sample 2, Rep 1"
+        },
+        "P1234_1005": {
+            "details": {
+                "total_reads_(m)": 33.756772,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 8.75
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1005",
+            "customer_name": "Sample 2, Rep 2"
+        },
+        "P1234_1006": {
+            "details": {
+                "total_reads_(m)": 30.839171,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 7.65
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1006",
+            "customer_name": "Sample 2, Rep 3"
+        },
+        "P1234_1007": {
+            "details": {
+                "total_reads_(m)": 21.758318,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 2.23
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1007",
+            "customer_name": "Sample 3, Rep 1"
+        },
+        "P1234_1001": {
+            "details": {
+                "total_reads_(m)": 33.741075,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 9.34
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1001",
+            "customer_name": "Sample 1, Rep 1"
+        },
+        "P1234_1002": {
+            "details": {
+                "total_reads_(m)": 31.08015,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 9.12
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1002",
+            "customer_name": "Sample 1, Rep 2"
+        },
+        "P1234_1003": {
+            "details": {
+                "total_reads_(m)": 33.724069,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 9.78
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1003",
+            "customer_name": "Sample 1, Rep 3"
+        },
+        "P1234_1008": {
+            "details": {
+                "total_reads_(m)": 16.710354,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 1.09
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1008",
+            "customer_name": "Sample 3, Rep 2"
+        },
+        "P1234_1009": {
+            "details": {
+                "total_reads_(m)": 20.462961,
+                "customer_average_fragment_length": 279,
+                "reference_genome": "hg19",
+                "index_category": "TruSeq DNA HT Dual-index (D7-D5)",
+                "sample_type": "Finished library",
+                "pooling": "A1",
+                "sample_buffer": "Tris",
+                "lanes_requested": 3,
+                "customer_nm": 2.84,
+                "progress": "Library ready for sequencing",
+                "conc_method": "Qubit",
+                "status_(manual)": "In Progress"
+            },
+            "initial_qc": {
+                "rin": 5.66
+            },
+            "well_location": "1:1",
+            "scilife_name": "P1234_1009",
+            "customer_name": "Sample 4, Rep 1"
+        }
+    }
+}
