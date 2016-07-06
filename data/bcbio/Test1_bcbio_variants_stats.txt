@@ -1,0 +1,7 @@
+c-normal:
+  Variations (SNPs): '38'
+  Variations (alt homozygous): '22'
+  Variations (heterozygous): '14'
+  Variations (indels): '13'
+  Variations (total): '50'
+  Variations (ts/tv): '2.80'
