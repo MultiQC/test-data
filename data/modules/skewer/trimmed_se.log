@@ -1,4 +1,4 @@
-COMMAND LINE:	skewer -z -t 2 --quiet -o trimmed_se test_1.fastq.gz
+COMMAND LINE:	/path/to/skewer -z -t 2 --quiet -o trimmed_se test_1.fastq.gz
 Input file:	test_1.fastq.gz
 trimmed:	trimmed_se.fastq.gz
 
