@@ -1,0 +1,48 @@
+skewer v0.2.2 [April 4, 2016]
+COMMAND LINE:	/home/ngs/programs/skewer/skewer -x CTGTCTCTTATACACATCTGACGCTGCCGACGA -m any -u -n -k 4 -l 10 -t 10 -o a02 a02.fq.gz
+Input file:	a02.fq.gz
+trimmed:	a02-trimmed.fastq
+
+Parameters used:
+-- 3' end adapter sequence (-x):	CTGTCTCTTATACACATCTGACGCTGCCGACGA
+-- maximum error ratio allowed (-r):	0.100
+-- maximum indel error ratio allowed (-d):	0.030
+-- minimum read length allowed after trimming (-l):	10
+-- file format (-f):		Solexa/Illumina 1.3+/Illumina 1.5+ FASTQ (auto detected)
+-- minimum overlap length for adapter detection (-k):	4
+-- number of concurrent threads (-t):	10
+Tue Jul 26 15:25:02 2016 >> started
+
+Tue Jul 26 15:25:03 2016 >> done (1.056s)
+411172 reads processed; of these:
+     0 ( 0.00%) degenerative reads filtered out
+     0 ( 0.00%) undetermined reads filtered out by contaminant control
+     0 ( 0.00%) short reads filtered out after trimming by size control
+   404 ( 0.10%) empty reads filtered out after trimming by size control
+410768 (99.90%) reads available; of these:
+  6136 ( 1.49%) trimmed reads available after processing
+404632 (98.51%) untrimmed reads available after processing
+
+Length distribution of reads after trimming:
+length	count	percentage
+ 23	    16	  0.00%
+ 24	    17	  0.00%
+ 25	    18	  0.00%
+ 26	    14	  0.00%
+ 27	    30	  0.01%
+ 28	    41	  0.01%
+ 29	    54	  0.01%
+ 30	   117	  0.03%
+ 31	   132	  0.03%
+ 32	   164	  0.04%
+ 33	   205	  0.05%
+ 34	   204	  0.05%
+ 35	   305	  0.07%
+ 36	   375	  0.09%
+ 37	   601	  0.15%
+ 38	  1001	  0.24%
+ 39	  2842	  0.69%
+ 40	     0	  0.00%
+ 41	     0	  0.00%
+ 42	     0	  0.00%
+ 43	404632	 98.51%
