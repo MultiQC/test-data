@@ -1,0 +1,2 @@
+P4354_1021Aligned.sortedByCoord.out.bam.markDups.bam - dupRadar Int (duprate at low read counts): 1.08567731138532 
+P4354_1021Aligned.sortedByCoord.out.bam.markDups.bam - dupRadar Sl (progression of the duplication rate): 2.98008139349989
