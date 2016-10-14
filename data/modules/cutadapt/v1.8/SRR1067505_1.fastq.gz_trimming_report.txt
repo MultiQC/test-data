@@ -1,21 +1,3 @@
-
-SUMMARISING RUN PARAMETERS
-==========================
-Input filename: SRR1067505_1.fastq.gz
-Trimming mode: single-end
-Trim Galore version: 0.4.0
-Cutadapt version: 1.8
-Quality Phred score cutoff: 20
-Quality encoding type selected: ASCII+33
-Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
-Maximum trimming error rate: 0.1 (default)
-Minimum required adapter overlap (stringency): 1 bp
-Minimum required sequence length before a sequence gets removed: 20 bp
-Running FastQC on the data once trimming has completed
-Running FastQC with the following extra arguments: -q
-Output file will be GZIP compressed
-
-
 This is cutadapt 1.8 with Python 2.7.6
 Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRR1067505_1.fastq.gz
 Trimming 1 adapter(s) with at most 10.0% errors in single-end mode ...
@@ -83,10 +65,3 @@ length	count	expect	max.err	error counts
 34	429	0.3	1	0 429
 35	3049	0.3	1	0 3049
 36	66478	0.3	1	0 66478
-
-
-RUN STATISTICS FOR INPUT FILE: SRR1067505_1.fastq.gz
-=============================================
-18361776 sequences processed in total
-Sequences removed because they became shorter than the length cutoff of 20 bp:	361367 (2.0%)
-
