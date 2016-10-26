@@ -1,0 +1,6 @@
+filter_id	hits	misses	shared	rate_hit	rate_miss	rate_shared
+E_coli.fasta	560	489138	0	0.00114356	0.998856	0
+genome.fa	0	489698	0	0	1	0
+Homo_sapiens.GRCh37.fa	466984	22714	0	0.953616	0.0463837	0
+multiMatch	0	489698	0	0	1	0
+noMatch	22154	467544	0	0.0452401	0.95476	0
