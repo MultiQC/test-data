@@ -1,0 +1,1 @@
+[bam_rmdupse_core] 7482847 / 83824753 = 0.0892 in library 'Sample 2'
