@@ -1,0 +1,5 @@
+organism: Genus species Sample3
+bases: 162997532523
+rRNA: 2
+CDS: 1548
+misc_RNA: 5152
