@@ -1,0 +1,222 @@
+BamQC report
+-----------------------------------
+
+>>>>>>> Input
+
+     bam file = with_human_gc.bam
+     outfile = /Sid/vsaveliev/dream-chr21/work/qc/syn3-tumor/qualimap/genome_results.txt
+
+
+>>>>>>> Reference
+
+     number of bases = 3,137,161,264 bp
+     number of contigs = 93
+
+
+>>>>>>> Globals
+
+     number of windows = 492
+
+     number of reads = 1,170,508
+     number of mapped reads = 1,153,153 (98.52%)
+
+     number of mapped paired reads (first in pair) = 581,820
+     number of mapped paired reads (second in pair) = 571,333
+     number of mapped paired reads (both in pair) = 1,135,311
+     number of mapped paired reads (singletons) = 17,842
+
+     number of mapped bases = 78,994,439 bp
+     number of sequenced bases = 78,951,216 bp
+     number of aligned bases = 0 bp
+     number of duplicated reads (flagged) = 47,331
+
+
+>>>>>>> Insert size
+
+     mean insert size = 1,007.7735
+     std insert size = 95,543.6053
+     median insert size = 344
+
+
+>>>>>>> Mapping quality
+
+     mean mapping quality = 0.6268
+
+
+>>>>>>> ACTG content
+
+     number of A's = 19,386,610 bp (24.56%)
+     number of C's = 19,993,830 bp (25.32%)
+     number of T's = 19,565,866 bp (24.78%)
+     number of G's = 20,004,910 bp (25.34%)
+     number of N's = 0 bp (0%)
+
+     GC percentage = 50.66%
+
+
+>>>>>>> Mismatches and indels
+
+    general error rate = 0.0092
+    number of mismatches = 713,972
+    number of insertions = 7,726
+    mapped reads with insertion percentage = 0.65%
+    number of deletions = 7,359
+    mapped reads with deletion percentage = 0.62%
+    homopolymer indels = 60.01%
+
+
+>>>>>>> Coverage
+
+     mean coverageData = 47.0529X
+     std coverageData = 29.2509X
+
+     There is a 99.86% of reference with a coverageData >= 1X
+     There is a 99.72% of reference with a coverageData >= 2X
+     There is a 99.57% of reference with a coverageData >= 3X
+     There is a 99.39% of reference with a coverageData >= 4X
+     There is a 99.17% of reference with a coverageData >= 5X
+     There is a 98.91% of reference with a coverageData >= 6X
+     There is a 98.6% of reference with a coverageData >= 7X
+     There is a 98.24% of reference with a coverageData >= 8X
+     There is a 97.87% of reference with a coverageData >= 9X
+     There is a 97.46% of reference with a coverageData >= 10X
+     There is a 97.02% of reference with a coverageData >= 11X
+     There is a 96.56% of reference with a coverageData >= 12X
+     There is a 96.08% of reference with a coverageData >= 13X
+     There is a 95.57% of reference with a coverageData >= 14X
+     There is a 95.03% of reference with a coverageData >= 15X
+     There is a 94.44% of reference with a coverageData >= 16X
+     There is a 93.8% of reference with a coverageData >= 17X
+     There is a 93.04% of reference with a coverageData >= 18X
+     There is a 92.23% of reference with a coverageData >= 19X
+     There is a 91.38% of reference with a coverageData >= 20X
+     There is a 90.53% of reference with a coverageData >= 21X
+     There is a 89.62% of reference with a coverageData >= 22X
+     There is a 88.66% of reference with a coverageData >= 23X
+     There is a 87.66% of reference with a coverageData >= 24X
+     There is a 86.62% of reference with a coverageData >= 25X
+     There is a 85.52% of reference with a coverageData >= 26X
+     There is a 84.37% of reference with a coverageData >= 27X
+     There is a 83.17% of reference with a coverageData >= 28X
+     There is a 81.93% of reference with a coverageData >= 29X
+     There is a 80.64% of reference with a coverageData >= 30X
+     There is a 79.27% of reference with a coverageData >= 31X
+     There is a 77.87% of reference with a coverageData >= 32X
+     There is a 76.41% of reference with a coverageData >= 33X
+     There is a 74.92% of reference with a coverageData >= 34X
+     There is a 73.39% of reference with a coverageData >= 35X
+     There is a 71.82% of reference with a coverageData >= 36X
+     There is a 70.18% of reference with a coverageData >= 37X
+     There is a 68.47% of reference with a coverageData >= 38X
+     There is a 66.72% of reference with a coverageData >= 39X
+     There is a 64.91% of reference with a coverageData >= 40X
+     There is a 63.1% of reference with a coverageData >= 41X
+     There is a 61.21% of reference with a coverageData >= 42X
+     There is a 59.28% of reference with a coverageData >= 43X
+     There is a 57.29% of reference with a coverageData >= 44X
+     There is a 55.31% of reference with a coverageData >= 45X
+     There is a 53.26% of reference with a coverageData >= 46X
+     There is a 51.22% of reference with a coverageData >= 47X
+     There is a 49.14% of reference with a coverageData >= 48X
+     There is a 47.04% of reference with a coverageData >= 49X
+     There is a 44.94% of reference with a coverageData >= 50X
+     There is a 42.82% of reference with a coverageData >= 51X
+
+
+>>>>>>> Coverage per contig
+
+	chrM	0	0	0.0	0.0
+	chr1	0	0	0.0	0.0
+	chr2	0	0	0.0	0.0
+	chr3	0	0	0.0	0.0
+	chr4	0	0	0.0	0.0
+	chr5	0	0	0.0	0.0
+	chr6	0	0	0.0	0.0
+	chr7	0	0	0.0	0.0
+	chr8	0	0	0.0	0.0
+	chr9	0	0	0.0	0.0
+	chr10	0	0	0.0	0.0
+	chr11	0	0	0.0	0.0
+	chr12	0	0	0.0	0.0
+	chr13	0	0	0.0	0.0
+	chr14	0	0	0.0	0.0
+	chr15	0	0	0.0	0.0
+	chr16	0	0	0.0	0.0
+	chr17	0	0	0.0	0.0
+	chr18	0	0	0.0	0.0
+	chr19	0	0	0.0	0.0
+	chr20	0	0	0.0	0.0
+	chr21	1678843	78994439	47.05290429182479	29.250855535217536
+	chr22	0	0	0.0	0.0
+	chrX	0	0	0.0	0.0
+	chrY	0	0	0.0	0.0
+	chr1_gl000191_random	0	0	0.0	0.0
+	chr1_gl000192_random	0	0	0.0	0.0
+	chr4_ctg9_hap1	0	0	0.0	0.0
+	chr4_gl000193_random	0	0	0.0	0.0
+	chr4_gl000194_random	0	0	0.0	0.0
+	chr6_apd_hap1	0	0	0.0	0.0
+	chr6_cox_hap2	0	0	0.0	0.0
+	chr6_dbb_hap3	0	0	0.0	0.0
+	chr6_mann_hap4	0	0	0.0	0.0
+	chr6_mcf_hap5	0	0	0.0	0.0
+	chr6_qbl_hap6	0	0	0.0	0.0
+	chr6_ssto_hap7	0	0	0.0	0.0
+	chr7_gl000195_random	0	0	0.0	0.0
+	chr8_gl000196_random	0	0	0.0	0.0
+	chr8_gl000197_random	0	0	0.0	0.0
+	chr9_gl000198_random	0	0	0.0	0.0
+	chr9_gl000199_random	0	0	0.0	0.0
+	chr9_gl000200_random	0	0	0.0	0.0
+	chr9_gl000201_random	0	0	0.0	0.0
+	chr11_gl000202_random	0	0	0.0	0.0
+	chr17_ctg5_hap1	0	0	0.0	0.0
+	chr17_gl000203_random	0	0	0.0	0.0
+	chr17_gl000204_random	0	0	0.0	0.0
+	chr17_gl000205_random	0	0	0.0	0.0
+	chr17_gl000206_random	0	0	0.0	0.0
+	chr18_gl000207_random	0	0	0.0	0.0
+	chr19_gl000208_random	0	0	0.0	0.0
+	chr19_gl000209_random	0	0	0.0	0.0
+	chr21_gl000210_random	0	0	0.0	0.0
+	chrUn_gl000211	0	0	0.0	0.0
+	chrUn_gl000212	0	0	0.0	0.0
+	chrUn_gl000213	0	0	0.0	0.0
+	chrUn_gl000214	0	0	0.0	0.0
+	chrUn_gl000215	0	0	0.0	0.0
+	chrUn_gl000216	0	0	0.0	0.0
+	chrUn_gl000217	0	0	0.0	0.0
+	chrUn_gl000218	0	0	0.0	0.0
+	chrUn_gl000219	0	0	0.0	0.0
+	chrUn_gl000220	0	0	0.0	0.0
+	chrUn_gl000221	0	0	0.0	0.0
+	chrUn_gl000222	0	0	0.0	0.0
+	chrUn_gl000223	0	0	0.0	0.0
+	chrUn_gl000224	0	0	0.0	0.0
+	chrUn_gl000225	0	0	0.0	0.0
+	chrUn_gl000226	0	0	0.0	0.0
+	chrUn_gl000227	0	0	0.0	0.0
+	chrUn_gl000228	0	0	0.0	0.0
+	chrUn_gl000229	0	0	0.0	0.0
+	chrUn_gl000230	0	0	0.0	0.0
+	chrUn_gl000231	0	0	0.0	0.0
+	chrUn_gl000232	0	0	0.0	0.0
+	chrUn_gl000233	0	0	0.0	0.0
+	chrUn_gl000234	0	0	0.0	0.0
+	chrUn_gl000235	0	0	0.0	0.0
+	chrUn_gl000236	0	0	0.0	0.0
+	chrUn_gl000237	0	0	0.0	0.0
+	chrUn_gl000238	0	0	0.0	0.0
+	chrUn_gl000239	0	0	0.0	0.0
+	chrUn_gl000240	0	0	0.0	0.0
+	chrUn_gl000241	0	0	0.0	0.0
+	chrUn_gl000242	0	0	0.0	0.0
+	chrUn_gl000243	0	0	0.0	0.0
+	chrUn_gl000244	0	0	0.0	0.0
+	chrUn_gl000245	0	0	0.0	0.0
+	chrUn_gl000246	0	0	0.0	0.0
+	chrUn_gl000247	0	0	0.0	0.0
+	chrUn_gl000248	0	0	0.0	0.0
+	chrUn_gl000249	0	0	0.0	0.0
+
+
