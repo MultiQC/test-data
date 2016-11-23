@@ -1,0 +1,23 @@
+Load BAM file ...  Done
+
+#==================================================
+#All numbers are READ count
+#==================================================
+
+Total records:                          29252316
+
+QC failed:                              0
+Optical/PCR duplicate:                  0
+Non primary hits                        7730290
+Unmapped reads:                         0
+mapq < mapq_cut (non-unique):           3564649
+
+mapq >= mapq_cut (unique):              17957377
+Read-1:                                 0
+Read-2:                                 0
+Reads map to '+':                       8571105
+Reads map to '-':                       9386272
+Non-splice reads:                       14710901
+Splice reads:                           3246476
+Reads mapped in proper pairs:           0
+Proper-paired reads map to different chrom:0
