@@ -1,0 +1,8 @@
+# slamdunk summary v0.2.2
+FileName	SampleName	SampleType	SampleTime	Sequenced	Mapped	Deduplicated	MQ-Filtered	Identity-Filtered	NM-Filtered	Multimap-Filtered	Retained	Counted	Annotation
+zero_timepoint_rep1_slamdunk_mapped_filtered.bam	0h_R1	0h	0	20995638	18686066	0	0	2728649	0	2957763	12999654	24408223	reference.bed
+zero_timepoint_rep2_slamdunk_mapped_filtered.bam	0h_R2	0h_R2	0	19610501	17543039	0	0	2929867	0	2952980	11660192	20604723	reference.bed
+zero_timepoint_rep3_slamdunk_mapped_filtered.bam	0h_R3	0h_R3	0	27568580	21774350	0	0	3615157	0	3702404	14456789	26926814	ensembl_refseq.bed
+day1_timepoint_rep1_slamdunk_mapped_filtered.bam	24h_R1	24h_R1	1440	20703961	18531409	0	0	4047007	0	2201288	12283114	17689978	ensembl_refseq.bed
+day1_timepoint_rep2_slamdunk_mapped_filtered.bam	24h_R2	24h_R2	1440	20359903	17754105	0	0	3732521	0	2580482	11441102	19684897	ensembl_refseq.bed
+day1_timepoint_rep3_slamdunk_mapped_filtered.bam	24h_R3	24h_R3	1440	23766872	21124786	0	0	3634553	0	3076876	14413357	25151783	ensembl_refseq.bed
