@@ -1,0 +1,4 @@
+sample_id,depth_outlier,het_count,het_ratio,iqr_baf,mean_depth,median_depth,p10,p90,ratio_outlier,sampled_sites,call_rate,PC1,PC2,PC3,PC4,ancestry-prediction,ancestry-prob
+FATHER,False,7782,0.4828,0.2005,71.68,49,0.3839,0.5844,True,15985,1,-0.1612,-1.21,0.3961,-0.4727,UNKNOWN,0.5885
+MOTHER,False,7773,0.4823,0.2094,69.01,48,0.3725,0.582,True,15987,1,-0.2783,-1.456,0.3748,-0.8206,EUR,0.9939
+PROBAND,False,7741,0.4803,0.1997,75.21,52,0.381,0.5806,True,16002,1,-0.2626,-1.408,0.5591,-0.8551,EUR,0.9927

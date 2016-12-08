@@ -1,0 +1,4 @@
+#family_id	sample_id	paternal_id	maternal_id	sex	phenotype	het_call_rate	het_ratio	het_mean_depth	het_iqr_baf	ancestry-prediction	PC1	PC2	PC3	sex_het_ratio
+FAMILY1	PROBAND	FATHER	MOTHER	1	2	1	0.4803	75.21	0.1997	EUR	-0.2626	-1.408	0.5591	0.2605
+FAMILY1	FATHER	0	0	1	1	1	0.4828	71.68	0.2005	UNKNOWN	-0.1612	-1.21	0.3961	0.2879
+FAMILY1	MOTHER	0	0	2	1	1	0.4823	69.01	0.2094	EUR	-0.2783	-1.456	0.3748	1.761
