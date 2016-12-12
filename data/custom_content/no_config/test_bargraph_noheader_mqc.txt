@@ -1,0 +1,4 @@
+Sample_1    374
+Sample_2    229
+Sample_3    39
+Sample_4    253

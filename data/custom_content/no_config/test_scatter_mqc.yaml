@@ -1,0 +1,18 @@
+id: 'my_data_type'
+title: 'Output from my script'
+description: 'This output is described in the file header. Any MultiQC installation will understand it without prior configuration.'
+section: 'Custom Data File'
+format: 'tsv'
+plot_type: 'scatter'
+pconfig:
+    id: 'custom_bargraph'
+    ylab: 'Number of things'
+data:
+    sample_1:
+        - 12
+        - 14
+    sample_2: [ 8, 6 ]
+    sample_3:
+        x: 5
+        y: 11
+    sample_4: { x: 9, y: 12 }

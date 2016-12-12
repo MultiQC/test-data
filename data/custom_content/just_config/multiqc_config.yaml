@@ -1,0 +1,21 @@
+custom_data:
+    my_data_type:
+        config:
+            id: 'my_data_type'
+            title: 'YAML data automatically parsed'
+            description: 'This data comes from a single multiqc_config.yaml file'
+            section: 'Custom Data File'
+            plot_type: 'scatter'
+            format: 'tsv'
+            pconfig: 
+                ylab: 'Number of things'
+                id: 'custom_bargraph'
+        data:
+            sample_a:
+                - 12
+                - 14
+            sample_b: [ 8, 6 ]
+            sample_c: 
+                y: 11
+                x: 5
+            sample_d: { y: 12, x: 9 }
