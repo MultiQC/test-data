@@ -1,4 +1,4 @@
-Sample_1    374
-Sample_2    229
-Sample_3    39
-Sample_4    253
+Category_1    39
+Category_2    374
+Category_3    253
+Category_4    162
