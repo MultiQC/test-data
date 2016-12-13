@@ -4,7 +4,7 @@
 # format: 'tsv'
 # plot_type: 'bargraph'
 # pconfig:
-#    id: 'custom_bargraph'
+#    id: 'custom_bargraph_w_header'
 #    ylab: 'Number of things'
 Sample_1    374
 Sample_2    229
