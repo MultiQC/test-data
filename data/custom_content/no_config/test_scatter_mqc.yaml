@@ -1,10 +1,10 @@
 id: 'custom_data_scatter'
-title: 'Output from my script'
 description: 'This plot is a self-contained YAML file.'
-section: 'Custom Data File'
+section_name: 'Custom Data File'
 plot_type: 'scatter'
 pconfig:
     id: 'custom_data_scatter_plot'
+    title: 'Output from my script'
     ylab: 'Number of things'
 data:
     sample_1:
