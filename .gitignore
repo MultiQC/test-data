@@ -5,3 +5,8 @@ multiqc_report.html
 multiqc_data
 multiqc_plots
 .DS_Store
+
+# Needed for unit-tests
+__pycache__/
+*.pyc
+
