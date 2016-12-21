@@ -1,0 +1,4 @@
+sample_a,sample_b,n,shared_hets,hets_a,ibs2,rel,hets_b,ibs0,pedigree_parents,pedigree_relatedness,predicted_parents,parent_error,sample_duplication_error,rel_difference
+FATHER,MOTHER,16118,2988,7782,5063,0.004628,7773,1476,False,0,False,False,False,-0.004628
+FATHER,PROBAND,16118,3813,7782,8206,0.4873,7741,15,True,0.5,True,False,False,0.01266
+MOTHER,PROBAND,16118,3920,7773,8430,0.5017,7741,14,True,0.5,True,False,False,-0.001677

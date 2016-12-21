@@ -1,0 +1,4 @@
+Category_1    39
+Category_2    374
+Category_3    253
+Category_4    162

@@ -1,0 +1,19 @@
+id: 'custom_data_scatter'
+description: 'This plot is a self-contained YAML file.'
+section_name: 'Custom Data File'
+plot_type: 'scatter'
+pconfig:
+    id: 'custom_data_scatter_plot'
+    title: 'Output from my script'
+    ylab: 'Number of things'
+data:
+    sample_1:
+        x: 12
+        y: 14
+    sample_2: {x: 8, y: 6 }
+    sample_3:
+        x: 5
+        y: 11
+    sample_4:
+        x: 9
+        y: 12

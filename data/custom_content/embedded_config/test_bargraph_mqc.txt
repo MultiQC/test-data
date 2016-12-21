@@ -1,0 +1,13 @@
+# id: custom_bargraph_tsv
+# section_name: 'TSV Custom Content'
+# description: 'This output is described in the file header. Any MultiQC installation will understand it without prior configuration.'
+# format: 'tsv'
+# plot_type: 'bargraph'
+# pconfig:
+#    id: 'custom_bargraph_w_header'
+#    title: Custom Content Bar Plot
+#    ylab: 'Number of things'
+Category_1	374
+Category_2	229
+Category_3	39
+Category_4	253

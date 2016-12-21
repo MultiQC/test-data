@@ -1,0 +1,4 @@
+error,het_count,het_ratio,hom_alt_count,hom_ref_count,ped_sex,predicted_sex,sample_id
+False,441,0.2879,1532,1329,male,male,FATHER
+False,2030,1.761,1153,971,female,female,MOTHER
+False,423,0.2605,1624,1310,male,male,PROBAND
