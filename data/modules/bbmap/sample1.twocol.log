@@ -1,0 +1,41 @@
+java -Djava.library.path=/software/bbmap-36.02/jni/ -ea -Xmx73525m -cp /software/bbmap-36.02/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 ref=sample1.fasta.gz jni pigz unpigz threads=32 in=sample1.R#.fq.gz out=sample1.bam twocolumn=t covstats=sample1.twocol.covstats rpkm=sample1.twocol.rpkm covhist=sample1.twocol.covhist bincov=sample1.twocol.bincov statsfile=sample1.twocol.statsfile idhist=sample1.twocol.idhist gchist=sample1.twocol.gchist mhist=sample1.twocol.mhist indelhist=sample1.twocol.indelhist qahist=sample1.twocol.qahist ehist=sample1.twocol.ehist ihist=sample1.twocol.ihist lhist=sample1.twocol.lhist bqhist=sample1.twocol.bqhist aqhist=sample1.twocol.aqhist qhist=sample1.twocol.qhist bhist=sample1.twocol.bhist
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, ref=sample1.fasta.gz, jni, pigz, unpigz, threads=32, in=sample1.R#.fq.gz, out=sample1.bam, twocolumn=t, covstats=sample1.twocol.covstats, rpkm=sample1.twocol.rpkm, covhist=sample1.twocol.covhist, bincov=sample1.twocol.bincov, statsfile=sample1.twocol.statsfile, idhist=sample1.twocol.idhist, gchist=sample1.twocol.gchist, mhist=sample1.twocol.mhist, indelhist=sample1.twocol.indelhist, qahist=sample1.twocol.qahist, ehist=sample1.twocol.ehist, ihist=sample1.twocol.ihist, lhist=sample1.twocol.lhist, bqhist=sample1.twocol.bqhist, aqhist=sample1.twocol.aqhist, qhist=sample1.twocol.qhist, bhist=sample1.twocol.bhist]
+
+BBMap version 36.02
+Set threads to 32
+Set identity histogram output to sample1.twocol.idhist
+Set GC histogram output to sample1.twocol.gchist
+Set match histogram output to sample1.twocol.mhist
+Set indel histogram output to sample1.twocol.indelhist
+Set quality accuracy histogram output to sample1.twocol.qahist
+Set error histogram output to sample1.twocol.ehist
+Set insert size histogram output to sample1.twocol.ihist
+Set length histogram output to sample1.twocol.lhist
+Set bquality histogram output to sample1.twocol.bqhist
+Set average quality histogram output to sample1.twocol.aqhist
+Set quality histogram output to sample1.twocol.qhist
+Set base content histogram output to sample1.twocol.bhist
+Retaining first best site only for ambiguous mappings.
+NOTE:	Ignoring reference file because it already appears to have been processed.
+NOTE:	If you wish to regenerate the index, please manually delete ref/genome/1/summary.txt
+Set genome to 1
+
+Loaded Reference:	0.187 seconds.
+Loading index for chunk 1-1, build 1
+Generated Index:	1.510 seconds.
+Executing jgi.CoveragePileup [covhist=sample1.twocol.covhist, covstats=sample1.twocol.covstats, basecov=null, bincov=sample1.twocol.bincov, physcov=false, 32bit=false, nzo=false, twocolumn=true, secondary=false, covminscaf=0, ksb=true, binsize=1000, startcov=false, strandedcov=false, rpkm=sample1.twocol.rpkm, normcov=null, normcovo=null, in1=sample1.R1.fq.gz, in2=sample1.R2.fq.gz]
+
+Set NONZERO_ONLY to false
+Set TWOCOLUMN to true
+Set USE_SECONDARY_ALIGNMENTS to false
+Set KEEP_SHORT_BINS to true
+Set USE_COVERAGE_ARRAYS to true
+Set USE_BITSETS to false
+Analyzed Index:   	3.626 seconds.
+Found samtools.
+Started output stream:	0.145 seconds.
+Cleared Memory:    	1.640 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 32 mapping threads.
+Exception in thread "Thread-4" 
