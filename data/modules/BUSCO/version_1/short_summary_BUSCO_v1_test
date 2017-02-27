@@ -1,0 +1,12 @@
+#Summarized BUSCO benchmarking for file: BUSCO_v1_test.scf.fasta
+#BUSCO was run in mode: genome
+
+Summarized benchmarks in BUSCO notation:
+	C:90%[D:7.2%],F:3.0%,M:6.5%,n:429
+
+	388	Complete BUSCOs
+	357	Complete and single-copy BUSCOs
+	31	Complete and duplicated BUSCOs
+	13	Fragmented BUSCOs
+	28	Missing BUSCOs
+	429	Total BUSCO groups searched
