@@ -1,0 +1,15 @@
+# BUSCO version is: 2.0 
+# The lineage dataset is: ascomycota_odb9 (Creation date: 2017-01-26, number of species: 75, number of BUSCOs: 1315)
+# To reproduce this run: python /share/easybuild/RHEL6.3/westmere/software/BUSCO/2.0-gimkl-2017a/BUSCO.py -i /projects/uoa00371/spadesf1_v21/contigs/ref_contigs/A_nidulans.fasta -o A_nidulans.fasta_asco_v053 -l /projects/uoa00371/spadesf1_v21/contigs/busco_lineages/ascomycota_odb9/ -m genome -c 1 -sp aspergillus_nidulans
+#
+# Summarized benchmarking in BUSCO notation for file /projects/uoa00371/spadesf1_v21/contigs/ref_contigs/A_nidulans.fasta
+# BUSCO was run in mode: genome
+
+	C:98.7%[S:98.5%,D:0.2%],F:0.3%,M:1.0%,n:1315
+
+	1297	Complete BUSCOs (C)
+	1295	Complete and single-copy BUSCOs (S)
+	2	Complete and duplicated BUSCOs (D)
+	4	Fragmented BUSCOs (F)
+	14	Missing BUSCOs (M)
+	1315	Total BUSCO groups searched
