@@ -1,0 +1,183 @@
+<html>
+<head><title>RNA-seq Metrics</title>
+<style type="text/css">
+table {
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: rgb(209, 255, 255);
+}
+table th {
+	border-width: 2px;
+	padding: 2px;
+	border-style: solid;
+	border-color: gray;
+	background-color: rgb(209, 255, 255);
+}
+table td {
+	border-width: 2px;
+	padding: 2px;
+	border-style: solid;
+	border-color: gray;
+	background-color: white;
+}
+</style>
+</head>
+<body>
+<h1>RNA-seq Metrics</h1>
+<h2>Read Count Metrics</h1>
+<p>
+ The following summary statistics are calculated by counting the number of reads that have the given characteristics.
+</p>
+
+<h3>Total Reads</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Total Purity Filtered Reads Sequenced</th><th>Alternative Aligments</th><th>Failed Vendor QC Check</th><th>Read Length</th><th>Estimated Library Size</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>28,252,524</td><td align='right'>2,669,592</td><td align='right'>NA</td><td align='right'>100</td><td align='right'>29,688,823</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>26,651,060</td><td align='right'>1,951,832</td><td align='right'>NA</td><td align='right'>100</td><td align='right'>38,116,968</td></tr>
+</table>
+
+<p><b>Total Purity Filtered Reads Sequenced</b> are filtered for vendor fail flags and exclude alternative alignment reads. <b>Alternative Aligments</b> are duplicate read entries providing alternative coordinates. <b>Failed Vendor QC Check</b> are reads which have been designated as failed by the sequencer. <b>Read Length</b> is the maximum length found for all reads. <b>Estimated Library Size</b> is the number of expected fragments based upon the total number of reads and duplication rate assuming a Poisson distribution.</p>
+
+<h3>Mapped Reads</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Mapped</th><th>Mapping Rate</th><th>Mapped Unique</th><th>Mapped Unique Rate of Total</th><th>Unique Rate of Mapped</th><th>Duplication Rate of Mapped</th><th>Base Mismatch Rate</th><th>rRNA</th><th>rRNA rate</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>28,252,524</td><td align='right'>1.000</td><td align='right'>22,481,502</td><td align='right'>0.796</td><td align='right'>0.796</td><td align='right'>0.204</td><td align='right'>0.005</td><td align='right'>NA</td><td align='right'>NA</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>26,651,060</td><td align='right'>1.000</td><td align='right'>22,491,068</td><td align='right'>0.844</td><td align='right'>0.844</td><td align='right'>0.156</td><td align='right'>0.005</td><td align='right'>NA</td><td align='right'>NA</td></tr>
+</table>
+
+<p><b>Mapped</b> reads are those that were aligned. <b>Mapping Rate</b> is per total reads. <b>Mapped Unique</b> are both aligned as well as non-duplicate reads. <b>Mapped Unique Rate of Total</b> is per total reads. <b>Unique Rate of Mapped</b> are unique reads divided by all mapped reads. <b>Duplication Rate of Mapped</b> is the duplicate read divided by total mapped reads.  <b>Base Mismatch Rate</b> is the number of bases not matching the reference divided by the total number of aligned bases. <b>rRNA</b> reads are non-duplicate and duplicate reads aligning to rRNA regions as defined in the transcript model definition. <b>rRNA Rate</b> is per total reads. </p>
+
+<h3>Mate Pairs</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Mapped Pairs</th><th>Unpaired Reads</th><th>End 1 Mapping Rate</th><th>End 2 Mapping Rate</th><th>End 1 Mismatch Rate</th><th>End 2 Mismatch Rate</th><th>Fragment Length Mean</th><th>Fragment Length StdDev</th><th>Chimeric Pairs</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>14,122,463</td><td align='right'>NA</td><td align='right'>1.000</td><td align='right'>1.000</td><td align='right'>0.004</td><td align='right'>0.006</td><td align='right'>114</td><td align='right'>77</td><td align='right'>NA</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>13,322,002</td><td align='right'>NA</td><td align='right'>1.000</td><td align='right'>1.000</td><td align='right'>0.005</td><td align='right'>0.006</td><td align='right'>118</td><td align='right'>80</td><td align='right'>NA</td></tr>
+</table>
+
+<p><b>Mapped Pairs</b> is the total number of pairs for which both ends map. <b>Unpaired Reads</b> are the number of reads that are lacking a mate. <b>End 1/2 Mapping Rate</b> is the number of mapped divided by the total number of End1/End2 reads. <b>End 1/2 Mismatch Rate</b> is the number of End 1 and 2 bases not matching the reference divided by the total number of mapped End 1 and 2 bases. <b>Fragment Length Mean/StdDev</b> is the mean distance, standard deviation between the start of an upstream read and the end of the downstream one. Only fragments contained within single exons are used. <b>Chimeric Pairs</b> are pairs whose mates map to different genes. </p>
+
+<h3>Transcript-associated Reads</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Intragenic Rate</th><th>Exonic Rate</th><th>Intronic Rate</th><th>Intergenic Rate</th><th>Split Reads</th><th>Expression Profiling Efficiency</th><th>Transcripts Detected</th><th>Genes Detected</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>0.880</td><td align='right'>0.696</td><td align='right'>0.184</td><td align='right'>0.120</td><td align='right'>6,127,524</td><td align='right'>0.696</td><td align='right'>25,572</td><td align='right'>13,071</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>0.838</td><td align='right'>0.567</td><td align='right'>0.271</td><td align='right'>0.162</td><td align='right'>4,414,612</td><td align='right'>0.567</td><td align='right'>24,711</td><td align='right'>12,693</td></tr>
+</table>
+
+<p>All of the above rates are per mapped read. <b>Intragenic Rate</b> refers to the fraction of reads  that map within genes (within introns or exons). <b>Exonic Rate</b> is the fraction mapping within exons. <b>Intronic Rate</b> is the fraction mapping within introns. <b>Intergenic Rate</b> is the fraction mapping in the genomic space between genes. <b>Split Reads</b> is the number of reads spanning an exon exon junction.  <b>Expression Profile Efficiency</b> is the ratio of exon reads to total reads. <b>Transcripts/Genes Detected </b> is the number of transcripts/Genes with at least 5 reads. </p>
+
+<h3>Strand Specificity</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>End 1 Sense</th><th>End 1 Antisense</th><th>End 2 Sense</th><th>End 2 Antisense</th><th>End 1 % Sense</th><th>End 2 % Sense</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>4,893,439</td><td align='right'>7,271,985</td><td align='right'>7,274,790</td><td align='right'>4,887,434</td><td align='right'>40.224</td><td align='right'>59.815</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>4,428,979</td><td align='right'>6,483,832</td><td align='right'>6,489,799</td><td align='right'>4,419,766</td><td align='right'>40.585</td><td align='right'>59.487</td></tr>
+</table>
+
+<p><b>End 1/2 Sense</b> are the number of End 1 or 2 reads that were sequenced in the sense direction. Similarly, <b>End 1/2 Antisense</b> are the number of End 1 or 2 reads that were sequenced in the antisense direction.<b>End 1/2 Sense %</b> are percentages of intragenic End 1/2 reads that were sequenced in the sense direction. </p>
+
+
+<HR WIDTH="100%" COLOR="#9090900"  SIZE="3">
+
+<h2>Correlation Analysis</h2>
+
+<h3>Spearman Correlation Matrix</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>WTCHG_171117_262</th><th>WTCHG_171117_264</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>1.000</td><td align='right'>0.942</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>0.942</td><td align='right'>1.000</td></tr>
+</table>
+
+<h3>Pearson Correlation Matrix</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>WTCHG_171117_262</th><th>WTCHG_171117_264</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>1.000</td><td align='right'>0.945</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>0.945</td><td align='right'>1.000</td></tr>
+</table>
+
+<HR WIDTH="100%" COLOR="#9090900" SIZE="3">
+<h2>Coverage Metrics for Bottom 1000 Expressed Transcripts</h1>
+<p>
+ The metrics in this table are calculated across the transcripts that were determined to have the highest expression levels. <table border=1><tr><th>Sample</th><th>Note</th><th>Mean Per Base Cov.</th><th>Mean CV</th><th>No. Covered 5'</th><th>5'200Base Norm</th><th>No. Covered 3'</th><th>3' 200Base Norm</th><th>Num. Gaps</th><th>Cumul. Gap Length</th><th>Gap %</th></tr>
+<tr><td><a href='WTCHG_171117_262/lowexpr/index.html'>WTCHG_171117_262</a></td><td>NA</td><td align='right'>4.52</td><td align='right'>1.03</td><td align='right'>476</td><td align='right'>0.34</td><td align='right'>599</td><td align='right'>0.208</td><td align='right'>5811</td><td align='right'>819358</td><td align='right'>20.1</td></tr>
+<tr><td><a href='WTCHG_171117_264/lowexpr/index.html'>WTCHG_171117_264</a></td><td>NA</td><td align='right'>3.44</td><td align='right'>1.11</td><td align='right'>383</td><td align='right'>0.29</td><td align='right'>602</td><td align='right'>0.287</td><td align='right'>6399</td><td align='right'>1139265</td><td align='right'>28.4</td></tr>
+</table>
+<p>
+It is important to note that these values are restricted to the bottom 1000 expressed transcripts.  <b>5'</b> and <b>3'</b> values are per-base coverage averaged across all top transcripts.   5' and 3' ends are 200 base pairs.  Gap % is the total cumulative gap length divided by the total cumulative transcript lengths.
+</p>
+<h2>Coverage Metrics for Middle 1000 Expressed Transcripts</h1>
+<p>
+ The metrics in this table are calculated across the transcripts that were determined to have the highest expression levels. <table border=1><tr><th>Sample</th><th>Note</th><th>Mean Per Base Cov.</th><th>Mean CV</th><th>No. Covered 5'</th><th>5'200Base Norm</th><th>No. Covered 3'</th><th>3' 200Base Norm</th><th>Num. Gaps</th><th>Cumul. Gap Length</th><th>Gap %</th></tr>
+<tr><td><a href='WTCHG_171117_262/medexpr/index.html'>WTCHG_171117_262</a></td><td>NA</td><td align='right'>20.82</td><td align='right'>0.80</td><td align='right'>669</td><td align='right'>0.22</td><td align='right'>804</td><td align='right'>0.106</td><td align='right'>2037</td><td align='right'>238497</td><td align='right'>7.0</td></tr>
+<tr><td><a href='WTCHG_171117_264/medexpr/index.html'>WTCHG_171117_264</a></td><td>NA</td><td align='right'>18.55</td><td align='right'>0.80</td><td align='right'>674</td><td align='right'>0.16</td><td align='right'>848</td><td align='right'>0.182</td><td align='right'>2105</td><td align='right'>271061</td><td align='right'>7.6</td></tr>
+</table>
+<p>
+It is important to note that these values are restricted to the middle 1000 expressed transcripts.  <b>5'</b> and <b>3'</b> values are per-base coverage averaged across all top transcripts.   5' and 3' ends are 200 base pairs.  Gap % is the total cumulative gap length divided by the total cumulative transcript lengths.
+</p>
+<h2>Coverage Metrics for Top 1000 Expressed Transcripts</h1>
+<p>
+ The metrics in this table are calculated across the transcripts that were determined to have the highest expression levels. <table border=1><tr><th>Sample</th><th>Note</th><th>Mean Per Base Cov.</th><th>Mean CV</th><th>No. Covered 5'</th><th>5'200Base Norm</th><th>No. Covered 3'</th><th>3' 200Base Norm</th><th>Num. Gaps</th><th>Cumul. Gap Length</th><th>Gap %</th></tr>
+<tr><td><a href='WTCHG_171117_262/highexpr/index.html'>WTCHG_171117_262</a></td><td>NA</td><td align='right'>1196.58</td><td align='right'>0.67</td><td align='right'>906</td><td align='right'>0.14</td><td align='right'>944</td><td align='right'>0.039</td><td align='right'>529</td><td align='right'>43231</td><td align='right'>3.1</td></tr>
+<tr><td><a href='WTCHG_171117_264/highexpr/index.html'>WTCHG_171117_264</a></td><td>NA</td><td align='right'>818.93</td><td align='right'>0.68</td><td align='right'>899</td><td align='right'>0.14</td><td align='right'>946</td><td align='right'>0.054</td><td align='right'>595</td><td align='right'>52502</td><td align='right'>3.8</td></tr>
+</table>
+<p>
+It is important to note that these values are restricted to the top 1000 expressed transcripts.  <b>5'</b> and <b>3'</b> values are per-base coverage averaged across all top transcripts.   5' and 3' ends are 200 base pairs.  Gap % is the total cumulative gap length divided by the total cumulative transcript lengths.
+</p>
+
+<HR WIDTH="100%" COLOR="#9090900" SIZE="3">
+<h3>Mean Coverage</h3>
+<p><h4>Low Expressed</h4>
+<img src= 'meanCoverageNorm_low.png'><h4>Medium Expressed</h4>
+<img src= 'meanCoverageNorm_medium.png'><h4>High Expressed</h4>
+<img src= 'meanCoverageNorm_high.png'></p>
+<h3>Mean Coverage from 3' End</h3>
+<p><h4>Low Expressed</h4>
+<img src= 'meanCoverage_low.png'><h4>Medium Expressed</h4>
+<img src= 'meanCoverage_medium.png'><h4>High Expressed</h4>
+<img src= 'meanCoverage_high.png'></p>
+
+<HR WIDTH="100%" COLOR="#9090900" SIZE="3">
+
+<HR WIDTH="100%" COLOR="#9090900" SIZE="3">
+<p>
+<h2>Files</h2>
+<table><tr><th>File</th><th>Description</th></tr>
+<tr><td><a target='_new' href='metrics.tsv'>Metrics Tab Separated Value File</a></td><td>Text file containing all the metrics of the report in a single tab delimited file.</td></tr>
+<tr><td><a target='_new' href='meanCoverageNorm_low.txt'>Mean Coverage Plot Data - Low Expr</a></td><td>Text file containing the data for mean coverage plot by position for low expression coverage</td></tr>
+<tr><td><a target='_new' href='meanCoverageNorm_medium.txt'>Mean Coverage Plot Data - Medium Expr</a></td><td>Text file containing the data for mean coverage plot by position for medium expression coverage</td></tr>
+<tr><td><a target='_new' href='meanCoverageNorm_high.txt'>Mean Coverage Plot Data - High Expr</a></td><td>Text file containing the data for mean coverage plot by position for high expression coverage</td></tr>
+<tr><td><a target='_new' href='meanCoverage_low.txt'>Mean Coverage Plot Data - Low Expr</a></td><td>Text file containing the data for mean coverage plot by distance from 3' end for low expression coverage</td></tr>
+<tr><td><a target='_new' href='meanCoverage_medium.txt'>Mean Coverage Plot Data - Medium Expr</a></td><td>Text file containing the data for mean coverage plot by distance from 3' end for medium expression coverage</td></tr>
+<tr><td><a target='_new' href='meanCoverage_high.txt'>Mean Coverage Plot Data - High Expr</a></td><td>Text file containing the data for mean coverage plot by distance from 3' end for high expression coverage</td></tr>
+<tr><td><a target='_new' href='gapLengthHist_low.txt'>Mean Coverage Plot Data - Low Expr</a></td><td>Text file containing the data for gap length counts for low expression coverage</td></tr>
+<tr><td><a target='_new' href='gapLengthHist_medium.txt'>Mean Coverage Plot Data - Medium Expr</a></td><td>Text file containing the data for gap length counts for medium expression coverage</td></tr>
+<tr><td><a target='_new' href='gapLengthHist_high.txt'>Mean Coverage Plot Data - High Expr</a></td><td>Text file containing the data for gap length counts for high expression coverage</td></tr>
+
+</table>
+</p>
+
+<HR WIDTH="100%" COLOR="#9090900" SIZE="3">
+<p>
+<h2>Summary of Runtime Parameters</h2>
+<table><tr><th>Option</th><th>Description</th><th>Value</th></tr>
+<tr><td>Samples</td><td>Samples/Sample File used</td><td>samplefile_rnaseqc_temp.txt</td></tr>
+<tr><td>Transcript Model</td><td>GTF formatted file containing the transcript definitions</td><td>genes.gtf</td></tr>
+<tr><td>Reference Genome</td><td>The genome version to which the BAM is aligned</td><td>genome.fa</td></tr>
+<tr><td>Downsampling</td><td>For Coverage Metrics, the number of reads is randomly reduced to the given level</td><td>none</td></tr>
+<tr><td>Detailed Report</td><td>The optional detailed report contains coverage metrics for every transcript</td><td>no details</td></tr>
+<tr><td>rRNA Intervals</td><td>Genomic coordinates of rRNA loci</td><td>rRNA_intervals.list</td></tr>
+
+</table>
+</p>
+<h5>Generated by <a target='_newWebPage' href='http://www.broadinstitute.org/rna-seqc'>RNA-SeQC</a> v1.1.8.1 07/11/14</h5>
+<h5>Run on Mon Feb 27 18:24:44 GMT 2017</h5>
+</body>
+</html>

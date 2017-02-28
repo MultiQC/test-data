@@ -1,0 +1,50 @@
+
+<h3>Total Reads</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Total Purity Filtered Reads Sequenced</th><th>Alternative Aligments</th><th>Failed Vendor QC Check</th><th>Read Length</th><th>Estimated Library Size</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>28,252,524</td><td align='right'>2,669,592</td><td align='right'>NA</td><td align='right'>100</td><td align='right'>29,688,823</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>26,651,060</td><td align='right'>1,951,832</td><td align='right'>NA</td><td align='right'>100</td><td align='right'>38,116,968</td></tr>
+</table>
+
+<p><b>Total Purity Filtered Reads Sequenced</b> are filtered for vendor fail flags and exclude alternative alignment reads. <b>Alternative Aligments</b> are duplicate read entries providing alternative coordinates. <b>Failed Vendor QC Check</b> are reads which have been designated as failed by the sequencer. <b>Read Length</b> is the maximum length found for all reads. <b>Estimated Library Size</b> is the number of expected fragments based upon the total number of reads and duplication rate assuming a Poisson distribution.</p>
+
+<h3>Mapped Reads</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Mapped</th><th>Mapping Rate</th><th>Mapped Unique</th><th>Mapped Unique Rate of Total</th><th>Unique Rate of Mapped</th><th>Duplication Rate of Mapped</th><th>Base Mismatch Rate</th><th>rRNA</th><th>rRNA rate</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>28,252,524</td><td align='right'>1.000</td><td align='right'>22,481,502</td><td align='right'>0.796</td><td align='right'>0.796</td><td align='right'>0.204</td><td align='right'>0.005</td><td align='right'>NA</td><td align='right'>NA</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>26,651,060</td><td align='right'>1.000</td><td align='right'>22,491,068</td><td align='right'>0.844</td><td align='right'>0.844</td><td align='right'>0.156</td><td align='right'>0.005</td><td align='right'>NA</td><td align='right'>NA</td></tr>
+</table>
+
+<p><b>Mapped</b> reads are those that were aligned. <b>Mapping Rate</b> is per total reads. <b>Mapped Unique</b> are both aligned as well as non-duplicate reads. <b>Mapped Unique Rate of Total</b> is per total reads. <b>Unique Rate of Mapped</b> are unique reads divided by all mapped reads. <b>Duplication Rate of Mapped</b> is the duplicate read divided by total mapped reads.  <b>Base Mismatch Rate</b> is the number of bases not matching the reference divided by the total number of aligned bases. <b>rRNA</b> reads are non-duplicate and duplicate reads aligning to rRNA regions as defined in the transcript model definition. <b>rRNA Rate</b> is per total reads. </p>
+
+<h3>Mate Pairs</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Mapped Pairs</th><th>Unpaired Reads</th><th>End 1 Mapping Rate</th><th>End 2 Mapping Rate</th><th>End 1 Mismatch Rate</th><th>End 2 Mismatch Rate</th><th>Fragment Length Mean</th><th>Fragment Length StdDev</th><th>Chimeric Pairs</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>14,122,463</td><td align='right'>NA</td><td align='right'>1.000</td><td align='right'>1.000</td><td align='right'>0.004</td><td align='right'>0.006</td><td align='right'>114</td><td align='right'>77</td><td align='right'>NA</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>13,322,002</td><td align='right'>NA</td><td align='right'>1.000</td><td align='right'>1.000</td><td align='right'>0.005</td><td align='right'>0.006</td><td align='right'>118</td><td align='right'>80</td><td align='right'>NA</td></tr>
+</table>
+
+<p><b>Mapped Pairs</b> is the total number of pairs for which both ends map. <b>Unpaired Reads</b> are the number of reads that are lacking a mate. <b>End 1/2 Mapping Rate</b> is the number of mapped divided by the total number of End1/End2 reads. <b>End 1/2 Mismatch Rate</b> is the number of End 1 and 2 bases not matching the reference divided by the total number of mapped End 1 and 2 bases. <b>Fragment Length Mean/StdDev</b> is the mean distance, standard deviation between the start of an upstream read and the end of the downstream one. Only fragments contained within single exons are used. <b>Chimeric Pairs</b> are pairs whose mates map to different genes. </p>
+
+<h3>Transcript-associated Reads</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Intragenic Rate</th><th>Exonic Rate</th><th>Intronic Rate</th><th>Intergenic Rate</th><th>Split Reads</th><th>Expression Profiling Efficiency</th><th>Transcripts Detected</th><th>Genes Detected</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>0.880</td><td align='right'>0.696</td><td align='right'>0.184</td><td align='right'>0.120</td><td align='right'>6,127,524</td><td align='right'>0.696</td><td align='right'>25,572</td><td align='right'>13,071</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>0.838</td><td align='right'>0.567</td><td align='right'>0.271</td><td align='right'>0.162</td><td align='right'>4,414,612</td><td align='right'>0.567</td><td align='right'>24,711</td><td align='right'>12,693</td></tr>
+</table>
+
+<p>All of the above rates are per mapped read. <b>Intragenic Rate</b> refers to the fraction of reads  that map within genes (within introns or exons). <b>Exonic Rate</b> is the fraction mapping within exons. <b>Intronic Rate</b> is the fraction mapping within introns. <b>Intergenic Rate</b> is the fraction mapping in the genomic space between genes. <b>Split Reads</b> is the number of reads spanning an exon exon junction.  <b>Expression Profile Efficiency</b> is the ratio of exon reads to total reads. <b>Transcripts/Genes Detected </b> is the number of transcripts/Genes with at least 5 reads. </p>
+
+<h3>Strand Specificity</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>End 1 Sense</th><th>End 1 Antisense</th><th>End 2 Sense</th><th>End 2 Antisense</th><th>End 1 % Sense</th><th>End 2 % Sense</th>
+</tr>
+<tr><td>WTCHG_171117_262</td><td>NA</td><td align='right'>4,893,439</td><td align='right'>7,271,985</td><td align='right'>7,274,790</td><td align='right'>4,887,434</td><td align='right'>40.224</td><td align='right'>59.815</td></tr>
+<tr><td>WTCHG_171117_264</td><td>NA</td><td align='right'>4,428,979</td><td align='right'>6,483,832</td><td align='right'>6,489,799</td><td align='right'>4,419,766</td><td align='right'>40.585</td><td align='right'>59.487</td></tr>
+</table>
+
+<p><b>End 1/2 Sense</b> are the number of End 1 or 2 reads that were sequenced in the sense direction. Similarly, <b>End 1/2 Antisense</b> are the number of End 1 or 2 reads that were sequenced in the antisense direction.<b>End 1/2 Sense %</b> are percentages of intragenic End 1/2 reads that were sequenced in the sense direction. </p>

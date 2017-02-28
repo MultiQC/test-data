@@ -1,0 +1,1 @@
+Transcript Id	Gene Name	Read Location	Mate Location	Same Chromosome
