@@ -1,0 +1,70 @@
+Output from SLURM when submitting Cluster Flow jobs:
+====================================================
+
+Submitted batch job 9959927
+Submitted batch job 9959928
+Submitted batch job 9959929
+Submitted batch job 9959930
+Submitted batch job 9959931
+
+
+Total number of Cluster Flow jobs submitted: 5
+
+
+
+
+
+Cluster Flow job submission commands:
+=====================================
+
+sbatch -p core -n 1 --mem 3G --open-mode=append -o ERR458837_1.fastq.gz_fastq_star_clusterFlow.txt -J cf_fastq_star_1488587188_fastqc_010  --mail-user=phil.ewels@scilifelab.se --mail-type=FAIL  -A b2013064 -t 13:20:00 --wrap="/pica/h1/phil/cf/modules/fastqc.cfmod.pl --run_fn ERR458837_1.fastq.gz_fastq_star.run --job_id cf_fastq_star_1488587188_fastqc_010 --prev_job_id start_000 --cores 1 --mem 3G  2>&1 | sed s/^/###CF_cf_fastq_star_1488587188_fastqc_010:/"
+
+sbatch -p core -n 3 --mem 3G --open-mode=append -o ERR458837_1.fastq.gz_fastq_star_clusterFlow.txt -J cf_fastq_star_1488587188_trim_galore_277  --mail-user=phil.ewels@scilifelab.se --mail-type=FAIL  -A b2013064 -t 3-8:00 --wrap="/pica/h1/phil/cf/modules/trim_galore.cfmod.pl --run_fn ERR458837_1.fastq.gz_fastq_star.run --job_id cf_fastq_star_1488587188_trim_galore_277 --prev_job_id start_000 --cores 3 --mem 3G  2>&1 | sed s/^/###CF_cf_fastq_star_1488587188_trim_galore_277:/"
+
+sbatch -p core -n 8 --mem 60G --open-mode=append -o ERR458837_1.fastq.gz_fastq_star_clusterFlow.txt -J cf_fastq_star_1488587188_star_618  --mail-user=phil.ewels@scilifelab.se --mail-type=FAIL  -A b2013064 -t 2-2:00 --wrap="/pica/h1/phil/cf/modules/star.cfmod.pl --run_fn ERR458837_1.fastq.gz_fastq_star.run --job_id cf_fastq_star_1488587188_star_618 --prev_job_id cf_fastq_star_1488587188_trim_galore_277 --cores 8 --mem 60G  2>&1 | sed s/^/###CF_cf_fastq_star_1488587188_star_618:/" --dependency=afterany:9959928
+
+sbatch -p core -n 1 --mem 4G --open-mode=append -o ERR458837_1.fastq.gz_fastq_star_clusterFlow.txt -J cf_fastq_star_1488587188_email_run_complete_596  --mail-user=phil.ewels@scilifelab.se --mail-type=FAIL  -A b2013064 -t 12:00 --wrap="/pica/h1/phil/cf/modules/cf_run_finished.cfmod.pl --run_fn ERR458837_1.fastq.gz_fastq_star.run --job_id cf_fastq_star_1488587188_email_run_complete_596 --prev_job_id null --cores 1 --mem 4G --param hide_log_header=true --param outfn=ERR458837_1.fastq.gz_fastq_star_clusterFlow.txt" --dependency=afterany:9959927:9959928:9959929
+
+sbatch -p core -n 1 --mem 4G --open-mode=append -o ERR458837_1.fastq.gz_fastq_star_clusterFlow.txt -J cf_fastq_star_1488587188_email_pipeline_complete_113  --mail-user=phil.ewels@scilifelab.se --mail-type=FAIL  -A b2013064 -t 12:00 --wrap="/pica/h1/phil/cf/modules/cf_runs_all_finished.cfmod.pl --run_fn ERR458837_1.fastq.gz_fastq_star.run --job_id cf_fastq_star_1488587188_email_pipeline_complete_113 --prev_job_id cf_fastq_star_1488587188_email_run_complete_596 --cores 1 --mem 4G --param summary_module=true --param hide_log_header=true --param outfn_0=ERR458837_1.fastq.gz_fastq_star_clusterFlow.txt" --dependency=afterany:9959930
+
+
+
+
+Current Environment Information:
+================================
+
+== Environment Modules Loaded ==
+Currently Loaded Modulefiles:
+  1) bioinfo-tools      4) cutadapt/1.9.1     7) samtools/0.1.19
+  2) FastQC/0.11.5      5) TrimGalore/0.4.1
+  3) python/2.7.6       6) star/2.5.1b
+
+== Current PATH ==
+/sw/apps/bioinfo/samtools/0.1.19/milou/bin
+/sw/apps/bioinfo/TrimGalore/0.4.1/milou
+/sw/apps/bioinfo/cutadapt/1.9.1/milou/bin
+/sw/comp/python/2.7.6_milou_new/bin
+/sw/apps/bioinfo/fastqc/0.11.5/milou
+/sw/apps/bioinfo/star/2.5.1b/milou/bin
+/home/phil/bin
+/home/phil/miniconda2/envs/work/bin
+/home/phil/miniconda2/bin
+/home/phil/opt/perl_packages/bin
+/home/phil/cf
+/usr/lib64/qt-3.3/bin
+/usr/local/bin
+/bin
+/usr/bin
+/usr/local/sbin
+/usr/sbin
+/sbin
+/opt/thinlinc/bin
+/sw/uppmax/bin
+
+== Logged-in User ==
+phil
+
+== System Information ==
+Linux milou1.uppmax.uu.se 2.6.32-642.15.1.el6.x86_64 #1 SMP Thu Feb 23 11:19:57 CST 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+

@@ -1,0 +1,468 @@
+
+--------------------------------------------------------------------------------
+Module:			fastqc
+Run File:		ERR458837_1.fastq.gz_fastq_star.run
+Job ID:			cf_fastq_star_1488587188_fastqc_010
+Previous Job ID:	start_000
+Date & Time:		01:32, 04-03-2017
+--------------------------------------------------------------------------------
+
+---------- FastQC version information ----------
+FastQC v0.11.5
+
+------- End of FastQC version information ------
+###CFVERS FastQC	v0.11.5
+
+
+###CFCMD fastqc -q  ERR458837_1.fastq.gz
+
+###CF FastQC successfully ran, took 4 minutes, 41 seconds
+
+###CFCMD fastqc -q  ERR458837_2.fastq.gz
+
+###CF FastQC successfully ran, took 4 minutes, 36 seconds
+
+
+
+
+--------------------------------------------------------------------------------
+Module:			trim_galore
+Run File:		ERR458837_1.fastq.gz_fastq_star.run
+Job ID:			cf_fastq_star_1488587188_trim_galore_277
+Previous Job ID:	start_000
+Date & Time:		02:12, 04-03-2017
+--------------------------------------------------------------------------------
+
+---------- Cutadapt version information ----------
+1.9.1
+
+------- End of Cutadapt version information ------
+###CFVERS Cutadapt
+1.9.1
+
+
+---------- Trim Galore! version information ----------
+
+                          Quality-/Adapter-/RRBS-Trimming
+                               (powered by Cutadapt)
+                                  version 0.4.1
+
+                             Last update: 20 07 2015
+
+
+------- End of Trim Galore! version information ------
+###CFVERS Trim Galore!	0.4.1
+
+
+###CFCMD trim_galore --paired --gzip --phred33       --fastqc_args "-q" ERR458837_1.fastq.gz ERR458837_2.fastq.gz
+
+Path to Cutadapt set as: 'cutadapt' (default)
+1.9.1
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> ERR458837_1.fastq.gz <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Illumina	62815	AGATCGGAAGAGC	1000000	6.28
+Nextera	5	CTGTCTCTTATA	1000000	0.00
+smallRNA	2	TGGAATTCTCGG	1000000	0.00
+Using Illumina adapter for trimming (count: 62815). Second best hit was Nextera (count: 5)
+
+Writing report to 'ERR458837_1.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ERR458837_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.4.1
+Cutadapt version: 1.9.1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: '-q'
+Output file(s) will be GZIP compressed
+
+Writing final adapter and quality trimmed output to ERR458837_1_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file ERR458837_1.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+This is cutadapt 1.9.1 with Python 2.7.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC ERR458837_1.fastq.gz
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 667.61 s (20 us/read; 2.95 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              32,811,259
+Reads with adapters:                14,298,399 (43.6%)
+Reads written (passing filters):    32,811,259 (100.0%)
+
+Total basepairs processed: 3,281,125,900 bp
+Quality-trimmed:              91,775,396 bp (2.8%)
+Total written (filtered):  3,112,604,269 bp (94.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 14298399 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 36.9%
+  C: 26.3%
+  G: 20.3%
+  T: 16.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	7887891	8202814.8	0	7887891
+2	2399925	2050703.7	0	2399925
+3	795574	512675.9	0	795574
+4	282872	128169.0	0	282872
+5	170108	32042.2	0	170108
+6	128344	8010.6	0	128344
+7	124262	2002.6	0	124262
+8	124178	500.7	0	124178
+9	107445	125.2	0	106344 1101
+10	114321	31.3	1	111880 2441
+11	102839	7.8	1	100419 2420
+12	105121	2.0	1	102838 2283
+13	96579	0.5	1	94203 2376
+14	103034	0.5	1	100523 2511
+15	91073	0.5	1	88866 2207
+16	90502	0.5	1	88369 2133
+17	85797	0.5	1	83645 2152
+18	88077	0.5	1	85945 2132
+19	78746	0.5	1	76650 2096
+20	82607	0.5	1	80584 2023
+21	70215	0.5	1	68419 1796
+22	70919	0.5	1	69156 1763
+23	67357	0.5	1	65721 1636
+24	69357	0.5	1	67572 1785
+25	60432	0.5	1	58941 1491
+26	61264	0.5	1	59644 1620
+27	59505	0.5	1	58002 1503
+28	53890	0.5	1	52493 1397
+29	52244	0.5	1	50880 1364
+30	52172	0.5	1	50953 1219
+31	43813	0.5	1	42619 1194
+32	48007	0.5	1	46821 1186
+33	43565	0.5	1	42383 1182
+34	47333	0.5	1	46079 1254
+35	54139	0.5	1	52912 1227
+36	39770	0.5	1	38833 937
+37	25760	0.5	1	25124 636
+38	24051	0.5	1	23457 594
+39	25510	0.5	1	24928 582
+40	24952	0.5	1	24379 573
+41	17407	0.5	1	16974 433
+42	19047	0.5	1	18600 447
+43	16731	0.5	1	16311 420
+44	16342	0.5	1	15983 359
+45	15011	0.5	1	14644 367
+46	14021	0.5	1	13656 365
+47	15754	0.5	1	15384 370
+48	11216	0.5	1	10897 319
+49	12029	0.5	1	11731 298
+50	10454	0.5	1	10185 269
+51	10225	0.5	1	9987 238
+52	9472	0.5	1	9239 233
+53	8942	0.5	1	8725 217
+54	6692	0.5	1	6520 172
+55	5675	0.5	1	5508 167
+56	6698	0.5	1	6504 194
+57	8617	0.5	1	8392 225
+58	8690	0.5	1	8506 184
+59	4112	0.5	1	3968 144
+60	4480	0.5	1	4342 138
+61	5148	0.5	1	4999 149
+62	6829	0.5	1	6610 219
+63	7614	0.5	1	7409 205
+64	2253	0.5	1	2136 117
+65	444	0.5	1	347 97
+66	82	0.5	1	57 25
+67	38	0.5	1	31 7
+68	39	0.5	1	26 13
+69	31	0.5	1	20 11
+70	21	0.5	1	17 4
+71	39	0.5	1	22 17
+72	40	0.5	1	30 10
+73	31	0.5	1	24 7
+74	26	0.5	1	19 7
+75	29	0.5	1	21 8
+76	17	0.5	1	10 7
+77	30	0.5	1	19 11
+78	29	0.5	1	19 10
+79	22	0.5	1	16 6
+80	26	0.5	1	21 5
+81	21	0.5	1	15 6
+82	30	0.5	1	20 10
+83	27	0.5	1	22 5
+84	14	0.5	1	7 7
+85	14	0.5	1	11 3
+86	20	0.5	1	7 13
+87	21	0.5	1	10 11
+88	19	0.5	1	10 9
+89	22	0.5	1	5 17
+90	22	0.5	1	12 10
+91	11	0.5	1	9 2
+92	29	0.5	1	17 12
+93	29	0.5	1	22 7
+94	32	0.5	1	17 15
+95	34	0.5	1	16 18
+96	17	0.5	1	13 4
+97	28	0.5	1	5 23
+98	12	0.5	1	8 4
+99	5	0.5	1	0 5
+100	39	0.5	1	3 36
+
+
+RUN STATISTICS FOR INPUT FILE: ERR458837_1.fastq.gz
+=============================================
+32811259 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to 'ERR458837_2.fastq.gz_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ERR458837_2.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.4.1
+Cutadapt version: 1.9.1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: '-q'
+Output file(s) will be GZIP compressed
+
+Writing final adapter and quality trimmed output to ERR458837_2_trimmed.fq.gz
+
+
+  >>> Now performing quality (cutoff 20) and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file ERR458837_2.fastq.gz <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+This is cutadapt 1.9.1 with Python 2.7.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC ERR458837_2.fastq.gz
+Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+Finished in 661.82 s (20 us/read; 2.97 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              32,811,259
+Reads with adapters:                12,929,754 (39.4%)
+Reads written (passing filters):    32,811,259 (100.0%)
+
+Total basepairs processed: 3,281,125,900 bp
+Quality-trimmed:             174,590,459 bp (5.3%)
+Total written (filtered):  3,033,066,376 bp (92.4%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 12929754 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 30.2%
+  C: 31.6%
+  G: 17.0%
+  T: 21.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	7049546	8202814.8	0	7049546
+2	2088654	2050703.7	0	2088654
+3	619269	512675.9	0	619269
+4	247246	128169.0	0	247246
+5	169427	32042.2	0	169427
+6	127634	8010.6	0	127634
+7	134648	2002.6	0	134648
+8	126765	500.7	0	126765
+9	113387	125.2	0	112280 1107
+10	134282	31.3	1	131335 2947
+11	96159	7.8	1	93537 2622
+12	116176	2.0	1	113879 2297
+13	91509	0.5	1	88506 3003
+14	121139	0.5	1	118571 2568
+15	83693	0.5	1	81674 2019
+16	86311	0.5	1	84059 2252
+17	100595	0.5	1	98618 1977
+18	73744	0.5	1	71743 2001
+19	98662	0.5	1	96601 2061
+20	77412	0.5	1	75785 1627
+21	56804	0.5	1	55335 1469
+22	69585	0.5	1	67860 1725
+23	72370	0.5	1	70479 1891
+24	86854	0.5	1	85056 1798
+25	55076	0.5	1	53662 1414
+26	65059	0.5	1	63360 1699
+27	51733	0.5	1	50277 1456
+28	65780	0.5	1	64576 1204
+29	38543	0.5	1	37422 1121
+30	56328	0.5	1	55147 1181
+31	26333	0.5	1	25483 850
+32	41997	0.5	1	41205 792
+33	24929	0.5	1	24298 631
+34	28725	0.5	1	28060 665
+35	33231	0.5	1	32545 686
+36	27360	0.5	1	26737 623
+37	26627	0.5	1	25895 732
+38	26267	0.5	1	25608 659
+39	24445	0.5	1	23852 593
+40	25563	0.5	1	24851 712
+41	24523	0.5	1	23831 692
+42	27646	0.5	1	27114 532
+43	15712	0.5	1	15257 455
+44	21871	0.5	1	21265 606
+45	27038	0.5	1	26500 538
+46	10856	0.5	1	10536 320
+47	12290	0.5	1	11963 327
+48	14378	0.5	1	14030 348
+49	10934	0.5	1	10685 249
+50	8464	0.5	1	8227 237
+51	9964	0.5	1	9769 195
+52	6508	0.5	1	6306 202
+53	5457	0.5	1	5335 122
+54	5267	0.5	1	5149 118
+55	4969	0.5	1	4848 121
+56	4518	0.5	1	4397 121
+57	4870	0.5	1	4741 129
+58	5056	0.5	1	4924 132
+59	3964	0.5	1	3863 101
+60	3695	0.5	1	3586 109
+61	4371	0.5	1	4231 140
+62	5343	0.5	1	5083 260
+63	17095	0.5	1	16727 368
+64	7905	0.5	1	7714 191
+65	4801	0.5	1	4678 123
+66	1760	0.5	1	1642 118
+67	332	0.5	1	315 17
+68	105	0.5	1	86 19
+69	29	0.5	1	11 18
+70	6	0.5	1	3 3
+71	13	0.5	1	1 12
+72	8	0.5	1	4 4
+73	4	0.5	1	0 4
+74	1	0.5	1	1
+75	6	0.5	1	3 3
+76	7	0.5	1	0 7
+77	6	0.5	1	2 4
+78	11	0.5	1	1 10
+79	5	0.5	1	0 5
+80	10	0.5	1	1 9
+81	21	0.5	1	0 21
+82	3	0.5	1	1 2
+83	12	0.5	1	1 11
+84	6	0.5	1	3 3
+85	4	0.5	1	1 3
+86	6	0.5	1	1 5
+87	2	0.5	1	0 2
+88	2	0.5	1	0 2
+89	6	0.5	1	1 5
+90	3	0.5	1	1 2
+91	1	0.5	1	0 1
+92	9	0.5	1	0 9
+93	5	0.5	1	4 1
+94	1	0.5	1	1
+95	2	0.5	1	0 2
+97	1	0.5	1	0 1
+98	1	0.5	1	1
+100	4	0.5	1	0 4
+
+
+RUN STATISTICS FOR INPUT FILE: ERR458837_2.fastq.gz
+=============================================
+32811259 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files ERR458837_1_trimmed.fq.gz and ERR458837_2_trimmed.fq.gz
+file_1: ERR458837_1_trimmed.fq.gz, file_2: ERR458837_2_trimmed.fq.gz
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: ERR458837_1_trimmed.fq.gz and ERR458837_2_trimmed.fq.gz <<<<<
+Writing validated paired-end read 1 reads to ERR458837_1_val_1.fq.gz
+Writing validated paired-end read 2 reads to ERR458837_2_val_2.fq.gz
+
+Total number of sequences analysed: 32811259
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 613968 (1.87%)
+
+
+  >>> Now running FastQC on the validated data ERR458837_1_val_1.fq.gz<<<
+
+
+  >>> Now running FastQC on the validated data ERR458837_2_val_2.fq.gz<<<
+
+Deleting both intermediate output files ERR458837_1_trimmed.fq.gz and ERR458837_2_trimmed.fq.gz
+
+====================================================================================================
+
+###CF Trim galore (PE mode) successfully exited, took 1 hours, 3 minutes, 50 seconds..
+
+
+
+
+--------------------------------------------------------------------------------
+Module:			star
+Run File:		ERR458837_1.fastq.gz_fastq_star.run
+Job ID:			cf_fastq_star_1488587188_star_618
+Previous Job ID:	cf_fastq_star_1488587188_trim_galore_277
+Date & Time:		04:32, 04-03-2017
+--------------------------------------------------------------------------------
+
+
+Aligning against /sw/data/uppnex/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/STARIndex/
+
+---------- STAR version information ----------
+STAR_2.5.1b
+
+------- End of STAR version information ------
+
+###CFCMD STAR --runThreadN 8 --outQSconversionAdd 0 --outSAMattributes Standard --genomeLoad NoSharedMemory  --readFilesCommand zcat --genomeDir /sw/data/uppnex/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/STARIndex/ --readFilesIn ERR458837_1_val_1.fq.gz ERR458837_2_val_2.fq.gz --outFileNamePrefix ERR458837_1_GRCh37 --outStd SAM | samtools view -bS - > ERR458837_1_GRCh37_star.bam
+
+[samopen] SAM header is present: 25 sequences.
+###CF STAR (PE mode) successfully exited, took 27 minutes, 49 seconds..
+
+
+
+--------------------------------------------------------------------------------
+Unrecognised output: (indicated with "-> <-")
+--------------------------------------------------------------------------------
+-> slurmstepd: error: Exceeded step memory limit at some point. <-
+-> slurmstepd: error: Exceeded step memory limit at some point. <-
+-> slurmstepd: error: Exceeded step memory limit at some point. <-
+
+================================================================================
+
+
+
+
+
+###CF Run finished at 05:12 04-03-2017
+
+
+###CF Pipeline fastq_star finished at 05:24 04-03-2017
+
+Sending HTML e-mail with sendmail..
+Sent a pipeline e-mail notification to phil.ewels@scilifelab.se

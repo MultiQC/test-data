@@ -1,0 +1,45 @@
+/*
+Cluster Flow Run File
+Pipeline: fastq_star
+Pipeline ID: cf_fastq_star_1488587188
+Created at 01:26, 04-03-2017
+*/
+
+@split_files	2
+@total_cores	16
+@total_mem	120G
+@email	phil.ewels@scilifelab.se
+@notification	suspend
+@notification	abort
+@notification	complete
+@genome	GRCh37
+@reference	star	/sw/data/uppnex/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/STARIndex/
+@reference	fasta	/sw/data/uppnex/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/WholeGenomeFasta
+@reference	bismark	/sw/data/uppnex/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/BismarkIndex
+@reference	bwa	/sw/data/uppnex/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/BWAIndex/genome.fa
+@reference	bed12	/sw/data/uppnex/igenomes/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.bed
+@reference	gtf	/sw/data/uppnex/igenomes/Homo_sapiens/Ensembl/GRCh37/Annotation/Genes/genes.gtf
+@reference	bowtie	/sw/data/uppnex/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/BowtieIndex/genome
+@reference	bowtie2	/sw/data/uppnex/igenomes/Homo_sapiens/Ensembl/GRCh37/Sequence/Bowtie2Index/genome
+@force_paired_end
+/*
+------------------------
+FastQ to STAR Pipeline
+------------------------
+This pipeline takes FastQ files as input, runs FastQC, Trim Galore,
+then aligns with STAR. The module requires a genome reference with a
+corresponding STAR index base in the configuration.
+*/
+
+#fastqc
+#trim_galore
+	#star
+
+
+start_000	ERR458837_1.fastq.gz
+start_000	ERR458837_2.fastq.gz
+cf_fastq_star_1488587188_fastqc_010	ERR458837_1.fastq.gz
+cf_fastq_star_1488587188_fastqc_010	ERR458837_2.fastq.gz
+cf_fastq_star_1488587188_trim_galore_277	ERR458837_1_val_1.fq.gz
+cf_fastq_star_1488587188_trim_galore_277	ERR458837_2_val_2.fq.gz
+cf_fastq_star_1488587188_star_618	ERR458837_1_GRCh37_star.bam
