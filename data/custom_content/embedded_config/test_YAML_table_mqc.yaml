@@ -1,0 +1,21 @@
+id: 'custom_data_yaml_table'
+section_name: 'Custom YAML Table'
+description: 'This table is a self-contained YAML file. Hopefully the column order will be honoured.'
+plot_type: 'table'
+pconfig:
+    id: 'custom_data_yaml_table_table'
+    title: 'YAML table with ordered columns'
+    min: 0
+data:
+    sample_1:
+        one: 12
+        two: 14
+        three: 10
+        four: 7
+        five: 16
+    sample_2:
+        one: 9
+        two: 11
+        three: 15
+        four: 18
+        five: 21
