@@ -1,0 +1,26 @@
+id: 'mqc_pca'
+section_name: 'My PCA Data'
+description: 'This plot is generated from some PCA data'
+plot_type: 'scatter'
+pconfig:
+    id: 'mqc_pca_scatter_plot'
+    title: 'PCA Plot'
+    ylab: 'Component 1'
+    xlab: 'Component 2'
+data:
+    sample_a:
+        x: 12
+        y: 14
+        color: 'red'
+    sample_b:
+        x: 8
+        y: 6
+        color: 'red'
+    sample_c:
+        x: 11
+        y: 5
+        color: 'purple'
+    sample_d:
+        x: 12
+        y: 9
+        color: 'purple'
