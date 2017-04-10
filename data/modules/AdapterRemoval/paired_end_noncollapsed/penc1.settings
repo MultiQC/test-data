@@ -1,0 +1,119 @@
+AdapterRemoval ver. 2.2.0
+Trimming of paired-end reads
+
+
+[Adapter sequences]
+Adapter1[1]: AGATCGGAAGAGCACACGTCT
+Adapter2[1]: AGATCGGAAGAGCGTCGTGTA
+
+
+[Adapter trimming]
+RNG seed: NA
+Alignment shift value: 2
+Global mismatch threshold: 0.333333
+Quality format (input): Phred+33
+Quality score max (input): 41
+Quality format (output): Phred+33
+Quality score max (output): 41
+Mate-number seperator (input): '/'
+Trimming Ns: Yes
+Trimming Phred scores <= 20: Yes
+Minimum genomic length: 20
+Maximum genomic length: 4294967295
+Collapse overlapping reads: No
+Minimum overlap (in case of collapse): 11
+
+
+[Trimming statistics]
+Total number of read pairs: 3988157
+Number of unaligned read pairs: 1160824
+Number of well aligned read pairs: 2827333
+Number of discarded mate 1 reads: 2657
+Number of singleton mate 1 reads: 15
+Number of discarded mate 2 reads: 2665
+Number of singleton mate 2 reads: 7
+Number of reads with adapters[1]: 94204
+Number of retained reads: 7970992
+Number of retained nucleotides: 603966201
+Average length of retained reads: 75.7705
+
+
+[Length distribution]
+Length	Mate1	Mate2	Singleton	Discarded	All
+0	0	0	0	4547	4547
+1	0	0	0	8	8
+2	0	0	0	20	20
+3	0	0	0	17	17
+4	0	0	0	6	6
+5	0	0	0	218	218
+6	0	0	0	7	7
+7	0	0	0	3	3
+8	0	0	0	4	4
+9	0	0	0	0	0
+10	0	0	0	14	14
+11	0	0	0	15	15
+12	0	0	0	28	28
+13	0	0	0	8	8
+14	0	0	0	21	21
+15	0	0	0	20	20
+16	0	0	0	34	34
+17	0	0	0	35	35
+18	0	0	0	88	88
+19	0	0	0	229	229
+20	195	218	5	0	418
+21	2049	2041	11	0	4101
+22	1756	1745	4	0	3505
+23	168	167	1	0	336
+24	15	16	0	0	31
+25	23	22	0	0	45
+26	22	24	0	0	46
+27	19	22	0	0	41
+28	31	32	0	0	63
+29	36	34	0	0	70
+30	30	31	0	0	61
+31	45	47	0	0	92
+32	38	39	0	0	77
+33	39	38	0	0	77
+34	43	44	0	0	87
+35	50	51	0	0	101
+36	49	54	0	0	103
+37	61	67	0	0	128
+38	64	63	0	0	127
+39	86	82	0	0	168
+40	102	106	0	0	208
+41	95	90	0	0	185
+42	101	103	0	0	204
+43	122	132	0	0	254
+44	133	126	0	0	259
+45	147	161	0	0	308
+46	137	136	0	0	273
+47	213	216	0	0	429
+48	220	239	0	0	459
+49	233	242	0	0	475
+50	289	296	0	0	585
+51	260	269	0	0	529
+52	368	396	0	0	764
+53	368	377	0	0	745
+54	468	504	0	0	972
+55	476	496	0	0	972
+56	687	730	0	0	1417
+57	663	685	0	0	1348
+58	662	727	0	0	1389
+59	838	889	0	0	1727
+60	830	894	0	0	1724
+61	964	1022	0	0	1986
+62	1053	1168	0	0	2221
+63	1125	1246	0	0	2371
+64	1422	1572	0	0	2994
+65	1412	1686	0	0	3098
+66	1646	2018	0	0	3664
+67	1838	2378	0	0	4216
+68	2282	3099	0	0	5381
+69	2632	3819	0	0	6451
+70	3134	4928	0	0	8062
+71	4101	7016	0	0	11117
+72	5553	10719	0	0	16272
+73	8505	19766	0	0	28271
+74	18984	42043	0	0	61027
+75	91208	190503	1	0	281712
+76	3827395	3679851	0	0	7507246
