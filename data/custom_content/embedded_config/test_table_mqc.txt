@@ -1,0 +1,4 @@
+# plot_type: 'table'
+# section_name: 'Lane Statistics'
+Lane	Total # Reads	Total # PF Reads	Undetermined
+1	196,298,213	186,009,926	5.45%
