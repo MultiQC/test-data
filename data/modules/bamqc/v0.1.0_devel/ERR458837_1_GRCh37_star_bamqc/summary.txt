@@ -1,0 +1,7 @@
+PASS	Basic Statistics	ERR458837_1_GRCh37_star.bam
+PASS	Genome Coverage	ERR458837_1_GRCh37_star.bam
+PASS	Chromosome Read Density	ERR458837_1_GRCh37_star.bam
+PASS	Soft Clip Length Distributions	ERR458837_1_GRCh37_star.bam
+PASS	Indel Frequencies	ERR458837_1_GRCh37_star.bam
+PASS	Mapping Quality Distribution	ERR458837_1_GRCh37_star.bam
+FAIL	Insert Length Distribution	ERR458837_1_GRCh37_star.bam
