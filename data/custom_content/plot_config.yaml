@@ -45,8 +45,6 @@ custom_data:
                 first_thing: 12
                 second_thing: 9
     example_coverage:
-        sp:
-            fn: 'example_coverage_*'
         file_format: 'tsv'
         section_name: 'Coverage Decay'
         description: 'This plot comes from files acommpanied by a mutliqc_config.yaml file for configuration'
@@ -57,3 +55,6 @@ custom_data:
             ylab: 'X Coverage'
             ymax: 100
             ymin: 0
+sp:
+    example_coverage:
+        fn: 'example_coverage_*'
