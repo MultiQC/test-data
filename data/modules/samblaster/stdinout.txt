@@ -1,0 +1,5 @@
+samblaster: Version 0.1.24
+samblaster: Inputting from stdin
+samblaster: Outputting to stdout
+samblaster: Loaded 86 header sequence entries.
+samblaster: Marked 32 of 2761 (1.16%) read ids as duplicates using 1600k memory in 0.004S CPU seconds and 18S wall time.
