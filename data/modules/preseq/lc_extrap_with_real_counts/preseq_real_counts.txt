@@ -1,0 +1,7 @@
+Jurkat-0-ready 363826
+Jurkat-100-ready 159239
+Jurkat-12-ready 339104
+Jurkat-25-ready 339085
+Jurkat-2-ready 340924
+Jurkat-3-ready 367827
+Jurkat-6-ready 362141
