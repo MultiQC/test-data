@@ -1,0 +1,139 @@
+{
+    "command": {
+        "allow_mismatch_in_poly": 2,
+        "bad_output_folder": null,
+        "barcode": false,
+        "barcode_flag": "barcode",
+        "barcode_length": 12,
+        "barcode_verify": "CAGTA",
+        "debubble": false,
+        "debubble_dir": "debubble",
+        "draw": true,
+        "good_output_folder": "good",
+        "index1_file": null,
+        "index1_flag": "I1",
+        "index2_file": null,
+        "index2_flag": "I2",
+        "input_dir": null,
+        "n_base_limit": 5,
+        "overlap_output_folder": null,
+        "poly_size_limit": 35,
+        "qc_kmer": 8,
+        "qc_only": false,
+        "qc_sample": 200000,
+        "qualified_quality_phred": 15,
+        "read1_file": "R1.fq.gz",
+        "read1_flag": "R1",
+        "read2_file": null,
+        "read2_flag": "R2",
+        "seq_len_req": 35,
+        "store_overlap": false,
+        "trim_front": 15,
+        "trim_front2": -1,
+        "trim_pair_same": true,
+        "trim_tail": 7,
+        "trim_tail2": -1,
+        "unqualified_base_limit": 60
+    },
+    "kmer_content": {
+        "read1_postfilter": [
+            [
+                "TTTTTTTT",
+                14
+            ],
+            [
+                "AAGAAAGA",
+                12
+            ],
+            [
+                "CTGCCTCA",
+                9
+            ],
+            [
+                "AAAGAAAG",
+                9
+            ],
+            [
+                "CCCCCCCC",
+                8
+            ],
+            [
+                "AAGAGAGA",
+                8
+            ],
+            [
+                "TTTTTAAA",
+                8
+            ],
+            [
+                "ATTTTAAA",
+                8
+            ],
+            [
+                "TTTGTTTT",
+                8
+            ],
+            [
+                "ATTCCATT",
+                8
+            ]
+        ],
+        "read1_prefilter": [
+            [
+                "NNNNNNNN",
+                219
+            ],
+            [
+                "TTTTTTTT",
+                15
+            ],
+            [
+                "AAGAAAGA",
+                14
+            ],
+            [
+                "TTTGTTTT",
+                11
+            ],
+            [
+                "AAGAGAGA",
+                10
+            ],
+            [
+                "TTTTGTTT",
+                10
+            ],
+            [
+                "TTTTTGTT",
+                10
+            ],
+            [
+                "AAAGAAAG",
+                10
+            ],
+            [
+                "AAAAGAAA",
+                9
+            ],
+            [
+                "CTGCCTCA",
+                9
+            ]
+        ]
+    },
+    "summary": {
+        "bad_reads": 6,
+        "bad_reads_with_bad_barcode": 0,
+        "bad_reads_with_bad_overlap": 0,
+        "bad_reads_with_bad_read_length": 0,
+        "bad_reads_with_low_quality": 0,
+        "bad_reads_with_polyX": 4,
+        "bad_reads_with_reads_in_bubble": 0,
+        "bad_reads_with_too_many_N": 2,
+        "good_bases": 30550,
+        "good_reads": 244,
+        "readlen": 151,
+        "total_bases": 36819,
+        "total_reads": 250
+    }
+}

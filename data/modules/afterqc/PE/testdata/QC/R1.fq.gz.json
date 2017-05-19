@@ -1,0 +1,268 @@
+{
+    "command": {
+        "allow_mismatch_in_poly": 2,
+        "bad_output_folder": null,
+        "barcode": false,
+        "barcode_flag": "barcode",
+        "barcode_length": 12,
+        "barcode_verify": "CAGTA",
+        "debubble": false,
+        "debubble_dir": "debubble",
+        "draw": true,
+        "good_output_folder": "good",
+        "index1_file": null,
+        "index1_flag": "I1",
+        "index2_file": null,
+        "index2_flag": "I2",
+        "input_dir": null,
+        "n_base_limit": 5,
+        "overlap_output_folder": null,
+        "poly_size_limit": 35,
+        "qc_kmer": 8,
+        "qc_only": false,
+        "qc_sample": 200000,
+        "qualified_quality_phred": 15,
+        "read1_file": "R1.fq.gz",
+        "read1_flag": "R1",
+        "read2_file": "R2.fq.gz",
+        "read2_flag": "R2",
+        "seq_len_req": 35,
+        "store_overlap": false,
+        "trim_front": 15,
+        "trim_front2": 15,
+        "trim_pair_same": true,
+        "trim_tail": 7,
+        "trim_tail2": 7,
+        "unqualified_base_limit": 60
+    },
+    "kmer_content": {
+        "read1_postfilter": [
+            [
+                "TTTTTTTT",
+                14
+            ],
+            [
+                "AAGAAAGA",
+                12
+            ],
+            [
+                "CTGCCTCA",
+                9
+            ],
+            [
+                "AAAGAAAG",
+                9
+            ],
+            [
+                "CCCCCCCC",
+                8
+            ],
+            [
+                "TTTTTAAA",
+                8
+            ],
+            [
+                "TTTGTTTT",
+                8
+            ],
+            [
+                "ATTCCATT",
+                8
+            ],
+            [
+                "CCAGGCTG",
+                7
+            ],
+            [
+                "AAAAGAAA",
+                7
+            ]
+        ],
+        "read1_prefilter": [
+            [
+                "NNNNNNNN",
+                219
+            ],
+            [
+                "TTTTTTTT",
+                15
+            ],
+            [
+                "AAGAAAGA",
+                14
+            ],
+            [
+                "TTTGTTTT",
+                11
+            ],
+            [
+                "AAGAGAGA",
+                10
+            ],
+            [
+                "TTTTGTTT",
+                10
+            ],
+            [
+                "TTTTTGTT",
+                10
+            ],
+            [
+                "AAAGAAAG",
+                10
+            ],
+            [
+                "AAAAGAAA",
+                9
+            ],
+            [
+                "CTGCCTCA",
+                9
+            ]
+        ],
+        "read2_postfilter": [
+            [
+                "AAAAAAAA",
+                45
+            ],
+            [
+                "TCTTTCTT",
+                10
+            ],
+            [
+                "AAAACAAA",
+                9
+            ],
+            [
+                "AAAAAACA",
+                9
+            ],
+            [
+                "CCCCCCCC",
+                8
+            ],
+            [
+                "AAAAACAA",
+                8
+            ],
+            [
+                "AATGGAAT",
+                8
+            ],
+            [
+                "AAACAAAA",
+                8
+            ],
+            [
+                "AACAAAAA",
+                8
+            ],
+            [
+                "ATTTTAAA",
+                7
+            ]
+        ],
+        "read2_prefilter": [
+            [
+                "NNNNNNNN",
+                1306
+            ],
+            [
+                "AAAAAAAA",
+                113
+            ],
+            [
+                "TCTTTCTT",
+                11
+            ],
+            [
+                "AAAAACAA",
+                10
+            ],
+            [
+                "AAAACAAA",
+                10
+            ],
+            [
+                "AAAAAACA",
+                10
+            ],
+            [
+                "AAACAAAA",
+                10
+            ],
+            [
+                "AACAAAAA",
+                10
+            ],
+            [
+                "GGGGGGGG",
+                9
+            ],
+            [
+                "AAAAATAA",
+                9
+            ]
+        ]
+    },
+    "overlap": {
+        "average_overlap_length": 87.0,
+        "bad_indel_reads": 0,
+        "bad_mismatch_reads": 0,
+        "corrected_bases": 21,
+        "corrected_reads": 20,
+        "edit_distance_histogram": [
+            155,
+            21,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "error_matrix": {
+            "A": {
+                "C": 10,
+                "G": 0,
+                "T": 1
+            },
+            "C": {
+                "A": 3,
+                "G": 1,
+                "T": 0
+            },
+            "G": {
+                "A": 0,
+                "C": 2,
+                "T": 3
+            },
+            "T": {
+                "A": 0,
+                "C": 0,
+                "G": 1
+            }
+        },
+        "error_rate": 0.0007439513520507181,
+        "overlapped_pairs": 177,
+        "trimmed_adapter_bases": 506,
+        "zero_qual_masked": 0
+    },
+    "summary": {
+        "bad_reads": 12,
+        "bad_reads_with_bad_barcode": 0,
+        "bad_reads_with_bad_overlap": 0,
+        "bad_reads_with_bad_read_length": 0,
+        "bad_reads_with_low_quality": 0,
+        "bad_reads_with_polyX": 11,
+        "bad_reads_with_reads_in_bubble": 0,
+        "bad_reads_with_too_many_N": 1,
+        "good_bases": 29529,
+        "good_reads": 238,
+        "readlen": 151,
+        "total_bases": 36819,
+        "total_reads": 250
+    }
+}

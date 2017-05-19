@@ -1,0 +1,139 @@
+{
+    "command": {
+        "allow_mismatch_in_poly": 2,
+        "bad_output_folder": null,
+        "barcode": false,
+        "barcode_flag": "barcode",
+        "barcode_length": 12,
+        "barcode_verify": "CAGTA",
+        "debubble": false,
+        "debubble_dir": "debubble",
+        "draw": true,
+        "good_output_folder": "good",
+        "index1_file": null,
+        "index1_flag": "I1",
+        "index2_file": null,
+        "index2_flag": "I2",
+        "input_dir": null,
+        "n_base_limit": 5,
+        "overlap_output_folder": null,
+        "poly_size_limit": 35,
+        "qc_kmer": 8,
+        "qc_only": false,
+        "qc_sample": 200000,
+        "qualified_quality_phred": 15,
+        "read1_file": "SRR4238359_subsamp.fastq.gz",
+        "read1_flag": "R1",
+        "read2_file": null,
+        "read2_flag": "R2",
+        "seq_len_req": 35,
+        "store_overlap": false,
+        "trim_front": 5,
+        "trim_front2": -1,
+        "trim_pair_same": true,
+        "trim_tail": 0,
+        "trim_tail2": -1,
+        "unqualified_base_limit": 60
+    },
+    "kmer_content": {
+        "read1_postfilter": [
+            [
+                "TTTTTTTT",
+                1820
+            ],
+            [
+                "TTCTTCTT",
+                1452
+            ],
+            [
+                "AAAAAAAA",
+                1433
+            ],
+            [
+                "CTTCAGAA",
+                1332
+            ],
+            [
+                "TCTTCTTC",
+                1235
+            ],
+            [
+                "TTCAGAAC",
+                1216
+            ],
+            [
+                "ACTTCAGA",
+                1156
+            ],
+            [
+                "TTTATTAT",
+                1147
+            ],
+            [
+                "AACGGACT",
+                1122
+            ],
+            [
+                "TTATTATA",
+                1092
+            ]
+        ],
+        "read1_prefilter": [
+            [
+                "TTTTTTTT",
+                2493
+            ],
+            [
+                "AAAAAAAA",
+                1609
+            ],
+            [
+                "TTCTTCTT",
+                1569
+            ],
+            [
+                "TCTTCTTC",
+                1403
+            ],
+            [
+                "CTTCAGAA",
+                1371
+            ],
+            [
+                "CCGCCTCC",
+                1293
+            ],
+            [
+                "TTTATTAT",
+                1264
+            ],
+            [
+                "TTCAGAAC",
+                1244
+            ],
+            [
+                "GACACTTC",
+                1235
+            ],
+            [
+                "GGACACTT",
+                1221
+            ]
+        ]
+    },
+    "summary": {
+        "bad_reads": 41,
+        "bad_reads_with_bad_barcode": 0,
+        "bad_reads_with_bad_overlap": 0,
+        "bad_reads_with_bad_read_length": 0,
+        "bad_reads_with_low_quality": 0,
+        "bad_reads_with_polyX": 19,
+        "bad_reads_with_reads_in_bubble": 0,
+        "bad_reads_with_too_many_N": 22,
+        "good_bases": 4598114,
+        "good_reads": 99959,
+        "readlen": 51,
+        "total_bases": 5100000,
+        "total_reads": 100000
+    }
+}
