@@ -1,7 +1,0 @@
-TrimmomaticPE: Started with arguments: -threads 16 -phred33 /input/Sample_3_1.fastq.gz /input/Sample_3_2.fastq.gz /trimmed/Sample_3_1.fastq.gz /trimmed/Sample_3_1_u.fastq.gz /trimmed/Sample_3_2.fastq.gz /trimmed/Sample_3_2_u.fastq.gz ILLUMINACLIP:/resources/nextera_linkers.txt:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:30
-Using Medium Clipping Sequence: 'AGATGTGTATAAGAGACAG'
-Using Medium Clipping Sequence: 'CTGTCTCTTATACACATCT'
-Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTAGATGTGTATAAGAGACAG'
-ILLUMINACLIP: Using 0 prefix pairs, 3 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
-Input Read Pairs: 102899655 Both Surviving: 64064313 (62.26%) Forward Only Surviving: 20365428 (19.79%) Reverse Only Surviving: 16472770 (16.01%) Dropped: 1997144 (1.94%)
-TrimmomaticPE: Completed successfully
