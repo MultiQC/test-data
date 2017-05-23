@@ -1,0 +1,7 @@
+Unique	17726417
+Duplicate	2104396
+Unaligned	596653
+Vendor Failed	0
+Estimated Library Size	86703703
+Duplicate Inconsistency	0
+Unpaired Reads	0

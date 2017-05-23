@@ -1,0 +1,223 @@
+<html>
+<head><title>RNA-seq Metrics</title>
+<style type="text/css">
+table {
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: outset;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: rgb(209, 255, 255);
+}
+table th {
+	border-width: 2px;
+	padding: 2px;
+	border-style: solid;
+	border-color: gray;
+	background-color: rgb(209, 255, 255);
+}
+table td {
+	border-width: 2px;
+	padding: 2px;
+	border-style: solid;
+	border-color: gray;
+	background-color: white;
+}
+</style>
+</head>
+<body>
+<h1>RNA-seq Metrics</h1>
+<h2>Read Count Metrics</h1>
+<p>
+ The following summary statistics are calculated by counting the number of reads that have the given characteristics.
+</p>
+
+<h3>Total Reads</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Total Purity Filtered Reads Sequenced</th><th>Alternative Aligments</th><th>Failed Vendor QC Check</th><th>Read Length</th><th>Estimated Library Size</th>
+</tr>
+<tr><td>CTRL-rep1</td><td>NA</td><td align='right'>35,277,950</td><td align='right'>3,549,352</td><td align='right'>NA</td><td align='right'>101</td><td align='right'>89,355,723</td></tr>
+<tr><td>CTRL-rep2</td><td>NA</td><td align='right'>37,176,382</td><td align='right'>3,581,878</td><td align='right'>NA</td><td align='right'>101</td><td align='right'>88,452,046</td></tr>
+<tr><td>CTRL-rep3</td><td>NA</td><td align='right'>36,126,708</td><td align='right'>3,579,076</td><td align='right'>NA</td><td align='right'>101</td><td align='right'>85,737,150</td></tr>
+<tr><td>ESRP-DKO-rep1</td><td>NA</td><td align='right'>38,211,590</td><td align='right'>4,160,502</td><td align='right'>NA</td><td align='right'>101</td><td align='right'>87,565,896</td></tr>
+<tr><td>ESRP-DKO-rep2</td><td>NA</td><td align='right'>40,854,932</td><td align='right'>4,193,544</td><td align='right'>NA</td><td align='right'>101</td><td align='right'>86,703,703</td></tr>
+<tr><td>ESRP-DKO-rep3</td><td>NA</td><td align='right'>39,939,930</td><td align='right'>4,872,056</td><td align='right'>NA</td><td align='right'>101</td><td align='right'>83,527,470</td></tr>
+</table>
+
+<p><b>Total Purity Filtered Reads Sequenced</b> are filtered for vendor fail flags and exclude alternative alignment reads. <b>Alternative Aligments</b> are duplicate read entries providing alternative coordinates. <b>Failed Vendor QC Check</b> are reads which have been designated as failed by the sequencer. <b>Read Length</b> is the maximum length found for all reads. <b>Estimated Library Size</b> is the number of expected fragments based upon the total number of reads and duplication rate assuming a Poisson distribution.</p>
+
+<h3>Mapped Reads</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Mapped</th><th>Mapping Rate</th><th>Mapped Unique</th><th>Mapped Unique Rate of Total</th><th>Unique Rate of Mapped</th><th>Duplication Rate of Mapped</th><th>Base Mismatch Rate</th><th>rRNA</th><th>rRNA rate</th>
+</tr>
+<tr><td>CTRL-rep1</td><td>NA</td><td align='right'>34,108,792</td><td align='right'>0.967</td><td align='right'>31,051,364</td><td align='right'>0.880</td><td align='right'>0.910</td><td align='right'>0.090</td><td align='right'>0.002</td><td align='right'>43,626</td><td align='right'>0.001</td></tr>
+<tr><td>CTRL-rep2</td><td>NA</td><td align='right'>36,052,268</td><td align='right'>0.970</td><td align='right'>32,615,966</td><td align='right'>0.877</td><td align='right'>0.905</td><td align='right'>0.095</td><td align='right'>0.002</td><td align='right'>55,248</td><td align='right'>0.001</td></tr>
+<tr><td>CTRL-rep3</td><td>NA</td><td align='right'>35,139,908</td><td align='right'>0.973</td><td align='right'>31,773,182</td><td align='right'>0.879</td><td align='right'>0.904</td><td align='right'>0.096</td><td align='right'>0.002</td><td align='right'>36,025</td><td align='right'>0.001</td></tr>
+<tr><td>ESRP-DKO-rep1</td><td>NA</td><td align='right'>36,574,836</td><td align='right'>0.957</td><td align='right'>33,008,206</td><td align='right'>0.864</td><td align='right'>0.902</td><td align='right'>0.098</td><td align='right'>0.002</td><td align='right'>37,177</td><td align='right'>0.001</td></tr>
+<tr><td>ESRP-DKO-rep2</td><td>NA</td><td align='right'>39,661,626</td><td align='right'>0.971</td><td align='right'>35,452,834</td><td align='right'>0.868</td><td align='right'>0.894</td><td align='right'>0.106</td><td align='right'>0.002</td><td align='right'>40,644</td><td align='right'>0.001</td></tr>
+<tr><td>ESRP-DKO-rep3</td><td>NA</td><td align='right'>38,378,336</td><td align='right'>0.961</td><td align='right'>34,288,974</td><td align='right'>0.859</td><td align='right'>0.893</td><td align='right'>0.107</td><td align='right'>0.002</td><td align='right'>50,565</td><td align='right'>0.001</td></tr>
+</table>
+
+<p><b>Mapped</b> reads are those that were aligned. <b>Mapping Rate</b> is per total reads. <b>Mapped Unique</b> are both aligned as well as non-duplicate reads. <b>Mapped Unique Rate of Total</b> is per total reads. <b>Unique Rate of Mapped</b> are unique reads divided by all mapped reads. <b>Duplication Rate of Mapped</b> is the duplicate read divided by total mapped reads.  <b>Base Mismatch Rate</b> is the number of bases not matching the reference divided by the total number of aligned bases. <b>rRNA</b> reads are non-duplicate and duplicate reads aligning to rRNA regions as defined in the transcript model definition. <b>rRNA Rate</b> is per total reads. </p>
+
+<h3>Mate Pairs</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Mapped Pairs</th><th>Unpaired Reads</th><th>End 1 Mapping Rate</th><th>End 2 Mapping Rate</th><th>End 1 Mismatch Rate</th><th>End 2 Mismatch Rate</th><th>Fragment Length Mean</th><th>Fragment Length StdDev</th><th>Chimeric Pairs</th>
+</tr>
+<tr><td>CTRL-rep1</td><td>NA</td><td align='right'>17,049,941</td><td align='right'>NA</td><td align='right'>0.967</td><td align='right'>0.967</td><td align='right'>0.002</td><td align='right'>0.002</td><td align='right'>139</td><td align='right'>165</td><td align='right'>45</td></tr>
+<tr><td>CTRL-rep2</td><td>NA</td><td align='right'>18,021,217</td><td align='right'>NA</td><td align='right'>0.970</td><td align='right'>0.970</td><td align='right'>0.002</td><td align='right'>0.002</td><td align='right'>138</td><td align='right'>162</td><td align='right'>32</td></tr>
+<tr><td>CTRL-rep3</td><td>NA</td><td align='right'>17,566,149</td><td align='right'>NA</td><td align='right'>0.973</td><td align='right'>0.973</td><td align='right'>0.002</td><td align='right'>0.002</td><td align='right'>140</td><td align='right'>164</td><td align='right'>49</td></tr>
+<tr><td>ESRP-DKO-rep1</td><td>NA</td><td align='right'>18,282,375</td><td align='right'>NA</td><td align='right'>0.957</td><td align='right'>0.957</td><td align='right'>0.002</td><td align='right'>0.002</td><td align='right'>140</td><td align='right'>170</td><td align='right'>102</td></tr>
+<tr><td>ESRP-DKO-rep2</td><td>NA</td><td align='right'>19,826,126</td><td align='right'>NA</td><td align='right'>0.971</td><td align='right'>0.971</td><td align='right'>0.002</td><td align='right'>0.002</td><td align='right'>142</td><td align='right'>166</td><td align='right'>60</td></tr>
+<tr><td>ESRP-DKO-rep3</td><td>NA</td><td align='right'>19,183,630</td><td align='right'>NA</td><td align='right'>0.961</td><td align='right'>0.961</td><td align='right'>0.002</td><td align='right'>0.002</td><td align='right'>142</td><td align='right'>168</td><td align='right'>187</td></tr>
+</table>
+
+<p><b>Mapped Pairs</b> is the total number of pairs for which both ends map. <b>Unpaired Reads</b> are the number of reads that are lacking a mate. <b>End 1/2 Mapping Rate</b> is the number of mapped divided by the total number of End1/End2 reads. <b>End 1/2 Mismatch Rate</b> is the number of End 1 and 2 bases not matching the reference divided by the total number of mapped End 1 and 2 bases. <b>Fragment Length Mean/StdDev</b> is the mean distance, standard deviation between the start of an upstream read and the end of the downstream one. Only fragments contained within single exons are used. <b>Chimeric Pairs</b> are pairs whose mates map to different genes. </p>
+
+<h3>Transcript-associated Reads</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>Intragenic Rate</th><th>Exonic Rate</th><th>Intronic Rate</th><th>Intergenic Rate</th><th>Split Reads</th><th>Expression Profiling Efficiency</th><th>Transcripts Detected</th><th>Genes Detected</th>
+</tr>
+<tr><td>CTRL-rep1</td><td>NA</td><td align='right'>0.970</td><td align='right'>0.870</td><td align='right'>0.100</td><td align='right'>0.030</td><td align='right'>10,790,318</td><td align='right'>0.841</td><td align='right'>73,375</td><td align='right'>19,947</td></tr>
+<tr><td>CTRL-rep2</td><td>NA</td><td align='right'>0.973</td><td align='right'>0.880</td><td align='right'>0.093</td><td align='right'>0.027</td><td align='right'>11,531,148</td><td align='right'>0.853</td><td align='right'>73,650</td><td align='right'>19,948</td></tr>
+<tr><td>CTRL-rep3</td><td>NA</td><td align='right'>0.972</td><td align='right'>0.853</td><td align='right'>0.120</td><td align='right'>0.027</td><td align='right'>11,156,872</td><td align='right'>0.830</td><td align='right'>70,260</td><td align='right'>18,881</td></tr>
+<tr><td>ESRP-DKO-rep1</td><td>NA</td><td align='right'>0.967</td><td align='right'>0.856</td><td align='right'>0.110</td><td align='right'>0.033</td><td align='right'>11,622,814</td><td align='right'>0.820</td><td align='right'>71,088</td><td align='right'>19,258</td></tr>
+<tr><td>ESRP-DKO-rep2</td><td>NA</td><td align='right'>0.973</td><td align='right'>0.880</td><td align='right'>0.093</td><td align='right'>0.027</td><td align='right'>12,836,641</td><td align='right'>0.854</td><td align='right'>72,601</td><td align='right'>19,654</td></tr>
+<tr><td>ESRP-DKO-rep3</td><td>NA</td><td align='right'>0.961</td><td align='right'>0.866</td><td align='right'>0.095</td><td align='right'>0.039</td><td align='right'>12,225,765</td><td align='right'>0.832</td><td align='right'>72,623</td><td align='right'>19,986</td></tr>
+</table>
+
+<p>All of the above rates are per mapped read. <b>Intragenic Rate</b> refers to the fraction of reads  that map within genes (within introns or exons). <b>Exonic Rate</b> is the fraction mapping within exons. <b>Intronic Rate</b> is the fraction mapping within introns. <b>Intergenic Rate</b> is the fraction mapping in the genomic space between genes. <b>Split Reads</b> is the number of reads spanning an exon exon junction.  <b>Expression Profile Efficiency</b> is the ratio of exon reads to total reads. <b>Transcripts/Genes Detected </b> is the number of transcripts/Genes with at least 5 reads. </p>
+
+<h3>Strand Specificity</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>End 1 Sense</th><th>End 1 Antisense</th><th>End 2 Sense</th><th>End 2 Antisense</th><th>End 1 % Sense</th><th>End 2 % Sense</th>
+</tr>
+<tr><td>CTRL-rep1</td><td>NA</td><td align='right'>191,200</td><td align='right'>15,346,161</td><td align='right'>15,363,625</td><td align='right'>188,034</td><td align='right'>1.231</td><td align='right'>98.791</td></tr>
+<tr><td>CTRL-rep2</td><td>NA</td><td align='right'>181,995</td><td align='right'>16,273,929</td><td align='right'>16,289,735</td><td align='right'>179,048</td><td align='right'>1.106</td><td align='right'>98.913</td></tr>
+<tr><td>CTRL-rep3</td><td>NA</td><td align='right'>186,481</td><td align='right'>15,896,779</td><td align='right'>15,916,000</td><td align='right'>183,805</td><td align='right'>1.159</td><td align='right'>98.858</td></tr>
+<tr><td>ESRP-DKO-rep1</td><td>NA</td><td align='right'>233,099</td><td align='right'>16,365,434</td><td align='right'>16,387,769</td><td align='right'>229,927</td><td align='right'>1.404</td><td align='right'>98.616</td></tr>
+<tr><td>ESRP-DKO-rep2</td><td>NA</td><td align='right'>215,894</td><td align='right'>17,903,075</td><td align='right'>17,925,612</td><td align='right'>211,281</td><td align='right'>1.192</td><td align='right'>98.835</td></tr>
+<tr><td>ESRP-DKO-rep3</td><td>NA</td><td align='right'>284,964</td><td align='right'>17,037,981</td><td align='right'>17,056,670</td><td align='right'>281,007</td><td align='right'>1.645</td><td align='right'>98.379</td></tr>
+</table>
+
+<p><b>End 1/2 Sense</b> are the number of End 1 or 2 reads that were sequenced in the sense direction. Similarly, <b>End 1/2 Antisense</b> are the number of End 1 or 2 reads that were sequenced in the antisense direction.<b>End 1/2 Sense %</b> are percentages of intragenic End 1/2 reads that were sequenced in the sense direction. </p>
+
+
+<HR WIDTH="100%" COLOR="#9090900"  SIZE="3">
+
+<h2>Correlation Analysis</h2>
+
+<h3>Spearman Correlation Matrix</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>CTRL-rep1</th><th>CTRL-rep2</th><th>CTRL-rep3</th><th>ESRP-DKO-rep1</th><th>ESRP-DKO-rep2</th><th>ESRP-DKO-rep3</th>
+</tr>
+<tr><td>CTRL-rep1</td><td>NA</td><td align='right'>1.000</td><td align='right'>0.983</td><td align='right'>0.966</td><td align='right'>0.969</td><td align='right'>0.980</td><td align='right'>0.975</td></tr>
+<tr><td>CTRL-rep2</td><td>NA</td><td align='right'>0.983</td><td align='right'>1.000</td><td align='right'>0.958</td><td align='right'>0.963</td><td align='right'>0.979</td><td align='right'>0.967</td></tr>
+<tr><td>CTRL-rep3</td><td>NA</td><td align='right'>0.966</td><td align='right'>0.958</td><td align='right'>1.000</td><td align='right'>0.977</td><td align='right'>0.970</td><td align='right'>0.963</td></tr>
+<tr><td>ESRP-DKO-rep1</td><td>NA</td><td align='right'>0.969</td><td align='right'>0.963</td><td align='right'>0.977</td><td align='right'>1.000</td><td align='right'>0.975</td><td align='right'>0.968</td></tr>
+<tr><td>ESRP-DKO-rep2</td><td>NA</td><td align='right'>0.980</td><td align='right'>0.979</td><td align='right'>0.970</td><td align='right'>0.975</td><td align='right'>1.000</td><td align='right'>0.972</td></tr>
+<tr><td>ESRP-DKO-rep3</td><td>NA</td><td align='right'>0.975</td><td align='right'>0.967</td><td align='right'>0.963</td><td align='right'>0.968</td><td align='right'>0.972</td><td align='right'>1.000</td></tr>
+</table>
+
+<h3>Pearson Correlation Matrix</h3>
+<table><tr><th>Sample</th><th>Note</th>
+<th>CTRL-rep1</th><th>CTRL-rep2</th><th>CTRL-rep3</th><th>ESRP-DKO-rep1</th><th>ESRP-DKO-rep2</th><th>ESRP-DKO-rep3</th>
+</tr>
+<tr><td>CTRL-rep1</td><td>NA</td><td align='right'>1.000</td><td align='right'>0.985</td><td align='right'>0.968</td><td align='right'>0.972</td><td align='right'>0.983</td><td align='right'>0.978</td></tr>
+<tr><td>CTRL-rep2</td><td>NA</td><td align='right'>0.985</td><td align='right'>1.000</td><td align='right'>0.960</td><td align='right'>0.965</td><td align='right'>0.982</td><td align='right'>0.969</td></tr>
+<tr><td>CTRL-rep3</td><td>NA</td><td align='right'>0.968</td><td align='right'>0.960</td><td align='right'>1.000</td><td align='right'>0.982</td><td align='right'>0.974</td><td align='right'>0.967</td></tr>
+<tr><td>ESRP-DKO-rep1</td><td>NA</td><td align='right'>0.972</td><td align='right'>0.965</td><td align='right'>0.982</td><td align='right'>1.000</td><td align='right'>0.979</td><td align='right'>0.972</td></tr>
+<tr><td>ESRP-DKO-rep2</td><td>NA</td><td align='right'>0.983</td><td align='right'>0.982</td><td align='right'>0.974</td><td align='right'>0.979</td><td align='right'>1.000</td><td align='right'>0.976</td></tr>
+<tr><td>ESRP-DKO-rep3</td><td>NA</td><td align='right'>0.978</td><td align='right'>0.969</td><td align='right'>0.967</td><td align='right'>0.972</td><td align='right'>0.976</td><td align='right'>1.000</td></tr>
+</table>
+
+<HR WIDTH="100%" COLOR="#9090900" SIZE="3">
+<h2>Coverage Metrics for Bottom 1000 Expressed Transcripts</h1>
+<p>
+ The metrics in this table are calculated across the transcripts that were determined to have the highest expression levels. <table border=1><tr><th>Sample</th><th>Note</th><th>Mean Per Base Cov.</th><th>Mean CV</th><th>No. Covered 5'</th><th>5'200Base Norm</th><th>No. Covered 3'</th><th>3' 200Base Norm</th><th>Num. Gaps</th><th>Cumul. Gap Length</th><th>Gap %</th></tr>
+<tr><td><a href='CTRL-rep1/lowexpr/index.html'>CTRL-rep1</a></td><td>NA</td><td align='right'>9.19</td><td align='right'>0.80</td><td align='right'>716</td><td align='right'>0.44</td><td align='right'>778</td><td align='right'>0.632</td><td align='right'>1919</td><td align='right'>226982</td><td align='right'>10.9</td></tr>
+<tr><td><a href='CTRL-rep2/lowexpr/index.html'>CTRL-rep2</a></td><td>NA</td><td align='right'>9.79</td><td align='right'>0.79</td><td align='right'>720</td><td align='right'>0.39</td><td align='right'>767</td><td align='right'>0.679</td><td align='right'>1817</td><td align='right'>213131</td><td align='right'>10.2</td></tr>
+<tr><td><a href='CTRL-rep3/lowexpr/index.html'>CTRL-rep3</a></td><td>NA</td><td align='right'>9.36</td><td align='right'>0.79</td><td align='right'>716</td><td align='right'>0.37</td><td align='right'>779</td><td align='right'>0.633</td><td align='right'>1829</td><td align='right'>229350</td><td align='right'>11.0</td></tr>
+<tr><td><a href='ESRP-DKO-rep1/lowexpr/index.html'>ESRP-DKO-rep1</a></td><td>NA</td><td align='right'>9.70</td><td align='right'>0.81</td><td align='right'>740</td><td align='right'>0.38</td><td align='right'>774</td><td align='right'>0.592</td><td align='right'>1958</td><td align='right'>218250</td><td align='right'>10.1</td></tr>
+<tr><td><a href='ESRP-DKO-rep2/lowexpr/index.html'>ESRP-DKO-rep2</a></td><td>NA</td><td align='right'>10.78</td><td align='right'>0.79</td><td align='right'>717</td><td align='right'>0.35</td><td align='right'>776</td><td align='right'>0.650</td><td align='right'>1875</td><td align='right'>229278</td><td align='right'>11.3</td></tr>
+<tr><td><a href='ESRP-DKO-rep3/lowexpr/index.html'>ESRP-DKO-rep3</a></td><td>NA</td><td align='right'>10.22</td><td align='right'>0.80</td><td align='right'>763</td><td align='right'>0.42</td><td align='right'>754</td><td align='right'>0.628</td><td align='right'>1768</td><td align='right'>221988</td><td align='right'>11.8</td></tr>
+</table>
+<p>
+It is important to note that these values are restricted to the bottom 1000 expressed transcripts.  <b>5'</b> and <b>3'</b> values are per-base coverage averaged across all top transcripts.   5' and 3' ends are 200 base pairs.  Gap % is the total cumulative gap length divided by the total cumulative transcript lengths.
+</p>
+<h2>Coverage Metrics for Middle 1000 Expressed Transcripts</h1>
+<p>
+ The metrics in this table are calculated across the transcripts that were determined to have the highest expression levels. <table border=1><tr><th>Sample</th><th>Note</th><th>Mean Per Base Cov.</th><th>Mean CV</th><th>No. Covered 5'</th><th>5'200Base Norm</th><th>No. Covered 3'</th><th>3' 200Base Norm</th><th>Num. Gaps</th><th>Cumul. Gap Length</th><th>Gap %</th></tr>
+<tr><td><a href='CTRL-rep1/medexpr/index.html'>CTRL-rep1</a></td><td>NA</td><td align='right'>39.61</td><td align='right'>0.62</td><td align='right'>870</td><td align='right'>0.33</td><td align='right'>897</td><td align='right'>0.620</td><td align='right'>1034</td><td align='right'>86126</td><td align='right'>4.4</td></tr>
+<tr><td><a href='CTRL-rep2/medexpr/index.html'>CTRL-rep2</a></td><td>NA</td><td align='right'>41.73</td><td align='right'>0.62</td><td align='right'>863</td><td align='right'>0.31</td><td align='right'>889</td><td align='right'>0.577</td><td align='right'>949</td><td align='right'>78292</td><td align='right'>3.8</td></tr>
+<tr><td><a href='CTRL-rep3/medexpr/index.html'>CTRL-rep3</a></td><td>NA</td><td align='right'>41.41</td><td align='right'>0.60</td><td align='right'>875</td><td align='right'>0.35</td><td align='right'>904</td><td align='right'>0.565</td><td align='right'>888</td><td align='right'>82254</td><td align='right'>4.0</td></tr>
+<tr><td><a href='ESRP-DKO-rep1/medexpr/index.html'>ESRP-DKO-rep1</a></td><td>NA</td><td align='right'>43.35</td><td align='right'>0.60</td><td align='right'>866</td><td align='right'>0.32</td><td align='right'>909</td><td align='right'>0.564</td><td align='right'>1001</td><td align='right'>77734</td><td align='right'>3.7</td></tr>
+<tr><td><a href='ESRP-DKO-rep2/medexpr/index.html'>ESRP-DKO-rep2</a></td><td>NA</td><td align='right'>46.72</td><td align='right'>0.60</td><td align='right'>862</td><td align='right'>0.32</td><td align='right'>910</td><td align='right'>0.600</td><td align='right'>981</td><td align='right'>76946</td><td align='right'>3.9</td></tr>
+<tr><td><a href='ESRP-DKO-rep3/medexpr/index.html'>ESRP-DKO-rep3</a></td><td>NA</td><td align='right'>44.36</td><td align='right'>0.62</td><td align='right'>862</td><td align='right'>0.32</td><td align='right'>904</td><td align='right'>0.594</td><td align='right'>966</td><td align='right'>85800</td><td align='right'>4.4</td></tr>
+</table>
+<p>
+It is important to note that these values are restricted to the middle 1000 expressed transcripts.  <b>5'</b> and <b>3'</b> values are per-base coverage averaged across all top transcripts.   5' and 3' ends are 200 base pairs.  Gap % is the total cumulative gap length divided by the total cumulative transcript lengths.
+</p>
+<h2>Coverage Metrics for Top 1000 Expressed Transcripts</h1>
+<p>
+ The metrics in this table are calculated across the transcripts that were determined to have the highest expression levels. <table border=1><tr><th>Sample</th><th>Note</th><th>Mean Per Base Cov.</th><th>Mean CV</th><th>No. Covered 5'</th><th>5'200Base Norm</th><th>No. Covered 3'</th><th>3' 200Base Norm</th><th>Num. Gaps</th><th>Cumul. Gap Length</th><th>Gap %</th></tr>
+<tr><td><a href='CTRL-rep1/highexpr/index.html'>CTRL-rep1</a></td><td>NA</td><td align='right'>1555.33</td><td align='right'>0.66</td><td align='right'>974</td><td align='right'>0.26</td><td align='right'>992</td><td align='right'>0.489</td><td align='right'>156</td><td align='right'>9801</td><td align='right'>0.9</td></tr>
+<tr><td><a href='CTRL-rep2/highexpr/index.html'>CTRL-rep2</a></td><td>NA</td><td align='right'>1658.04</td><td align='right'>0.66</td><td align='right'>976</td><td align='right'>0.25</td><td align='right'>985</td><td align='right'>0.488</td><td align='right'>170</td><td align='right'>9938</td><td align='right'>1.0</td></tr>
+<tr><td><a href='CTRL-rep3/highexpr/index.html'>CTRL-rep3</a></td><td>NA</td><td align='right'>1702.62</td><td align='right'>0.67</td><td align='right'>966</td><td align='right'>0.25</td><td align='right'>986</td><td align='right'>0.482</td><td align='right'>195</td><td align='right'>12261</td><td align='right'>1.3</td></tr>
+<tr><td><a href='ESRP-DKO-rep1/highexpr/index.html'>ESRP-DKO-rep1</a></td><td>NA</td><td align='right'>1682.30</td><td align='right'>0.68</td><td align='right'>970</td><td align='right'>0.24</td><td align='right'>987</td><td align='right'>0.495</td><td align='right'>182</td><td align='right'>11511</td><td align='right'>1.2</td></tr>
+<tr><td><a href='ESRP-DKO-rep2/highexpr/index.html'>ESRP-DKO-rep2</a></td><td>NA</td><td align='right'>1817.18</td><td align='right'>0.67</td><td align='right'>972</td><td align='right'>0.24</td><td align='right'>993</td><td align='right'>0.491</td><td align='right'>148</td><td align='right'>8304</td><td align='right'>0.8</td></tr>
+<tr><td><a href='ESRP-DKO-rep3/highexpr/index.html'>ESRP-DKO-rep3</a></td><td>NA</td><td align='right'>1744.70</td><td align='right'>0.66</td><td align='right'>978</td><td align='right'>0.24</td><td align='right'>991</td><td align='right'>0.481</td><td align='right'>155</td><td align='right'>9068</td><td align='right'>0.9</td></tr>
+</table>
+<p>
+It is important to note that these values are restricted to the top 1000 expressed transcripts.  <b>5'</b> and <b>3'</b> values are per-base coverage averaged across all top transcripts.   5' and 3' ends are 200 base pairs.  Gap % is the total cumulative gap length divided by the total cumulative transcript lengths.
+</p>
+
+<HR WIDTH="100%" COLOR="#9090900" SIZE="3">
+<h3>Mean Coverage</h3>
+<p><h4>Low Expressed</h4>
+<img src= 'meanCoverageNorm_low.png'><h4>Medium Expressed</h4>
+<img src= 'meanCoverageNorm_medium.png'><h4>High Expressed</h4>
+<img src= 'meanCoverageNorm_high.png'></p>
+<h3>Mean Coverage from 3' End</h3>
+<p><h4>Low Expressed</h4>
+<img src= 'meanCoverage_low.png'><h4>Medium Expressed</h4>
+<img src= 'meanCoverage_medium.png'><h4>High Expressed</h4>
+<img src= 'meanCoverage_high.png'></p>
+
+<HR WIDTH="100%" COLOR="#9090900" SIZE="3">
+
+<HR WIDTH="100%" COLOR="#9090900" SIZE="3">
+<p>
+<h2>Files</h2>
+<table><tr><th>File</th><th>Description</th></tr>
+<tr><td><a target='_new' href='metrics.tsv'>Metrics Tab Separated Value File</a></td><td>Text file containing all the metrics of the report in a single tab delimited file.</td></tr>
+<tr><td><a target='_new' href='meanCoverageNorm_low.txt'>Mean Coverage Plot Data - Low Expr</a></td><td>Text file containing the data for mean coverage plot by position for low expression coverage</td></tr>
+<tr><td><a target='_new' href='meanCoverageNorm_medium.txt'>Mean Coverage Plot Data - Medium Expr</a></td><td>Text file containing the data for mean coverage plot by position for medium expression coverage</td></tr>
+<tr><td><a target='_new' href='meanCoverageNorm_high.txt'>Mean Coverage Plot Data - High Expr</a></td><td>Text file containing the data for mean coverage plot by position for high expression coverage</td></tr>
+<tr><td><a target='_new' href='meanCoverage_low.txt'>Mean Coverage Plot Data - Low Expr</a></td><td>Text file containing the data for mean coverage plot by distance from 3' end for low expression coverage</td></tr>
+<tr><td><a target='_new' href='meanCoverage_medium.txt'>Mean Coverage Plot Data - Medium Expr</a></td><td>Text file containing the data for mean coverage plot by distance from 3' end for medium expression coverage</td></tr>
+<tr><td><a target='_new' href='meanCoverage_high.txt'>Mean Coverage Plot Data - High Expr</a></td><td>Text file containing the data for mean coverage plot by distance from 3' end for high expression coverage</td></tr>
+<tr><td><a target='_new' href='gapLengthHist_low.txt'>Mean Coverage Plot Data - Low Expr</a></td><td>Text file containing the data for gap length counts for low expression coverage</td></tr>
+<tr><td><a target='_new' href='gapLengthHist_medium.txt'>Mean Coverage Plot Data - Medium Expr</a></td><td>Text file containing the data for gap length counts for medium expression coverage</td></tr>
+<tr><td><a target='_new' href='gapLengthHist_high.txt'>Mean Coverage Plot Data - High Expr</a></td><td>Text file containing the data for gap length counts for high expression coverage</td></tr>
+
+</table>
+</p>
+
+<HR WIDTH="100%" COLOR="#9090900" SIZE="3">
+<p>
+<h2>Summary of Runtime Parameters</h2>
+<table><tr><th>Option</th><th>Description</th><th>Value</th></tr>
+<tr><td>Samples</td><td>Samples/Sample File used</td><td>RNAseQC-sampleIds.txt</td></tr>
+<tr><td>Transcript Model</td><td>GTF formatted file containing the transcript definitions</td><td>Mus_musculus.GRCm38.82-RNAseQC.gtf</td></tr>
+<tr><td>Reference Genome</td><td>The genome version to which the BAM is aligned</td><td>Mus_musculus.GRCm38.dna_sm.primary_assembly.fa</td></tr>
+<tr><td>Downsampling</td><td>For Coverage Metrics, the number of reads is randomly reduced to the given level</td><td>none</td></tr>
+<tr><td>Detailed Report</td><td>The optional detailed report contains coverage metrics for every transcript</td><td>no details</td></tr>
+<tr><td>rRNA Intervals</td><td>Genomic coordinates of rRNA loci</td><td>rRNA_intervals.list</td></tr>
+
+</table>
+</p>
+<h5>Generated by <a target='_newWebPage' href='http://www.broadinstitute.org/rna-seqc'>RNA-SeQC</a> v1.1.8.1 07/11/14</h5>
+<h5>Run on Thu May 19 05:17:32 AEST 2016</h5>
+</body>
+</html>
