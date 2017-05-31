@@ -1,0 +1,5 @@
+File	Total_reads_processed	Reads_too_short_to_map	%Reads_too_short_to_map	Unique_alignments	%Unique_alignments	Multiple_alignments	%Multiple_alignments	Failed_to_align	%failed_to_align	Paired	%Paired
+Sample-3.A012.C8H0KANXX.s_2.r_1.trunc.fastq.gz	88983957	362269	0.4	41016766	46.1	10775430	12.1	36829492	41.4	34359246	38.6
+Sample-3.A012.C8H0KANXX.s_2.r_2.trunc.fastq.gz	88983957	343348	0.4	40669060	45.7	10669903	12.0	37301646	41.9	34359246	38.6
+Sample-3.A006.C8H0KANXX.s_2.r_1.trunc.fastq.gz	70954559	445321	0.6	52564749	74.1	12979739	18.3	4964750	7.0	44061736	62.1
+Sample-3.A006.C8H0KANXX.s_2.r_2.trunc.fastq.gz	70954559	422309	0.6	52344645	73.8	12908077	18.2	5279528	7.4	44061736	62.1

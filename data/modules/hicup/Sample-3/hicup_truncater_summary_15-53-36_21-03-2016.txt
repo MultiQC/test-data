@@ -1,0 +1,5 @@
+File	Total_Reads_Processed	Truncated	%Truncated	Not_truncated	%Not_truncated	Average_length_truncated_sequence
+Sample-3.A006.C8H0KANXX.s_2.r_2.fq	70954559	12996521	18.32	57958038	81.68	69.35
+Sample-3.A006.C8H0KANXX.s_2.r_1.fq	70954559	12953803	18.26	58000756	81.74	68.33
+Sample-3.A012.C8H0KANXX.s_2.r_1.fq	88983957	11713418	13.16	77270539	86.84	68.86
+Sample-3.A012.C8H0KANXX.s_2.r_2.fq	88983957	11677929	13.12	77306028	86.88	69.83
