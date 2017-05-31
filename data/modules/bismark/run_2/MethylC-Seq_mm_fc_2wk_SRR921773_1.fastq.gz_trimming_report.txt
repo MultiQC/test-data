@@ -1,0 +1,157 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: MethylC-Seq_mm_fc_2wk_SRR921773_1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.4.0
+Cutadapt version: 1.8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: -q
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.8 with Python 2.7.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC MethylC-Seq_mm_fc_2wk_SRR921773_1.fastq.gz
+Trimming 1 adapter(s) with at most 10.0% errors in single-end mode ...
+Finished in 3278.35 s (23 us/read; 2.60 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             142,023,805
+Reads with adapters:                38,946,659 (27.4%)
+Reads written (passing filters):   142,023,805 (100.0%)
+
+Total basepairs processed: 14,344,404,305 bp
+Quality-trimmed:           3,253,437,153 bp (22.7%)
+Total written (filtered):  10,955,724,667 bp (76.4%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 38946659 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 42.6%
+  C: 0.4%
+  G: 17.2%
+  T: 39.7%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	22252347	35505951.2	0	22252347
+2	6966784	8876487.8	0	6966784
+3	1692276	2219122.0	0	1692276
+4	1328948	554780.5	0	1328948
+5	355608	138695.1	0	355608
+6	610196	34673.8	0	610196
+7	355230	8668.4	0	355230
+8	555496	2167.1	0	555496
+9	1068160	541.8	0	1064982 3178
+10	508175	135.4	1	492451 15724
+11	175860	33.9	1	169300 6560
+12	332485	8.5	1	325098 7387
+13	182188	2.1	1	177418 4770
+14	316424	2.1	1	308187 8237
+15	285133	2.1	1	278697 6436
+16	196461	2.1	1	191118 5343
+17	194638	2.1	1	189604 5034
+18	93972	2.1	1	90791 3181
+19	198093	2.1	1	192570 5523
+20	130816	2.1	1	126643 4173
+21	136090	2.1	1	131915 4175
+22	205853	2.1	1	201367 4486
+23	112336	2.1	1	109433 2903
+24	120007	2.1	1	117486 2521
+25	11894	2.1	1	11381 513
+26	47623	2.1	1	45488 2135
+27	283506	2.1	1	277827 5679
+28	11136	2.1	1	10495 641
+29	53024	2.1	1	51803 1221
+30	8646	2.1	1	8402 244
+31	1425	2.1	1	1324 101
+32	8746	2.1	1	8335 411
+33	40285	2.1	1	39446 839
+34	4497	2.1	1	4343 154
+35	4455	2.1	1	4313 142
+36	4006	2.1	1	3868 138
+37	6061	2.1	1	5855 206
+38	10387	2.1	1	10120 267
+39	14116	2.1	1	13760 356
+40	17145	2.1	1	16713 432
+41	16680	2.1	1	16255 425
+42	13898	2.1	1	13560 338
+43	8449	2.1	1	8256 193
+44	4240	2.1	1	4132 108
+45	1549	2.1	1	1504 45
+46	393	2.1	1	377 16
+47	139	2.1	1	116 23
+48	54	2.1	1	33 21
+49	40	2.1	1	22 18
+50	32	2.1	1	12 20
+51	28	2.1	1	12 16
+52	28	2.1	1	7 21
+53	19	2.1	1	10 9
+54	24	2.1	1	7 17
+55	18	2.1	1	6 12
+56	22	2.1	1	3 19
+57	19	2.1	1	6 13
+58	13	2.1	1	3 10
+59	26	2.1	1	8 18
+60	27	2.1	1	6 21
+61	14	2.1	1	1 13
+62	11	2.1	1	1 10
+63	17	2.1	1	1 16
+64	25	2.1	1	4 21
+65	9	2.1	1	2 7
+66	15	2.1	1	3 12
+67	14	2.1	1	0 14
+68	19	2.1	1	1 18
+69	9	2.1	1	0 9
+70	14	2.1	1	0 14
+71	15	2.1	1	1 14
+72	12	2.1	1	0 12
+73	15	2.1	1	0 15
+74	13	2.1	1	0 13
+75	11	2.1	1	0 11
+76	6	2.1	1	0 6
+77	9	2.1	1	0 9
+78	5	2.1	1	0 5
+79	13	2.1	1	0 13
+80	13	2.1	1	0 13
+81	12	2.1	1	0 12
+82	6	2.1	1	0 6
+83	6	2.1	1	0 6
+84	9	2.1	1	0 9
+85	7	2.1	1	0 7
+86	9	2.1	1	0 9
+87	11	2.1	1	0 11
+88	8	2.1	1	0 8
+89	6	2.1	1	0 6
+90	12	2.1	1	0 12
+91	11	2.1	1	1 10
+92	10	2.1	1	0 10
+93	12	2.1	1	0 12
+94	11	2.1	1	0 11
+95	11	2.1	1	0 11
+96	6	2.1	1	0 6
+97	7	2.1	1	0 7
+98	5	2.1	1	0 5
+99	5	2.1	1	0 5
+100	7	2.1	1	0 7
+101	3	2.1	1	0 3
+
+
+RUN STATISTICS FOR INPUT FILE: MethylC-Seq_mm_fc_2wk_SRR921773_1.fastq.gz
+=============================================
+142023805 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	13897926 (9.8%)
+

@@ -1,0 +1,157 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: MethylC-Seq_mm_fc_2wk_SRR921694_1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.4.0
+Cutadapt version: 1.8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: -q
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.8 with Python 2.7.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC MethylC-Seq_mm_fc_2wk_SRR921694_1.fastq.gz
+Trimming 1 adapter(s) with at most 10.0% errors in single-end mode ...
+Finished in 3959.23 s (24 us/read; 2.46 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             162,506,120
+Reads with adapters:                61,439,154 (37.8%)
+Reads written (passing filters):   162,506,120 (100.0%)
+
+Total basepairs processed: 16,413,118,120 bp
+Quality-trimmed:           1,962,843,445 bp (12.0%)
+Total written (filtered):  14,203,015,227 bp (86.5%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 61439154 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 34.6%
+  C: 0.4%
+  G: 20.1%
+  T: 44.9%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	32591760	40626530.0	0	32591760
+2	10295658	10156632.5	0	10295658
+3	3800434	2539158.1	0	3800434
+4	2507196	634789.5	0	2507196
+5	960587	158697.4	0	960587
+6	1052821	39674.3	0	1052821
+7	589169	9918.6	0	589169
+8	813796	2479.6	0	813796
+9	1066223	619.9	0	1061782 4441
+10	696193	155.0	1	678039 18154
+11	625741	38.7	1	611434 14307
+12	664481	9.7	1	651407 13074
+13	430906	2.4	1	421441 9465
+14	570862	2.4	1	557209 13653
+15	532415	2.4	1	521714 10701
+16	352310	2.4	1	344670 7640
+17	398763	2.4	1	389753 9010
+18	295667	2.4	1	287879 7788
+19	458085	2.4	1	443387 14698
+20	316515	2.4	1	307055 9460
+21	306827	2.4	1	298243 8584
+22	307069	2.4	1	300294 6775
+23	185978	2.4	1	181716 4262
+24	269834	2.4	1	264324 5510
+25	83201	2.4	1	81305 1896
+26	136741	2.4	1	133174 3567
+27	334647	2.4	1	327385 7262
+28	48324	2.4	1	46645 1679
+29	183442	2.4	1	179792 3650
+30	71045	2.4	1	69795 1250
+31	26202	2.4	1	25605 597
+32	52504	2.4	1	51217 1287
+33	128003	2.4	1	125886 2117
+34	29831	2.4	1	29206 625
+35	31966	2.4	1	31408 558
+36	26800	2.4	1	26328 472
+37	28218	2.4	1	27683 535
+38	30290	2.4	1	29708 582
+39	33881	2.4	1	33208 673
+40	35424	2.4	1	34786 638
+41	27922	2.4	1	27438 484
+42	20214	2.4	1	19880 334
+43	11439	2.4	1	11250 189
+44	5726	2.4	1	5632 94
+45	1851	2.4	1	1804 47
+46	565	2.4	1	533 32
+47	243	2.4	1	213 30
+48	118	2.4	1	95 23
+49	76	2.4	1	54 22
+50	70	2.4	1	44 26
+51	55	2.4	1	36 19
+52	45	2.4	1	28 17
+53	47	2.4	1	30 17
+54	49	2.4	1	28 21
+55	48	2.4	1	21 27
+56	34	2.4	1	14 20
+57	39	2.4	1	14 25
+58	33	2.4	1	15 18
+59	42	2.4	1	13 29
+60	27	2.4	1	13 14
+61	24	2.4	1	11 13
+62	22	2.4	1	7 15
+63	27	2.4	1	5 22
+64	25	2.4	1	5 20
+65	25	2.4	1	6 19
+66	22	2.4	1	2 20
+67	24	2.4	1	5 19
+68	15	2.4	1	0 15
+69	18	2.4	1	1 17
+70	17	2.4	1	1 16
+71	16	2.4	1	0 16
+72	25	2.4	1	0 25
+73	13	2.4	1	0 13
+74	23	2.4	1	0 23
+75	11	2.4	1	0 11
+76	17	2.4	1	0 17
+77	10	2.4	1	0 10
+78	17	2.4	1	0 17
+79	16	2.4	1	0 16
+80	18	2.4	1	0 18
+81	13	2.4	1	1 12
+82	15	2.4	1	0 15
+83	11	2.4	1	0 11
+84	16	2.4	1	0 16
+85	12	2.4	1	2 10
+86	14	2.4	1	0 14
+87	18	2.4	1	0 18
+88	19	2.4	1	0 19
+89	14	2.4	1	0 14
+90	17	2.4	1	1 16
+91	11	2.4	1	0 11
+92	22	2.4	1	0 22
+93	18	2.4	1	0 18
+94	10	2.4	1	0 10
+95	15	2.4	1	0 15
+96	16	2.4	1	0 16
+97	12	2.4	1	0 12
+98	19	2.4	1	0 19
+99	16	2.4	1	0 16
+100	15	2.4	1	0 15
+101	14	2.4	1	0 14
+
+
+RUN STATISTICS FOR INPUT FILE: MethylC-Seq_mm_fc_2wk_SRR921694_1.fastq.gz
+=============================================
+162506120 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	9413352 (5.8%)
+

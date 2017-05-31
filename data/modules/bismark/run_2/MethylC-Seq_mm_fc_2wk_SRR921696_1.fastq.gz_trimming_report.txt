@@ -1,0 +1,157 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: MethylC-Seq_mm_fc_2wk_SRR921696_1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 0.4.0
+Cutadapt version: 1.8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length before a sequence gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Running FastQC with the following extra arguments: -q
+Output file will be GZIP compressed
+
+
+This is cutadapt 1.8 with Python 2.7.6
+Command line parameters: -f fastq -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC MethylC-Seq_mm_fc_2wk_SRR921696_1.fastq.gz
+Trimming 1 adapter(s) with at most 10.0% errors in single-end mode ...
+Finished in 3091.65 s (25 us/read; 2.44 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             125,723,135
+Reads with adapters:                34,543,903 (27.5%)
+Reads written (passing filters):   125,723,135 (100.0%)
+
+Total basepairs processed: 12,698,036,635 bp
+Quality-trimmed:           2,509,363,531 bp (19.8%)
+Total written (filtered):  10,064,122,698 bp (79.3%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 34543903 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 43.1%
+  C: 0.4%
+  G: 17.1%
+  T: 39.2%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	19660837	31430783.8	0	19660837
+2	5906285	7857695.9	0	5906285
+3	1451309	1964424.0	0	1451309
+4	1187185	491106.0	0	1187185
+5	315906	122776.5	0	315906
+6	582508	30694.1	0	582508
+7	305633	7673.5	0	305633
+8	527289	1918.4	0	527289
+9	1056156	479.6	0	1053231 2925
+10	467605	119.9	1	453086 14519
+11	160281	30.0	1	154360 5921
+12	321398	7.5	1	314298 7100
+13	168053	1.9	1	163303 4750
+14	307308	1.9	1	299207 8101
+15	277083	1.9	1	270716 6367
+16	178470	1.9	1	173608 4862
+17	189355	1.9	1	184476 4879
+18	80281	1.9	1	77567 2714
+19	184936	1.9	1	179824 5112
+20	118256	1.9	1	114378 3878
+21	133652	1.9	1	129466 4186
+22	202039	1.9	1	197531 4508
+23	101320	1.9	1	98710 2610
+24	123638	1.9	1	121019 2619
+25	10456	1.9	1	10015 441
+26	42696	1.9	1	40698 1998
+27	275786	1.9	1	270185 5601
+28	10162	1.9	1	9562 600
+29	47139	1.9	1	46026 1113
+30	6263	1.9	1	6060 203
+31	926	1.9	1	828 98
+32	7126	1.9	1	6758 368
+33	35029	1.9	1	34270 759
+34	3252	1.9	1	3137 115
+35	3987	1.9	1	3870 117
+36	3540	1.9	1	3421 119
+37	5352	1.9	1	5176 176
+38	9743	1.9	1	9469 274
+39	13306	1.9	1	12920 386
+40	15932	1.9	1	15492 440
+41	16115	1.9	1	15708 407
+42	13846	1.9	1	13527 319
+43	8913	1.9	1	8720 193
+44	4701	1.9	1	4604 97
+45	1614	1.9	1	1563 51
+46	380	1.9	1	363 17
+47	114	1.9	1	98 16
+48	49	1.9	1	34 15
+49	33	1.9	1	18 15
+50	29	1.9	1	13 16
+51	34	1.9	1	8 26
+52	22	1.9	1	6 16
+53	19	1.9	1	8 11
+54	21	1.9	1	8 13
+55	23	1.9	1	7 16
+56	14	1.9	1	3 11
+57	28	1.9	1	11 17
+58	18	1.9	1	4 14
+59	19	1.9	1	7 12
+60	18	1.9	1	4 14
+61	14	1.9	1	3 11
+62	10	1.9	1	2 8
+63	13	1.9	1	2 11
+64	16	1.9	1	2 14
+65	15	1.9	1	1 14
+66	16	1.9	1	1 15
+67	8	1.9	1	1 7
+68	17	1.9	1	1 16
+69	18	1.9	1	2 16
+70	8	1.9	1	0 8
+71	5	1.9	1	0 5
+72	10	1.9	1	0 10
+73	15	1.9	1	0 15
+74	14	1.9	1	1 13
+75	3	1.9	1	0 3
+76	9	1.9	1	0 9
+77	6	1.9	1	0 6
+78	12	1.9	1	0 12
+79	15	1.9	1	0 15
+80	9	1.9	1	0 9
+81	10	1.9	1	0 10
+82	10	1.9	1	0 10
+83	19	1.9	1	0 19
+84	12	1.9	1	0 12
+85	9	1.9	1	0 9
+86	4	1.9	1	0 4
+87	10	1.9	1	0 10
+88	5	1.9	1	0 5
+89	9	1.9	1	0 9
+90	11	1.9	1	0 11
+91	7	1.9	1	0 7
+92	6	1.9	1	0 6
+93	7	1.9	1	0 7
+94	5	1.9	1	0 5
+95	11	1.9	1	0 11
+96	8	1.9	1	0 8
+97	6	1.9	1	0 6
+98	11	1.9	1	0 11
+99	11	1.9	1	0 11
+100	4	1.9	1	0 4
+101	7	1.9	1	0 7
+
+
+RUN STATISTICS FOR INPUT FILE: MethylC-Seq_mm_fc_2wk_SRR921696_1.fastq.gz
+=============================================
+125723135 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	9476075 (7.5%)
+

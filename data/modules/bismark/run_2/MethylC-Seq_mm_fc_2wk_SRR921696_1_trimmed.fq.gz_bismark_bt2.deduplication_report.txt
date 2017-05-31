@@ -1,0 +1,7 @@
+
+Total number of alignments analysed in MethylC-Seq_mm_fc_2wk_SRR921696_1_trimmed.fq.gz_bismark_bt2.bam:	89616435
+Total number duplicated alignments removed:	5482044 (6.12%)
+Duplicated alignments were found at:	2023343 different position(s)
+
+Total count of deduplicated leftover sequences: 84134391 (93.88% of total)
+
