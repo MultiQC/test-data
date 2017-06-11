@@ -6,7 +6,7 @@ Atropos version: 1.1.5
 Python version: 3.5.3
 Command line parameters: trim -a GATCGGAAGAGCACACGTCTGAACTCCAGTCAC -A GATCGGAAGAGCGTCGTGTAGGGAAAGGAGTGT --minimum-length 100 --pair-filter any -pe1 ../origin_data/test.R1.fastq.gz -pe2 ../origin_data/test.R2.fastq.gz -o ../origin_data/pe_test.R1.fastq.gz -p ../origin_data/pe_test.R2.fastq.gz --report-file pe_test.no-q.report.txt --report-formats txt
 
-Sample ID: test.R
+Sample ID: pe_test.no-q.R
 Input format: FASTQ, Paired, w/ Qualities
 Input files:
   /Users/jonsanders/Development/git_sw/MultiQC_TestData/data/modules/atropos/origin_data/test.R1.fastq.gz
