@@ -1,0 +1,2 @@
+sample	unique species A pairs	unique species B pairs	ambiguous pairs
+S2	8510788	1555	7116
