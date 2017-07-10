@@ -1,0 +1,9 @@
+Number of interspecies translocations by references: 
+References  1  2  3
+meta_ref_1  -  2  0
+meta_ref_2  2  -  0
+meta_ref_3  0  0  -
+References:
+1 - meta_ref_1
+2 - meta_ref_2
+3 - meta_ref_3

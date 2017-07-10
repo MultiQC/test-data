@@ -1,0 +1,4 @@
+meta_ref_1_Lactobacillus_plantarum_22_55k.fa
+1 77
+792 3644
+3828 5304

@@ -1,0 +1,160 @@
+/home/vsaveliev/quast/quast.pyc --combined-ref --colors #E31A1C,#1F78B4 --ls solid,solid --ambiguity-usage all /home/vsaveliev/quast/test_data/meta_contigs_1.fasta /home/vsaveliev/quast/test_data/meta_contigs_2.fasta -R /home/vsaveliev/quast/quast_test_output/quast_corrected_input/combined_reference.fasta -o /home/vsaveliev/quast/quast_test_output/combined_reference --labels "meta_contigs_1, meta_contigs_2"
+
+Started: 2017-07-11 00:53:39
+
+Logging to /home/vsaveliev/quast/quast_test_output/combined_reference/quast.log
+NOTICE: Maximum number of threads is set to 30 (use --threads option to set it manually)
+
+CWD: /home/vsaveliev/quast
+Main parameters: 
+  Threads: 30, minimum contig length: 500, ambiguity: all, threshold for extensive misassembly size: 1000
+
+Reference:
+  /home/vsaveliev/quast/quast_test_output/quast_corrected_input/combined_reference.fasta ==> combined_reference
+
+Contigs:
+  Pre-processing...
+  1  /home/vsaveliev/quast/test_data/meta_contigs_1.fasta ==> meta_contigs_1
+  2  /home/vsaveliev/quast/test_data/meta_contigs_2.fasta ==> meta_contigs_2
+
+2017-07-11 00:53:39
+Running Basic statistics processor...
+  Reference genome:
+    combined_reference.fasta, length = 179997, num fragments = 3, GC % = 45.50
+  Contig files: 
+    1  meta_contigs_1
+    2  meta_contigs_2
+  Calculating N50 and L50...
+    1  meta_contigs_1, N50 = 48458, L50 = 2, Total length = 180170, GC % = 45.35, # N's per 100 kbp =  7.77
+    2  meta_contigs_2, N50 = 49658, L50 = 2, Total length = 172703, GC % = 45.11, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/basic_stats/GC_content_plot.pdf
+  Drawing meta_contigs_1 GC content plot...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/basic_stats/meta_contigs_1_GC_content_plot.pdf
+  Drawing meta_contigs_2 GC content plot...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/basic_stats/meta_contigs_2_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 97x)...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/basic_stats/coverage_histogram.pdf
+  Drawing meta_contigs_1 coverage histogram (bin size: 63x)...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/basic_stats/meta_contigs_1_coverage_histogram.pdf
+  Drawing meta_contigs_2 coverage histogram (bin size: 97x)...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/basic_stats/meta_contigs_2_coverage_histogram.pdf
+Done.
+
+2017-07-11 00:53:45
+Running Contig analyzer...
+NOTICE: Previous try of gnuplot compilation was unsuccessful! For forced retrying, please remove /home/vsaveliev/quast/quast_libs/gnuplot/make.failed and restart QUAST. 
+  2  meta_contigs_2
+  1  meta_contigs_1
+  2  Logging to files /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_2.stdout and contigs_report_meta_contigs_2.stderr...
+  1  Logging to files /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_1.stdout and contigs_report_meta_contigs_1.stderr...
+  2  Aligning contigs to the reference
+  1  Aligning contigs to the reference
+  2  quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2 \
+     -t 15 quast_test_output/quast_corrected_input/combined_reference.fasta quast_test_output/quast_corrected_input/meta_contigs_2.fasta \
+     >> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_2.stdout \
+     2>> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_2.stderr
+  1  quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1 \
+     -t 15 quast_test_output/quast_corrected_input/combined_reference.fasta quast_test_output/quast_corrected_input/meta_contigs_1.fasta \
+     >> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_1.stdout \
+     2>> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_1.stderr
+  1  quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1.delta \
+     > quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1.fdelta \
+     2> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_1.stderr
+  2  quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2.delta \
+     > quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2.fdelta \
+     2> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_2.stderr
+  1  quast_libs/MUMmer/mummerplot --html --layout -p quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1 \
+     quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1.delta \
+     > quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_1.stdout \
+     2> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_1.stderr
+  2  quast_libs/MUMmer/mummerplot --html --layout -p quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2 \
+     quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2.delta \
+     > quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_2.stdout \
+     2> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_2.stderr
+NOTICE: 1   MUMmer plot cannot be created.
+
+  1  quast_libs/MUMmer/show-coords quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1.delta \
+     > quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1.coords_tmp \
+     2> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_1.stderr
+  1  quast_libs/MUMmer/show-snps -S -T -H quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1.delta \
+     < quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1.coords.headless \
+     > quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1.all_snps \
+     2> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_1.stderr
+NOTICE: 2   MUMmer plot cannot be created.
+
+  2  quast_libs/MUMmer/show-coords quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2.delta \
+     > quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2.coords_tmp \
+     2> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_2.stderr
+  2  quast_libs/MUMmer/show-snps -S -T -H quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2.delta \
+     < quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2.coords.headless \
+     > quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2.all_snps \
+     2> quast_test_output/combined_reference/contigs_reports/contigs_report_meta_contigs_2.stderr
+  1  Alignments: quast_test_output/combined_reference/contigs_reports/alignments_meta_contigs_1.tsv
+  1  Analysis is finished.
+
+  Gzipping /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1.all_snps to reduce disk space usage...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_1.all_snps.gz
+  2  Alignments: quast_test_output/combined_reference/contigs_reports/alignments_meta_contigs_2.tsv
+  2  Analysis is finished.
+
+  Gzipping /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2.all_snps to reduce disk space usage...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/nucmer_output/meta_contigs_2.all_snps.gz
+  Information about interspecies translocations by references for meta_contigs_1 is saved to /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/interspecies_translocations_by_refs_meta_contigs_1.info
+  Information about interspecies translocations by references for meta_contigs_2 is saved to /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/interspecies_translocations_by_refs_meta_contigs_2.info
+  Drawing Intergenomic misassemblies (found and supposed) metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/intergenomic_misassemblies.pdf
+  Creating total report...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2017-07-11 00:53:50
+Running NA-NGA calculation...
+  1  meta_contigs_1, Largest alignment = 55106, NA50 = 37178, LA50 = 2
+  2  meta_contigs_2, Largest alignment = 49658, NA50 = 27260, LA50 = 3
+  Drawing cumulative plot...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/aligned_stats/NAx_plot.pdf
+Done.
+
+2017-07-11 00:53:51
+Running Genome analyzer...
+  NOTICE: No file with genes provided. Use the -G option if you want to specify it.
+  NOTICE: No file with operons provided. Use the -O option if you want to specify it.
+  1  meta_contigs_1
+  2  meta_contigs_2
+  2  Analysis is finished.
+  1  Analysis is finished.
+  Drawing Genome fraction, % histogram...
+    saved to /home/vsaveliev/quast/quast_test_output/combined_reference/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2017-07-11 00:53:53
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2017-07-11 00:53:56
+RESULTS:
+  Text versions of total report are saved to /home/vsaveliev/quast/quast_test_output/combined_reference/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/vsaveliev/quast/quast_test_output/combined_reference/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /home/vsaveliev/quast/quast_test_output/combined_reference/report.html
+  PDF version (tables and plots) is saved to /home/vsaveliev/quast/quast_test_output/combined_reference/report.pdf
+  Icarus (contig browser) is saved to /home/vsaveliev/quast/quast_test_output/combined_reference/icarus.html

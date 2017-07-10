@@ -1,0 +1,3 @@
+Assembly	# misassemblies	    # relocations	    # translocations	    # inversions	    # interspecies translocations	# misassembled contigs	Misassembled contigs length	# possibly misassembled contigs	    # possible misassemblies	# local misassemblies	# scaffold gap size misassemblies	# unaligned mis. contigs	# mismatches	# indels	    # indels (<= 5 bp)	    # indels (> 5 bp)	Indels length
+meta_contigs_1	1	1	0	0	2	1	48458	0	0	0	0	1	13	0	0	0	0
+meta_contigs_2	0	0	0	0	1	0	0	0	0	0	0	0	13	0	0	0	0

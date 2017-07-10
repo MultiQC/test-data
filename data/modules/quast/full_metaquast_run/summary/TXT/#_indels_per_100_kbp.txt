@@ -1,0 +1,4 @@
+Assemblies  meta_contigs_1  meta_contigs_2
+meta_ref_1  0.00            0.00          
+meta_ref_2  0.00            0.00          
+meta_ref_3  3.13            0.00          

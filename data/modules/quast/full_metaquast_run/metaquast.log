@@ -1,0 +1,97 @@
+/home/vsaveliev/quast/metaquast.py --test
+
+Version: 4.4.1, 6d94841
+
+System information:
+  OS: Linux-3.16.0-4-amd64-x86_64-with-debian-8.8 (linux_64)
+  Python version: 2.7.13
+  CPUs number: 120
+
+Started: 2017-07-11 00:53:38
+
+Logging to /home/vsaveliev/quast/quast_test_output/metaquast.log
+NOTICE: Maximum number of threads is set to 30 (use --threads option to set it manually)
+
+Reference(s):
+  /home/vsaveliev/quast/test_data/meta_ref_1.fasta ==> meta_ref_1
+  /home/vsaveliev/quast/test_data/meta_ref_2.fasta ==> meta_ref_2
+  /home/vsaveliev/quast/test_data/meta_ref_3.fasta ==> meta_ref_3
+  All references were combined in combined_reference.fasta
+
+Contigs:
+  Pre-processing...
+  1  /home/vsaveliev/quast/test_data/meta_contigs_1.fasta ==> meta_contigs_1
+  2  /home/vsaveliev/quast/test_data/meta_contigs_2.fasta ==> meta_contigs_2
+
+Starting quast.py for the combined reference...
+(logging to /home/vsaveliev/quast/quast_test_output/combined_reference/quast.log)
+
+Partitioning contigs into bins aligned to each reference..
+  processing meta_contigs_1
+  processing meta_contigs_2
+
+Run QUAST on different references in parallel..
+
+Starting quast.py for the contigs aligned to meta_ref_1... (logging to /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_1/quast.log)
+
+Starting quast.py for the contigs aligned to meta_ref_2... (logging to /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_2/quast.log)
+
+Starting quast.py for the contigs aligned to meta_ref_3... (logging to /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_3/quast.log)
+
+Starting quast.py for the contigs not aligned anywhere... (logging to /home/vsaveliev/quast/quast_test_output/not_aligned/quast.log)
+
+2017-07-11 00:54:15
+Summarizing results...
+  Drawing # contigs metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/#_contigs.pdf
+  Drawing Largest contig metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/Largest_contig.pdf
+  Drawing Total length metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/Total_length.pdf
+  Drawing Largest alignment metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/Largest_alignment.pdf
+  Drawing Total aligned length metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/Total_aligned_length.pdf
+  Drawing Total length (>= 1000 bp) metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/Total_length_(>=_1000_bp).pdf
+  Drawing Total length (>= 10000 bp) metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/Total_length_(>=_10000_bp).pdf
+  Drawing Total length (>= 50000 bp) metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/Total_length_(>=_50000_bp).pdf
+  Drawing # misassemblies metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/#_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for meta_contigs_1...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/meta_contigs_1_misassemblies.pdf
+  Drawing metaQUAST summary misassemblies plot for meta_contigs_2...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/meta_contigs_2_misassemblies.pdf
+  Drawing Misassembled contigs length metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/Misassembled_contigs_length.pdf
+  Drawing # mismatches per 100 kbp metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/#_mismatches_per_100_kbp.pdf
+  Drawing # indels per 100 kbp metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/#_indels_per_100_kbp.pdf
+  Drawing # N's per 100 kbp metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/#_N's_per_100_kbp.pdf
+  Drawing Genome fraction (%) metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/Genome_fraction_(%).pdf
+  Drawing Duplication ratio metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/Duplication_ratio.pdf
+  Drawing NGA50 metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/NGA50.pdf
+  Drawing LGA50 metaQUAST summary plot...
+    saved to /home/vsaveliev/quast/quast_test_output/summary/PDF/LGA50.pdf
+
+  Text versions of reports and plots for each metric (for all references and assemblies) are saved to /home/vsaveliev/quast/quast_test_output/summary/
+  Icarus (contig browser) is saved to /home/vsaveliev/quast/quast_test_output/icarus.html
+  Extended version of HTML-report (for all references and assemblies) is saved to /home/vsaveliev/quast/quast_test_output/report.html
+
+MetaQUAST finished.
+  Log saved to /home/vsaveliev/quast/quast_test_output/metaquast.log
+
+Finished: 2017-07-11 00:54:25
+Elapsed time: 0:00:47.578870
+Total NOTICEs: 10; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+
+TEST PASSED!

@@ -1,0 +1,45 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+CONTIG	contigs_not_from_here	1120	unaligned
+CONTIG	another_contig_not_from_here	1610	unaligned
+43683	54962	11280	1	meta_ref_1_Lactobacillus_plantarum_22_55k.fa	NODE_6_length_49658_cov_2.58581	99.97		True
+relocation, inconsistency = 1200
+5305	42482	48458	11281	meta_ref_1_Lactobacillus_plantarum_22_55k.fa	NODE_6_length_49658_cov_2.58581	99.98		True
+CONTIG	NODE_6_length_49658_cov_2.58581	48458	misassembled
+3645	3826	182	1	meta_ref_1_Lactobacillus_plantarum_22_55k.fa	NODE_8_length_182_cov_2.81102	100.0		True
+interspecies translocation
+1717	2354	820	183	meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa	NODE_8_length_182_cov_2.81102	100.0		True
+interspecies translocation
+3112	3396	848	1132	meta_ref_1_Lactobacillus_plantarum_22_55k.fa	NODE_8_length_182_cov_2.81102	99.65		True
+CONTIG	NODE_8_length_182_cov_2.81102	1132	misassembled
+4893	59998	1	55106	meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa	NODE_15_length_55106_cov_26.0999	100.0		True
+CONTIG	NODE_15_length_55106_cov_26.0999	55106	correct
+78	791	1	714	meta_ref_1_Lactobacillus_plantarum_22_55k.fa	NODE_18_length_714_cov_2.71927	99.86		True
+CONTIG	NODE_18_length_714_cov_2.71927	714	correct
+6129	6960	832	1	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_25_length_832_cov_317.008	100.0		True
+CONTIG	NODE_25_length_832_cov_317.008	832	correct
+6958	7651	1	694	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_30_length_694_cov_43.795	99.42		True
+CONTIG	NODE_30_length_694_cov_43.795	694	correct
+3868	4924	1	1057	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_32_length_1057_cov_298.503	99.91		True
+CONTIG	NODE_32_length_1057_cov_298.503	1057	correct
+844	1772	1	929	meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa	NODE_33_length_929_cov_25.7529	100.0		True
+CONTIG	NODE_33_length_929_cov_25.7529	929	correct
+25	3922	1	3898	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_34_length_3898_cov_294.65	99.97		True
+CONTIG	NODE_34_length_3898_cov_294.65	3898	correct
+3	852	1	850	meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa	NODE_35_length_850_cov_25.8629	98.24		True
+CONTIG	NODE_35_length_850_cov_25.8629	850	correct
+6958	7704	1	747	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_37_length_747_cov_199.488	99.87		True
+CONTIG	NODE_37_length_747_cov_199.488	747	correct
+6958	7819	1	862	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_38_length_862_cov_88.5167	97.45		True
+CONTIG	NODE_38_length_862_cov_88.5167	862	correct
+2300	3440	1	1141	meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa	NODE_39_length_1141_cov_25.1602	100.0		True
+CONTIG	NODE_39_length_1141_cov_25.1602	1141	correct
+5197	6183	1	987	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_40_length_987_cov_309.523	100.0		True
+CONTIG	NODE_40_length_987_cov_309.523	987	correct
+35992	53525	17534	1	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_41_length_17535_cov_311.913	99.97		True
+CONTIG	NODE_41_length_17535_cov_311.913	17535	correct
+53899	64999	2	11102	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_42_length_11102_cov_303.126	99.93		True
+CONTIG	NODE_42_length_11102_cov_303.126	11102	correct
+25	3451	1	3427	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_43_length_3427_cov_1.72301	99.97		True
+CONTIG	NODE_43_length_3427_cov_1.72301	3427	correct
+7650	35618	27969	1	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_44_length_27969_cov_310.914	99.96		True
+CONTIG	NODE_44_length_27969_cov_310.914	27969	correct
