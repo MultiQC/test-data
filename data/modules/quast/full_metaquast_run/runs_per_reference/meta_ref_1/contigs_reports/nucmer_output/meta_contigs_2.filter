@@ -1,0 +1,11 @@
+/home/vsaveliev/quast/quast_test_output/quast_corrected_input/meta_ref_1.fasta /home/vsaveliev/quast/quast_test_output/quast_corrected_input/meta_contigs_2_to_meta_ref_1.fasta
+NUCMER
+>meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_10_length_714_cov_2.71927_ID_9333852 54999 714
+78 791 714 1 1 1 0
+0
+>meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_29_length_219_cov_25.5122_ID_8985538 54999 763
+3645 3827 428 610 0 0 0
+0
+>meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_2_length_49658_cov_2.58581_ID_2497514 54999 49658
+5305 54962 1 49658 12 12 0
+0

@@ -1,0 +1,26 @@
+/home/vsaveliev/quast/quast_test_output/quast_corrected_input/meta_ref_3.fasta /home/vsaveliev/quast/quast_test_output/quast_corrected_input/meta_contigs_1_to_meta_ref_3.fasta
+NUCMER
+>meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_25_length_832_cov_317.008 64999 832
+6129 6960 832 1 0 0 0
+0
+>meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_32_length_1057_cov_298.503 64999 1057
+3868 4924 1 1057 1 1 0
+0
+>meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_34_length_3898_cov_294.65 64999 3898
+25 3922 1 3898 1 1 0
+0
+>meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_37_length_747_cov_199.488 64999 747
+6958 7704 1 747 1 1 0
+0
+>meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_40_length_987_cov_309.523 64999 987
+5197 6183 1 987 0 0 0
+0
+>meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_41_length_17535_cov_311.913 64999 17535
+35992 53525 17534 1 5 5 0
+0
+>meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_42_length_11102_cov_303.126 64999 11102
+53899 64999 2 11102 8 8 0
+0
+>meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa NODE_44_length_27969_cov_310.914 64999 27969
+7650 35618 27969 1 12 12 0
+0

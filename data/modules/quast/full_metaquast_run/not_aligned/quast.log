@@ -1,0 +1,52 @@
+/home/vsaveliev/quast/quast.pyc --colors #E31A1C,#1F78B4 --ls solid,solid --no-check-meta --contig-thresholds 1000,5000,10000,25000,50000 /home/vsaveliev/quast/quast_test_output/quast_corrected_input/meta_contigs_1_not_aligned_anywhere.fasta /home/vsaveliev/quast/quast_test_output/quast_corrected_input/meta_contigs_2_not_aligned_anywhere.fasta -o /home/vsaveliev/quast/quast_test_output/not_aligned --labels "meta_contigs_1, meta_contigs_2"
+
+Started: 2017-07-11 00:54:12
+
+Logging to /home/vsaveliev/quast/quast_test_output/not_aligned/quast.log
+NOTICE: Maximum number of threads is set to 30 (use --threads option to set it manually)
+
+CWD: /home/vsaveliev/quast
+Main parameters: 
+  Threads: 30, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  1  /home/vsaveliev/quast/quast_test_output/quast_corrected_input/meta_contigs_1_not_aligned_anywhere.fasta ==> meta_contigs_1
+  2  /home/vsaveliev/quast/quast_test_output/quast_corrected_input/meta_contigs_2_not_aligned_anywhere.fasta ==> meta_contigs_2
+
+2017-07-11 00:54:12
+Running Basic statistics processor...
+  Contig files: 
+    1  meta_contigs_1
+    2  meta_contigs_2
+  Calculating N50 and L50...
+    1  meta_contigs_1, N50 = 1610, L50 = 1, Total length = 2730, GC % = 51.94, # N's per 100 kbp =  0.00
+    2  meta_contigs_2, N50 = 885, L50 = 1, Total length = 885, GC % = 0.00, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/vsaveliev/quast/quast_test_output/not_aligned/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/vsaveliev/quast/quast_test_output/not_aligned/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/vsaveliev/quast/quast_test_output/not_aligned/basic_stats/GC_content_plot.pdf
+  Drawing meta_contigs_1 GC content plot...
+    saved to /home/vsaveliev/quast/quast_test_output/not_aligned/basic_stats/meta_contigs_1_GC_content_plot.pdf
+  Drawing meta_contigs_2 GC content plot...
+    saved to /home/vsaveliev/quast/quast_test_output/not_aligned/basic_stats/meta_contigs_2_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding option to enable it.
+
+2017-07-11 00:54:14
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2017-07-11 00:54:15
+RESULTS:
+  Text versions of total report are saved to /home/vsaveliev/quast/quast_test_output/not_aligned/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/vsaveliev/quast/quast_test_output/not_aligned/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /home/vsaveliev/quast/quast_test_output/not_aligned/report.html
+  PDF version (tables and plots) is saved to /home/vsaveliev/quast/quast_test_output/not_aligned/report.pdf
+  Icarus (contig browser) is saved to /home/vsaveliev/quast/quast_test_output/not_aligned/icarus.html

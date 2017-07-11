@@ -1,0 +1,15 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+7597	34856	1	27260	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_3_length_27260_cov_310.524_ID_9332986	99.99		True
+CONTIG	NODE_3_length_27260_cov_310.524_ID_9332986	27260	correct
+36665	52763	1	16099	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_4_length_16099_cov_310.325_ID_9343456	100.0		True
+CONTIG	NODE_4_length_16099_cov_310.325_ID_9343456	16099	correct
+54572	64999	1	10428	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_5_length_10428_cov_300.989_ID_9343584	100.0		True
+CONTIG	NODE_5_length_10428_cov_300.989_ID_9343584	10428	correct
+25	7012	1	6988	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_6_length_6988_cov_303.415_ID_9341226	99.97		True
+CONTIG	NODE_6_length_6988_cov_303.415_ID_9341226	6988	correct
+52709	53525	1	817	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_8_length_817_cov_651.256_ID_9343784	99.51		True
+CONTIG	NODE_8_length_817_cov_651.256_ID_9343784	817	correct
+35991	36719	729	1	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_9_length_729_cov_671.122_ID_9343806	100.0		True
+CONTIG	NODE_9_length_729_cov_671.122_ID_9343806	729	correct
+6958	7651	1	694	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa	NODE_11_length_694_cov_336.263_ID_9343406	99.86		True
+CONTIG	NODE_11_length_694_cov_336.263_ID_9343406	694	correct

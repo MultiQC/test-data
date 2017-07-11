@@ -1,0 +1,6 @@
+meta_ref_1_Lactobacillus_plantarum_22_55k.fa
+1 77
+792 3111
+3397 3644
+3827 5304
+42483 43682

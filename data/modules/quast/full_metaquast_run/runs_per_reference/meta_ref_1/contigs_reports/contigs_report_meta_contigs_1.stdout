@@ -1,0 +1,98 @@
+gnuplot 4.6 patchlevel 6
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Parsing coords...
+Loading reference...
+	Loaded [meta_ref_1_Lactobacillus_plantarum_22_55k.fa]
+Loading SNPs...
+	Total Regions: 1
+	Total Region Length: 54999
+Analyzing contigs...
+CONTIG: NODE_6_length_49658_cov_2.58581 (48458bp)
+Best alignment score: 37170.6 (LEN: 37178, IDY: 99.98)
+			The best set is below. Score: 48197.2, number of alignments: 2, unaligned bases: 0
+		This contig is misassembled. 2 total aligns.
+			Real Alignment 1: 43683 54962 | 11280 1 | 11280 11280 | 99.97 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_6_length_49658_cov_2.58581
+			  Extensive misassembly (relocation, inconsistency = 1200) between these two alignments
+			Real Alignment 2: 5305 42482 | 48458 11281 | 37178 37178 | 99.98 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_6_length_49658_cov_2.58581
+
+CONTIG: NODE_8_length_182_cov_2.81102 (1132bp)
+Best alignment score: 284.0 (LEN: 285, IDY: 99.65)
+			The best set is below. Score: 410.0, number of alignments: 2, unaligned bases: 665
+		This contig is misassembled. 2 total aligns.
+			Warning! This contig is more unaligned than misassembled. Contig length is 1132 and total length of all aligns is 467
+		Alignment: 3645 3826 | 182 1 | 182 182 | 100.0 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_8_length_182_cov_2.81102
+		Alignment: 3112 3396 | 848 1132 | 285 285 | 99.65 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_8_length_182_cov_2.81102
+		Unaligned bases: 665
+
+CONTIG: NODE_18_length_714_cov_2.71927 (714bp)
+Best alignment score: 713.0 (LEN: 714, IDY: 99.86)
+		Skipping these alignments as insignificant (option --ambiguity-score is set to "0.99"):
+			Skipping alignment 1 131 | 251 382 | 131 132 | 97.73 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_18_length_714_cov_2.71927
+		One align captures most of this contig: 78 791 | 1 714 | 714 714 | 99.86 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_18_length_714_cov_2.71927
+
+Analyzing coverage...
+Writing SNPs into /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_1/contigs_reports/nucmer_output/meta_contigs_1.used_snps.gz
+	Reference meta_ref_1_Lactobacillus_plantarum_22_55k.fa: 5 total alignments. 1 total regions.
+		Region: 1 to 54999 (54999 bp)
+			START in gap: 1 to 78 (77 bp)
+			Align 1: 78 791 NODE_18_length_714_cov_2.71927 1 714
+				Gap between this and next alignment: 791 to 3112 (2320 bp)
+				Next Alignment: 3112 3396 NODE_8_length_182_cov_2.81102 848 1132
+
+			Align 2: 3112 3396 NODE_8_length_182_cov_2.81102 848 1132
+				Gap between this and next alignment: 3396 to 3645 (248 bp)
+				Next Alignment: 3645 3826 NODE_8_length_182_cov_2.81102 182 1
+
+			Align 3: 3645 3826 NODE_8_length_182_cov_2.81102 182 1
+				Gap between this and next alignment: 3826 to 5305 (1478 bp)
+				Next Alignment: 5305 42482 NODE_6_length_49658_cov_2.58581 48458 11281
+
+			Align 4: 5305 42482 NODE_6_length_49658_cov_2.58581 48458 11281
+				Gap between this and next alignment: 42482 to 43683 (1200 bp)
+				Next Alignment: 43683 54962 NODE_6_length_49658_cov_2.58581 11280 1
+
+			Align 5: 43683 54962 NODE_6_length_49658_cov_2.58581 11280 1
+			END in gap: 54962 to 54999 (37 bp).
+
+
+Analysis is finished!
+Founded SNPs were written into /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_1/contigs_reports/nucmer_output/meta_contigs_1.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 1
+		Relocations: 1
+		Translocations: 0
+		Inversions: 0
+	Scaffold gap misassemblies: 0
+	Misassembled Contigs: 1
+	Misassembled Contig Bases: 48458
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 0 + 1 part
+Half Unaligned Contigs with Misassemblies: 1
+Unaligned Contig Bases: 665
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 49639
+
+	SNPs: 13
+	Insertions: 0
+	Deletions: 0
+
+	Positive Gaps: 6
+		Internal Gaps: 2
+		External Gaps: 4
+		External Gap Total: 3912
+		External Gap Average: 978
+	Negative Gaps: 0
+		Internal Overlaps: 0
+		External Overlaps: 0
+		External Overlaps Total: 0
+		External Overlaps Average: 0
+	Contigs with Redundant Alignments: 0 (0)

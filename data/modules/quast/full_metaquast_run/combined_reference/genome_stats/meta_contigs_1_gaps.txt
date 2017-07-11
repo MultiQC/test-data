@@ -1,0 +1,12 @@
+meta_ref_1_Lactobacillus_plantarum_22_55k.fa
+1 77
+792 3111
+3397 3644
+3827 5304
+42483 43682
+meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa
+4925 5196
+35619 35991
+53526 53898
+meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa
+3441 4892

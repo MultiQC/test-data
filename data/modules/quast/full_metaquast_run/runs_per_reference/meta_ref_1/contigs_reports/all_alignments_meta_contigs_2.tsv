@@ -1,0 +1,7 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+5305	54962	1	49658	meta_ref_1_Lactobacillus_plantarum_22_55k.fa	NODE_2_length_49658_cov_2.58581_ID_2497514	99.98		True
+CONTIG	NODE_2_length_49658_cov_2.58581_ID_2497514	49658	correct
+78	791	714	1	meta_ref_1_Lactobacillus_plantarum_22_55k.fa	NODE_10_length_714_cov_2.71927_ID_9333852	99.86		True
+CONTIG	NODE_10_length_714_cov_2.71927_ID_9333852	714	correct
+3645	3827	428	610	meta_ref_1_Lactobacillus_plantarum_22_55k.fa	NODE_29_length_219_cov_25.5122_ID_8985538	100.0		True
+CONTIG	NODE_29_length_219_cov_25.5122_ID_8985538	763	correct

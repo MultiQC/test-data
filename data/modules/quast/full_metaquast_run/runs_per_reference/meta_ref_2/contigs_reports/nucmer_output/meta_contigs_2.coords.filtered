@@ -1,0 +1,6 @@
+    [S1]     [E1]  |     [S2]     [E2]  |  [LEN 1]  [LEN 2]  |  [% IDY]  | [TAGS]
+=====================================================================================
+41880 59998 | 18119 1 | 18119 18119 | 100.0 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_1_length_55421_cov_26.1146_ID_4744408
+4578 40679 | 54221 18120 | 36102 36102 | 100.0 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_1_length_55421_cov_26.1146_ID_4744408
+3 3449 | 3447 1 | 3447 3447 | 99.56 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_7_length_3447_cov_44.4894_ID_2480336
+4394 4612 | 1 219 | 219 219 | 100.0 | meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa NODE_29_length_219_cov_25.5122_ID_8985538

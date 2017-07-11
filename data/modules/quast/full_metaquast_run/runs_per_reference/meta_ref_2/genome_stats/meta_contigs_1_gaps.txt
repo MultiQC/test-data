@@ -1,0 +1,2 @@
+meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa
+3441 4892

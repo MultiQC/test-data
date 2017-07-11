@@ -1,0 +1,15 @@
+reference chromosomes:
+	meta_ref_2_Lactobacillus_delbrueckii_bulgaricus_ATCC_BAA_365_32_60k.fa (total length: 59999 bp, maximal covered length: 58544 bp)
+
+total genome size: 59999
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+meta_contigs_1_to_meta_r | 97.57496% | 1.01049     | 1         | -         | -         | -         | -         |
+meta_contigs_2_to_meta_r | 96.42161% | 1.00060     | 2         | -         | -         | -         | -         |
