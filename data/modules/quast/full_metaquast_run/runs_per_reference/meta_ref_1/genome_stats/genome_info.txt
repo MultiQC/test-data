@@ -1,15 +1,1 @@
-reference chromosomes:
-	meta_ref_1_Lactobacillus_plantarum_22_55k.fa (total length: 54999 bp, maximal covered length: 50555 bp)
-
-total genome size: 54999
-
-gap min size: 50
-partial gene/operon min size: 100
-
-
-
-assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
-                         | fraction  | ratio       | number    |           | genes     |           | operons   |
-========================================================================================================================
-meta_contigs_1_to_meta_r | 90.25437% | 1.00000     | 5         | -         | -         | -         | -         |
-meta_contigs_2_to_meta_r | 91.91985% | 1.01147     | 3         | -         | -         | -         | -         |
+r
