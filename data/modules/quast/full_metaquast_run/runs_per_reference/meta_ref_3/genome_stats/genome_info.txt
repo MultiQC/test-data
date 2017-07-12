@@ -1,15 +1,1 @@
-reference chromosomes:
-	meta_ref_3_Lactobacillus_reuteri_F275_Kitasato_55_65k.fa (total length: 64999 bp, maximal covered length: 63957 bp)
-
-total genome size: 64999
-
-gap min size: 50
-partial gene/operon min size: 100
-
-
-
-assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
-                         | fraction  | ratio       | number    |           | genes     |           | operons   |
-========================================================================================================================
-meta_contigs_1_to_meta_r | 98.39690% | 1.08057     | 3         | -         | -         | -         | -         |
-meta_contigs_2_to_meta_r | 96.60918% | 1.00350     | 2         | -         | -         | -         | -         |
+r

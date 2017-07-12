@@ -1,7 +1,0 @@
-    [S1]     [E1]  |     [S2]     [E2]  |  [LEN 1]  [LEN 2]  |  [% IDY]  | [TAGS]
-=====================================================================================
-43683 54962 | 11280 1 | 11280 11280 | 99.97 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_6_length_49658_cov_2.58581
-5305 42482 | 48458 11281 | 37178 37178 | 99.98 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_6_length_49658_cov_2.58581
-3645 3826 | 182 1 | 182 182 | 100.0 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_8_length_182_cov_2.81102
-3112 3396 | 848 1132 | 285 285 | 99.65 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_8_length_182_cov_2.81102
-78 791 | 1 714 | 714 714 | 99.86 | meta_ref_1_Lactobacillus_plantarum_22_55k.fa NODE_18_length_714_cov_2.71927

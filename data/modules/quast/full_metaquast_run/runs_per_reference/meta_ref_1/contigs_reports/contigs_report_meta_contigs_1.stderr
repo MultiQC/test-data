@@ -1,5 +1,0 @@
-Writing filtered delta file /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_1/contigs_reports/nucmer_output/meta_contigs_1.filter
-Reading delta file /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_1/contigs_reports/nucmer_output/meta_contigs_1.delta
-Writing plot files /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_1/contigs_reports/nucmer_output/meta_contigs_1.fplot, /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_1/contigs_reports/nucmer_output/meta_contigs_1.rplot
-Writing gnuplot script /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_1/contigs_reports/nucmer_output/meta_contigs_1.gp
-Rendering plot /home/vsaveliev/quast/quast_test_output/runs_per_reference/meta_ref_1/contigs_reports/nucmer_output/meta_contigs_1.html
