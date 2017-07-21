@@ -9,41 +9,15 @@ sys.path.insert(0,'../MultiQC')
 
 from multiqc.modules.samtools.flagstat import parse_single_report
 
+def slurp_file(fname):
+    with open(os.path.dirname(__file__) + '/../data/modules/samtools/flagstat/' + fname) as fh:
+        return fh.read()
+
 # From samtools 1.3
-rep1 = """
-==> small.bam.flagstat <==
-5414 + 0 in total (QC-passed reads + QC-failed reads)
-13 + 0 secondary
-0 + 0 supplementary
-0 + 0 duplicates
-5350 + 0 mapped (98.82% : N/A)
-5401 + 0 paired in sequencing
-2709 + 0 read1
-2692 + 0 read2
-5011 + 0 properly paired (92.78% : N/A)
-5273 + 0 with itself and mate mapped
-64 + 0 singletons (1.18% : N/A)
-206 + 0 with mate mapped to a different chr
-81 + 0 with mate mapped to a different chr (mapQ>=5)
-"""
+rep1 = slurp_file('small.samtools13.flagstat.log.txt')
 
 # Same BAM file in samools 1.2
-rep2 = """
-==> small.bam.flagstat2 <==
-5414 + 0 in total (QC-passed reads + QC-failed reads)
-13 + 0 secondary
-0 + 0 supplementary
-0 + 0 duplicates
-5350 + 0 mapped (98.82%:-nan%)
-5401 + 0 paired in sequencing
-2709 + 0 read1
-2692 + 0 read2
-5011 + 0 properly paired (92.78%:-nan%)
-5273 + 0 with itself and mate mapped
-64 + 0 singletons (1.18%:-nan%)
-206 + 0 with mate mapped to a different chr
-81 + 0 with mate mapped to a different chr (mapQ>=5)
-"""
+rep2 = slurp_file('small.samtools12.flagstat.log.txt')
 
 class T(unittest.TestCase):
 
