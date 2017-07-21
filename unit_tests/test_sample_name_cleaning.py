@@ -42,6 +42,16 @@ class T(unittest.TestCase):
         self.assertClean( 'foo.chop_this_off',
                           'foo' )
 
+    def test_regex_keep(self):
+        self.config = dict( extra_fn_clean_exts = [
+                                { 'type' : 'regex_keep',
+                                  'pattern' : 'abc..X' } ] )
+
+        self.assertClean( 'foo_abc12X_bar', 'abc12X' )
+
+        self.assertClean( 'foo_abc123_bar', 'foo_abc123_bar' )
+
+
     # Helper functions
 
     def assertClean(self, unclean, clean):
