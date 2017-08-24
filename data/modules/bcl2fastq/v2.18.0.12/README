@@ -1,0 +1,5 @@
+The expected behaviour when running multiqc in this directory is:
+ - The results from all json files are combined in a single report
+ - The run id is not prepended to the sample names so Small_Stats and Small_FakeNewRun are considered to be the same sample
+ - When the same runId/lane combination is encountered multiple times it is overwritten (happens for Small_Duplicate)
+ - When a sample is in a different lane it is combined with the same sample from other lanes (happens for Small_FakeNewLane) even if they are spread over multiple files

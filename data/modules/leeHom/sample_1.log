@@ -1,0 +1,8 @@
+Total reads :50000	100%
+Merged (trimming) 40542	81.084%
+Merged (overlap) 7376	14.752%
+Kept PE/SR 1953	3.906%
+Trimmed SR 0	0%
+Adapter dimers/chimeras 129	0.258%
+Failed Key 0	0%
+

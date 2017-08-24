@@ -1,0 +1,46 @@
+
+               ________          __
+              / ____/ /__  _  __/ /_  ____ ______
+             / /_  / / _ \| |/ / __ \/ __ `/ ___/
+            / __/ / /  __/>  </ /_/ / /_/ / /
+           /_/   /_/\___/_/|_/_.___/\__,_/_/
+
+Flexbar - flexible barcode and adapter removal
+
+
+Local time:            Fri Jul  7 03:07:34 2017
+
+Target name:           flexbar_out_dir/Sample2
+File type:             fasta
+Reads file:            /sbgenomics/Projects/xxx/Sample2.fasta
+
+threads:               2
+max-uncalled:          0
+pre-trim-left:         22
+pre-trim-right:        18
+post-trim-length:      50
+min-read-length:       18
+
+
+Processing reads ...done.
+
+Computation time:  < 1 sec
+
+
+Output file statistics
+======================
+Read file:               flexbar_out_dir/Sample2.fasta
+  written reads          46464
+  skipped short reads    0
+
+
+Filtering statistics
+====================
+Processed reads                   46464
+  skipped due to uncalled bases       0
+  finally skipped short reads         0
+Discarded reads overall               0
+Remaining reads                   46464   (100% of input)
+
+Processed bases:   4181730
+Remaining bases:   2323170   (55% of input)

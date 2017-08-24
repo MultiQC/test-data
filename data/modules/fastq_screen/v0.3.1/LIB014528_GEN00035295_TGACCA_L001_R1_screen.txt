@@ -1,0 +1,15 @@
+#Fastq_screen version: 0.3.1
+Library	%Unmapped	%One_hit_one_library	%Multiple_hits_one_library	%One_hit_multiple_libraries	%Multiple_hits_multiple_libraries
+Human	100.00	0.00	0.00	0.00	0.00
+Mouse	100.00	0.00	0.00	0.00	0.00
+PhiX	100.00	0.00	0.00	0.00	0.00
+Contaminant	100.00	0.00	0.00	0.00	0.00
+C.Elegans	100.00	0.00	0.00	0.00	0.00
+Fly	100.00	0.00	0.00	0.00	0.00
+E.Coli	100.00	0.00	0.00	0.00	0.00
+Chicken	100.00	0.00	0.00	0.00	0.00
+Rat	100.00	0.00	0.00	0.00	0.00
+S.cerevisiae	100.00	0.00	0.00	0.00	0.00
+Zebrafish	100.00	0.00	0.00	0.00	0.00
+
+%Hit_no_libraries: 99.99

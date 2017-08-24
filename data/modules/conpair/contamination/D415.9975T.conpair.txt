@@ -1,0 +1,2 @@
+Normal sample contamination level: 0.012%
+Tumor sample contamination level: 1.843%
