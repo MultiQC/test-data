@@ -1,0 +1,7 @@
+Counts_of_mapping_reads	Virus/Bacteria/Phage
+   3693 gi|9627210|ref|NC_001550.1|_Mason-Pfizer_monkey_virus,_complete_genome
+    410 gi|9626069|ref|NC_001357.1|_Human_papillomavirus_-_18,_complete_genome
+      4 gi|56694721|ref|NC_006560.1|_Cercopithecine_herpesvirus_2,_complete_genome
+      3 gi|531034792|ref|NC_022098.1|_Pandoravirus_salinus,_complete_genome
+      1 gi|255987650|ref|NC_013110.1|_Primula_malacoides_virus_China/Mar2007_RNA_2,_complete_genome
+      1 gi|21426909|ref|NC_004006.1|_Broad_bean_mottle_virus_RNA_3,_complete_sequence
