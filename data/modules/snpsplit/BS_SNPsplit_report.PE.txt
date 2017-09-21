@@ -1,0 +1,55 @@
+Input file:					'bismark_pe'
+Writing allele-flagged output file to:		'BS_R1_val_1_129_Cast_GRCm38_bismark_bt2_pe.allele_flagged.bam'
+
+
+Allele-tagging report
+=====================
+Processed 132478 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+88696 reads were unassignable (66.95%)
+24901 reads were specific for genome 1 (18.80%)
+18600 reads were specific for genome 2 (14.04%)
+12049 reads that were unassignable contained C>T SNPs preventing the assignment
+43 reads did not contain one of the expected bases at known SNP positions (0.03%)
+281 contained conflicting allele-specific SNPs (0.21%)
+
+
+SNP coverage report
+===================
+SNP annotation file:	all_CAST_EiJ_SNPs_129S1_SvImJ_reference.based_on_GRCm38.txt
+SNPs stored in total:	20563466
+N-containing reads:	55733
+non-N:			76604
+total:			132478
+Reads had a deletion of the N-masked position (and were thus dropped):	141 (0.11%)
+Of which had multiple deletions of N-masked positions within the same read:	0
+
+Of valid N containing reads,
+N was present in the list of known SNPs:	97020 (99.98%)
+Positions were skipped since they involved C>T SNPs:	31100
+N was not present in the list of SNPs:		24 (0.02%)
+
+Input file:						'BS_R1_val_1_129_Cast_GRCm38_bismark_bt2_pe.allele_flagged.bam'
+Writing unassigned reads to:				'BS_R1_val_1_129_Cast_GRCm38_bismark_bt2_pe.unassigned.bam'
+Writing genome 1-specific reads to:			'BS_R1_val_1_129_Cast_GRCm38_bismark_bt2_pe.genome1.bam'
+Writing genome 2-specific reads to:			'BS_R1_val_1_129_Cast_GRCm38_bismark_bt2_pe.genome2.bam'
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs/singletons processed in total:		66239
+	thereof were read pairs:			66239
+	thereof were singletons:			0
+Reads were unassignable (not overlapping SNPs):		33054 (49.90%)
+	thereof were read pairs:	33054
+	thereof were singletons:	0
+Reads were specific for genome 1:			18729 (28.27%)
+	thereof were read pairs:	18729
+	thereof were singletons:	0
+Reads were specific for genome 2:			14110 (21.30%)
+	thereof were read pairs:	14110
+	thereof were singletons:	0
+Reads contained conflicting SNP information:		346 (0.52%)
+	thereof were read pairs:	346
+	thereof were singletons:	0
+

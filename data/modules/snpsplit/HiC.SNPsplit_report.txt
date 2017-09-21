@@ -1,0 +1,55 @@
+Input file:					'HiC'
+Writing allele-flagged output file to:		'lane5677_A._Dimond_129_Cast_hybrid_mESC_HiC_RepI_NoIndex_L004_R4_val_2.hicup.allele_flagged.bam'
+
+
+Allele-tagging report
+=====================
+Processed 76301350 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+46743811 reads were unassignable (61.26%)
+16405163 reads were specific for genome 1 (21.50%)
+12900211 reads were specific for genome 2 (16.91%)
+31129 reads did not contain one of the expected bases at known SNP positions (0.04%)
+252165 contained conflicting allele-specific SNPs (0.33%)
+
+
+SNP coverage report
+===================
+SNP annotation file:	all_CAST_EiJ_SNPs_129S1_SvImJ_reference.based_on_GRCm38.txt
+SNPs stored in total:	20563466
+N-containing reads:	29557631
+non-N:			46712682
+total:			76301350
+Reads had a deletion of the N-masked position (and were thus dropped):	31037 (0.04%)
+Of which had multiple deletions of N-masked positions within the same read:	42
+
+Of valid N containing reads,
+N was present in the list of known SNPs:	49650336 (99.98%)
+N was not present in the list of SNPs:		10590 (0.02%)
+
+Input file:						'lane5677_A._Dimond_129_Cast_hybrid_mESC_HiC_RepI_NoIndex_L004_R4_val_2.hicup.allele_flagged.bam'
+Writing unassigned reads to:				'lane5677_A._Dimond_129_Cast_hybrid_mESC_HiC_RepI_NoIndex_L004_R4_val_2.hicup.UA_UA.bam'
+Writing genome 1-specific reads to:			'lane5677_A._Dimond_129_Cast_hybrid_mESC_HiC_RepI_NoIndex_L004_R4_val_2.hicup.G1_G1.bam'
+Writing genome 2-specific reads to:			'lane5677_A._Dimond_129_Cast_hybrid_mESC_HiC_RepI_NoIndex_L004_R4_val_2.hicup.G2_G2.bam'
+Writing G1/UA reads to:					'lane5677_A._Dimond_129_Cast_hybrid_mESC_HiC_RepI_NoIndex_L004_R4_val_2.hicup.G1_UA.bam'
+Writing G2/UA reads to:					'lane5677_A._Dimond_129_Cast_hybrid_mESC_HiC_RepI_NoIndex_L004_R4_val_2.hicup.G2_UA.bam'
+Writing G1/G2 reads to:					'lane5677_A._Dimond_129_Cast_hybrid_mESC_HiC_RepI_NoIndex_L004_R4_val_2.hicup.G1_G2.bam'
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs processed in total:				38150675
+Read pairs were unassignable (UA/UA):			14322446 (37.54%)
+Read pairs were specific for genome 1 (G1/G1):		3016461 (7.91%)
+Read pairs were specific for genome 2 (G2/G2):		2330320 (6.11%)
+Read pairs were a mix of G1 and UA:			10019544 (26.26%). Of these,
+			were G1/UA: 5055640
+			were UA/G1: 4963904
+Read pairs were a mix of G2 and UA:			7926435 (20.78%). Of these,
+			were G2/UA: 3999891
+			were UA/G2: 3926544
+Read pairs were a mix of G1 and G2:			286499 (0.75%). Of these,
+			were G1/G2: 142957
+			were G2/G1: 143542
+Read pairs contained conflicting SNP information:	248970 (0.65%)
+
