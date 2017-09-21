@@ -1,0 +1,53 @@
+Input file:					'pe'
+Writing allele-flagged output file to:		'lane5809_CAGATCTG_B6_CAST_E6_5ExE_H3K4me3_2_L001_R1_val_1_CAST_EiJ_N-masked_GRCm38_bowtie2.allele_flagged.bam'
+
+
+Allele-tagging report
+=====================
+Processed 59534040 read alignments in total
+Reads were unaligned and hence skipped: 1652076 (2.78%)
+40336933 reads were unassignable (67.75%)
+9006788 reads were specific for genome 1 (15.13%)
+8493970 reads were specific for genome 2 (14.27%)
+56977 reads did not contain one of the expected bases at known SNP positions (0.10%)
+44273 contained conflicting allele-specific SNPs (0.07%)
+
+
+SNP coverage report
+===================
+SNP annotation file:	all_SNPs_CAST_EiJ_GRCm38.txt.gz
+SNPs stored in total:	20668547
+N-containing reads:	17590202
+non-N:			40279956
+total:			59534040
+Reads had a deletion of the N-masked position (and were thus dropped):	11806 (0.02%)
+Of which had multiple deletions of N-masked positions within the same read:	16
+
+Of valid N containing reads,
+N was present in the list of known SNPs:	25884707 (99.98%)
+N was not present in the list of SNPs:		6080 (0.02%)
+
+Input file:						'lane5809_CAGATCTG_B6_CAST_E6_5ExE_H3K4me3_2_L001_R1_val_1_CAST_EiJ_N-masked_GRCm38_bowtie2.allele_flagged.bam'
+Writing unassigned reads to:				'lane5809_CAGATCTG_B6_CAST_E6_5ExE_H3K4me3_2_L001_R1_val_1_CAST_EiJ_N-masked_GRCm38_bowtie2.unassigned.bam'
+Writing genome 1-specific reads to:			'lane5809_CAGATCTG_B6_CAST_E6_5ExE_H3K4me3_2_L001_R1_val_1_CAST_EiJ_N-masked_GRCm38_bowtie2.genome1.bam'
+Writing genome 2-specific reads to:			'lane5809_CAGATCTG_B6_CAST_E6_5ExE_H3K4me3_2_L001_R1_val_1_CAST_EiJ_N-masked_GRCm38_bowtie2.genome2.bam'
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs/singletons processed in total:		29297826
+	thereof were read pairs:			28584138
+	thereof were singletons:			713688
+Reads were unassignable (not overlapping SNPs):		16012445 (54.65%)
+	thereof were read pairs:	15489233
+	thereof were singletons:	523212
+Reads were specific for genome 1:			6789687 (23.17%)
+	thereof were read pairs:	6733992
+	thereof were singletons:	55695
+Reads were specific for genome 2:			6441961 (21.99%)
+	thereof were read pairs:	6309868
+	thereof were singletons:	132093
+Reads contained conflicting SNP information:		53733 (0.18%)
+	thereof were read pairs:	51045
+	thereof were singletons:	2688
+
