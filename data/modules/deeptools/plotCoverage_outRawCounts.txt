@@ -1,3 +1,4 @@
+#plotCoverage --outRawCounts
 #'chr'	'start'	'end'	'bwameth_se.pbat.bam'	'bismark_se.pbat.bam'
 KI270589.1	43386	43387	4.0	0.0
 13	16229463	16229464	1.0	0.0
