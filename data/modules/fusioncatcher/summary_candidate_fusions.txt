@@ -1,0 +1,168 @@
+Very short summary of found candidate fusion genes
+==================================================
+
+The input sample contains sequencing reads mapping on: 'Human endogenous retrovirus K113'.
+
+Found 158 fusion gene(s), which are as follows:
+  * C19ORF24--EFNA2  (readthrough)
+  * C10ORF99--CDHR1  (readthrough)
+  * WDR13--VN1R110P  (readthrough)
+  * SH3BP1--LGALS1  (readthrough)
+  * SF3A1--TBC1D10A  (readthrough)
+  * C4BPB--C4BPA  (already known fusion; readthrough)
+  * ATP6V0A1--NAGLU
+  * CABP1--MLEC  (readthrough)
+  * LCNL1--C9ORF142  (readthrough)
+  * WIPF2--CDC6  (readthrough)
+  * CASC3--RAPGEFL1  (readthrough)
+  * CYB5D1--CHD3  (readthrough)
+  * KPNB1--TBKBP1  (readthrough)
+  * RHEBL1--KMT2D  (already known fusion; readthrough)
+  * MAN2B2--MRFAP1  (readthrough)
+  * PROSER3--ARHGAP33  (readthrough)
+  * FOLR2--INPPL1  (readthrough)
+  * PTCRA--CNPY3  (readthrough)
+  * SHKBP1--LTBP4  (readthrough)
+  * ZNF337--MED28P7  (readthrough)
+  * CCNT1--KANSL2  (readthrough)
+  * CTBP1--SPON2  (probably false positive; readthrough)
+  * ADGRB2--COL16A1  (readthrough)
+  * PSEN1--PAPLN  (readthrough)
+  * RAPGEFL1--WIPF2  (already known fusion; readthrough)
+  * RPRD2--TARS2  (readthrough)
+  * ALOX15P2--FGD3  (readthrough)
+  * RPS17--DNM1P38  (readthrough)
+  * N4BP2L2--N4BP2L1  (readthrough)
+  * PCF11--ANKRD42  (readthrough)
+  * TOP3B--PI4KA
+  * FLCN--PLD6  (readthrough)
+  * ZBTB40--EPHA8  (readthrough)
+  * ALPK3--SLC28A1  (readthrough)
+  * EPHX3--NOTCH3  (probably false positive)
+  * PREB--CGREF1  (readthrough)
+  * RIOK2--LIX1  (readthrough)
+  * ZCCHC4--ANAPC4  (readthrough)
+  * NIN--ZFP64P1  (readthrough)
+  * BAZ2B--WDSUB1  (already known fusion; readthrough)
+  * HMG20B--GIPC3  (readthrough)
+  * PSMA1--COPB1  (probably false positive; readthrough)
+  * MICU2--HIST1H2BPS3  (readthrough)
+  * PIK3AP1--TM9SF3  (already known fusion; readthrough)
+  * RSAD1--MYCBPAP  (readthrough)
+  * AP1G1--PHLPP2  (readthrough)
+  * IGSF23--PVR  (readthrough)
+  * PABPC4--PPIEL  (readthrough)
+  * CNPY4--MBLAC1  (readthrough)
+  * FAM186B--MCRS1
+  * GHITM--C10ORF99  (readthrough)
+  * FAM189B--GBA  (readthrough)
+  * MRPL52--MMP14  (readthrough)
+  * SCIMP--ZNF594  (already known fusion; readthrough)
+  * TMEM9B--ASCL3  (readthrough)
+  * CCDC82--MAML2  (already known fusion; probably false positive; readthrough)
+  * ATL3--PLA2G16  (readthrough)
+  * PRDX5--CCDC88B  (readthrough)
+  * ATCAY--NMRK2  (readthrough)
+  * ZMIZ2--PPIA  (readthrough)
+  * BSN--APEH  (readthrough)
+  * CALD1--AGBL3  (readthrough)
+  * BRD4--EPHX3  (readthrough)
+  * FIS1--PMEL
+  * PI4K2B--ZCCHC4  (readthrough)
+  * B2M--TRIM69  (readthrough)
+  * CBX3--G3BP2
+  * SRP19--XBP1P1  (readthrough)
+  * ATXN10--GORASP2
+  * CYP4F12--CYP4F24P  (reciprocal fusion)
+  * ELOVL5--SF3B6
+  * IMMT--POLRMT
+  * SPICE1--CFAP44  (readthrough)
+  * BCL3--AC092066.6  (readthrough)
+  * EXT2--RASSF3
+  * FADS3--MTOR
+  * PCNAP1--ADH4  (readthrough)
+  * SERTAD1--PRX  (readthrough)
+  * MMP25--IL32  (readthrough)
+  * VMP1--ADNP2
+  * FOXN3--TBC1D9B
+  * PAN2--CS  (already known fusion; readthrough)
+  * TFF2--TFF3  (readthrough)
+  * ZNF263--ZNF75A  (readthrough)
+  * EI24--STT3A  (readthrough)
+  * GLYCTK--DNAH1  (already known fusion; probably false positive; readthrough)
+  * POLR2H--CHRD  (readthrough)
+  * HSPA2--PPP1R36  (readthrough)
+  * TM9SF3--TLL2  (readthrough)
+  * EPC1--RPS24P13  (readthrough)
+  * GLS2--ZCCHC11
+  * KPTN--VTA1
+  * LARGE--PPP2CB
+  * SLC28A1--PDE8A  (already known fusion; readthrough)
+  * ADSS--TGIF2P1  (readthrough)
+  * FREM1--CER1  (readthrough)
+  * LINC00910--LINC00854
+  * AOX2P--BZW1  (readthrough)
+  * DNTTIP2--ZFAND3
+  * FRG1--FRG1HP  (reciprocal fusion)
+  * ALDOAP1--ALAS1  (readthrough)
+  * BSG--AL021546.6
+  * BSG--COX6A1
+  * PLXDC2--ZNF775
+  * ATP6V0A1--GSTK1
+  * NCKAP5L--SMURF1
+  * PFN4--TP53I3  (readthrough)
+  * PROSC--ADGRA2  (readthrough)
+  * C1ORF53--LHX9  (readthrough)
+  * CACNG8--CACNG6  (readthrough)
+  * RREB1--EPHB6
+  * TMEM107--PER1
+  * ZNF677--NDUFV2P1  (readthrough)
+  * DHX35--ANO6
+  * DDX25--RAD51C
+  * ENY2--PKHD1L1  (probably false positive; readthrough)
+  * PCNT--DIP2A  (probably false positive; readthrough)
+  * PLK3--TBCK
+  * PKHD1L1--EBAG9  (readthrough)
+  * PLSCR1--SLC25A19
+  * SMIM5--SMIM6  (readthrough)
+  * TMCO3--TFDP1  (already known fusion; readthrough)
+  * EIF2A--SELT  (readthrough)
+  * SUGT1--LRRC42
+  * FLJ37035--TEX36  (readthrough)
+  * LLNLR-285B5.1--ZNF667
+  * SLC25A21--PAMR1
+  * ZNF391--MCFD2P1  (readthrough)
+  * ATG7--SNTG2
+  * EDA2R--COL9A2
+  * SYT17--AC003003.5  (readthrough)
+  * SYT17--CLEC19A  (readthrough)
+  * ZNF695--JOSD2
+  * ACADM--MSH4  (readthrough)
+  * CYP4F26P--TRBV20OR9-2  (readthrough)
+  * HRASLS5--ADCK2
+  * IFIH1--FAP  (already known fusion; readthrough)
+  * IFT22--SULT4A1
+  * KCNK6--CATSPERG  (already known fusion; readthrough)
+  * SLC25A30--RCN1P2  (readthrough)
+  * TREML3P--TREML2  (readthrough)
+  * CER1--ZDHHC21  (readthrough)
+  * DPP7--EPB41L5
+  * SULT6B1--EIF2AK2  (already known fusion; readthrough)
+  * USP49--PRKCA
+  * USP8P1--RPL3P2  (readthrough)
+  * AZGP1--GJC3  (already known fusion; probably false positive; readthrough)
+  * BEND6--ZNF451
+  * C1RL--TLN2
+  * DDB1--KIF1B  (reciprocal fusion)
+  * ETV7--C6ORF222  (readthrough)
+  * LRRC37A4P--PLEKHM1  (readthrough)
+  * NDUFV2P1--ANKRD12
+  * NIFKP6--LIM2
+  * PSMA2--C7ORF25  (probably false positive; readthrough)
+  * SNCB--ZNF738
+  * TBC1D10A--GATSL3  (readthrough)
+  * USP38--AAK1
+
+Found 257 fusion transcript(s).
+
+For more detailed information regarding these candidate fusions, see text file 'final-list_candidate-fusion-genes.txt'.

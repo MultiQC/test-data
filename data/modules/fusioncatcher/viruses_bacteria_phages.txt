@@ -1,0 +1,2 @@
+Counts_of_mapping_reads	Virus/Bacteria/Phage
+      8 gi|548558394|ref|NC_022518.1|_Human_endogenous_retrovirus_K113_complete_genome

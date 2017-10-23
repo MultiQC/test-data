@@ -1,0 +1,15 @@
+# plot_type: 'table'
+# section_name: 'My section with a table'
+# description: 'a custom text introduction (a few sentences) for this section'
+# pconfig:
+#     namespace: 'Cust Data'
+# headers:
+#     col1:
+#         title: 'My Column'
+#         description: 'This is a longer hover text for my column'
+#     col2:
+#         title: 'Second Column'
+#         description: 'Hover description text'
+Sample            col1            col2
+samp_1            12            34
+samp_2            56            78

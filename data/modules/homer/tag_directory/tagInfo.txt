@@ -1,0 +1,84 @@
+name	Unique Positions	Total Tags
+genome=hg19	93887562	72143283.0
+pairedEnd=true
+restrictionSite=GATC
+fragmentLengthEstimate=0		
+peakSizeEstimate=0		
+tagsPerBP=0.023146		
+averageTagsPerPosition=0.531		
+averageTagLength=108.319		
+gsizeEstimate=3116833769		
+averageFragmentGCcontent=0.400		
+chr1	7555629	5728939.0
+chr2	7738215	5826785.0
+chr3	8160892	6174206.0
+chr4	5047156	3847930.0
+chr5	5863782	4459661.0
+chr6	5568002	4215955.0
+chr7	7497810	5757548.0
+chr8	4245755	3320553.0
+chr9	5867290	4560282.0
+chr10	3946703	3034950.0
+chr11	4611414	3566356.0
+chr12	4371692	3353310.0
+chr13	2622141	2030071.0
+chr14	2431030	1902887.0
+chr15	2212114	1728107.0
+chr16	1954270	1540029.0
+chr17	2745592	2190781.0
+chr18	2325881	1792361.0
+chr19	1126477	905750.0
+chr20	1649645	1300700.0
+chr21	998253	798159.0
+chr22	1105640	886047.0
+chrX	4203117	3180944.0
+chrY	756	757.0
+chrM	5036	5610.0
+chr11_gl000202_random	809	794.0
+chr17_ctg5_hap1	28	28.0
+chr17_gl000203_random	73	75.0
+chr17_gl000204_random	1935	1871.0
+chr17_gl000205_random	2660	2618.0
+chr18_gl000207_random	132	134.0
+chr19_gl000208_random	274	274.0
+chr19_gl000209_random	86	85.0
+chr1_gl000191_random	2	2.0
+chr1_gl000192_random	83	84.0
+chr21_gl000210_random	6	6.0
+chr4_ctg9_hap1	4	4.0
+chr4_gl000193_random	191	190.0
+chr4_gl000194_random	6	6.0
+chr6_cox_hap2	18	18.0
+chr6_dbb_hap3	34	34.0
+chr6_mann_hap4	12	12.0
+chr6_qbl_hap6	6	6.0
+chr6_ssto_hap7	56	56.0
+chr7_gl000195_random	2058	2042.0
+chr9_gl000198_random	300	302.0
+chr9_gl000199_random	85	86.0
+chr9_gl000201_random	2	2.0
+chrUn_gl000211	77	77.0
+chrUn_gl000212	51	51.0
+chrUn_gl000214	76	76.0
+chrUn_gl000216	203	202.0
+chrUn_gl000218	1	1.0
+chrUn_gl000219	465	463.0
+chrUn_gl000220	21327	22808.0
+chrUn_gl000222	12	12.0
+chrUn_gl000224	1253	1220.0
+chrUn_gl000225	515	531.0
+chrUn_gl000226	21	24.0
+chrUn_gl000228	1	1.0
+chrUn_gl000229	51	51.0
+chrUn_gl000230	49	49.0
+chrUn_gl000231	37	37.0
+chrUn_gl000232	89	89.0
+chrUn_gl000233	8	8.0
+chrUn_gl000234	93	95.0
+chrUn_gl000235	10	10.0
+chrUn_gl000236	2	2.0
+chrUn_gl000237	15	15.0
+chrUn_gl000239	2	2.0
+chrUn_gl000241	50	50.0
+chrUn_gl000246	2	2.0
+cmd=makeTagDirectory homer_tag_directory/HTD_G477P5_HiC_DpnII merged_bams/G477P5_HiC.merged.bam,merged_bams/G477P5_HiC.merged.bam -genome hg19 -restrictionSite GATC -checkGC		

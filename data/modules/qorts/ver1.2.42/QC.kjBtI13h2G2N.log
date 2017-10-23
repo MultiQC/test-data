@@ -1,0 +1,115 @@
+Starting QoRTs v1.1.8 (Compiled Wed Jul 13 13:35:56 EDT 2016)
+Starting time: (Tue Aug 22 16:49:59 EDT 2017)
+INPUT_COMMAND(QC)
+  INPUT_ARG(infile)=/home/ngscls20/alignment/WT_1Aligned.sortedByCoord.out.bam
+  INPUT_ARG(gtffile)=/home/ngscls20/mat/referenceGenomes/S_cerevisiae/sacCer3.gtf
+  INPUT_ARG(outdir)=/home/ngscls20/QC_collection/WT_1/
+  INPUT_ARG(singleEnded)=true
+Created Log File: /home/ngscls20/QC_collection/WT_1//QC.kjBtI13h2G2N.log
+NOTE: maximum allocation memory = 3.817865216 gigabytes.
+    This might be ok, or might cause OutOfMemoryExceptions later.
+    For most large datasets/genomes at least 4 gb is recommended.
+    (Actual required memory may be less than this.)
+    To increase the memory maximum, include the parameter -Xmx
+    in between the java command and the -jar parameter.
+    For example: to increase the memory maximum to 4 gigabytes:
+        java -Xmx4G -jar /path/to/jar/QoRTs.jar QC ...
+Starting QC
+[Time: 2017-08-22 16:49:59] [Mem usage: [64MB / 2058MB]] [Elapsed Time: 00:00:00.0001]
+QoRTs is Running in single-end mode.
+Note: read-sorting is irrelevant in single-ended mode.
+Running functions: NVC, GCDistribution, GeneCalcs, QualityScoreDistribution, 
+        writeJunctionSeqCounts, writeKnownSplices, 
+        writeNovelSplices, writeClippedNVC, CigarOpDistribution, 
+        chromCounts, writeSpliceExon, writeGenewiseGeneBody, 
+        JunctionCalcs, writeGeneCounts, writeBiotypeCounts, 
+        writeDESeq, writeDEXSeq, writeGeneBody, StrandCheck
+Pre-alignment read count unknown (Set --seqReadCt or --rawfastq)
+Checking first 10000 reads. Checking SAM file for formatting errors...
+   Stats on the first 10000 reads:
+        Num Reads Primary Map:    10000
+        Num Reads Paired-ended:   0
+        Num Reads mapped pair:    0
+        Num Pair names found:     0
+        Num Pairs matched:        0
+        Read Seq length:          51 to 51
+        Unclipped Read length:    51 to 51
+        Final maxReadLength:      51
+        maxPhredScore:            41
+        minPhredScore:            2
+Done checking first 10000 reads. No major problems detected.
+SAMRecord Reader Generated. Read length: 51.
+[Time: 2017-08-22 16:50:03] [Mem usage: [249MB / 2595MB]] [Elapsed Time: 00:00:04.0383]
+> Init GeneCalcs Utility
+helper_calculateGeneAssignmentMap_strict. Found: 6692 genes in the supplied annotation.
+helper_calculateGeneAssignmentMap_strict. Found: 1316 genes with ambiguous segments.
+helper_calculateGeneAssignmentMap_strict. Found: 5376 genes after first-pass filtering
+making makeGeneIntervalMap for geneBody calculations. Found: 5376 acceptable genes for gene-body analysis.
+Compiling flat feature annotation, internally in memory...
+FlatteningGtf: starting...(2017-08-22 16:50:04)
+    FlatteningGtf: gtf file read complete.(2017-08-22 16:50:04)
+    FlatteningGtf: Splice Junction Map read.(2017-08-22 16:50:04)
+    FlatteningGtf: gene Sets generated.(2017-08-22 16:50:04)
+    FlatteningGtf: Aggregate Sets built.
+    FlatteningGtf: Compiling Aggregate Info . . . (2017-08-22 16:50:04)
+    FlatteningGtf: Finished Compiling Aggregate Info. (2017-08-22 16:50:04)
+    FlatteningGtf: Iterating through the step-vector...(2017-08-22 16:50:04)
+    FlatteningGtf: Adding the aggregate genes themselves...(2017-08-22 16:50:04)
+    FlatteningGtf: Iterating through the splice junctions...(2017-08-22 16:50:05)
+    FlatteningGtf: Sorting the aggregate genes...(2017-08-22 16:50:05)
+    FlatteningGtf: Folding the FlatGtfLine iterator...(2017-08-22 16:50:05)
+    FlatteningGtf: Features Built.(2017-08-22 16:50:05)
+Internal flat feature annotation compiled!
+> Init NVC utility
+> Init CigarOpDistribution Utility
+> Init QualityScoreDistribution Utility
+> Init GC counts Utility
+> Init JunctionCalcs utility
+length of knownSpliceMap after instantiation: 342
+length of knownCountMap after instantiation: 342
+> Init StrandCheck Utility
+> Init chromCount Utility
+QC Utilities Generated!
+[Time: 2017-08-22 16:50:05] [Mem usage: [145MB / 2595MB]] [Elapsed Time: 00:00:05.0896]
+..........[1000000 Read-Pairs processed] [Time: 2017-08-22 16:51:02] 
+..........[2000000 Read-Pairs processed] [Time: 2017-08-22 16:51:57] 
+..........[3000000 Read-Pairs processed] [Time: 2017-08-22 16:52:50] 
+..........[4000000 Read-Pairs processed] [Time: 2017-08-22 16:53:43] 
+..........[5000000 Read-Pairs processed] [Time: 2017-08-22 16:54:37] 
+..........[6000000 Read-Pairs processed] [Time: 2017-08-22 16:55:31] 
+Finished reading SAM. Read: 6010347 reads/read-pairs.
+Finished reading SAM. Used: 6010347 reads/read-pairs.
+[Time: 2017-08-22 16:55:32] [Mem usage: [548MB / 2377MB]] [Elapsed Time: 00:05:32.0799]
+> Read Stats:
+>   READ_PAIR_OK                   6010347
+>   TOTAL_READ_PAIRS               6010347
+>   DROPPED_NOT_PROPER_PAIR        -1
+>   DROPPED_READ_FAILS_VENDOR_QC   0
+>   DROPPED_MARKED_NOT_VALID       0
+>   DROPPED_CHROMS_MISMATCH        -1
+>   DROPPED_PAIR_STRANDS_MISMATCH  -1
+>   DROPPED_IGNORED_CHROMOSOME     0
+>   DROPPED_NOT_UNIQUE_ALIGNMENT   0
+Writing Output...
+DEBUG NOTE: IncludeGenesSet.size: 5376
+DEBUG NOTE: sortedReadCountSeq.size: 5241
+DEBUG NOTE: coverageThresholds: 2620;3930;4716;5241
+DEBUG NOTE: coverageSpans: [(0,2620);(2620,3930);(3930,4716);(4716,5241)]
+DEBUG NOTE:	[1.bottomHalf][0.5] = [0,2620]
+DEBUG NOTE:	[2.upperMidQuartile][0.75] = [2620,3930]
+DEBUG NOTE:	[3.75to90][0.9] = [3930,4716]
+DEBUG NOTE:	[4.high][1.0] = [4716,5241]
+      (DEBUG) Generating Biotype Map [2017-08-22 16:55:32]
+      (DEBUG) Extracted gene BioType using key "gene_biotype".
+              Found 0 types: []
+      (DEBUG) Finished Biotype Map [2017-08-22 16:55:33]
+length of knownCountMap after run: 342
+QoRTs QC complete with no problems.
+Done.
+Time spent on setup:           00:00:05.0897
+Time spent on SAM iteration:   00:05:26.0903
+                               (0.9039966133957545 minutes per million read-pairs)
+                               (0.9039966133957545 minutes per million read-pairs used)
+Time spent on file output:     00:00:01.0029
+Total runtime:                 00:05:33.0829
+Done. (Tue Aug 22 16:55:33 EDT 2017)

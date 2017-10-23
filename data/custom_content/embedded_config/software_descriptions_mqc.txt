@@ -1,0 +1,21 @@
+# id: 'tools-html'
+# section_name: 'Tool description (HTML)'
+# description: 'This section describes the tools used during the analysis and their reference'
+# plot_type: 'html'
+
+<dl class=dl-horizontal>
+    <dt>FastQC v0.11.5</dt>
+    <dd>Andrews S. (2010). FastQC&#58; a quality control tool for high throughput sequence data. Available online at&#58; http&#58;//www.bioinformatics.babraham.ac.uk/projects/fastqc</dd>
+    <dt>STAR_2.5.2b</dt>
+    <dd>Dobin A, Davis CA, Schlesinger F, Drenkow J, Zaleski C, Jha S, Batut P, Chaisson M, Gingeras TR. STAR&#58; ultrafast universal RNA-seq aligner. Bioinformatics. 2013 Jan 1;29(1)&#58;15-21. doi&#58; 10.1093/bioinformatics/bts635. Epub  2012 Oct 25. PubMed PMID&#58; 23104886; PubMed Central PMCID&#58; PMC3530905</dd>
+    <dt>skewer version&#58; 0.2.2</dt>
+    <dd>Jiang H, Lei R, Ding SW, Zhu S. Skewer&#58; a fast and accurate adapter trimmer for next-generation sequencing paired-end reads. BMC Bioinformatics. 2014 Jun 12;15&#58;182. doi&#58; 10.1186/1471-2105-15-182. PubMed PMID&#58; 24925680; PubMed Central PMCID&#58; PMC4074385</dd>
+    <dt>QualiMap v.2.2.1</dt>
+    <dd>García-Alcalde F, Okonechnikov K, Carbonell J, Cruz LM, Götz S, Tarazona S, Dopazo J, Meyer TF, Conesa A. Qualimap&#58; evaluating next-generation sequencing alignment data. Bioinformatics. 2012 Oct 15;28(20)&#58;2678-9. doi&#58; 10.1093/bioinformatics/bts503. Epub 2012 Aug 22. PubMed PMID&#58; 22914218</dd>
+    <dt>riboPicker version 0.4.3</dt>
+    <dd>Schmieder R, Lim YW, Edwards R. Identification and removal of ribosomal RNA sequences from metatranscriptomes. Bioinformatics. 2012 Feb 1;28(3)&#58;433-5. doi&#58; 10.1093/bioinformatics/btr669. Epub 2011 Dec 6. PubMed PMID&#58; 22155869; PubMed Central PMCID&#58; PMC3268242</dd>
+    <dt>bedtools v2.25.0</dt>
+    <dd>Quinlan AR, Hall IM. BEDTools&#58; a flexible suite of utilities for comparing genomic features. Bioinformatics. 2010 Mar 15;26(6)&#58;841-2. doi&#58; 10.1093/bioinformatics/btq033. Epub 2010 Jan 28. PubMed PMID&#58; 20110278; PubMed Central PMCID&#58; PMC2832824</dd>
+    <dt>samtools 1.3.1</dt>
+    <dd>Li H, Handsaker B, Wysoker A, Fennell T, Ruan J, Homer N, Marth G, Abecasis G, Durbin R; 1000 Genome Project Data Processing Subgroup. The Sequence Alignment/Map format and SAMtools. Bioinformatics. 2009 Aug 15;25(16)&#58;2078-9. doi&#58; 10.1093/bioinformatics/btp352. Epub 2009 Jun 8. PubMed PMID&#58; 19505943; PubMed Central PMCID&#58; PMC2723002</dd>
+</dl>

@@ -1,0 +1,994 @@
+
+================================================
+Software version: fusioncatcher.py 0.99.5a beta
+================================================
+
+
+===================================
+GENOME INFORMATION:
+===================================
+fusioncatcher-build.py 0.99.5a beta
+Ensembl database version: 83
+Organism: Homo sapiens
+Genome version: GRCh38
+NCBI Viral Genomes version: 2016-01-06
+UCSC database version: 2015-06-28
+RefSeq NCBI database version (downloaded thru UCSC database): 2016-01-04
+Gencode database version: 24
+Cell lines (Klijn et al. Nature Biotechnology 2014) database version: 2016-01-07
+Prostate Tumor Patients (Robison et al. Cell 2015) database version: 2015-06-17
+ChimerDB database version: 2.0
+TICdb database version: 2016-01-07
+ConjoinG database version: 2016-01-07
+CGP database version: 2016-01-07
+CACG database version: 2016-01-07
+DGD database version: 2016-01-07
+GTEx database version (thru FusionAnnotator): 2016-01-07
+
+===================================
+Genome FASTA files:
+===================================
+ftp.ensembl.org//pub/release-83/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+
+
+
+
+Linux:
+------
+Scientific Linux release 6.9 (Carbon)
+Kernel \r on an \m
+
+
+Python:
+------
+Python version: 2.7.6 (default, May 31 2016, 12:58:41) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-16)]
+Python executable: /sw/comp/python/2.7.6_milou/bin/python
+
+BioPython:
+------
+1.64
+
+===========
+TOOLS:
+===========
+
+SORT:
+------
+sort (GNU coreutils) 8.4
+
+BOWTIE:
+------
+bowtie version 1.1.2
+64-bit
+
+PIGZ:
+------
+pigz 2.3.4
+
+PXZ:
+------
+
+fastq-dump (from SRA Toolkit):
+--------------
+fastq-dump : 2.5.1
+
+GNU Parallel:
+--------------
+
+SAMTools:
+---------
+Version: 0.1.19-44428cd
+
+liftOver:
+---------
+liftOver - Move annotations from one assembly to another
+
+SeqTK:
+---------
+Version: 1.0-r82b-dirty
+
+sed:
+---------
+GNU sed version 4.2.1
+
+awk:
+---------
+GNU Awk 3.1.7
+
+BLAT:
+------
+blat - Standalone BLAT v. 35x1 fast sequence search command line tool
+
+faToTwoBit (from BLAT toolbox):
+----------------
+faToTwoBit - Convert DNA from fasta to 2bit format
+
+STAR:
+------
+STAR_2.5.0c
+
+
+
+Pipeline parameters:
+====================
+aligners = blat,star
+all_reads_junction = False
+ambiguous_mismatches = 2
+assembly = False
+batch_mode = False
+biotypes = 7skrna,ambiguous,banned,bodymap2,conjoing,cta_gene,ctb_gene,ctc_gene,ctd_gene,distance1000bp,ensembl_fully_overlapping,ensembl_same_strand_overlapping,fragments,healthy,hla,hpa,metazoa,mirna,mt,non_tumor_cells,pair_pseudo_genes,paralogs,refseq_fully_overlapping,refseq_same_strand_overlapping,removed,rp11_gene,rp_gene,rrna,similar_reads,similar_symbols,snorna,snrna,trna,yrna
+bridges = 0
+checksums_filename = checksums.txt
+chunkmbs = 128
+configuration_filename = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/etc/configuration.cfg,/sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/bin/configuration.cfg
+data_directory = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/data/current
+extract_buffer_size = 1000000000
+filter_mismatches = 2
+filter_str = 2.1
+gap_wiggle_size = 2
+hash = no
+highly_sensitive = False
+homolog = 1.25e-05
+input_filename = P7352_1001_S41_L003_R1_001.fastq.gz,P7352_1001_S41_L003_R2_001.fastq.gz
+keep_preliminary = False
+keep_temporary_files = False
+keep_unmapped_reads = False
+keep_viruses = False
+length_anchor = 14,17,17,17,17
+length_anchor2 = 40
+length_anchor_gap = 17
+length_gap = 18
+limit_blat = 3221225472
+limit_bowtie = 4294867296
+limit_bowtie2 = 30000000
+limit_bwa = 1
+limit_star = 500000000
+long_report = False
+mildly_sensitive = False
+min_dist = 200000
+mismatches = 2
+mismatches_gap = 6
+mismatches_psl = 2
+output_directory = P7352_1001_S41_L003/
+paranoid_sensitive = False
+processes = 16
+psl_visualization = False
+reads_preliminary_fusions = False
+rescue_gap_size = 0
+rescue_wiggle_size = 0
+sam_visualization = False
+sensitive = True
+single_end = False
+skip_adapter_filtering = False
+skip_adjacent = False
+skip_ambiguous_filtering = False
+skip_automatic_scaling = False
+skip_b_filtering = False
+skip_banned_fusions = False
+skip_blat = False
+skip_bowtie2 = True
+skip_bwa = True
+skip_compress_ids = False
+skip_conversion_grch37 = False
+skip_extension = False
+skip_ig_star = False
+skip_interleave_processing = False
+skip_known_fusions = False
+skip_mitochondrion_filtering = False
+skip_prefiltering_psl = False
+skip_star = False
+skip_star_bowtie = False
+skip_update_check = False
+skip_viruses_filtering = False
+sonication = 130
+spanning_pairs = 2,2,2,2,2
+spanning_pairs_count = 10000
+spanning_reads = 2,2,2,2,2
+split_seqtk_subseq = 1
+start_step = 0
+tmp_directory = /pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003/tmp
+trim_3end = 0
+trim_3end_keep = 60
+trim_5end = 0
+trim_psl = False
+trim_psl_3end_keep = 82
+trim_psl_5end = False
+trim_quality = 5
+trim_wiggle = 0
+trimfq = 1.0
+main_script = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/bin/fusioncatcher.py
+main_script_version = 0.99.5a beta
+
+Current working directory:
+---------------------------
+/pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc
+
+Command line used for launching FusionCatcher:
+----------------------------------------------
+/sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/bin/fusioncatcher.py \ 
+-d \ 
+/sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/data/current \ 
+-i \ 
+P7352_1001_S41_L003_R1_001.fastq.gz,P7352_1001_S41_L003_R2_001.fastq.gz \ 
+--threads \ 
+16 \ 
+--sensitive \ 
+-o \ 
+P7352_1001_S41_L003/
+----------------------------------------------
+
+
+
+Shebang for Python scripts:
+---------------------------
+#!/sw/comp/python/2.7.6_milou/bin/python
+
+
+
+
+===================
+CONFIGURATION.CFG:
+===================
+[paths]
+python = /sw/comp/python/2.7.6_milou/bin
+data = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/data/current
+scripts = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/bin
+bowtie = /sw/apps/bioinfo/bowtie/1.1.2/milou/bin/bowtie
+bowtie2 = /sw/apps/bioinfo/bowtie2/2.2.6/milou/bin/bowtie2
+bwa = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/bwa
+blat = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/blat
+liftover = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/liftover
+star = /sw/apps/bioinfo/star/2.5.0c/milou/bin/STAR/source
+velvet = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/velvet
+fatotwobit = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/fatotwobit
+samtools = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/samtools
+seqtk = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/seqtk
+sra = /sw/apps/bioinfo/sratools/2.5.1/milou/bin/fastq-dump/bin
+numpy = /sw/comp/python/2.7.6_milou/lib/python2.7/site-packages/numpy
+biopython = /sw/apps/bioinfo/biopython/1.64/milou/lib/python2.7/site-packages/Bio
+xlrd = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/xlrd
+openpyxl = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/openpyxl
+lzo = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/lzo
+lzop = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/lzop/src
+coreutils = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/coreutils/src
+pigz = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/pigz
+pxz = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/pxz
+picard = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/picard
+parallel = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/parallel/src
+java = /usr/bin/
+
+[parameters]
+threads = 0
+
+[versions]
+fusioncatcher = 0.99.5a beta
+
+
+
+
+
+============
+DATA DIRECTORY:
+============
+/sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/data/current/
+It links to:
+/sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/data/ensembl_v83
+
+
+
+============
+MEMORY:
+============
+             total       used       free     shared    buffers     cached
+Mem:        129159       1336     127823          0         10         69
+-/+ buffers/cache:       1256     127902
+Swap:         8191          0       8191
+
+Total installed RAM memory = 129159 MB
+
+
+
+Input files (which contain the short reads):
+--------------------------------------------
+/pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003_R1_001.fastq.gz
+/pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003_R2_001.fastq.gz
+
+
+
+
+
+First 8 lines of input FASTQ file: /pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003/init-1_P7352_1001_S41_L003_R2_001.fastq
+-------------------------
+@D00415:230:CALL5ANXX:3:1108:1256:1973 2:N:0:ATTACTCG+GGCTCTGT
+ATTCAGAGGGAAACTTCGGAGGGAACCAGCTACTAGATGGTTCGAGGGAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTTCAGAGCCGTGTAGATCTCGGTGGTCGCCGTATCATTAAAAAAAA
++
+BBBBBFFFFFFFFFFFFFFFFFBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB<<7<<BB7<<B<BB
+@D00415:230:CALL5ANXX:3:1108:2110:1966 2:N:0:ATTACTCG+GGCTCTGA
+ACTCCGGCTTTCGTTCTCGGAGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTTCAGAGCCGTGTAGATCTCGGTGGTCGCCGTATCATTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
++
+BBBBBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBFF<FFFFBFFBFFFFFFFFFFFFFFFFFBFFBBFFFFBF7BFBFFF/<///</
+
+
+First 8 lines of input FASTQ file: /pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003/init-0_P7352_1001_S41_L003_R1_001.fastq
+-------------------------
+@D00415:230:CALL5ANXX:3:1108:1256:1973 1:N:0:ATTACTCG+GGCTCTGT
+NCCTCGAACCATCTAGTAGCTGGTTCCCTCCGAAGTTTCCCTCTGAATAGATCGGAAGAGCACACGTCTGAACTCCAGTCACATTACTCGATCTCGTATGCCGTCTTCTGCTTGAAAAAAAAAAAA
++
+#<<BBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF<FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF<FFFFFFFFFFFFFBFFFFFF/BBFFF<<<<B7/
+@D00415:230:CALL5ANXX:3:1108:2110:1966 1:N:0:ATTACTCG+GGCTCTGA
+NCGAGAACGAAAGCCGGAGTAGATCGGAAGAGCACACGTCTGAACTCCAGTCACATTACTCGATCTCGTATGCCGTCTTCTGCTTGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATAAAAA
++
+#<<BBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB/FFFFFFBFFFFFFFFFFFFFFFFFFFFFFFFF<7/77/B<7FBF<BBBFFBBFB//7/7//
+
+
+Last 8 lines of input FASTQ file: /pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003/init-1_P7352_1001_S41_L003_R2_001.fastq
+-------------------------
+@D00415:230:CALL5ANXX:3:1113:19871:100852 2:N:0:ATTACTCG+GGCTCTGA
+GTCTGCGAGAGCGCCAGCTATCCTGAGGGGGANANCGGAAGAGNGTCGTGTAGGGAAAGAGTGTTCAGAGCCGTGTAGATCTCGGTGGTCGCCGTATCATTAAAAAAAAAAAAAAAAAAAAAAAAA
++
+BBBBBFFFFFFFFFFFFFFFFFFFFFFFFFFF#<#<<FFFFFF#<<FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBFFBFFFFF/FFFFFFFFFFFFF<<<<<<<FBFFBF
+@D00415:230:CALL5ANXX:3:1113:20889:100853 2:N:0:ATTACTCG+GGCTCTGA
+GATCTGAGGTCGCGGGGAGATCGGAAGAGCGTNGNGTAGGGAANGAGTGTTCAGAGCCGTGTAGATCTCGGTGGTCGCCGTATCATTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
++
+BBBBBFFFFFFFFFFFFFFFFFFFFFFFFFFF#<#<<<FFFFF#<<F<FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF<<BFFB/<FFFFFFFFFFBFBBFFFFFFFFFFF7F<//FBBFBB/<
+
+
+Last 8 lines of input FASTQ file: /pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003/init-0_P7352_1001_S41_L003_R1_001.fastq
+-------------------------
+@D00415:230:CALL5ANXX:3:1113:19871:100852 1:N:0:ATTACTCG+GGCTCTGA
+CCCCCTCAGGATAGCTGGCGCTCTCGCAGACAGATCGGAAGAGCACACGTCTGAACTCCAGTCACATTACTCGATCTCGTATGCCGTCTTCTGCTTGAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
++
+BBBBBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF<<FFF/<FF/BFBFFFFFFFFFFBFBFFFFFFFFFFB<//7//7/////////
+@D00415:230:CALL5ANXX:3:1113:20889:100853 1:N:0:ATTACTCG+GGCTCTGA
+CCCCGCGACCTCAGATCAGATCGGAAGAGCACACGTCTGAACTCCAGTCACATTACTCGATCTCGTATGCCGTCTTCTGCTTGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
++
+B<BBBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFBF<FFFFFF</BFBFFFFFF//<BFFB/</<7<<BFFFFFFFFFF<F/</BFFB/BFFBF//7////<//B///<
+
+
+
+Pair-reads overlappings:
+------------------------
+Input FASTQ file 1: /pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003/init-0_P7352_1001_S41_L003_R1_001.fastq
+Input FASTQ file 2: /pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003/init-1_P7352_1001_S41_L003_R2_001.fastq
+Length read 1: 126
+Length read 2: 126
+Minimum overlapping size considered by the program: 15
+Total count pair-reads: 6294475 [100.000%]
+Total count reads: 12588950 [200.000%]
+Count pair-reads overlapping: 5502903 [87.424%]
+Count total wasted nucleotides (due to overlappings): 1170029759 [73.763%]
+Most common fragment size amont overlapping pair-reads: 18
+Count of the most common fragment size among overlapping pair-reads: 188980
+
+Fragment_length	pair-reads_counts	pair-reads_percentage	Cumulative_pair-reads_percentage
+18	188980	3.002%	3.002%
+19	183726	2.919%	5.921%
+20	172947	2.748%	8.669%
+21	166303	2.642%	11.311%
+22	169172	2.688%	13.998%
+23	170183	2.704%	16.702%
+24	165151	2.624%	19.326%
+25	155257	2.467%	21.792%
+26	154103	2.448%	24.241%
+27	152647	2.425%	26.666%
+28	144363	2.293%	28.959%
+29	137425	2.183%	31.143%
+30	137584	2.186%	33.328%
+31	128706	2.045%	35.373%
+32	155892	2.477%	37.850%
+33	163592	2.599%	40.449%
+34	138406	2.199%	42.648%
+35	127912	2.032%	44.680%
+36	129757	2.061%	46.741%
+37	134773	2.141%	48.882%
+38	119930	1.905%	50.788%
+39	112293	1.784%	52.572%
+40	109040	1.732%	54.304%
+41	109687	1.743%	56.046%
+42	109061	1.733%	57.779%
+43	94831	1.507%	59.286%
+44	92911	1.476%	60.762%
+45	87852	1.396%	62.157%
+46	85910	1.365%	63.522%
+47	85077	1.352%	64.874%
+48	82749	1.315%	66.189%
+49	77508	1.231%	67.420%
+50	74191	1.179%	68.599%
+51	72875	1.158%	69.756%
+52	79447	1.262%	71.018%
+53	63149	1.003%	72.022%
+54	60354	0.959%	72.981%
+55	56192	0.893%	73.873%
+56	52011	0.826%	74.700%
+57	48572	0.772%	75.471%
+58	46389	0.737%	76.208%
+59	45439	0.722%	76.930%
+60	40096	0.637%	77.567%
+61	34125	0.542%	78.109%
+62	32427	0.515%	78.624%
+63	31469	0.500%	79.124%
+64	28153	0.447%	79.572%
+65	27305	0.434%	80.005%
+66	27146	0.431%	80.437%
+67	25448	0.404%	80.841%
+68	21665	0.344%	81.185%
+69	20349	0.323%	81.508%
+70	18125	0.288%	81.796%
+71	16092	0.256%	82.052%
+72	16934	0.269%	82.321%
+73	15991	0.254%	82.575%
+74	15606	0.248%	82.823%
+75	16314	0.259%	83.082%
+76	15101	0.240%	83.322%
+77	13266	0.211%	83.533%
+78	12676	0.201%	83.734%
+79	12126	0.193%	83.927%
+80	9919	0.158%	84.085%
+81	10890	0.173%	84.258%
+82	16739	0.266%	84.523%
+83	25008	0.397%	84.921%
+84	14505	0.230%	85.151%
+85	9361	0.149%	85.300%
+86	7799	0.124%	85.424%
+87	6160	0.098%	85.522%
+88	6304	0.100%	85.622%
+89	5905	0.094%	85.716%
+90	11101	0.176%	85.892%
+91	5699	0.091%	85.983%
+92	4644	0.074%	86.056%
+93	3950	0.063%	86.119%
+94	3268	0.052%	86.171%
+95	3497	0.056%	86.227%
+96	4189	0.067%	86.293%
+97	3345	0.053%	86.346%
+98	3368	0.054%	86.400%
+99	2876	0.046%	86.445%
+100	2672	0.042%	86.488%
+101	2499	0.040%	86.528%
+102	2504	0.040%	86.567%
+103	2118	0.034%	86.601%
+104	1979	0.031%	86.632%
+105	2011	0.032%	86.664%
+106	1742	0.028%	86.692%
+107	1817	0.029%	86.721%
+108	1622	0.026%	86.747%
+109	1487	0.024%	86.770%
+110	1517	0.024%	86.794%
+111	1604	0.025%	86.820%
+112	1428	0.023%	86.843%
+113	1364	0.022%	86.864%
+114	1230	0.020%	86.884%
+115	1224	0.019%	86.903%
+116	992	0.016%	86.919%
+117	916	0.015%	86.934%
+118	1095	0.017%	86.951%
+119	1075	0.017%	86.968%
+120	931	0.015%	86.983%
+121	877	0.014%	86.997%
+122	860	0.014%	87.010%
+123	928	0.015%	87.025%
+124	828	0.013%	87.038%
+125	650	0.010%	87.049%
+126	712	0.011%	87.060%
+127	647	0.010%	87.070%
+128	760	0.012%	87.082%
+129	729	0.012%	87.094%
+130	660	0.010%	87.104%
+131	505	0.008%	87.112%
+132	608	0.010%	87.122%
+133	495	0.008%	87.130%
+134	482	0.008%	87.138%
+135	445	0.007%	87.145%
+136	529	0.008%	87.153%
+137	393	0.006%	87.159%
+138	423	0.007%	87.166%
+139	454	0.007%	87.173%
+140	534	0.008%	87.182%
+141	349	0.006%	87.187%
+142	344	0.005%	87.193%
+143	377	0.006%	87.199%
+144	356	0.006%	87.204%
+145	374	0.006%	87.210%
+146	339	0.005%	87.216%
+147	390	0.006%	87.222%
+148	312	0.005%	87.227%
+149	368	0.006%	87.233%
+150	382	0.006%	87.239%
+151	322	0.005%	87.244%
+152	267	0.004%	87.248%
+153	267	0.004%	87.252%
+154	317	0.005%	87.257%
+155	280	0.004%	87.262%
+156	232	0.004%	87.266%
+157	237	0.004%	87.269%
+158	255	0.004%	87.273%
+159	225	0.004%	87.277%
+160	239	0.004%	87.281%
+161	241	0.004%	87.285%
+162	189	0.003%	87.288%
+163	204	0.003%	87.291%
+164	253	0.004%	87.295%
+165	234	0.004%	87.299%
+166	216	0.003%	87.302%
+167	185	0.003%	87.305%
+168	147	0.002%	87.307%
+169	219	0.003%	87.311%
+170	191	0.003%	87.314%
+171	247	0.004%	87.318%
+172	169	0.003%	87.320%
+173	172	0.003%	87.323%
+174	178	0.003%	87.326%
+175	144	0.002%	87.328%
+176	140	0.002%	87.330%
+177	173	0.003%	87.333%
+178	174	0.003%	87.336%
+179	147	0.002%	87.338%
+180	133	0.002%	87.340%
+181	127	0.002%	87.342%
+182	137	0.002%	87.345%
+183	154	0.002%	87.347%
+184	169	0.003%	87.350%
+185	119	0.002%	87.352%
+186	108	0.002%	87.353%
+187	136	0.002%	87.356%
+188	166	0.003%	87.358%
+189	106	0.002%	87.360%
+190	144	0.002%	87.362%
+191	129	0.002%	87.364%
+192	129	0.002%	87.366%
+193	158	0.003%	87.369%
+194	147	0.002%	87.371%
+195	142	0.002%	87.373%
+196	101	0.002%	87.375%
+197	107	0.002%	87.377%
+198	115	0.002%	87.378%
+199	132	0.002%	87.381%
+200	84	0.001%	87.382%
+201	114	0.002%	87.384%
+202	90	0.001%	87.385%
+203	149	0.002%	87.388%
+204	148	0.002%	87.390%
+205	121	0.002%	87.392%
+206	112	0.002%	87.394%
+207	106	0.002%	87.395%
+208	92	0.001%	87.397%
+209	118	0.002%	87.399%
+210	110	0.002%	87.400%
+211	96	0.002%	87.402%
+212	71	0.001%	87.403%
+213	78	0.001%	87.404%
+214	106	0.002%	87.406%
+215	77	0.001%	87.407%
+216	70	0.001%	87.408%
+217	66	0.001%	87.409%
+218	83	0.001%	87.411%
+219	64	0.001%	87.412%
+220	58	0.001%	87.413%
+221	62	0.001%	87.414%
+222	60	0.001%	87.414%
+223	58	0.001%	87.415%
+224	58	0.001%	87.416%
+225	58	0.001%	87.417%
+226	58	0.001%	87.418%
+227	57	0.001%	87.419%
+228	44	0.001%	87.420%
+229	41	0.001%	87.420%
+230	40	0.001%	87.421%
+231	55	0.001%	87.422%
+232	46	0.001%	87.423%
+233	75	0.001%	87.424%
+234	30	0.000%	87.424%
+>234	791572	12.576%	100.000%
+
+
+
+
+
+Adapters information:
+--------------------
+Reading the files for automated finding of adapters...
+ -  /pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003/init-0_P7352_1001_S41_L003_R1_001.fastq
+ -  /pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003/init-1_P7352_1001_S41_L003_R2_001.fastq
+Adapter 3' end found!
+   [AGATCGGAAGAGC...]
+   [reverse-complement:...GCTCTTCCGATCT]
+   [count=2503560/3000000] (83.45200%)
+Adapter 5' end found!
+   [AGATCGGAAGAGC...]
+   [reverse-complement:...GCTCTTCCGATCT]
+   [count=2491984/3000000 (83.06613%)]
+Using 16 process(es)...
+Scanning for adapters...
+Total count reads = 12587520
+Count trimmed reads = 12488003 [99.209399%]
+Count joined pair-reads = 6223124 [98.877682%]
+Count of fixed Ns = 33091
+
+
+
+Reads (mate 1 from pair) removed because being marked as bad by Illumina:
+-------------------------------------------------------------------------
+0 (0.000%) reads out of 6293760 total reads were removed due to being labeled as bad quality by Illumina!
+
+
+
+Reads (mate 2 from pair) removed because being marked as bad by Illumina:
+-------------------------------------------------------------------------
+0 (0.000%) reads out of 6293760 total reads were removed due to being labeled as bad quality by Illumina!
+
+
+
+
+
+
+
+Total Count of reads (from all FASTQ files given as input and before any read removal is done, i.e. quality filtering, pre-processing):
+--------------
+/pica/v12/b2013064_nobackup/private/rickard/DATA_FOR_RNA_BP_TESTING/work/bc/78eadc273539f94831034271fba4dc/P7352_1001_S41_L003/init-shuffle-sra-clear-noadapt-0_P7352_1001_S41_L003_R1_001.fastq = 12587520
+
+
+
+Length of all original reads:
+-----------------------------
+126
+125
+124
+123
+122
+121
+120
+119
+118
+117
+116
+115
+114
+113
+112
+111
+110
+109
+108
+107
+106
+105
+104
+103
+102
+101
+100
+99
+98
+97
+96
+95
+94
+93
+92
+91
+90
+89
+88
+87
+86
+85
+84
+83
+82
+81
+80
+79
+78
+77
+76
+75
+74
+73
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+1
+
+
+
+------------------------------------------------------------------------------------------------------
+Total counts of all input/original reads (reads marked by Illumina as bad are not included here):
+------------------------------------------------------------------------------------------------------
+12587520
+
+------------------------------------------------------------------------------------------------------
+
+Lengths of all reads after trimming:
+------------------------------------
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+1
+
+
+
+Found 658 reads with poly-A/C/G/T/N tails (equal or more 20 repeat nucleotides)
+Total number of input reads = 1351511
+Total number of reads written in the output = 1351471
+
+
+Count of all short reads after removing reads due to missing their mate read:
+-----------------------------------------------------------------------------
+1350200
+
+
+
+
+Adjusted automatically mismatches_psl and trim_psl_3end_keep (106,3) because reads of maximum length of 126 bp were found!.
+
+
+============
+MEMORY (before using BOWTIE):
+============
+             total       used       free     shared    buffers     cached
+Mem:        129159       2365     126793          0         15       1087
+-/+ buffers/cache:       1261     127897
+Swap:         8191          0       8191
+
+
+
+Mapping all input reads on rRNA and/or MT for filtering purposes:
+----------------------------------------------------------------
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:00:04
+# reads processed: 1350200
+# reads with at least one reported alignment: 549371 (40.69%)
+# reads that failed to align: 800829 (59.31%)
+Reported 549371 alignments to 1 output stream(s)
+Time searching: 00:00:05
+Overall time: 00:00:05
+
+
+
+
+
+Count of all short reads after removing reads due to missing their mate read:
+-----------------------------------------------------------------------------
+613594
+
+
+
+Total Reads Counts (after the all filtering steps):
+---------------------------------------------------
+613594
+
+
+
+Mapping the filtered reads on genome:
+-------------------------------------
+Time loading forward index: 00:01:36
+Time loading mirror index: 00:01:32
+Time for 1-mismatch full-index search: 00:00:03
+# reads processed: 613594
+# reads with at least one reported alignment: 140162 (22.84%)
+# reads that failed to align: 445257 (72.57%)
+# reads with alignments suppressed due to -m: 28175 (4.59%)
+Reported 140162 alignments to 1 output stream(s)
+Time searching: 00:03:12
+Overall time: 00:03:12
+
+
+
+Mapping on transcriptome the filtered reads which did not map on genome:
+------------------------------------------------------------------------
+Time loading forward index: 00:00:11
+Time loading mirror index: 00:00:12
+End-to-end 2/3-mismatch full-index search: 00:00:04
+# reads processed: 445257
+# reads with at least one reported alignment: 109347 (24.56%)
+# reads that failed to align: 335910 (75.44%)
+Reported 528034 alignments to 1 output stream(s)
+Time searching: 00:00:28
+Overall time: 00:00:28
+
+
+
+Mapping on transcriptome the filtered reads which map uniquely on genome:
+------------------------------------------------------------------------
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:00:01
+# reads processed: 140162
+# reads with at least one reported alignment: 91572 (65.33%)
+# reads that failed to align: 48590 (34.67%)
+Reported 385332 alignments to 1 output stream(s)
+Time searching: 00:00:02
+Overall time: 00:00:02
+
+
+
+All mappings of reads (not mapped on genome + mapped uniquely on genome + mapped on transcriptome) on transcriptome
+-------------------------------------------------------------------------------------------------------------------
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:00:03
+# reads processed: 199790
+# reads with at least one reported alignment: 199790 (100.00%)
+# reads that failed to align: 0 (0.00%)
+Reported 944800 alignments to 1 output stream(s)
+Time searching: 00:00:04
+Overall time: 00:00:04
+
+
+
+Threshold for pairs of genes to be marked as 'similar_reads' (reference number: 140162)
+-----------------------------------------------------------------------------------------
+1
+
+
+
+Mapping all short reads (which already are mapping multiple times on genome) on transcriptome:
+----------------------------------------------------------------------------------------------
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:00:01
+# reads processed: 28175
+# reads with at least one reported alignment: 21852 (77.56%)
+# reads that failed to align: 6323 (22.44%)
+Reported 240558 alignments to 1 output stream(s)
+Time searching: 00:00:02
+Overall time: 00:00:02
+
+
+
+
+================================================================================
+WARNING: No candidate fusion genes have been found (due to no paired-reads
+         being found which support any possible fusion gene)!
+================================================================================
+
+
+
+Mapping all input reads on viruses genomes database for filtering purposes:
+--------------------------------------------------------------------------------
+Time loading forward index: 00:00:08
+Time loading mirror index: 00:00:06
+End-to-end 2/3-mismatch full-index search: 00:00:02
+# reads processed: 333025
+# reads with at least one reported alignment: 4112 (1.23%)
+# reads that failed to align: 328913 (98.77%)
+Reported 4112 alignments to 1 output stream(s)
+Time searching: 00:00:16
+Overall time: 00:00:16
+
+
+
+Viruses found to have reads mapped on their genomes:
+----------------------------------------------------
+Reads_count	Organism
+   3693 gi|9627210|ref|NC_001550.1|_Mason-Pfizer_monkey_virus,_complete_genome
+    410 gi|9626069|ref|NC_001357.1|_Human_papillomavirus_-_18,_complete_genome
+      4 gi|56694721|ref|NC_006560.1|_Cercopithecine_herpesvirus_2,_complete_genome
+      3 gi|531034792|ref|NC_022098.1|_Pandoravirus_salinus,_complete_genome
+      1 gi|255987650|ref|NC_013110.1|_Primula_malacoides_virus_China/Mar2007_RNA_2,_complete_genome
+      1 gi|21426909|ref|NC_004006.1|_Broad_bean_mottle_virus_RNA_3,_complete_sequence
+
+
+
+Mapping all trimmed unmapped reads again on genome for filtering purposes:
+-------------------------------------------------------------------------
+Time loading forward index: 00:00:04
+Time loading mirror index: 00:00:04
+Time for 1-mismatch full-index search: 00:00:01
+# reads processed: 328913
+# reads with at least one reported alignment: 203069 (61.74%)
+# reads that failed to align: 125844 (38.26%)
+Reported 203069 alignments to 1 output stream(s)
+Time searching: 00:00:10
+Overall time: 00:00:10
+
+
+
+
+
+
+===========================================
+Preliminary list of candidate fusion genes:
+===========================================
+Fusion_gene_1	Fusion_gene_2	Count_paired-end_reads	Fusion_gene_symbol_1	Fusion_gene_symbol_2	Fusion_description	Analysis_status	Counts_of_common_mapping_reads
+ENSG00000004478	ENSG00000251463	1	FKBP4	FKBP4P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes	skipped	2
+ENSG00000108298	ENSG00000233597	1	RPL19	RP11-343B5.1	no_protein,similar_reads,pseudogene,ribosomal_protein,rp11_gene,rp_gene,healthy,bodymap2,ambiguous	skipped	39
+ENSG00000121089	ENSG00000196531	1	NACA3P	NACA	no_protein,similar_reads,pseudogene,healthy,bodymap2,ambiguous	skipped	57
+ENSG00000127589	ENSG00000196230	1	TUBBP1	TUBB	no_protein,similar_reads,pseudogene,healthy,bodymap2,ambiguous	skipped	192
+ENSG00000148303	ENSG00000213862	1	RPL7A	CTD-2270N23.1	no_protein,similar_reads,pseudogene,ribosomal_protein,ctd_gene,healthy,bodymap2,ambiguous	skipped	164
+ENSG00000167526	ENSG00000215030	1	RPL13	RPL13P12	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ribosomal_protein,healthy,bodymap2,ambiguous	skipped	194
+ENSG00000181163	ENSG00000258925	1	NPM1	NPM1P5	no_protein,similar_reads,pseudogene,ambiguous	skipped	49
+ENSG00000199683	ENSG00000202198	1	RN7SKP185	RN7SK	no_protein,paralogs,similar_reads,7skrna,ambiguous	skipped	182
+
+
+

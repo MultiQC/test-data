@@ -1,0 +1,1579 @@
+
+================================================
+Software version: fusioncatcher.py 0.99.5a beta
+================================================
+
+
+===================================
+GENOME INFORMATION:
+===================================
+fusioncatcher-build.py 0.99.5a beta
+Ensembl database version: 83
+Organism: Homo sapiens
+Genome version: GRCh38
+NCBI Viral Genomes version: 2016-01-06
+UCSC database version: 2015-06-28
+RefSeq NCBI database version (downloaded thru UCSC database): 2016-01-04
+Gencode database version: 24
+Cell lines (Klijn et al. Nature Biotechnology 2014) database version: 2016-01-07
+Prostate Tumor Patients (Robison et al. Cell 2015) database version: 2015-06-17
+ChimerDB database version: 2.0
+TICdb database version: 2016-01-07
+ConjoinG database version: 2016-01-07
+CGP database version: 2016-01-07
+CACG database version: 2016-01-07
+DGD database version: 2016-01-07
+GTEx database version (thru FusionAnnotator): 2016-01-07
+
+===================================
+Genome FASTA files:
+===================================
+ftp.ensembl.org//pub/release-83/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.primary_assembly.fa
+
+
+
+
+Linux:
+------
+Scientific Linux release 6.9 (Carbon)
+Kernel \r on an \m
+
+
+Python:
+------
+Python version: 2.7.6 (default, May 31 2016, 12:58:41) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-16)]
+Python executable: /sw/comp/python/2.7.6_milou/bin/python
+
+BioPython:
+------
+1.64
+
+===========
+TOOLS:
+===========
+
+SORT:
+------
+sort (GNU coreutils) 8.4
+
+BOWTIE:
+------
+bowtie version 1.1.2
+64-bit
+
+PIGZ:
+------
+pigz 2.3.4
+
+PXZ:
+------
+
+fastq-dump (from SRA Toolkit):
+--------------
+fastq-dump : 2.5.1
+
+GNU Parallel:
+--------------
+
+SAMTools:
+---------
+Version: 0.1.19-44428cd
+
+liftOver:
+---------
+liftOver - Move annotations from one assembly to another
+
+SeqTK:
+---------
+Version: 1.0-r82b-dirty
+
+sed:
+---------
+GNU sed version 4.2.1
+
+awk:
+---------
+GNU Awk 3.1.7
+
+BLAT:
+------
+blat - Standalone BLAT v. 35x1 fast sequence search command line tool
+
+faToTwoBit (from BLAT toolbox):
+----------------
+faToTwoBit - Convert DNA from fasta to 2bit format
+
+STAR:
+------
+STAR_2.5.0c
+
+
+
+Pipeline parameters:
+====================
+aligners = blat,star
+all_reads_junction = False
+ambiguous_mismatches = 2
+assembly = False
+batch_mode = False
+biotypes = 7skrna,ambiguous,banned,bodymap2,conjoing,cta_gene,ctb_gene,ctc_gene,ctd_gene,distance1000bp,ensembl_fully_overlapping,ensembl_same_strand_overlapping,fragments,healthy,hla,hpa,metazoa,mirna,mt,non_tumor_cells,pair_pseudo_genes,paralogs,refseq_fully_overlapping,refseq_same_strand_overlapping,removed,rp11_gene,rp_gene,rrna,similar_reads,similar_symbols,snorna,snrna,trna,yrna
+bridges = 0
+checksums_filename = checksums.txt
+chunkmbs = 128
+configuration_filename = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/etc/configuration.cfg,/sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/bin/configuration.cfg
+data_directory = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/data/current
+extract_buffer_size = 1000000000
+filter_mismatches = 2
+filter_str = 2.1
+gap_wiggle_size = 2
+hash = no
+highly_sensitive = False
+homolog = 1.25e-05
+input_filename = SRR5665649_1.fastq.gz,SRR5665649_2.fastq.gz
+keep_preliminary = False
+keep_temporary_files = False
+keep_unmapped_reads = False
+keep_viruses = False
+length_anchor = 14,17,17,17,17
+length_anchor2 = 40
+length_anchor_gap = 17
+length_gap = 18
+limit_blat = 3221225472
+limit_bowtie = 4294867296
+limit_bowtie2 = 30000000
+limit_bwa = 1
+limit_star = 500000000
+long_report = False
+mildly_sensitive = False
+min_dist = 200000
+mismatches = 2
+mismatches_gap = 6
+mismatches_psl = 2
+output_directory = .
+paranoid_sensitive = False
+processes = 16
+psl_visualization = False
+reads_preliminary_fusions = False
+rescue_gap_size = 0
+rescue_wiggle_size = 0
+sam_visualization = False
+sensitive = True
+single_end = False
+skip_adapter_filtering = False
+skip_adjacent = False
+skip_ambiguous_filtering = False
+skip_automatic_scaling = False
+skip_b_filtering = False
+skip_banned_fusions = False
+skip_blat = False
+skip_bowtie2 = True
+skip_bwa = True
+skip_compress_ids = False
+skip_conversion_grch37 = False
+skip_extension = False
+skip_ig_star = False
+skip_interleave_processing = False
+skip_known_fusions = False
+skip_mitochondrion_filtering = False
+skip_prefiltering_psl = False
+skip_star = False
+skip_star_bowtie = False
+skip_update_check = False
+skip_viruses_filtering = False
+sonication = 130
+spanning_pairs = 2,2,2,2,2
+spanning_pairs_count = 10000
+spanning_reads = 2,2,2,2,2
+split_seqtk_subseq = 1
+start_step = 0
+tmp_directory = /pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/tmp
+trim_3end = 0
+trim_3end_keep = 60
+trim_5end = 0
+trim_psl = False
+trim_psl_3end_keep = 82
+trim_psl_5end = False
+trim_quality = 5
+trim_wiggle = 0
+trimfq = 1.0
+main_script = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/bin/fusioncatcher.py
+main_script_version = 0.99.5a beta
+
+Current working directory:
+---------------------------
+/pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d
+
+Command line used for launching FusionCatcher:
+----------------------------------------------
+/sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/bin/fusioncatcher.py \ 
+-d \ 
+/sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/data/current \ 
+-i \ 
+SRR5665649_1.fastq.gz,SRR5665649_2.fastq.gz \ 
+--threads \ 
+16 \ 
+--sensitive \ 
+-o \ 
+.
+----------------------------------------------
+
+
+
+Shebang for Python scripts:
+---------------------------
+#!/sw/comp/python/2.7.6_milou/bin/python
+
+
+
+
+===================
+CONFIGURATION.CFG:
+===================
+[paths]
+python = /sw/comp/python/2.7.6_milou/bin
+data = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/data/current
+scripts = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/bin
+bowtie = /sw/apps/bioinfo/bowtie/1.1.2/milou/bin/bowtie
+bowtie2 = /sw/apps/bioinfo/bowtie2/2.2.6/milou/bin/bowtie2
+bwa = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/bwa
+blat = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/blat
+liftover = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/liftover
+star = /sw/apps/bioinfo/star/2.5.0c/milou/bin/STAR/source
+velvet = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/velvet
+fatotwobit = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/fatotwobit
+samtools = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/samtools
+seqtk = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/seqtk
+sra = /sw/apps/bioinfo/sratools/2.5.1/milou/bin/fastq-dump/bin
+numpy = /sw/comp/python/2.7.6_milou/lib/python2.7/site-packages/numpy
+biopython = /sw/apps/bioinfo/biopython/1.64/milou/lib/python2.7/site-packages/Bio
+xlrd = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/xlrd
+openpyxl = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/openpyxl
+lzo = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/lzo
+lzop = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/lzop/src
+coreutils = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/coreutils/src
+pigz = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/pigz
+pxz = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/pxz
+picard = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/picard
+parallel = /sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/tools/parallel/src
+java = /usr/bin/
+
+[parameters]
+threads = 0
+
+[versions]
+fusioncatcher = 0.99.5a beta
+
+
+
+
+
+============
+DATA DIRECTORY:
+============
+/sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/data/current/
+It links to:
+/sw/apps/bioinfo/FusionCatcher/0.99.5a/milou/data/ensembl_v83
+
+
+
+============
+MEMORY:
+============
+             total       used       free     shared    buffers     cached
+Mem:        258439       2110     256328          0          9         69
+-/+ buffers/cache:       2031     256407
+Swap:         8191          0       8191
+
+Total installed RAM memory = 258439 MB
+
+
+
+Input files (which contain the short reads):
+--------------------------------------------
+/pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/SRR5665649_1.fastq.gz
+/pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/SRR5665649_2.fastq.gz
+
+
+
+
+
+First 8 lines of input FASTQ file: /pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/init-1_SRR5665649_2.fastq
+-------------------------
+@SRR5665649.1 seq1 length=75
+TACGTATTGAAACTCTATGACAAGATTGACCCAGAGAAGCTTTCAGTAAATTCTCATTTTATGAAAGACCTGGGC
++SRR5665649.1 seq1 length=75
+HHFHFHHHDIGHDHHDHHHHHH8HEIH0I?IHHHGH<>HH6HGHGHIEHEHEH?9%H,FHBHDHB=@0F9CHHH8
+@SRR5665649.2 seq2 length=74
+TCCATCTTGAGATCTACTGTAAAGTGAATTTTTTAATGAAAACAGTTCCAAGTTTTACTCTCAGTGGGTTTGGG
++SRR5665649.2 seq2 length=74
+IHGCAHHHHHH?HGHHG6IHHHHH,HIBHGHHFHIEFHHAHHIFH2@C78HEFHHHEBHDHB:GHH>HGICHHD
+
+
+First 8 lines of input FASTQ file: /pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/init-0_SRR5665649_1.fastq
+-------------------------
+@SRR5665649.1 seq1 length=75
+TTATTCATATACATCCTTCTTATCTGCAATGTAATCTACAATTTCTTGTGGACACATTAACTTTTCAGCATCTAT
++SRR5665649.1 seq1 length=75
+HGHHHBHHDGHHHID=HGHEIHHHIHIIG@GFHGHEHIHH@IFHFHHIHGIHH:HHHHF<FEGHGHAIGCHGAHH
+@SRR5665649.2 seq2 length=74
+GAAGTCAAAGGTGGATTACAGAAACGAGATGTAAAAATGAACAAATCCCTTCTGCCCTTTTTCCTTTTGGGAAA
++SRR5665649.2 seq2 length=74
+HGDFHD8GHHHIFHGAHIHHHG=GHGHHHHIHCFHIHGHHIE.HHHHHHHHCGGHC4HCHF9HHCIHHBGE1;5
+
+
+Last 8 lines of input FASTQ file: /pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/init-1_SRR5665649_2.fastq
+-------------------------
+@SRR5665649.40056078 seq40057208 length=75
+GTGTGGTACTTCTTCTACAAAGTGCATTGGATCCTTTGGAATGAGAACTTCCAGTCCGTCAACAGTAACTTGCTG
++SRR5665649.40056078 seq40057208 length=75
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@SRR5665649.40056079 seq40057209 length=74
+GTGCGTAAGTAATAATGATAGTATAGCTGCTCAATCTTGGAAGCAATTTCTCCTATTTGCCAGCGCTTCAAGCC
++SRR5665649.40056079 seq40057209 length=74
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Last 8 lines of input FASTQ file: /pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/init-0_SRR5665649_1.fastq
+-------------------------
+@SRR5665649.40056078 seq40057208 length=71
+AAGAACACATTGACAGGAAATTTGTTCCCTTCCGAAAGTTACAGTTTGGTCGTTATCCAGGAGCTTTTGAC
++SRR5665649.40056078 seq40057208 length=71
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+@SRR5665649.40056079 seq40057209 length=71
+TCCTATTTTGGAAGAACTTTTGATGTTAACACCAAACTCTGGAAGTTCCAGCAGCAGCATCGACAAGTCTT
++SRR5665649.40056079 seq40057209 length=71
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+Pair-reads overlappings (after padding):
+----------------------------------------
+Input FASTQ file 1: /pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/init-f-0_SRR5665649_1.fastq
+Input FASTQ file 2: /pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/init-r-1_SRR5665649_2.fastq
+Length read 1: 75
+Length read 2: 75
+Minimum overlapping size considered by the program: 15
+Total count pair-reads: 40057304 [100.000%]
+Total count reads: 80114608 [200.000%]
+Count pair-reads overlapping: 947557 [2.366%]
+Count total wasted nucleotides (due to overlappings): 43670774 [0.727%]
+Most common fragment size amont overlapping pair-reads: 113
+Count of the most common fragment size among overlapping pair-reads: 23834
+
+Fragment_length	pair-reads_counts	pair-reads_percentage	Cumulative_pair-reads_percentage
+18	312	0.001%	0.001%
+19	278	0.001%	0.001%
+20	230	0.001%	0.002%
+21	227	0.001%	0.003%
+22	265	0.001%	0.003%
+23	266	0.001%	0.004%
+24	252	0.001%	0.005%
+25	260	0.001%	0.005%
+26	246	0.001%	0.006%
+27	407	0.001%	0.007%
+28	393	0.001%	0.008%
+29	423	0.001%	0.009%
+30	381	0.001%	0.010%
+31	405	0.001%	0.011%
+32	419	0.001%	0.012%
+33	415	0.001%	0.013%
+34	409	0.001%	0.014%
+35	441	0.001%	0.015%
+36	457	0.001%	0.016%
+37	575	0.001%	0.018%
+38	640	0.002%	0.019%
+39	614	0.002%	0.021%
+40	583	0.001%	0.022%
+41	618	0.002%	0.024%
+42	640	0.002%	0.025%
+43	630	0.002%	0.027%
+44	645	0.002%	0.029%
+45	614	0.002%	0.030%
+46	606	0.002%	0.032%
+47	863	0.002%	0.034%
+48	807	0.002%	0.036%
+49	870	0.002%	0.038%
+50	930	0.002%	0.040%
+51	902	0.002%	0.042%
+52	997	0.002%	0.045%
+53	958	0.002%	0.047%
+54	897	0.002%	0.050%
+55	905	0.002%	0.052%
+56	942	0.002%	0.054%
+57	1034	0.003%	0.057%
+58	1133	0.003%	0.060%
+59	1178	0.003%	0.063%
+60	1186	0.003%	0.066%
+61	1218	0.003%	0.069%
+62	1163	0.003%	0.071%
+63	1187	0.003%	0.074%
+64	1105	0.003%	0.077%
+65	1056	0.003%	0.080%
+66	1212	0.003%	0.083%
+67	1437	0.004%	0.086%
+68	1569	0.004%	0.090%
+69	1479	0.004%	0.094%
+70	1514	0.004%	0.098%
+71	1510	0.004%	0.102%
+72	1543	0.004%	0.105%
+73	1645	0.004%	0.110%
+74	1540	0.004%	0.113%
+75	1208	0.003%	0.116%
+76	5810	0.015%	0.131%
+77	10753	0.027%	0.158%
+78	14447	0.036%	0.194%
+79	11834	0.030%	0.223%
+80	12856	0.032%	0.255%
+81	15047	0.038%	0.293%
+82	13114	0.033%	0.326%
+83	10289	0.026%	0.351%
+84	12643	0.032%	0.383%
+85	12124	0.030%	0.413%
+86	11499	0.029%	0.442%
+87	16183	0.040%	0.482%
+88	19555	0.049%	0.531%
+89	17072	0.043%	0.574%
+90	14966	0.037%	0.611%
+91	8229	0.021%	0.632%
+92	10611	0.026%	0.658%
+93	14154	0.035%	0.694%
+94	14124	0.035%	0.729%
+95	11854	0.030%	0.758%
+96	16551	0.041%	0.800%
+97	13227	0.033%	0.833%
+98	12186	0.030%	0.863%
+99	17197	0.043%	0.906%
+100	12069	0.030%	0.936%
+101	14709	0.037%	0.973%
+102	19205	0.048%	1.021%
+103	12519	0.031%	1.052%
+104	13047	0.033%	1.085%
+105	16801	0.042%	1.127%
+106	14740	0.037%	1.163%
+107	14324	0.036%	1.199%
+108	16400	0.041%	1.240%
+109	18994	0.047%	1.288%
+110	18990	0.047%	1.335%
+111	22303	0.056%	1.391%
+112	17481	0.044%	1.434%
+113	23834	0.059%	1.494%
+114	18550	0.046%	1.540%
+115	18011	0.045%	1.585%
+116	17155	0.043%	1.628%
+117	22507	0.056%	1.684%
+118	20530	0.051%	1.735%
+119	17346	0.043%	1.779%
+120	23416	0.058%	1.837%
+121	18800	0.047%	1.884%
+122	22645	0.057%	1.941%
+123	18194	0.045%	1.986%
+124	15928	0.040%	2.026%
+125	16355	0.041%	2.067%
+126	22231	0.055%	2.122%
+127	15708	0.039%	2.161%
+128	15697	0.039%	2.200%
+129	16689	0.042%	2.242%
+130	15686	0.039%	2.281%
+131	16082	0.040%	2.321%
+132	17647	0.044%	2.366%
+>132	39109747	97.634%	100.000%
+
+
+
+
+
+Adapters information:
+--------------------
+Reading the files for automated finding of adapters...
+ -  /pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/init-f-0_SRR5665649_1.fastq
+ -  /pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/init-r-1_SRR5665649_2.fastq
+Found [CCACGGGCTGCCT...]
+   [reverse-complement=...AGGCAGCCCGTGG]
+   [count=162/3000000 (0.00540%)] but does not look like 3-end adapter! (too low count)
+Found [GCAGGCAGCCCGT...]
+   [reverse-complement=...ACGGGCTGCCTGC]
+   [count=149/3000000 (0.00497%)] but does not look like 5-end adapter! (too low count)
+NOTE: Too few adapters found in order to use several processes! Only one CPU will be used!
+Using 1 process(es)...
+No trimming was done !
+NOTE: In case that it is known a priori that there are adaptors then 
+      try to run it again with a shorter adapter, see '--len_adapter' 
+      of 'remove_adapter.py'!
+
+
+
+Reads (mate 1 from pair) removed because being marked as bad by Illumina:
+-------------------------------------------------------------------------
+0 (0.000%) reads out of 40056079 total reads were removed due to being labeled as bad quality by Illumina!
+
+
+
+Reads (mate 2 from pair) removed because being marked as bad by Illumina:
+-------------------------------------------------------------------------
+0 (0.000%) reads out of 40056079 total reads were removed due to being labeled as bad quality by Illumina!
+
+
+
+
+
+
+
+Total Count of reads (from all FASTQ files given as input and before any read removal is done, i.e. quality filtering, pre-processing):
+--------------
+/pica/v12/b2013064_nobackup/private/rickard/fusion_data/work/c8/4695fb4bc49a8a87c70c3e234b008d/init-shuffle-sra-clear-noadapt-0_SRR5665649.fastq = 80112158
+
+
+
+Length of all original reads:
+-----------------------------
+75
+
+
+
+------------------------------------------------------------------------------------------------------
+Total counts of all input/original reads (reads marked by Illumina as bad are not included here):
+------------------------------------------------------------------------------------------------------
+80112158
+
+------------------------------------------------------------------------------------------------------
+
+Lengths of all reads after trimming:
+------------------------------------
+60
+
+
+
+Found 48644 reads with poly-A/C/G/T/N tails (equal or more 20 repeat nucleotides)
+Total number of input reads = 80078984
+Total number of reads written in the output = 80054547
+
+
+Count of all short reads after removing reads due to missing their mate read:
+-----------------------------------------------------------------------------
+79977420
+
+
+
+
+============
+MEMORY (before using BOWTIE):
+============
+             total       used       free     shared    buffers     cached
+Mem:        258439      24985     233453          0         33      22867
+-/+ buffers/cache:       2084     256354
+Swap:         8191          0       8191
+
+
+
+Mapping all input reads on rRNA and/or MT for filtering purposes:
+----------------------------------------------------------------
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:05:20
+# reads processed: 79977420
+# reads with at least one reported alignment: 6404385 (8.01%)
+# reads that failed to align: 73573035 (91.99%)
+Reported 6404385 alignments to 1 output stream(s)
+Time searching: 00:05:26
+Overall time: 00:05:26
+
+
+
+
+
+Count of all short reads after removing reads due to missing their mate read:
+-----------------------------------------------------------------------------
+73449872
+
+
+
+Total Reads Counts (after the all filtering steps):
+---------------------------------------------------
+73449872
+
+
+
+Mapping the filtered reads on genome:
+-------------------------------------
+Time loading forward index: 00:01:17
+Time loading mirror index: 00:01:52
+Time for 1-mismatch full-index search: 00:04:20
+# reads processed: 73449872
+# reads with at least one reported alignment: 55206081 (75.16%)
+# reads that failed to align: 14843878 (20.21%)
+# reads with alignments suppressed due to -m: 3399913 (4.63%)
+Reported 55206081 alignments to 1 output stream(s)
+Time searching: 00:07:31
+Overall time: 00:07:31
+
+
+
+Mapping on transcriptome the filtered reads which did not map on genome:
+------------------------------------------------------------------------
+Time loading forward index: 00:00:11
+Time loading mirror index: 00:00:10
+End-to-end 2/3-mismatch full-index search: 00:03:04
+# reads processed: 14843878
+# reads with at least one reported alignment: 10295358 (69.36%)
+# reads that failed to align: 4548520 (30.64%)
+Reported 62060367 alignments to 1 output stream(s)
+Time searching: 00:03:30
+Overall time: 00:03:30
+
+
+
+Mapping on transcriptome the filtered reads which map uniquely on genome:
+------------------------------------------------------------------------
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:06:39
+# reads processed: 55206081
+# reads with at least one reported alignment: 34233521 (62.01%)
+# reads that failed to align: 20972560 (37.99%)
+Reported 169086865 alignments to 1 output stream(s)
+Time searching: 00:06:42
+Overall time: 00:06:42
+
+
+
+All mappings of reads (not mapped on genome + mapped uniquely on genome + mapped on transcriptome) on transcriptome
+-------------------------------------------------------------------------------------------------------------------
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:12:21
+# reads processed: 43912357
+# reads with at least one reported alignment: 43912357 (100.00%)
+# reads that failed to align: 0 (0.00%)
+Reported 236050955 alignments to 1 output stream(s)
+Time searching: 00:12:22
+Overall time: 00:12:22
+
+
+
+Threshold for pairs of genes to be marked as 'similar_reads' (reference number: 55206081)
+-----------------------------------------------------------------------------------------
+690
+
+
+
+Mapping all short reads (which already are mapping multiple times on genome) on transcriptome:
+----------------------------------------------------------------------------------------------
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:03:22
+# reads processed: 3399913
+# reads with at least one reported alignment: 2522382 (74.19%)
+# reads that failed to align: 877531 (25.81%)
+Reported 61311697 alignments to 1 output stream(s)
+Time searching: 00:03:24
+Overall time: 00:03:24
+
+
+
+
+
+Mapping all input reads on viruses genomes database for filtering purposes:
+--------------------------------------------------------------------------------
+Time loading forward index: 00:00:05
+Time loading mirror index: 00:00:06
+End-to-end 2/3-mismatch full-index search: 00:00:21
+# reads processed: 3522220
+# reads with at least one reported alignment: 8 (0.00%)
+# reads that failed to align: 3522212 (100.00%)
+Reported 8 alignments to 1 output stream(s)
+Time searching: 00:00:36
+Overall time: 00:00:36
+
+
+
+Viruses found to have reads mapped on their genomes:
+----------------------------------------------------
+Reads_count	Organism
+      8 gi|548558394|ref|NC_022518.1|_Human_endogenous_retrovirus_K113_complete_genome
+
+
+
+Mapping all trimmed unmapped reads again on genome for filtering purposes:
+-------------------------------------------------------------------------
+Time loading forward index: 00:00:04
+Time loading mirror index: 00:00:04
+Time for 1-mismatch full-index search: 00:00:13
+# reads processed: 3522212
+# reads with at least one reported alignment: 424646 (12.06%)
+# reads that failed to align: 3097566 (87.94%)
+Reported 424646 alignments to 1 output stream(s)
+Time searching: 00:00:25
+Overall time: 00:00:25
+
+
+
+
+
+Filtering reads which do not have their mate-read mapping on any candidate fusion gene:
+--------------------------------------------------------
+From a total of 3097566 read(s), 120751 read(s) are left after filtering.
+
+
+Counts of reads before BLAT/STAR/BOWTIE2/BWA alignment:
+----------------------------------------------------------
+135332
+
+
+
+
+Reads Counts after BLAT/STAR/BOWTIE2/BWA prefiltering (and before alignment):
+--------------------------------------------------------------------------------
+133174
+
+
+
+Lengths of all reads before BLAT/STAR/BOWTIE2/BWA alignment
+-----------------------------------------------------------
+75
+74
+72
+71
+70
+69
+68
+67
+66
+65
+64
+63
+62
+61
+60
+
+
+
+Count of all reads before BLAT/STAR/BOWTIE2/BWA alignment
+---------------------------------------------------------
+133174
+
+
+
+
+============
+MEMORY (before using BLAT):
+============
+             total       used       free     shared    buffers     cached
+Mem:        258439      27401     231038          0         50      25253
+-/+ buffers/cache:       2096     256342
+Swap:         8191          0       8191
+
+============
+MEMORY (before using STAR):
+============
+             total       used       free     shared    buffers     cached
+Mem:        258439      27418     231020          0         50      25278
+-/+ buffers/cache:       2089     256349
+Swap:         8191          0       8191
+
+
+
+===========================================
+Preliminary list of candidate fusion genes:
+===========================================
+Fusion_gene_1	Fusion_gene_2	Count_paired-end_reads	Fusion_gene_symbol_1	Fusion_gene_symbol_2	Fusion_description	Analysis_status	Counts_of_common_mapping_reads
+ENSG00000099617	ENSG00000228300	1058	EFNA2	C19ORF24	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000179029	ENSG00000220205	953	TMEM107	VAMP2	adjacent,short_distance,distance10kbp,distance100kbp,healthy,bodymap2,distance200kbp	skipped	0
+ENSG00000179029	ENSG00000263620	941	TMEM107	RP11-599B13.6	adjacent,short_distance,distance100kbp,rp11_gene,rp_gene,healthy,bodymap2,distance200kbp	skipped	0
+ENSG00000099622	ENSG00000228300	932	CIRBP	C19ORF24	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,bodymap2,distance200kbp	skipped	0
+ENSG00000135473	ENSG00000257727	513	PAN2	CNPY2	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_partially_overlapping,refseq_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	33
+ENSG00000135473	ENSG00000144785	471	PAN2	RP11-977G19.10	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,tcga,distance200kbp,gtex	skipped	0
+ENSG00000175756	ENSG00000221978	384	AURKAIP1	CCNL2	adjacent,short_distance,distance100kbp,distance200kbp,hla	skipped	0
+ENSG00000148600	ENSG00000188373	371	CDHR1	C10ORF99	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000101940	ENSG00000231725	357	WDR13	VN1R110P	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000221978	ENSG00000242485	330	CCNL2	MRPL20	adjacent,short_distance,distance10kbp,distance100kbp,ribosomal_protein,distance200kbp,hla	skipped	0
+ENSG00000100092	ENSG00000100097	323	SH3BP1	LGALS1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000100097	ENSG00000241360	323	LGALS1	PDXP	adjacent,short_distance,distance10kbp,distance100kbp,healthy,distance200kbp,banned	skipped	0
+ENSG00000183570	ENSG00000280604	276	PCBP3	PCBP3-OT1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000099992	ENSG00000099995	258	TBC1D10A	SF3A1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000123838	ENSG00000123843	231	C4BPA	C4BPB	adjacent,short_distance,distance10kbp,distance100kbp,cell_lines,distance200kbp	further_analysis	0
+ENSG00000124541	ENSG00000124702	228	RRP36	KLHDC3	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,bodymap2,distance200kbp	skipped	0
+ENSG00000033627	ENSG00000108784	225	ATP6V0A1	NAGLU	short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000110917	ENSG00000157782	223	MLEC	CABP1	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000240370	ENSG00000248593	213	U47924.6	DSTNP2	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,healthy,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	3
+ENSG00000148362	ENSG00000214402	198	C9ORF142	LCNL1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000094804	ENSG00000171475	192	CDC6	WIPF2	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000108349	ENSG00000108352	189	CASC3	RAPGEFL1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	1
+ENSG00000010626	ENSG00000248593	177	LRRC23	DSTNP2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000170004	ENSG00000182224	171	CHD3	CYB5D1	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000170004	ENSG00000280046	160	CHD3	RP11-1099M24.6	no_protein,adjacent,short_distance,distance100kbp,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000108424	ENSG00000198933	158	KPNB1	TBKBP1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000008300	ENSG00000225697	154	CELSR3	SLC26A6	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,distance200kbp	skipped	0
+ENSG00000179094	ENSG00000220205	153	PER1	VAMP2	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,cacg,distance200kbp	skipped	0
+ENSG00000179094	ENSG00000263620	153	PER1	RP11-599B13.6	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000167548	ENSG00000167550	144	KMT2D	RHEBL1	adjacent,short_distance,distance10kbp,distance100kbp,tcga,distance200kbp	further_analysis	0
+ENSG00000013288	ENSG00000179010	142	MAN2B2	MRFAP1	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000160410	ENSG00000160460	134	SHKBP1	SPTBN4	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000102030	ENSG00000102032	130	NAA10	RENBP	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000004777	ENSG00000167595	123	ARHGAP33	PROSER3	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000137161	ENSG00000171611	119	CNPY3	PTCRA	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000165457	ENSG00000165458	119	FOLR2	INPPL1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000085514	ENSG00000121716	118	PILRA	PILRB	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp,gtex	skipped	2068
+ENSG00000061676	ENSG00000162998	116	NCKAP1	FRZB	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000109436	ENSG00000249661	116	TBC1D9	TNRC18P1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,healthy,refseq_fully_overlapping,refseq_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp,banned	skipped	0
+ENSG00000204525	ENSG00000234745	116	HLA-C	HLA-B	similar_symbols,paralogs,similar_reads,short_distance,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,duplicates,distance200kbp,hla,banned	skipped	1237
+ENSG00000132589	ENSG00000167536	114	FLOT2	DHRS13	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,cacg,distance200kbp	skipped	0
+ENSG00000090006	ENSG00000160410	113	LTBP4	SHKBP1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	2
+ENSG00000085514	ENSG00000272752	111	PILRA	STAG3L5P-PVRIG2P-PILRB	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2065
+ENSG00000089820	ENSG00000102032	110	ARHGAP4	RENBP	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,cell_lines,distance200kbp	skipped	0
+ENSG00000130684	ENSG00000236542	110	ZNF337	MED28P7	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000129315	ENSG00000139620	106	CCNT1	KANSL2	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000159674	ENSG00000159692	103	SPON2	CTBP1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp,gtex	further_analysis	0
+ENSG00000080815	ENSG00000100767	101	PSEN1	PAPLN	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000084636	ENSG00000121753	101	COL16A1	ADGRB2	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000108352	ENSG00000171475	99	RAPGEFL1	WIPF2	adjacent,short_distance,distance100kbp,tcga,distance200kbp	further_analysis	0
+ENSG00000130159	ENSG00000161914	99	ECSIT	ZNF653	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000063978	ENSG00000125386	97	RNF4	FAM193A	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000196433	ENSG00000197976	97	ASMT	AKAP17A	adjacent,short_distance,distance100kbp,refseq_partially_overlapping,refseq_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000104941	ENSG00000125755	96	RSPH6A	SYMPK	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,cacg,distance200kbp	skipped	0
+ENSG00000125730	ENSG00000125734	95	C3	GPR108	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000143374	ENSG00000163125	94	TARS2	RPRD2	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000082438	ENSG00000224331	93	COBLL1	AC019181.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000204435	ENSG00000240053	93	CSNK2B	LY6G5B	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,healthy,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	270
+ENSG00000110195	ENSG00000165457	88	FOLR1	FOLR2	paralogs,adjacent,short_distance,distance100kbp,cacg,duplicates,distance200kbp	skipped	2
+ENSG00000271601	ENSG00000272031	88	LIX1L	ANKRD34A	adjacent,short_distance,distance10kbp,distance100kbp,healthy,distance200kbp,banned	skipped	0
+ENSG00000127084	ENSG00000188101	86	FGD3	ALOX15P2	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000182774	ENSG00000259637	84	RPS17	DNM1P38	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,ribosomal_protein,distance200kbp	further_analysis	0
+ENSG00000100038	ENSG00000241973	83	TOP3B	PI4KA		further_analysis	0
+ENSG00000137494	ENSG00000165494	83	ANKRD42	PCF11	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000139597	ENSG00000244754	83	N4BP2L1	N4BP2L2	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	1
+ENSG00000070886	ENSG00000184677	80	EPHA8	ZBTB40	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000104660	ENSG00000272256	80	LEPROTL1	RP11-489E7.4	no_protein,adjacent,short_distance,distance100kbp,antisense,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000116752	ENSG00000175984	80	BCAS2	DENND2C	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,healthy,cacg,distance200kbp,banned	skipped	0
+ENSG00000154803	ENSG00000179598	80	FLCN	PLD6	adjacent,short_distance,distance10kbp,distance100kbp,cacg,distance200kbp	further_analysis	0
+ENSG00000104941	ENSG00000185800	79	RSPH6A	DMWD	adjacent,short_distance,distance10kbp,distance100kbp,hpa,distance200kbp,banned	skipped	0
+ENSG00000058729	ENSG00000145721	76	RIOK2	LIX1	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000074181	ENSG00000105131	76	NOTCH3	EPHX3	short_distance,distance100kbp,distance200kbp,gtex	further_analysis	0
+ENSG00000108561	ENSG00000263272	76	C1QBP	CTC-524C5.2	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,antisense,ctc_gene,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	74
+ENSG00000136383	ENSG00000156222	76	ALPK3	SLC28A1	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000138028	ENSG00000138073	76	CGREF1	PREB	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000053900	ENSG00000168228	75	ANAPC4	ZCCHC4	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000170175	ENSG00000272884	75	CHRNB1	RP11-104H15.10	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	365
+ENSG00000100503	ENSG00000258491	74	NIN	ZFP64P1	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000054148	ENSG00000177943	71	PHPT1	MAMDC4	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	18
+ENSG00000123636	ENSG00000196151	71	BAZ2B	WDSUB1	adjacent,short_distance,distance100kbp,tcga,distance200kbp	further_analysis	0
+ENSG00000177042	ENSG00000177106	69	TMEM80	EPS8L2	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000032742	ENSG00000238286	68	IFT88	SLC35E1P1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000155629	ENSG00000227032	68	PIK3AP1	RP11-34E5.4	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000064961	ENSG00000179855	66	HMG20B	GIPC3	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000140740	ENSG00000257408	64	UQCRC2	RP11-645C24.4	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000129083	ENSG00000129084	61	COPB1	PSMA1	adjacent,short_distance,distance10kbp,distance100kbp,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,distance200kbp	further_analysis	0
+ENSG00000117305	ENSG00000117308	60	HMGCL	GALE	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,cacg,distance200kbp	skipped	0
+ENSG00000077147	ENSG00000155629	59	TM9SF3	PIK3AP1	adjacent,short_distance,distance10kbp,distance100kbp,tcga,distance200kbp	further_analysis	0
+ENSG00000130159	ENSG00000267477	59	ECSIT	CTC-398G3.6	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,ctc_gene,distance200kbp	skipped	0
+ENSG00000136444	ENSG00000136449	59	RSAD1	MYCBPAP	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000165487	ENSG00000226908	59	MICU2	HIST1H2BPS3	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000066923	ENSG00000213413	58	STAG3	PVRIG	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	6789
+ENSG00000121753	ENSG00000134668	58	ADGRB2	SPOCD1	adjacent,short_distance,distance100kbp,tcga,distance200kbp	further_analysis	0
+ENSG00000143799	ENSG00000236994	58	PARP1	YBX1P9	no_protein,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000040199	ENSG00000166747	57	PHLPP2	AP1G1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000073008	ENSG00000216588	57	PVR	IGSF23	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000159592	ENSG00000234329	57	GPBP1L1	RP11-767N6.2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000007168	ENSG00000239884	56	PAFAH1B1	RN7SL608P	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	209
+ENSG00000090621	ENSG00000243970	56	PABPC4	PPIEL	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000166997	ENSG00000214309	55	CNPY4	MBLAC1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000135436	ENSG00000187778	53	FAM186B	MCRS1	short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000141562	ENSG00000279744	53	NARF	RP13-20L14.10	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp_gene,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000165678	ENSG00000188373	53	GHITM	C10ORF99	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000151117	ENSG00000254966	52	TMEM86A	RP11-1081L13.4	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,antisense,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000160767	ENSG00000177628	52	FAM189B	GBA	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000198211	ENSG00000258947	52	RP11-566K11.2	TUBB3	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	11348
+ENSG00000258839	ENSG00000258947	52	MC1R	TUBB3	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,distance200kbp	skipped	0
+ENSG00000186230	ENSG00000186272	51	ZNF749	ZNF17	paralogs,adjacent,short_distance,distance100kbp,duplicates,distance200kbp	skipped	18
+ENSG00000204946	ENSG00000244560	51	ZNF783	RP4-800G7.2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,rp_gene,healthy,bodymap2,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	4852
+ENSG00000117054	ENSG00000137955	49	ACADM	RABGGTB	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,conjoing,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1
+ENSG00000123836	ENSG00000123843	49	PFKFB2	C4BPB	adjacent,short_distance,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,hpa,distance200kbp,banned	skipped	0
+ENSG00000129083	ENSG00000256206	49	COPB1	RP11-140L24.4	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,cacg,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	268
+ENSG00000247077	ENSG00000256632	49	PGAM5	RP13-672B3.2	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp_gene,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	5
+ENSG00000266967	ENSG00000267060	48	AARSD1	PTGES3L	paralogs,adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000057468	ENSG00000137955	47	MSH4	RABGGTB	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,tcga,distance200kbp	skipped	0
+ENSG00000159592	ENSG00000225447	47	GPBP1L1	RPS15AP10	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,ribosomal_protein,refseq_fully_overlapping,refseq_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000137343	ENSG00000204564	46	ATAT1	C6ORF136	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000155827	ENSG00000225376	46	RNF20	TMEM246-AS1	no_protein,adjacent,short_distance,distance100kbp,antisense,hpa,distance200kbp,banned	skipped	0
+ENSG00000204498	ENSG00000226979	46	NFKBIL1	LTA	adjacent,short_distance,distance100kbp,hpa,distance200kbp,banned	skipped	0
+ENSG00000169241	ENSG00000169242	45	SLC50A1	EFNA1	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000157227	ENSG00000172590	44	MMP14	MRPL52	adjacent,short_distance,distance10kbp,distance100kbp,ribosomal_protein,distance200kbp	further_analysis	0
+ENSG00000277734	ENSG09000001071	44	TRAC	TRA_locus_(b)	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,distance200kbp,banned	skipped	0
+ENSG00000130309	ENSG00000167483	43	COLGALT1	FAM129C	adjacent,short_distance,distance10kbp,distance100kbp,hpa,distance200kbp,banned	skipped	7
+ENSG00000161929	ENSG00000180626	43	SCIMP	ZNF594	adjacent,short_distance,distance100kbp,tcga,distance200kbp	further_analysis	0
+ENSG00000175348	ENSG00000176009	43	TMEM9B	ASCL3	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000108825	ENSG00000266967	42	PTGES3L-AARSD1	AARSD1	paralogs,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2121
+ENSG00000149231	ENSG00000184384	41	CCDC82	MAML2	adjacent,short_distance,distance10kbp,distance100kbp,cell_lines,distance200kbp,gtex	further_analysis	0
+ENSG00000196187	ENSG00000242861	41	TMEM63A	RP11-285F7.2	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,antisense,rp11_gene,rp_gene,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000119688	ENSG00000258559	40	ABCD4	AC005519.4	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	495
+ENSG00000126432	ENSG00000168071	40	PRDX5	CCDC88B	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000148600	ENSG00000165678	40	CDHR1	GHITM	short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000151917	ENSG00000168116	40	BEND6	KIAA1586	short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000176485	ENSG00000184743	40	PLA2G16	ATL3	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000015285	ENSG00000231725	38	WAS	VN1R110P	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000112200	ENSG00000168116	38	ZNF451	KIAA1586	adjacent,short_distance,distance100kbp,conjoing,healthy,cacg,bodymap2,distance200kbp	skipped	188
+ENSG00000173933	ENSG00000248643	38	RBM4	RBM14-RBM4	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_partially_overlapping,refseq_same_strand_overlapping,bodymap2,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp,gtex	skipped	11907
+ENSG00000077009	ENSG00000167654	37	NMRK2	ATCAY	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000122515	ENSG00000196262	37	ZMIZ2	PPIA	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000033627	ENSG00000266929	36	ATP6V0A1	RP11-400F19.8	no_protein,short_distance,distance100kbp,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000038532	ENSG00000229917	36	CLEC16A	RPL7P46	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,ribosomal_protein,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000122786	ENSG00000146856	36	CALD1	AGBL3	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000164061	ENSG00000164062	36	BSN	APEH	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000113240	ENSG00000252464	35	CLK4	RN7SKP70	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,7skrna,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	79
+ENSG00000165406	ENSG00000231964	35	MARCH8	RP11-67C2.2	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,antisense,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000038210	ENSG00000168228	34	PI4K2B	ZCCHC4	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000105131	ENSG00000141867	34	EPHX3	BRD4	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000168228	ENSG00000281028	34	ZCCHC4	RP11-717K11.2	adjacent,short_distance,distance100kbp,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000174233	ENSG00000271547	34	ADCY6	RP11-579D7.8	no_protein,adjacent,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000185664	ENSG00000214253	34	PMEL	FIS1		further_analysis	0
+ENSG00000225447	ENSG00000234329	34	RPS15AP10	RP11-767N6.2	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,ribosomal_protein,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000073008	ENSG00000186567	33	PVR	CEACAM19	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,conjoing,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	39
+ENSG00000167461	ENSG00000196684	33	RAB8A	HSH2D	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,oncogene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	27
+ENSG00000176894	ENSG00000247077	33	PXMP2	PGAM5	adjacent,short_distance,distance10kbp,distance100kbp,healthy,cacg,bodymap2,distance200kbp	skipped	0
+ENSG00000090621	ENSG00000182109	32	PABPC4	RP11-69E11.4	no_protein,adjacent,short_distance,distance100kbp,antisense,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000102878	ENSG00000265690	32	HSF4	RP11-5A19.5	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1789
+ENSG00000166710	ENSG00000185880	32	B2M	TRIM69	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000197894	ENSG00000198099	32	ADH5	ADH4	paralogs,adjacent,short_distance,distance100kbp,distance200kbp	skipped	0
+ENSG00000122565	ENSG00000138757	31	CBX3	G3BP2		further_analysis	0
+ENSG00000102468	ENSG00000139684	30	HTR2A	ESD	adjacent,short_distance,distance100kbp,hpa,distance200kbp,banned	skipped	0
+ENSG00000153037	ENSG00000249947	30	SRP19	XBP1P1	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000249947	ENSG00000258864	30	XBP1P1	CTC-554D6.1	no_protein,adjacent,short_distance,distance100kbp,pseudogene,ctc_gene,distance200kbp	skipped	0
+ENSG00000249947	ENSG00000272869	30	XBP1P1	CTC-487M23.8	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,pseudogene,ctc_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000110455	ENSG00000151348	29	ACCS	EXT2	adjacent,short_distance,distance100kbp,healthy,cacg,distance200kbp	skipped	0
+ENSG00000115806	ENSG00000130638	29	GORASP2	ATXN10		further_analysis	0
+ENSG00000177359	ENSG00000214776	29	OVOS2	RP11-726G1.1	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	28923
+ENSG00000197111	ENSG00000282977	29	PCBP2	PCBP2-OT1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,bodymap2,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	772
+ENSG00000100142	ENSG00000279010	28	POLR2F	RP5-1039K5.19	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	3371
+ENSG00000142875	ENSG00000213540	28	PRKACB	RP11-486G15.1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000186204	ENSG00000267594	28	CYP4F12	CYP4F24P	no_protein,pseudogene	further_analysis	218
+ENSG00000240053	ENSG00000263020	28	LY6G5B	XXBAC-BPG32J3.22	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,cacg,duplicates,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	7621
+ENSG00000110455	ENSG00000205126	27	ACCS	ACCSL	paralogs,adjacent,short_distance,distance10kbp,distance100kbp,duplicates,distance200kbp	skipped	0
+ENSG00000160181	ENSG00000160182	27	TFF2	TFF1	adjacent,short_distance,distance100kbp,healthy,hpa,distance200kbp,banned	skipped	0
+ENSG00000164100	ENSG00000269893	27	NDST3	SNHG8	no_protein,adjacent,short_distance,distance100kbp,lincrna,snorna,distance200kbp	skipped	0
+ENSG00000174586	ENSG00000268230	27	ZNF497	CTD-2619J13.8	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ctd_gene,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	233
+ENSG00000185946	ENSG00000240038	27	RNPC3	AMY2B	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,conjoing,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_partially_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp,gtex	skipped	705
+ENSG00000012660	ENSG00000115128	26	ELOVL5	SF3B6		further_analysis	0
+ENSG00000099821	ENSG00000132305	26	POLRMT	IMMT		further_analysis	0
+ENSG00000111358	ENSG00000278861	26	GTF2H3	RP11-338K17.6	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1
+ENSG00000152433	ENSG00000188785	26	ZNF547	ZNF548	paralogs,adjacent,short_distance,distance100kbp,cacg,distance200kbp	skipped	91
+ENSG00000161970	ENSG00000189051	26	RPL26	RNF222	adjacent,short_distance,distance10kbp,distance100kbp,ribosomal_protein,cacg,distance200kbp	further_analysis	0
+ENSG00000163611	ENSG00000206530	26	SPICE1	CFAP44	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000186010	ENSG00000258674	26	NDUFA13	CTC-260F20.3	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,ctc_gene,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1965
+ENSG00000276291	ENSG00000280077	26	FRG1HP	RP11-87H9.4	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000062485	ENSG00000257727	25	CS	CNPY2	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,cacg,distance200kbp	skipped	25
+ENSG00000069399	ENSG00000236807	25	BCL3	AC092066.6	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000089327	ENSG00000221946	25	FXYD5	FXYD7	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000150783	ENSG00000197580	25	TEX12	BCO2	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,cacg,distance200kbp	skipped	0
+ENSG00000158545	ENSG00000179588	25	ZC3H18	ZFPM1	adjacent,short_distance,distance100kbp,hpa,distance200kbp,banned	skipped	0
+ENSG00000186272	ENSG00000188785	25	ZNF17	ZNF548	paralogs,adjacent,short_distance,distance10kbp,distance100kbp,cacg,distance200kbp	skipped	0
+ENSG00000062485	ENSG00000144785	24	CS	RP11-977G19.10	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp11_gene,rp_gene,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	684
+ENSG00000089327	ENSG00000221857	24	FXYD5	CTD-2527I21.4	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,ctd_gene,distance200kbp	skipped	0
+ENSG00000151348	ENSG00000153179	24	EXT2	RASSF3		further_analysis	0
+ENSG00000181827	ENSG00000261072	24	RFX7	RP11-5N19.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000188026	ENSG00000280328	24	RILPL1	RP11-972P1.7	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,bodymap2,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	600
+ENSG00000188785	ENSG00000269533	24	ZNF548	AC003002.6	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	79
+ENSG00000198099	ENSG00000249065	24	ADH4	PCNAP1	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000198793	ENSG00000221968	24	MTOR	FADS3		further_analysis	0
+ENSG00000102878	ENSG00000135722	23	HSF4	FBXL8	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_partially_overlapping,refseq_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000105227	ENSG00000197019	23	PRX	SERTAD1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000170464	ENSG00000249751	23	DNAJC18	ECSCR	adjacent,short_distance,distance10kbp,distance100kbp,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp,banned	skipped	0
+ENSG00000170464	ENSG00000279686	23	DNAJC18	ECSCR	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp,banned	skipped	221
+ENSG00000257379	ENSG00000282977	23	RP11-793H13.8	PCBP2-OT1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,bodymap2,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	772
+ENSG00000008516	ENSG00000008517	22	MMP25	IL32	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000062716	ENSG00000101544	22	VMP1	ADNP2		further_analysis	0
+ENSG00000110344	ENSG00000167283	22	UBE4A	ATP5L	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,cacg,distance200kbp	skipped	0
+ENSG00000187266	ENSG00000205517	22	EPOR	RGL3	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,healthy,cacg,bodymap2,distance200kbp	skipped	0
+ENSG00000006194	ENSG00000162086	21	ZNF263	ZNF75A	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000053254	ENSG00000197226	21	FOXN3	TBC1D9B		further_analysis	0
+ENSG00000062485	ENSG00000135473	21	CS	PAN2	adjacent,short_distance,distance100kbp,cell_lines,distance200kbp	further_analysis	3
+ENSG00000066044	ENSG00000142449	21	ELAVL1	FBN3	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000083812	ENSG00000249471	21	ZNF324	ZNF324B	paralogs,adjacent,similar_reads,short_distance,distance10kbp,distance100kbp,duplicates,ambiguous,distance200kbp	skipped	985
+ENSG00000103227	ENSG00000260807	21	LMF1	RP11-161M6.2	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,lincrna,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000160180	ENSG00000160181	21	TFF3	TFF2	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000023445	ENSG00000110330	20	BIRC3	BIRC2	paralogs,adjacent,short_distance,distance10kbp,distance100kbp,duplicates,distance200kbp	skipped	48
+ENSG00000116667	ENSG00000232036	20	C1ORF21	GS1-115G20.2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000150783	ENSG00000255292	20	TEX12	AP002884.2	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	130
+ENSG00000170175	ENSG00000262880	20	CHRNB1	RP11-104H15.7	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000273014	ENSG00000281332	20	RP11-225B17.2	LINC00997	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,lincrna,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000177875	ENSG00000269514	19	CCDC184	RP11-370I10.12	no_protein,short_distance,distance100kbp,lincrna,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000087253	ENSG00000256812	18	LPCAT2	CAPNS2	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,conjoing,ucsc_fully_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000090539	ENSG00000163882	18	CHRD	POLR2H	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000099995	ENSG00000248751	18	SF3A1	RP1-130H16.18	adjacent,short_distance,distance100kbp,rp_gene,distance200kbp	skipped	0
+ENSG00000114841	ENSG00000168237	18	DNAH1	GLYCTK	adjacent,short_distance,distance100kbp,known,healthy,hpa,distance200kbp,banned	further_analysis	0
+ENSG00000134910	ENSG00000149547	18	STT3A	EI24	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000160551	ENSG00000266111	18	TAOK1	RP11-296K13.4	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,lincrna,rp11_gene,rp_gene,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000161958	ENSG00000170175	18	FGF11	CHRNB1	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,distance200kbp	skipped	0
+ENSG00000175018	ENSG00000214297	18	TEX36	ALDOAP2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000175106	ENSG00000239704	18	TVP23C	CDRT4	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,conjoing,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp,banned	skipped	50
+ENSG00000077147	ENSG00000095587	17	TM9SF3	TLL2	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000083535	ENSG00000102554	17	PIBF1	KLF5	short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000126803	ENSG00000165807	17	HSPA2	PPP1R36	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000144649	ENSG00000232375	17	FAM198A	RP11-136C24.1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000155366	ENSG00000155367	17	RHOC	PPM1J	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,cacg,duplicates,distance200kbp	skipped	0
+ENSG00000155366	ENSG00000271810	17	RHOC	RP11-426L16.10	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	3458
+ENSG00000167528	ENSG00000257792	17	ZNF641	OR5BJ1P	no_protein,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000186318	ENSG00000276505	17	BACE1	CMB9-94B1.2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000234065	ENSG00000243104	17	MTND4P26	MTND4LP14	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000243478	ENSG00000244301	17	AOX2P	AOX3P	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000009844	ENSG00000118162	16	VTA1	KPTN		further_analysis	0
+ENSG00000065923	ENSG00000213997	16	SLC9A7	PGAM1P7	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000065923	ENSG00000215284	16	SLC9A7	RP11-198M15.1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000073417	ENSG00000156222	16	PDE8A	SLC28A1	adjacent,short_distance,distance100kbp,cell_lines,distance200kbp	further_analysis	0
+ENSG00000104695	ENSG00000133424	16	PPP2CB	LARGE		further_analysis	0
+ENSG00000120616	ENSG00000233190	16	EPC1	RPS24P13	no_protein,adjacent,short_distance,distance100kbp,pseudogene,ribosomal_protein,distance200kbp	further_analysis	0
+ENSG00000134744	ENSG00000135423	16	ZCCHC11	GLS2		further_analysis	0
+ENSG00000205625	ENSG00000213079	16	RP11-15G8.1	SCAF8	no_protein,adjacent,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000035687	ENSG00000225401	15	ADSS	TGIF2P1	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000064225	ENSG00000249274	15	ST3GAL6	PDLIM1P4	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	7
+ENSG00000139370	ENSG00000279500	15	SLC15A4	RP11-21K12.2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000147869	ENSG00000164946	15	CER1	FREM1	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000188825	ENSG00000236383	15	LINC00910	LINC00854	no_protein,short_distance,distance100kbp,lincrna,distance200kbp	further_analysis	0
+ENSG00000226413	ENSG00000257792	15	OR8T1P	OR5BJ1P	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000067334	ENSG00000156639	14	DNTTIP2	ZFAND3		further_analysis	1
+ENSG00000082153	ENSG00000243478	14	BZW1	AOX2P	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000109536	ENSG00000276291	14	FRG1	FRG1HP	no_protein,pseudogene	further_analysis	274
+ENSG00000135749	ENSG00000231940	14	PCNXL2	RPS7P3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,pseudogene,ribosomal_protein,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000160072	ENSG00000215915	14	ATAD3B	ATAD3C	paralogs,adjacent,similar_reads,short_distance,distance10kbp,distance100kbp,cacg,duplicates,ambiguous,distance200kbp	skipped	2571
+ENSG00000161091	ENSG00000279590	14	MFSD12	AC005786.6	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000182109	ENSG00000243970	14	RP11-69E11.4	PPIEL	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,pseudogene,antisense,rp11_gene,rp_gene,healthy,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1067
+ENSG00000186010	ENSG00000250067	14	NDUFA13	YJEFN3	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	205
+ENSG00000204311	ENSG00000238082	14	DFNB59	AC009948.7	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000023330	ENSG00000242849	13	ALAS1	ALDOAP1	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000100068	ENSG00000231466	13	LRP5L	CTA-246H3.11	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,cta_gene,distance200kbp	skipped	0
+ENSG00000111775	ENSG00000172270	13	COX6A1	BSG		further_analysis	0
+ENSG00000111780	ENSG00000172270	13	AL021546.6	BSG		further_analysis	0
+ENSG00000120594	ENSG00000196456	13	PLXDC2	ZNF775		further_analysis	0
+ENSG00000126246	ENSG00000267120	13	IGFLR1	AD000671.6	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	854
+ENSG00000126790	ENSG00000181619	13	L3HYPDH	GPR135	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000154957	ENSG00000266368	13	ZNF18	RP11-1096G20.5	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,antisense,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	24
+ENSG00000161021	ENSG00000213316	13	MAML1	LTC4S	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1115
+ENSG00000168255	ENSG00000214783	13	POLR2J3	POLR2J4	no_protein,similar_reads,ambiguous	skipped	6180
+ENSG00000168255	ENSG00000239556	13	POLR2J3	AC004951.5	no_protein,similar_reads,pseudogene,ambiguous	skipped	4815
+ENSG00000186272	ENSG00000269533	13	ZNF17	AC003002.6	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	151
+ENSG00000214783	ENSG00000272949	13	POLR2J4	RP11-514P8.8	no_protein,similar_reads,rp11_gene,rp_gene,ambiguous	skipped	6124
+ENSG00000230445	ENSG00000267023	13	LRRC37A6P	LRRC37A16P	no_protein,similar_reads,pseudogene,ambiguous	skipped	743
+ENSG00000239556	ENSG00000272949	13	AC004951.5	RP11-514P8.8	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	4659
+ENSG00000020181	ENSG00000147471	12	ADGRA2	PROSC	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000033627	ENSG00000197448	12	ATP6V0A1	GSTK1		further_analysis	23
+ENSG00000115129	ENSG00000176732	12	TP53I3	PFN4	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000124562	ENSG00000217130	12	SNRPC	RP3-375P9.2	no_protein,adjacent,short_distance,distance100kbp,pseudogene,rp_gene,distance200kbp	skipped	0
+ENSG00000126246	ENSG00000161265	12	IGFLR1	U2AF1L4	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,snrna,conjoing,healthy,cacg,distance200kbp	skipped	0
+ENSG00000167566	ENSG00000198742	12	NCKAP5L	SMURF1		further_analysis	0
+ENSG00000179598	ENSG00000264187	12	PLD6	RP11-45M22.4	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	445
+ENSG00000204152	ENSG00000265354	12	TIMM23B	TIMM23	paralogs,healthy,bodymap2,ambiguous	skipped	668
+ENSG00000204435	ENSG00000263020	12	CSNK2B	XXBAC-BPG32J3.22	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,duplicates,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1913
+ENSG00000099949	ENSG00000183773	11	LZTR1	AIFM3	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,conjoing,healthy,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp,banned	skipped	7
+ENSG00000100298	ENSG00000225720	11	APOBEC3H	RP4-742C19.12	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,rp_gene,distance200kbp	skipped	0
+ENSG00000106123	ENSG00000124782	11	EPHB6	RREB1		further_analysis	0
+ENSG00000108848	ENSG00000278963	11	LUC7L3	RP11-294J22.7	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	300
+ENSG00000130433	ENSG00000142408	11	CACNG6	CACNG8	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000134184	ENSG00000213366	11	GSTM1	GSTM2	paralogs,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp,gtex	skipped	407
+ENSG00000143355	ENSG00000203724	11	LHX9	C1ORF53	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000179029	ENSG00000179094	11	TMEM107	PER1	short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000188677	ENSG00000280434	11	PARVB	RP4-671O14.6	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp_gene,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	44
+ENSG00000197928	ENSG00000267809	11	ZNF677	NDUFV2P1	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000039068	ENSG00000260459	10	CDH1	FTLP14	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000101452	ENSG00000177119	10	DHX35	ANO6		further_analysis	0
+ENSG00000134184	ENSG00000168765	10	GSTM1	GSTM4	paralogs,adjacent,short_distance,distance100kbp,healthy,duplicates,bodymap2,ambiguous,distance200kbp,gtex	skipped	472
+ENSG00000148120	ENSG00000230815	10	C9ORF3	RP11-49O14.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000152578	ENSG00000255403	10	GRIA4	AP000641.1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000188785	ENSG00000268133	10	ZNF548	AC003002.4	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	105
+ENSG00000250360	ENSG00000251601	10	CTD-2089N3.1	RP11-317O24.2	no_protein,adjacent,short_distance,distance100kbp,lincrna,rp11_gene,ctd_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000108384	ENSG00000109832	9	RAD51C	DDX25		further_analysis	0
+ENSG00000120533	ENSG00000205038	9	ENY2	PKHD1L1	adjacent,short_distance,distance100kbp,distance200kbp,gtex	further_analysis	0
+ENSG00000145348	ENSG00000173846	9	TBCK	PLK3		further_analysis	126
+ENSG00000160299	ENSG00000160305	9	PCNT	DIP2A	adjacent,short_distance,distance100kbp,distance200kbp,gtex	further_analysis	0
+ENSG00000161958	ENSG00000262880	9	FGF11	RP11-104H15.7	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2453
+ENSG00000165810	ENSG00000241870	9	BTNL9	CTB-14A14.1	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,ctb_gene,distance200kbp	skipped	0
+ENSG00000173575	ENSG00000279765	9	CHD2	RP11-437B10.1	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	6240
+ENSG00000184672	ENSG00000253137	9	RALYL	RP11-509P12.1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping	skipped	0
+ENSG00000196417	ENSG00000203326	9	ZNF765	ZNF525	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	102
+ENSG00000260456	ENSG00000261697	9	C16ORF95	RP11-178L8.5	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000262880	ENSG00000272884	9	RP11-104H15.7	RP11-104H15.10	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2988
+ENSG00000270307	ENSG00000270388	9	MTATP6P2	RP11-475J5.8	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000122367	ENSG00000122375	8	LDB3	OPN4	adjacent,short_distance,distance10kbp,distance100kbp,healthy,bodymap2,distance200kbp	skipped	0
+ENSG00000125454	ENSG00000188313	8	SLC25A19	PLSCR1		further_analysis	0
+ENSG00000125695	ENSG00000266173	8	RP11-51F16.8	STRADA	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	3379
+ENSG00000131152	ENSG00000261697	8	RP11-178L8.4	RP11-178L8.5	no_protein,similar_symbols,adjacent,short_distance,distance100kbp,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000134376	ENSG00000221879	8	CRB1	MRPS21P3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,ribosomal_protein,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000147654	ENSG00000205038	8	EBAG9	PKHD1L1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000150403	ENSG00000198176	8	TMCO3	TFDP1	adjacent,short_distance,distance100kbp,tcga,cell_lines,distance200kbp	further_analysis	0
+ENSG00000162851	ENSG00000229112	8	TFB2M	RP11-690C23.3	no_protein,adjacent,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000165115	ENSG00000165121	8	KIF27	RP11-213G2.3	no_protein,pseudogene,rp11_gene,rp_gene,healthy,bodymap2,ambiguous	skipped	346
+ENSG00000185513	ENSG00000277611	8	L3MBTL1	RP1-138B7.6	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	122
+ENSG00000204323	ENSG00000259120	8	SMIM5	SMIM6	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000205323	ENSG00000257390	8	SARNP	RP11-762I7.5	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	929
+ENSG00000227788	ENSG00000236878	8	AC012363.8	AC012363.7	no_protein,similar_symbols,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000079974	ENSG00000144134	7	RABL2B	RABL2A	paralogs,similar_reads,oncogene,healthy,ambiguous,gtex	skipped	13717
+ENSG00000116212	ENSG00000165416	7	LRRC42	SUGT1		further_analysis	0
+ENSG00000125975	ENSG00000242507	7	C20ORF173	RP3-477O4.5	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,pseudogene,rp_gene,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	5
+ENSG00000128000	ENSG00000197782	7	ZNF780B	ZNF780A	paralogs,adjacent,similar_reads,short_distance,distance100kbp,duplicates,ambiguous,distance200kbp	skipped	4007
+ENSG00000144895	ENSG00000198843	7	EIF2A	SELT	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000152433	ENSG00000256060	7	ZNF547	TRAPPC2P1	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	147
+ENSG00000177359	ENSG00000256673	7	OVOS2	RP11-599J14.2	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	720
+ENSG00000196381	ENSG00000267319	7	ZNF781	CTD-2528L19.3	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,ctd_gene,distance200kbp	skipped	0
+ENSG00000197416	ENSG00000237264	7	FABP12	FTH1P11	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000205038	ENSG00000254185	7	PKHD1L1	RP11-419L20.2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000213213	ENSG00000273066	7	CCDC183	RP11-216L13.19	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2685
+ENSG00000229728	ENSG00000234684	7	RP11-314N13.3	SDCBP2-AS1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,antisense,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000260628	ENSG00000275832	7	RP11-1166P10.1	ARHGAP23	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	2246
+ENSG00000100926	ENSG00000196497	6	TM9SF1	IPO4	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,cacg,distance200kbp	skipped	0
+ENSG00000100926	ENSG00000259522	6	TM9SF1	RP11-468E2.2	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	174
+ENSG00000107281	ENSG00000279073	6	NPDC1	RP11-229P13.27	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1009
+ENSG00000111196	ENSG00000256667	6	MAGOHB	KLRAP1	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,hpa,distance200kbp,banned	skipped	0
+ENSG00000114378	ENSG00000186792	6	HYAL1	HYAL3	paralogs,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_partially_overlapping,refseq_same_strand_overlapping,duplicates,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000114378	ENSG00000243477	6	HYAL1	NAT6	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000114786	ENSG00000243989	6	ABHD14A-ACY1	ACY1	paralogs,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	3872
+ENSG00000116830	ENSG00000134256	6	TTF2	CD101	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000124613	ENSG00000237154	6	ZNF391	MCFD2P1	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000137965	ENSG00000238015	6	IFI44	RP4-641G12.3	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,rp_gene,distance200kbp	skipped	0
+ENSG00000139192	ENSG00000276718	6	TAPBPL	RP1-102E24.10	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,antisense,rp_gene,healthy,bodymap2,distance200kbp	skipped	0
+ENSG00000149090	ENSG00000183032	6	PAMR1	SLC25A21		further_analysis	0
+ENSG00000175018	ENSG00000224023	6	TEX36	FLJ37035	no_protein,adjacent,short_distance,distance100kbp,lincrna,distance200kbp	further_analysis	0
+ENSG00000175018	ENSG00000280561	6	TEX36	RP11-383C5.8	no_protein,adjacent,short_distance,distance100kbp,antisense,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000179636	ENSG00000255472	6	TPPP2	RP11-998D10.1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,antisense,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000182175	ENSG00000258611	6	RGMA	RP11-368J22.2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	56
+ENSG00000196497	ENSG00000254692	6	IPO4	RP11-468E2.1	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,cacg,distance200kbp	skipped	0
+ENSG00000198046	ENSG00000276578	6	ZNF667	LLNLR-285B5.1	no_protein,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000213297	ENSG00000242615	6	ZNF625-ZNF20	CTC-359D24.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,pseudogene,ctc_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	51
+ENSG00000232018	ENSG00000271417	6	AL132709.8	SNHG24	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,lincrna,snorna,distance200kbp	skipped	0
+ENSG00000233286	ENSG00000243104	6	MTND3P10	MTND4LP14	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000254692	ENSG00000259522	6	RP11-468E2.1	RP11-468E2.2	similar_symbols,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	172
+ENSG00000049089	ENSG00000131080	5	COL9A2	EDA2R		further_analysis	0
+ENSG00000051108	ENSG00000261270	5	HERPUD1	RP11-325K4.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000070413	ENSG00000273311	5	DGCR2	DGCR11	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000087245	ENSG00000279030	5	MMP2	RP11-212I21.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	166
+ENSG00000095970	ENSG00000161911	5	TREM2	TREML1	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000103528	ENSG00000188477	5	SYT17	AC003003.5	no_protein,adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000103528	ENSG00000261210	5	SYT17	CLEC19A	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000114374	ENSG00000124486	5	USP9Y	USP9X	paralogs,ambiguous,gtex	skipped	550
+ENSG00000131781	ENSG00000226015	5	FMO5	CCT8P1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000143590	ENSG00000169241	5	EFNA3	SLC50A1	short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000146963	ENSG00000164898	5	LUC7L2	C7ORF55	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	18
+ENSG00000161677	ENSG00000197472	5	JOSD2	ZNF695		further_analysis	0
+ENSG00000169241	ENSG00000251246	5	SLC50A1	RP11-540D14.8	short_distance,distance100kbp,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000172554	ENSG00000197548	5	SNTG2	ATG7		further_analysis	0
+ENSG00000185946	ENSG00000236085	5	RNPC3	ACTG1P4	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000188603	ENSG00000261832	5	CLN3	RP11-435I10.4	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,duplicates,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2615
+ENSG00000197782	ENSG00000269749	5	ZNF780A	AC005614.5	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	800
+ENSG00000197785	ENSG00000215915	5	ATAD3A	ATAD3C	paralogs,similar_reads,short_distance,distance100kbp,duplicates,ambiguous,distance200kbp	skipped	2169
+ENSG00000213066	ENSG00000272980	5	FGFR1OP	RP11-517H2.6	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,oncogene,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1517
+ENSG00000213547	ENSG00000260883	5	VN1R64P	VN1R65P	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000225720	ENSG00000239713	5	RP4-742C19.12	APOBEC3G	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,rp_gene,distance200kbp	skipped	0
+ENSG00000240038	ENSG00000243480	5	AMY2B	AMY2A	paralogs,adjacent,similar_reads,short_distance,distance100kbp,cacg,duplicates,ambiguous,distance200kbp,gtex	skipped	8520
+ENSG00000263956	ENSG00000271383	5	NBPF11	NBPF19	paralogs,similar_reads,ambiguous	skipped	33891
+ENSG00000272896	ENSG00000273066	5	RP11-216L13.17	RP11-216L13.19	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	523
+ENSG00000015479	ENSG00000280987	4	MATR3	MATR3	similar_symbols,paralogs,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,ambiguous,distance200kbp	skipped	20651
+ENSG00000039068	ENSG00000062038	4	CDH1	CDH3	paralogs,adjacent,short_distance,distance100kbp,distance200kbp	skipped	0
+ENSG00000057468	ENSG00000117054	4	MSH4	ACADM	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000078098	ENSG00000115267	4	FAP	IFIH1	adjacent,short_distance,distance100kbp,cell_lines,distance200kbp	further_analysis	0
+ENSG00000089723	ENSG00000175699	4	OTUB2	LINC00521	no_protein,adjacent,short_distance,distance100kbp,lincrna,hpa,distance200kbp,banned	skipped	0
+ENSG00000099337	ENSG00000099338	4	KCNK6	CATSPERG	adjacent,short_distance,distance10kbp,distance100kbp,known,ambiguous,distance200kbp	further_analysis	263
+ENSG00000100197	ENSG00000205702	4	CYP2D6	CYP2D7	paralogs,similar_reads,short_distance,distance10kbp,distance100kbp,pseudogene,healthy,cacg,refseq_fully_overlapping,refseq_same_strand_overlapping,bodymap2,ambiguous,distance200kbp	skipped	3378
+ENSG00000112195	ENSG00000184106	4	TREML2	TREML3P	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000128581	ENSG00000130540	4	IFT22	SULT4A1		further_analysis	0
+ENSG00000132570	ENSG00000279799	4	PCBD2	AC006077.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000133597	ENSG00000168004	4	ADCK2	HRASLS5		further_analysis	0
+ENSG00000136383	ENSG00000166716	4	ALPK3	ZNF592	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000139620	ENSG00000174233	4	KANSL2	ADCY6	short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000143590	ENSG00000169242	4	EFNA3	EFNA1	paralogs,adjacent,short_distance,distance100kbp,duplicates,distance200kbp	skipped	0
+ENSG00000149182	ENSG00000270060	4	ARFGAP2	RP11-390K5.6	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	68
+ENSG00000159398	ENSG00000198848	4	CES5A	CES1	paralogs,adjacent,short_distance,distance100kbp,duplicates,distance200kbp	skipped	0
+ENSG00000161955	ENSG00000248871	4	TNFSF13	TNFSF12-TNFSF13	paralogs,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,duplicates,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1584
+ENSG00000162521	ENSG00000249485	4	RBBP4	RBBP4P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	6957
+ENSG00000164587	ENSG00000224114	4	RPS14	RP11-343H5.4	no_protein,similar_reads,pseudogene,ribosomal_protein,rp11_gene,rp_gene,healthy,bodymap2,ambiguous	skipped	2419
+ENSG00000169242	ENSG00000251246	4	EFNA1	RP11-540D14.8	paralogs,adjacent,short_distance,distance100kbp,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000174032	ENSG00000214455	4	SLC25A30	RCN1P2	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000184343	ENSG00000198753	4	SRPK3	PLXNB3	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,conjoing,healthy,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	480
+ENSG00000188365	ENSG00000241269	4	AC092171.2	AC093620.5	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,antisense,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2
+ENSG00000189223	ENSG00000274877	4	PAX8-AS1	RP11-65I12.1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,antisense,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	575
+ENSG00000197580	ENSG00000255292	4	BCO2	AP002884.2	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance100kbp,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2165
+ENSG00000205274	ENSG00000226562	4	TRBV20OR9-2	CYP4F26P	no_protein,adjacent,short_distance,distance100kbp,lincrna,distance200kbp	further_analysis	0
+ENSG00000214988	ENSG00000249242	4	RPL7AP26	TMEM150C	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,pseudogene,ribosomal_protein,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000227117	ENSG00000227201	4	HORMAD2-AS1	CNN2P1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,antisense,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000231940	ENSG00000251508	4	RPS7P3	RP5-862P8.3	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,ribosomal_protein,rp_gene,distance200kbp	skipped	0
+ENSG00000235400	ENSG00000238015	4	RP4-641G12.4	RP4-641G12.3	no_protein,similar_symbols,adjacent,short_distance,distance100kbp,pseudogene,rp_gene,distance200kbp	skipped	0
+ENSG00000241370	ENSG00000248167	4	RPP21	TRIM39-RPP21	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	642
+ENSG00000008128	ENSG00000248333	3	CDK11A	CDK11B	paralogs,similar_reads,short_distance,distance100kbp,conjoing,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,bodymap2,ambiguous,distance200kbp,gtex	skipped	19283
+ENSG00000025708	ENSG00000177989	3	TYMP	ODF3B	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	34
+ENSG00000055332	ENSG00000138068	3	EIF2AK2	SULT6B1	adjacent,short_distance,distance100kbp,cell_lines,distance200kbp	further_analysis	0
+ENSG00000066923	ENSG00000242294	3	STAG3	STAG3L5P	no_protein,similar_reads,short_distance,pseudogene,ambiguous,distance200kbp,banned	skipped	1243
+ENSG00000067225	ENSG00000254023	3	PKM	PKMP4	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	13832
+ENSG00000090060	ENSG00000276182	3	PAPOLA	RP11-872J21.5	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000111640	ENSG00000228232	3	GAPDH	GAPDHP1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous,banned	skipped	181486
+ENSG00000115109	ENSG00000176978	3	EPB41L5	DPP7		further_analysis	0
+ENSG00000116580	ENSG00000163374	3	GON4L	YY1AP1	paralogs,similar_reads,short_distance,distance100kbp,conjoing,cacg,duplicates,ambiguous,distance200kbp,gtex	skipped	17970
+ENSG00000116883	ENSG00000214193	3	RP11-268J15.5	SH3D21	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,antisense,rp11_gene,rp_gene,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	296
+ENSG00000116954	ENSG00000214114	3	RRAGC	MYCBP	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,distance200kbp	skipped	0
+ENSG00000121716	ENSG00000242294	3	PILRB	STAG3L5P	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000122852	ENSG00000185303	3	SFTPA1	SFTPA2	paralogs,healthy,duplicates,bodymap2,gtex	skipped	43
+ENSG00000124215	ENSG00000176659	3	CDH26	C20ORF197	no_protein,adjacent,short_distance,distance100kbp,lincrna,distance200kbp	further_analysis	0
+ENSG00000133121	ENSG00000230490	3	STARD13	RP11-141M1.3	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,lincrna,rp11_gene,rp_gene,healthy,distance200kbp	skipped	0
+ENSG00000138356	ENSG00000244301	3	AOX1	AOX3P	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,healthy,bodymap2,distance200kbp	skipped	0
+ENSG00000140941	ENSG00000258102	3	MAP1LC3B	MAP1LC3B2	paralogs,similar_reads,healthy,bodymap2,ambiguous,gtex	skipped	740
+ENSG00000147869	ENSG00000175893	3	CER1	ZDHHC21	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000154229	ENSG00000164663	3	PRKCA	USP49		further_analysis	24
+ENSG00000156508	ENSG00000214199	3	EEF1A1	EEF1A1P12	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	243350
+ENSG00000162572	ENSG00000230415	3	SCNN1D	RP5-902P8.10	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,lincrna,rp_gene,distance200kbp	skipped	0
+ENSG00000163682	ENSG00000237550	3	RPL9	RPL9P9	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ribosomal_protein,ambiguous	skipped	1612
+ENSG00000164756	ENSG00000253327	3	SLC30A8	RAD21-AS1	no_protein,short_distance,distance100kbp,antisense,distance200kbp	further_analysis	0
+ENSG00000165494	ENSG00000254676	3	PCF11	RP11-727A23.4	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	7
+ENSG00000166676	ENSG00000262488	3	TVP23A	RP11-876N24.1	no_protein,adjacent,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000167526	ENSG00000215030	3	RPL13	RPL13P12	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ribosomal_protein,healthy,bodymap2,ambiguous	skipped	10408
+ENSG00000167654	ENSG00000266989	3	ATCAY	FTLP5	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000168995	ENSG00000171101	3	SIGLEC7	SIGLEC17P	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000172296	ENSG00000234265	3	SPTLC3	RP11-157E14.1	no_protein,adjacent,short_distance,distance100kbp,lincrna,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000173480	ENSG00000198466	3	ZNF417	ZNF587	paralogs,similar_reads,healthy,bodymap2,ambiguous,gtex	skipped	801
+ENSG00000176659	ENSG00000228340	3	C20ORF197	MIR646HG	no_protein,adjacent,short_distance,distance100kbp,lincrna,distance200kbp	further_analysis	0
+ENSG00000186230	ENSG00000269533	3	ZNF749	AC003002.6	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	1
+ENSG00000189180	ENSG00000196693	3	ZNF33A	ZNF33B	similar_reads,healthy,duplicates,bodymap2,ambiguous,gtex,banned	skipped	3389
+ENSG00000189212	ENSG00000227855	3	DPY19L2P1	DPY19L2P3	no_protein,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	416
+ENSG00000196689	ENSG00000263338	3	TRPV1	RP11-235E17.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000198326	ENSG00000258713	3	TMEM239	C20ORF141	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000214114	ENSG00000273637	3	MYCBP	RP5-864K19.7	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,rp_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	206
+ENSG00000214892	ENSG00000227939	3	USP8P1	RPL3P2	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,ribosomal_protein,distance200kbp	further_analysis	0
+ENSG00000214988	ENSG00000227304	3	RPL7AP26	RP11-791G16.2	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,ribosomal_protein,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000224689	ENSG00000239830	3	ZNF812	RPS4XP22	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,ribosomal_protein,distance200kbp	further_analysis	0
+ENSG00000225345	ENSG00000272904	3	SNX18P3	RP11-392E22.11	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,rp11_gene,rp_gene,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	253
+ENSG00000225746	ENSG00000232018	3	SNHG23	AL132709.8	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,lincrna,snorna,distance200kbp	skipped	0
+ENSG00000226562	ENSG00000230453	3	CYP4F26P	ANKRD18B	no_protein,short_distance,distance10kbp,distance100kbp,lincrna,distance200kbp	further_analysis	0
+ENSG00000235333	ENSG00000242294	3	PVRIG2P	STAG3L5P	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000241690	ENSG00000258713	3	RP5-860F19.8	C20ORF141	paralogs,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	20
+ENSG00000242294	ENSG00000272752	3	STAG3L5P	STAG3L5P-PVRIG2P-PILRB	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,refseq_fully_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1214
+ENSG00000259295	ENSG00000276710	3	CSPG4P12	CSPG4P10	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	9390
+ENSG00000270350	ENSG00000270906	3	MTND4LP5	MTND4P35	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000274949	ENSG00000275491	3	RP5-1009E24.9	RP5-1009E24.8	no_protein,similar_symbols,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,lincrna,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	14
+ENSG00000005421	ENSG00000105852	2	PON1	PON3	paralogs,adjacent,short_distance,distance100kbp,cacg,duplicates,distance200kbp	skipped	0
+ENSG00000008710	ENSG00000261123	2	PKD1	RP11-304L19.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000010030	ENSG00000189325	2	ETV7	C6ORF222	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000010626	ENSG00000111674	2	LRRC23	ENO2	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000042813	ENSG00000223893	2	ZPBP	GNL2P1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000054523	ENSG00000167986	2	KIF1B	DDB1		further_analysis	0
+ENSG00000066923	ENSG00000272752	2	STAG3	STAG3L5P-PVRIG2P-PILRB	no_protein,similar_reads,short_distance,ambiguous,distance200kbp	skipped	4591
+ENSG00000067057	ENSG00000278419	2	PFKP	RP11-298E9.7	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,antisense,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	3716
+ENSG00000073578	ENSG00000185485	2	SDHA	SDHAP1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	19905
+ENSG00000074317	ENSG00000172687	2	SNCB	ZNF738		further_analysis	0
+ENSG00000078319	ENSG00000239521	2	PMS2P1	GATS	no_protein,adjacent,short_distance,distance100kbp,pseudogene,healthy,distance200kbp	skipped	0
+ENSG00000094755	ENSG00000182132	2	GABRP	KCNIP1	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000095970	ENSG00000112195	2	TREM2	TREML2	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000099992	ENSG00000239282	2	TBC1D10A	GATSL3	adjacent,short_distance,distance10kbp,distance100kbp,cacg,distance200kbp	further_analysis	0
+ENSG00000101745	ENSG00000178127	2	ANKRD12	NDUFV2	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,cacg,distance200kbp,gtex	skipped	0
+ENSG00000101745	ENSG00000265257	2	ANKRD12	RP11-21J18.1	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	184
+ENSG00000101745	ENSG00000267809	2	ANKRD12	NDUFV2P1	no_protein,pseudogene	further_analysis	0
+ENSG00000104731	ENSG00000260671	2	KLHDC4	RP11-278A23.2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000104974	ENSG00000239998	2	LILRA1	LILRA2	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	29
+ENSG00000105370	ENSG00000268144	2	LIM2	NIFKP6	no_protein,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000106554	ENSG00000283041	2	CHCHD3	RP11-371A22.1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	249
+ENSG00000106588	ENSG00000136197	2	PSMA2	C7ORF25	adjacent,short_distance,distance10kbp,distance100kbp,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,distance200kbp	further_analysis	0
+ENSG00000106588	ENSG00000256646	2	PSMA2	RP11-111K18.1	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,duplicates,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2654
+ENSG00000106692	ENSG00000173611	2	FKTN	SCAI		further_analysis	9
+ENSG00000111640	ENSG00000218582	2	GAPDH	GAPDHP63	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous,banned	skipped	38957
+ENSG00000111640	ENSG00000235587	2	GAPDH	GAPDHP65	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous,banned	skipped	108652
+ENSG00000112200	ENSG00000151917	2	ZNF451	BEND6	short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000112763	ENSG00000124508	2	BTN2A1	BTN2A2	paralogs,short_distance,distance100kbp,cacg,duplicates,ambiguous,distance200kbp,gtex	skipped	186
+ENSG00000114656	ENSG00000187695	2	KIAA1257	RP11-723O4.6	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	3
+ENSG00000115977	ENSG00000170185	2	AAK1	USP38		further_analysis	0
+ENSG00000117984	ENSG00000229512	2	CTSD	AC068580.5	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000120937	ENSG00000151490	2	NPPB	PTPRO		further_analysis	0
+ENSG00000125691	ENSG00000232383	2	RPL23	AC010677.5	no_protein,pseudogene,ribosomal_protein,healthy,bodymap2,ambiguous,banned	skipped	361
+ENSG00000126005	ENSG00000261582	2	MMP24-AS1	RP4-614O4.11	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp_gene,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	307
+ENSG00000127022	ENSG00000225051	2	CANX	HMGB3P22	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,healthy,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000129315	ENSG00000174233	2	CCNT1	ADCY6	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000136378	ENSG00000261143	2	ADAMTS7	ADAMTS7P3	no_protein,pseudogene,healthy,bodymap2,ambiguous	skipped	642
+ENSG00000139178	ENSG00000171914	2	C1RL	TLN2		further_analysis	0
+ENSG00000140481	ENSG00000259264	2	CCDC33	RP11-60L3.1	no_protein,adjacent,short_distance,distance100kbp,antisense,rp11_gene,rp_gene,healthy,distance200kbp	skipped	0
+ENSG00000144649	ENSG00000273291	2	FAM198A	RP11-136C24.3	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	161
+ENSG00000147118	ENSG00000221994	2	ZNF182	ZNF630	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,duplicates,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	76
+ENSG00000156110	ENSG00000214629	2	ADK	RPSAP6	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,pseudogene,ribosomal_protein,gencode_fully_overlapping,gencode_same_strand_overlapping	skipped	0
+ENSG00000156232	ENSG00000215302	2	WHAMM	CTD-3092A11.1	no_protein,similar_reads,pseudogene,ctd_gene,ambiguous	skipped	747
+ENSG00000156508	ENSG00000196205	2	EEF1A1	EEF1A1P5	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	355995
+ENSG00000156508	ENSG00000249264	2	EEF1A1	EEF1A1P9	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	273043
+ENSG00000157703	ENSG00000204815	2	SVOPL	TTC25		further_analysis	0
+ENSG00000160783	ENSG00000260238	2	PMF1	PMF1-BGLAP	paralogs,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,duplicates,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	702
+ENSG00000160862	ENSG00000176402	2	AZGP1	GJC3	adjacent,short_distance,distance100kbp,known,healthy,cacg,bodymap2,hpa,distance200kbp,banned	further_analysis	0
+ENSG00000163157	ENSG00000163159	2	TMOD4	VPS72	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	24
+ENSG00000164933	ENSG00000171208	2	SLC25A32	NETO2	ambiguous	skipped	56
+ENSG00000166762	ENSG00000205771	2	CATSPER2	CATSPER2P1	no_protein,similar_reads,short_distance,distance100kbp,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous,distance200kbp	skipped	3341
+ENSG00000166839	ENSG00000249240	2	ANKDD1A	AC069368.3	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	378
+ENSG00000166959	ENSG00000214782	2	MS4A8	MS4A18	paralogs,adjacent,short_distance,distance100kbp,distance200kbp	skipped	0
+ENSG00000167552	ENSG00000167553	2	TUBA1A	TUBA1C	ensembl_partially_overlapping,similar_reads,healthy,cacg,ucsc_partially_overlapping,duplicates,tcga,bodymap2,ambiguous,gencode_partially_overlapping,gtex	skipped	17898
+ENSG00000171772	ENSG00000203772	2	SYCE1	SPRN	short_distance,distance200kbp	further_analysis	10
+ENSG00000175894	ENSG00000205445	2	TSPEAR	KRTAP10-2	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp,gtex	skipped	0
+ENSG00000176945	ENSG00000242086	2	MUC20	LINC00969	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,lincrna,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	6386
+ENSG00000178104	ENSG00000227242	2	PDE4DIP	NBPF13P	no_protein,similar_reads,pseudogene,ambiguous	skipped	1222
+ENSG00000180871	ENSG00000188282	2	CXCR2	RUFY4	adjacent,short_distance,distance100kbp,distance200kbp	further_analysis	0
+ENSG00000181163	ENSG00000244560	2	NPM1	RP4-800G7.2	no_protein,pseudogene,rp_gene,ambiguous	skipped	66
+ENSG00000181995	ENSG00000204979	2	LINC00301	MS4A13	no_protein,adjacent,short_distance,distance100kbp,lincrna,distance200kbp	further_analysis	0
+ENSG00000183495	ENSG00000185684	2	EP400	EP400NL	paralogs,adjacent,similar_reads,short_distance,distance10kbp,distance100kbp,ambiguous,distance200kbp	skipped	1297
+ENSG00000185485	ENSG00000242086	2	SDHAP1	LINC00969	no_protein,similar_reads,pseudogene,lincrna,healthy,bodymap2,ambiguous	skipped	29024
+ENSG00000189051	ENSG00000263809	2	RNF222	RP11-849F2.7	adjacent,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,cacg,distance200kbp	skipped	0
+ENSG00000196214	ENSG00000198464	2	ZNF766	ZNF480	paralogs,adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	skipped	23
+ENSG00000198868	ENSG00000247627	2	MTND4LP30	MTND4P12	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000203942	ENSG00000241935	2	C10ORF62	HOGA1	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000204599	ENSG00000241370	2	TRIM39	RPP21	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,ucsc_fully_overlapping,ucsc_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000214425	ENSG00000225190	2	LRRC37A4P	PLEKHM1	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	further_analysis	0
+ENSG00000215302	ENSG00000248334	2	CTD-3092A11.1	WHAMMP2	no_protein,similar_reads,pseudogene,ctd_gene,ambiguous	skipped	885
+ENSG00000215883	ENSG00000256407	2	CYB5RL	RP11-446E24.4	paralogs,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	253
+ENSG00000220583	ENSG00000232559	2	RPL35P2	GS1-124K5.12	no_protein,pseudogene,ribosomal_protein	further_analysis	0
+ENSG00000221857	ENSG00000266964	2	CTD-2527I21.4	FXYD1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,ctd_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	817
+ENSG00000225573	ENSG00000232559	2	RPL35P5	GS1-124K5.12	no_protein,adjacent,short_distance,distance100kbp,pseudogene,ribosomal_protein,distance200kbp	further_analysis	0
+ENSG00000227788	ENSG00000233286	2	AC012363.8	MTND3P10	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000228315	ENSG00000272578	2	GUSBP11	AP000347.2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	19784
+ENSG00000234731	ENSG00000249177	2	MTND4LP16	MTND4P29	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000239282	ENSG00000248751	2	GATSL3	RP1-130H16.18	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2641
+ENSG00000243989	ENSG00000248487	2	ACY1	ABHD14A	adjacent,short_distance,distance10kbp,distance100kbp,conjoing,distance200kbp	skipped	0
+ENSG00000244560	ENSG00000274414	2	RP4-800G7.2	RP5-965G21.4	no_protein,pseudogene,lincrna,rp_gene,ambiguous	skipped	72
+ENSG00000267270	ENSG00000278000	2	PARD6G-AS1	AC139100.4	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,antisense,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000270388	ENSG00000271480	2	RP11-475J5.8	RP11-475J5.10	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000005100	ENSG00000108561	1	DHX33	C1QBP	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,conjoing,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000005194	ENSG00000263846	1	CIAPIN1	CIAPIN1P	no_protein,pseudogene,pair_pseudo_genes,ambiguous	skipped	518
+ENSG00000006704	ENSG00000230583	1	GTF2IRD1	GTF2IRD1P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	1086
+ENSG00000016864	ENSG00000186153	1	GLT8D1	WWOX	ambiguous	skipped	29
+ENSG00000023228	ENSG00000138675	1	NDUFS1	FGF5	ambiguous	skipped	128
+ENSG00000029559	ENSG00000152595	1	IBSP	MEPE	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000050327	ENSG00000204959	1	ARHGEF5	ARHGEF34P	no_protein,pseudogene,ambiguous	skipped	416
+ENSG00000060138	ENSG00000261614	1	YBX3	CSDAP1	no_protein,pseudogene,healthy,bodymap2,ambiguous	skipped	149
+ENSG00000062096	ENSG00000205667	1	ARSF	ARSH	paralogs,adjacent,short_distance,distance10kbp,distance100kbp,duplicates,distance200kbp	skipped	0
+ENSG00000069956	ENSG00000215179	1	MAPK6	MAPK6PS4	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	1255
+ENSG00000070413	ENSG00000281530	1	DGCR2	DGCR12	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000070756	ENSG00000230673	1	PABPC1	PABPC1P3	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	3148
+ENSG00000070756	ENSG00000231707	1	PABPC1	PABPC1P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	1739
+ENSG00000071082	ENSG00000243297	1	RPL31	RPL31P61	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ribosomal_protein,ambiguous	skipped	786
+ENSG00000071203	ENSG00000204979	1	MS4A12	MS4A13	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000073605	ENSG00000095209	1	GSDMB	TMEM38B	ambiguous	skipped	591
+ENSG00000074356	ENSG00000245958	1	NCBP3	RP11-33B1.1	no_protein,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	24
+ENSG00000074800	ENSG00000186197	1	ENO1	EDARADD	similar_reads,known,healthy,tcga,bodymap2,ambiguous,gtex,banned	further_analysis	26720
+ENSG00000074800	ENSG00000244457	1	ENO1	ENO1P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	25253
+ENSG00000075426	ENSG00000140479	1	FOSL2	PCSK6		skipped	0
+ENSG00000078237	ENSG00000100564	1	TIGAR	PIGH		skipped	0
+ENSG00000080824	ENSG00000205100	1	HSP90AA1	HSP90AA4P	no_protein,similar_reads,pseudogene,healthy,bodymap2,ambiguous,banned	skipped	15058
+ENSG00000080824	ENSG00000224411	1	HSP90AA1	HSP90AA2P	no_protein,similar_reads,pseudogene,healthy,bodymap2,ambiguous	skipped	58076
+ENSG00000086666	ENSG00000179766	1	ZFAND6	ATP8B5P	no_protein,pseudogene,healthy,bodymap2,ambiguous	skipped	419
+ENSG00000086666	ENSG00000244213	1	ZFAND6	ZFAND6P1	no_protein,pseudogene,pair_pseudo_genes,ambiguous	skipped	343
+ENSG00000088387	ENSG00000248185	1	DOCK9	CTD-2049O17.1	no_protein,pseudogene,ctd_gene,ambiguous	skipped	323
+ENSG00000089009	ENSG00000230383	1	RPL6	AC009245.3	no_protein,similar_reads,pseudogene,ribosomal_protein,ambiguous	skipped	10507
+ENSG00000090054	ENSG00000228430	1	SPTLC1	RP11-15B24.5	no_protein,lincrna,rp11_gene,rp_gene,ambiguous	skipped	71
+ENSG00000090581	ENSG00000278920	1	GNPTG	RP3-412A9.17	no_protein,rp_gene	skipped	3
+ENSG00000090615	ENSG00000270547	1	GOLGA3	LINC01235	no_protein,lincrna	skipped	17
+ENSG00000090889	ENSG00000241839	1	KIF4A	PLEKHO2		skipped	0
+ENSG00000090889	ENSG00000249240	1	KIF4A	AC069368.3		skipped	0
+ENSG00000095485	ENSG00000153029	1	CWF19L1	MR1		skipped	0
+ENSG00000095777	ENSG00000172260	1	MYO3A	NEGR1		skipped	0
+ENSG00000100003	ENSG00000122035	1	SEC14L2	RASL11A		skipped	0
+ENSG00000100129	ENSG00000279738	1	EIF3L	RP5-1014D13.2	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	3789
+ENSG00000100344	ENSG00000167483	1	PNPLA3	FAM129C		skipped	0
+ENSG00000100344	ENSG09000000017	1	PNPLA3	IGH_locus_(e)		skipped	0
+ENSG00000100429	ENSG00000188130	1	HDAC10	MAPK12	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,healthy,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2736
+ENSG00000100503	ENSG00000270062	1	NIN	RP11-248J18.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000100578	ENSG00000258900	1	KIAA0586	HNRNPCP1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,healthy,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000100802	ENSG00000280129	1	C14ORF93	RP11-298I3.3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	5
+ENSG00000100836	ENSG00000213018	1	PABPN1	AL590762.11	no_protein,pseudogene,ambiguous	skipped	52
+ENSG00000101294	ENSG00000101898	1	HM13	MCTS2P	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,refseq_fully_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	30
+ENSG00000102078	ENSG00000213608	1	SLC25A14	SLC25A14P1	no_protein,pseudogene,pair_pseudo_genes,ambiguous	skipped	164
+ENSG00000102144	ENSG00000213290	1	PGK1	PGK1P2	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	7518
+ENSG00000102144	ENSG00000228328	1	PGK1	RP11-516A11.1	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	9828
+ENSG00000102967	ENSG00000165233	1	DHODH	CARD19	ambiguous	skipped	286
+ENSG00000103426	ENSG00000217930	1	CORO7-PAM16	PAM16	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	402
+ENSG00000103485	ENSG00000173141	1	QPRT	MRPL57	ribosomal_protein	skipped	12
+ENSG00000104408	ENSG00000230948	1	EIF3E	AP001331.1	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000104970	ENSG00000213016	1	KIR3DX1	AC008746.9	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000105701	ENSG00000232626	1	FKBP8	RP11-175B9.2	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	2761
+ENSG00000105750	ENSG00000167232	1	ZNF85	ZNF91	duplicates,ambiguous	skipped	57
+ENSG00000105993	ENSG00000254612	1	DNAJB6	RP11-676M6.1	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	1690
+ENSG00000106133	ENSG00000130305	1	NSUN5P2	NSUN5	no_protein,similar_reads,pseudogene,pair_pseudo_genes,cacg,ambiguous	skipped	1311
+ENSG00000106348	ENSG00000218976	1	IMPDH1	RP11-528A10.1	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	6157
+ENSG00000106348	ENSG00000226553	1	IMPDH1	AC018735.1	no_protein,similar_reads,pseudogene,ambiguous	skipped	7814
+ENSG00000106348	ENSG00000239392	1	IMPDH1	RP11-537H15.4	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	11012
+ENSG00000106608	ENSG00000270617	1	URGCP	URGCP-MRPS24	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_partially_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	224
+ENSG00000106689	ENSG00000177369	1	LHX2	FLJ40194	no_protein	skipped	0
+ENSG00000107863	ENSG00000218418	1	ARHGAP21	RP11-296E7.1	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,healthy,bodymap2,ambiguous	skipped	13567
+ENSG00000108825	ENSG00000267060	1	PTGES3L-AARSD1	PTGES3L	paralogs,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_partially_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	353
+ENSG00000108854	ENSG00000266865	1	SMURF2	RP11-848P1.9	no_protein,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	71
+ENSG00000109572	ENSG00000232000	1	CLCN3	CLCN3P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	1802
+ENSG00000109685	ENSG00000229152	1	WHSC1	ANKRD10-IT1	no_protein	skipped	0
+ENSG00000111640	ENSG00000213352	1	GAPDH	GAPDHP44	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous,banned	skipped	20090
+ENSG00000111640	ENSG00000216624	1	GAPDH	GAPDHP72	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous,banned	skipped	58802
+ENSG00000111640	ENSG00000226540	1	GAPDH	GAPDHP73	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous,banned	skipped	26799
+ENSG00000111640	ENSG00000231072	1	GAPDH	GAPDHP64	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous,banned	skipped	2575
+ENSG00000111640	ENSG00000248180	1	GAPDH	GAPDHP60	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous,banned	skipped	36441
+ENSG00000111640	ENSG00000248415	1	GAPDH	GAPDHP61	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous,banned	skipped	35092
+ENSG00000111640	ENSG00000248626	1	GAPDH	GAPDHP40	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous,banned	skipped	26945
+ENSG00000111640	ENSG00000249210	1	GAPDH	GAPDHP38	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous,banned	skipped	39726
+ENSG00000111786	ENSG00000259707	1	SRSF9	RP11-752G15.4	no_protein,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	88
+ENSG00000112182	ENSG00000166452	1	BACH2	AKIP1	tcga,ambiguous	skipped	246
+ENSG00000114353	ENSG00000274979	1	GNAI2	RP11-1143G9.5	no_protein,lincrna,rp11_gene,rp_gene,ambiguous	skipped	34
+ENSG00000114353	ENSG09000001072	1	GNAI2	TRA_locus_(c)		skipped	0
+ENSG00000115008	ENSG00000169607	1	IL1A	CKAP2L	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000115459	ENSG00000278590	1	ELMOD3	RN7SL113P	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000118849	ENSG00000171466	1	RARRES1	ZNF562		skipped	0
+ENSG00000118894	ENSG00000160172	1	EEF2KMT	FAM86C2P	no_protein,similar_reads,pseudogene,ambiguous	skipped	1171
+ENSG00000118960	ENSG00000231948	1	HS1BP3	HS1BP3-IT1	no_protein,similar_symbols,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp,banned	skipped	0
+ENSG00000119725	ENSG00000140043	1	ZNF410	PTGR2	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	91
+ENSG00000121310	ENSG00000261653	1	ECHDC2	RP11-21L1.1	no_protein,lincrna,rp11_gene,rp_gene,ambiguous	skipped	244
+ENSG00000121454	ENSG00000185236	1	LHX4	RAB11B	oncogene	skipped	0
+ENSG00000121940	ENSG00000205664	1	CLCC1	RP11-706O15.1	no_protein,lincrna,rp11_gene,rp_gene	skipped	0
+ENSG00000124103	ENSG00000213714	1	FAM209A	FAM209B	paralogs,adjacent,short_distance,distance10kbp,distance100kbp,cacg,duplicates,distance200kbp,gtex	skipped	9
+ENSG00000124228	ENSG00000257543	1	DDX27	RP11-321F8.4	no_protein,lincrna,rp11_gene,rp_gene	skipped	0
+ENSG00000124467	ENSG00000221878	1	PSG8	PSG7	paralogs,short_distance,distance100kbp,cacg,duplicates,ambiguous,distance200kbp	skipped	95
+ENSG00000124615	ENSG00000235033	1	MOCS1	RP11-61I13.3	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,antisense,rp11_gene,rp_gene,healthy,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1
+ENSG00000125354	ENSG09000001072	1	SEPT6	TRA_locus_(c)		skipped	0
+ENSG00000125462	ENSG00000269404	1	C1ORF61	SPIB	ambiguous	skipped	224
+ENSG00000126012	ENSG00000235262	1	KDM5C	KDM5C-IT1	no_protein,similar_symbols,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp,banned	skipped	0
+ENSG00000127957	ENSG00000128563	1	PMS2P3	PRKRIP1	no_protein,pseudogene,ambiguous	skipped	631
+ENSG00000128731	ENSG00000230267	1	HERC2	HERC2P4	no_protein,similar_reads,pseudogene,ambiguous	skipped	4853
+ENSG00000129003	ENSG00000205364	1	VPS13C	MT1M		skipped	0
+ENSG00000129084	ENSG00000256206	1	PSMA1	RP11-140L24.4	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance100kbp,rp11_gene,rp_gene,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	969
+ENSG00000129221	ENSG00000165934	1	AIPL1	CPSF2	similar_reads,ambiguous	skipped	2157
+ENSG00000130045	ENSG00000186026	1	NXNL2	ZNF284		skipped	0
+ENSG00000130045	ENSG00000267022	1	NXNL2	AC084219.2		skipped	0
+ENSG00000130414	ENSG00000279159	1	NDUFA10	RP3-394A18.1	no_protein,antisense,rp_gene,ambiguous	skipped	196
+ENSG00000130479	ENSG00000148842	1	MAP1S	CNNM2		skipped	0
+ENSG00000131042	ENSG00000204577	1	LILRB2	LILRB3	paralogs,adjacent,short_distance,distance100kbp,healthy,duplicates,bodymap2,ambiguous,distance200kbp,gtex	skipped	62
+ENSG00000131351	ENSG00000160111	1	HAUS8	CPAMD8	adjacent,short_distance,distance100kbp,tcga,distance200kbp	skipped	0
+ENSG00000131781	ENSG00000156261	1	FMO5	CCT8	gtex	skipped	0
+ENSG00000132341	ENSG00000236603	1	RAN	RANP1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,oncogene,healthy,bodymap2,ambiguous	skipped	3436
+ENSG00000132694	ENSG00000266160	1	ARHGEF11	RN7SL612P	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,ucsc_fully_overlapping,ucsc_same_strand_overlapping,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000133226	ENSG00000237307	1	SRRM1	SRRM1P3	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	6038
+ENSG00000133313	ENSG00000137822	1	CNDP2	TUBGCP4		skipped	6
+ENSG00000133460	ENSG00000251357	1	SLC2A11	AP000350.10	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	2415
+ENSG00000134460	ENSG00000134470	1	IL2RA	IL15RA	adjacent,short_distance,distance100kbp,distance200kbp	skipped	0
+ENSG00000134545	ENSG00000183542	1	KLRC1	KLRC4	paralogs,short_distance,distance100kbp,duplicates,distance200kbp	skipped	8
+ENSG00000134545	ENSG00000255819	1	KLRC1	KLRC4-KLRK1	paralogs,short_distance,distance100kbp,distance200kbp	skipped	8
+ENSG00000134744	ENSG00000213619	1	ZCCHC11	NDUFS3		skipped	0
+ENSG00000135205	ENSG00000259628	1	CCDC146	RP11-467H10.2	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	12
+ENSG00000135486	ENSG00000239345	1	HNRNPA1	HNRNPA1P26	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	2918
+ENSG00000137507	ENSG00000204529	1	LRRC32	GUCY2EP	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000138035	ENSG00000181007	1	PNPT1	ZFP82	ambiguous	skipped	505
+ENSG00000138271	ENSG00000181631	1	GPR87	P2RY13	paralogs,adjacent,short_distance,distance10kbp,distance100kbp,duplicates,distance200kbp	skipped	0
+ENSG00000138326	ENSG00000227008	1	RPS24	RP3-417G15.1	no_protein,similar_reads,pseudogene,ribosomal_protein,rp_gene,healthy,bodymap2,ambiguous	skipped	5249
+ENSG00000142168	ENSG00000154237	1	SOD1	LRRK1		skipped	0
+ENSG00000142330	ENSG00000178623	1	CAPN10	GPR35	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	372
+ENSG00000143429	ENSG09000000011	1	AC027612.6	IGK_locus_(c)	no_protein,pseudogene	skipped	0
+ENSG00000144785	ENSG00000273654	1	RP11-977G19.10	CTB-52I2.4	no_protein,pseudogene,rp11_gene,ctb_gene,rp_gene,ambiguous	skipped	451
+ENSG00000144802	ENSG00000144815	1	NFKBIZ	NXPE3	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_partially_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	71
+ENSG00000145002	ENSG00000186523	1	FAM86B2	FAM86B1	paralogs,similar_reads,ambiguous	skipped	5728
+ENSG00000145833	ENSG00000181904	1	DDX46	C5ORF24	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	248
+ENSG00000145860	ENSG00000273679	1	RNF145	RP11-566K19.8	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	7444
+ENSG00000146556	ENSG00000282458	1	WASH2P	WASH5P	no_protein,pseudogene,ambiguous	skipped	675
+ENSG00000147576	ENSG00000169085	1	ADHFE1	C8ORF46	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,conjoing,cacg,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	250
+ENSG00000148832	ENSG00000254536	1	PAOX	RP11-108K14.8	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,healthy,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	9
+ENSG00000152076	ENSG00000163040	1	CCDC74B	CCDC74A	paralogs,healthy,duplicates,bodymap2,ambiguous,gtex	skipped	484
+ENSG00000152104	ENSG00000213036	1	PTPN14	RP11-365D23.4	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000152433	ENSG00000186230	1	ZNF547	ZNF749	paralogs,short_distance,distance100kbp,duplicates,distance200kbp	skipped	0
+ENSG00000152457	ENSG00000237470	1	DCLRE1C	DCLRE1CP1	no_protein,short_distance,distance100kbp,pseudogene,pair_pseudo_genes,ambiguous,distance200kbp	skipped	54
+ENSG00000153060	ENSG00000213853	1	TEKT5	EMP2	adjacent,short_distance,distance100kbp,distance200kbp	skipped	0
+ENSG00000154330	ENSG00000277778	1	PGM5	PGM5P2	no_protein,similar_reads,lincrna,pair_pseudo_genes,ambiguous	skipped	1752
+ENSG00000154710	ENSG00000230189	1	RABGEF1	GS1-124K5.2	no_protein,similar_reads,pseudogene,ambiguous,banned	skipped	3102
+ENSG00000154710	ENSG00000243335	1	RABGEF1	KCTD7	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	46840
+ENSG00000155744	ENSG00000167110	1	FAM126B	GOLGA2	ambiguous	skipped	322
+ENSG00000156261	ENSG00000226015	1	CCT8	CCT8P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	3469
+ENSG00000156508	ENSG00000250144	1	EEF1A1	RP11-553P9.1	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,healthy,bodymap2,ambiguous	skipped	62466
+ENSG00000156976	ENSG00000224781	1	EIF4A2	EIF4A2P4	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	14983
+ENSG00000157211	ENSG00000215883	1	CDCP2	CYB5RL	adjacent,short_distance,distance100kbp,conjoing,cacg,distance200kbp	skipped	0
+ENSG00000159423	ENSG00000255275	1	ALDH4A1	RP13-279N23.2	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance100kbp,rp_gene,ucsc_fully_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	1382
+ENSG00000160072	ENSG00000197785	1	ATAD3B	ATAD3A	paralogs,adjacent,similar_reads,short_distance,distance100kbp,healthy,cacg,duplicates,bodymap2,ambiguous,distance200kbp,gtex	skipped	6094
+ENSG00000161960	ENSG00000264772	1	EIF4A1	RP11-186B7.4	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	8117
+ENSG00000162194	ENSG00000278615	1	LBHD1	C11ORF98	adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	4787
+ENSG00000162460	ENSG00000197714	1	TMEM82	ZNF460		skipped	0
+ENSG00000162521	ENSG00000256737	1	RBBP4	RBBP4P5	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	3164
+ENSG00000162521	ENSG09000001070	1	RBBP4	TRA_locus_(a)	hpa,banned	skipped	0
+ENSG00000163933	ENSG00000242142	1	RFT1	SERBP1P3	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000164509	ENSG00000173960	1	IL31RA	UBXN2A	ambiguous	skipped	226
+ENSG00000164638	ENSG00000214660	1	SLC29A4	SLC29A4P2	no_protein,similar_reads,pseudogene,ambiguous	skipped	1229
+ENSG00000165119	ENSG00000243547	1	HNRNPK	HNRNPKP4	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	21259
+ENSG00000165409	ENSG00000259167	1	TSHR	NMNAT1P1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000166452	ENSG00000218730	1	AKIP1	RP3-453I5.2	no_protein,pseudogene,rp_gene,ambiguous	skipped	37
+ENSG00000167618	ENSG00000213016	1	LAIR2	AC008746.9	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000168995	ENSG00000267895	1	SIGLEC7	SIGLEC19P	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000169918	ENSG00000259696	1	OTUD7A	RP11-126F18.2	no_protein,adjacent,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000171094	ENSG00000187824	1	ALK	TMEM220		skipped	0
+ENSG00000171291	ENSG00000196757	1	ZNF439	ZNF700	short_distance,distance100kbp,duplicates,ambiguous,distance200kbp	skipped	159
+ENSG00000171903	ENSG00000267594	1	CYP4F11	CYP4F24P	no_protein,short_distance,pseudogene,distance200kbp	skipped	9
+ENSG00000172239	ENSG00000174977	1	PAIP1	AC026271.5	no_protein,similar_reads,pseudogene,ambiguous	skipped	3803
+ENSG00000173163	ENSG00000233836	1	COMMD1	RP11-255H23.2	no_protein,pseudogene,rp11_gene,rp_gene	skipped	0
+ENSG00000173531	ENSG00000186301	1	MST1	MST1P2	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	2385
+ENSG00000174059	ENSG00000272356	1	CD34	RP5-1112D6.8	no_protein,antisense,rp_gene	skipped	11
+ENSG00000174165	ENSG00000280117	1	ZDHHC24	RP11-158L12.6	no_protein,rp11_gene,rp_gene,ambiguous	skipped	56
+ENSG00000174444	ENSG00000229638	1	RPL4	RPL4P4	no_protein,pseudogene,pair_pseudo_genes,ribosomal_protein,healthy,bodymap2,ambiguous	skipped	641
+ENSG00000175104	ENSG00000226557	1	TRAF6	TRAF6P1	no_protein,pseudogene,ambiguous	skipped	281
+ENSG00000175334	ENSG00000237758	1	BANF1	BANF1P3	no_protein,pseudogene,pair_pseudo_genes	skipped	6
+ENSG00000176160	ENSG00000266648	1	HSF5	SETP3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000176809	ENSG00000185158	1	LRRC37A3	LRRC37B	paralogs,similar_reads,ambiguous	skipped	1256
+ENSG00000178104	ENSG00000233396	1	PDE4DIP	RP11-458D21.1	no_protein,lincrna,rp11_gene,rp_gene,ambiguous	skipped	290
+ENSG00000178162	ENSG00000180178	1	FAR2P2	FAR2P1	no_protein,pseudogene,pair_pseudo_genes,ambiguous	skipped	118
+ENSG00000178691	ENSG00000264538	1	SUZ12	SUZ12P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	1105
+ENSG00000178988	ENSG00000179010	1	MRFAP1L1	MRFAP1	paralogs,duplicates,ambiguous,gtex	skipped	369
+ENSG00000180198	ENSG00000242125	1	RCC1	SNHG3	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,snorna,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	36
+ENSG00000180229	ENSG00000276550	1	HERC2P3	HERC2P2	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	13974
+ENSG00000180747	ENSG00000237296	1	SMG1P3	SMG1P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	12157
+ENSG00000181666	ENSG00000267254	1	HKR1	ZNF790-AS1	no_protein,antisense	skipped	0
+ENSG00000182257	ENSG09000001073	1	PRR34	TRA_locus_(d)		skipped	0
+ENSG00000182376	ENSG00000260617	1	RP5-1142A6.8	RP5-1142A6.7	no_protein,similar_symbols,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,antisense,rp_gene,distance200kbp	skipped	0
+ENSG00000182670	ENSG00000215105	1	TTC3	TTC3P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	13085
+ENSG00000184182	ENSG00000258984	1	UBE2F	UBE2F-SCLY	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,duplicates,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	452
+ENSG00000184224	ENSG00000254258	1	C11ORF72	RP11-398H6.1	no_protein,similar_reads,lincrna,rp11_gene,rp_gene,ambiguous	skipped	2572
+ENSG00000186354	ENSG00000213694	1	C9ORF47	S1PR3	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_partially_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	87
+ENSG00000186684	ENSG00000265334	1	CYP27C1	CTD-2349P21.11	no_protein,antisense,ctd_gene	skipped	0
+ENSG00000186951	ENSG00000268947	1	PPARA	AD000684.2	no_protein	skipped	0
+ENSG00000196262	ENSG00000236872	1	PPIA	RP11-291L19.1	no_protein,pseudogene,rp11_gene,rp_gene,ambiguous	skipped	233
+ENSG00000196417	ENSG00000213799	1	ZNF765	ZNF845	adjacent,short_distance,distance100kbp,duplicates,ambiguous,distance200kbp	skipped	96
+ENSG00000196542	ENSG00000243838	1	SPTSSB	PSMC1P7	no_protein,adjacent,short_distance,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000196704	ENSG00000214174	1	AMZ2	AMZ2P1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	1820
+ENSG00000197111	ENSG00000253341	1	PCBP2	RP11-730G20.2	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,healthy,bodymap2,ambiguous	skipped	14409
+ENSG00000197321	ENSG00000234814	1	SVIL	SVILP1	no_protein,similar_reads,pseudogene,pair_pseudo_genes,healthy,bodymap2,ambiguous	skipped	6106
+ENSG00000204177	ENSG00000271816	1	BMS1P1	BMS1P4	no_protein,pseudogene,pair_pseudo_genes,ambiguous	skipped	532
+ENSG00000204177	ENSG00000272140	1	BMS1P1	RP11-574K11.29	no_protein,pseudogene,lincrna,rp11_gene,rp_gene,ambiguous	skipped	229
+ENSG00000204520	ENSG00000206337	1	MICA	HCP5	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000204577	ENSG00000239961	1	LILRB3	LILRA4	paralogs,short_distance,healthy,duplicates,distance200kbp,gtex	skipped	14
+ENSG00000204577	ENSG00000244482	1	LILRB3	LILRA6	paralogs,adjacent,short_distance,distance100kbp,healthy,cacg,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,duplicates,bodymap2,ambiguous,distance200kbp,gtex	skipped	101
+ENSG00000204577	ENSG00000275210	1	LILRB3	AC008984.2	no_protein,short_distance,distance100kbp,healthy,ambiguous,distance200kbp	skipped	113
+ENSG00000204628	ENSG00000273151	1	GNB2L1	RP11-449P15.2	no_protein,antisense,rp11_gene,rp_gene	skipped	0
+ENSG00000205352	ENSG00000271412	1	PRR13	PRR13P3	no_protein,pseudogene,pair_pseudo_genes	skipped	20
+ENSG00000205362	ENSG00000255986	1	MT1A	MT1JP	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,cacg,distance200kbp	skipped	6
+ENSG00000206090	ENSG00000276950	1	AP000350.7	GSTTP1	no_protein,pseudogene,ambiguous	skipped	101
+ENSG00000206142	ENSG00000215498	1	KB-1183D5.13	FAM230B	no_protein,ensembl_partially_overlapping,similar_reads,lincrna,ucsc_partially_overlapping,ambiguous,gencode_partially_overlapping	skipped	3436
+ENSG00000211683	ENSG00000272578	1	KB-1572G7.3	AP000347.2	no_protein,short_distance,distance100kbp,pseudogene,hpa,distance200kbp,banned	skipped	0
+ENSG00000213018	ENSG00000258643	1	AL590762.11	BCL2L2-PABPN1	no_protein,pseudogene,ambiguous	skipped	52
+ENSG00000213213	ENSG00000272896	1	CCDC183	RP11-216L13.17	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	658
+ENSG00000213891	ENSG00000227939	1	RPL3P6	RPL3P2	no_protein,pseudogene,pair_pseudo_genes,ribosomal_protein,ambiguous	skipped	210
+ENSG00000214465	ENSG00000237951	1	SMARCE1P6	PPIL1P1	no_protein,short_distance,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000214485	ENSG00000240003	1	RPL7P1	RPL7P24	no_protein,pseudogene,pair_pseudo_genes,ribosomal_protein,ambiguous	skipped	327
+ENSG00000217930	ENSG00000262246	1	PAM16	CORO7	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,conjoing,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000221946	ENSG00000266964	1	FXYD7	FXYD1	adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,conjoing,cacg,distance200kbp	skipped	0
+ENSG00000223572	ENSG00000237289	1	CKMT1A	CKMT1B	paralogs,adjacent,similar_reads,short_distance,distance100kbp,cacg,duplicates,ambiguous,distance200kbp,gtex	skipped	15023
+ENSG00000225151	ENSG00000255769	1	GOLGA2P7	GOLGA2P10	no_protein,similar_reads,pseudogene,pair_pseudo_genes,ambiguous	skipped	11091
+ENSG00000225746	ENSG00000258399	1	SNHG23	MEG8	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,lincrna,snorna,healthy,bodymap2,distance200kbp	skipped	0
+ENSG00000225796	ENSG00000235318	1	MTND4P23	MTND4LP13	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000225880	ENSG00000272812	1	LINC00115	RP5-855D21.3	no_protein,lincrna,rp_gene,ambiguous	skipped	112
+ENSG00000227304	ENSG00000249242	1	RP11-791G16.2	TMEM150C	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	26
+ENSG00000227321	ENSG00000240791	1	MTND4P15	MTND4LP7	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000228069	ENSG00000238288	1	RP11-100G15.3	RP11-100G15.4	no_protein,similar_symbols,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000228315	ENSG00000244723	1	GUSBP11	ASLP1	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,healthy,bodymap2,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	50
+ENSG00000228315	ENSG00000273000	1	GUSBP11	KB-1572G7.2	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,healthy,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,bodymap2,ambiguous,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	13828
+ENSG00000229112	ENSG00000242042	1	RP11-690C23.3	RP11-690C23.2	no_protein,similar_symbols,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,lincrna,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000230501	ENSG00000243349	1	ANKRD30BP3	RP11-445N18.7	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance10kbp,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	4
+ENSG00000232148	ENSG00000232223	1	FMO11P	CNN2P10	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000232148	ENSG00000232341	1	FMO11P	RPL4P2	no_protein,adjacent,short_distance,distance100kbp,pseudogene,ribosomal_protein,distance200kbp	skipped	0
+ENSG00000234353	ENSG00000272578	1	AP000347.4	AP000347.2	no_protein,similar_symbols,short_distance,distance100kbp,pseudogene,distance200kbp	skipped	0
+ENSG00000239306	ENSG00000248643	1	RBM14	RBM14-RBM4	paralogs,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance1000bp,distance10kbp,distance100kbp,ucsc_fully_overlapping,ucsc_partially_overlapping,ucsc_same_strand_overlapping,refseq_fully_overlapping,refseq_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp,gtex	skipped	2900
+ENSG00000241685	ENSG00000250071	1	ARPC1A	CTD-2060C23.1	no_protein,pseudogene,ctd_gene	skipped	20
+ENSG00000242142	ENSG00000272305	1	SERBP1P3	RP11-894J14.5	no_protein,adjacent,ensembl_fully_overlapping,ensembl_same_strand_overlapping,short_distance,distance100kbp,pseudogene,rp11_gene,rp_gene,gencode_fully_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000242615	ENSG00000257591	1	CTC-359D24.3	ZNF625	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,ctc_gene,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	95
+ENSG00000247572	ENSG00000279861	1	CKMT2-AS1	RP11-43N16.4	no_protein,antisense,rp11_gene,rp_gene	skipped	8
+ENSG00000248243	ENSG00000253540	1	RP11-93K22.13	FAM86HP	no_protein,adjacent,short_distance,distance10kbp,distance100kbp,pseudogene,lincrna,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000249289	ENSG00000250332	1	CTD-2272G21.1	CTD-2272G21.2	no_protein,similar_symbols,adjacent,short_distance,distance100kbp,pseudogene,ctd_gene,distance200kbp	skipped	0
+ENSG00000249846	ENSG00000251287	1	RP11-77P16.4	ALG1L2	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,lincrna,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	0
+ENSG00000253341	ENSG00000257379	1	RP11-730G20.2	RP11-793H13.8	no_protein,similar_reads,pseudogene,rp11_gene,rp_gene,healthy,bodymap2,ambiguous	skipped	10596
+ENSG00000256060	ENSG00000268133	1	TRAPPC2P1	AC003002.4	adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,short_distance,distance1000bp,distance10kbp,distance100kbp,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	96
+ENSG00000256151	ENSG00000280002	1	RP11-76C10.5	RP11-76C10.6	no_protein,similar_symbols,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,lincrna,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000257727	ENSG00000273654	1	CNPY2	CTB-52I2.4	no_protein,pseudogene,ctb_gene	skipped	0
+ENSG00000264772	ENSG00000277957	1	RP11-186B7.4	SENP3-EIF4A1	no_protein,adjacent,ensembl_partially_overlapping,ensembl_same_strand_overlapping,similar_reads,short_distance,distance10kbp,distance100kbp,rp11_gene,rp_gene,ucsc_partially_overlapping,ucsc_same_strand_overlapping,ambiguous,gencode_partially_overlapping,gencode_same_strand_overlapping,distance200kbp	skipped	7101
+ENSG00000265845	ENSG00000265908	1	RP11-20B24.5	RP11-20B24.6	no_protein,similar_symbols,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,antisense,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000268049	ENSG00000269054	1	CTD-2619J13.9	CTD-2619J13.3	no_protein,similar_symbols,adjacent,short_distance,distance10kbp,distance100kbp,antisense,ctd_gene,distance200kbp	skipped	0
+ENSG00000270350	ENSG00000271480	1	MTND4LP5	RP11-475J5.10	no_protein,adjacent,short_distance,distance1000bp,distance10kbp,distance100kbp,pseudogene,rp11_gene,rp_gene,distance200kbp	skipped	0
+ENSG00000275152	ENSG00000275688	1	CCL16	CCL15-CCL14	adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000275152	ENSG00000276409	1	CCL16	CCL14	paralogs,adjacent,short_distance,distance10kbp,distance100kbp,distance200kbp	skipped	0
+ENSG00000276710	ENSG00000280038	1	CSPG4P10	DNM1P41	no_protein,pseudogene,ambiguous	skipped	205
+
+
+
