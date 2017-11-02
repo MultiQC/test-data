@@ -1,24 +1,29 @@
 
-File	test.h5		
-Pairs considered	11062450		
-Min rest. site distance	300		
-Max rest. site distance	800		
+File	small_test_rf_matrix.h5		
+Pairs considered	99983		
+Min rest. site distance	150		
+Max rest. site distance	1500		
 
-Pairs used	2341597	(21.17)	(66.82)
-One mate unmapped	7558158	(68.32)	(215.68)
-One mate not unique	66214	(0.60)	(1.89)
-One mate low quality	566679	(5.12)	(16.17)
-dangling end	0	(0.00)	(0.00)
-self ligation (removed)	0	(0.00)	(0.00)
-One mate not close to rest site	0	(0.00)	(0.00)
-same fragment (800 bp)	459887	(4.16)	(13.12)
-self circle	213642	(1.93)	(6.10)
-duplicated pairs	69915	(0.63)	(2.00)
-Of pairs used:
-inter chromosomal	217004	(9.27)
-short range < 20kb	832700	(35.56)
-long range	1291893	(55.17)
-inward pairs	616639	(26.33)
-outward pairs	505583	(21.59)
-left pairs	481229	(20.55)
-right pairs	521142	(22.26)
+#	count	(percentage w.r.t. total sequenced reads)
+Pairs mappable, unique and high quality	52726	(52.73)
+Pairs used	35934	(35.94)
+One mate unmapped	8777	(8.78)
+One mate not unique	3603	(3.60)
+One mate low quality	34877	(34.88)
+
+#	count	(percentage w.r.t. mappable, unique and high quality pairs)
+dangling end	209	(0.40)
+self ligation (removed)	5056	(9.59)
+One mate not close to rest site	751	(1.42)
+same fragment (800 bp)	10146	(19.24)
+self circle	618	(1.17)
+duplicated pairs	12	(0.02)
+
+#	count	(percentage w.r.t. total valid pairs used)
+inter chromosomal	5849	(16.28)
+short range < 20kb	8071	(22.46)
+long range	22014	(61.26)
+inward pairs	6977	(19.42)
+outward pairs	8907	(24.79)
+left pairs	7012	(19.51)
+right pairs	7189	(20.01)
