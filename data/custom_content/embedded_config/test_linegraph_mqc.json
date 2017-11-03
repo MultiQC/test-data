@@ -7,7 +7,13 @@
         "id": "custom_data_linegraph",
         "title": "Output from my JSON file",
         "ylab": "Number of things",
-        "xDecimals": false
+        "xDecimals": false,
+        "yPlotLines": [
+            {
+                "color": "#FF0000",
+                "value": 10
+            }
+        ]
     },
     "data": {
         "sample_1": {
