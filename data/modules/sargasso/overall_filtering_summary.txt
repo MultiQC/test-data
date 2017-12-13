@@ -1,0 +1,4 @@
+Sample,Assigned-Hits-human,Assigned-Reads-human,Rejected-Hits-human,Rejected-Reads-human,Ambiguous-Hits-human,Ambiguous-Reads-human,Assigned-Hits-mouse,Assigned-Reads-mouse,Rejected-Hits-mouse,Rejected-Reads-mouse,Ambiguous-Hits-mouse,Ambiguous-Reads-mouse,Assigned-Hits-rat,Assigned-Reads-rat,Rejected-Hits-rat,Rejected-Reads-rat,Ambiguous-Hits-rat,Ambiguous-Reads-rat
+all_MGLmonoCTR_reads,4848,2424,146511422,52329665,3582790,1791395,146162,73081,392628260,176262697,4480684,2240342,374509118,187254559,361659492,127803053,4480806,2240403
+npc_samples_reads,200992450,100496225,182883594,55971884,466668,233334,846,423,74255998,30292187,290792,145396,25818,12909,105524408,30105950,465838,232919
+all_CTR_reads,264558,132285,149879198,44096664,2006377,1003216,182932805,91471359,280948699,109344949,2512679,1256532,219840,109923,346188121,112017262,2510886,1255629
