@@ -1,0 +1,372 @@
+Starting QoRTs v1.3.0 (Compiled Fri Oct 20 11:56:37 EDT 2017)
+Starting time: (Thu Dec 07 15:12:02 EST 2017)
+INPUT_COMMAND(QC)
+  INPUT_ARG(infile)=pipeline5a/04-aligned/TCGA-E7-A519-1.bam
+  INPUT_ARG(gtffile)=/nfs/turbo/topBfx/bankhead/projects/palmbos/tp63Isoforms20170602/07--build-gtfs/output/gtf11-refseqUniverse-singletons-novels.gtf
+  INPUT_ARG(outdir)=pipeline5a/10-qc/TCGA-E7-A519-1
+  INPUT_ARG(skipFunctions)=List(overlapMatch, NVC, GCDistribution, readLengthDistro, QualityScoreDistribution, writeClippedNVC, CigarOpDistribution, cigarLocusCounts, chromCounts)
+  INPUT_ARG(generatePlots)=true
+Created Log File: pipeline5a/10-qc/TCGA-E7-A519-1/QC.7uhx7pjWOOve.log
+Starting QC
+[Time: 2017-12-07 15:12:02] [Mem usage: [47MB / 1009MB]] [Elapsed Time: 00:00:00.0000]
+QoRTs is Running in paired-end mode.
+QoRTs is Running in any-sorted mode.
+No parameter --genomeFA found.
+Running functions: GeneCalcs, InsertSize, JunctionCalcs, StrandCheck, 
+        writeBiotypeCounts, writeDESeq, writeDEXSeq, writeGeneBody, 
+        writeGeneCounts, writeGenewiseGeneBody, 
+        writeJunctionSeqCounts, writeKnownSplices, 
+        writeNovelSplices, writeSpliceExon
+Checking first 10000 reads. Checking SAM file for formatting errors...
+   Stats on the first 10000 reads:
+        Num Reads Primary Map:    5595
+        Num Reads Paired-ended:   10000
+        Num Reads mapped pair:    5595
+        Num Pair names found:     3582
+        Num Pairs matched:        2013
+        Read Seq length:          48 to 48
+        Unclipped Read length:    48 to 48
+        Final maxReadLength:      48
+        maxPhredScore:            41
+        minPhredScore:            2
+   Note: Data appears to be paired-ended.
+   Sorting Note: Reads are not sorted by name (This is OK).
+   Sorting Note: Reads are sorted by position (This is OK).
+Done checking first 10000 reads. No major problems detected!
+Starting getSRPairIterResorted...
+SAMRecord Reader Generated. Read length: 48.
+[Time: 2017-12-07 15:12:04] [Mem usage: [249MB / 1272MB]] [Elapsed Time: 00:00:02.0327]
+> Init GeneCalcs Utility
+> Init InsertSize Utility
+Compiling flat feature annotation, internally in memory...
+FlatteningGtf: starting...(2017-12-07 15:12:29)
+    FlatteningGtf: gtf file read complete.(2017-12-07 15:12:48)
+    FlatteningGtf: Splice Junction Map read.(2017-12-07 15:12:49)
+    FlatteningGtf: gene Sets generated.(2017-12-07 15:12:49)
+    FlatteningGtf: Aggregate Sets built.
+    FlatteningGtf: Compiling Aggregate Info . . . (2017-12-07 15:12:49)
+    FlatteningGtf: Finished Compiling Aggregate Info. (2017-12-07 15:12:49)
+    FlatteningGtf: Iterating through the step-vector...(2017-12-07 15:12:49)
+    FlatteningGtf: Adding the aggregate genes themselves...(2017-12-07 15:12:50)
+    FlatteningGtf: Iterating through the splice junctions...(2017-12-07 15:12:51)
+    FlatteningGtf: Sorting the aggregate genes...(2017-12-07 15:12:52)
+    FlatteningGtf: Folding the FlatGtfLine iterator...(2017-12-07 15:12:52)
+    FlatteningGtf: Features Built.(2017-12-07 15:12:52)
+Internal flat feature annotation compiled!
+> Init JunctionCalcs utility
+length of knownSpliceMap after instantiation: 239030
+length of knownCountMap after instantiation: 239030
+> Init StrandCheck Utility
+> Init MinorUtils Utility
+QC Utilities Generated!
+[Time: 2017-12-07 15:12:54] [Mem usage: [3914MB / 7GB]] [Elapsed Time: 00:00:52.0187]
+helper_calculateGeneAssignmentMap_strict. Found: 27788 genes in the supplied annotation.
+helper_calculateGeneAssignmentMap_strict. Found: 5850 genes with ambiguous segments.
+helper_calculateGeneAssignmentMap_strict. Found: 21938 genes after first-pass filtering
+making makeGeneIntervalMap for geneBody calculations. Found: 21878 acceptable genes for gene-body analysis.
+NOTE: Unmatched Read-PAIR-Buffer Size > 100000 [Mem usage:[1399MB / 10GB]]
+    (This is generally not a problem, but if this increases further then OutOfMemoryExceptions
+    may occur.
+    If memory errors do occur, either increase memory allocation or sort the bam-file by name
+    and rerun with the '--nameSorted' option.
+    This might also indicate that your dataset contains an unusually large number of
+    chimeric read-pairs. Or it could occur simply due to the presence of genomic
+    loci with extremly high coverage or complex splicing. It may also indicate a SAM/BAM file that 
+    does not adhere to the standard SAM specification.)
+NOTE: Unmatched Read-PAIR-Buffer Size > 200000 [Mem usage:[2046MB / 10GB]]
+NOTE: Unmatched Read-PAIR-Buffer Size > 400000 [Mem usage:[2800MB / 10GB]]
+..........[1000000 Read-Pairs processed] [Time: 2017-12-07 15:13:40] 
+..........[2000000 Read-Pairs processed] [Time: 2017-12-07 15:14:14] 
+...
+NOTE: Unmatched Read Buffer Size > 100000 [Mem usage:[10GB / 10GB]]
+    (This is generally not a problem, but if this increases further then OutOfMemoryExceptions
+    may occur.
+    If memory errors do occur, either increase memory allocation or sort the bam-file by name
+    and rerun with the '--nameSorted' option.
+    This might also indicate that your dataset contains an unusually large number of
+    chimeric read-pairs. Or it could occur simply due to the presence of genomic
+    loci with extremly high coverage. It may also indicate a SAM/BAM file that 
+    does not adhere to the standard SAM specification.)
+.......[3000000 Read-Pairs processed] [Time: 2017-12-07 15:14:57] 
+..........[4000000 Read-Pairs processed] [Time: 2017-12-07 15:15:33] 
+..........[5000000 Read-Pairs processed] [Time: 2017-12-07 15:16:12] 
+..........[6000000 Read-Pairs processed] [Time: 2017-12-07 15:16:48] 
+..........[7000000 Read-Pairs processed] [Time: 2017-12-07 15:17:24] 
+..........[8000000 Read-Pairs processed] [Time: 2017-12-07 15:17:58] 
+..........[9000000 Read-Pairs processed] [Time: 2017-12-07 15:18:40] 
+..........[10000000 Read-Pairs processed] [Time: 2017-12-07 15:19:21] 
+..........[11000000 Read-Pairs processed] [Time: 2017-12-07 15:19:55] 
+..........[12000000 Read-Pairs processed] [Time: 2017-12-07 15:20:31] 
+..........[13000000 Read-Pairs processed] [Time: 2017-12-07 15:21:16] 
+..........[14000000 Read-Pairs processed] [Time: 2017-12-07 15:21:58] 
+..........[15000000 Read-Pairs processed] [Time: 2017-12-07 15:22:39] 
+..........[16000000 Read-Pairs processed] [Time: 2017-12-07 15:23:17] 
+..........[17000000 Read-Pairs processed] [Time: 2017-12-07 15:23:56] 
+..........[18000000 Read-Pairs processed] [Time: 2017-12-07 15:24:32] 
+..........[19000000 Read-Pairs processed] [Time: 2017-12-07 15:25:11] 
+..........[20000000 Read-Pairs processed] [Time: 2017-12-07 15:25:47] 
+..........[21000000 Read-Pairs processed] [Time: 2017-12-07 15:26:21] 
+..........[22000000 Read-Pairs processed] [Time: 2017-12-07 15:26:52] 
+..........[23000000 Read-Pairs processed] [Time: 2017-12-07 15:27:30] 
+..........[24000000 Read-Pairs processed] [Time: 2017-12-07 15:28:09] 
+..........[25000000 Read-Pairs processed] [Time: 2017-12-07 15:28:49] 
+..........[26000000 Read-Pairs processed] [Time: 2017-12-07 15:29:25] 
+..........[27000000 Read-Pairs processed] [Time: 2017-12-07 15:30:13] 
+..........[28000000 Read-Pairs processed] [Time: 2017-12-07 15:30:52] 
+..........[29000000 Read-Pairs processed] [Time: 2017-12-07 15:31:31] 
+..........[30000000 Read-Pairs processed] [Time: 2017-12-07 15:32:14] 
+..........[31000000 Read-Pairs processed] [Time: 2017-12-07 15:32:57] 
+..........[32000000 Read-Pairs processed] [Time: 2017-12-07 15:33:41] 
+..........[33000000 Read-Pairs processed] [Time: 2017-12-07 15:34:20] 
+..........[34000000 Read-Pairs processed] [Time: 2017-12-07 15:35:14] 
+..........[35000000 Read-Pairs processed] [Time: 2017-12-07 15:35:30] 
+..........[36000000 Read-Pairs processed] [Time: 2017-12-07 15:36:10] 
+.......
+NOTE: Unmatched Read-PAIR-Buffer Size > 800000 [Mem usage:[10GB / 11GB]]
+NOTE: Unmatched Read-PAIR-Buffer Size > 1600000 [Mem usage:[5GB / 11GB]]
+...[37000000 Read-Pairs processed] [Time: 2017-12-07 15:37:18] 
+..........[38000000 Read-Pairs processed] [Time: 2017-12-07 15:37:42] 
+..........[39000000 Read-Pairs processed] [Time: 2017-12-07 15:37:54] 
+..........[40000000 Read-Pairs processed] [Time: 2017-12-07 15:38:14] 
+..........[41000000 Read-Pairs processed] [Time: 2017-12-07 15:38:37] 
+.
+Finished reading SAM. Read: 41135347 reads/read-pairs.
+Finished reading SAM. Used: 35447752 reads/read-pairs.
+[Time: 2017-12-07 15:38:38] [Mem usage: [6GB / 15GB]] [Elapsed Time: 00:26:35.0911]
+> Read Stats:
+>   READ_PAIR_OK                   35447752
+>   TOTAL_READ_PAIRS               41135347
+>   DROPPED_NOT_PROPER_PAIR        0
+>   DROPPED_READ_FAILS_VENDOR_QC   0
+>   DROPPED_MARKED_NOT_VALID       0
+>   DROPPED_CHROMS_MISMATCH        0
+>   DROPPED_PAIR_STRANDS_MISMATCH  0
+>   DROPPED_IGNORED_CHROMOSOME     0
+>   DROPPED_NOT_UNIQUE_ALIGNMENT   5687595
+>   DROPPED_NO_ALN_BLOCKS   0
+>   DROPPED_NOT_MARKED_RG   -1
+Pre-alignment read count unknown (Set --seqReadCt or --rawfastq)
+Writing Output...
+DEBUG NOTE: IncludeGenesSet.size: 21878
+DEBUG NOTE: sortedReadCountSeq.size: 15199
+DEBUG NOTE: coverageThresholds: 7599;11399;13679;15199
+DEBUG NOTE: coverageSpans: [(0,7599);(7599,11399);(11399,13679);(13679,15199)]
+DEBUG NOTE:	[1.bottomHalf][0.5] = [0,7599]
+DEBUG NOTE:	[2.upperMidQuartile][0.75] = [7599,11399]
+DEBUG NOTE:	[3.75to90][0.9] = [11399,13679]
+DEBUG NOTE:	[4.high][1.0] = [13679,15199]
+      (DEBUG) Generating Biotype Map [2017-12-07 15:38:39]
+      (DEBUG) Extracted gene BioType using key "gene_biotype".
+              Found 0 types: []
+      (DEBUG) Finished Biotype Map [2017-12-07 15:38:56]
+length of knownCountMap after run: 239030
+QoRTs QC complete with no problems.
+Generating plots...
+Creating Directory: pipeline5a/10-qc/TCGA-E7-A519-1/QCplots
+Successfully Created Directory: pipeline5a/10-qc/TCGA-E7-A519-1/QCplots
+ > Starting R execution. (generating plots)
+   > STARTING...
+   > Loading required package: methods
+   > Untitledpipeline5a/10-qc/TCGA-E7-A519-1/UntitledUNKNOWNUNKNOWN
+   > charactercharactercharactercharactercharactercharacter
+   > Note: no input.read.pair.count column found. This column is optional, but without it mapping rates cannot be calculated.
+   > Note: no multi.mapped.read.pair.count column found. This column is optional, but without it (depending on how your aligner implements multi-mapping) multi-mapping rates might not be plotted.
+   > WARNING: QoRTs run may be incomplete! File not found: pipeline5a/10-qc/TCGA-E7-A519-1//QC.QORTS_COMPLETED_OK!
+   > infile.dir = 
+   > scalaqc_file = QC.summary.txt.done.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > Autodetected Paired-End mode.
+   > (File 1 of 43): QC.gc.byPair.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.gc.byPair.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0.03 secs]
+   > (File 2 of 43): QC.gc.byRead.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.gc.byRead.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 3 of 43): QC.gc.byRead.vsBaseCt.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.gc.byRead.vsBaseCt.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 4 of 43): QC.quals.r1.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.quals.r1.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 5 of 43): QC.quals.r2.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.quals.r2.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 6 of 43): QC.cigarOpDistribution.byReadCycle.R1.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.cigarOpDistribution.byReadCycle.R1.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 7 of 43): QC.cigarOpDistribution.byReadCycle.R2.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.cigarOpDistribution.byReadCycle.R2.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 8 of 43): QC.cigarOpLengths.byOp.R1.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.cigarOpLengths.byOp.R1.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 9 of 43): QC.cigarOpLengths.byOp.R2.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.cigarOpLengths.byOp.R2.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 10 of 43): QC.geneBodyCoverage.by.expression.level.txt.gz.done.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 11 of 43): QC.geneCounts.txt.gz.done.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0.09 secs]
+   > (File 12 of 43): QC.insert.size.txt.gz.done.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0.04 secs]
+   > (File 13 of 43): QC.NVC.raw.R1.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.NVC.raw.R1.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 14 of 43): QC.NVC.raw.R2.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.NVC.raw.R2.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 15 of 43): QC.NVC.lead.clip.R1.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.NVC.lead.clip.R1.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 16 of 43): QC.NVC.lead.clip.R2.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.NVC.lead.clip.R2.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 17 of 43): QC.NVC.tail.clip.R1.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.NVC.tail.clip.R1.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 18 of 43): QC.NVC.tail.clip.R2.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.NVC.tail.clip.R2.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 19 of 43): QC.NVC.minus.clipping.R1.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.NVC.minus.clipping.R1.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 20 of 43): QC.NVC.minus.clipping.R2.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.NVC.minus.clipping.R2.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 21 of 43): QC.chromCount.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.chromCount.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 22 of 43): QC.biotypeCounts.txt.gz.done.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 23 of 43): QC.geneBodyCoverage.byExpr.avgPct.txt.gz.done.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0.01 secs]
+   > (File 24 of 43): QC.overlapCoverage.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.overlapCoverage.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 25 of 43): QC.overlapMismatch.byRead.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.overlapMismatch.byRead.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 26 of 43): QC.overlapMismatch.byScore.txtFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.overlapMismatch.byScore.txt. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 27 of 43): QC.overlapMismatch.byBase.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.overlapMismatch.byBase.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 28 of 43): QC.overlapMismatch.byScoreAndBP.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.overlapMismatch.byScoreAndBP.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 29 of 43): QC.readLenDist.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.readLenDist.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 30 of 43): QC.referenceMismatchCounts.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.referenceMismatchCounts.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 31 of 43): QC.referenceMismatchRaw.byReadStrand.txtFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.referenceMismatchRaw.byReadStrand.txt. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 32 of 43): QC.referenceMismatch.byScore.txtFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.referenceMismatch.byScore.txt. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 33 of 43): QC.referenceMismatch.byScoreAndBP.txtFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.referenceMismatch.byScoreAndBP.txt. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 34 of 43): QC.mismatchSizeRates.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.mismatchSizeRates.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 35 of 43): QC.FQ.gc.byRead.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.FQ.gc.byRead.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 36 of 43): QC.FQ.gc.byPair.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.FQ.gc.byPair.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 37 of 43): QC.FQ.gc.R1.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.FQ.gc.R1.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 38 of 43): QC.FQ.gc.R2.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.FQ.gc.R2.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 39 of 43): QC.FQ.NVC.R1.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.FQ.NVC.R1.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 40 of 43): QC.FQ.NVC.R2.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.FQ.NVC.R2.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 41 of 43): QC.FQ.quals.r1.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.FQ.quals.r1.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 42 of 43): QC.FQ.quals.r2.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.FQ.quals.r2.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > (File 43 of 43): QC.FQ.readLenDist.txt.gzFailed: Cannot find file: pipeline5a/10-qc/TCGA-E7-A519-1//QC.FQ.readLenDist.txt.gz. Skipping tests that use this data.
+   >    [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > calculating secondary data:
+   > Calculating Quality Score Rates...done. [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > Calculating cumulative gene coverage, by replicate...done. [time: 2017-12-07 15:39:00],[elapsed: 0.01 secs]
+   > Calculating cumulative gene coverage, by sample...done. [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > Calculating Mapping Rates...done. [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > calculating normalization factors, by sample...done. [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > calculating normalization factors, by replicate...done. [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > calculating normalization factors, by sample/replicate...done. [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > Calculating summary stats...done. [time: 2017-12-07 15:39:00],[elapsed: 0.02 secs]
+   > Calculating summary table...done. [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > Calculating overlap mismatch combos...done. [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > Calculating NVC rates...done. [time: 2017-12-07 15:39:00],[elapsed: 0 secs]
+   > done.
+   > [time: 2017-12-07 15:39:00],[elapsed: 0.04 secs]
+   > Skipping: "onTarget.rates","onTarget.counts","overlap.mismatch.byAvgQual"
+   > Rasterize large plots: FALSE
+   > Rasterize medium plots: FALSE
+   > Skipping due to missing data: "qual.pair.min","qual.pair.lowerQuartile","qual.pair.median","qual.pair.upperQuartile","qual.pair.max","clippingProfile","DeletionProfile","InsertionProfile","SpliceProfile","InsertionLengthHisto","DeletionLengthHisto","gc","missingness.rate","overlap.coverage","readLengthDist","overlapMismatch.byCycle","overlapMismatch.byQual.min","overlapMismatch.byQual.read","overlapMismatch.byBase","overlapMismatch.size","overlapMismatch.byBase.atScore","referenceMismatch.byCycle","referenceMismatch.byScore","referenceMismatch.byBase","referenceMismatch.byBase.atScore.R1","referenceMismatch.byBase.atScore.R2","mapping.rates","chrom.rates","norm.factors","norm.vs.TC","NVC.lead.clip","NVC.tail.clip","NVC.raw","NVC.aligned"
+   > Plotting extended...
+   > Starting compiled plot...
+   > Starting: Dropped Rates plot.
+   > Finished: Dropped Rates plot.[time: 2017-12-07 15:39:02],[elapsed: 0.06 secs]
+   > Starting: Insert Size plot.
+   > Finished: Insert Size plot.[time: 2017-12-07 15:39:02],[elapsed: 0.06 secs]
+   > Starting: Cumulative Gene Assignment Diversity plot.
+   > Finished: Cumulative Gene Assignment Diversity plot.[time: 2017-12-07 15:39:02],[elapsed: 0.02 secs]
+   > Starting: Gene-Body Coverage plot.
+   > Finished: Gene-Body Coverage plot.[time: 2017-12-07 15:39:02],[elapsed: 0.12 secs]
+   > Starting: Gene-Body Coverage, Upper Middle Quartile Genes plot.
+   > Finished: Gene-Body Coverage, Upper Middle Quartile Genes plot.[time: 2017-12-07 15:39:02],[elapsed: 0.01 secs]
+   > Starting: Gene-Body Coverage, Low Expression Genes plot.
+   > Finished: Gene-Body Coverage, Low Expression Genes plot.[time: 2017-12-07 15:39:02],[elapsed: 0.01 secs]
+   > Starting: Gene Assignment Rates plot.
+   > Finished: Gene Assignment Rates plot.[time: 2017-12-07 15:39:02],[elapsed: 0.09 secs]
+   > Starting: Splice Junction Loci Rates plot.
+   > Finished: Splice Junction Loci Rates plot.[time: 2017-12-07 15:39:02],[elapsed: 0.01 secs]
+   > Starting: Splice Junction Event Rates plot.
+   > Finished: Splice Junction Event Rates plot.[time: 2017-12-07 15:39:02],[elapsed: 0.01 secs]
+   > Starting: Splice Junction Event Rates plot.
+   > Finished: Splice Junction Event Rates plot.[time: 2017-12-07 15:39:02],[elapsed: 0.01 secs]
+   > Starting: Strandedness Test plot.
+   > Finished: Strandedness Test plot.[time: 2017-12-07 15:39:02],[elapsed: 0.01 secs]
+   > Finished Multiplot[time: 2017-12-07 15:39:03],[elapsed: 2 secs]
+   > Done with plot.
+   > Skipping: "onTarget.rates","onTarget.counts","overlap.mismatch.byAvgQual"
+   > cannot open raster images, because package "png" not found. Install package png (with command install.packages("png")) or set rasterize.large.plots to FALSE!
+   > cannot open raster images, because package "png" not found. Install package png (with command install.packages("png")) or set rasterize.medium.plots to FALSE!
+   > Rasterize large plots: FALSE
+   > Rasterize medium plots: FALSE
+   > Skipping due to missing data: "qual.pair.min","qual.pair.lowerQuartile","qual.pair.median","qual.pair.upperQuartile","qual.pair.max","clippingProfile","DeletionProfile","InsertionProfile","SpliceProfile","InsertionLengthHisto","DeletionLengthHisto","gc","missingness.rate","overlap.coverage","readLengthDist","overlapMismatch.byCycle","overlapMismatch.byQual.min","overlapMismatch.byQual.read","overlapMismatch.byBase","overlapMismatch.size","overlapMismatch.byBase.atScore","referenceMismatch.byCycle","referenceMismatch.byScore","referenceMismatch.byBase","referenceMismatch.byBase.atScore.R1","referenceMismatch.byBase.atScore.R2","mapping.rates","chrom.rates","norm.factors","norm.vs.TC","NVC.lead.clip","NVC.tail.clip","NVC.raw","NVC.aligned"
+   > Plotting extended...
+   > Starting compiled plot...
+   > Starting: Dropped Rates plot.
+   > Finished: Dropped Rates plot.[time: 2017-12-07 15:39:04],[elapsed: 0 secs]
+   > Starting: Insert Size plot.
+   > Finished: Insert Size plot.[time: 2017-12-07 15:39:04],[elapsed: 0.02 secs]
+   > Starting: Cumulative Gene Assignment Diversity plot.
+   > Finished: Cumulative Gene Assignment Diversity plot.[time: 2017-12-07 15:39:04],[elapsed: 0.09 secs]
+   > Starting: Gene-Body Coverage plot.
+   > Finished: Gene-Body Coverage plot.[time: 2017-12-07 15:39:04],[elapsed: 0 secs]
+   > Starting: Gene-Body Coverage, Upper Middle Quartile Genes plot.
+   > Finished: Gene-Body Coverage, Upper Middle Quartile Genes plot.[time: 2017-12-07 15:39:04],[elapsed: 0 secs]
+   >   layoutCap = 6
+   >   layoutStart = 7
+   >   i = 7
+   > Starting: Gene-Body Coverage, Low Expression Genes plot.
+   > Finished: Gene-Body Coverage, Low Expression Genes plot.[time: 2017-12-07 15:39:04],[elapsed: 0.02 secs]
+   > Starting: Gene Assignment Rates plot.
+   > Finished: Gene Assignment Rates plot.[time: 2017-12-07 15:39:04],[elapsed: 0 secs]
+   > Starting: Splice Junction Loci Rates plot.
+   > Finished: Splice Junction Loci Rates plot.[time: 2017-12-07 15:39:04],[elapsed: 0 secs]
+   > Starting: Splice Junction Event Rates plot.
+   > Finished: Splice Junction Event Rates plot.[time: 2017-12-07 15:39:04],[elapsed: 0 secs]
+   > Starting: Splice Junction Event Rates plot.
+   > Finished: Splice Junction Event Rates plot.[time: 2017-12-07 15:39:04],[elapsed: 0 secs]
+   > Starting: Strandedness Test plot.
+   > Finished: Strandedness Test plot.[time: 2017-12-07 15:39:04],[elapsed: 0 secs]
+   > Finished Multiplot[time: 2017-12-07 15:39:04],[elapsed: 0.26 secs]
+   > Done with plot.
+   > Warning messages:
+   > 1: In check.rasterize.or.warn("rasterize.large.plots") :
+   >   cannot open raster images, because package "png" not found. Install package png (with command install.packages("png")) or set rasterize.large.plots to FALSE!
+   > 2: In check.rasterize.or.warn("rasterize.medium.plots") :
+   >   cannot open raster images, because package "png" not found. Install package png (with command install.packages("png")) or set rasterize.medium.plots to FALSE!
+   > Skipping: "onTarget.rates","onTarget.counts","overlap.mismatch.byAvgQual"
+   > Rasterize large plots: FALSE
+   > Rasterize medium plots: FALSE
+   > Skipping due to missing data: "qual.pair.min","qual.pair.lowerQuartile","qual.pair.median","qual.pair.upperQuartile","qual.pair.max","clippingProfile","DeletionProfile","InsertionProfile","SpliceProfile","InsertionLengthHisto","DeletionLengthHisto","gc","missingness.rate","overlap.coverage","readLengthDist","overlapMismatch.byCycle","overlapMismatch.byQual.min","overlapMismatch.byQual.read","overlapMismatch.byBase","overlapMismatch.size","overlapMismatch.byBase.atScore","referenceMismatch.byCycle","referenceMismatch.byScore","referenceMismatch.byBase","referenceMismatch.byBase.atScore.R1","referenceMismatch.byBase.atScore.R2","mapping.rates","chrom.rates","norm.factors","norm.vs.TC","NVC.lead.clip","NVC.tail.clip","NVC.raw","NVC.aligned"
+   > Plotting extended...
+   > Starting compiled plot...
+   >     (Skipped legend box due to encountering errors)
+   >      Error:"Error in plot.new(): could not open file 'pipeline5a/10-qc/TCGA-E7-A519-1QCplots//plot-basic.legend.png'
+   > "
+   > PLOTTING ERROR: Error in text.default(devlim[1], devlim[4], corner.labels[i], cex = cex.corner.label, : plot.new has not been called yet
+   > 
+   > Done with plot.
+   > DONE...
+   > null device 
+   >           1 
+ > Finished R execution.
+Done.
+Time spent on setup:           00:00:52.0188
+Time spent on SAM iteration:   00:25:43.0723
+                               (0.6251719881363019 minutes per million read-pairs)
+                               (0.7254808899212188 minutes per million read-pairs used)
+Time spent on file output:     00:00:26.0511
+Total runtime:                 00:27:02.0422
+Done. (Thu Dec 07 15:39:04 EST 2017)
