@@ -1,0 +1,2680 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="results.xsl"?>
+<MultiGenomeAlignmentSummaries>
+  <RunId>1</RunId>
+  <Properties>
+    <Property name="Run ID" value="1"/>
+    <Property name="Run name" value="Unknown"/>
+    <Property name="Cycles" value="Unknown"/>
+    <Property name="End type" value="Unknown"/>
+  </Properties>
+  <TrimLength>36</TrimLength>
+  <Image>results.png</Image>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>1</DatasetId>
+    <SequenceCount>31425319</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>14981</AdapterCount>
+    <UnmappedCount>8526</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>4458</AlignedCount>
+        <ErrorRate>0.02386</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>23284</AlignedCount>
+        <ErrorRate>0.00421</ErrorRate>
+        <AssignedCount>22223</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="S_enterica_typhi" name="Salmonella enterica Typhi"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.02778</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>1171</AlignedCount>
+        <ErrorRate>0.04258</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>8076</AlignedCount>
+        <ErrorRate>0.00254</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>68869</AlignedCount>
+        <ErrorRate>0.00353</ErrorRate>
+        <AssignedCount>68869</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>1538</AlignedCount>
+        <ErrorRate>0.03190</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>1080</AlignedCount>
+        <ErrorRate>0.04522</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>2982</AlignedCount>
+        <ErrorRate>0.01760</ErrorRate>
+        <AssignedCount>6</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>8032</AlignedCount>
+        <ErrorRate>0.02958</ErrorRate>
+        <AssignedCount>24</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>403</AlignedCount>
+        <ErrorRate>0.04067</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>3442</AlignedCount>
+        <ErrorRate>0.01934</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>2697</AlignedCount>
+        <ErrorRate>0.02365</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>2850</AlignedCount>
+        <ErrorRate>0.01754</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>27426</AlignedCount>
+        <ErrorRate>0.03438</ErrorRate>
+        <AssignedCount>342</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>497</AlignedCount>
+        <ErrorRate>0.03230</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.00000</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>1233</AlignedCount>
+        <ErrorRate>0.02990</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>1652</AlignedCount>
+        <ErrorRate>0.01345</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_acnes" name="Proprionibacterium acnes"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.00000</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A2_S53_L006_R1_001"/>
+          <Property name="Sample name" value="LOP178A2_S53_L006_R1_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>10</DatasetId>
+    <SequenceCount>31198358</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>11917</AdapterCount>
+    <UnmappedCount>8344</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>3175</AlignedCount>
+        <ErrorRate>0.03506</ErrorRate>
+        <AssignedCount>9</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>28040</AlignedCount>
+        <ErrorRate>0.00202</ErrorRate>
+        <AssignedCount>27708</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="S_enterica_typhi" name="Salmonella enterica Typhi"/>
+        <AlignedCount>2</AlignedCount>
+        <ErrorRate>0.04167</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>444</AlignedCount>
+        <ErrorRate>0.03547</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>2113</AlignedCount>
+        <ErrorRate>0.00087</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>62056</AlignedCount>
+        <ErrorRate>0.00288</ErrorRate>
+        <AssignedCount>62056</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>586</AlignedCount>
+        <ErrorRate>0.04337</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>273</AlignedCount>
+        <ErrorRate>0.04131</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>1753</AlignedCount>
+        <ErrorRate>0.02532</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>6421</AlignedCount>
+        <ErrorRate>0.03313</ErrorRate>
+        <AssignedCount>17</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>105</AlignedCount>
+        <ErrorRate>0.03968</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>3423</AlignedCount>
+        <ErrorRate>0.03936</ErrorRate>
+        <AssignedCount>1692</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>2943</AlignedCount>
+        <ErrorRate>0.04327</ErrorRate>
+        <AssignedCount>7</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>1550</AlignedCount>
+        <ErrorRate>0.02342</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>22201</AlignedCount>
+        <ErrorRate>0.03610</ErrorRate>
+        <AssignedCount>163</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>47</AlignedCount>
+        <ErrorRate>0.05142</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>2</AlignedCount>
+        <ErrorRate>0.04167</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>456</AlignedCount>
+        <ErrorRate>0.03448</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>572</AlignedCount>
+        <ErrorRate>0.02875</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A6_S57_L006_R2_001"/>
+          <Property name="Sample name" value="LOP178A6_S57_L006_R2_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>11</DatasetId>
+    <SequenceCount>32575748</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>19814</AdapterCount>
+    <UnmappedCount>12284</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>6254</AlignedCount>
+        <ErrorRate>0.01487</ErrorRate>
+        <AssignedCount>5</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>4187</AlignedCount>
+        <ErrorRate>0.01335</ErrorRate>
+        <AssignedCount>2961</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>1739</AlignedCount>
+        <ErrorRate>0.04399</ErrorRate>
+        <AssignedCount>12</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>1394</AlignedCount>
+        <ErrorRate>0.00277</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>83875</AlignedCount>
+        <ErrorRate>0.00361</ErrorRate>
+        <AssignedCount>83875</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>1990</AlignedCount>
+        <ErrorRate>0.03004</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>1544</AlignedCount>
+        <ErrorRate>0.04633</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>5293</AlignedCount>
+        <ErrorRate>0.01425</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>10851</AlignedCount>
+        <ErrorRate>0.02294</ErrorRate>
+        <AssignedCount>13</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>65</AlignedCount>
+        <ErrorRate>0.04316</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>5488</AlignedCount>
+        <ErrorRate>0.01414</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>4404</AlignedCount>
+        <ErrorRate>0.02123</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>5017</AlignedCount>
+        <ErrorRate>0.01407</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>36719</AlignedCount>
+        <ErrorRate>0.03545</ErrorRate>
+        <AssignedCount>839</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>626</AlignedCount>
+        <ErrorRate>0.03355</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.00000</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>1700</AlignedCount>
+        <ErrorRate>0.02863</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>2334</AlignedCount>
+        <ErrorRate>0.01560</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A7_S58_L006_R1_001"/>
+          <Property name="Sample name" value="LOP178A7_S58_L006_R1_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>12</DatasetId>
+    <SequenceCount>32575748</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>19602</AdapterCount>
+    <UnmappedCount>10564</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>5944</AlignedCount>
+        <ErrorRate>0.02662</ErrorRate>
+        <AssignedCount>6</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>3296</AlignedCount>
+        <ErrorRate>0.00618</ErrorRate>
+        <AssignedCount>2880</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>728</AlignedCount>
+        <ErrorRate>0.03480</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>1412</AlignedCount>
+        <ErrorRate>0.00108</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>82668</AlignedCount>
+        <ErrorRate>0.00304</ErrorRate>
+        <AssignedCount>82668</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>876</AlignedCount>
+        <ErrorRate>0.03656</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>526</AlignedCount>
+        <ErrorRate>0.03934</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>3882</AlignedCount>
+        <ErrorRate>0.01904</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>9806</AlignedCount>
+        <ErrorRate>0.02455</ErrorRate>
+        <AssignedCount>19</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>78</AlignedCount>
+        <ErrorRate>0.03882</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>7031</AlignedCount>
+        <ErrorRate>0.03540</ErrorRate>
+        <AssignedCount>3515</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>6082</AlignedCount>
+        <ErrorRate>0.04015</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>3547</AlignedCount>
+        <ErrorRate>0.01975</ErrorRate>
+        <AssignedCount>5</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>31776</AlignedCount>
+        <ErrorRate>0.03447</ErrorRate>
+        <AssignedCount>316</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>34</AlignedCount>
+        <ErrorRate>0.04330</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>2</AlignedCount>
+        <ErrorRate>0.00000</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>705</AlignedCount>
+        <ErrorRate>0.03093</ErrorRate>
+        <AssignedCount>19</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>946</AlignedCount>
+        <ErrorRate>0.03298</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A7_S58_L006_R2_001"/>
+          <Property name="Sample name" value="LOP178A7_S58_L006_R2_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>13</DatasetId>
+    <SequenceCount>47177833</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>11362</AdapterCount>
+    <UnmappedCount>6448</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>4388</AlignedCount>
+        <ErrorRate>0.02783</ErrorRate>
+        <AssignedCount>10</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>1905</AlignedCount>
+        <ErrorRate>0.01519</ErrorRate>
+        <AssignedCount>1203</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>801</AlignedCount>
+        <ErrorRate>0.04207</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>4449</AlignedCount>
+        <ErrorRate>0.00207</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>91979</AlignedCount>
+        <ErrorRate>0.00325</ErrorRate>
+        <AssignedCount>91979</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>1234</AlignedCount>
+        <ErrorRate>0.03154</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>876</AlignedCount>
+        <ErrorRate>0.04531</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>2904</AlignedCount>
+        <ErrorRate>0.02205</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>10924</AlignedCount>
+        <ErrorRate>0.03330</ErrorRate>
+        <AssignedCount>44</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>108</AlignedCount>
+        <ErrorRate>0.04321</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>3251</AlignedCount>
+        <ErrorRate>0.02359</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>2146</AlignedCount>
+        <ErrorRate>0.02402</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>2154</AlignedCount>
+        <ErrorRate>0.01765</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>36339</AlignedCount>
+        <ErrorRate>0.03139</ErrorRate>
+        <AssignedCount>310</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>429</AlignedCount>
+        <ErrorRate>0.02914</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>827</AlignedCount>
+        <ErrorRate>0.02674</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>1325</AlignedCount>
+        <ErrorRate>0.01405</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A9_S59_L006_R1_001"/>
+          <Property name="Sample name" value="LOP178A9_S59_L006_R1_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>14</DatasetId>
+    <SequenceCount>47177833</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>11233</AdapterCount>
+    <UnmappedCount>8262</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>4063</AlignedCount>
+        <ErrorRate>0.03816</ErrorRate>
+        <AssignedCount>19</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>1322</AlignedCount>
+        <ErrorRate>0.00685</ErrorRate>
+        <AssignedCount>1161</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>221</AlignedCount>
+        <ErrorRate>0.04248</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>4360</AlignedCount>
+        <ErrorRate>0.00111</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>90098</AlignedCount>
+        <ErrorRate>0.00274</ErrorRate>
+        <AssignedCount>90098</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>610</AlignedCount>
+        <ErrorRate>0.04854</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>266</AlignedCount>
+        <ErrorRate>0.04323</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>2221</AlignedCount>
+        <ErrorRate>0.03062</ErrorRate>
+        <AssignedCount>4</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>10703</AlignedCount>
+        <ErrorRate>0.03610</ErrorRate>
+        <AssignedCount>64</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>98</AlignedCount>
+        <ErrorRate>0.03997</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>2567</AlignedCount>
+        <ErrorRate>0.03153</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>1512</AlignedCount>
+        <ErrorRate>0.03156</ErrorRate>
+        <AssignedCount>12</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>1492</AlignedCount>
+        <ErrorRate>0.02761</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>34639</AlignedCount>
+        <ErrorRate>0.03110</ErrorRate>
+        <AssignedCount>373</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>49</AlignedCount>
+        <ErrorRate>0.04025</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>238</AlignedCount>
+        <ErrorRate>0.03945</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>724</AlignedCount>
+        <ErrorRate>0.02490</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A9_S59_L006_R2_001"/>
+          <Property name="Sample name" value="LOP178A9_S59_L006_R2_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>15</DatasetId>
+    <SequenceCount>39451794</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>9380</AdapterCount>
+    <UnmappedCount>8449</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>4922</AlignedCount>
+        <ErrorRate>0.01834</ErrorRate>
+        <AssignedCount>4</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>1548</AlignedCount>
+        <ErrorRate>0.02859</ErrorRate>
+        <AssignedCount>339</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>1421</AlignedCount>
+        <ErrorRate>0.04400</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>3579</AlignedCount>
+        <ErrorRate>0.00179</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>90778</AlignedCount>
+        <ErrorRate>0.00314</ErrorRate>
+        <AssignedCount>90778</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>1814</AlignedCount>
+        <ErrorRate>0.02756</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>1382</AlignedCount>
+        <ErrorRate>0.04782</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>3808</AlignedCount>
+        <ErrorRate>0.01385</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>9736</AlignedCount>
+        <ErrorRate>0.02680</ErrorRate>
+        <AssignedCount>14</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>137</AlignedCount>
+        <ErrorRate>0.03974</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>4203</AlignedCount>
+        <ErrorRate>0.01395</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>3210</AlignedCount>
+        <ErrorRate>0.01977</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>3513</AlignedCount>
+        <ErrorRate>0.01231</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>40626</AlignedCount>
+        <ErrorRate>0.03670</ErrorRate>
+        <AssignedCount>412</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>722</AlignedCount>
+        <ErrorRate>0.03078</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.05556</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>1426</AlignedCount>
+        <ErrorRate>0.02511</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>2053</AlignedCount>
+        <ErrorRate>0.00992</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A10_S60_L006_R1_001"/>
+          <Property name="Sample name" value="LOP178A10_S60_L006_R1_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>16</DatasetId>
+    <SequenceCount>39451794</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>9299</AdapterCount>
+    <UnmappedCount>9787</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>4345</AlignedCount>
+        <ErrorRate>0.03285</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>581</AlignedCount>
+        <ErrorRate>0.01745</ErrorRate>
+        <AssignedCount>354</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>362</AlignedCount>
+        <ErrorRate>0.03676</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>3661</AlignedCount>
+        <ErrorRate>0.00114</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>89312</AlignedCount>
+        <ErrorRate>0.00303</ErrorRate>
+        <AssignedCount>89312</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>483</AlignedCount>
+        <ErrorRate>0.03842</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>300</AlignedCount>
+        <ErrorRate>0.03991</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>2346</AlignedCount>
+        <ErrorRate>0.02380</ErrorRate>
+        <AssignedCount>4</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>8958</AlignedCount>
+        <ErrorRate>0.03186</ErrorRate>
+        <AssignedCount>30</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>180</AlignedCount>
+        <ErrorRate>0.04151</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>2601</AlignedCount>
+        <ErrorRate>0.02411</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>1685</AlignedCount>
+        <ErrorRate>0.02700</ErrorRate>
+        <AssignedCount>8</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>1904</AlignedCount>
+        <ErrorRate>0.02140</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>30280</AlignedCount>
+        <ErrorRate>0.03570</ErrorRate>
+        <AssignedCount>501</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>42</AlignedCount>
+        <ErrorRate>0.03373</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>360</AlignedCount>
+        <ErrorRate>0.03233</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>539</AlignedCount>
+        <ErrorRate>0.03175</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A10_S60_L006_R2_001"/>
+          <Property name="Sample name" value="LOP178A10_S60_L006_R2_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>17</DatasetId>
+    <SequenceCount>29821378</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>10549</AdapterCount>
+    <UnmappedCount>9176</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>6681</AlignedCount>
+        <ErrorRate>0.01472</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>3475</AlignedCount>
+        <ErrorRate>0.01916</ErrorRate>
+        <AssignedCount>1845</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>2139</AlignedCount>
+        <ErrorRate>0.04496</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>1882</AlignedCount>
+        <ErrorRate>0.00204</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>88283</AlignedCount>
+        <ErrorRate>0.00314</ErrorRate>
+        <AssignedCount>88283</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>2565</AlignedCount>
+        <ErrorRate>0.02919</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>1978</AlignedCount>
+        <ErrorRate>0.04803</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>5739</AlignedCount>
+        <ErrorRate>0.01257</ErrorRate>
+        <AssignedCount>4</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>11009</AlignedCount>
+        <ErrorRate>0.02117</ErrorRate>
+        <AssignedCount>14</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>88</AlignedCount>
+        <ErrorRate>0.04261</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>6034</AlignedCount>
+        <ErrorRate>0.01305</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>4846</AlignedCount>
+        <ErrorRate>0.01995</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>5415</AlignedCount>
+        <ErrorRate>0.01306</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>41820</AlignedCount>
+        <ErrorRate>0.03552</ErrorRate>
+        <AssignedCount>672</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>932</AlignedCount>
+        <ErrorRate>0.03204</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>2127</AlignedCount>
+        <ErrorRate>0.02731</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>2902</AlignedCount>
+        <ErrorRate>0.01265</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A12_S61_L006_R1_001"/>
+          <Property name="Sample name" value="LOP178A12_S61_L006_R1_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>18</DatasetId>
+    <SequenceCount>29821378</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>10203</AdapterCount>
+    <UnmappedCount>10728</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>5555</AlignedCount>
+        <ErrorRate>0.02770</ErrorRate>
+        <AssignedCount>9</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>2117</AlignedCount>
+        <ErrorRate>0.00915</ErrorRate>
+        <AssignedCount>1748</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>634</AlignedCount>
+        <ErrorRate>0.03803</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>1874</AlignedCount>
+        <ErrorRate>0.00108</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>86843</AlignedCount>
+        <ErrorRate>0.00344</ErrorRate>
+        <AssignedCount>86843</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>936</AlignedCount>
+        <ErrorRate>0.04113</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>485</AlignedCount>
+        <ErrorRate>0.04003</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>3719</AlignedCount>
+        <ErrorRate>0.01884</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>9422</AlignedCount>
+        <ErrorRate>0.02560</ErrorRate>
+        <AssignedCount>18</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>84</AlignedCount>
+        <ErrorRate>0.03902</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>3882</AlignedCount>
+        <ErrorRate>0.02018</ErrorRate>
+        <AssignedCount>28</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>2906</AlignedCount>
+        <ErrorRate>0.02481</ErrorRate>
+        <AssignedCount>6</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>3298</AlignedCount>
+        <ErrorRate>0.01888</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>30033</AlignedCount>
+        <ErrorRate>0.03508</ErrorRate>
+        <AssignedCount>610</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>63</AlignedCount>
+        <ErrorRate>0.03660</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>598</AlignedCount>
+        <ErrorRate>0.03331</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>1093</AlignedCount>
+        <ErrorRate>0.02666</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A12_S61_L006_R2_001"/>
+          <Property name="Sample name" value="LOP178A12_S61_L006_R2_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>19</DatasetId>
+    <SequenceCount>31836823</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>12357</AdapterCount>
+    <UnmappedCount>10476</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>5256</AlignedCount>
+        <ErrorRate>0.01523</ErrorRate>
+        <AssignedCount>5</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>1571</AlignedCount>
+        <ErrorRate>0.03080</ErrorRate>
+        <AssignedCount>299</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>1610</AlignedCount>
+        <ErrorRate>0.04465</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>1382</AlignedCount>
+        <ErrorRate>0.00291</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>88607</AlignedCount>
+        <ErrorRate>0.00337</ErrorRate>
+        <AssignedCount>88607</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>1918</AlignedCount>
+        <ErrorRate>0.02827</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>1509</AlignedCount>
+        <ErrorRate>0.04782</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>4480</AlignedCount>
+        <ErrorRate>0.01305</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>9246</AlignedCount>
+        <ErrorRate>0.02376</ErrorRate>
+        <AssignedCount>13</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>73</AlignedCount>
+        <ErrorRate>0.03995</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>4645</AlignedCount>
+        <ErrorRate>0.01291</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>3812</AlignedCount>
+        <ErrorRate>0.02015</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>4211</AlignedCount>
+        <ErrorRate>0.01224</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>40119</AlignedCount>
+        <ErrorRate>0.03702</ErrorRate>
+        <AssignedCount>596</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>728</AlignedCount>
+        <ErrorRate>0.03144</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>1584</AlignedCount>
+        <ErrorRate>0.02595</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>2295</AlignedCount>
+        <ErrorRate>0.01169</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A13_S62_L006_R1_001"/>
+          <Property name="Sample name" value="LOP178A13_S62_L006_R1_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>2</DatasetId>
+    <SequenceCount>31425319</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>14746</AdapterCount>
+    <UnmappedCount>7975</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>4202</AlignedCount>
+        <ErrorRate>0.03644</ErrorRate>
+        <AssignedCount>8</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>22378</AlignedCount>
+        <ErrorRate>0.00235</ErrorRate>
+        <AssignedCount>21968</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="S_enterica_typhi" name="Salmonella enterica Typhi"/>
+        <AlignedCount>3</AlignedCount>
+        <ErrorRate>0.00926</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>479</AlignedCount>
+        <ErrorRate>0.03862</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>8224</AlignedCount>
+        <ErrorRate>0.00115</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>67612</AlignedCount>
+        <ErrorRate>0.00293</ErrorRate>
+        <AssignedCount>67612</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>864</AlignedCount>
+        <ErrorRate>0.04816</ErrorRate>
+        <AssignedCount>4</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>349</AlignedCount>
+        <ErrorRate>0.04306</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>2244</AlignedCount>
+        <ErrorRate>0.02530</ErrorRate>
+        <AssignedCount>11</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>7630</AlignedCount>
+        <ErrorRate>0.03286</ErrorRate>
+        <AssignedCount>25</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>400</AlignedCount>
+        <ErrorRate>0.03889</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>4672</AlignedCount>
+        <ErrorRate>0.03980</ErrorRate>
+        <AssignedCount>2203</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>3916</AlignedCount>
+        <ErrorRate>0.04306</ErrorRate>
+        <AssignedCount>10</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>2013</AlignedCount>
+        <ErrorRate>0.02448</ErrorRate>
+        <AssignedCount>6</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>23847</AlignedCount>
+        <ErrorRate>0.03369</ErrorRate>
+        <AssignedCount>171</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>58</AlignedCount>
+        <ErrorRate>0.04262</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>5</AlignedCount>
+        <ErrorRate>0.00556</ErrorRate>
+        <AssignedCount>5</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>505</AlignedCount>
+        <ErrorRate>0.03801</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>912</AlignedCount>
+        <ErrorRate>0.02275</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A2_S53_L006_R2_001"/>
+          <Property name="Sample name" value="LOP178A2_S53_L006_R2_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>20</DatasetId>
+    <SequenceCount>31836823</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>12082</AdapterCount>
+    <UnmappedCount>11772</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>4441</AlignedCount>
+        <ErrorRate>0.02760</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>534</AlignedCount>
+        <ErrorRate>0.01998</ErrorRate>
+        <AssignedCount>280</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>471</AlignedCount>
+        <ErrorRate>0.03887</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>1356</AlignedCount>
+        <ErrorRate>0.00141</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>87281</AlignedCount>
+        <ErrorRate>0.00327</ErrorRate>
+        <AssignedCount>87281</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>557</AlignedCount>
+        <ErrorRate>0.03915</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>328</AlignedCount>
+        <ErrorRate>0.03709</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>2734</AlignedCount>
+        <ErrorRate>0.01940</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>8027</AlignedCount>
+        <ErrorRate>0.02756</ErrorRate>
+        <AssignedCount>13</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>76</AlignedCount>
+        <ErrorRate>0.04496</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>2947</AlignedCount>
+        <ErrorRate>0.02140</ErrorRate>
+        <AssignedCount>22</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>2081</AlignedCount>
+        <ErrorRate>0.02429</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>2437</AlignedCount>
+        <ErrorRate>0.01926</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>29444</AlignedCount>
+        <ErrorRate>0.03705</ErrorRate>
+        <AssignedCount>625</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>28</AlignedCount>
+        <ErrorRate>0.04067</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>432</AlignedCount>
+        <ErrorRate>0.03414</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>619</AlignedCount>
+        <ErrorRate>0.03141</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A13_S62_L006_R2_001"/>
+          <Property name="Sample name" value="LOP178A13_S62_L006_R2_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>3</DatasetId>
+    <SequenceCount>26742426</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>13950</AdapterCount>
+    <UnmappedCount>10367</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>3601</AlignedCount>
+        <ErrorRate>0.02432</ErrorRate>
+        <AssignedCount>10</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>8057</AlignedCount>
+        <ErrorRate>0.00558</ErrorRate>
+        <AssignedCount>7399</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>809</AlignedCount>
+        <ErrorRate>0.04392</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>4342</AlignedCount>
+        <ErrorRate>0.00216</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>81916</AlignedCount>
+        <ErrorRate>0.00324</ErrorRate>
+        <AssignedCount>81916</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>1089</AlignedCount>
+        <ErrorRate>0.02885</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>774</AlignedCount>
+        <ErrorRate>0.04644</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>2411</AlignedCount>
+        <ErrorRate>0.01714</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>8325</AlignedCount>
+        <ErrorRate>0.03238</ErrorRate>
+        <AssignedCount>24</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>208</AlignedCount>
+        <ErrorRate>0.03779</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>2626</AlignedCount>
+        <ErrorRate>0.01755</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>1918</AlignedCount>
+        <ErrorRate>0.02294</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>2117</AlignedCount>
+        <ErrorRate>0.01501</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>33313</AlignedCount>
+        <ErrorRate>0.03620</ErrorRate>
+        <AssignedCount>279</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>389</AlignedCount>
+        <ErrorRate>0.02978</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.05556</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>818</AlignedCount>
+        <ErrorRate>0.02530</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>1218</AlignedCount>
+        <ErrorRate>0.01122</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A3_S54_L006_R1_001"/>
+          <Property name="Sample name" value="LOP178A3_S54_L006_R1_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>4</DatasetId>
+    <SequenceCount>26742426</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>13855</AdapterCount>
+    <UnmappedCount>9092</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>3645</AlignedCount>
+        <ErrorRate>0.03639</ErrorRate>
+        <AssignedCount>14</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>7298</AlignedCount>
+        <ErrorRate>0.00234</ErrorRate>
+        <AssignedCount>7144</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="S_enterica_typhi" name="Salmonella enterica Typhi"/>
+        <AlignedCount>2</AlignedCount>
+        <ErrorRate>0.04167</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>254</AlignedCount>
+        <ErrorRate>0.04276</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>4432</AlignedCount>
+        <ErrorRate>0.00108</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>80867</AlignedCount>
+        <ErrorRate>0.00271</ErrorRate>
+        <AssignedCount>80867</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>371</AlignedCount>
+        <ErrorRate>0.04515</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>188</AlignedCount>
+        <ErrorRate>0.04344</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>1680</AlignedCount>
+        <ErrorRate>0.02852</ErrorRate>
+        <AssignedCount>7</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>8196</AlignedCount>
+        <ErrorRate>0.03485</ErrorRate>
+        <AssignedCount>17</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>205</AlignedCount>
+        <ErrorRate>0.03753</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>4418</AlignedCount>
+        <ErrorRate>0.04431</ErrorRate>
+        <AssignedCount>2660</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>3720</AlignedCount>
+        <ErrorRate>0.04824</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>1300</AlignedCount>
+        <ErrorRate>0.02618</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>29366</AlignedCount>
+        <ErrorRate>0.03539</ErrorRate>
+        <AssignedCount>189</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>26</AlignedCount>
+        <ErrorRate>0.04167</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>4</AlignedCount>
+        <ErrorRate>0.02083</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>238</AlignedCount>
+        <ErrorRate>0.03606</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>371</AlignedCount>
+        <ErrorRate>0.03444</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_acnes" name="Proprionibacterium acnes"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.00000</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A3_S54_L006_R2_001"/>
+          <Property name="Sample name" value="LOP178A3_S54_L006_R2_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>5</DatasetId>
+    <SequenceCount>32272790</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>15041</AdapterCount>
+    <UnmappedCount>10214</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>4907</AlignedCount>
+        <ErrorRate>0.01514</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>5701</AlignedCount>
+        <ErrorRate>0.01007</ErrorRate>
+        <AssignedCount>4466</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="S_enterica_typhi" name="Salmonella enterica Typhi"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.02778</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>1471</AlignedCount>
+        <ErrorRate>0.04477</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="Mtb_H37Rv" name="Mycobacterium tuberculosis"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.02778</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>1599</AlignedCount>
+        <ErrorRate>0.00207</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>84689</AlignedCount>
+        <ErrorRate>0.00316</ErrorRate>
+        <AssignedCount>84689</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>1793</AlignedCount>
+        <ErrorRate>0.02846</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>1412</AlignedCount>
+        <ErrorRate>0.04782</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>4180</AlignedCount>
+        <ErrorRate>0.01413</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>9205</AlignedCount>
+        <ErrorRate>0.02547</ErrorRate>
+        <AssignedCount>13</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>67</AlignedCount>
+        <ErrorRate>0.04353</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>4404</AlignedCount>
+        <ErrorRate>0.01357</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>3563</AlignedCount>
+        <ErrorRate>0.01970</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>3935</AlignedCount>
+        <ErrorRate>0.01269</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>37259</AlignedCount>
+        <ErrorRate>0.03781</ErrorRate>
+        <AssignedCount>613</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>691</AlignedCount>
+        <ErrorRate>0.03123</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.02778</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>1483</AlignedCount>
+        <ErrorRate>0.02607</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>2082</AlignedCount>
+        <ErrorRate>0.01285</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_acnes" name="Proprionibacterium acnes"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.02778</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A4_S55_L006_R1_001"/>
+          <Property name="Sample name" value="LOP178A4_S55_L006_R1_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>6</DatasetId>
+    <SequenceCount>32272790</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>14897</AdapterCount>
+    <UnmappedCount>9555</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>4616</AlignedCount>
+        <ErrorRate>0.03080</ErrorRate>
+        <AssignedCount>7</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>4668</AlignedCount>
+        <ErrorRate>0.00477</ErrorRate>
+        <AssignedCount>4336</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>527</AlignedCount>
+        <ErrorRate>0.04132</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>1621</AlignedCount>
+        <ErrorRate>0.00123</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>83853</AlignedCount>
+        <ErrorRate>0.00319</ErrorRate>
+        <AssignedCount>83853</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>697</AlignedCount>
+        <ErrorRate>0.04691</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>395</AlignedCount>
+        <ErrorRate>0.04318</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>2859</AlignedCount>
+        <ErrorRate>0.02202</ErrorRate>
+        <AssignedCount>7</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>8259</AlignedCount>
+        <ErrorRate>0.02875</ErrorRate>
+        <AssignedCount>22</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>92</AlignedCount>
+        <ErrorRate>0.04076</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>4589</AlignedCount>
+        <ErrorRate>0.03407</ErrorRate>
+        <AssignedCount>2002</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>3836</AlignedCount>
+        <ErrorRate>0.03874</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>2520</AlignedCount>
+        <ErrorRate>0.02032</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>29560</AlignedCount>
+        <ErrorRate>0.03681</ErrorRate>
+        <AssignedCount>211</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>79</AlignedCount>
+        <ErrorRate>0.05204</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>537</AlignedCount>
+        <ErrorRate>0.03978</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>802</AlignedCount>
+        <ErrorRate>0.03176</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_acnes" name="Proprionibacterium acnes"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.00000</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A4_S55_L006_R2_001"/>
+          <Property name="Sample name" value="LOP178A4_S55_L006_R2_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>7</DatasetId>
+    <SequenceCount>28438883</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>15711</AdapterCount>
+    <UnmappedCount>10733</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>10560</AlignedCount>
+        <ErrorRate>0.01414</ErrorRate>
+        <AssignedCount>8</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>8630</AlignedCount>
+        <ErrorRate>0.00872</ErrorRate>
+        <AssignedCount>7059</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="S_enterica_typhi" name="Salmonella enterica Typhi"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.00000</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>2700</AlignedCount>
+        <ErrorRate>0.04130</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>1207</AlignedCount>
+        <ErrorRate>0.00203</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>80729</AlignedCount>
+        <ErrorRate>0.00375</ErrorRate>
+        <AssignedCount>80729</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>2827</AlignedCount>
+        <ErrorRate>0.03151</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>2224</AlignedCount>
+        <ErrorRate>0.04389</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>9208</AlignedCount>
+        <ErrorRate>0.01567</ErrorRate>
+        <AssignedCount>4</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>15389</AlignedCount>
+        <ErrorRate>0.01712</ErrorRate>
+        <AssignedCount>17</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>55</AlignedCount>
+        <ErrorRate>0.03838</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>9374</AlignedCount>
+        <ErrorRate>0.01662</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>7474</AlignedCount>
+        <ErrorRate>0.02202</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>8832</AlignedCount>
+        <ErrorRate>0.01721</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>39657</AlignedCount>
+        <ErrorRate>0.03098</ErrorRate>
+        <AssignedCount>1442</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>661</AlignedCount>
+        <ErrorRate>0.03148</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>2</AlignedCount>
+        <ErrorRate>0.00000</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>2638</AlignedCount>
+        <ErrorRate>0.03044</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>3176</AlignedCount>
+        <ErrorRate>0.02270</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_acnes" name="Proprionibacterium acnes"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.02778</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A5_S56_L006_R1_001"/>
+          <Property name="Sample name" value="LOP178A5_S56_L006_R1_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>8</DatasetId>
+    <SequenceCount>28438883</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>15334</AdapterCount>
+    <UnmappedCount>9707</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>9853</AlignedCount>
+        <ErrorRate>0.02076</ErrorRate>
+        <AssignedCount>7</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>7634</AlignedCount>
+        <ErrorRate>0.00519</ErrorRate>
+        <AssignedCount>6831</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>1515</AlignedCount>
+        <ErrorRate>0.03517</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>1320</AlignedCount>
+        <ErrorRate>0.00147</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>79360</AlignedCount>
+        <ErrorRate>0.00353</ErrorRate>
+        <AssignedCount>79360</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>1820</AlignedCount>
+        <ErrorRate>0.03771</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>1016</AlignedCount>
+        <ErrorRate>0.03639</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>7641</AlignedCount>
+        <ErrorRate>0.01790</ErrorRate>
+        <AssignedCount>7</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>14165</AlignedCount>
+        <ErrorRate>0.01831</ErrorRate>
+        <AssignedCount>21</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>64</AlignedCount>
+        <ErrorRate>0.04036</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>10529</AlignedCount>
+        <ErrorRate>0.02859</ErrorRate>
+        <AssignedCount>3515</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>8669</AlignedCount>
+        <ErrorRate>0.03353</ErrorRate>
+        <AssignedCount>3</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>7233</AlignedCount>
+        <ErrorRate>0.01981</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>33056</AlignedCount>
+        <ErrorRate>0.02934</ErrorRate>
+        <AssignedCount>542</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>56</AlignedCount>
+        <ErrorRate>0.04117</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>2</AlignedCount>
+        <ErrorRate>0.00000</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>1440</AlignedCount>
+        <ErrorRate>0.03223</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>1927</AlignedCount>
+        <ErrorRate>0.03134</ErrorRate>
+        <AssignedCount>2</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A5_S56_L006_R2_001"/>
+          <Property name="Sample name" value="LOP178A5_S56_L006_R2_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <MultiGenomeAlignmentSummary>
+    <DatasetId>9</DatasetId>
+    <SequenceCount>31198358</SequenceCount>
+    <SampledCount>100000</SampledCount>
+    <AdapterCount>11995</AdapterCount>
+    <UnmappedCount>8607</UnmappedCount>
+    <AlignmentSummaries>
+      <AlignmentSummary>
+        <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+        <AlignedCount>3266</AlignedCount>
+        <ErrorRate>0.02148</ErrorRate>
+        <AssignedCount>4</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+        <AlignedCount>28937</AlignedCount>
+        <ErrorRate>0.00339</ErrorRate>
+        <AssignedCount>28133</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+        <AlignedCount>971</AlignedCount>
+        <ErrorRate>0.04097</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+        <AlignedCount>2061</AlignedCount>
+        <ErrorRate>0.00208</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+        <AlignedCount>62941</AlignedCount>
+        <ErrorRate>0.00340</ErrorRate>
+        <AssignedCount>62941</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+        <AlignedCount>1202</AlignedCount>
+        <ErrorRate>0.03027</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+        <AlignedCount>844</AlignedCount>
+        <ErrorRate>0.04618</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+        <AlignedCount>2503</AlignedCount>
+        <ErrorRate>0.01659</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+        <AlignedCount>6628</AlignedCount>
+        <ErrorRate>0.02951</ErrorRate>
+        <AssignedCount>19</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+        <AlignedCount>109</AlignedCount>
+        <ErrorRate>0.03746</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+        <AlignedCount>2660</AlignedCount>
+        <ErrorRate>0.01649</ErrorRate>
+        <AssignedCount>4</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+        <AlignedCount>2086</AlignedCount>
+        <ErrorRate>0.02286</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+        <AlignedCount>2324</AlignedCount>
+        <ErrorRate>0.01516</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+        <AlignedCount>26460</AlignedCount>
+        <ErrorRate>0.03693</ErrorRate>
+        <AssignedCount>290</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+        <AlignedCount>420</AlignedCount>
+        <ErrorRate>0.03029</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+        <AlignedCount>1</AlignedCount>
+        <ErrorRate>0.00000</ErrorRate>
+        <AssignedCount>1</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+        <AlignedCount>984</AlignedCount>
+        <ErrorRate>0.02699</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+      <AlignmentSummary>
+        <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+        <AlignedCount>1302</AlignedCount>
+        <ErrorRate>0.01265</ErrorRate>
+        <AssignedCount>0</AssignedCount>
+      </AlignmentSummary>
+    </AlignmentSummaries>
+    <Samples>
+      <Sample>
+        <Properties>
+          <Property name="Sample ID" value="LOP178A6_S57_L006_R1_001"/>
+          <Property name="Sample name" value="LOP178A6_S57_L006_R1_001"/>
+          <Property name="Institute" value="Crick"/>
+          <Property name="Sequence type" value="Unknown"/>
+          <Property name="End type" value="Unknown"/>
+          <Property name="Experiment type" value="Unknown"/>
+          <Property name="Species" value="Unknown"/>
+          <Property name="Control" value="No"/>
+        </Properties>
+      </Sample>
+    </Samples>
+  </MultiGenomeAlignmentSummary>
+  <ReferenceGenomes>
+    <ReferenceGenome id="monDom5" name="Monodelphis domestica (Opossum)"/>
+    <ReferenceGenome id="P_chabaudi" name="Plasmodium chabaudi"/>
+    <ReferenceGenome id="S_enterica_typhi" name="Salmonella enterica Typhi"/>
+    <ReferenceGenome id="spombe" name="Schizosaccharomyces pombe (Fission yeast)"/>
+    <ReferenceGenome id="Mtb_H37Rv" name="Mycobacterium tuberculosis"/>
+    <ReferenceGenome id="GRCm38_MT" name="Mus musculus mitochondria (Mouse mitochondria)"/>
+    <ReferenceGenome id="mm10" name="Mus musculus genome (Mouse genome)"/>
+    <ReferenceGenome id="dm6" name="Drosophila melanogaster (Fruit fly)"/>
+    <ReferenceGenome id="ce10" name="Caenorhabditis elegans (nematode worm)"/>
+    <ReferenceGenome id="galGal4" name="Gallus gallus (chicken)"/>
+    <ReferenceGenome id="hg38" name="Homo sapiens genome (Human genome)"/>
+    <ReferenceGenome id="hg38_MT" name="Homo sapiens mitochondria (Human mitochondria)"/>
+    <ReferenceGenome id="xenLae_v91" name="Xenopus Laevis (African clawed frog)"/>
+    <ReferenceGenome id="danRer10" name="Danio rerio (Zebrafish)"/>
+    <ReferenceGenome id="xenTro3" name="Xenopus tropicalis (Western clawed frog)"/>
+    <ReferenceGenome id="rn6" name="Rattus norvegicus (Brown rat)"/>
+    <ReferenceGenome id="M_hyorhinis" name="Mycoplasma hyorhinis"/>
+    <ReferenceGenome id="ecoli_k12" name="Escherichia coli"/>
+    <ReferenceGenome id="sacCer3" name="Saccharomyces cerevisiae (Budding yeast)"/>
+    <ReferenceGenome id="H_polygyrus" name="Heligmosomoides polygyrus"/>
+    <ReferenceGenome id="P_acnes" name="Proprionibacterium acnes"/>
+  </ReferenceGenomes>
+</MultiGenomeAlignmentSummaries>
