@@ -1,0 +1,35 @@
+name	Unique Positions	Total Tags
+genome=/home/szha0069/Danio_rerio/UCSC/danRer10/Sequence/WholeGenomeFasta/genome.fa	158175	79095.0
+fragmentLengthEstimate=107		
+peakSizeEstimate=326		
+tagsPerBP=0.000059		
+averageTagsPerPosition=0.000		
+averageTagLength=85.619		
+gsizeEstimate=1340059414		
+averageFragmentGCcontent=0.427		
+chr1	6631	3316.0
+chr2	7411	3706.0
+chr3	7182	3591.0
+chr4	6044	3022.0
+chr5	8599	4300.0
+chr6	7080	3540.0
+chr7	8997	4499.0
+chr8	6548	3274.0
+chr9	6858	3429.0
+chr10	5702	2852.0
+chr11	5366	2683.0
+chr12	5475	2738.0
+chr13	6562	3281.0
+chr14	6108	3054.0
+chr15	5934	2967.0
+chr16	6513	3257.0
+chr17	6537	3270.0
+chr18	6208	3104.0
+chr19	5976	2988.0
+chr20	6697	3349.0
+chr21	5496	2748.0
+chr22	4659	2330.0
+chr23	5817	2909.0
+chr24	5237	2619.0
+chr25	4538	2269.0
+cmd=/home/szha0069/tools/homer/bin/makeTagDirectory /home/szha0069/test_seq_files/make_tags/EDM_TAGGCA_L001_tags -genome /home/szha0069/Danio_rerio/UCSC/danRer10/Sequence/WholeGenomeFasta/genome.fa -checkGC /home/szha0069/test_seq_files/filter_reads/EDM_TAGGCA_L001_filtered_dedup.bam		
