@@ -1,0 +1,29 @@
+
+File	matrix.h5		
+Pairs considered	13527036		
+Min rest. site distance	300		
+Max library insert size	1000		
+
+#	count	(percentage w.r.t. total sequenced reads)
+Pairs mappable, unique and high quality	10282800	(76.02)
+Pairs used	7673903	(56.73)
+One mate unmapped	445435	(3.29)
+One mate not unique	1226855	(9.07)
+One mate low quality	1571946	(11.62)
+
+#	count	(percentage w.r.t. mappable, unique and high quality pairs)
+dangling end	0	(0.00)
+self ligation (removed)	0	(0.00)
+One mate not close to rest site	0	(0.00)
+same fragment	2575807	(25.05)
+self circle	0	(0.00)
+duplicated pairs	33090	(0.32)
+
+#	count	(percentage w.r.t. total valid pairs used)
+inter chromosomal	4071792	(53.06)
+short range < 20kb	461859	(6.02)
+long range	3140252	(40.92)
+inward pairs	828753	(10.80)
+outward pairs	1040186	(13.55)
+left pairs	868034	(11.31)
+right pairs	865138	(11.27)
