@@ -1,0 +1,7 @@
+[mark_dup] parsed 36789579 reads
+[mark_dup] marked 11551378 duplicates from 27872702 paired-end reads (41.4%)
+[mark_dup] marked 0 duplicates from 0 single-end reads (-nan%)
+[mark_dup] identified 0 dangling paired-end reads (0%)
+[main] Version: 0.3.4.20180215
+[main] CMD: /home/wanding.zhou/tools/biscuit/development/biscuit/biscuit markdup bam/mouse_ESCs_E14_GSM1370558.bam bam/mouse_ESCs_E14_GSM1370558_markdup.bam_unsrt.bam
+[main] Real time: 594.592 sec; CPU: 593.911 sec
