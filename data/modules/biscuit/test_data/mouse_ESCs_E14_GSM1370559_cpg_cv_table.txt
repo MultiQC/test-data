@@ -1,0 +1,4 @@
+sample	mu	sigma	cv
+mouse_ESCs_E14_GSM1370559_cpg	0.723835	39.1604	54.1013
+mouse_ESCs_E14_GSM1370559_cpg_topgc	1.54121	69.1831	44.8887
+mouse_ESCs_E14_GSM1370559_cpg_botgc	0.118396	5.4681	46.1847

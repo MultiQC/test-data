@@ -1,0 +1,4 @@
+strand	++	6938226
+strand	-+	7893166
+strand	+-	6923678
+strand	--	6297207
