@@ -1,0 +1,12 @@
+#bases covered by all reads: 558202451
+#bases covered by duplicate reads: 93485165
+#high-GC bases covered by all reads: 100392649
+#high-GC bases covered by duplicate reads: 20559857
+#low-GC bases covered by all reads: 21605725
+#low-GC bases covered by duplicate reads: 3124337
+#bases covered by all q40-reads: 423495073
+#bases covered by duplicate q40-reads: 76519962
+#high-GC bases covered by all q40-reads: 79152767
+#high-GC bases covered by duplicate q40-reads: 16868673
+#low-GC bases covered by all q40-reads: 16314401
+#low-GC bases covered by duplicate q40-reads: 2410540
