@@ -1,0 +1,40 @@
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+- Fri Feb 23 10:17:56 2018
+- [testrun_1_2]  
+- software release = 2.0.0(7fba7b4)
+- likely sequencers = HiSeq X
+- assembly checksum = 1,630,874,005,163,170
+--------------------------------------------------------------------------------
+INPUT
+-  417.67 K  = READS            = number of reads; ideal 800M-1200M for human
+-  139.50  b = MEAN READ LEN    = mean read length after trimming; ideal 140
+-   61.72  x = RAW COV          = raw coverage; ideal ~56
+-   48.29  x = EFFECTIVE COV    = effective read coverage; ideal ~42 for nominal 56x
+-   88.85  % = READ TWO Q30     = fraction of Q30 bases in read 2; ideal 75-85
+-  372.00  b = MEDIAN INSERT    = median insert size; ideal 0.35-0.40
+-   91.77  % = PROPER PAIRS     = fraction of proper read pairs; ideal >= 75
+-    0.90    = BARCODE FRACTION = fraction of barcodes used; between 0 and 1
+-    1.02 Mb = EST GENOME SIZE  = estimated genome size
+-    1.13  % = REPETITIVE FRAC  = estimated repetitive fraction
+-    0.09  % = HIGH AT FRACTION = high AT index
+-  105.99 Kb = MOLECULE LEN     = weighted mean molecule size; ideal 50-100
+-    0.00  b = HETDIST          = mean distance between heterozygous SNPs
+-    3.92  % = UNBAR            = fraction of reads that are not barcoded
+-  148.00    = BARCODE N50      = N50 reads per barcode
+-   11.97  % = DUPS             = fraction of reads that are duplicates
+-   47.25  % = PHASED           = nonduplicate and phased reads; ideal 45-50
+--------------------------------------------------------------------------------
+OUTPUT
+-    1.00    = LONG SCAFFOLDS   = number of scaffolds >= 10 kb
+-   13.96 Kb = EDGE N50         = N50 edge size
+-  244.41 Kb = CONTIG N50       = N50 contig size
+-  323.47 Kb = PHASEBLOCK N50   = N50 phase block size
+-  982.03 Kb = SCAFFOLD N50     = N50 scaffold size
+-    1.54  % = MISSING 10KB     = % of base assembly missing from scaffolds >= 10 kb
+-  982.08 Kb = ASSEMBLY SIZE    = assembly size (only scaffolds >= 10 kb)
+--------------------------------------------------------------------------------
+ALARMS
+--------------------------------------------------------------------------------
