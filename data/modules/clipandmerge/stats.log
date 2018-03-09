@@ -1,0 +1,66 @@
+ClipAndMerge (v. 1.7.4)
+by G?nter J?ger
+
+[Parameters]
+- Skip adapter clipping: false
+- Skip read merging: false
+- Handle mate pairs seperately: false
+- Keep sequences containing N: true
+- Discard single reads: false
+- Minimum sequence length: 30
+- Minimum merge overlap: 10
+- Error Rate for merging: 0.05
+- Perform quality based mismatch calculation for merging: true
+- Perform quality trimming: true
+- Minimum base quality for quality trimming: 20
+- Phred Score Offset: 33
+- Discard bad quality reads: false
+- Minimal good quality percentage: 0.9
+
+- Minimal base quality for keeping reads: 0
+
+- Trim 5' bases: 0
+- Trim 3' bases: 0
+- Last base to keep when trimming is performed: 2147483647
+
+- Maximal number of reads processed in parallel: 1000
+- Time Estimation: false
+- Verbose: false
+
+
+[Clipping forward]
+- Min. Length: 10
+- Input reads: 17857902
+- Output reads: 17831810
+- Discarded too short: 22114
+- Discarded adapter only: 3978
+
+
+[Clipping reverse]
+- Min. Length: 10
+- Input reads: 17857902
+- Output reads: 17831502
+- Discarded too short: 22779
+- Discarded adapter only: 3621
+
+[Merging]
+- Number of usable reads in the output file(s): 17645433
+- Number of usable forward reads with no pairing reverse read: 24233
+- Number of usable reverse reads with no pairing forward read: 22930
+- Number of usable not merged forward reads: 42252
+- Number of usable not merged reverse reads: 41258
+- Number of merged reads discarded due to bad quality: 0
+- Number of usable merged reads: 17514760
+- Percentage of usable merged reads: 99.26 %
+- Average overlap region size: 62.671
+
+- Number of read pairs not merged (no overlap): 22913
+
+- Number of single reads removed: 273294
+     ... not merged and too short forward read: 19943
+     ... not merged and too short reverse read: 20937
+     ... too short forward read with no pairing reverse read: 797
+     ... too short reverse read with no pairing forward read: 1792
+     ... too short merged read: 229825
+
+Time elapsed: 15.6167 minutes
