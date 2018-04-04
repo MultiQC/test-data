@@ -1,0 +1,18 @@
+#File	sample1.R1.fastq.gz	sample1.R2.fastq.gz
+#Total	53746
+#Matched	1151	2.14155%
+#Name	Reads	ReadsPct
+Reverse_adapter	518	0.96379%
+TruSeq_Adapter_Index_1_6	149	0.27723%
+pcr_dimer	145	0.26979%
+TruSeq_Universal_Adapter	124	0.23071%
+PCR_Primers	117	0.21769%
+Nextera_LMP_Read2_External_Adapter	60	0.11164%
+PhiX_read2_adapter	22	0.04093%
+PhiX_read1_adapter	7	0.01302%
+RNA_PCR_Primer_Index_27_(RPI27)	3	0.00558%
+TruSeq_Adapter_Index_6	2	0.00372%
+I5_Adapter_Nextera	1	0.00186%
+I5_Nextera_Transposase_2	1	0.00186%
+RNA_PCR_Primer_(RP1)_part_#_15013198	1	0.00186%
+TruSeq_Adapter_Index_9	1	0.00186%
