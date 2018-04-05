@@ -1,0 +1,22 @@
+Assembly	final_scaffolds	final_scaffolds_broken
+# contigs (>= 0 bp)	26	-
+# contigs (>= 1000 bp)	5	15
+# contigs (>= 5000 bp)	5	12
+# contigs (>= 10000 bp)	5	12
+# contigs (>= 25000 bp)	5	12
+# contigs (>= 50000 bp)	4	11
+Total length (>= 0 bp)	4631594	-
+Total length (>= 1000 bp)	4628669	4624811
+Total length (>= 5000 bp)	4628669	4617055
+Total length (>= 10000 bp)	4628669	4617055
+Total length (>= 25000 bp)	4628669	4617055
+Total length (>= 50000 bp)	4599657	4588043
+# contigs	5	15
+Largest contig	1444111	1118830
+Total length	4628669	4624811
+GC (%)	50.77	50.77
+N50	1436075	574109
+N75	1248742	333058
+L50	2	3
+L75	3	6
+# N's per 100 kbp	83.35	0.00
