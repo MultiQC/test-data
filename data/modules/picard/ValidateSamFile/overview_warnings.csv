@@ -1,0 +1,8 @@
+﻿ADJACENT_INDEL_IN_CIGAR,"CIGAR string contains an insertion (I) followed by deletion (D), or vice versa"
+BAM_FILE_MISSING_TERMINATOR_BLOCK,"BAM appears to be healthy, but is an older file so doesn't have terminator block"
+E2_BASE_EQUALS_PRIMARY_BASE,"Secondary base calls should not be the same as primary, unless one or the other is N"
+INVALID_DATE_STRING,Date string is not ISO-8601
+INVALID_QUALITY_FORMAT,Quality encodings out of range; appear to be Solexa or Illumina when Phred expected. Avoid exception being thrown as a result of no qualities being read.
+MISSING_TAG_NM,The NM tag (nucleotide differences) is missing
+PAIRED_READ_NOT_MARKED_AS_FIRST_OR_SECOND,Pair flag set but not marked as first or second of pair
+RECORD_MISSING_READ_GROUP,A SAMRecord is found with no read group id
