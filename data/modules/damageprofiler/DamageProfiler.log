@@ -1,0 +1,112 @@
+2018-04-15 15:40:35 INFO  StartCalculations:51 - DamageProfiler v0.3.9
+2018-04-15 15:40:35 INFO  StartCalculations:63 - Analysis of file :1564AM_TGGTATAGTCTCG_L001_R1_001.fastq.merged.fq.MT.remap.remapped.MT.sortedCM.sorted_rmdup_onlyMerged.bam
+Output folder :.
+Reference (optional) :
+Reference (optional) :
+Specie (optional):null
+Length: 100
+Threshold: 25
+Height yaxis: 0.0
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 100 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 200 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 300 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 400 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 500 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 600 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 700 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 800 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 900 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 1000 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 1100 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 1200 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 1300 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 1400 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 1500 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 1600 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 1700 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 1800 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 1900 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 2000 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 2100 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 2200 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 2300 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 2400 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 2500 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 2600 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 2700 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 2800 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 2900 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 3000 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 3100 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 3200 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 3300 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 3400 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 3500 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 3600 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 3700 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 3800 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 3900 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 4000 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 4100 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 4200 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 4300 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 4400 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 4500 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 4600 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 4700 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 4800 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 4900 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 5000 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 5100 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 5200 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 5300 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 5400 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 5500 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 5600 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 5700 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 5800 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 5900 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 6000 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 6100 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 6200 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 6300 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 6400 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 6500 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 6600 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 6700 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 6800 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 6900 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 7000 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 7100 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 7200 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 7300 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 7400 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 7500 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 7600 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 7700 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 7800 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 7900 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 8000 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 8100 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 8200 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 8300 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 8400 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 8500 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 8600 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 8700 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 8800 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 8900 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 9000 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 9100 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 9200 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 9300 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 9400 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 9500 Reads processed.
+2018-04-15 15:40:36 INFO  StartCalculations:110 - 9600 Reads processed.
+2018-04-15 15:40:40 INFO  StartCalculations:952 - Values normalized ....
+2018-04-15 15:40:40 INFO  StartCalculations:141 - -------------------
+2018-04-15 15:40:40 INFO  StartCalculations:142 - # Skipped records (Deletion): 0
+2018-04-15 15:40:40 INFO  StartCalculations:143 - # Skipped records (length does not match): 0
+2018-04-15 15:40:40 INFO  StartCalculations:144 - # reads used for damage calculation: 9693
+2018-04-15 15:40:41 INFO  StartCalculations:140 - Output files generated
+2018-04-15 15:40:41 INFO  StartCalculations:152 - Runtime of Module was: 5 seconds.
