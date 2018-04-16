@@ -1,0 +1,10 @@
+# table produced by calculations.DamageProfiler
+# using mapped file 1564AM_TGGTATAGTCTCG_L001_R1_001.fastq.merged.fq.MT.remap.remapped.MT.sortedCM.sorted_rmdup_onlyMerged.bam
+# Sample ID: 1564AM_TGGTATAGTCTCG_L001_R1_001.fastq.merged.fq.MT.remap.remapped.MT.sortedCM.sorted_rmdup_onlyMerged.bam
+DNA base frequencies Sample
+A	C	G	T
+0.2359224755328559	0.26354371748414035	0.2663411514062069	0.23419265557679686
+
+DNA base frequencies Reference
+A	C	G	T
+0.23291697106563833	0.2663013085784588	0.2691711860494447	0.23161053430645817
