@@ -1,0 +1,13 @@
+{
+    "salmon_version": "0.9.1",
+    "index": "git_repositories/ref-txome/athaliana/ref/athaliana_normal_index",
+    "libType": "A",
+    "mates1": "git_repositories/ref-txome/athaliana/data/DRR016125/DRR016125_1.fastq.gz",
+    "mates2": "git_repositories/ref-txome/athaliana/data/DRR016125/DRR016125_2.fastq.gz",
+    "threads": "8",
+    "output": "Dropbox (GreeneLab)/Data-refinery/athaliana/quants/DRR016125_quant",
+    "gcBias": [],
+    "seqBias": [],
+    "writeUnmappedNames": [],
+    "auxDir": "aux_info"
+}

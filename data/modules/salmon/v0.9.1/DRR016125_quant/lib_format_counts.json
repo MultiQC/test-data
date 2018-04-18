@@ -1,0 +1,21 @@
+{
+    "read_files": "( git_repositories/ref-txome/athaliana/data/DRR016125/DRR016125_1.fastq.gz, git_repositories/ref-txome/athaliana/data/DRR016125/DRR016125_2.fastq.gz )",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 0.981028511027042,
+    "num_compatible_fragments": 11452777,
+    "num_assigned_fragments": 11674255,
+    "num_consistent_mappings": 20674511,
+    "num_inconsistent_mappings": 784611,
+    "MSF": 0,
+    "OSF": 145,
+    "ISF": 479390,
+    "MSR": 0,
+    "OSR": 2806,
+    "ISR": 20674511,
+    "SF": 11212,
+    "SR": 291043,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}
