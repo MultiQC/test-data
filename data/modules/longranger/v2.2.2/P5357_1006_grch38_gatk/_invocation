@@ -1,0 +1,28 @@
+@include "phaser_svcaller_cs.mro"
+
+call PHASER_SVCALLER_CS(
+    fastq_mode = "BCL_PROCESSOR",
+    sample_id = "P5357_1006_grch38_gatk",
+    sample_def = [ 
+        {
+            "gem_group": null,
+            "lanes": [ "6" ],
+            "read_path": "/lupus/proj/ngi2016004/private/remi/analysis/NA12878-10X/00-data/H2V5WCCXX",
+            "sample_indices": [ "SI-GA-F1" ],
+            "sample_names": [ "any" ],
+            "library": "LibraryNotSpecified",
+            "bc_in_read": 1,
+            "bc_length": 16
+        }
+    ],
+    sample_desc = "",
+    reference_path = "/lupus/proj/ngi2016004/private/remi/genomes/refdata-GRCh38-2.1.0",
+    sex = null,
+    vc_precalled = null,
+    vc_mode = "gatk:/sw/apps/bioinfo/GATK/3.8-0/GenomeAnalysisTK.jar",
+    vc_ground_truth = null,
+    restrict_locus = null,
+    noloupe = false,
+    is_germline = true,
+    downsample = null,
+)
