@@ -16,3 +16,5 @@ offtarget_pct	0.260
 avg_coverage_per_region	NA
 sample	Test1
 rRNA_rate	0.115718436782
+RiP	54
+RiP_pct	0.007
