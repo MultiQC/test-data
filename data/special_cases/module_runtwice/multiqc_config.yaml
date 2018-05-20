@@ -1,0 +1,11 @@
+module_order:
+    - fastqc:
+        name: 'FastQC (one)'
+        info: 'This section of the report shows FastQC results from read 1.'
+        path_filters:
+            - '*1_fastqc.zip'
+    - fastqc:
+        name: 'FastQC (two)'
+        info: 'This section of the report shows FastQC results from read 2.'
+        path_filters:
+            - '*2_fastqc.zip'
