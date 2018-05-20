@@ -1,0 +1,12 @@
+custom_data:
+    concordance:
+        id: 'concordance'
+        section_name: 'Concordance Rates'
+        plot_type: 'heatmap'
+        pconfig:
+            id: 'concordance'
+        sortRows: True
+
+sp:
+    concordance:
+        fn: '*concordance.txt'
