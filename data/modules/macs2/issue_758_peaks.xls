@@ -1,0 +1,22 @@
+# Command line: callpeak -t ...
+# ARGUMENTS LIST:
+# name = Liv55
+# format = BAM
+# ChIP-seq file = ['..'.]
+# control file = None
+# effective genome size = 2.70e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is on
+# Paired-End mode is off
+
+# tag size is determined as 111 bps
+# total tags in treatment: 136688956
+# Sequencing ends will be shifted towards 5' by 100 bp(s)
+# d = 200
+chr     start   end     length  pileup  -log10(pvalue)  fold_enrichment -log10(qvalue)  n
+chr1    564857  565125  269     65.15   17.66218        3.37754 13.91025        Liv55
