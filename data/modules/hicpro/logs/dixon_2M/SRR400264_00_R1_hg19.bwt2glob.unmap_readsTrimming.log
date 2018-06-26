@@ -1,0 +1,6 @@
+##Fastq file: bowtie_results/bwt2_global/dixon_2M/SRR400264_00_R1_hg19.bwt2glob.unmap.fastq
+##Restriction sites:
+AAGCTAGCTT
+##Output File: bowtie_results/bwt2_local/dixon_2M/SRR400264_00_R1_hg19.bwt2glob.unmap_trimmed.fastq
+
+##Trimmed reads: 9972

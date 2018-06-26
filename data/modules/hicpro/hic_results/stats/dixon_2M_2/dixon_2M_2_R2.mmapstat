@@ -1,0 +1,9 @@
+## merge_statfiles.py
+## dir= bowtie_results/bwt2/dixon_2M_2/
+## pattern= *_R2*.mapstat
+## Merging 1 files
+## Use /home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op/bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R2_hg19.mapstat as template
+total_R2	250000
+mapped_R2	224073
+global_R2	213933
+local_R2	10140
