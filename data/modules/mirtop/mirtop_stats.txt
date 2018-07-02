@@ -1,0 +1,26 @@
+# mirtop stats version 0.3.7a
+,category,sample,counts
+0,iso_3p_sum,sampleX,2262.0
+1,iso_5p_sum,sampleX,6258.0
+2,iso_add_sum,sampleX,5279.0
+3,iso_snp_central_offset_sum,sampleX,45.0
+4,iso_snp_central_supp_sum,sampleX,12.0
+5,iso_snp_seed_sum,sampleX,477.0
+6,isomiR_sum,sampleX,6476.0
+7,ref_miRNA_sum,sampleX,156.0
+0,iso_3p_count,sampleX,31.0
+1,iso_5p_count,sampleX,34.0
+2,iso_add_count,sampleX,23.0
+3,iso_snp_central_offset_count,sampleX,1.0
+4,iso_snp_central_supp_count,sampleX,1.0
+5,iso_snp_seed_count,sampleX,2.0
+6,isomiR_count,sampleX,43.0
+7,ref_miRNA_count,sampleX,1.0
+0,iso_3p_mean,sampleX,72.9677419355
+1,iso_5p_mean,sampleX,184.058823529
+2,iso_add_mean,sampleX,229.52173913
+3,iso_snp_central_offset_mean,sampleX,45.0
+4,iso_snp_central_supp_mean,sampleX,12.0
+5,iso_snp_seed_mean,sampleX,238.5
+6,isomiR_mean,sampleX,150.604651163
+7,ref_miRNA_mean,sampleX,156.0
