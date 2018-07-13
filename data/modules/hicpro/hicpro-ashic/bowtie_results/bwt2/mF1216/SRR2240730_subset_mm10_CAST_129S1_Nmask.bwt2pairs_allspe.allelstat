@@ -1,0 +1,15 @@
+## /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/markAllelicStatus.py
+## ibam=bowtie_results/bwt2/mF1216/SRR2240730_subset_mm10_CAST_129S1_Nmask.bwt2pairs.bam
+## snpFile=/home/nservant/Desktop/hicpro_dev/test-op/bowtie2_indexes_as_test/snps_CAST_129S1.vcf
+## tag=XA
+## output=bowtie_results/bwt2/mF1216/SRR2240730_subset_mm10_CAST_129S1_Nmask.bwt2pairs_allspe.bam
+## verbose=True
+## =========================
+Total number of snps loaded	20563466
+## =========================
+Total number of reads	472426	100
+Number of reads with at least one 'N'	170592	36.11
+Number of reads assigned to ref genome	63335	13.406
+Number of reads assigned to alt genome	65453	13.855
+Number of conflicting reads	118	0.025
+Number of unassigned reads	343520	72.714

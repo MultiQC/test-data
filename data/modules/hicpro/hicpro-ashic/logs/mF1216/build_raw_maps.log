@@ -1,0 +1,6 @@
+## Generate contact maps at 500000 resolution ...
+cat hic_results/data//mF1216/mF1216_allValidPairs_G1 | /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 500000 --chrsizes /home/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm10.sizes --ifile /dev/stdin --oprefix hic_results/matrix/mF1216/raw/500000/mF1216_500000_G1
+cat hic_results/data//mF1216/mF1216_allValidPairs_G2 | /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 500000 --chrsizes /home/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm10.sizes --ifile /dev/stdin --oprefix hic_results/matrix/mF1216/raw/500000/mF1216_500000_G2
+## Generate contact maps at 1000000 resolution ...
+cat hic_results/data//mF1216/mF1216_allValidPairs_G1 | /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000000 --chrsizes /home/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm10.sizes --ifile /dev/stdin --oprefix hic_results/matrix/mF1216/raw/1000000/mF1216_1000000_G1
+cat hic_results/data//mF1216/mF1216_allValidPairs_G2 | /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000000 --chrsizes /home/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm10.sizes --ifile /dev/stdin --oprefix hic_results/matrix/mF1216/raw/1000000/mF1216_1000000_G2

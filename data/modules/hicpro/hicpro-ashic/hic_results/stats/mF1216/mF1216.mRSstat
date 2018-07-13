@@ -1,0 +1,22 @@
+## merge_statfiles.py
+## dir= hic_results/data//mF1216/
+## pattern= *.RSstat
+## Merging 2 files
+## Use /home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/hic_results/data/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs.RSstat as template
+Valid_interaction_pairs	416046
+Valid_interaction_pairs_FF	103975
+Valid_interaction_pairs_RR	103541
+Valid_interaction_pairs_RF	104289
+Valid_interaction_pairs_FR	104241
+Dangling_end_pairs	21866
+Religation_pairs	13302
+Self_Cycle_pairs	21029
+Single-end_pairs	0
+Dumped_pairs	656
+Valid_pairs_from_ref_genome_(1-1)	9877
+Valid_pairs_from_ref_genome_with_one_unassigned_mate_(0-1/1-0)	80697
+Valid_pairs_from_alt_genome_(2-2)	10573
+Valid_pairs_from_alt_genome_with_one_unassigned_mate_(0-2/2-0)	82913
+Valid_pairs_from_alt_and_ref_genome_(1-2/2-1)	10559
+Valid_pairs_with_both_unassigned_mated_(0-0)	221221
+Valid_pairs_with_at_least_one_conflicting_mate_(3-)	206

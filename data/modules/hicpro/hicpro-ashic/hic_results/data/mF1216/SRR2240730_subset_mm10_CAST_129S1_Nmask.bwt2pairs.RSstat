@@ -1,0 +1,20 @@
+## Hi-C processing
+Valid_interaction_pairs	207632
+Valid_interaction_pairs_FF	51769
+Valid_interaction_pairs_RR	51623
+Valid_interaction_pairs_RF	52055
+Valid_interaction_pairs_FR	52185
+Dangling_end_pairs	10965
+Religation_pairs	6670
+Self_Cycle_pairs	10651
+Single-end_pairs	0
+Dumped_pairs	295
+## ======================================
+## Allele specific information
+Valid_pairs_from_ref_genome_(1-1)	4927
+Valid_pairs_from_ref_genome_with_one_unassigned_mate_(0-1/1-0)	40427
+Valid_pairs_from_alt_genome_(2-2)	5240
+Valid_pairs_from_alt_genome_with_one_unassigned_mate_(0-2/2-0)	41571
+Valid_pairs_from_alt_and_ref_genome_(1-2/2-1)	5200
+Valid_pairs_with_both_unassigned_mated_(0-0)	110160
+Valid_pairs_with_at_least_one_conflicting_mate_(3-)	107

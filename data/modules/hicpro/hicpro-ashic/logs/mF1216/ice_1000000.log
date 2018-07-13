@@ -1,0 +1,31 @@
+/usr/bin/python /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/mF1216/iced/1000000/mF1216_1000000_G1_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//mF1216/raw/1000000/mF1216_1000000_G1.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 205 out of 2737 bins ...
+Matrix is triangular superior
+ICE at iteration 1 152.92366476154675
+ICE at iteration 2 42.77120219757495
+ICE at iteration 3 14.55142715637798
+ICE at iteration 4 5.188661944457516
+ICE at iteration 5 1.9906039121379517
+ICE at iteration 6 0.782604702399066
+ICE at iteration 7 0.32039798756516075
+ICE at iteration 8 0.13330305112142576
+break at iteration 9
+Writing results...
+/usr/bin/python /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/mF1216/iced/1000000/mF1216_1000000_G2_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//mF1216/raw/1000000/mF1216_1000000_G2.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 206 out of 2736 bins ...
+Matrix is triangular superior
+ICE at iteration 1 130.16352735245013
+ICE at iteration 2 37.469513870035236
+ICE at iteration 3 12.664586426218802
+ICE at iteration 4 4.385714338293598
+ICE at iteration 5 1.6196941097659523
+ICE at iteration 6 0.6010593993046727
+ICE at iteration 7 0.22980887526741578
+break at iteration 8
+Writing results...
