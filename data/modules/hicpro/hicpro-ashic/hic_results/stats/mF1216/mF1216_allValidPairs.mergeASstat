@@ -1,0 +1,8 @@
+## split_valid_interactions.py
+## input= hic_results/data//mF1216/mF1216_allValidPairs
+## verbose= True
+## Splitting valid pairs interactions ...
+## 100000
+## 200000
+## 300000
+## 400000

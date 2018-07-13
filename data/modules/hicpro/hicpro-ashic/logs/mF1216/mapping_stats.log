@@ -1,0 +1,16 @@
+/home/nservant/Apps/samtools-1.6/samtools view -c bowtie_results/bwt2/mF1216/SRR2240730_subset_2_mm10_CAST_129S1_Nmask.bwt2merged.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c bowtie_results/bwt2/mF1216/SRR2240730_subset_1_mm10_CAST_129S1_Nmask.bwt2merged.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2/mF1216/SRR2240730_subset_1_mm10_CAST_129S1_Nmask.bwt2merged.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2/mF1216/SRR2240730_subset_2_mm10_CAST_129S1_Nmask.bwt2merged.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2_global/mF1216/SRR2240730_subset_1_mm10_CAST_129S1_Nmask.bwt2glob.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2_global/mF1216/SRR2240730_subset_2_mm10_CAST_129S1_Nmask.bwt2glob.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2_local/mF1216/SRR2240730_subset_2_mm10_CAST_129S1_Nmask.bwt2glob.unmap_bwt2loc.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2_local/mF1216/SRR2240730_subset_1_mm10_CAST_129S1_Nmask.bwt2glob.unmap_bwt2loc.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c bowtie_results/bwt2/mF1216/SRR2240731_subset_1_mm10_CAST_129S1_Nmask.bwt2merged.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c bowtie_results/bwt2/mF1216/SRR2240731_subset_2_mm10_CAST_129S1_Nmask.bwt2merged.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2/mF1216/SRR2240731_subset_1_mm10_CAST_129S1_Nmask.bwt2merged.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2/mF1216/SRR2240731_subset_2_mm10_CAST_129S1_Nmask.bwt2merged.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2_global/mF1216/SRR2240731_subset_1_mm10_CAST_129S1_Nmask.bwt2glob.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2_global/mF1216/SRR2240731_subset_2_mm10_CAST_129S1_Nmask.bwt2glob.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2_local/mF1216/SRR2240731_subset_2_mm10_CAST_129S1_Nmask.bwt2glob.unmap_bwt2loc.bam
+/home/nservant/Apps/samtools-1.6/samtools view -c -F 4 bowtie_results/bwt2_local/mF1216/SRR2240731_subset_1_mm10_CAST_129S1_Nmask.bwt2glob.unmap_bwt2loc.bam

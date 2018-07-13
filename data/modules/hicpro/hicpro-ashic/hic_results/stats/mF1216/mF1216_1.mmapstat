@@ -1,0 +1,9 @@
+## merge_statfiles.py
+## dir= bowtie_results/bwt2/mF1216/
+## pattern= *_1*.mapstat
+## Merging 4 files
+## Use /home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/bowtie_results/bwt2/mF1216/SRR2240731_subset_1_mm10_CAST_129S1_Nmask.mapstat as template
+total_R1	1000000
+mapped_R1	821937
+global_R1	722681
+local_R1	99256

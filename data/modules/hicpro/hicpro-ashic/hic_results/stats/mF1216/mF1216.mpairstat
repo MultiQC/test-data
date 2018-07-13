@@ -1,0 +1,15 @@
+## merge_statfiles.py
+## dir= bowtie_results/bwt2/mF1216/
+## pattern= *.pairstat
+## Merging 2 files
+## Use /home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/bowtie_results/bwt2/mF1216/SRR2240730_subset_mm10_CAST_129S1_Nmask.bwt2pairs.pairstat as template
+Total_pairs_processed	1000000	100.0
+Unmapped_pairs	19490	1.949
+Low_qual_pairs	0	0.0
+Unique_paired_alignments	472899	47.29
+Multiple_pairs_alignments	183549	18.355
+Pairs_with_singleton	324062	32.407
+Low_qual_singleton	0	0.0
+Unique_singleton_alignments	0	0.0
+Multiple_singleton_alignments	0	0.0
+Reported_pairs	472899	47.29
