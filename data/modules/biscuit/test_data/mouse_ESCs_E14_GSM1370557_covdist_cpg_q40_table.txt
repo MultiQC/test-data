@@ -1,3 +1,5 @@
+BISCUITqc CpG Depth Distribution (Q40)
+depth	count
 0	16368516
 1	1921750
 2	1381998

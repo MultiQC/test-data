@@ -1,3 +1,4 @@
+BISCUITqc CpG Distribution Table
 Territory	All	UniqCov	AllCov
 TotalCpGs	21867837	5499321	7151913
 ExonicCpGs	2151165	877574	973573
