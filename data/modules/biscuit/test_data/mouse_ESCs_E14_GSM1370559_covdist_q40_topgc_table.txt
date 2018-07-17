@@ -1,3 +1,5 @@
+BISCUITqc Depth Distribution (high GC, Q40)
+depth	count
 0	185649304
 1	29857561
 2	20769146

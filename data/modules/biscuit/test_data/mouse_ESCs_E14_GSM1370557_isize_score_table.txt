@@ -1,3 +1,5 @@
+BISCUITqc Insert Size Table
+InsertSize/Score	Value	Fraction
 I	2	0.000751564
 I	3	0.00102509
 I	4	0.000908154

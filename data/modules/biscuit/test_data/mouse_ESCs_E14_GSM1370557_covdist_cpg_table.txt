@@ -1,3 +1,5 @@
+BISCUITqc CpG Depth Distribution (All)
+depth	count
 0	14715924
 1	2560843
 2	1789142
