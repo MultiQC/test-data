@@ -1,3 +1,5 @@
+BISCUITqc Mapping Quality Table
+MapQ	Count
 unmapped	7262577
 0	18473997
 1	168691

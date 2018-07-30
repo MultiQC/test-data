@@ -1,3 +1,4 @@
+BISCUITqc Read Duplication Table
 #bases covered by all reads: 641730928
 #bases covered by duplicate reads: 108112627
 #high-GC bases covered by all reads: 119214339

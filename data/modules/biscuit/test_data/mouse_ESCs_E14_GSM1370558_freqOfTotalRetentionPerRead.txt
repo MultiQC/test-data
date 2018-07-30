@@ -1,3 +1,4 @@
+BISCUITqc Frequency of Total Retention per Read Table
 CTXT	numRET	Cnt
 CA	0	11522703
 CA	1	1817900

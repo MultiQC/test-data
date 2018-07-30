@@ -1,3 +1,5 @@
+BISCUITqc CpH Retention by Read Position Table
+ReadInPair	Position	Conversion/Retention	Count
 1	0	C	349701
 1	0	R	94759
 1	1	C	767557

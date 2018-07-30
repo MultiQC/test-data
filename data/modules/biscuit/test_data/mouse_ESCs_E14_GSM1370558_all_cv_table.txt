@@ -1,3 +1,4 @@
+BISCUITqc Uniformity Table
 sample	mu	sigma	cv
 mouse_ESCs_E14_GSM1370558_all	0.413415	8.54128	20.6603
 mouse_ESCs_E14_GSM1370558_all_topgc	1.13742	18.3824	16.1615
