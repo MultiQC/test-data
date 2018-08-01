@@ -1,0 +1,15 @@
+CLADE	Example_101	Example_102	Example_103	Example_109	Example_110	Example_111	Example_117	Example_118	Example_119	Example_125	Example_126	Example_127	Example_133	Example_134	Example_135	Example_141	Example_142	Example_143	Example_201
+bryophytes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+lycopods	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+gymnosperms	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+monocots	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+dicots	0	0	0	0	0	0	0	0	0	21	0	0	0	0	0	0	2	0	0
+sponges	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nematode	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+insects	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+lophotrochozoa	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+echinoderms	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+fish	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+birds_reptiles	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rodents	4602	6220	4915	5138	6835	4699	5183	5730	5646	4336	8129	7073	5157	7742	6178	5806	6197	47	1285
+primates	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
