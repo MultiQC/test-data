@@ -1,0 +1,31 @@
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/dixon_2M/iced/500000/dixon_2M_500000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//dixon_2M/raw/500000/dixon_2M_500000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 599 out of 6207 bins ...
+Matrix is triangular superior
+ICE at iteration 1 648.128740796
+ICE at iteration 2 369.781190393
+ICE at iteration 3 233.353306491
+ICE at iteration 4 151.180577562
+ICE at iteration 5 100.367195653
+ICE at iteration 6 67.0823194772
+ICE at iteration 7 45.3331389626
+ICE at iteration 8 30.7480289604
+ICE at iteration 9 20.9839753222
+ICE at iteration 10 14.350033814
+ICE at iteration 11 9.85197542461
+ICE at iteration 12 6.77150286586
+ICE at iteration 13 4.66694320223
+ICE at iteration 14 3.21951900305
+ICE at iteration 15 2.22571952469
+ICE at iteration 16 1.53972598954
+ICE at iteration 17 1.06685678423
+ICE at iteration 18 0.739758407996
+ICE at iteration 19 0.513597167258
+ICE at iteration 20 0.356818977481
+ICE at iteration 21 0.248159828183
+ICE at iteration 22 0.172710677541
+ICE at iteration 23 0.120311003645
+break at iteration 24
+Writing results...

@@ -1,0 +1,11 @@
+##HiC-Pro mapping
+Warning: skipping read 'SRR400264.50051 HWI-ST216_0180:3:1101:11858:7871 length=36' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.50051 HWI-ST216_0180:3:1101:11858:7871 length=36' because it was < 2 characters long
+Warning: skipping read 'SRR400264.64377 HWI-ST216_0180:3:1101:4251:9643 length=36' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.64377 HWI-ST216_0180:3:1101:4251:9643 length=36' because it was < 2 characters long
+36975 reads; of these:
+  36975 (100.00%) were unpaired; of these:
+    26789 (72.45%) aligned 0 times
+    3003 (8.12%) aligned exactly 1 time
+    7183 (19.43%) aligned >1 times
+27.55% overall alignment rate
