@@ -1,0 +1,6 @@
+##Fastq file: bowtie_results/bwt2_global/E12.5_dupL/00_00_SRR3179589_1_mm9.bwt2glob.unmap.fastq
+##Restriction sites:
+GATC
+##Output File: bowtie_results/bwt2_local/E12.5_dupL/00_00_SRR3179589_1_mm9.bwt2glob.unmap_trimmed.fastq
+
+##Trimmed reads: 202621

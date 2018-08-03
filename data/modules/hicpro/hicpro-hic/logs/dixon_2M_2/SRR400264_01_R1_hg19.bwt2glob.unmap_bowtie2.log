@@ -1,0 +1,17 @@
+##HiC-Pro mapping
+Warning: skipping read 'SRR400264.325162 HWI-ST216_0180:3:1101:9447:39573 length=36' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.325162 HWI-ST216_0180:3:1101:9447:39573 length=36' because it was < 2 characters long
+Warning: skipping read 'SRR400264.334559 HWI-ST216_0180:3:1101:17441:40749 length=36' because length (1) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.334559 HWI-ST216_0180:3:1101:17441:40749 length=36' because it was < 2 characters long
+Warning: skipping read 'SRR400264.343441 HWI-ST216_0180:3:1101:21058:41685 length=36' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.343441 HWI-ST216_0180:3:1101:21058:41685 length=36' because it was < 2 characters long
+Warning: skipping read 'SRR400264.421524 HWI-ST216_0180:3:1101:9314:50845 length=36' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.421524 HWI-ST216_0180:3:1101:9314:50845 length=36' because it was < 2 characters long
+Warning: skipping read 'SRR400264.426765 HWI-ST216_0180:3:1101:17281:51400 length=36' because length (1) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.426765 HWI-ST216_0180:3:1101:17281:51400 length=36' because it was < 2 characters long
+30550 reads; of these:
+  30550 (100.00%) were unpaired; of these:
+    20514 (67.15%) aligned 0 times
+    3061 (10.02%) aligned exactly 1 time
+    6975 (22.83%) aligned >1 times
+32.85% overall alignment rate

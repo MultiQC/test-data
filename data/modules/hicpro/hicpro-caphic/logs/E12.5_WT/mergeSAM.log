@@ -1,0 +1,11 @@
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/mergeSAM.py -q 0 -t -v -f bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_1_mm9.bwt2merged.bam -r bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_2_mm9.bwt2merged.bam -o bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_mm9.bwt2pairs.bam
+## mergeBAM.py
+## forward= bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_1_mm9.bwt2merged.bam
+## reverse= bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_2_mm9.bwt2merged.bam
+## output= bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_mm9.bwt2pairs.bam
+## min mapq= 0
+## report_single= False
+## report_multi= False
+## verbose= True
+## Merging forward and reverse tags ...
+## 1000000
