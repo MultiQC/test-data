@@ -1,0 +1,15 @@
+##HiC-Pro mapping
+Warning: skipping read 'SRR400264.92478 HWI-ST216_0180:3:1101:2005:12910 length=36' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.92478 HWI-ST216_0180:3:1101:2005:12910 length=36' because it was < 2 characters long
+Warning: skipping read 'SRR400264.184104 HWI-ST216_0180:3:1101:6220:23291 length=36' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.184104 HWI-ST216_0180:3:1101:6220:23291 length=36' because it was < 2 characters long
+Warning: skipping read 'SRR400264.192697 HWI-ST216_0180:3:1101:6201:24268 length=36' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.192697 HWI-ST216_0180:3:1101:6201:24268 length=36' because it was < 2 characters long
+Warning: skipping read 'SRR400264.218141 HWI-ST216_0180:3:1101:1854:27492 length=36' because length (1) <= # seed mismatches (0)
+Warning: skipping read 'SRR400264.218141 HWI-ST216_0180:3:1101:1854:27492 length=36' because it was < 2 characters long
+31445 reads; of these:
+  31445 (100.00%) were unpaired; of these:
+    21552 (68.54%) aligned 0 times
+    3011 (9.58%) aligned exactly 1 time
+    6882 (21.89%) aligned >1 times
+31.46% overall alignment rate

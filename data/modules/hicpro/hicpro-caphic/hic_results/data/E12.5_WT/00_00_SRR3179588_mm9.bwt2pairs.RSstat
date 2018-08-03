@@ -1,0 +1,12 @@
+## Hi-C processing
+Valid_interaction_pairs	116544
+Valid_interaction_pairs_FF	29710
+Valid_interaction_pairs_RR	29688
+Valid_interaction_pairs_RF	27604
+Valid_interaction_pairs_FR	29542
+Dangling_end_pairs	757945
+Religation_pairs	27542
+Self_Cycle_pairs	275
+Single-end_pairs	0
+Filtered_pairs	0
+Dumped_pairs	456

@@ -1,0 +1,6 @@
+/bioinfo/local/build/samtools-1.1/bin/samtools merge -@ 2 -n -f bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_1_mm9.bwt2merged.bam bowtie_results/bwt2_global/E12.5_WT/00_00_SRR3179588_1_mm9.bwt2glob.bam bowtie_results/bwt2_local/E12.5_WT/00_00_SRR3179588_1_mm9.bwt2glob.unmap_bwt2loc.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools merge -@ 2 -n -f bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_2_mm9.bwt2merged.bam bowtie_results/bwt2_global/E12.5_WT/00_00_SRR3179588_2_mm9.bwt2glob.bam bowtie_results/bwt2_local/E12.5_WT/00_00_SRR3179588_2_mm9.bwt2glob.unmap_bwt2loc.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools sort -@ 2 -n -T tmp/00_00_SRR3179588_2_mm9 -o bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_2_mm9.bwt2merged.sorted.bam bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_2_mm9.bwt2merged.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools sort -@ 2 -n -T tmp/00_00_SRR3179588_1_mm9 -o bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_1_mm9.bwt2merged.sorted.bam bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_1_mm9.bwt2merged.bam
+mv bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_2_mm9.bwt2merged.sorted.bam bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_2_mm9.bwt2merged.bam
+mv bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_1_mm9.bwt2merged.sorted.bam bowtie_results/bwt2/E12.5_WT/00_00_SRR3179588_1_mm9.bwt2merged.bam
