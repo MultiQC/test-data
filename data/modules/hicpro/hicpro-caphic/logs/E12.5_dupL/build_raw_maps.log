@@ -1,0 +1,1392 @@
+## Generate contact maps at 1000 resolution ...
+cat hic_results/data//E12.5_dupL/E12.5_dupL.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/1000/E12.5_dupL_${bsize}
+cat hic_results/data//E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/1000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 5000 resolution ...
+cat hic_results/data//E12.5_dupL/E12.5_dupL.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 5000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/5000/E12.5_dupL_${bsize}
+cat hic_results/data//E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 5000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/5000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 10000 resolution ...
+cat hic_results/data//E12.5_dupL/E12.5_dupL.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 10000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/10000/E12.5_dupL_${bsize}
+cat hic_results/data//E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 10000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/10000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 20000 resolution ...
+cat hic_results/data//E12.5_dupL/E12.5_dupL.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 20000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/20000/E12.5_dupL_${bsize}
+cat hic_results/data//E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 20000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/20000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 40000 resolution ...
+cat hic_results/data//E12.5_dupL/E12.5_dupL.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 40000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/40000/E12.5_dupL_${bsize}
+cat hic_results/data//E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 40000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/40000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 150000 resolution ...
+cat hic_results/data//E12.5_dupL/E12.5_dupL.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 150000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/150000/E12.5_dupL_${bsize}
+cat hic_results/data//E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 150000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/150000/E12.5_dupL_ontarget_${bsize}
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/1000/E12.5_dupL_1000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/1000/E12.5_dupL_1000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 2581129 out of 2654924 bins ...
+Matrix is triangular superior
+ICE at iteration 1 1321267.29732
+ICE at iteration 2 2359060.09748
+ICE at iteration 3 2714224.73222
+ICE at iteration 4 10948491.6682
+ICE at iteration 5 6940842.15984
+ICE at iteration 6 136745812.546
+ICE at iteration 7 39102408.8429
+ICE at iteration 8 2816447298.16
+ICE at iteration 9 565444102.665
+ICE at iteration 10 71792497895.5
+ICE at iteration 11 12001582340.4
+ICE at iteration 12 2.1237162947e+12
+ICE at iteration 13 300471644322.0
+ICE at iteration 14 7.0948229364e+13
+ICE at iteration 15 8.5585468579e+12
+ICE at iteration 16 2.61253227815e+15
+ICE at iteration 17 2.74461329689e+14
+ICE at iteration 18 1.03584585395e+17
+ICE at iteration 19 9.77826112536e+15
+ICE at iteration 20 4.33269821625e+18
+ICE at iteration 21 3.79622999413e+17
+ICE at iteration 22 1.88115709293e+20
+ICE at iteration 23 1.57166432699e+19
+ICE at iteration 24 8.37798437898e+21
+ICE at iteration 25 6.80495918363e+20
+ICE at iteration 26 3.79577969366e+23
+ICE at iteration 27 3.03534326743e+22
+ICE at iteration 28 1.73966584829e+25
+ICE at iteration 29 1.38011849659e+24
+ICE at iteration 30 8.03525602733e+26
+ICE at iteration 31 6.35201891536e+25
+ICE at iteration 32 3.7309123285e+28
+ICE at iteration 33 2.94607879812e+27
+ICE at iteration 34 1.73855067915e+30
+ICE at iteration 35 1.37303780254e+29
+ICE at iteration 36 8.12141705879e+31
+ICE at iteration 37 6.41878000366e+30
+ICE at iteration 38 3.80033313559e+33
+ICE at iteration 39 3.00654912543e+32
+ICE at iteration 40 1.78047083698e+35
+ICE at iteration 41 1.41001481039e+34
+ICE at iteration 42 8.34870491552e+36
+ICE at iteration 43 6.61796931923e+35
+ICE at iteration 44 3.91713881142e+38
+ICE at iteration 45 3.10776516556e+37
+ICE at iteration 46 1.83869923039e+40
+ICE at iteration 47 1.45987315468e+39
+ICE at iteration 48 8.63360680028e+41
+ICE at iteration 49 6.85922131032e+40
+ICE at iteration 50 4.05486676011e+43
+ICE at iteration 51 3.22325382574e+42
+ICE at iteration 52 1.90474563767e+45
+ICE at iteration 53 1.51479175918e+44
+ICE at iteration 54 8.94857970447e+46
+ICE at iteration 55 7.1192827994e+45
+ICE at iteration 56 4.20449459641e+48
+ICE at iteration 57 3.34607281143e+47
+ICE at iteration 58 1.9756299997e+50
+ICE at iteration 59 1.57269472695e+49
+ICE at iteration 60 9.28371498301e+51
+ICE at iteration 61 7.39195792617e+50
+ICE at iteration 62 4.36271218415e+53
+ICE at iteration 63 3.47438550442e+52
+ICE at iteration 64 2.05024397891e+55
+ICE at iteration 65 1.63304562377e+54
+ICE at iteration 66 9.63530462688e+56
+ICE at iteration 67 7.67572389123e+55
+ICE at iteration 68 4.52828519805e+58
+ICE at iteration 69 3.60778281348e+57
+ICE at iteration 70 2.12818118153e+60
+ICE at iteration 71 1.69574678471e+59
+ICE at iteration 72 1.00020372099e+62
+ICE at iteration 73 7.9704148325e+60
+ICE at iteration 74 4.70080511718e+63
+ICE at iteration 75 3.74627797556e+62
+ICE at iteration 76 2.20932228269e+65
+ICE at iteration 77 1.76083289117e+64
+ICE at iteration 78 1.03836076978e+67
+ICE at iteration 79 8.27628280399e+65
+ICE at iteration 80 4.88021912965e+68
+ICE at iteration 81 3.89001736648e+67
+ICE at iteration 82 2.29367468821e+70
+ICE at iteration 83 1.82838149086e+69
+ICE at iteration 84 1.07801661371e+72
+ICE at iteration 85 8.59371968016e+70
+ICE at iteration 86 5.06663913908e+73
+ICE at iteration 87 4.03919371328e+72
+ICE at iteration 88 2.38130590858e+75
+ICE at iteration 89 1.8984858111e+74
+ICE at iteration 90 1.11920837685e+77
+ICE at iteration 91 8.92317171481e+75
+ICE at iteration 92 5.26025919293e+78
+ICE at iteration 93 4.19401917406e+77
+ICE at iteration 94 2.47231426025e+80
+ICE at iteration 95 1.97124626435e+79
+ICE at iteration 96 1.16198486066e+82
+ICE at iteration 97 9.26511273734e+80
+ICE at iteration 98 5.46131812585e+83
+ICE at iteration 99 4.35471689869e+82
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/1000/E12.5_dupL_ontarget_1000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/1000/E12.5_dupL_ontarget_1000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 2616227 out of 2654922 bins ...
+Matrix is triangular superior
+ICE at iteration 1 517300.25684
+ICE at iteration 2 442686.473765
+ICE at iteration 3 515954.090496
+ICE at iteration 4 2027832.47392
+ICE at iteration 5 4587634.26978
+ICE at iteration 6 35079561.3908
+ICE at iteration 7 82964767.8327
+ICE at iteration 8 781995278.302
+ICE at iteration 9 1851003983.47
+ICE at iteration 10 20437833089.8
+ICE at iteration 11 48615460623.4
+ICE at iteration 12 611529846643.0
+ICE at iteration 13 1.46585569168e+12
+ICE at iteration 14 2.05070638847e+13
+ICE at iteration 15 4.95271685639e+13
+ICE at iteration 16 7.54116505095e+14
+ICE at iteration 17 1.83133473591e+15
+ICE at iteration 18 2.97738753496e+16
+ICE at iteration 19 7.25222049926e+16
+ICE at iteration 20 1.23873943633e+18
+ICE at iteration 21 3.02012266749e+18
+ICE at iteration 22 5.34974580581e+19
+ICE at iteration 23 1.30376796479e+20
+ICE at iteration 24 2.37128757118e+21
+ICE at iteration 25 5.7725084925e+21
+ICE at iteration 26 1.07008390189e+23
+ICE at iteration 27 2.60132338338e+23
+ICE at iteration 28 4.88866181134e+24
+ICE at iteration 29 1.18674922865e+25
+ICE at iteration 30 2.25230916753e+26
+ICE at iteration 31 5.46063133633e+26
+ICE at iteration 32 1.04374475294e+28
+ICE at iteration 33 2.52773227461e+28
+ICE at iteration 34 4.85641223345e+29
+ICE at iteration 35 1.17504303668e+30
+ICE at iteration 36 2.26602205844e+31
+ICE at iteration 37 5.47870003799e+31
+ICE at iteration 38 1.05944409273e+33
+ICE at iteration 39 2.55994520012e+33
+ICE at iteration 40 4.96028997018e+34
+ICE at iteration 41 1.19798824435e+35
+ICE at iteration 42 2.32475341907e+36
+ICE at iteration 43 5.61253507259e+36
+ICE at iteration 44 1.09034794143e+38
+ICE at iteration 45 2.6315957872e+38
+ICE at iteration 46 5.11664167682e+39
+ICE at iteration 47 1.23463611299e+40
+ICE at iteration 48 2.40200929748e+41
+ICE at iteration 49 5.79496253046e+41
+ICE at iteration 50 1.12794937663e+43
+ICE at iteration 51 2.72085155586e+43
+ICE at iteration 52 5.29782353657e+44
+ICE at iteration 53 1.27780782957e+45
+ICE at iteration 54 2.48871262035e+46
+ICE at iteration 55 6.00214051082e+46
+ICE at iteration 56 1.16924108887e+48
+ICE at iteration 57 2.81972670293e+48
+ICE at iteration 58 5.49379731596e+49
+ICE at iteration 59 1.32480963636e+50
+ICE at iteration 60 2.58149277926e+51
+ICE at iteration 61 6.22493165125e+51
+ICE at iteration 62 1.21308655846e+53
+ICE at iteration 63 2.92510938933e+53
+ICE at iteration 64 5.70072260811e+54
+ICE at iteration 65 1.37457943001e+55
+ICE at iteration 66 2.67905254711e+56
+ICE at iteration 67 6.45971070295e+56
+ICE at iteration 68 1.25904919372e+58
+ICE at iteration 69 3.03576549278e+58
+ICE at iteration 70 5.91714189558e+59
+ICE at iteration 71 1.42669969501e+60
+ICE at iteration 72 2.78091241144e+61
+ICE at iteration 73 6.70508099841e+61
+ICE at iteration 74 1.30697511666e+63
+ICE at iteration 75 3.1512365267e+63
+ICE at iteration 76 6.14258205615e+64
+ICE at iteration 77 1.48102455576e+65
+ICE at iteration 78 2.88693795159e+66
+ICE at iteration 79 6.9606028352e+66
+ICE at iteration 80 1.35683222105e+68
+ICE at iteration 81 3.27140305613e+68
+ICE at iteration 82 6.37700243681e+69
+ICE at iteration 83 1.53752893132e+70
+ICE at iteration 84 2.99714933048e+71
+ICE at iteration 85 7.22626926062e+71
+ICE at iteration 86 1.40864402106e+73
+ICE at iteration 87 3.39630155974e+73
+ICE at iteration 88 6.62056389582e+74
+ICE at iteration 89 1.59624424793e+75
+ICE at iteration 90 3.11164025804e+76
+ICE at iteration 91 7.50227942243e+76
+ICE at iteration 92 1.46246109028e+78
+ICE at iteration 93 3.5260442117e+78
+ICE at iteration 94 6.87352773615e+79
+ICE at iteration 95 1.65722994845e+80
+ICE at iteration 96 3.2305421004e+81
+ICE at iteration 97 7.7889370691e+81
+ICE at iteration 98 1.51834827653e+83
+ICE at iteration 99 3.66078262421e+83
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/5000/E12.5_dupL_5000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/5000/E12.5_dupL_5000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 468275 out of 530992 bins ...
+Matrix is triangular superior
+ICE at iteration 1 367870.214531
+ICE at iteration 2 2045256.09761
+ICE at iteration 3 1284693.60114
+ICE at iteration 4 54021242.7969
+ICE at iteration 5 19251647.4333
+ICE at iteration 6 2117120424.65
+ICE at iteration 7 695170597.439
+ICE at iteration 8 94804292666.1
+ICE at iteration 9 30837008581.4
+ICE at iteration 10 4.65130688396e+12
+ICE at iteration 11 1.50883111381e+12
+ICE at iteration 12 2.45187188193e+14
+ICE at iteration 13 7.93889328245e+13
+ICE at iteration 14 1.36956187027e+16
+ICE at iteration 15 4.42743843753e+15
+ICE at iteration 16 8.02585723415e+17
+ICE at iteration 17 2.5912530188e+17
+ICE at iteration 18 4.89852960777e+19
+ICE at iteration 19 1.58025731356e+19
+ICE at iteration 20 3.0965978516e+21
+ICE at iteration 21 9.98676377923e+20
+ICE at iteration 22 2.0181986102e+23
+ICE at iteration 23 6.51044880796e+22
+ICE at iteration 24 1.35073876066e+25
+ICE at iteration 25 4.36031580863e+24
+ICE at iteration 26 9.24997651814e+26
+ICE at iteration 27 2.98900613068e+26
+ICE at iteration 28 6.46011625709e+28
+ICE at iteration 29 2.09002474712e+28
+ICE at iteration 30 4.58746351545e+30
+ICE at iteration 31 1.48609244164e+30
+ICE at iteration 32 3.30354148162e+32
+ICE at iteration 33 1.07155598156e+32
+ICE at iteration 34 2.40684592635e+34
+ICE at iteration 35 7.81662206562e+33
+ICE at iteration 36 1.77054449867e+36
+ICE at iteration 37 5.75667033215e+35
+ICE at iteration 38 1.31285831563e+38
+ICE at iteration 39 4.27293308157e+37
+ICE at iteration 40 9.79861870542e+39
+ICE at iteration 41 3.19201236559e+39
+ICE at iteration 42 7.35254349941e+41
+ICE at iteration 43 2.39705481818e+41
+ICE at iteration 44 5.54136532151e+43
+ICE at iteration 45 1.80780132222e+43
+ICE at iteration 46 4.19140368533e+45
+ICE at iteration 47 1.36818366184e+45
+ICE at iteration 48 3.17969994693e+47
+ICE at iteration 49 1.03844752831e+47
+ICE at iteration 50 2.4180712847e+49
+ICE at iteration 51 7.90039070033e+48
+ICE at iteration 52 1.84256615278e+51
+ICE at iteration 53 6.02220911153e+50
+ICE at iteration 54 1.40636220317e+53
+ICE at iteration 55 4.59790114993e+52
+ICE at iteration 56 1.07490053214e+55
+ICE at iteration 57 3.51512319276e+54
+ICE at iteration 58 8.22499676469e+56
+ICE at iteration 59 2.69030277002e+56
+ICE at iteration 60 6.29965998267e+58
+ICE at iteration 61 2.06092285467e+58
+ICE at iteration 62 4.82886052437e+60
+ICE at iteration 63 1.57999914517e+60
+ICE at iteration 64 3.7039283846e+62
+ICE at iteration 65 1.21208377794e+62
+ICE at iteration 66 2.84265887177e+64
+ICE at iteration 67 9.30346219126e+63
+ICE at iteration 68 2.18269435632e+66
+ICE at iteration 69 7.14423689786e+65
+ICE at iteration 70 1.67662266232e+68
+ICE at iteration 71 5.48827322666e+67
+ICE at iteration 72 1.28832506541e+70
+ICE at iteration 73 4.21753454789e+69
+ICE at iteration 74 9.90241504891e+71
+ICE at iteration 75 3.24192689586e+71
+ICE at iteration 76 7.61313864561e+73
+ICE at iteration 77 2.49259354436e+73
+ICE at iteration 78 5.8543360922e+75
+ICE at iteration 79 1.91685063532e+75
+ICE at iteration 80 4.50266530359e+77
+ICE at iteration 81 1.474350957e+77
+ICE at iteration 82 3.46360711598e+79
+ICE at iteration 83 1.13417082912e+79
+ICE at iteration 84 2.66468001016e+81
+ICE at iteration 85 8.7259335183e+80
+ICE at iteration 86 2.05026949526e+83
+ICE at iteration 87 6.71418591407e+82
+ICE at iteration 88 1.57768187731e+85
+ICE at iteration 89 5.16673536643e+84
+ICE at iteration 90 1.21412858125e+87
+ICE at iteration 91 3.97626016192e+86
+ICE at iteration 92 9.34419069422e+88
+ICE at iteration 93 3.06030158884e+88
+ICE at iteration 94 7.19194218955e+90
+ICE at iteration 95 2.35548509765e+90
+ICE at iteration 96 5.53572483892e+92
+ICE at iteration 97 1.81309105158e+92
+ICE at iteration 98 4.26111697205e+94
+ICE at iteration 99 1.39565768267e+94
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/5000/E12.5_dupL_ontarget_5000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/5000/E12.5_dupL_ontarget_5000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 499577 out of 530991 bins ...
+Matrix is triangular superior
+ICE at iteration 1 125445.005175
+ICE at iteration 2 240387.966638
+ICE at iteration 3 1019411.38821
+ICE at iteration 4 7949657.8818
+ICE at iteration 5 38424291.4285
+ICE at iteration 6 351984628.43
+ICE at iteration 7 1674500761.39
+ICE at iteration 8 17348345724.8
+ICE at iteration 9 81386913168.3
+ICE at iteration 10 931083258254.0
+ICE at iteration 11 4.3222848941e+12
+ICE at iteration 12 5.35099040806e+13
+ICE at iteration 13 2.46552784603e+14
+ICE at iteration 14 3.2525001616e+15
+ICE at iteration 15 1.49072759406e+16
+ICE at iteration 16 2.07242984904e+17
+ICE at iteration 17 9.46160631263e+17
+ICE at iteration 18 1.3753253664e+19
+ICE at iteration 19 6.25931573856e+19
+ICE at iteration 20 9.45815686779e+20
+ICE at iteration 21 4.29266146589e+21
+ICE at iteration 22 6.71174992709e+22
+ICE at iteration 23 3.03826365403e+23
+ICE at iteration 24 4.89577532494e+24
+ICE at iteration 25 2.21062288709e+25
+ICE at iteration 26 3.65760637352e+26
+ICE at iteration 27 1.64749269885e+27
+ICE at iteration 28 2.78925996765e+28
+ICE at iteration 29 1.25340269336e+29
+ICE at iteration 30 2.16438091983e+30
+ICE at iteration 31 9.70439720053e+30
+ICE at iteration 32 1.70411136218e+32
+ICE at iteration 33 7.62497721043e+32
+ICE at iteration 34 1.35798323546e+34
+ICE at iteration 35 6.06488516402e+34
+ICE at iteration 36 1.09291335147e+36
+ICE at iteration 37 4.87289888346e+36
+ICE at iteration 38 8.8670586025e+37
+ICE at iteration 39 3.94766264861e+38
+ICE at iteration 40 7.24129883744e+39
+ICE at iteration 41 3.21971188008e+40
+ICE at iteration 42 5.94503074149e+41
+ICE at iteration 43 2.64040102559e+42
+ICE at iteration 44 4.90174266714e+43
+ICE at iteration 45 2.17495087537e+44
+ICE at iteration 46 4.05553119716e+45
+ICE at iteration 47 1.7980018768e+46
+ICE at iteration 48 3.36478376685e+47
+ICE at iteration 49 1.49071916198e+48
+ICE at iteration 50 2.79799240526e+49
+ICE at iteration 51 1.23887449446e+50
+ICE at iteration 52 2.33093017176e+51
+ICE at iteration 53 1.03155312698e+52
+ICE at iteration 54 1.9447126279e+53
+ICE at iteration 55 8.60266652051e+53
+ICE at iteration 56 1.62444311071e+55
+ICE at iteration 57 7.18333702867e+55
+ICE at iteration 58 1.35824916472e+57
+ICE at iteration 59 6.00440105697e+57
+ICE at iteration 60 1.13658523367e+59
+ICE at iteration 61 5.02321138145e+59
+ICE at iteration 62 9.51719517985e+60
+ICE at iteration 63 4.20528184624e+61
+ICE at iteration 64 7.9735028881e+62
+ICE at iteration 65 3.52254653407e+63
+ICE at iteration 66 6.68314684227e+64
+ICE at iteration 67 2.9520416819e+65
+ICE at iteration 68 5.60364638045e+66
+ICE at iteration 69 2.47489392073e+67
+ICE at iteration 70 4.69992306045e+68
+ICE at iteration 71 2.07553390505e+69
+ICE at iteration 72 3.94292537808e+70
+ICE at iteration 73 1.74107824709e+71
+ICE at iteration 74 3.308534697e+72
+ICE at iteration 75 1.46083890194e+73
+ICE at iteration 76 2.77668746835e+74
+ICE at iteration 77 1.22593033676e+75
+ICE at iteration 78 2.3306658166e+76
+ICE at iteration 79 1.02895263035e+77
+ICE at iteration 80 1.95652061065e+78
+ICE at iteration 81 8.63734178971e+78
+ICE at iteration 82 1.64259979183e+80
+ICE at iteration 83 7.25121650752e+80
+ICE at iteration 84 1.37916103352e+82
+ICE at iteration 85 6.08807716194e+82
+ICE at iteration 86 1.15805246274e+84
+ICE at iteration 87 5.11189208088e+84
+ICE at iteration 88 9.72448659386e+85
+ICE at iteration 89 4.29249952423e+86
+ICE at iteration 90 8.1663179205e+87
+ICE at iteration 91 3.60463713004e+88
+ICE at iteration 92 6.85809777825e+89
+ICE at iteration 93 3.02713612264e+90
+ICE at iteration 94 5.75964929092e+91
+ICE at iteration 95 2.54225102934e+92
+ICE at iteration 96 4.83727785724e+93
+ICE at iteration 97 2.13510122576e+94
+ICE at iteration 98 4.06271809777e+95
+ICE at iteration 99 1.7932050317e+96
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/10000/E12.5_dupL_10000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/10000/E12.5_dupL_10000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 209032 out of 265502 bins ...
+Matrix is triangular superior
+ICE at iteration 1 195703.272786
+ICE at iteration 2 2544777.55085
+ICE at iteration 3 1218416.34575
+ICE at iteration 4 123624828.141
+ICE at iteration 5 45724457.5271
+ICE at iteration 6 7427112235.91
+ICE at iteration 7 2701371699.35
+ICE at iteration 8 493691208688.0
+ICE at iteration 9 179081956156.0
+ICE at iteration 10 3.56934162062e+13
+ICE at iteration 11 1.28970136398e+13
+ICE at iteration 12 2.77719682952e+15
+ICE at iteration 13 9.98044307823e+14
+ICE at iteration 14 2.30451798508e+17
+ICE at iteration 15 8.23177870983e+16
+ICE at iteration 16 2.02257076029e+19
+ICE at iteration 17 7.18477750603e+18
+ICE at iteration 18 1.86267487677e+21
+ICE at iteration 19 6.58860327896e+20
+ICE at iteration 20 1.78642767654e+23
+ICE at iteration 21 6.30166068026e+22
+ICE at iteration 22 1.77163964085e+25
+ICE at iteration 23 6.24136369764e+24
+ICE at iteration 24 1.80530675178e+27
+ICE at iteration 25 6.35887027772e+26
+ICE at iteration 26 1.87991905895e+29
+ICE at iteration 27 6.62568649437e+28
+ICE at iteration 28 1.9914361949e+31
+ICE at iteration 29 7.02624255729e+30
+ICE at iteration 30 2.13813757338e+33
+ICE at iteration 31 7.55363180851e+32
+ICE at iteration 32 2.31995315558e+35
+ICE at iteration 33 8.20710548008e+34
+ICE at iteration 34 2.53807007034e+37
+ICE at iteration 35 8.99058535385e+36
+ICE at iteration 36 2.79470451559e+39
+ICE at iteration 37 9.91179152759e+38
+ICE at iteration 38 3.09297713854e+41
+ICE at iteration 39 1.09817577663e+41
+ICE at iteration 40 3.43685636486e+43
+ICE at iteration 41 1.22146022381e+43
+ICE at iteration 42 3.83114883314e+45
+ICE at iteration 43 1.36274752742e+45
+ICE at iteration 44 4.2815245976e+47
+ICE at iteration 45 1.52406373975e+47
+ICE at iteration 46 4.79456986407e+49
+ICE at iteration 47 1.70776398517e+49
+ICE at iteration 48 5.37786319742e+51
+ICE at iteration 49 1.91655918142e+51
+ICE at iteration 50 6.04007319288e+53
+ICE at iteration 51 2.15355062322e+53
+ICE at iteration 52 6.7910769963e+55
+ICE at iteration 53 2.42227214846e+55
+ICE at iteration 54 7.6421000571e+57
+ICE at iteration 55 2.72673998358e+57
+ICE at iteration 56 8.60587826287e+59
+ICE at iteration 57 3.07151065168e+59
+ICE at iteration 58 9.69684423488e+61
+ICE at iteration 59 3.46174756147e+61
+ICE at iteration 60 1.09313401231e+64
+ICE at iteration 61 3.90329710105e+63
+ICE at iteration 62 1.23278597699e+66
+ICE at iteration 63 4.40277525483e+65
+ICE at iteration 64 1.39073236426e+68
+ICE at iteration 65 4.96766595429e+67
+ICE at iteration 66 1.56933904891e+70
+ICE at iteration 67 5.60643257366e+69
+ICE at iteration 68 1.77128102634e+72
+ICE at iteration 69 6.32864419492e+71
+ICE at iteration 70 1.99958235181e+74
+ICE at iteration 71 7.14511849988e+73
+ICE at iteration 72 2.25766131758e+76
+ICE at iteration 73 8.06808340369e+75
+ICE at iteration 74 2.54938153935e+78
+ICE at iteration 75 9.11135983116e+77
+ICE at iteration 76 2.87910971256e+80
+ICE at iteration 77 1.02905683574e+80
+ICE at iteration 78 3.2517809002e+82
+ICE at iteration 79 1.16233627947e+82
+ICE at iteration 80 3.6729723264e+84
+ICE at iteration 81 1.31296942124e+84
+ICE at iteration 82 4.14898677839e+86
+ICE at iteration 83 1.48321093346e+86
+ICE at iteration 84 4.68694686296e+88
+ICE at iteration 85 1.67560877739e+88
+ICE at iteration 86 5.29490152626e+90
+ICE at iteration 87 1.89304231434e+90
+ICE at iteration 88 5.98194642965e+92
+ICE at iteration 89 2.13876537453e+92
+ICE at iteration 90 6.75835998119e+94
+ICE at iteration 91 2.4164549275e+94
+ICE at iteration 92 7.63575705708e+96
+ICE at iteration 93 2.73026608207e+96
+ICE at iteration 94 8.62726271162e+98
+ICE at iteration 95 3.08489423833e+98
+ICE at iteration 96 9.74770847362e+100
+ICE at iteration 97 3.48564532118e+100
+ICE at iteration 98 1.10138541647e+103
+ICE at iteration 99 3.93851514587e+102
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/10000/E12.5_dupL_ontarget_10000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/10000/E12.5_dupL_ontarget_10000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 236732 out of 265502 bins ...
+Matrix is triangular superior
+ICE at iteration 1 69032.0805059
+ICE at iteration 2 266199.988013
+ICE at iteration 3 1703623.68252
+ICE at iteration 4 16524020.4775
+ICE at iteration 5 108711408.198
+ICE at iteration 6 1191886395.72
+ICE at iteration 7 7751950321.92
+ICE at iteration 8 94363483146.6
+ICE at iteration 9 608628519403.0
+ICE at iteration 10 8.10179111251e+12
+ICE at iteration 11 5.20069131352e+13
+ICE at iteration 12 7.4693173884e+14
+ICE at iteration 13 4.78557132696e+15
+ICE at iteration 14 7.33302508264e+16
+ICE at iteration 15 4.69718786048e+17
+ICE at iteration 16 7.6092548913e+18
+ICE at iteration 17 4.87590086475e+19
+ICE at iteration 18 8.28629204669e+20
+ICE at iteration 19 5.31089455165e+21
+ICE at iteration 20 9.40373684516e+22
+ICE at iteration 21 6.02544897672e+23
+ICE at iteration 22 1.10465911956e+25
+ICE at iteration 23 7.07236258689e+25
+ICE at iteration 24 1.33479934483e+27
+ICE at iteration 25 8.53525135344e+27
+ICE at iteration 26 1.64983635407e+29
+ICE at iteration 27 1.05341002484e+30
+ICE at iteration 28 2.07605971771e+31
+ICE at iteration 29 1.32347358854e+32
+ICE at iteration 30 2.6492065135e+33
+ICE at iteration 31 1.68626460813e+34
+ICE at iteration 32 3.41750393978e+35
+ICE at iteration 33 2.17221435036e+36
+ICE at iteration 34 4.44580293883e+37
+ICE at iteration 35 2.82224266721e+38
+ICE at iteration 36 5.82115196377e+39
+ICE at iteration 37 3.6912733881e+40
+ICE at iteration 38 7.66028765625e+41
+ICE at iteration 39 4.85295940559e+42
+ICE at iteration 40 1.01196863208e+44
+ICE at iteration 41 6.40602345363e+44
+ICE at iteration 42 1.34090419009e+46
+ICE at iteration 43 8.48276060274e+46
+ICE at iteration 44 1.78093322171e+48
+ICE at iteration 45 1.12604353111e+49
+ICE at iteration 46 2.36970312554e+50
+ICE at iteration 47 1.49765557331e+51
+ICE at iteration 48 3.15765555728e+52
+ICE at iteration 49 1.99493425271e+53
+ICE at iteration 50 4.21237432029e+54
+ICE at iteration 51 2.66051575178e+55
+ICE at iteration 52 5.62441151105e+56
+ICE at iteration 53 3.5515257935e+57
+ICE at iteration 54 7.51509443637e+58
+ICE at iteration 55 4.74450463666e+59
+ICE at iteration 56 1.00469866768e+61
+ICE at iteration 57 6.34200644277e+61
+ICE at iteration 58 1.3437905613e+63
+ICE at iteration 59 8.4814422444e+63
+ICE at iteration 60 1.79797055086e+65
+ICE at iteration 61 1.13469292761e+66
+ICE at iteration 62 2.40634463147e+67
+ICE at iteration 63 1.51851687568e+68
+ICE at iteration 64 3.2213119194e+69
+ICE at iteration 65 2.03267217085e+70
+ICE at iteration 66 4.31308378647e+71
+ICE at iteration 67 2.72145180314e+72
+ICE at iteration 68 5.775739391e+73
+ICE at iteration 69 3.64420580066e+74
+ICE at iteration 70 7.73533995127e+75
+ICE at iteration 71 4.88046014735e+76
+ICE at iteration 72 1.03608016963e+78
+ICE at iteration 73 6.53677602724e+78
+ICE at iteration 74 1.38784653971e+80
+ICE at iteration 75 8.75594107747e+80
+ICE at iteration 76 1.85916192538e+82
+ICE at iteration 77 1.17292854967e+83
+ICE at iteration 78 2.49066592019e+84
+ICE at iteration 79 1.57131854131e+85
+ICE at iteration 80 3.33681432589e+86
+ICE at iteration 81 2.10511771186e+87
+ICE at iteration 82 4.47057637526e+88
+ICE at iteration 83 2.82035897884e+89
+ICE at iteration 84 5.98972893434e+90
+ICE at iteration 85 3.77872528661e+91
+ICE at iteration 86 8.02529063513e+92
+ICE at iteration 87 5.06287033749e+93
+ICE at iteration 88 1.07528234866e+95
+ICE at iteration 89 6.78354829558e+95
+ICE at iteration 90 1.44075768702e+97
+ICE at iteration 91 9.08916749257e+97
+ICE at iteration 92 1.93047802821e+99
+ICE at iteration 93 1.21785922674e+100
+ICE at iteration 94 2.58668353352e+101
+ICE at iteration 95 1.63182972684e+102
+ICE at iteration 96 3.46597526875e+103
+ICE at iteration 97 2.18653540078e+104
+ICE at iteration 98 4.64419770676e+105
+ICE at iteration 99 2.92982325702e+106
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/20000/E12.5_dupL_10000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/20000/E12.5_dupL_10000.matrix
+/bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/hic.inc.sh: line 86:  7487 Segmentation fault      (core dumped) /bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/20000/E12.5_dupL_10000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/20000/E12.5_dupL_10000.matrix
+## Generate contact maps at 1000 resolution ...
+## Generate contact maps at 5000 resolution ...
+## Generate contact maps at 10000 resolution ...
+## Generate contact maps at 20000 resolution ...
+## Generate contact maps at 40000 resolution ...
+## Generate contact maps at 150000 resolution ...
+## Generate contact maps at 1000 resolution ...
+## Generate contact maps at 5000 resolution ...
+## Generate contact maps at 10000 resolution ...
+## Generate contact maps at 20000 resolution ...
+## Generate contact maps at 40000 resolution ...
+## Generate contact maps at 150000 resolution ...
+## Generate contact maps at 1000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/1000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 5000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 5000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/5000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 10000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 10000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/10000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 20000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 20000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/20000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 40000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 40000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/40000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 150000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 150000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/150000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 1000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/1000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 5000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 5000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/5000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 10000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 10000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/10000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 20000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 20000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/20000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 40000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 40000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/40000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 150000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 150000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/150000/E12.5_dupL_ontarget_${bsize}
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/1000/E12.5_dupL_ontarget_1000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/1000/E12.5_dupL_ontarget_1000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 2616227 out of 2654922 bins ...
+Matrix is triangular superior
+ICE at iteration 1 517300.25684
+ICE at iteration 2 442686.473765
+ICE at iteration 3 515954.090496
+ICE at iteration 4 2027832.47392
+ICE at iteration 5 4587634.26978
+ICE at iteration 6 35079561.3908
+ICE at iteration 7 82964767.8327
+ICE at iteration 8 781995278.302
+ICE at iteration 9 1851003983.47
+ICE at iteration 10 20437833089.8
+ICE at iteration 11 48615460623.4
+ICE at iteration 12 611529846643.0
+ICE at iteration 13 1.46585569168e+12
+ICE at iteration 14 2.05070638847e+13
+ICE at iteration 15 4.95271685639e+13
+ICE at iteration 16 7.54116505095e+14
+ICE at iteration 17 1.83133473591e+15
+ICE at iteration 18 2.97738753496e+16
+ICE at iteration 19 7.25222049926e+16
+ICE at iteration 20 1.23873943633e+18
+ICE at iteration 21 3.02012266749e+18
+ICE at iteration 22 5.34974580581e+19
+ICE at iteration 23 1.30376796479e+20
+ICE at iteration 24 2.37128757118e+21
+ICE at iteration 25 5.7725084925e+21
+ICE at iteration 26 1.07008390189e+23
+ICE at iteration 27 2.60132338338e+23
+ICE at iteration 28 4.88866181134e+24
+ICE at iteration 29 1.18674922865e+25
+ICE at iteration 30 2.25230916753e+26
+ICE at iteration 31 5.46063133633e+26
+ICE at iteration 32 1.04374475294e+28
+ICE at iteration 33 2.52773227461e+28
+ICE at iteration 34 4.85641223345e+29
+ICE at iteration 35 1.17504303668e+30
+ICE at iteration 36 2.26602205844e+31
+ICE at iteration 37 5.47870003799e+31
+ICE at iteration 38 1.05944409273e+33
+ICE at iteration 39 2.55994520012e+33
+ICE at iteration 40 4.96028997018e+34
+ICE at iteration 41 1.19798824435e+35
+ICE at iteration 42 2.32475341907e+36
+ICE at iteration 43 5.61253507259e+36
+ICE at iteration 44 1.09034794143e+38
+ICE at iteration 45 2.6315957872e+38
+ICE at iteration 46 5.11664167682e+39
+ICE at iteration 47 1.23463611299e+40
+ICE at iteration 48 2.40200929748e+41
+ICE at iteration 49 5.79496253046e+41
+ICE at iteration 50 1.12794937663e+43
+ICE at iteration 51 2.72085155586e+43
+ICE at iteration 52 5.29782353657e+44
+ICE at iteration 53 1.27780782957e+45
+ICE at iteration 54 2.48871262035e+46
+ICE at iteration 55 6.00214051082e+46
+ICE at iteration 56 1.16924108887e+48
+ICE at iteration 57 2.81972670293e+48
+ICE at iteration 58 5.49379731596e+49
+ICE at iteration 59 1.32480963636e+50
+ICE at iteration 60 2.58149277926e+51
+ICE at iteration 61 6.22493165125e+51
+ICE at iteration 62 1.21308655846e+53
+ICE at iteration 63 2.92510938933e+53
+ICE at iteration 64 5.70072260811e+54
+ICE at iteration 65 1.37457943001e+55
+ICE at iteration 66 2.67905254711e+56
+ICE at iteration 67 6.45971070295e+56
+ICE at iteration 68 1.25904919372e+58
+ICE at iteration 69 3.03576549278e+58
+ICE at iteration 70 5.91714189558e+59
+ICE at iteration 71 1.42669969501e+60
+ICE at iteration 72 2.78091241144e+61
+ICE at iteration 73 6.70508099841e+61
+ICE at iteration 74 1.30697511666e+63
+ICE at iteration 75 3.1512365267e+63
+ICE at iteration 76 6.14258205615e+64
+ICE at iteration 77 1.48102455576e+65
+ICE at iteration 78 2.88693795159e+66
+ICE at iteration 79 6.9606028352e+66
+ICE at iteration 80 1.35683222105e+68
+ICE at iteration 81 3.27140305613e+68
+ICE at iteration 82 6.37700243681e+69
+ICE at iteration 83 1.53752893132e+70
+ICE at iteration 84 2.99714933048e+71
+ICE at iteration 85 7.22626926062e+71
+ICE at iteration 86 1.40864402106e+73
+ICE at iteration 87 3.39630155974e+73
+ICE at iteration 88 6.62056389582e+74
+ICE at iteration 89 1.59624424793e+75
+ICE at iteration 90 3.11164025804e+76
+ICE at iteration 91 7.50227942243e+76
+ICE at iteration 92 1.46246109028e+78
+ICE at iteration 93 3.5260442117e+78
+ICE at iteration 94 6.87352773615e+79
+ICE at iteration 95 1.65722994845e+80
+ICE at iteration 96 3.2305421004e+81
+ICE at iteration 97 7.7889370691e+81
+ICE at iteration 98 1.51834827653e+83
+ICE at iteration 99 3.66078262421e+83
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/5000/E12.5_dupL_ontarget_5000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/5000/E12.5_dupL_ontarget_5000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 499577 out of 530991 bins ...
+Matrix is triangular superior
+ICE at iteration 1 125445.005175
+ICE at iteration 2 240387.966638
+ICE at iteration 3 1019411.38821
+ICE at iteration 4 7949657.8818
+ICE at iteration 5 38424291.4285
+ICE at iteration 6 351984628.43
+ICE at iteration 7 1674500761.39
+ICE at iteration 8 17348345724.8
+ICE at iteration 9 81386913168.3
+ICE at iteration 10 931083258254.0
+ICE at iteration 11 4.3222848941e+12
+ICE at iteration 12 5.35099040806e+13
+ICE at iteration 13 2.46552784603e+14
+ICE at iteration 14 3.2525001616e+15
+ICE at iteration 15 1.49072759406e+16
+ICE at iteration 16 2.07242984904e+17
+ICE at iteration 17 9.46160631263e+17
+ICE at iteration 18 1.3753253664e+19
+ICE at iteration 19 6.25931573856e+19
+ICE at iteration 20 9.45815686779e+20
+ICE at iteration 21 4.29266146589e+21
+ICE at iteration 22 6.71174992709e+22
+ICE at iteration 23 3.03826365403e+23
+ICE at iteration 24 4.89577532494e+24
+ICE at iteration 25 2.21062288709e+25
+ICE at iteration 26 3.65760637352e+26
+ICE at iteration 27 1.64749269885e+27
+ICE at iteration 28 2.78925996765e+28
+ICE at iteration 29 1.25340269336e+29
+ICE at iteration 30 2.16438091983e+30
+ICE at iteration 31 9.70439720053e+30
+ICE at iteration 32 1.70411136218e+32
+ICE at iteration 33 7.62497721043e+32
+ICE at iteration 34 1.35798323546e+34
+ICE at iteration 35 6.06488516402e+34
+ICE at iteration 36 1.09291335147e+36
+ICE at iteration 37 4.87289888346e+36
+ICE at iteration 38 8.8670586025e+37
+ICE at iteration 39 3.94766264861e+38
+ICE at iteration 40 7.24129883744e+39
+ICE at iteration 41 3.21971188008e+40
+ICE at iteration 42 5.94503074149e+41
+ICE at iteration 43 2.64040102559e+42
+ICE at iteration 44 4.90174266714e+43
+ICE at iteration 45 2.17495087537e+44
+ICE at iteration 46 4.05553119716e+45
+ICE at iteration 47 1.7980018768e+46
+ICE at iteration 48 3.36478376685e+47
+ICE at iteration 49 1.49071916198e+48
+ICE at iteration 50 2.79799240526e+49
+ICE at iteration 51 1.23887449446e+50
+ICE at iteration 52 2.33093017176e+51
+ICE at iteration 53 1.03155312698e+52
+ICE at iteration 54 1.9447126279e+53
+ICE at iteration 55 8.60266652051e+53
+ICE at iteration 56 1.62444311071e+55
+ICE at iteration 57 7.18333702867e+55
+ICE at iteration 58 1.35824916472e+57
+ICE at iteration 59 6.00440105697e+57
+ICE at iteration 60 1.13658523367e+59
+ICE at iteration 61 5.02321138145e+59
+ICE at iteration 62 9.51719517985e+60
+ICE at iteration 63 4.20528184624e+61
+ICE at iteration 64 7.9735028881e+62
+ICE at iteration 65 3.52254653407e+63
+ICE at iteration 66 6.68314684227e+64
+ICE at iteration 67 2.9520416819e+65
+ICE at iteration 68 5.60364638045e+66
+ICE at iteration 69 2.47489392073e+67
+ICE at iteration 70 4.69992306045e+68
+ICE at iteration 71 2.07553390505e+69
+ICE at iteration 72 3.94292537808e+70
+ICE at iteration 73 1.74107824709e+71
+ICE at iteration 74 3.308534697e+72
+ICE at iteration 75 1.46083890194e+73
+ICE at iteration 76 2.77668746835e+74
+ICE at iteration 77 1.22593033676e+75
+ICE at iteration 78 2.3306658166e+76
+ICE at iteration 79 1.02895263035e+77
+ICE at iteration 80 1.95652061065e+78
+ICE at iteration 81 8.63734178971e+78
+ICE at iteration 82 1.64259979183e+80
+ICE at iteration 83 7.25121650752e+80
+ICE at iteration 84 1.37916103352e+82
+ICE at iteration 85 6.08807716194e+82
+ICE at iteration 86 1.15805246274e+84
+ICE at iteration 87 5.11189208088e+84
+ICE at iteration 88 9.72448659386e+85
+ICE at iteration 89 4.29249952423e+86
+ICE at iteration 90 8.1663179205e+87
+ICE at iteration 91 3.60463713004e+88
+ICE at iteration 92 6.85809777825e+89
+ICE at iteration 93 3.02713612264e+90
+ICE at iteration 94 5.75964929092e+91
+ICE at iteration 95 2.54225102934e+92
+ICE at iteration 96 4.83727785724e+93
+ICE at iteration 97 2.13510122576e+94
+ICE at iteration 98 4.06271809777e+95
+ICE at iteration 99 1.7932050317e+96
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/10000/E12.5_dupL_ontarget_10000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/10000/E12.5_dupL_ontarget_10000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 236732 out of 265502 bins ...
+Matrix is triangular superior
+ICE at iteration 1 69032.0805059
+ICE at iteration 2 266199.988013
+ICE at iteration 3 1703623.68252
+ICE at iteration 4 16524020.4775
+ICE at iteration 5 108711408.198
+ICE at iteration 6 1191886395.72
+ICE at iteration 7 7751950321.92
+ICE at iteration 8 94363483146.6
+ICE at iteration 9 608628519403.0
+ICE at iteration 10 8.10179111251e+12
+ICE at iteration 11 5.20069131352e+13
+ICE at iteration 12 7.4693173884e+14
+ICE at iteration 13 4.78557132696e+15
+ICE at iteration 14 7.33302508264e+16
+ICE at iteration 15 4.69718786048e+17
+ICE at iteration 16 7.6092548913e+18
+ICE at iteration 17 4.87590086475e+19
+ICE at iteration 18 8.28629204669e+20
+ICE at iteration 19 5.31089455165e+21
+ICE at iteration 20 9.40373684516e+22
+ICE at iteration 21 6.02544897672e+23
+ICE at iteration 22 1.10465911956e+25
+ICE at iteration 23 7.07236258689e+25
+ICE at iteration 24 1.33479934483e+27
+ICE at iteration 25 8.53525135344e+27
+ICE at iteration 26 1.64983635407e+29
+ICE at iteration 27 1.05341002484e+30
+ICE at iteration 28 2.07605971771e+31
+ICE at iteration 29 1.32347358854e+32
+ICE at iteration 30 2.6492065135e+33
+ICE at iteration 31 1.68626460813e+34
+ICE at iteration 32 3.41750393978e+35
+ICE at iteration 33 2.17221435036e+36
+ICE at iteration 34 4.44580293883e+37
+ICE at iteration 35 2.82224266721e+38
+ICE at iteration 36 5.82115196377e+39
+ICE at iteration 37 3.6912733881e+40
+ICE at iteration 38 7.66028765625e+41
+ICE at iteration 39 4.85295940559e+42
+ICE at iteration 40 1.01196863208e+44
+ICE at iteration 41 6.40602345363e+44
+ICE at iteration 42 1.34090419009e+46
+ICE at iteration 43 8.48276060274e+46
+ICE at iteration 44 1.78093322171e+48
+ICE at iteration 45 1.12604353111e+49
+ICE at iteration 46 2.36970312554e+50
+ICE at iteration 47 1.49765557331e+51
+ICE at iteration 48 3.15765555728e+52
+ICE at iteration 49 1.99493425271e+53
+ICE at iteration 50 4.21237432029e+54
+ICE at iteration 51 2.66051575178e+55
+ICE at iteration 52 5.62441151105e+56
+ICE at iteration 53 3.5515257935e+57
+ICE at iteration 54 7.51509443637e+58
+ICE at iteration 55 4.74450463666e+59
+ICE at iteration 56 1.00469866768e+61
+ICE at iteration 57 6.34200644277e+61
+ICE at iteration 58 1.3437905613e+63
+ICE at iteration 59 8.4814422444e+63
+ICE at iteration 60 1.79797055086e+65
+ICE at iteration 61 1.13469292761e+66
+ICE at iteration 62 2.40634463147e+67
+ICE at iteration 63 1.51851687568e+68
+ICE at iteration 64 3.2213119194e+69
+ICE at iteration 65 2.03267217085e+70
+ICE at iteration 66 4.31308378647e+71
+ICE at iteration 67 2.72145180314e+72
+ICE at iteration 68 5.775739391e+73
+ICE at iteration 69 3.64420580066e+74
+ICE at iteration 70 7.73533995127e+75
+ICE at iteration 71 4.88046014735e+76
+ICE at iteration 72 1.03608016963e+78
+ICE at iteration 73 6.53677602724e+78
+ICE at iteration 74 1.38784653971e+80
+ICE at iteration 75 8.75594107747e+80
+ICE at iteration 76 1.85916192538e+82
+ICE at iteration 77 1.17292854967e+83
+ICE at iteration 78 2.49066592019e+84
+ICE at iteration 79 1.57131854131e+85
+ICE at iteration 80 3.33681432589e+86
+ICE at iteration 81 2.10511771186e+87
+ICE at iteration 82 4.47057637526e+88
+ICE at iteration 83 2.82035897884e+89
+ICE at iteration 84 5.98972893434e+90
+ICE at iteration 85 3.77872528661e+91
+ICE at iteration 86 8.02529063513e+92
+ICE at iteration 87 5.06287033749e+93
+ICE at iteration 88 1.07528234866e+95
+ICE at iteration 89 6.78354829558e+95
+ICE at iteration 90 1.44075768702e+97
+ICE at iteration 91 9.08916749257e+97
+ICE at iteration 92 1.93047802821e+99
+ICE at iteration 93 1.21785922674e+100
+ICE at iteration 94 2.58668353352e+101
+ICE at iteration 95 1.63182972684e+102
+ICE at iteration 96 3.46597526875e+103
+ICE at iteration 97 2.18653540078e+104
+ICE at iteration 98 4.64419770676e+105
+ICE at iteration 99 2.92982325702e+106
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/20000/E12.5_dupL_ontarget_10000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/20000/E12.5_dupL_ontarget_10000.matrix
+/bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/hic.inc.sh: line 86: 16242 Segmentation fault      (core dumped) /bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/20000/E12.5_dupL_ontarget_10000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/20000/E12.5_dupL_ontarget_10000.matrix
+## Generate contact maps at 1000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/1000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 5000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 5000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/5000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 10000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 10000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/10000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 20000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 20000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/20000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 40000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 40000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/40000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 150000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 150000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/150000/E12.5_dupL_ontarget_${bsize}
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/1000/E12.5_dupL_ontarget_1000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/1000/E12.5_dupL_ontarget_1000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 2616227 out of 2654922 bins ...
+Matrix is triangular superior
+ICE at iteration 1 517300.25684
+ICE at iteration 2 442686.473765
+ICE at iteration 3 515954.090496
+ICE at iteration 4 2027832.47392
+ICE at iteration 5 4587634.26978
+ICE at iteration 6 35079561.3908
+ICE at iteration 7 82964767.8327
+ICE at iteration 8 781995278.302
+ICE at iteration 9 1851003983.47
+ICE at iteration 10 20437833089.8
+ICE at iteration 11 48615460623.4
+ICE at iteration 12 611529846643.0
+ICE at iteration 13 1.46585569168e+12
+ICE at iteration 14 2.05070638847e+13
+ICE at iteration 15 4.95271685639e+13
+ICE at iteration 16 7.54116505095e+14
+ICE at iteration 17 1.83133473591e+15
+ICE at iteration 18 2.97738753496e+16
+ICE at iteration 19 7.25222049926e+16
+ICE at iteration 20 1.23873943633e+18
+ICE at iteration 21 3.02012266749e+18
+ICE at iteration 22 5.34974580581e+19
+ICE at iteration 23 1.30376796479e+20
+ICE at iteration 24 2.37128757118e+21
+ICE at iteration 25 5.7725084925e+21
+ICE at iteration 26 1.07008390189e+23
+ICE at iteration 27 2.60132338338e+23
+ICE at iteration 28 4.88866181134e+24
+ICE at iteration 29 1.18674922865e+25
+ICE at iteration 30 2.25230916753e+26
+ICE at iteration 31 5.46063133633e+26
+ICE at iteration 32 1.04374475294e+28
+ICE at iteration 33 2.52773227461e+28
+ICE at iteration 34 4.85641223345e+29
+ICE at iteration 35 1.17504303668e+30
+ICE at iteration 36 2.26602205844e+31
+ICE at iteration 37 5.47870003799e+31
+ICE at iteration 38 1.05944409273e+33
+ICE at iteration 39 2.55994520012e+33
+ICE at iteration 40 4.96028997018e+34
+ICE at iteration 41 1.19798824435e+35
+ICE at iteration 42 2.32475341907e+36
+ICE at iteration 43 5.61253507259e+36
+ICE at iteration 44 1.09034794143e+38
+ICE at iteration 45 2.6315957872e+38
+ICE at iteration 46 5.11664167682e+39
+ICE at iteration 47 1.23463611299e+40
+ICE at iteration 48 2.40200929748e+41
+ICE at iteration 49 5.79496253046e+41
+ICE at iteration 50 1.12794937663e+43
+ICE at iteration 51 2.72085155586e+43
+ICE at iteration 52 5.29782353657e+44
+ICE at iteration 53 1.27780782957e+45
+ICE at iteration 54 2.48871262035e+46
+ICE at iteration 55 6.00214051082e+46
+ICE at iteration 56 1.16924108887e+48
+ICE at iteration 57 2.81972670293e+48
+ICE at iteration 58 5.49379731596e+49
+ICE at iteration 59 1.32480963636e+50
+ICE at iteration 60 2.58149277926e+51
+ICE at iteration 61 6.22493165125e+51
+ICE at iteration 62 1.21308655846e+53
+ICE at iteration 63 2.92510938933e+53
+ICE at iteration 64 5.70072260811e+54
+ICE at iteration 65 1.37457943001e+55
+ICE at iteration 66 2.67905254711e+56
+ICE at iteration 67 6.45971070295e+56
+ICE at iteration 68 1.25904919372e+58
+ICE at iteration 69 3.03576549278e+58
+ICE at iteration 70 5.91714189558e+59
+ICE at iteration 71 1.42669969501e+60
+ICE at iteration 72 2.78091241144e+61
+ICE at iteration 73 6.70508099841e+61
+ICE at iteration 74 1.30697511666e+63
+ICE at iteration 75 3.1512365267e+63
+ICE at iteration 76 6.14258205615e+64
+ICE at iteration 77 1.48102455576e+65
+ICE at iteration 78 2.88693795159e+66
+ICE at iteration 79 6.9606028352e+66
+ICE at iteration 80 1.35683222105e+68
+ICE at iteration 81 3.27140305613e+68
+ICE at iteration 82 6.37700243681e+69
+ICE at iteration 83 1.53752893132e+70
+ICE at iteration 84 2.99714933048e+71
+ICE at iteration 85 7.22626926062e+71
+ICE at iteration 86 1.40864402106e+73
+ICE at iteration 87 3.39630155974e+73
+ICE at iteration 88 6.62056389582e+74
+ICE at iteration 89 1.59624424793e+75
+ICE at iteration 90 3.11164025804e+76
+ICE at iteration 91 7.50227942243e+76
+ICE at iteration 92 1.46246109028e+78
+ICE at iteration 93 3.5260442117e+78
+ICE at iteration 94 6.87352773615e+79
+ICE at iteration 95 1.65722994845e+80
+ICE at iteration 96 3.2305421004e+81
+ICE at iteration 97 7.7889370691e+81
+ICE at iteration 98 1.51834827653e+83
+ICE at iteration 99 3.66078262421e+83
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/5000/E12.5_dupL_ontarget_5000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/5000/E12.5_dupL_ontarget_5000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 499577 out of 530991 bins ...
+Matrix is triangular superior
+ICE at iteration 1 125445.005175
+ICE at iteration 2 240387.966638
+ICE at iteration 3 1019411.38821
+ICE at iteration 4 7949657.8818
+ICE at iteration 5 38424291.4285
+ICE at iteration 6 351984628.43
+ICE at iteration 7 1674500761.39
+ICE at iteration 8 17348345724.8
+ICE at iteration 9 81386913168.3
+ICE at iteration 10 931083258254.0
+ICE at iteration 11 4.3222848941e+12
+ICE at iteration 12 5.35099040806e+13
+ICE at iteration 13 2.46552784603e+14
+ICE at iteration 14 3.2525001616e+15
+ICE at iteration 15 1.49072759406e+16
+ICE at iteration 16 2.07242984904e+17
+ICE at iteration 17 9.46160631263e+17
+ICE at iteration 18 1.3753253664e+19
+ICE at iteration 19 6.25931573856e+19
+ICE at iteration 20 9.45815686779e+20
+ICE at iteration 21 4.29266146589e+21
+ICE at iteration 22 6.71174992709e+22
+ICE at iteration 23 3.03826365403e+23
+ICE at iteration 24 4.89577532494e+24
+ICE at iteration 25 2.21062288709e+25
+ICE at iteration 26 3.65760637352e+26
+ICE at iteration 27 1.64749269885e+27
+ICE at iteration 28 2.78925996765e+28
+ICE at iteration 29 1.25340269336e+29
+ICE at iteration 30 2.16438091983e+30
+ICE at iteration 31 9.70439720053e+30
+ICE at iteration 32 1.70411136218e+32
+ICE at iteration 33 7.62497721043e+32
+ICE at iteration 34 1.35798323546e+34
+ICE at iteration 35 6.06488516402e+34
+ICE at iteration 36 1.09291335147e+36
+ICE at iteration 37 4.87289888346e+36
+ICE at iteration 38 8.8670586025e+37
+ICE at iteration 39 3.94766264861e+38
+ICE at iteration 40 7.24129883744e+39
+ICE at iteration 41 3.21971188008e+40
+ICE at iteration 42 5.94503074149e+41
+ICE at iteration 43 2.64040102559e+42
+ICE at iteration 44 4.90174266714e+43
+ICE at iteration 45 2.17495087537e+44
+ICE at iteration 46 4.05553119716e+45
+ICE at iteration 47 1.7980018768e+46
+ICE at iteration 48 3.36478376685e+47
+ICE at iteration 49 1.49071916198e+48
+ICE at iteration 50 2.79799240526e+49
+ICE at iteration 51 1.23887449446e+50
+ICE at iteration 52 2.33093017176e+51
+ICE at iteration 53 1.03155312698e+52
+ICE at iteration 54 1.9447126279e+53
+ICE at iteration 55 8.60266652051e+53
+ICE at iteration 56 1.62444311071e+55
+ICE at iteration 57 7.18333702867e+55
+ICE at iteration 58 1.35824916472e+57
+ICE at iteration 59 6.00440105697e+57
+ICE at iteration 60 1.13658523367e+59
+ICE at iteration 61 5.02321138145e+59
+ICE at iteration 62 9.51719517985e+60
+ICE at iteration 63 4.20528184624e+61
+ICE at iteration 64 7.9735028881e+62
+ICE at iteration 65 3.52254653407e+63
+ICE at iteration 66 6.68314684227e+64
+ICE at iteration 67 2.9520416819e+65
+ICE at iteration 68 5.60364638045e+66
+ICE at iteration 69 2.47489392073e+67
+ICE at iteration 70 4.69992306045e+68
+ICE at iteration 71 2.07553390505e+69
+ICE at iteration 72 3.94292537808e+70
+ICE at iteration 73 1.74107824709e+71
+ICE at iteration 74 3.308534697e+72
+ICE at iteration 75 1.46083890194e+73
+ICE at iteration 76 2.77668746835e+74
+ICE at iteration 77 1.22593033676e+75
+ICE at iteration 78 2.3306658166e+76
+ICE at iteration 79 1.02895263035e+77
+ICE at iteration 80 1.95652061065e+78
+ICE at iteration 81 8.63734178971e+78
+ICE at iteration 82 1.64259979183e+80
+ICE at iteration 83 7.25121650752e+80
+ICE at iteration 84 1.37916103352e+82
+ICE at iteration 85 6.08807716194e+82
+ICE at iteration 86 1.15805246274e+84
+ICE at iteration 87 5.11189208088e+84
+ICE at iteration 88 9.72448659386e+85
+ICE at iteration 89 4.29249952423e+86
+ICE at iteration 90 8.1663179205e+87
+ICE at iteration 91 3.60463713004e+88
+ICE at iteration 92 6.85809777825e+89
+ICE at iteration 93 3.02713612264e+90
+ICE at iteration 94 5.75964929092e+91
+ICE at iteration 95 2.54225102934e+92
+ICE at iteration 96 4.83727785724e+93
+ICE at iteration 97 2.13510122576e+94
+ICE at iteration 98 4.06271809777e+95
+ICE at iteration 99 1.7932050317e+96
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/10000/E12.5_dupL_ontarget_10000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/10000/E12.5_dupL_ontarget_10000.matrix
+Using iced version 0.4.2
+Loading files...
+Normalizing...
+Filter 236732 out of 265502 bins ...
+Matrix is triangular superior
+ICE at iteration 1 69032.0805059
+ICE at iteration 2 266199.988013
+ICE at iteration 3 1703623.68252
+ICE at iteration 4 16524020.4775
+ICE at iteration 5 108711408.198
+ICE at iteration 6 1191886395.72
+ICE at iteration 7 7751950321.92
+ICE at iteration 8 94363483146.6
+ICE at iteration 9 608628519403.0
+ICE at iteration 10 8.10179111251e+12
+ICE at iteration 11 5.20069131352e+13
+ICE at iteration 12 7.4693173884e+14
+ICE at iteration 13 4.78557132696e+15
+ICE at iteration 14 7.33302508264e+16
+ICE at iteration 15 4.69718786048e+17
+ICE at iteration 16 7.6092548913e+18
+ICE at iteration 17 4.87590086475e+19
+ICE at iteration 18 8.28629204669e+20
+ICE at iteration 19 5.31089455165e+21
+ICE at iteration 20 9.40373684516e+22
+ICE at iteration 21 6.02544897672e+23
+ICE at iteration 22 1.10465911956e+25
+ICE at iteration 23 7.07236258689e+25
+ICE at iteration 24 1.33479934483e+27
+ICE at iteration 25 8.53525135344e+27
+ICE at iteration 26 1.64983635407e+29
+ICE at iteration 27 1.05341002484e+30
+ICE at iteration 28 2.07605971771e+31
+ICE at iteration 29 1.32347358854e+32
+ICE at iteration 30 2.6492065135e+33
+ICE at iteration 31 1.68626460813e+34
+ICE at iteration 32 3.41750393978e+35
+ICE at iteration 33 2.17221435036e+36
+ICE at iteration 34 4.44580293883e+37
+ICE at iteration 35 2.82224266721e+38
+ICE at iteration 36 5.82115196377e+39
+ICE at iteration 37 3.6912733881e+40
+ICE at iteration 38 7.66028765625e+41
+ICE at iteration 39 4.85295940559e+42
+ICE at iteration 40 1.01196863208e+44
+ICE at iteration 41 6.40602345363e+44
+ICE at iteration 42 1.34090419009e+46
+ICE at iteration 43 8.48276060274e+46
+ICE at iteration 44 1.78093322171e+48
+ICE at iteration 45 1.12604353111e+49
+ICE at iteration 46 2.36970312554e+50
+ICE at iteration 47 1.49765557331e+51
+ICE at iteration 48 3.15765555728e+52
+ICE at iteration 49 1.99493425271e+53
+ICE at iteration 50 4.21237432029e+54
+ICE at iteration 51 2.66051575178e+55
+ICE at iteration 52 5.62441151105e+56
+ICE at iteration 53 3.5515257935e+57
+ICE at iteration 54 7.51509443637e+58
+ICE at iteration 55 4.74450463666e+59
+ICE at iteration 56 1.00469866768e+61
+ICE at iteration 57 6.34200644277e+61
+ICE at iteration 58 1.3437905613e+63
+ICE at iteration 59 8.4814422444e+63
+ICE at iteration 60 1.79797055086e+65
+ICE at iteration 61 1.13469292761e+66
+ICE at iteration 62 2.40634463147e+67
+ICE at iteration 63 1.51851687568e+68
+ICE at iteration 64 3.2213119194e+69
+ICE at iteration 65 2.03267217085e+70
+ICE at iteration 66 4.31308378647e+71
+ICE at iteration 67 2.72145180314e+72
+ICE at iteration 68 5.775739391e+73
+ICE at iteration 69 3.64420580066e+74
+ICE at iteration 70 7.73533995127e+75
+ICE at iteration 71 4.88046014735e+76
+ICE at iteration 72 1.03608016963e+78
+ICE at iteration 73 6.53677602724e+78
+ICE at iteration 74 1.38784653971e+80
+ICE at iteration 75 8.75594107747e+80
+ICE at iteration 76 1.85916192538e+82
+ICE at iteration 77 1.17292854967e+83
+ICE at iteration 78 2.49066592019e+84
+ICE at iteration 79 1.57131854131e+85
+ICE at iteration 80 3.33681432589e+86
+ICE at iteration 81 2.10511771186e+87
+ICE at iteration 82 4.47057637526e+88
+ICE at iteration 83 2.82035897884e+89
+ICE at iteration 84 5.98972893434e+90
+ICE at iteration 85 3.77872528661e+91
+ICE at iteration 86 8.02529063513e+92
+ICE at iteration 87 5.06287033749e+93
+ICE at iteration 88 1.07528234866e+95
+ICE at iteration 89 6.78354829558e+95
+ICE at iteration 90 1.44075768702e+97
+ICE at iteration 91 9.08916749257e+97
+ICE at iteration 92 1.93047802821e+99
+ICE at iteration 93 1.21785922674e+100
+ICE at iteration 94 2.58668353352e+101
+ICE at iteration 95 1.63182972684e+102
+ICE at iteration 96 3.46597526875e+103
+ICE at iteration 97 2.18653540078e+104
+ICE at iteration 98 4.64419770676e+105
+ICE at iteration 99 2.92982325702e+106
+Writing results...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/20000/E12.5_dupL_ontarget_10000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/20000/E12.5_dupL_ontarget_10000.matrix
+/bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/hic.inc.sh: line 86: 16968 Segmentation fault      (core dumped) /bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/ice --results_filename hic_results/matrix/E12.5_dupL/iced/20000/E12.5_dupL_ontarget_10000_iced.matrix --filter_low_counts_perc 0.02 --filter_high_counts_perc 0 --max_iter 100 --eps 0.1 --remove-all-zeros-loci --output-bias 1 --verbose 1 hic_results/matrix//E12.5_dupL/raw/20000/E12.5_dupL_ontarget_10000.matrix
+## Generate contact maps at 1000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/1000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 5000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 5000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/5000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 10000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 10000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/10000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 20000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 20000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/20000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 40000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 40000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/40000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 150000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 150000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/150000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 1000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/1000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 5000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 5000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/5000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 10000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 10000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/10000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 20000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 20000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/20000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 40000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 40000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/40000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 150000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 150000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/150000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 1000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/1000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 5000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 5000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/5000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 10000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 10000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/10000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 20000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 20000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/20000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 40000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 40000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/40000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 150000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 150000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/150000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 1000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 1000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/1000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 5000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 5000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/5000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 10000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 10000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/10000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 20000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 20000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/20000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 40000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 40000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/40000/E12.5_dupL_ontarget_${bsize}
+## Generate contact maps at 150000 resolution ...
+cat rawdata/E12.5_dupL/E12.5_dupL_ontarget.allValidPairs | /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/build_matrix --matrix-format upper --binsize 150000 --chrsizes /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/annotation/chrom_mm9.sizes --ifile /dev/stdin --oprefix hic_results/matrix/E12.5_dupL/raw/150000/E12.5_dupL_ontarget_${bsize}
