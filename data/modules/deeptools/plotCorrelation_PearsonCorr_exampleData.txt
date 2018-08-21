@@ -1,0 +1,12 @@
+#plotCorrelation --outFileCorMatrix										
+	'Example_103.dedup.sorted.bam'	'Example_109.dedup.sorted.bam'	'Example_102.dedup.sorted.bam'	'Example_105.dedup.sorted.bam'	'Example_110.dedup.sorted.bam'	'Example_104.dedup.sorted.bam'	'Example_106.dedup.sorted.bam'	'Example_108.dedup.sorted.bam'	'Example_101.dedup.sorted.bam'	'Example_107.dedup.sorted.bam'
+'Example_103.dedup.sorted.bam'	1	0.9977	0.3493	0.777	0.0866	0.0855	0.1091	0.3259	0.0959	0.0628
+'Example_109.dedup.sorted.bam'	0.9977	1	0.3648	0.7774	0.1013	0.1003	0.1264	0.3377	0.1126	0.079
+'Example_102.dedup.sorted.bam'	0.3493	0.3648	1	0.4521	0.3006	0.305	0.4713	0.9739	0.4579	0.4016
+'Example_105.dedup.sorted.bam'	0.777	0.7774	0.4521	1	0.0942	0.0939	0.318	0.433	0.3161	0.2726
+'Example_110.dedup.sorted.bam'	0.0866	0.1013	0.3006	0.0942	1	0.9984	0.4066	0.2194	0.3318	0.2745
+'Example_104.dedup.sorted.bam'	0.0855	0.1003	0.305	0.0939	0.9984	1	0.3995	0.2252	0.3271	0.2692
+'Example_106.dedup.sorted.bam'	0.1091	0.1264	0.4713	0.318	0.4066	0.3995	1	0.3432	0.9734	0.9654
+'Example_108.dedup.sorted.bam'	0.3259	0.3377	0.9739	0.433	0.2194	0.2252	0.3432	1	0.3362	0.2771
+'Example_101.dedup.sorted.bam'	0.0959	0.1126	0.4579	0.3161	0.3318	0.3271	0.9734	0.3362	1	0.9829
+'Example_107.dedup.sorted.bam'	0.0628	0.079	0.4016	0.2726	0.2745	0.2692	0.9654	0.2771	0.9829	1
