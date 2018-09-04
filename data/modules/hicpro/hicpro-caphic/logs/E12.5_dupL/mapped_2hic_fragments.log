@@ -1,0 +1,1 @@
+LANG=en; sort -T tmp -k2,2V -k3,3n -k5,5V -k6,6n -o hic_results/data/E12.5_dupL/00_00_SRR3179589_mm9.bwt2pairs.validPairs hic_results/data/E12.5_dupL/00_00_SRR3179589_mm9.bwt2pairs.validPairs

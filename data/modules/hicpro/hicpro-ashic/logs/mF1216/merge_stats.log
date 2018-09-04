@@ -1,0 +1,14 @@
+/usr/bin/python /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/merge_statfiles.py -d bowtie_results/bwt2/mF1216/ -p *_1*.mapstat -v > hic_results/stats/mF1216/mF1216_1.mmapstat
+Warning : 'total_R2' not found in template [/home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/bowtie_results/bwt2/mF1216/SRR2240731_subset_2_mm10_CAST_129S1_Nmask.mapstat]
+Warning : 'mapped_R2' not found in template [/home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/bowtie_results/bwt2/mF1216/SRR2240731_subset_2_mm10_CAST_129S1_Nmask.mapstat]
+Warning : 'global_R2' not found in template [/home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/bowtie_results/bwt2/mF1216/SRR2240731_subset_2_mm10_CAST_129S1_Nmask.mapstat]
+Warning : 'local_R2' not found in template [/home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/bowtie_results/bwt2/mF1216/SRR2240731_subset_2_mm10_CAST_129S1_Nmask.mapstat]
+Warning : 'total_R2' not found in template [/home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/bowtie_results/bwt2/mF1216/SRR2240730_subset_2_mm10_CAST_129S1_Nmask.mapstat]
+Warning : 'mapped_R2' not found in template [/home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/bowtie_results/bwt2/mF1216/SRR2240730_subset_2_mm10_CAST_129S1_Nmask.mapstat]
+Warning : 'global_R2' not found in template [/home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/bowtie_results/bwt2/mF1216/SRR2240730_subset_2_mm10_CAST_129S1_Nmask.mapstat]
+Warning : 'local_R2' not found in template [/home/nservant/Bureau/hicpro_dev/test-op/HiC_Pro_test-op_5/bowtie_results/bwt2/mF1216/SRR2240730_subset_2_mm10_CAST_129S1_Nmask.mapstat]
+/usr/bin/python /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/merge_statfiles.py -d bowtie_results/bwt2/mF1216/ -p *_2*.mapstat -v > hic_results/stats/mF1216/mF1216_2.mmapstat
+Merge pairstat files ...
+/usr/bin/python /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/merge_statfiles.py -d bowtie_results/bwt2/mF1216/ -p "*.pairstat" -v> hic_results/stats/mF1216/mF1216.mpairstat
+Merge RSstat files ...
+/usr/bin/python /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/merge_statfiles.py -d hic_results/data//mF1216/ -p "*.RSstat" -v> hic_results/stats/mF1216/mF1216.mRSstat

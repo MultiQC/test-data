@@ -1,0 +1,16 @@
+## merge_statfiles.py
+## dir= hic_results/data//dixon_2M/
+## pattern= *.RSstat
+## Merging 1 files
+## Use /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/test-op/HiC-Pro_testop_2.11.0-beta/hic_results/data/dixon_2M/SRR400264_00_hg19.bwt2pairs.RSstat as template
+Valid_interaction_pairs	78939
+Valid_interaction_pairs_FF	19851
+Valid_interaction_pairs_RR	19627
+Valid_interaction_pairs_RF	19555
+Valid_interaction_pairs_FR	19906
+Dangling_end_pairs	59299
+Religation_pairs	5797
+Self_Cycle_pairs	895
+Single-end_pairs	0
+Filtered_pairs	16427
+Dumped_pairs	1701

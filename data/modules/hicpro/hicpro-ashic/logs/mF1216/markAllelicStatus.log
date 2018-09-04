@@ -1,0 +1,501 @@
+/usr/bin/python /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/markAllelicStatus.py -s /home/nservant/Desktop/hicpro_dev/test-op/bowtie2_indexes_as_test/snps_CAST_129S1.vcf -v -r -i bowtie_results/bwt2/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs.bam -o bowtie_results/bwt2/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs_allspe.bam
+Warning : no SNPs found at position chr1:189580339. N ignored
+Warning : no SNPs found at position chr16:81423484. N ignored
+Warning : no SNPs found at position chr10:126520469. N ignored
+Warning : no SNPs found at position chrX:19895156. N ignored
+Warning : no SNPs found at position chrX:100635898. N ignored
+Warning : no SNPs found at position chr16:32410989. N ignored
+Warning : no SNPs found at position chr14:46625340. N ignored
+Warning : no SNPs found at position chr9:111913962. N ignored
+Warning : no SNPs found at position chr5:57675203. N ignored
+Warning : no SNPs found at position chr5:57675204. N ignored
+Warning : no SNPs found at position chr9:83034907. N ignored
+Warning : no SNPs found at position chrX:151027607. N ignored
+Warning : no SNPs found at position chrX:151027613. N ignored
+Warning : no SNPs found at position chr7:117199652. N ignored
+Warning : no SNPs found at position chr14:67237281. N ignored
+Warning : no SNPs found at position chr13:19483688. N ignored
+Warning : no SNPs found at position chr4:135646297. N ignored
+Warning : no SNPs found at position chr19:53951708. N ignored
+Warning : no SNPs found at position chr12:104239258. N ignored
+Warning : no SNPs found at position chr13:82048417. N ignored
+Warning : no SNPs found at position chr1:168216520. N ignored
+Warning : no SNPs found at position chr16:47689526. N ignored
+Warning : no SNPs found at position chr12:110567089. N ignored
+Warning : no SNPs found at position chr15:38731806. N ignored
+Warning : no SNPs found at position chr2:143916871. N ignored
+Warning : no SNPs found at position chr1:166172055. N ignored
+Warning : no SNPs found at position chr19:39482108. N ignored
+Warning : no SNPs found at position chr8:115961485. N ignored
+Warning : no SNPs found at position chr9:86315178. N ignored
+Warning : no SNPs found at position chr3:69817184. N ignored
+Warning : no SNPs found at position chr10:17847134. N ignored
+Warning : no SNPs found at position chr10:120600451. N ignored
+Warning : no SNPs found at position chr4:49479065. N ignored
+Warning : no SNPs found at position chr15:74109986. N ignored
+Warning : no SNPs found at position chr1:121100062. N ignored
+Warning : no SNPs found at position chr5:38171396. N ignored
+Warning : no SNPs found at position chr16:94180892. N ignored
+Warning : no SNPs found at position chr11:101825966. N ignored
+Warning : no SNPs found at position chr12:43070432. N ignored
+Warning : no SNPs found at position chr3:41452078. N ignored
+Warning : no SNPs found at position chr15:61284642. N ignored
+Warning : no SNPs found at position chr11:46195255. N ignored
+Warning : no SNPs found at position chr8:82185538. N ignored
+Warning : no SNPs found at position chr7:50384467. N ignored
+Warning : no SNPs found at position chr19:6510667. N ignored
+Warning : no SNPs found at position chr6:16894580. N ignored
+Warning : no SNPs found at position chr17:65720494. N ignored
+Warning : no SNPs found at position chr11:77739033. N ignored
+Warning : no SNPs found at position chr8:23909079. N ignored
+Warning : no SNPs found at position chr14:100233067. N ignored
+Warning : no SNPs found at position chr14:100233068. N ignored
+Warning : no SNPs found at position chr5:3413829. N ignored
+Warning : no SNPs found at position chr15:73195554. N ignored
+Warning : no SNPs found at position chr14:92437814. N ignored
+Warning : no SNPs found at position chr16:88154074. N ignored
+Warning : no SNPs found at position chr7:111868979. N ignored
+Warning : no SNPs found at position chr5:32160281. N ignored
+Warning : no SNPs found at position chr9:41777535. N ignored
+Warning : no SNPs found at position chr11:112753184. N ignored
+Warning : no SNPs found at position chr6:89779917. N ignored
+Warning : no SNPs found at position chr10:109293807. N ignored
+Warning : no SNPs found at position chr16:56159183. N ignored
+Warning : no SNPs found at position chr15:62040931. N ignored
+Warning : no SNPs found at position chr8:88832215. N ignored
+Warning : no SNPs found at position chr12:110612795. N ignored
+Warning : no SNPs found at position chr3:121688699. N ignored
+Warning : no SNPs found at position chr6:86276440. N ignored
+Warning : no SNPs found at position chr12:96219720. N ignored
+Warning : no SNPs found at position chr13:24017399. N ignored
+Warning : no SNPs found at position chr6:134450184. N ignored
+Warning : no SNPs found at position chr8:23641008. N ignored
+Warning : no SNPs found at position chr6:83299098. N ignored
+Warning : no SNPs found at position chr5:44886445. N ignored
+Warning : no SNPs found at position chr3:55209990. N ignored
+Warning : no SNPs found at position chr1:25958783. N ignored
+Warning : no SNPs found at position chr12:51463241. N ignored
+Warning : no SNPs found at position chr17:47047322. N ignored
+Warning : no SNPs found at position chr1:148877258. N ignored
+Warning : no SNPs found at position chr15:94529602. N ignored
+Warning : no SNPs found at position chr7:119087082. N ignored
+Warning : no SNPs found at position chr7:48158200. N ignored
+Warning : no SNPs found at position chr5:25450069. N ignored
+Warning : no SNPs found at position chr13:14953414. N ignored
+Warning : no SNPs found at position chr13:14953420. N ignored
+Warning : no SNPs found at position chrX:81638756. N ignored
+Warning : no SNPs found at position chr12:77048677. N ignored
+Warning : no SNPs found at position chr5:64949307. N ignored
+Warning : no SNPs found at position chr5:114372521. N ignored
+Warning : no SNPs found at position chr8:49383299. N ignored
+Warning : no SNPs found at position chr15:50585615. N ignored
+Warning : no SNPs found at position chr2:42857473. N ignored
+Warning : no SNPs found at position chr3:50039404. N ignored
+Warning : no SNPs found at position chr18:77859141. N ignored
+Warning : no SNPs found at position chr9:105283192. N ignored
+Warning : no SNPs found at position chr5:29420989. N ignored
+Warning : no SNPs found at position chr12:107228224. N ignored
+Warning : no SNPs found at position chr7:97236601. N ignored
+Warning : no SNPs found at position chr14:66129957. N ignored
+Warning : no SNPs found at position chr12:119877083. N ignored
+Warning : no SNPs found at position chr18:41448187. N ignored
+Warning : no SNPs found at position chr16:57721590. N ignored
+Warning : no SNPs found at position chr6:122566772. N ignored
+Warning : no SNPs found at position chr4:21573594. N ignored
+Warning : no SNPs found at position chr2:59507652. N ignored
+Warning : no SNPs found at position chr9:58307434. N ignored
+Warning : no SNPs found at position chr17:47336287. N ignored
+Warning : no SNPs found at position chr14:56471908. N ignored
+Warning : no SNPs found at position chr6:94428118. N ignored
+Warning : no SNPs found at position chr5:6676359. N ignored
+Warning : no SNPs found at position chr18:43741973. N ignored
+Warning : no SNPs found at position chr6:90647351. N ignored
+Warning : no SNPs found at position chr3:122192264. N ignored
+Warning : no SNPs found at position chr10:46416103. N ignored
+Warning : no SNPs found at position chr7:129532228. N ignored
+Warning : no SNPs found at position chr4:97327983. N ignored
+Warning : no SNPs found at position chr13:22402779. N ignored
+Warning : no SNPs found at position chr4:30862800. N ignored
+Warning : no SNPs found at position chr17:75165505. N ignored
+Warning : no SNPs found at position chr10:127563387. N ignored
+Warning : no SNPs found at position chr1:175016004. N ignored
+Warning : no SNPs found at position chr17:55646110. N ignored
+Warning : no SNPs found at position chr10:120897021. N ignored
+Warning : no SNPs found at position chr9:43921018. N ignored
+Warning : no SNPs found at position chr14:99415591. N ignored
+Warning : no SNPs found at position chr2:152593556. N ignored
+Warning : no SNPs found at position chr2:152593557. N ignored
+Warning : no SNPs found at position chr7:33429838. N ignored
+Warning : no SNPs found at position chr2:128229203. N ignored
+Warning : no SNPs found at position chr10:102693028. N ignored
+Warning : no SNPs found at position chr4:135996821. N ignored
+Warning : no SNPs found at position chr1:191486872. N ignored
+Warning : no SNPs found at position chr8:108747374. N ignored
+Warning : no SNPs found at position chr5:30491687. N ignored
+Warning : no SNPs found at position chr9:90820627. N ignored
+Warning : no SNPs found at position chr8:73261056. N ignored
+Warning : no SNPs found at position chr1:146406442. N ignored
+Warning : no SNPs found at position chr8:36339589. N ignored
+Warning : no SNPs found at position chr12:14195987. N ignored
+Warning : no SNPs found at position chr7:107884908. N ignored
+Warning : no SNPs found at position chr7:15289372. N ignored
+Warning : no SNPs found at position chr10:14063225. N ignored
+Warning : no SNPs found at position chr2:81388374. N ignored
+Warning : no SNPs found at position chr14:45647246. N ignored
+Warning : no SNPs found at position chr13:58768617. N ignored
+Warning : no SNPs found at position chr11:103957889. N ignored
+Warning : no SNPs found at position chrX:12079135. N ignored
+Warning : no SNPs found at position chr4:3385126. N ignored
+Warning : no SNPs found at position chr1:158541866. N ignored
+Warning : no SNPs found at position chr8:63141032. N ignored
+Warning : no SNPs found at position chr4:63261087. N ignored
+Warning : no SNPs found at position chr6:8753726. N ignored
+Warning : no SNPs found at position chr18:56108719. N ignored
+Warning : no SNPs found at position chr3:133196285. N ignored
+Warning : no SNPs found at position chr16:42381718. N ignored
+Warning : no SNPs found at position chr9:96077949. N ignored
+Warning : no SNPs found at position chr1:182930092. N ignored
+Warning : no SNPs found at position chr5:17380456. N ignored
+Warning : no SNPs found at position chr6:148719744. N ignored
+Warning : no SNPs found at position chr17:5401206. N ignored
+Warning : no SNPs found at position chr6:31937050. N ignored
+Warning : no SNPs found at position chr11:110067743. N ignored
+Warning : no SNPs found at position chr13:39789495. N ignored
+Warning : no SNPs found at position chr13:108138517. N ignored
+Warning : no SNPs found at position chr3:153768254. N ignored
+Warning : no SNPs found at position chr5:136898312. N ignored
+Warning : no SNPs found at position chr18:37425613. N ignored
+Warning : no SNPs found at position chr3:115551352. N ignored
+Warning : no SNPs found at position chr9:94845636. N ignored
+Warning : no SNPs found at position chr17:33997318. N ignored
+Warning : no SNPs found at position chr4:28593538. N ignored
+Warning : no SNPs found at position chr4:144635498. N ignored
+Warning : no SNPs found at position chr4:151724116. N ignored
+Warning : no SNPs found at position chr15:46174916. N ignored
+Warning : no SNPs found at position chr16:68790119. N ignored
+Warning : no SNPs found at position chr16:68790121. N ignored
+Warning : no SNPs found at position chr14:92437814. N ignored
+Warning : no SNPs found at position chr7:107573712. N ignored
+Warning : no SNPs found at position chr18:68257639. N ignored
+Warning : no SNPs found at position chr7:116612992. N ignored
+Warning : no SNPs found at position chr11:102581940. N ignored
+Warning : no SNPs found at position chr3:7814471. N ignored
+Warning : no SNPs found at position chr10:58897891. N ignored
+Warning : no SNPs found at position chr3:36415810. N ignored
+Warning : no SNPs found at position chr5:43034997. N ignored
+Warning : no SNPs found at position chr9:33921432. N ignored
+Warning : no SNPs found at position chr17:69614398. N ignored
+Warning : no SNPs found at position chr7:48340979. N ignored
+Warning : no SNPs found at position chr3:81287456. N ignored
+Warning : no SNPs found at position chrX:72781274. N ignored
+Warning : no SNPs found at position chr9:87113778. N ignored
+Warning : no SNPs found at position chr17:50304274. N ignored
+Warning : no SNPs found at position chr16:13508859. N ignored
+Warning : no SNPs found at position chr11:49150693. N ignored
+Warning : no SNPs found at position chr2:53382673. N ignored
+Warning : no SNPs found at position chr4:144753349. N ignored
+Warning : no SNPs found at position chr6:98079307. N ignored
+Warning : no SNPs found at position chr1:88346023. N ignored
+Warning : no SNPs found at position chrX:150757500. N ignored
+Warning : no SNPs found at position chrX:54194786. N ignored
+Warning : no SNPs found at position chr19:36107066. N ignored
+Warning : no SNPs found at position chr12:54072669. N ignored
+Warning : no SNPs found at position chr10:114410715. N ignored
+Warning : no SNPs found at position chr10:114410716. N ignored
+Warning : no SNPs found at position chr16:20495861. N ignored
+Warning : no SNPs found at position chr7:14354581. N ignored
+Warning : no SNPs found at position chr3:125101661. N ignored
+Warning : no SNPs found at position chr9:16183106. N ignored
+Warning : no SNPs found at position chr19:46361458. N ignored
+Warning : no SNPs found at position chr10:34250685. N ignored
+Warning : no SNPs found at position chr6:149338984. N ignored
+Warning : no SNPs found at position chr18:62554650. N ignored
+Warning : no SNPs found at position chr6:123951780. N ignored
+Warning : no SNPs found at position chr8:27015460. N ignored
+Warning : no SNPs found at position chr6:90967055. N ignored
+Warning : no SNPs found at position chr16:8898962. N ignored
+Warning : no SNPs found at position chr6:141651999. N ignored
+Warning : no SNPs found at position chr1:8936244. N ignored
+Warning : no SNPs found at position chr13:99750765. N ignored
+Warning : no SNPs found at position chr8:45154954. N ignored
+Warning : no SNPs found at position chr8:45154956. N ignored
+Warning : no SNPs found at position chr8:109764436. N ignored
+Warning : no SNPs found at position chr8:5047910. N ignored
+Warning : no SNPs found at position chr16:67428167. N ignored
+Warning : no SNPs found at position chrX:50612207. N ignored
+Warning : no SNPs found at position chr17:73733075. N ignored
+Warning : no SNPs found at position chr4:84230103. N ignored
+Warning : no SNPs found at position chr5:19033169. N ignored
+Warning : no SNPs found at position chr1:164262349. N ignored
+Warning : no SNPs found at position chr11:34196254. N ignored
+Warning : no SNPs found at position chr4:101229161. N ignored
+Warning : no SNPs found at position chr8:108350470. N ignored
+Warning : no SNPs found at position chr16:43694007. N ignored
+Warning : no SNPs found at position chr16:43694008. N ignored
+Warning : no SNPs found at position chr11:48435865. N ignored
+Warning : no SNPs found at position chr14:110251693. N ignored
+Warning : no SNPs found at position chr12:86489834. N ignored
+Warning : no SNPs found at position chr14:34199410. N ignored
+Warning : no SNPs found at position chr3:9540541. N ignored
+Warning : no SNPs found at position chr9:91259130. N ignored
+Warning : no SNPs found at position chr5:44683636. N ignored
+Warning : no SNPs found at position chr16:43902472. N ignored
+Warning : no SNPs found at position chr1:95844900. N ignored
+Warning : no SNPs found at position chr5:54132260. N ignored
+Warning : no SNPs found at position chr3:149095611. N ignored
+Warning : no SNPs found at position chr3:12260244. N ignored
+Warning : no SNPs found at position chr11:14701587. N ignored
+Warning : no SNPs found at position chr10:70966519. N ignored
+Warning : no SNPs found at position chr6:86282929. N ignored
+Warning : no SNPs found at position chr12:50166872. N ignored
+Warning : no SNPs found at position chr8:24455796. N ignored
+Warning : no SNPs found at position chr6:99596968. N ignored
+Warning : no SNPs found at position chr8:26346035. N ignored
+Warning : no SNPs found at position chr5:19714697. N ignored
+Warning : no SNPs found at position chr10:97862576. N ignored
+Warning : no SNPs found at position chr7:28095263. N ignored
+Warning : no SNPs found at position chr8:81811320. N ignored
+Warning : no SNPs found at position chr4:58962027. N ignored
+Warning : no SNPs found at position chr6:68578526. N ignored
+Warning : no SNPs found at position chr18:78645087. N ignored
+Warning : no SNPs found at position chr14:61426437. N ignored
+Warning : no SNPs found at position chr11:22038489. N ignored
+Warning : no SNPs found at position chr6:73922165. N ignored
+Warning : no SNPs found at position chr7:60826975. N ignored
+Warning : no SNPs found at position chr8:55406147. N ignored
+Warning : no SNPs found at position chr9:88543336. N ignored
+Warning : no SNPs found at position chr8:118688346. N ignored
+Warning : no SNPs found at position chr18:68550698. N ignored
+Warning : no SNPs found at position chr7:132920920. N ignored
+Warning : no SNPs found at position chr10:66652221. N ignored
+Warning : no SNPs found at position chr17:75804016. N ignored
+Warning : no SNPs found at position chrX:5990838. N ignored
+Warning : no SNPs found at position chr16:46897707. N ignored
+Warning : no SNPs found at position chr5:6676359. N ignored
+Warning : no SNPs found at position chr8:97790383. N ignored
+Warning : no SNPs found at position chr16:93327678. N ignored
+Warning : no SNPs found at position chr4:149609157. N ignored
+Warning : no SNPs found at position chr4:56797883. N ignored
+Warning : no SNPs found at position chr8:50440961. N ignored
+Warning : no SNPs found at position chr3:3699032. N ignored
+## Loading VCF file ' /home/nservant/Desktop/hicpro_dev/test-op/bowtie2_indexes_as_test/snps_CAST_129S1.vcf '...
+## 100000
+## 200000
+## 300000
+## 400000
+## 500000
+## 600000
+## 700000
+## 800000
+## 900000
+## 1000000
+## 1100000
+## 1200000
+## 1300000
+## 1400000
+## 1500000
+## 1600000
+## 1700000
+## 1800000
+## 1900000
+## 2000000
+## 2100000
+## 2200000
+## 2300000
+## 2400000
+## 2500000
+## 2600000
+## 2700000
+## 2800000
+## 2900000
+## 3000000
+## 3100000
+## 3200000
+## 3300000
+## 3400000
+## 3500000
+## 3600000
+## 3700000
+## 3800000
+## 3900000
+## 4000000
+## 4100000
+## 4200000
+## 4300000
+## 4400000
+## 4500000
+## 4600000
+## 4700000
+## 4800000
+## 4900000
+## 5000000
+## 5100000
+## 5200000
+## 5300000
+## 5400000
+## 5500000
+## 5600000
+## 5700000
+## 5800000
+## 5900000
+## 6000000
+## 6100000
+## 6200000
+## 6300000
+## 6400000
+## 6500000
+## 6600000
+## 6700000
+## 6800000
+## 6900000
+## 7000000
+## 7100000
+## 7200000
+## 7300000
+## 7400000
+## 7500000
+## 7600000
+## 7700000
+## 7800000
+## 7900000
+## 8000000
+## 8100000
+## 8200000
+## 8300000
+## 8400000
+## 8500000
+## 8600000
+## 8700000
+## 8800000
+## 8900000
+## 9000000
+## 9100000
+## 9200000
+## 9300000
+## 9400000
+## 9500000
+## 9600000
+## 9700000
+## 9800000
+## 9900000
+## 10000000
+## 10100000
+## 10200000
+## 10300000
+## 10400000
+## 10500000
+## 10600000
+## 10700000
+## 10800000
+## 10900000
+## 11000000
+## 11100000
+## 11200000
+## 11300000
+## 11400000
+## 11500000
+## 11600000
+## 11700000
+## 11800000
+## 11900000
+## 12000000
+## 12100000
+## 12200000
+## 12300000
+## 12400000
+## 12500000
+## 12600000
+## 12700000
+## 12800000
+## 12900000
+## 13000000
+## 13100000
+## 13200000
+## 13300000
+## 13400000
+## 13500000
+## 13600000
+## 13700000
+## 13800000
+## 13900000
+## 14000000
+## 14100000
+## 14200000
+## 14300000
+## 14400000
+## 14500000
+## 14600000
+## 14700000
+## 14800000
+## 14900000
+## 15000000
+## 15100000
+## 15200000
+## 15300000
+## 15400000
+## 15500000
+## 15600000
+## 15700000
+## 15800000
+## 15900000
+## 16000000
+## 16100000
+## 16200000
+## 16300000
+## 16400000
+## 16500000
+## 16600000
+## 16700000
+## 16800000
+## 16900000
+## 17000000
+## 17100000
+## 17200000
+## 17300000
+## 17400000
+## 17500000
+## 17600000
+## 17700000
+## 17800000
+## 17900000
+## 18000000
+## 18100000
+## 18200000
+## 18300000
+## 18400000
+## 18500000
+## 18600000
+## 18700000
+## 18800000
+## 18900000
+## 19000000
+## 19100000
+## 19200000
+## 19300000
+## 19400000
+## 19500000
+## 19600000
+## 19700000
+## 19800000
+## 19900000
+## 20000000
+## 20100000
+## 20200000
+## 20300000
+## 20400000
+## 20500000
+## Number of loaded SNPs = 20563466 over 20563466
+## Opening SAM/BAM file ' bowtie_results/bwt2/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs.bam '...
+## /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/markAllelicStatus.py
+## ibam= bowtie_results/bwt2/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs.bam
+## snpFile= /home/nservant/Desktop/hicpro_dev/test-op/bowtie2_indexes_as_test/snps_CAST_129S1.vcf
+## tag= XA
+## output=bowtie_results/bwt2/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs_allspe.bam
+## verbose= True 
+
+## Assigning allele specific information ...
+## 100000
+## 200000
+## 300000
+## 400000
+mv bowtie_results/bwt2/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs_allspe.bam bowtie_results/bwt2/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs.bam

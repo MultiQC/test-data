@@ -1,0 +1,16 @@
+## ======================================
+## Allele specific information
+Valid_pairs	415661
+Valid_pairs_from_ref_genome_(1-1)	9871
+Valid_pairs_from_ref_genome_with_one_unassigned_mate_(0-1/1-0)	80626
+Valid_pairs_from_alt_genome_(2-2)	10559
+Valid_pairs_from_alt_genome_with_one_unassigned_mate_(0-2/2-0)	82830
+Valid_pairs_from_alt_and_ref_genome_(1-2/2-1)	10550
+Valid_pairs_with_both_unassigned_mated_(0-0)	221019
+Valid_pairs_with_at_least_one_conflicting_mate_(3-)	206
+cis_short_G1	2614
+cis_long_G1	30753
+trans_G1	57130
+cis_short_G2	2757
+cis_long_G2	32254
+trans_G2	58378

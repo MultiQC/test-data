@@ -1,0 +1,8 @@
+/bioinfo/local/build/samtools-1.1/bin/samtools view -c bowtie_results/bwt2/dixon_2M/SRR400264_00_R1_hg19.bwt2merged.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools view -c bowtie_results/bwt2/dixon_2M/SRR400264_00_R2_hg19.bwt2merged.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools view -c -F 4 bowtie_results/bwt2/dixon_2M/SRR400264_00_R1_hg19.bwt2merged.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools view -c -F 4 bowtie_results/bwt2/dixon_2M/SRR400264_00_R2_hg19.bwt2merged.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools view -c -F 4 bowtie_results/bwt2_global/dixon_2M/SRR400264_00_R1_hg19.bwt2glob.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools view -c -F 4 bowtie_results/bwt2_global/dixon_2M/SRR400264_00_R2_hg19.bwt2glob.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools view -c -F 4 bowtie_results/bwt2_local/dixon_2M/SRR400264_00_R2_hg19.bwt2glob.unmap_bwt2loc.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools view -c -F 4 bowtie_results/bwt2_local/dixon_2M/SRR400264_00_R1_hg19.bwt2glob.unmap_bwt2loc.bam

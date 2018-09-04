@@ -1,0 +1,1 @@
+LANG=en; sort -T tmp -k2,2V -k3,3n -k5,5V -k6,6n -o hic_results/data/dixon_2M/SRR400264_00_hg19.bwt2pairs.validPairs hic_results/data/dixon_2M/SRR400264_00_hg19.bwt2pairs.validPairs
