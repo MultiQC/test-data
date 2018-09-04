@@ -1,0 +1,6 @@
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/merge_statfiles.py -d bowtie_results/bwt2/dixon_2M/ -p *_R1*.mapstat -v > hic_results/stats/dixon_2M/dixon_2M_R1.mmapstat
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/merge_statfiles.py -d bowtie_results/bwt2/dixon_2M/ -p *_R2*.mapstat -v > hic_results/stats/dixon_2M/dixon_2M_R2.mmapstat
+Merge pairstat files ...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/merge_statfiles.py -d bowtie_results/bwt2/dixon_2M/ -p "*.pairstat" -v> hic_results/stats/dixon_2M/dixon_2M.mpairstat
+Merge RSstat files ...
+/bioinfo/local/build/Centos/python/python-2.7.11/bin/python /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/merge_statfiles.py -d hic_results/data//dixon_2M/ -p "*.RSstat" -v> hic_results/stats/dixon_2M/dixon_2M.mRSstat

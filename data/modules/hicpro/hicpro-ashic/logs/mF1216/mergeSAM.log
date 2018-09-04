@@ -1,0 +1,10 @@
+/usr/bin/python /home/nservant/Apps/HiC-Pro_2.11.0-beta/scripts/mergeSAM.py -q 0 -t -v -f bowtie_results/bwt2/mF1216/SRR2240731_subset_1_mm10_CAST_129S1_Nmask.bwt2merged.bam -r bowtie_results/bwt2/mF1216/SRR2240731_subset_2_mm10_CAST_129S1_Nmask.bwt2merged.bam -o bowtie_results/bwt2/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs.bam
+## mergeBAM.py
+## forward= bowtie_results/bwt2/mF1216/SRR2240731_subset_1_mm10_CAST_129S1_Nmask.bwt2merged.bam
+## reverse= bowtie_results/bwt2/mF1216/SRR2240731_subset_2_mm10_CAST_129S1_Nmask.bwt2merged.bam
+## output= bowtie_results/bwt2/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs.bam
+## min mapq= 0
+## report_single= False
+## report_multi= False
+## verbose= True
+## Merging forward and reverse tags ...

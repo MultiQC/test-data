@@ -7,9 +7,10 @@
 #     col1:
 #         title: 'My Column'
 #         description: 'This is a longer hover text for my column'
+#         format: '{:,.0f}'
 #     col2:
 #         title: 'Second Column'
 #         description: 'Hover description text'
 Sample            col1            col2
-samp_1            12            34
-samp_2            56            78
+samp_1            12.523          34
+samp_2            56.947          78

@@ -1,0 +1,6 @@
+##Fastq file: bowtie_results/bwt2_global/mF1216/SRR2240730_subset_1_mm10_CAST_129S1_Nmask.bwt2glob.unmap.fastq
+##Restriction sites:
+AAGCTAGCTT
+##Output File: bowtie_results/bwt2_local/mF1216/SRR2240730_subset_1_mm10_CAST_129S1_Nmask.bwt2glob.unmap_trimmed.fastq
+
+##Trimmed reads: 53039

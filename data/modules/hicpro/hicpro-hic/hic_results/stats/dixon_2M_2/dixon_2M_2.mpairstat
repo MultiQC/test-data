@@ -1,0 +1,15 @@
+## merge_statfiles.py
+## dir= bowtie_results/bwt2/dixon_2M_2/
+## pattern= *.pairstat
+## Merging 1 files
+## Use /bioinfo/users/nservant/Apps/HiC-Pro_2.11.0-beta/test-op/HiC-Pro_testop_2.11.0-beta/bowtie_results/bwt2/dixon_2M_2/SRR400264_01_hg19.bwt2pairs.pairstat as template
+Total_pairs_processed	250000	100.0
+Unmapped_pairs	8402	3.361
+Low_qual_pairs	0	0.0
+Unique_paired_alignments	163974	65.59
+Multiple_pairs_alignments	48001	19.2
+Pairs_with_singleton	29623	11.849
+Low_qual_singleton	0	0.0
+Unique_singleton_alignments	0	0.0
+Multiple_singleton_alignments	0	0.0
+Reported_pairs	163974	65.59

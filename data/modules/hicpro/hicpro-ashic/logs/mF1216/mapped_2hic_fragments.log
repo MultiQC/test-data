@@ -1,0 +1,1 @@
+LANG=en; sort -T tmp -k2,2V -k3,3n -k5,5V -k6,6n -o hic_results/data/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs.validPairs hic_results/data/mF1216/SRR2240731_subset_mm10_CAST_129S1_Nmask.bwt2pairs.validPairs

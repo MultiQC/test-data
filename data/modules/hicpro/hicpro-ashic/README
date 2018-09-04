@@ -1,0 +1,16 @@
+## Results from HiC-Pro test-op
+## Allele specific analysis
+
+#wget https://zerkalo.curie.fr/partage/HiC-Pro/HiCPro_testdata_as.tar.gz && tar -zxvf HiCPro_testdata_as.tar.gz
+#/bin/rm -f HiCPro_testdata_as.tar.gz
+
+RES_PREFIX=HiC_Pro_test-op-as
+CONFIG=config_test_as.txt
+
+## standalone complete pipeline
+
+cmd="time HiC-Pro -i test_data_as/ -o ${RES_PREFIX} -c ${CONFIG}"
+echo $cmd
+eval $cmd
+if [[ $? != 0 ]]; then echo -e "Error in test-op - Exit 1"; exit 1; fi
+

@@ -1,0 +1,15 @@
+## Results from HiC-Pro test-op
+
+#wget https://zerkalo.curie.fr/partage/HiC-Pro/HiCPro_testdata_cap.tar.gz && tar -zxvf HiCPro_testdata_cap.tar.gz
+#/bin/rm -f HiCPro_testdata_cap.tar.gz
+
+RES_PREFIX=HiC_Pro_test-op-cap
+CONFIG=config_test_cap.txt
+
+## standalone complete pipeline
+
+cmd="time HiC-Pro -i test_data_cap/ -o ${RES_PREFIX} -c ${CONFIG}"
+echo $cmd
+eval $cmd
+if [[ $? != 0 ]]; then echo -e "Error in test-op - Exit 1"; exit 1; fi
+

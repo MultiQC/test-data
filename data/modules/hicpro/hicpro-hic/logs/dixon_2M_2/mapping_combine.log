@@ -1,0 +1,6 @@
+/bioinfo/local/build/samtools-1.1/bin/samtools merge -@ 2 -n -f bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R2_hg19.bwt2merged.bam bowtie_results/bwt2_global/dixon_2M_2/SRR400264_01_R2_hg19.bwt2glob.bam bowtie_results/bwt2_local/dixon_2M_2/SRR400264_01_R2_hg19.bwt2glob.unmap_bwt2loc.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools merge -@ 2 -n -f bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R1_hg19.bwt2merged.bam bowtie_results/bwt2_global/dixon_2M_2/SRR400264_01_R1_hg19.bwt2glob.bam bowtie_results/bwt2_local/dixon_2M_2/SRR400264_01_R1_hg19.bwt2glob.unmap_bwt2loc.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools sort -@ 2 -n -T tmp/SRR400264_01_R1_hg19 -o bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R1_hg19.bwt2merged.sorted.bam bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R1_hg19.bwt2merged.bam
+/bioinfo/local/build/samtools-1.1/bin/samtools sort -@ 2 -n -T tmp/SRR400264_01_R2_hg19 -o bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R2_hg19.bwt2merged.sorted.bam bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R2_hg19.bwt2merged.bam
+mv bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R1_hg19.bwt2merged.sorted.bam bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R1_hg19.bwt2merged.bam
+mv bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R2_hg19.bwt2merged.sorted.bam bowtie_results/bwt2/dixon_2M_2/SRR400264_01_R2_hg19.bwt2merged.bam

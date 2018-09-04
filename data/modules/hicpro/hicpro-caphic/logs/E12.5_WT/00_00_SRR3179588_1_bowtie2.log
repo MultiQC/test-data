@@ -1,0 +1,7 @@
+##HiC-Pro mapping
+1000000 reads; of these:
+  1000000 (100.00%) were unpaired; of these:
+    209602 (20.96%) aligned 0 times
+    755526 (75.55%) aligned exactly 1 time
+    34872 (3.49%) aligned >1 times
+79.04% overall alignment rate
