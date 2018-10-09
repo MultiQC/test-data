@@ -1,0 +1,4 @@
+Sample Name	Total reads	MBp	%Q30
+samp_1	10293	3238472	87
+samp_2	18892	3218892	74
+samp_3	16384	2982834	88

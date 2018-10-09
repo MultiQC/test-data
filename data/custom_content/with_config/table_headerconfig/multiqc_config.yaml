@@ -1,0 +1,19 @@
+custom_data:
+    sequencing_stats:
+        id: 'sequencing_stats'
+        section_name: 'Run level metrics'
+        plot_type: 'table'
+        pconfig:
+            id: 'sequencing_stats'
+            namespace: 'Sequencing stats'
+        headers:
+            Total reads:
+                description: 'Total number of readas sequenced'
+                format: '{:,.0f}'
+            MBp:
+                description: 'Mega base pairs'
+            '%Q30':
+                description: 'Percent of reads over Q30'
+sp:
+    sequencing_stats:
+        fn: 'sequencing_stats.txt'
