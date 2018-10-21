@@ -1,0 +1,118 @@
+[2018-10-05 16:59:13,072 - INFO] Namespace(adapter_f=None, adapter_r=None, anywhere_f=None, anywhere_r=None, avg_qual=0, data_type='PE', error_rate=0.1, f2_max_mismatch_density=0.25, f2_max_overlap=315, f2_min_overlap=10, f2_min_overlap_outie=35, front_f=None, front_r=None, indels=True, inputs_dir=None, job_id='5573c03b06ef', lead_qual=3, map_file=<_io.TextIOWrapper name='/mnt/EFS/user_uploads/5573c03b06ef/inputs/pairedmapfile_corrected.txt' mode='r' encoding='UTF-8'>, match_adapter_wildcards=True, match_read_wildcards=True, minlen=30, outputs_dir=None, overlap=3, req_qual=12, run_cutadapt=False, run_flash2_merge=True, run_qual_trimming=False, trail_qual=3, window_size=4)
+[2018-10-05 16:59:13,072 - INFO] Checking Mapfile for Gzipped inputs.
+[2018-10-05 16:59:13,076 - INFO] Starting pipe...
+[2018-10-05 16:59:13,110 - INFO] Trying to generate samples
+[2018-10-05 16:59:13,118 - INFO] Starting Fastqc, outputs in /mnt/EFS/user_uploads/5573c03b06ef/outputs/multiqc_input/.
+[2018-10-05 16:59:13,119 - INFO] trying to run:
+fastqc -o /mnt/EFS/user_uploads/5573c03b06ef/outputs/multiqc_input/ /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo1.R1.fastq
+[2018-10-05 16:59:24,599 - INFO] trying to run:
+fastqc -o /mnt/EFS/user_uploads/5573c03b06ef/outputs/multiqc_input/ /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo1.R2.fastq
+[2018-10-05 16:59:26,841 - INFO] trying to run:
+fastqc -o /mnt/EFS/user_uploads/5573c03b06ef/outputs/multiqc_input/ /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo2.R1.fastq
+[2018-10-05 16:59:29,018 - INFO] trying to run:
+fastqc -o /mnt/EFS/user_uploads/5573c03b06ef/outputs/multiqc_input/ /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo2.R2.fastq
+[2018-10-05 16:59:31,193 - INFO] Finished Fastqc, see /mnt/EFS/user_uploads/5573c03b06ef/outputs/multiqc_input/ for outputs.
+[2018-10-05 16:59:31,193 - INFO] Run paired end merging selected.
+[2018-10-05 16:59:31,225 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o Sample1_merged -d /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged/ /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo1.R1.fastq /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo1.R2.fastq
+[2018-10-05 16:59:32,014 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo1.R1.fastq
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo1.R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged//Sample1_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged//Sample1_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged//Sample1_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged//Sample1_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged//Sample1_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 21010 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       21010
+[FLASH]     Combined pairs:    863
+[FLASH]         Innie pairs:   856 (99.19% of combined)
+[FLASH]         Outie pairs:   7 (0.81% of combined)
+[FLASH]     Uncombined pairs:  20147
+[FLASH]     Percent combined:  4.11%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 0.635 seconds elapsed
+
+[2018-10-05 16:59:32,014 - INFO] Trying to run:
+ flash2 --min-overlap=10 --max-overlap=315 --min-overlap-outie=35 --max-mismatch-density=0.25 -o Sample2_merged -d /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged/ /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo2.R1.fastq /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo2.R2.fastq
+[2018-10-05 16:59:32,669 - INFO] [FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo2.R1.fastq
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/inputs/demo2.R2.fastq
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged//Sample2_merged.extendedFrags.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged//Sample2_merged.notCombined_1.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged//Sample2_merged.notCombined_2.fastq.gz
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged//Sample2_merged.hist
+[FLASH]     /mnt/EFS/user_uploads/5573c03b06ef/outputs/merged//Sample2_merged.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           315
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      16
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33, gzip
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 16 combiner threads
+[FLASH] Processed 21000 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       21000
+[FLASH]     Combined pairs:    863
+[FLASH]         Innie pairs:   856 (99.19% of combined)
+[FLASH]         Outie pairs:   7 (0.81% of combined)
+[FLASH]     Uncombined pairs:  20137
+[FLASH]     Percent combined:  4.11%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 0.631 seconds elapsed
+
+[2018-10-05 16:59:32,669 - INFO] Finished paired end merging.
+[2018-10-05 16:59:32,669 - INFO] Trying to run multiqc on /mnt/EFS/user_uploads/5573c03b06ef/outputs/multiqc_input/.
+[2018-10-05 16:59:58,443 - INFO] [INFO   ]         multiqc : This is MultiQC v1.6.dev0
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '/mnt/EFS/user_uploads/5573c03b06ef/outputs/multiqc_input/'
+[INFO   ]          fastqc : Found 4 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : ../../../mnt/EFS/user_uploads/5573c03b06ef/outputs/multiqc_report.html
+[INFO   ]         multiqc : Data        : ../../../mnt/EFS/user_uploads/5573c03b06ef/outputs/multiqc_data
+[INFO   ]         multiqc : MultiQC complete
+
+[2018-10-05 16:59:58,445 - INFO] Finished multiqc.
+
+[2018-10-05 16:59:58,445 - INFO] QC pipeline complete.
+[2018-10-05 16:59:58,445 - INFO] 0
