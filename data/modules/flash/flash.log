@@ -1,0 +1,43 @@
+[FLASH] Starting FLASH v2.2.00
+[FLASH] Fast Length Adjustment of SHort reads
+[FLASH]  
+[FLASH] Input files:
+[FLASH]     22057_S2_R1_subsample.fastq.gz
+[FLASH]     22057_S2_R2_subsample.fastq.gz
+[FLASH]  
+[FLASH] Output files:
+[FLASH]     ./22057.extendedFrags.fastq
+[FLASH]     ./22057.notCombined_1.fastq
+[FLASH]     ./22057.notCombined_2.fastq
+[FLASH]     ./22057.hist
+[FLASH]     ./22057.histogram
+[FLASH]  
+[FLASH] Parameters:
+[FLASH]     Min overlap:           10
+[FLASH]     Min overlap outie:     35
+[FLASH]     Max overlap:           300
+[FLASH]     Max mismatch density:  0.250000
+[FLASH]     Allow "outie" pairs:   true
+[FLASH]     Cap mismatch quals:    false
+[FLASH]     Combiner threads:      8
+[FLASH]     Input format:          FASTQ, phred_offset=33
+[FLASH]     Output format:         FASTQ, phred_offset=33
+[FLASH]  
+[FLASH] Starting reader and writer threads
+[FLASH] Starting 8 combiner threads
+[FLASH] Processed 25000 read pairs
+[FLASH]  
+[FLASH] Read combination statistics:
+[FLASH]     Total pairs:       25000
+[FLASH]     Discarded pairs:   2
+[FLASH]     Percent Discarded: 0.01%
+[FLASH]     Combined pairs:    24338
+[FLASH]         Innie pairs:   24336 (99.99% of combined)
+[FLASH]         Outie pairs:   2 (0.01% of combined)
+[FLASH]     Uncombined pairs:  660
+[FLASH]     Percent combined:  97.36%
+[FLASH]  
+[FLASH] Writing histogram files.
+[FLASH]  
+[FLASH] FLASH v2.2.00 complete!
+[FLASH] 0.200 seconds elapsed
