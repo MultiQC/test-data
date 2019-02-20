@@ -1,0 +1,2 @@
+File	Pairs considered	Min rest. site distance	Max library insert size	Pairs mappable, unique and high quality	Pairs used	One mate unmapped	One mate not unique	One mate low quality	dangling end	self ligation (removed)	One mate not close to rest site	same fragment	self circle	duplicated pairs	inter chromosomal	short range < 20kb	long range	inward pairs	outward pairs	left pairs	right pairs
+/v2.2_SRX764941_rs_test.h5	153771943	300	1000	79381726	71688733	43676360	5735498	24978359	0	0	0	6837622	0	855371	16329621	8997209	46361903	13739617	13829560	13896210	13893725
