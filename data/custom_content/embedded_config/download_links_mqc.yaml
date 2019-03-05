@@ -1,0 +1,22 @@
+id: 'download_links'
+section_name: 'Download results'
+description: 'Using the links in this table, you can directly download result files from this analysis.'
+plot_type: 'table'
+pconfig:
+    id: 'download_links_table'
+    namespace: 'Download links'
+    title: 'Download data'
+    scale: false
+data:
+    sample_1:
+        FastQC Report: '<a href="http://example.com/download/data/sample_1/sample_1_fastqc.zip">sample_1_fastqc.zip</a>'
+        BAM: '<a href="http://example.com/download/data/sample_1/sample_1.bam">sample_1.bam</a>'
+        VCF: '<a href="http://example.com/download/data/sample_1/sample_1.vcf">sample_1.vcf</a>'
+    sample_2:
+        FastQC Report: '<a href="http://example.com/download/data/sample_2/sample_2_fastqc.zip">sample_2_fastqc.zip</a>'
+        BAM: '<a href="http://example.com/download/data/sample_2/sample_2.bam">sample_2.bam</a>'
+        VCF: '<a href="http://example.com/download/data/sample_2/sample_2.vcf">sample_2.vcf</a>'
+    sample_3:
+        FastQC Report: '<a href="http://example.com/download/data/sample_3/sample_3_fastqc.zip">sample_3_fastqc.zip</a>'
+        BAM: '<a href="http://example.com/download/data/sample_3/sample_3.bam">sample_3.bam</a>'
+        VCF: '<a href="http://example.com/download/data/sample_3/sample_3.vcf">sample_3.vcf</a>'
