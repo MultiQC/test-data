@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "tool_name": "DeDup",
+    "version": "0.12.4",
+    "sample_name": "JK2785_TGGCCGATCAACGA_L008_R1_001.sorted.bam.filtered.sorted.bam"
+  },
+  "metrics": {
+    "total_reads": 9865,
+    "merged_removed": 0,
+    "forward_removed": 0,
+    "total_removed": 0,
+    "reverse_removed": 0,
+    "dup_rate": "0",
+    "clusterfactor": "1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "tool_name": "mtnuccalculator",
+    "version": "0.5",
+    "sample_name": "testme.sorted.bam.filtered.bam"
+  },
+  "metrics": {
+    "mt_cov_avg": 320.42,
+    "nuc_cov_avg": 5.847763864042934,
+    "mt_nuc_ratio": 54.7935941754,
+    "mtreads": 65588,
+    "nucreads": 1197
+  }
+}
