@@ -1,0 +1,72 @@
+Assembly	scaffolds	scaffolds_broken
+# contigs (>= 0 bp)	1	-
+# contigs (>= 1000 bp)	1	12
+# contigs (>= 5000 bp)	1	8
+# contigs (>= 10000 bp)	1	8
+# contigs (>= 25000 bp)	1	7
+# contigs (>= 50000 bp)	1	7
+Total length (>= 0 bp)	4263707	-
+Total length (>= 1000 bp)	4263707	4251653
+Total length (>= 5000 bp)	4263707	4244892
+Total length (>= 10000 bp)	4263707	4244892
+Total length (>= 25000 bp)	4263707	4228692
+Total length (>= 50000 bp)	4263707	4228692
+# contigs	1	43
+Largest contig	4263707	2216783
+Total length	4263707	4262676
+Reference length	4215607	4215607
+GC (%)	43.29	43.29
+Reference GC (%)	43.51	43.51
+N50	4263707	2216783
+NG50	4263707	2216783
+N75	4263707	1043020
+NG75	4263707	1043020
+L50	1	1
+LG50	1	1
+L75	1	2
+LG75	1	2
+# total reads	800536	800532
+# left	400182	400182
+# right	400182	400182
+Mapped (%)	99.85	99.85
+Reference mapped (%)	97.94	97.94
+Properly paired (%)	99.25	99.24
+Reference properly paired (%)	97.72	97.72
+Avg. coverage depth	42	42
+Reference avg. coverage depth	42	42
+Coverage >= 1x (%)	99.97	99.99
+Reference coverage >= 1x (%)	99.74	99.74
+# misassemblies	14	3
+# misassembled contigs	1	2
+Misassembled contigs length	4263707	2217032
+# local misassemblies	3	3
+# scaffold gap ext. mis.	8	-
+# scaffold gap loc. mis.	2	-
+# structural variations	3	3
+# unaligned mis. contigs	0	0
+# unaligned contigs	0 + 1 part	10 + 0 part
+Unaligned length	91727	88578
+Genome fraction (%)	98.873	98.873
+Duplication ratio	1.001	1.001
+# N's per 100 kbp	21.18	0.00
+# mismatches per 100 kbp	0.62	0.62
+# indels per 100 kbp	0.94	0.91
+# predicted genes (unique)	2761	2764
+# predicted genes (>= 0 bp)	2761 + 0 part	2760 + 5 part
+# predicted genes (>= 300 bp)	2670 + 0 part	2665 + 3 part
+# predicted genes (>= 1500 bp)	603 + 0 part	602 + 0 part
+# predicted genes (>= 3000 bp)	102 + 0 part	102 + 0 part
+Largest alignment	2615569	1570541
+Total aligned length	4171076	4173323
+NA50	2615569	1042721
+NGA50	2615569	1042721
+NA75	1001226	411639
+NGA75	1001226	411639
+LA50	1	2
+LGA50	1	2
+LA75	2	4
+LGA75	2	4
+K-mer-based compl. (%)	99.61	99.61
+K-mer-based cor. length (%)	100.00	97.59
+K-mer-based mis. length (%)	0.00	0.00
+# k-mer-based misjoins	0	0
