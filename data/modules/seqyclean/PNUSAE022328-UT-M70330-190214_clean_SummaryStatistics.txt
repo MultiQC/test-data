@@ -1,0 +1,64 @@
+====================Parameters========================
+Version: 1.10.07 (2017-12-14)
+--------------------Basic parameters--------------------
+Provided data files : 
+PE1: Sequencing_reads/Raw/PNUSAE022328-UT-M70330-190214_S14_L001_R1_001.fastq.gz, PE2: Sequencing_reads/Raw/PNUSAE022328-UT-M70330-190214_S14_L001_R2_001.fastq.gz
+Adapters trimming: YES. 
+Vector screening: NO
+Contaminants screening: YES. File_of_contaminants: /home/Bioinformatics/Data/SeqyClean_data/PhiX_174_plus_Adapters.fasta
+K-mer size for contaminants: 15
+Quality trimming: YES
+Maximum error: 20
+Maximum error at ends: 20
+Poly A/T trimming: NO
+Duplicates removal: NO
+--------------------Output files--------------------
+Output prefix: Sequencing_reads/QCed/PNUSAE022328-UT-M70330-190214_clean
+Report files: Sequencing_reads/QCed/PNUSAE022328-UT-M70330-190214_clean_PE1_Report.tsv, Sequencing_reads/QCed/PNUSAE022328-UT-M70330-190214_clean_PE2_Report.tsv
+PE1 file: Sequencing_reads/QCed/PNUSAE022328-UT-M70330-190214_clean_PE1.fastq
+PE2 file: Sequencing_reads/QCed/PNUSAE022328-UT-M70330-190214_clean_PE2.fastq
+Single-end reads: Sequencing_reads/QCed/PNUSAE022328-UT-M70330-190214_clean_SE.fastq
+--------------------Other parameters--------------------
+Maximum number of mismatches allowed in alignment: 7
+Minimum read length to accept: 25
+New to old-style Illumina headers: NO
+Old-style Illumina: NO
+Q-value: 33
+====================Starting the process====================
+Parsing screening file /home/Bioinformatics/Data/SeqyClean_data/PhiX_174_plus_Adapters.fasta
+Running the Illumina cleaning process...
+Processing files: Sequencing_reads/Raw/PNUSAE022328-UT-M70330-190214_S14_L001_R1_001.fastq.gz, Sequencing_reads/Raw/PNUSAE022328-UT-M70330-190214_S14_L001_R2_001.fastq.gz
+====================Summary Statistics====================
+PE1 reads analyzed: 1562321, Bases: 315802890
+Reads trimmed from 5' ->
+By adapter: 77334
+By quality: 29070
+Average trim length from 5': 0.905565 bp
+Reads trimmed from 3' ->
+By adapter: 0
+By quality: 1542858
+Average trim length from 3': 4.63132 bp
+PE1 reads discarded: 549
+-----------------------------------------------------------
+PE2 reads analyzed: 1562321, Bases: 316480356
+Reads trimmed from 5' ->
+By adapter: 77334
+By quality: 110415
+Average trim length from 5': 2.09521 bp
+Reads trimmed from 3' ->
+By adapter: 445
+By quality: 1524221
+Average trim length from 3': 10.6352 bp
+PE2 reads discarded:19186
+----------------------Summary for PE & SE----------------------
+Pairs kept: 1523672, 97.5262%, Bases: 593887228, 93.9274%
+Pairs discarded: 0, 0%, Bases: 0, 0%
+Contaminated pairs: 0
+Single Reads PE1 kept: 19186, Bases: 3636057
+Single Reads PE2 kept: 549, Bases: 54414
+Average trimmed length PE1: 198.429 bp
+Average trimmed length PE2: 191.213 bp
+Adapters found: 155154, 9.93099%
+====================Done cleaning====================
+Program finished.
+Elapsed time = 1448.31 seconds.
