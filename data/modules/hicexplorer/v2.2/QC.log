@@ -1,0 +1,29 @@
+
+File	/v2.2_SRX764941_rs_test.h5		
+Pairs considered	153771943		
+Min rest. site distance	300		
+Max library insert size	1000		
+
+#	count	(percentage w.r.t. total sequenced reads)
+Pairs mappable, unique and high quality	79381726	(51.62)
+Pairs used	71688733	(46.62)
+One mate unmapped	43676360	(28.40)
+One mate not unique	5735498	(3.73)
+One mate low quality	24978359	(16.24)
+
+#	count	(percentage w.r.t. mappable, unique and high quality pairs)
+dangling end	0	(0.00)
+self ligation (removed)	0	(0.00)
+One mate not close to rest site	0	(0.00)
+same fragment	6837622	(8.61)
+self circle	0	(0.00)
+duplicated pairs	855371	(1.08)
+
+#	count	(percentage w.r.t. total valid pairs used)
+inter chromosomal	16329621	(22.78)
+short range < 20kb	8997209	(12.55)
+long range	46361903	(64.67)
+inward pairs	13739617	(19.17)
+outward pairs	13829560	(19.29)
+left pairs	13896210	(19.38)
+right pairs	13893725	(19.38)

@@ -1,0 +1,12 @@
+Picked up _JAVA_OPTIONS: -Xmx8000m -Djava.io.tmpdir=/tmp/23807212
+TrimmomaticPE: Started with arguments:
+ -threads 8 fastq_r1.fastqsanger.gz fastq_r2.fastqsanger.gz fastq_out_r1_paired.fastqsanger.gz fastq_out_r1_unpaired.fastqsanger.gz fastq_out_r2_paired.fastqsanger.gz fastq_out_r2_unpaired.fastqsanger.gz ILLUMINACLIP:/g/funcgen/galaxy-production/database/dependencies/_conda/envs/__trimmomatic@0.36/share/trimmomatic-0.36-3/adapters/NexteraPE-PE.fa:1:30:4:2:true MINLEN:20 TRAILING:3 -trimlog trimlog
+Using PrefixPair: 'AGATGTGTATAAGAGACAG' and 'AGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTCCGAGCCCACGAGAC'
+Using Long Clipping Sequence: 'CTGTCTCTTATACACATCTGACGCTGCCGACGA'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Quality encoding detected as phred33
+Input Read Pairs: 91645932 Both Surviving: 91623858 (99.98%) Forward Only Surviving: 3779 (0.00%) Reverse Only Surviving: 6136 (0.01%) Dropped: 12159 (0.01%)
+TrimmomaticPE: Completed successfully
