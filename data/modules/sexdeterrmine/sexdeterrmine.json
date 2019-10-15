@@ -1,0 +1,18 @@
+{
+    "/tmp/BOO002.sorted.bam": {
+        "NR Aut": 430,
+        "NrX": 141,
+        "NrY": 277,
+        "RateErrX": 1591.027034912411,
+        "RateErrY": 2481.4157832728965,
+        "RateX": 16394.69302325581,
+        "RateY": 32208.01395348837,
+        "Snps Autosomal": 49998,
+        "XSnps": 1,
+        "YSnps": 1
+    },
+    "Metadata": {
+        "tool_name": "Sex.DetERRmine",
+        "version": 1.1
+    }
+}
