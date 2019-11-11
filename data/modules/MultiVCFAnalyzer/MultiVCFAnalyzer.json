@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "tool_name": "MultiVCFAnalyzer",
+    "min_snp_allele_freq": 0.9,
+    "quality_threshold": 30.0,
+    "coverage_threshold": 1,
+    "numVCFs": 3,
+    "version": "0.85.2"
+  },
+  "metrics": {
+    "JK2802": {
+      "SNP Calls (het)": 38,
+      "unhandledGenotype": 0,
+      "SNP Calls (all)": 66,
+      "allPos": 16770,
+      "coverage (percent)": 90.1,
+      "refCall": 15043,
+      "discardedRefCall": 683,
+      "filteredVarCall": 0,
+      "coverage (fold)": 6.57,
+      "noCall": 816,
+      "discardedVarCall": 162
+    },
+    "JK2772": {
+      "SNP Calls (het)": 39,
+      "unhandledGenotype": 0,
+      "SNP Calls (all)": 221,
+      "allPos": 16717,
+      "coverage (percent)": 1.3299999999999983,
+      "refCall": 1,
+      "discardedRefCall": 0,
+      "filteredVarCall": 0,
+      "coverage (fold)": 0.1,
+      "noCall": 0,
+      "discardedVarCall": 0
+    },
+    "JK2782": {
+      "SNP Calls (het)": 18,
+      "unhandledGenotype": 0,
+      "SNP Calls (all)": 40,
+      "allPos": 16770,
+      "coverage (percent)": 92.55,
+      "refCall": 15480,
+      "discardedRefCall": 445,
+      "filteredVarCall": 0,
+      "coverage (fold)": 5.72,
+      "noCall": 711,
+      "discardedVarCall": 94
+    }
+  }
+}
