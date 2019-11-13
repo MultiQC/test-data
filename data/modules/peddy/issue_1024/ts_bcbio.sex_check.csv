@@ -1,0 +1,2 @@
+error,het_count,het_ratio,hom_alt_count,hom_ref_count,ped_sex,predicted_sex,sample_id
+True,6,2,3,0,unknown,female,ts_bcbio
