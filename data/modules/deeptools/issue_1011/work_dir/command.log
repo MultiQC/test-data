@@ -1,0 +1,72 @@
+/camp/stp/babs/working/patelh/code/conda/envs/nf-core-atacseq-1.1.1dev/lib/python3.7/site-packages/multiqc/utils/config.py:45: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  configs = yaml.load(f)
+/camp/stp/babs/working/patelh/code/conda/envs/nf-core-atacseq-1.1.1dev/lib/python3.7/site-packages/multiqc/utils/config.py:51: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  sp = yaml.load(f)
+/camp/stp/babs/working/patelh/code/conda/envs/nf-core-atacseq-1.1.1dev/lib/python3.7/site-packages/multiqc/utils/config.py:121: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  new_config = yaml.load(f)
+[INFO   ]         multiqc : This is MultiQC v1.7
+[INFO   ]         multiqc : Template    : default
+[INFO   ]         multiqc : Searching '.'
+[INFO   ]         multiqc : Only using modules custom_content, fastqc, cutadapt, samtools, picard, preseq, featureCounts, deeptools
+/camp/stp/babs/working/patelh/code/conda/envs/nf-core-atacseq-1.1.1dev/lib/python3.7/site-packages/multiqc/modules/custom_content/custom_content.py:84: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  parsed_data = yaml.load(f['f'])
+/camp/stp/babs/working/patelh/code/conda/envs/nf-core-atacseq-1.1.1dev/lib/python3.7/site-packages/multiqc/modules/custom_content/custom_content.py:321: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  hconfig = yaml.load("\n".join(hlines))
+[INFO   ]  custom_content : nf-core-atacseq-summary: Found 1 sample (html)
+[INFO   ]  custom_content : nf-core-atacseq-summary: Found 2101 samples (html)
+[INFO   ]  custom_content : mlib_frip_score: Found 4 samples (bargraph)
+[INFO   ]  custom_content : mlib_peak_count: Found 4 samples (bargraph)
+[INFO   ]  custom_content : mlib_peak_annotation: Found 4 samples (bargraph)
+[INFO   ]  custom_content : mlib_deseq2_pca: Found 4 samples (scatter)
+[INFO   ]  custom_content : mlib_deseq2_clustering: Found 4 samples (heatmap)
+[INFO   ]  custom_content : mrep_peak_annotation: Found 2 samples (bargraph)
+[INFO   ]  custom_content : mrep_frip_score: Found 2 samples (bargraph)
+[INFO   ]  custom_content : mrep_peak_count: Found 2 samples (bargraph)
+[INFO   ]  custom_content : mrep_deseq2_clustering: Found 4 samples (heatmap)
+[INFO   ]  custom_content : mrep_deseq2_pca: Found 4 samples (scatter)
+[INFO   ]  custom_content : software_versions: Found 1 sample (html)
+[INFO   ]  custom_content : software_versions: Found 885 samples (html)
+[INFO   ]          fastqc : Found 8 reports
+[INFO   ]        cutadapt : Found 8 reports
+[INFO   ]          fastqc : Found 8 reports
+[INFO   ]        samtools : Found 4 stats reports
+[INFO   ]        samtools : Found 4 flagstat reports
+[INFO   ]        samtools : Found 4 idxstats reports
+[INFO   ]        samtools : Found 4 stats reports
+[INFO   ]        samtools : Found 4 flagstat reports
+[INFO   ]        samtools : Found 4 idxstats reports
+[INFO   ]          preseq : Found 4 reports
+[INFO   ]        samtools : Found 4 stats reports
+[INFO   ]        samtools : Found 4 flagstat reports
+[INFO   ]        samtools : Found 4 idxstats reports
+[INFO   ]          picard : Found 4 AlignmentSummaryMetrics reports
+[INFO   ]          picard : Found 8 BaseDistributionByCycleMetrics reports
+[INFO   ]          picard : Found 4 InsertSizeMetrics reports
+[INFO   ]          picard : Found 4 MarkDuplicates reports
+[ERROR  ]         multiqc : Oops! The 'deeptools' MultiQC module broke... 
+  Please copy the following traceback and report it at https://github.com/ewels/MultiQC/issues 
+  If possible, please include a log file that triggers the error - the last file found was:
+    ./deeptools/OSMOTIC_STRESS_T0_R1.mLb.clN.plotProfile.tab
+============================================================
+Module deeptools raised an exception: Traceback (most recent call last):
+  File "/camp/stp/babs/working/patelh/code/conda/envs/nf-core-atacseq-1.1.1dev/bin/multiqc", line 440, in multiqc
+    output = mod()
+  File "/camp/stp/babs/working/patelh/code/conda/envs/nf-core-atacseq-1.1.1dev/lib/python3.7/site-packages/multiqc/modules/deeptools/deeptools.py", line 75, in __init__
+    n['plotProfile'] = self.parse_plotProfile()
+  File "/camp/stp/babs/working/patelh/code/conda/envs/nf-core-atacseq-1.1.1dev/lib/python3.7/site-packages/multiqc/modules/deeptools/plotProfile.py", line 20, in parse_plotProfile
+    parsed_data, bin_labels, converted_bin_labels = self.parsePlotProfileData(f)
+  File "/camp/stp/babs/working/patelh/code/conda/envs/nf-core-atacseq-1.1.1dev/lib/python3.7/site-packages/multiqc/modules/deeptools/plotProfile.py", line 70, in parsePlotProfileData
+    bins.append(int(col))
+ValueError: invalid literal for int() with base 10: '1.0'
+============================================================
+[INFO   ]        samtools : Found 2 stats reports
+[INFO   ]        samtools : Found 2 flagstat reports
+[INFO   ]        samtools : Found 2 idxstats reports
+[INFO   ]          picard : Found 2 MarkDuplicates reports
+[INFO   ]  feature_counts : Found 4 reports
+[INFO   ]  feature_counts : Found 4 reports
+[INFO   ]         multiqc : Compressing plot data
+[INFO   ]         multiqc : Report      : multiqc_report.html
+[INFO   ]         multiqc : Data        : multiqc_data
+[INFO   ]         multiqc : Plots       : multiqc_plots
+[INFO   ]         multiqc : MultiQC complete
