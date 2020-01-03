@@ -1,0 +1,690 @@
+refLength: 3209803352, numBins: 3134574
+Number of STR records in binary file: 6938958
+Number of STR list entries: 6938958
+
+Reference statistics
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	931227	346834	246463	165564	117404	132176	205967	295690	335097	217084	132341	103005	90438	80156	71473	61206	49356	39596	33530	178089
+2	0	0	195739	132376	149389	272497	113924	60346	33960	21871	15605	12417	10593	9324	8310	7565	7158	6696	5965	5488	24369
+3	0	0	138835	79896	62635	39632	17303	8214	4104	2348	1584	1109	923	909	813	599	344	186	93	66	376
+4	0	0	163528	387731	107203	43126	18979	9147	5272	4218	5108	5019	3583	2321	1643	1236	975	700	398	248	321
+5	0	0	100932	129279	34991	11179	3468	1701	1326	1160	912	639	513	309	178	101	79	34	22	11	42
+6	0	0	91660	44207	7255	1564	563	294	168	115	65	34	27	11	10	3	1	1	2	4	31
+7	0	0	220325	10598	1044	163	38	23	10	3	3	3	1	0	0	0	0	1	1	0	1
+8	0	0	221368	4791	475	117	44	20	8	4	6	4	1	1	0	0	0	0	1	0	0
+
+Initial downsampling factors
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	10	10	9	8	7	5	3	1	0	0	0	0	0	0	0	0	0	0	0	0
+2	0	0	9	6	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3	0	0	8	4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+6	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+7	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+
+Thread 0
+
+Reference statistics
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	931227	346834	246463	165564	117404	132176	205967	295690	335097	217084	132341	103005	90438	80156	71473	61206	49356	39596	33530	178089
+2	0	0	195739	132376	149389	272497	113924	60346	33960	21871	15605	12417	10593	9324	8310	7565	7158	6696	5965	5488	24369
+3	0	0	138835	79896	62635	39632	17303	8214	4104	2348	1584	1109	923	909	813	599	344	186	93	66	376
+4	0	0	163528	387731	107203	43126	18979	9147	5272	4218	5108	5019	3583	2321	1643	1236	975	700	398	248	321
+5	0	0	100932	129279	34991	11179	3468	1701	1326	1160	912	639	513	309	178	101	79	34	22	11	42
+6	0	0	91660	44207	7255	1564	563	294	168	115	65	34	27	11	10	3	1	1	2	4	31
+7	0	0	220325	10598	1044	163	38	23	10	3	3	3	1	0	0	0	0	1	1	0	1
+8	0	0	221368	4791	475	117	44	20	8	4	6	4	1	1	0	0	0	0	1	0	0
+
+STRs with at least minimum qualifying reads
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	913132	340123	241112	162660	114879	130341	202707	291673	330723	214180	130604	101579	89097	78825	70229	59924	48063	38421	32230	153004
+2	0	0	191020	128988	145098	265959	111858	59309	33404	21350	15259	12162	10352	9125	8091	7402	6986	6525	5843	5369	23493
+3	0	0	136345	78791	61705	39006	17082	8075	4026	2296	1560	1078	898	883	802	590	333	180	87	63	323
+4	0	0	160241	381999	105475	42395	18639	8987	5189	4121	4990	4884	3466	2239	1585	1172	915	651	375	233	229
+5	0	0	98960	125247	33948	10782	3341	1614	1256	1102	856	611	485	290	160	83	65	30	18	5	8
+6	0	0	90367	43510	7052	1512	513	271	152	103	58	29	24	8	6	0	1	0	0	1	2
+7	0	0	217230	10310	991	150	35	19	7	2	2	2	1	0	0	0	0	0	0	0	0
+8	0	0	218180	4664	458	112	43	18	6	3	4	0	1	0	0	0	0	0	0	0	0
+
+Final downsampling factors
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	10	10	9	8	7	5	3	1	0	0	0	0	0	0	0	0	0	0	0	0
+2	0	0	9	6	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3	0	0	8	4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+6	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+7	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+Read statistics
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	15473863	5741884	3994675	2684774	1863560	2096712	3255972	4597242	5032712	3036198	1724483	1352295	1030443	819700	669516	515449	377965	269179	201483	887484
+2	0	0	3098821	2085137	2283613	3977019	1694032	894791	509027	315754	209927	165413	139310	110963	96638	93446	81296	70717	62834	56967	211839
+3	0	0	2196475	1324717	921135	550244	236388	112914	50020	27288	18083	11856	9580	9814	8099	6505	3527	1821	1029	491	3337
+4	0	0	2555057	5755142	1473925	544687	251473	107241	59736	42471	56118	51872	33646	21674	13423	10276	6110	3909	2065	1118	886
+5	0	0	1604014	2675998	728334	234234	80131	39869	29325	31716	25095	11082	9648	3586	1401	913	275	110	241	11	25
+6	0	0	1378794	580839	83785	15312	4928	2294	1228	724	395	213	98	33	28	0	2	0	0	1	5
+7	0	0	3178436	117485	9474	1394	335	168	47	112	39	5	1	0	0	0	0	0	0	0	0
+8	0	0	3213910	53797	4517	1009	319	133	45	26	7	0	1	0	0	0	0	0	0	0	0
+
+Tlen Stats
+Num Reads for Tlen:351656773
+Mean:384.768, Variance:7691.2
+
+Thread 1
+
+Reference statistics
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	931227	346834	246463	165564	117404	132176	205967	295690	335097	217084	132341	103005	90438	80156	71473	61206	49356	39596	33530	178089
+2	0	0	195739	132376	149389	272497	113924	60346	33960	21871	15605	12417	10593	9324	8310	7565	7158	6696	5965	5488	24369
+3	0	0	138835	79896	62635	39632	17303	8214	4104	2348	1584	1109	923	909	813	599	344	186	93	66	376
+4	0	0	163528	387731	107203	43126	18979	9147	5272	4218	5108	5019	3583	2321	1643	1236	975	700	398	248	321
+5	0	0	100932	129279	34991	11179	3468	1701	1326	1160	912	639	513	309	178	101	79	34	22	11	42
+6	0	0	91660	44207	7255	1564	563	294	168	115	65	34	27	11	10	3	1	1	2	4	31
+7	0	0	220325	10598	1044	163	38	23	10	3	3	3	1	0	0	0	0	1	1	0	1
+8	0	0	221368	4791	475	117	44	20	8	4	6	4	1	1	0	0	0	0	1	0	0
+
+STRs with at least minimum qualifying reads
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	913036	340067	241077	162639	114902	130328	202719	291612	330713	214190	130567	101598	89056	78826	70214	59986	48028	38456	32164	153321
+2	0	0	191014	128969	145097	266029	111825	59303	33417	21356	15226	12153	10344	9128	8104	7411	6976	6518	5851	5369	23455
+3	0	0	136344	78764	61695	38988	17079	8081	4032	2300	1565	1080	897	884	801	590	332	180	88	62	328
+4	0	0	160268	381996	105403	42416	18623	8988	5174	4129	4986	4884	3468	2243	1579	1183	921	654	371	230	227
+5	0	0	98978	125272	33991	10810	3347	1625	1260	1096	865	599	485	284	157	84	67	29	18	5	7
+6	0	0	90384	43513	7065	1518	508	272	148	102	59	30	23	7	6	1	1	0	0	0	2
+7	0	0	217233	10325	997	152	34	19	7	2	2	1	1	0	0	0	0	0	0	0	0
+8	0	0	218185	4664	453	110	44	19	5	4	5	1	0	0	0	0	0	0	0	0	0
+
+Final downsampling factors
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	10	10	9	8	7	5	3	1	0	0	0	0	0	0	0	0	0	0	0	0
+2	0	0	9	6	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3	0	0	8	4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+6	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+7	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+Read statistics
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	15464301	5743919	3997661	2684297	1867055	2094570	3258309	4598406	5034737	3036267	1725215	1351622	1031537	822286	669435	516232	378934	270164	201537	889511
+2	0	0	3095341	2085572	2284920	3974588	1693029	892039	508333	316666	209456	164807	138765	110689	97960	93667	81044	71386	62411	57082	211816
+3	0	0	2195647	1322769	919188	549712	235712	113308	50525	27187	18114	11668	9479	9920	8013	6454	3428	1836	1019	515	3503
+4	0	0	2554346	5750437	1473224	544695	250983	106999	59764	43055	56207	51696	33489	21838	13195	10364	6052	3834	1943	1151	835
+5	0	0	1600864	2673534	729041	234226	80310	40097	29215	31278	25255	11245	9584	3680	1398	855	268	102	231	15	17
+6	0	0	1378167	581622	83531	15305	4893	2291	1229	750	363	220	90	28	20	1	8	0	0	0	3
+7	0	0	3178892	117135	9569	1373	351	207	44	99	44	1	8	0	0	0	0	0	0	0	0
+8	0	0	3215955	53488	4616	973	316	135	38	21	10	1	0	0	0	0	0	0	0	0	0
+
+Tlen Stats
+Num Reads for Tlen:351659168
+Mean:384.754, Variance:7478.45
+
+Thread 2
+
+Reference statistics
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	931227	346834	246463	165564	117404	132176	205967	295690	335097	217084	132341	103005	90438	80156	71473	61206	49356	39596	33530	178089
+2	0	0	195739	132376	149389	272497	113924	60346	33960	21871	15605	12417	10593	9324	8310	7565	7158	6696	5965	5488	24369
+3	0	0	138835	79896	62635	39632	17303	8214	4104	2348	1584	1109	923	909	813	599	344	186	93	66	376
+4	0	0	163528	387731	107203	43126	18979	9147	5272	4218	5108	5019	3583	2321	1643	1236	975	700	398	248	321
+5	0	0	100932	129279	34991	11179	3468	1701	1326	1160	912	639	513	309	178	101	79	34	22	11	42
+6	0	0	91660	44207	7255	1564	563	294	168	115	65	34	27	11	10	3	1	1	2	4	31
+7	0	0	220325	10598	1044	163	38	23	10	3	3	3	1	0	0	0	0	1	1	0	1
+8	0	0	221368	4791	475	117	44	20	8	4	6	4	1	1	0	0	0	0	1	0	0
+
+STRs with at least minimum qualifying reads
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	913071	340132	241086	162656	114934	130325	202709	291635	330719	214195	130608	101581	89065	78817	70176	59939	48071	38392	32192	153392
+2	0	0	191001	128985	145090	265873	111861	59303	33403	21352	15239	12173	10336	9124	8085	7404	6984	6519	5843	5377	23497
+3	0	0	136345	78771	61733	39003	17083	8071	4032	2299	1568	1080	893	882	797	593	333	184	86	61	317
+4	0	0	160217	382024	105447	42410	18641	8997	5183	4122	4997	4888	3469	2242	1585	1184	920	644	371	232	224
+5	0	0	99000	125211	33985	10779	3347	1621	1266	1107	852	604	476	284	158	82	65	29	16	7	7
+6	0	0	90394	43487	7059	1512	514	276	149	102	56	29	25	7	5	0	1	0	0	2	2
+7	0	0	217193	10309	983	150	34	18	7	2	1	1	1	0	0	0	0	0	0	0	0
+8	0	0	218187	4672	456	111	44	19	6	3	5	0	1	0	0	0	0	0	0	0	0
+
+Final downsampling factors
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	10	10	9	8	7	5	3	1	0	0	0	0	0	0	0	0	0	0	0	0
+2	0	0	9	6	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3	0	0	8	4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+6	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+7	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+Read statistics
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	15463264	5747318	4000012	2687708	1863510	2095358	3257719	4598775	5035759	3034356	1724461	1350032	1031439	823017	670045	514892	378338	269442	201029	888934
+2	0	0	3095948	2088949	2286346	3974337	1692274	892953	507173	316753	209624	165834	138677	110229	97554	93279	80487	71557	62175	56708	211647
+3	0	0	2194419	1322889	919022	549662	236320	113614	50357	27519	18122	11730	9577	9651	8002	6564	3515	1859	1063	483	3386
+4	0	0	2554805	5755443	1474600	543386	251032	107023	60073	42874	56265	51829	33348	21801	13255	10493	5924	3792	1966	1127	861
+5	0	0	1604919	2669159	729438	234042	80254	39519	29264	31314	25149	11240	9491	3570	1451	864	278	86	238	23	19
+6	0	0	1379930	581565	83869	15548	4965	2375	1184	753	377	204	99	19	22	0	4	0	0	3	3
+7	0	0	3178525	117611	9581	1411	341	180	34	107	35	2	3	0	0	0	0	0	0	0	0
+8	0	0	3220047	53660	4496	943	339	131	29	14	14	0	2	0	0	0	0	0	0	0	0
+
+Tlen Stats
+Num Reads for Tlen:351665755
+Mean:384.753, Variance:7609.44
+
+Thread 3
+
+Reference statistics
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	931227	346834	246463	165564	117404	132176	205967	295690	335097	217084	132341	103005	90438	80156	71473	61206	49356	39596	33530	178089
+2	0	0	195739	132376	149389	272497	113924	60346	33960	21871	15605	12417	10593	9324	8310	7565	7158	6696	5965	5488	24369
+3	0	0	138835	79896	62635	39632	17303	8214	4104	2348	1584	1109	923	909	813	599	344	186	93	66	376
+4	0	0	163528	387731	107203	43126	18979	9147	5272	4218	5108	5019	3583	2321	1643	1236	975	700	398	248	321
+5	0	0	100932	129279	34991	11179	3468	1701	1326	1160	912	639	513	309	178	101	79	34	22	11	42
+6	0	0	91660	44207	7255	1564	563	294	168	115	65	34	27	11	10	3	1	1	2	4	31
+7	0	0	220325	10598	1044	163	38	23	10	3	3	3	1	0	0	0	0	1	1	0	1
+8	0	0	221368	4791	475	117	44	20	8	4	6	4	1	1	0	0	0	0	1	0	0
+
+STRs with at least minimum qualifying reads
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	20363	7518	5398	3710	2519	2847	4343	6084	6721	4152	2209	1592	1414	1136	916	689	503	395	299	851
+2	0	0	4225	2726	3068	5236	2297	1171	672	423	259	208	177	152	133	126	95	95	91	68	283
+3	0	0	2995	1666	1296	761	337	152	73	36	28	12	13	9	14	11	4	5	1	0	4
+4	0	0	3469	7662	1949	708	308	148	75	52	64	54	57	32	26	9	9	6	4	0	0
+5	0	0	2130	2970	810	272	113	51	35	35	26	13	11	5	2	1	2	0	2	0	0
+6	0	0	1816	831	96	14	8	6	1	1	2	1	0	0	0	0	0	0	0	0	0
+7	0	0	4284	174	17	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+8	0	0	4280	87	5	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+Final downsampling factors
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	10	10	9	8	7	5	3	1	0	0	0	0	0	0	0	0	0	0	0	0
+2	0	0	9	6	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+3	0	0	8	4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+5	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+6	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+7	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+Read statistics
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	21038	7779	5526	3781	2547	2881	4410	6162	6800	4219	2234	1771	1451	1146	933	697	508	400	302	1182
+2	0	0	4307	2771	3182	5363	2375	1227	710	443	270	212	184	153	137	137	98	97	91	70	298
+3	0	0	3050	1796	1320	770	342	154	74	36	30	12	13	10	15	12	4	5	1	0	4
+4	0	0	3559	7931	2028	712	322	149	76	52	69	58	59	37	26	10	9	6	4	0	0
+5	0	0	2228	3780	993	345	143	67	40	37	31	14	11	6	2	2	2	0	2	0	0
+6	0	0	1869	863	98	14	8	6	1	1	2	1	0	0	0	0	0	0	0	0	0
+7	0	0	4362	179	17	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+8	0	0	4435	89	5	2	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+Tlen Stats
+Num Reads for Tlen:483080
+Mean:384.439, Variance:7322.21
+
+
+Final Tlen Stats
+Num Reads for Tlen:1054981696
+Mean:384.759, Sigma:87.138
+Pruning nodes with period 1 length 1, decimation factor 10
+Pruning nodes with period 1 length 1, decimation factor 11
+Pruning nodes with period 1 length 1, decimation factor 12
+Pruning nodes with period 1 length 1, decimation factor 13
+Pruning nodes with period 1 length 1, decimation factor 14
+Pruning nodes with period 1 length 1, decimation factor 15
+Pruning nodes with period 1 length 1, decimation factor 16
+Pruning nodes with period 1 length 1, decimation factor 17
+Pruning nodes with period 1 length 2, decimation factor 10
+Pruning nodes with period 1 length 2, decimation factor 11
+Pruning nodes with period 1 length 2, decimation factor 12
+Pruning nodes with period 1 length 2, decimation factor 13
+Pruning nodes with period 1 length 2, decimation factor 14
+Pruning nodes with period 1 length 2, decimation factor 15
+Pruning nodes with period 1 length 2, decimation factor 16
+Pruning nodes with period 1 length 3, decimation factor 9
+Pruning nodes with period 1 length 3, decimation factor 10
+Pruning nodes with period 1 length 3, decimation factor 11
+Pruning nodes with period 1 length 3, decimation factor 12
+Pruning nodes with period 1 length 3, decimation factor 13
+Pruning nodes with period 1 length 3, decimation factor 14
+Pruning nodes with period 1 length 4, decimation factor 8
+Pruning nodes with period 1 length 4, decimation factor 9
+Pruning nodes with period 1 length 4, decimation factor 10
+Pruning nodes with period 1 length 4, decimation factor 11
+Pruning nodes with period 1 length 4, decimation factor 12
+Pruning nodes with period 1 length 4, decimation factor 13
+Pruning nodes with period 1 length 5, decimation factor 7
+Pruning nodes with period 1 length 5, decimation factor 8
+Pruning nodes with period 1 length 5, decimation factor 9
+Pruning nodes with period 1 length 5, decimation factor 10
+Pruning nodes with period 1 length 5, decimation factor 11
+Pruning nodes with period 1 length 6, decimation factor 5
+Pruning nodes with period 1 length 6, decimation factor 6
+Pruning nodes with period 1 length 6, decimation factor 7
+Pruning nodes with period 1 length 6, decimation factor 8
+Pruning nodes with period 1 length 6, decimation factor 9
+Pruning nodes with period 1 length 7, decimation factor 3
+Pruning nodes with period 1 length 7, decimation factor 4
+Pruning nodes with period 1 length 7, decimation factor 5
+Pruning nodes with period 1 length 7, decimation factor 6
+Pruning nodes with period 1 length 7, decimation factor 7
+Pruning nodes with period 1 length 7, decimation factor 8
+Pruning nodes with period 1 length 8, decimation factor 1
+Pruning nodes with period 1 length 8, decimation factor 2
+Pruning nodes with period 1 length 8, decimation factor 3
+Pruning nodes with period 1 length 8, decimation factor 4
+Pruning nodes with period 1 length 8, decimation factor 5
+Pruning nodes with period 1 length 8, decimation factor 6
+Pruning nodes with period 1 length 8, decimation factor 7
+Pruning nodes with period 1 length 9, decimation factor 0
+Pruning nodes with period 1 length 9, decimation factor 1
+Pruning nodes with period 1 length 9, decimation factor 2
+Pruning nodes with period 1 length 9, decimation factor 3
+Pruning nodes with period 1 length 9, decimation factor 4
+Pruning nodes with period 1 length 9, decimation factor 5
+Pruning nodes with period 1 length 9, decimation factor 6
+Pruning nodes with period 1 length 10, decimation factor 0
+Pruning nodes with period 1 length 10, decimation factor 1
+Pruning nodes with period 1 length 10, decimation factor 2
+Pruning nodes with period 1 length 10, decimation factor 3
+Pruning nodes with period 1 length 10, decimation factor 4
+Pruning nodes with period 1 length 10, decimation factor 5
+Pruning nodes with period 1 length 11, decimation factor 0
+Pruning nodes with period 1 length 11, decimation factor 1
+Pruning nodes with period 1 length 11, decimation factor 2
+Pruning nodes with period 1 length 11, decimation factor 3
+Pruning nodes with period 1 length 11, decimation factor 4
+Pruning nodes with period 1 length 12, decimation factor 0
+Pruning nodes with period 1 length 12, decimation factor 1
+Pruning nodes with period 1 length 12, decimation factor 2
+Pruning nodes with period 1 length 12, decimation factor 3
+Pruning nodes with period 1 length 12, decimation factor 4
+Pruning nodes with period 1 length 13, decimation factor 0
+Pruning nodes with period 1 length 13, decimation factor 1
+Pruning nodes with period 1 length 13, decimation factor 2
+Pruning nodes with period 1 length 13, decimation factor 3
+Pruning nodes with period 1 length 13, decimation factor 4
+Pruning nodes with period 1 length 14, decimation factor 0
+Pruning nodes with period 1 length 14, decimation factor 1
+Pruning nodes with period 1 length 14, decimation factor 2
+Pruning nodes with period 1 length 14, decimation factor 3
+Pruning nodes with period 1 length 14, decimation factor 4
+Pruning nodes with period 1 length 15, decimation factor 0
+Pruning nodes with period 1 length 15, decimation factor 1
+Pruning nodes with period 1 length 15, decimation factor 2
+Pruning nodes with period 1 length 15, decimation factor 3
+Pruning nodes with period 1 length 15, decimation factor 4
+Pruning nodes with period 1 length 16, decimation factor 0
+Pruning nodes with period 1 length 16, decimation factor 1
+Pruning nodes with period 1 length 16, decimation factor 2
+Pruning nodes with period 1 length 16, decimation factor 3
+Pruning nodes with period 1 length 17, decimation factor 0
+Pruning nodes with period 1 length 17, decimation factor 1
+Pruning nodes with period 1 length 17, decimation factor 2
+Pruning nodes with period 1 length 17, decimation factor 3
+Pruning nodes with period 1 length 18, decimation factor 0
+Pruning nodes with period 1 length 18, decimation factor 1
+Pruning nodes with period 1 length 18, decimation factor 2
+Pruning nodes with period 1 length 18, decimation factor 3
+Pruning nodes with period 1 length 19, decimation factor 0
+Pruning nodes with period 1 length 19, decimation factor 1
+Pruning nodes with period 1 length 19, decimation factor 2
+Pruning nodes with period 1 length 19, decimation factor 3
+Pruning nodes with period 1 length 20, decimation factor 0
+Pruning nodes with period 1 length 20, decimation factor 1
+Pruning nodes with period 1 length 20, decimation factor 2
+Pruning nodes with period 1 length 20, decimation factor 3
+Pruning nodes with period 1 length 20, decimation factor 4
+Pruning nodes with period 1 length 20, decimation factor 5
+Pruning nodes with period 2 length 2, decimation factor 9
+Pruning nodes with period 2 length 2, decimation factor 10
+Pruning nodes with period 2 length 2, decimation factor 11
+Pruning nodes with period 2 length 2, decimation factor 12
+Pruning nodes with period 2 length 2, decimation factor 13
+Pruning nodes with period 2 length 2, decimation factor 14
+Pruning nodes with period 2 length 3, decimation factor 6
+Pruning nodes with period 2 length 3, decimation factor 7
+Pruning nodes with period 2 length 3, decimation factor 8
+Pruning nodes with period 2 length 3, decimation factor 9
+Pruning nodes with period 2 length 3, decimation factor 10
+Pruning nodes with period 2 length 4, decimation factor 3
+Pruning nodes with period 2 length 4, decimation factor 4
+Pruning nodes with period 2 length 4, decimation factor 5
+Pruning nodes with period 2 length 4, decimation factor 6
+Pruning nodes with period 2 length 4, decimation factor 7
+Pruning nodes with period 2 length 4, decimation factor 8
+Pruning nodes with period 2 length 5, decimation factor 0
+Pruning nodes with period 2 length 5, decimation factor 1
+Pruning nodes with period 2 length 5, decimation factor 2
+Pruning nodes with period 2 length 5, decimation factor 3
+Pruning nodes with period 2 length 5, decimation factor 4
+Pruning nodes with period 2 length 5, decimation factor 5
+Pruning nodes with period 2 length 5, decimation factor 6
+Pruning nodes with period 2 length 6, decimation factor 0
+Pruning nodes with period 2 length 6, decimation factor 1
+Pruning nodes with period 2 length 6, decimation factor 2
+Pruning nodes with period 2 length 6, decimation factor 3
+Pruning nodes with period 2 length 6, decimation factor 4
+Pruning nodes with period 2 length 7, decimation factor 0
+Pruning nodes with period 2 length 7, decimation factor 1
+Pruning nodes with period 2 length 7, decimation factor 2
+Pruning nodes with period 2 length 7, decimation factor 3
+Pruning nodes with period 2 length 8, decimation factor 0
+Pruning nodes with period 2 length 8, decimation factor 1
+Pruning nodes with period 2 length 8, decimation factor 2
+Pruning nodes with period 2 length 8, decimation factor 3
+Pruning nodes with period 2 length 9, decimation factor 0
+Pruning nodes with period 2 length 9, decimation factor 1
+Pruning nodes with period 2 length 9, decimation factor 2
+Pruning nodes with period 2 length 10, decimation factor 0
+Pruning nodes with period 2 length 10, decimation factor 1
+Pruning nodes with period 2 length 11, decimation factor 0
+Pruning nodes with period 2 length 11, decimation factor 1
+Pruning nodes with period 2 length 12, decimation factor 0
+Pruning nodes with period 2 length 12, decimation factor 1
+Pruning nodes with period 2 length 13, decimation factor 0
+Pruning nodes with period 2 length 13, decimation factor 1
+Pruning nodes with period 2 length 14, decimation factor 0
+Pruning nodes with period 2 length 15, decimation factor 0
+Pruning nodes with period 2 length 16, decimation factor 0
+Pruning nodes with period 2 length 17, decimation factor 0
+Pruning nodes with period 2 length 18, decimation factor 0
+Pruning nodes with period 2 length 19, decimation factor 0
+Pruning nodes with period 2 length 20, decimation factor 0
+Pruning nodes with period 2 length 20, decimation factor 1
+Pruning nodes with period 2 length 20, decimation factor 2
+Pruning nodes with period 3 length 2, decimation factor 8
+Pruning nodes with period 3 length 2, decimation factor 9
+Pruning nodes with period 3 length 2, decimation factor 10
+Pruning nodes with period 3 length 2, decimation factor 11
+Pruning nodes with period 3 length 2, decimation factor 12
+Pruning nodes with period 3 length 2, decimation factor 13
+Pruning nodes with period 3 length 3, decimation factor 4
+Pruning nodes with period 3 length 3, decimation factor 5
+Pruning nodes with period 3 length 3, decimation factor 6
+Pruning nodes with period 3 length 3, decimation factor 7
+Pruning nodes with period 3 length 3, decimation factor 8
+Pruning nodes with period 3 length 4, decimation factor 1
+Pruning nodes with period 3 length 4, decimation factor 2
+Pruning nodes with period 3 length 4, decimation factor 3
+Pruning nodes with period 3 length 4, decimation factor 4
+Pruning nodes with period 3 length 5, decimation factor 0
+Pruning nodes with period 3 length 5, decimation factor 1
+Pruning nodes with period 3 length 5, decimation factor 2
+Pruning nodes with period 3 length 5, decimation factor 3
+Pruning nodes with period 3 length 6, decimation factor 0
+Pruning nodes with period 3 length 6, decimation factor 1
+Pruning nodes with period 3 length 6, decimation factor 2
+Pruning nodes with period 3 length 7, decimation factor 0
+Pruning nodes with period 4 length 2, decimation factor 6
+Pruning nodes with period 4 length 2, decimation factor 7
+Pruning nodes with period 4 length 2, decimation factor 8
+Pruning nodes with period 4 length 2, decimation factor 9
+Pruning nodes with period 4 length 2, decimation factor 10
+Pruning nodes with period 4 length 2, decimation factor 11
+Pruning nodes with period 4 length 3, decimation factor 0
+Pruning nodes with period 4 length 3, decimation factor 1
+Pruning nodes with period 4 length 3, decimation factor 2
+Pruning nodes with period 4 length 3, decimation factor 3
+Pruning nodes with period 4 length 3, decimation factor 4
+Pruning nodes with period 4 length 3, decimation factor 5
+Pruning nodes with period 4 length 3, decimation factor 6
+Pruning nodes with period 4 length 4, decimation factor 0
+Pruning nodes with period 4 length 4, decimation factor 1
+Pruning nodes with period 4 length 4, decimation factor 2
+Pruning nodes with period 4 length 4, decimation factor 3
+Pruning nodes with period 4 length 4, decimation factor 4
+Pruning nodes with period 4 length 5, decimation factor 0
+Pruning nodes with period 4 length 5, decimation factor 1
+Pruning nodes with period 4 length 5, decimation factor 2
+Pruning nodes with period 4 length 5, decimation factor 3
+Pruning nodes with period 4 length 6, decimation factor 0
+Pruning nodes with period 4 length 6, decimation factor 1
+Pruning nodes with period 4 length 6, decimation factor 2
+Pruning nodes with period 4 length 7, decimation factor 0
+Pruning nodes with period 4 length 7, decimation factor 1
+Pruning nodes with period 4 length 8, decimation factor 0
+Pruning nodes with period 4 length 9, decimation factor 0
+Pruning nodes with period 4 length 10, decimation factor 0
+Pruning nodes with period 4 length 11, decimation factor 0
+Pruning nodes with period 5 length 2, decimation factor 5
+Pruning nodes with period 5 length 2, decimation factor 6
+Pruning nodes with period 5 length 2, decimation factor 7
+Pruning nodes with period 5 length 2, decimation factor 8
+Pruning nodes with period 5 length 2, decimation factor 9
+Pruning nodes with period 5 length 3, decimation factor 0
+Pruning nodes with period 5 length 3, decimation factor 1
+Pruning nodes with period 5 length 3, decimation factor 2
+Pruning nodes with period 5 length 3, decimation factor 3
+Pruning nodes with period 5 length 3, decimation factor 4
+Pruning nodes with period 5 length 4, decimation factor 0
+Pruning nodes with period 5 length 4, decimation factor 1
+Pruning nodes with period 5 length 4, decimation factor 2
+Pruning nodes with period 5 length 4, decimation factor 3
+Pruning nodes with period 5 length 5, decimation factor 0
+Pruning nodes with period 5 length 5, decimation factor 1
+Pruning nodes with period 6 length 2, decimation factor 4
+Pruning nodes with period 6 length 2, decimation factor 5
+Pruning nodes with period 6 length 2, decimation factor 6
+Pruning nodes with period 6 length 2, decimation factor 7
+Pruning nodes with period 6 length 2, decimation factor 8
+Pruning nodes with period 6 length 3, decimation factor 0
+Pruning nodes with period 6 length 3, decimation factor 1
+Pruning nodes with period 6 length 3, decimation factor 2
+Pruning nodes with period 6 length 3, decimation factor 3
+Pruning nodes with period 6 length 4, decimation factor 0
+Pruning nodes with period 7 length 2, decimation factor 1
+Pruning nodes with period 7 length 2, decimation factor 2
+Pruning nodes with period 7 length 2, decimation factor 3
+Pruning nodes with period 7 length 2, decimation factor 4
+Pruning nodes with period 7 length 2, decimation factor 5
+Pruning nodes with period 7 length 2, decimation factor 6
+Pruning nodes with period 7 length 3, decimation factor 0
+Pruning nodes with period 7 length 3, decimation factor 1
+Pruning nodes with period 8 length 2, decimation factor 0
+Pruning nodes with period 8 length 2, decimation factor 1
+Pruning nodes with period 8 length 2, decimation factor 2
+Pruning nodes with period 8 length 2, decimation factor 3
+Pruning nodes with period 8 length 2, decimation factor 4
+Pruning nodes with period 8 length 2, decimation factor 5
+Pruning nodes with period 8 length 3, decimation factor 0
+
+Time downsampling 00:00:04.045
+
+Calculating PCR parameters
+
+Reference statistics after downsampling
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	18310	8093	7993	4925	5504	5571	5822	5754	6324	5800	5507	4263	3772	3367	2979	4495	3749	2991	2633	12369
+2	0	0	6694	6662	5423	6930	5179	4555	2527	3114	4091	3232	2804	2437	4221	3838	3644	3400	3014	2775	3445
+3	0	0	4145	3382	4644	2980	2315	4157	4104	2348	1584	1109	923	909	813	599	344	186	93	66	376
+4	0	0	5129	7845	4719	3244	2602	2374	2670	2141	2601	2557	3583	2321	1643	1236	975	700	398	248	321
+5	0	0	4702	7115	2906	3004	3468	1701	1326	1160	912	639	513	309	178	101	79	34	22	11	42
+6	0	0	3900	3310	3702	1564	563	294	168	115	65	34	27	11	10	3	1	1	2	4	31
+7	0	0	6120	2818	1044	163	38	23	10	3	3	3	1	0	0	0	0	1	1	0	1
+8	0	0	6282	2467	475	117	44	20	8	4	6	4	1	1	0	0	0	0	1	0	0
+
+STRs with at least minimum qualifying reads
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	3493	2603	3712	2497	3530	3993	3141	2266	2567	3346	4082	3176	2800	2462	2199	3779	3035	2438	2059	2623
+2	0	0	2943	3972	2247	2073	3500	3705	2085	2694	3820	3058	2610	2289	4067	3721	3512	3276	2931	2695	2980
+3	0	0	2080	2435	3858	2445	2137	4046	4042	2306	1569	1086	899	888	805	595	334	184	88	63	338
+4	0	0	2453	3075	3301	2651	2339	2256	2604	2082	2513	2461	3502	2265	1603	1204	951	671	382	243	254
+5	0	0	3048	4010	2148	2719	3372	1646	1287	1128	879	618	494	297	168	91	72	33	21	9	10
+6	0	0	2809	2785	3559	1539	523	279	153	109	61	30	25	8	6	1	1	0	0	2	3
+7	0	0	3550	2631	1016	157	36	20	8	2	2	3	1	0	0	0	0	0	0	0	0
+8	0	0	3680	2383	463	114	44	19	6	4	6	1	1	0	0	0	0	0	0	0	0
+
+Final downsampling factors
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	18	17	15	14	12	10	9	8	7	6	5	5	5	5	5	4	4	4	4	6
+2	0	0	15	11	9	7	5	4	4	3	2	2	2	2	1	1	1	1	1	1	3
+3	0	0	14	9	5	4	3	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+4	0	0	12	7	5	4	3	2	1	1	1	1	0	0	0	0	0	0	0	0	0
+5	0	0	10	5	4	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+6	0	0	9	4	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+7	0	0	7	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+8	0	0	6	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+
+Read statistics
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	172656	127750	185328	123916	170702	195483	158700	106632	115328	140347	182016	115695	95384	78614	61691	97179	68958	49710	38061	31768
+2	0	0	141365	191358	107346	91793	159192	172407	93959	118478	163076	127455	108126	86031	145222	141518	122524	108775	92023	87911	80466
+3	0	0	99437	116118	168897	103419	87203	169795	150976	82030	54349	35266	28649	29395	24129	19535	10474	5521	3112	1489	10230
+4	0	0	115666	136818	139927	104352	93853	83553	86227	65204	85613	76211	100542	65350	39899	31143	18095	11541	5978	3396	2582
+5	0	0	149133	229455	123584	205723	240838	119552	87844	94345	75530	33581	28734	10842	4252	2634	823	298	712	49	61
+6	0	0	135367	111240	129371	46179	14794	6966	3642	2228	1137	638	287	80	70	1	14	0	0	4	11
+7	0	0	150298	88918	28641	4182	1027	555	125	318	118	8	12	0	0	0	0	0	0	0	0
+8	0	0	156744	83045	13634	2927	974	400	112	61	31	1	3	0	0	0	0	0	0	0	0
+
+Repeat period 8 calibration time 00:00:04.730
+
+Repeat period 7 calibration time 00:00:06.205
+
+Repeat period 6 calibration time 00:00:08.692
+
+Repeat period 5 calibration time 00:00:14.289
+
+Repeat period 3 calibration time 00:00:24.518
+
+Repeat period 4 calibration time 00:00:24.769
+
+Repeat period 1 calibration time 00:00:33.773
+
+Repeat period 2 calibration time 00:00:39.921
+
+Time calibration 00:00:39.923
+
+Max GOP: 40, GOP bias: 0
+
+Insertion GOP:
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	45.00	45.00	45.00	45.00	45.00	45.00	45.00	43.25	40.00	35.75	33.75	32.75	32.25	31.25	31.25	30.75	30.00	29.25	29.00	28.50
+2	0	42.25	42.25	42.25	42.25	42.25	41.25	36.50	33.25	32.00	30.75	30.00	29.50	29.50	29.50	29.25	29.00	29.00	29.00	28.75	28.25
+3	0	41.00	41.00	41.00	41.00	41.00	39.50	37.75	34.75	33.75	31.50	31.50	30.75	30.50	30.50	30.50	30.25	29.75	29.75	24.00	24.00
+4	0	39.75	39.75	39.75	37.50	36.25	33.75	32.50	29.00	27.50	27.25	26.75	26.75	26.25	24.50	24.50	22.75	22.75	22.75	22.75	22.75
+5	0	40.00	40.00	40.00	39.50	34.75	31.50	29.25	26.25	27.25	25.25	25.25	25.25	25.25	25.25	25.25	25.25	25.25	24.00	24.00	24.00
+6	0	40.00	40.00	40.00	39.00	37.00	29.75	24.75	24.50	22.75	22.75	22.75	22.75	21.50	21.50	21.50	21.50	21.50	21.50	21.50	21.50
+7	0	37.50	37.50	37.50	34.00	27.00	26.25	22.00	21.25	21.25	13.50	13.50	13.50	13.50	13.50	13.50	13.50	13.50	13.50	13.50	13.50
+8	0	38.00	38.00	38.00	31.00	25.75	22.75	20.50	20.50	20.50	20.50	20.50	20.50	20.50	20.50	20.50	20.50	20.50	20.50	20.50	20.50
+
+Command line insertion GOP:
+ 160 160 160 160 160 160 160 160 160 143 135 131 129 125 125 123 120 117 116 114 160 160 160 160 160 160 146 133 128 123 120 118 118 118 117 116 116 116 115 113 160 160 160 160 160 158 151 139 135 126 126 123 122 122 122 121 119 119 96 96 159 159 159 150 145 135 130 116 110 109 107 107 105 98 98 91 91 91 91 91 160 160 160 158 139 126 117 105 109 101 101 101 101 101 101 101 101 96 96 96 160 160 160 156 148 119 99 98 91 91 91 91 86 86 86 86 86 86 86 86 150 150 150 136 108 105 88 85 85 54 54 54 54 54 54 54 54 54 54 54 152 152 152 124 103 91 82 82 82 82 82 82 82 82 82 82 82 82 82 82
+
+Max GOP: 40.00, GOP bias: 0.00
+
+Deletion GOP
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	45.00	45.00	45.00	45.00	45.00	43.25	40.00	35.75	33.75	32.75	32.25	31.25	31.25	30.75	30.00	29.25	29.00	28.50	27.75	27.75
+2	0	42.50	42.50	42.50	40.00	34.75	34.00	31.00	29.75	29.50	28.50	28.00	27.50	27.50	27.25	27.25	27.25	27.25	27.25	27.25	27.25
+3	0	41.50	41.50	40.75	37.50	35.75	34.00	31.50	31.50	30.00	29.75	29.75	29.75	29.75	29.75	29.75	29.75	29.75	28.75	25.75	25.75
+4	0	41.25	41.25	37.00	32.50	30.75	30.00	27.00	26.75	26.75	26.75	26.75	26.50	25.75	25.75	25.50	25.50	25.50	25.50	25.50	25.50
+5	0	41.00	41.00	35.75	32.00	29.00	27.00	27.00	27.00	27.00	27.00	27.00	27.00	27.00	27.00	27.00	27.00	27.00	27.00	21.25	21.25
+6	0	40.00	37.50	31.50	28.50	26.50	26.25	26.25	26.25	25.00	25.00	25.00	25.00	25.00	25.00	25.00	25.00	25.00	25.00	25.00	25.00
+7	0	40.50	35.50	29.50	25.00	22.50	22.50	22.50	22.50	22.50	22.50	22.50	22.50	22.50	22.50	22.50	22.50	22.50	22.50	22.50	22.50
+8	0	39.75	30.25	25.50	24.75	24.75	24.75	24.75	24.75	24.75	12.75	12.75	12.75	12.75	12.75	12.75	12.75	12.75	12.75	12.75	12.75
+
+Command line deletion GOP:
+ 160 160 160 160 160 160 160 143 135 131 129 125 125 123 120 117 116 114 111 111 160 160 160 160 139 136 124 119 118 114 112 110 110 109 109 109 109 109 109 109 160 160 160 150 143 136 126 126 120 119 119 119 119 119 119 119 119 115 103 103 160 160 148 130 123 120 108 107 107 107 107 106 103 103 102 102 102 102 102 102 160 160 143 128 116 108 108 108 108 108 108 108 108 108 108 108 108 108 85 85 160 150 126 114 106 105 105 105 100 100 100 100 100 100 100 100 100 100 100 100 160 142 118 100 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 159 121 102 99 99 99 99 99 99 51 51 51 51 51 51 51 51 51 51 51
+
+Insertion GCP:
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25
+2	0	2.75	2.75	2.75	2.75	2.75	2.75	2.75	2.75	2.75	2.75	2.75	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50
+3	0	2.00	2.00	2.00	2.00	2.00	2.00	2.00	2.00	2.00	2.00	2.00	2.00	2.00	2.00	2.00	1.75	1.75	1.75	1.75	1.75
+4	0	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.50	1.50	1.50	1.50	1.50	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25
+5	0	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00
+6	0	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00
+7	0	1.25	1.25	1.25	1.25	1.25	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75
+8	0	1.00	1.00	1.00	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75
+
+Command line insertion GCP:
+ 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 11 11 11 11 11 11 11 11 11 11 11 10 10 10 10 10 10 10 10 10 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 7 7 7 7 7 7 7 7 7 7 7 6 6 6 6 6 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+
+Deletion GCP:
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25	6.25
+2	0	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50	2.50
+3	0	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75	1.75
+4	0	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25	1.25
+5	0	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00
+6	0	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00	1.00
+7	0	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75
+8	0	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75	0.75
+
+Command line deletion GCP:
+ 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+
+API:
+	RepeatLen
+Period	0	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+1	0	30.00	30.00	30.00	30.00	30.00	29.50	25.25	21.25	17.75	15.00	13.25	12.00	11.00	10.25	9.50	9.00	8.25	8.00	7.75	6.25
+2	0	30.00	30.00	30.00	28.00	22.75	18.50	15.75	13.00	10.50	8.75	7.00	6.00	5.25	4.50	4.00	3.50	3.00	3.00	3.00	3.00
+3	0	30.00	30.00	30.00	25.75	21.00	18.25	14.25	11.00	8.50	6.25	5.00	3.25	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00
+4	0	30.00	30.00	24.50	20.00	16.50	12.25	8.75	5.50	4.00	3.75	3.50	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00
+5	0	30.00	30.00	24.75	20.25	14.00	9.50	5.75	4.75	3.50	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00
+6	0	30.00	30.00	22.75	17.25	11.25	7.75	6.50	4.25	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00
+7	0	30.00	30.00	20.50	14.00	9.50	6.50	5.50	5.50	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00
+8	0	27.25	27.25	17.50	12.00	9.25	5.50	4.75	4.75	4.75	4.75	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00	3.00
+
+Command line API:
+ 30 30 30 30 30 29 25 21 17 15 13 12 11 10 9 9 8 8 7 6 30 30 30 28 22 18 15 13 10 8 7 6 5 4 4 3 3 3 3 3 30 30 30 25 21 18 14 11 8 6 5 3 3 3 3 3 3 3 3 3 30 30 24 20 16 12 8 5 4 3 3 3 3 3 3 3 3 3 3 3 30 30 24 20 14 9 5 4 3 3 3 3 3 3 3 3 3 3 3 3 30 30 22 17 11 7 6 4 3 3 3 3 3 3 3 3 3 3 3 3 30 30 20 14 9 6 5 5 3 3 3 3 3 3 3 3 3 3 3 3 27 27 17 12 9 5 4 4 4 4 3 3 3 3 3 3 3 3 3 3
+
+Group: 0, totalBases: 3255181802, pcrProbErr: 165369.74
+Group 0 Estimated PCR error probability: 42.94
