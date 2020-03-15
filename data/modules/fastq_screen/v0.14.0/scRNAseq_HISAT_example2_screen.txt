@@ -1,0 +1,32 @@
+#Fastq_screen version: 0.14.0	#Aligner: bowtie2	#Reads in subset: 100000
+Genome	#Reads_processed	#Unmapped	%Unmapped	#One_hit_one_genome	%One_hit_one_genome	#Multiple_hits_one_genome	%Multiple_hits_one_genome	#One_hit_multiple_genomes	%One_hit_multiple_genomes	Multiple_hits_multiple_genomes	%Multiple_hits_multiple_genomes
+Cat	154	133	86.37	0	0.00	0	0.00	12	7.79	9	5.84
+Chicken	154	141	91.56	0	0.00	0	0.00	0	0.00	13	8.44
+Cow	154	131	85.06	0	0.00	0	0.00	7	4.55	16	10.39
+Drosophila	154	148	96.10	0	0.00	0	0.00	0	0.00	6	3.90
+Human	154	126	81.82	0	0.00	0	0.00	10	6.49	18	11.69
+Mouse	154	1	0.65	43	27.92	16	10.39	34	22.08	60	38.96
+Opossum	154	138	89.61	0	0.00	0	0.00	3	1.95	13	8.44
+Pig	154	132	85.72	0	0.00	0	0.00	9	5.84	13	8.44
+Rat	154	73	47.40	0	0.00	0	0.00	35	22.73	46	29.87
+Zebrafish	154	142	92.21	0	0.00	0	0.00	2	1.30	10	6.49
+Arabidopsis	154	146	94.81	0	0.00	0	0.00	0	0.00	8	5.19
+Grape	154	147	95.45	0	0.00	0	0.00	1	0.65	6	3.90
+Potato	154	146	94.81	0	0.00	0	0.00	0	0.00	8	5.19
+Tomato	154	146	94.81	0	0.00	0	0.00	0	0.00	8	5.19
+Adapters	154	154	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Brachybacterium	154	154	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Pseudomonas	154	154	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Massilia_oculi	154	154	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Ecoli	154	154	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Lambda	154	154	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+MT	154	141	91.56	0	0.00	0	0.00	11	7.14	2	1.30
+PhiX	154	154	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+rRNA	154	148	96.10	0	0.00	0	0.00	2	1.30	4	2.60
+Wasp	154	148	96.10	0	0.00	0	0.00	1	0.65	5	3.25
+Vectors	154	148	96.10	0	0.00	0	0.00	0	0.00	6	3.90
+Worm	154	147	95.45	0	0.00	0	0.00	0	0.00	7	4.55
+Yeast	154	147	95.45	0	0.00	0	0.00	0	0.00	7	4.55
+Mycoplasma	154	154	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+
+%Hit_no_genomes: 0.00
