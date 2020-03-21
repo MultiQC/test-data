@@ -1,0 +1,9 @@
+## htsjdk.samtools.metrics.StringHeader
+# CollectMultipleMetrics INPUT=path/to/sample.bam OUTPUT=path/to/sample FILE_EXTENSION=.txt PROGRAM=[CollectAlignmentSummaryMetrics, CollectBaseDistributionByCycle, CollectInsertSizeMetrics, MeanQualityByCycle, QualityScoreDistribution, CollectGcBiasMetrics, CollectSequencingArtifactMetrics, CollectQualityYieldMetrics] 
+## htsjdk.samtools.metrics.StringHeader
+# Started on: Tue Mar 03 10:14:32 MST 2020
+
+## METRICS CLASS	picard.analysis.CollectQualityYieldMetrics$QualityYieldMetrics
+TOTAL_READS	PF_READS	READ_LENGTH	TOTAL_BASES	PF_BASES	Q20_BASES	PF_Q20_BASES	Q30_BASES	PF_Q30_BASES	Q20_EQUIVALENT_YIELD	PF_Q20_EQUIVALENT_YIELD
+10000	9500	100	1000000	950000	800000	750000	700000	650000	1234567	1212121
+
