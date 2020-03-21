@@ -1,0 +1,2 @@
+File	TotalReads	ForwardPct	ReversePct	Predicted
+test.bam	283583	0.0753	0.9247	Stranded-Reverse

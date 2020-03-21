@@ -1,0 +1,1 @@
+Note that these test files have been artificially created. They do not represent any real data, and the math may not work out when computing things like percentages.
