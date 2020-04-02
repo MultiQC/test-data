@@ -1,0 +1,58 @@
+---
+Meta:
+  tool: SNPsplit
+  version: 0.3.4_dev
+  infile: R1_CAST_EiJ_N-masked_GRCm38_bismark_bt2_pe.bam
+  date_run: Mon Nov 25 15:43:15 2019
+  mode: bisulfite
+  library: paired-end
+  command: SNPsplit --snp all_SNPs_CAST_EiJ_GRCm38.txt.gz R1_CAST_EiJ_N-masked_GRCm38_bismark_bt2_pe.bam
+Tagging:
+  total_reads: 3754
+  unaligned: 0
+  percent_unaligned: 0.00
+  g1: 612
+  percent_g1: 16.30
+  g2: 476
+  percent_g2: 12.68
+  unassignable: 2665
+  percent_unassignable: 70.99
+  unassigned_but_ct: 379
+  no_snp: 2
+  percent_no_snp: 0.05
+  bizarre: 1
+  percent_bizarre: 0.03
+  SNP_annotation: all_SNPs_CAST_EiJ_GRCm38.txt.gz
+  SNPs_stored: 20668547
+  N_containing_reads: 1469
+  non_N_containing_reads: 2284
+  N_deletion: 1
+  percent_N_deletion: 0.03
+  multi_N_deletion: 0
+  N_was_known_SNP: 2296
+  percent_N_was_known_SNP: 100.00
+  CT_positions_skipped: 774
+  N_not_known: 0
+  percent_N_not_known: 0.00
+Sorting:
+  tagged_infile: R1_CAST_EiJ_N-masked_GRCm38_bismark_bt2_pe.allele_flagged.bam
+  PE_total_reads: 1877
+  PE_total_pairs: 1877
+  PE_total_singletons: 0
+  PE_unassignable: 1068
+  PE_percent_unassignable: 56.90
+  PE_unassignable_pairs: 1068
+  PE_unassignable_singletons: 0
+  PE_genome1: 455
+  PE_percent_genome1: 24.24
+  PE_genome1_pairs: 455
+  PE_genome1_singletons: 0
+  PE_genome2: 353
+  PE_percent_genome2: 18.81
+  PE_genome2_pairs: 353
+  PE_genome2_singletons: 0
+  PE_conflicting: 1
+  PE_percent_conflicting: 0.05
+  PE_conflicting_pairs: 1
+  PE_conflicting_singletons: 0
+...

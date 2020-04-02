@@ -1,0 +1,58 @@
+---
+Meta:
+  tool: SNPsplit
+  version: 0.3.4_dev
+  infile: lane4904.hicup.bam
+  date_run: Mon Nov 25 15:37:32 2019
+  mode: Hi-C
+  library: paired-end
+  command: SNPsplit --snp all_SNPs_CAST_EiJ_GRCm38.txt.gz lane4904.hicup.bam --hic
+Tagging:
+  total_reads: 1616940
+  unaligned: 0
+  percent_unaligned: 0.00
+  g1: 391351
+  percent_g1: 24.20
+  g2: 358019
+  percent_g2: 22.14
+  unassignable: 864197
+  percent_unassignable: 53.45
+  no_snp: 2407
+  percent_no_snp: 0.15
+  bizarre: 3373
+  percent_bizarre: 0.21
+  SNP_annotation: all_SNPs_CAST_EiJ_GRCm38.txt.gz
+  SNPs_stored: 20668547
+  N_containing_reads: 754253
+  non_N_containing_reads: 861790
+  N_deletion: 897
+  percent_N_deletion: 0.06
+  multi_N_deletion: 1
+  N_was_known_SNP: 1430442
+  percent_N_was_known_SNP: 99.97
+  N_not_known: 466
+  percent_N_not_known: 0.03
+Sorting:
+  tagged_infile: lane4904.hicup.allele_flagged.bam
+  HiC_total_pairs: 808470
+  HiC_unassignable_UA_UA: 236613
+  HiC_percent_unassignable_UA_UA: 29.27
+  HiC_genome1_G1_G1: 89316
+  HiC_percent_genome1_G1_G1: 11.05
+  HiC_genome2_G2_G2: 81093
+  HiC_percent_genome2_G2_G2: 10.03
+  HiC_G1_UA_total: 203114
+  HiC_percent_G1_UA_total: 25.12
+  HiC_G1_UA: 101727
+  HiC_UA_G1: 101387
+  HiC_G2_UA_total: 186113
+  HiC_percent_G2_UA_total: 23.02
+  HiC_G2_UA: 92750
+  HiC_UA_G2: 93363
+  HiC_G1_G2_total: 8855
+  HiC_percent_G1_G2_total: 1.10
+  HiC_G1_G2: 4391
+  HiC_G2_G1: 4464
+  HiC_conflicting: 3366
+  HiC_percent_conflicting: 0.42
+...

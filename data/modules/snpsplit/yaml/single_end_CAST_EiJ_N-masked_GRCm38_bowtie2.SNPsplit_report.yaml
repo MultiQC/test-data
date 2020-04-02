@@ -1,0 +1,46 @@
+---
+Meta:
+  tool: SNPsplit
+  version: 0.3.4_dev
+  infile: single_end_CAST_EiJ_N-masked_GRCm38_bowtie2.bam
+  date_run: Mon Nov 25 15:41:59 2019
+  mode: standard DNA
+  library: single-end
+  command: SNPsplit --snp all_SNPs_CAST_EiJ_GRCm38.txt.gz single_end_CAST_EiJ_N-masked_GRCm38_bowtie2.bam
+Tagging:
+  total_reads: 2418
+  unaligned: 0
+  percent_unaligned: 0.00
+  g1: 431
+  percent_g1: 17.82
+  g2: 366
+  percent_g2: 15.14
+  unassignable: 1620
+  percent_unassignable: 67.00
+  no_snp: 3
+  percent_no_snp: 0.12
+  bizarre: 1
+  percent_bizarre: 0.04
+  SNP_annotation: all_SNPs_CAST_EiJ_GRCm38.txt.gz
+  SNPs_stored: 20668547
+  N_containing_reads: 801
+  non_N_containing_reads: 1617
+  N_deletion: 0
+  percent_N_deletion: 0.00
+  multi_N_deletion: 0
+  N_was_known_SNP: 1225
+  percent_N_was_known_SNP: 100.00
+  N_not_known: 0
+  percent_N_not_known: 0.00
+Sorting:
+  tagged_infile: single_end_CAST_EiJ_N-masked_GRCm38_bowtie2.allele_flagged.bam
+  SE_total_reads: 2418
+  SE_unassignable: 1620
+  SE_percent_unassignable: 67.00
+  SE_genome1: 431
+  SE_percent_genome1: 17.82
+  SE_genome2: 366
+  SE_percent_genome2: 15.14
+  SE_conflicting: 1
+  SE_percent_conflicting: 0.04
+...

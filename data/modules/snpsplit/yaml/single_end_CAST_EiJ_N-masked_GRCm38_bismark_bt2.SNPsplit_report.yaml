@@ -1,0 +1,48 @@
+---
+Meta:
+  tool: SNPsplit
+  version: 0.3.4_dev
+  infile: single_end_CAST_EiJ_N-masked_GRCm38_bismark_bt2.bam
+  date_run: Mon Nov 25 15:44:34 2019
+  mode: bisulfite
+  library: single-end
+  command: SNPsplit --snp all_SNPs_CAST_EiJ_GRCm38.txt.gz single_end_CAST_EiJ_N-masked_GRCm38_bismark_bt2.bam
+Tagging:
+  total_reads: 1967
+  unaligned: 0
+  percent_unaligned: 0.00
+  g1: 294
+  percent_g1: 14.95
+  g2: 251
+  percent_g2: 12.76
+  unassignable: 1420
+  percent_unassignable: 72.19
+  unassigned_but_ct: 199
+  no_snp: 0
+  percent_no_snp: 0.00
+  bizarre: 2
+  percent_bizarre: 0.10
+  SNP_annotation: all_SNPs_CAST_EiJ_GRCm38.txt.gz
+  SNPs_stored: 20668547
+  N_containing_reads: 745
+  non_N_containing_reads: 1221
+  N_deletion: 1
+  percent_N_deletion: 0.05
+  multi_N_deletion: 0
+  N_was_known_SNP: 1139
+  percent_N_was_known_SNP: 100.00
+  CT_positions_skipped: 389
+  N_not_known: 0
+  percent_N_not_known: 0.00
+Sorting:
+  tagged_infile: single_end_CAST_EiJ_N-masked_GRCm38_bismark_bt2.allele_flagged.bam
+  SE_total_reads: 1967
+  SE_unassignable: 1420
+  SE_percent_unassignable: 72.19
+  SE_genome1: 294
+  SE_percent_genome1: 14.95
+  SE_genome2: 251
+  SE_percent_genome2: 12.76
+  SE_conflicting: 2
+  SE_percent_conflicting: 0.10
+...

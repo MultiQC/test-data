@@ -1,0 +1,56 @@
+---
+Meta:
+  tool: SNPsplit
+  version: 0.3.4_dev
+  infile: R1_CAST_EiJ_N-masked_GRCm38_bowtie2.bam
+  date_run: Mon Nov 25 15:46:53 2019
+  mode: standard DNA
+  library: paired-end
+  command: SNPsplit --snp all_SNPs_CAST_EiJ_GRCm38.txt.gz R1_CAST_EiJ_N-masked_GRCm38_bowtie2.bam
+Tagging:
+  total_reads: 4592
+  unaligned: 0
+  percent_unaligned: 0.00
+  g1: 863
+  percent_g1: 18.79
+  g2: 731
+  percent_g2: 15.92
+  unassignable: 2993
+  percent_unassignable: 65.18
+  no_snp: 2
+  percent_no_snp: 0.04
+  bizarre: 5
+  percent_bizarre: 0.11
+  SNP_annotation: all_SNPs_CAST_EiJ_GRCm38.txt.gz
+  SNPs_stored: 20668547
+  N_containing_reads: 1599
+  non_N_containing_reads: 2991
+  N_deletion: 2
+  percent_N_deletion: 0.04
+  multi_N_deletion: 0
+  N_was_known_SNP: 2505
+  percent_N_was_known_SNP: 100.00
+  N_not_known: 0
+  percent_N_not_known: 0.00
+Sorting:
+  tagged_infile: R1_CAST_EiJ_N-masked_GRCm38_bowtie2.allele_flagged.bam
+  PE_total_reads: 2296
+  PE_total_pairs: 2296
+  PE_total_singletons: 0
+  PE_unassignable: 1181
+  PE_percent_unassignable: 51.44
+  PE_unassignable_pairs: 1181
+  PE_unassignable_singletons: 0
+  PE_genome1: 596
+  PE_percent_genome1: 25.96
+  PE_genome1_pairs: 596
+  PE_genome1_singletons: 0
+  PE_genome2: 513
+  PE_percent_genome2: 22.34
+  PE_genome2_pairs: 513
+  PE_genome2_singletons: 0
+  PE_conflicting: 6
+  PE_percent_conflicting: 0.26
+  PE_conflicting_pairs: 6
+  PE_conflicting_singletons: 0
+...
