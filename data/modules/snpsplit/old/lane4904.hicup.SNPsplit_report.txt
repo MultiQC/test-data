@@ -1,0 +1,55 @@
+Input file:					'lane4904.hicup.bam'
+Writing allele-flagged output file to:		'lane4904.hicup.allele_flagged.bam'
+
+
+Allele-tagging report
+=====================
+Processed 1616940 read alignments in total
+Reads were unaligned and hence skipped: 0 (0.00%)
+864197 reads were unassignable (53.45%)
+391351 reads were specific for genome 1 (24.20%)
+358019 reads were specific for genome 2 (22.14%)
+2407 reads did not contain one of the expected bases at known SNP positions (0.15%)
+3373 contained conflicting allele-specific SNPs (0.21%)
+
+
+SNP coverage report
+===================
+SNP annotation file:	../all_SNPs_CAST_EiJ_GRCm38.txt.gz
+SNPs stored in total:	20668547
+N-containing reads:	754253
+non-N:			861790
+total:			1616940
+Reads had a deletion of the N-masked position (and were thus dropped):	897 (0.06%)
+Of which had multiple deletions of N-masked positions within the same read:	1
+
+Of valid N containing reads,
+N was present in the list of known SNPs:	1430442 (99.97%)
+N was not present in the list of SNPs:		466 (0.03%)
+
+Input file:						'lane4904.hicup.allele_flagged.bam'
+Writing unassigned reads to:				'lane4904.hicup.UA_UA.bam'
+Writing genome 1-specific reads to:			'lane4904.hicup.G1_G1.bam'
+Writing genome 2-specific reads to:			'lane4904.hicup.G2_G2.bam'
+Writing G1/UA reads to:					'lane4904.hicup.G1_UA.bam'
+Writing G2/UA reads to:					'lane4904.hicup.G2_UA.bam'
+Writing G1/G2 reads to:					'lane4904.hicup.G1_G2.bam'
+
+
+Allele-specific paired-end sorting report
+=========================================
+Read pairs processed in total:				808470
+Read pairs were unassignable (UA/UA):			236613 (29.27%)
+Read pairs were specific for genome 1 (G1/G1):		89316 (11.05%)
+Read pairs were specific for genome 2 (G2/G2):		81093 (10.03%)
+Read pairs were a mix of G1 and UA:			203114 (25.12%). Of these,
+			were G1/UA: 101727
+			were UA/G1: 101387
+Read pairs were a mix of G2 and UA:			186113 (23.02%). Of these,
+			were G2/UA: 92750
+			were UA/G2: 93363
+Read pairs were a mix of G1 and G2:			8855 (1.10%). Of these,
+			were G1/G2: 4391
+			were G2/G1: 4464
+Read pairs contained conflicting SNP information:	3366 (0.42%)
+
