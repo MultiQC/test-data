@@ -1,0 +1,61 @@
+  0.27	3628	3628	U	0	unclassified
+ 99.73	1356924	0	R	1	root
+ 99.73	1356924	0	D	10239	  Viruses
+ 99.38	1352081	0	D1	2559587	    Riboviria
+ 99.38	1352067	0	O	76804	      Nidovirales
+ 99.38	1352067	0	O1	2499399	        Cornidovirineae
+ 99.38	1352067	0	F	11118	          Coronaviridae
+ 99.38	1352067	1	F1	2501931	            Orthocoronavirinae
+ 99.38	1352066	0	G	694002	              Betacoronavirus
+ 99.38	1352066	0	G1	2509511	                Sarbecovirus
+ 99.38	1352066	6	S	694009	                  Severe acute respiratory syndrome-related coronavirus
+ 99.38	1352060	1352060	S1	2697049	                    Severe acute respiratory syndrome coronavirus 2
+  0.00	14	0	P	2497569	      Negarnaviricota
+  0.00	14	0	P1	2497571	        Polyploviricotina
+  0.00	14	0	C	2497576	          Ellioviricetes
+  0.00	14	0	O	1980410	            Bunyavirales
+  0.00	14	0	F	1980416	              Peribunyaviridae
+  0.00	14	0	G	11572	                Orthobunyavirus
+  0.00	12	12	S	35306	                  Simbu orthobunyavirus
+  0.00	2	2	S	159150	                  Shamonda orthobunyavirus
+  0.35	4800	0	F	10841	    Microviridae
+  0.35	4800	0	F1	1910950	      Bullavirinae
+  0.35	4800	0	G	1910954	        Sinsheimervirus
+  0.35	4800	4800	S	10847	          Escherichia virus phiX174
+  0.00	25	0	O	28883	    Caudovirales
+  0.00	24	0	F	10699	      Siphoviridae
+  0.00	23	0	G	1921122	        Nonanavirus
+  0.00	23	0	G1	2315205	          unclassified Nonanavirus
+  0.00	23	23	S	1969841	            Proteus phage VB_PmiS-Isfahan
+  0.00	1	0	G	2560124	        Efquatrovirus
+  0.00	1	0	S	2560420	          Enterococcus virus EF3
+  0.00	1	1	S1	1416012	            Enterococcus phage IME_EF3
+  0.00	1	0	F	10662	      Myoviridae
+  0.00	1	0	F1	196896	        unclassified Myoviridae
+  0.00	1	1	S	754037	          Synechococcus phage S-CAM1
+  0.00	9	0	F	10240	    Poxviridae
+  0.00	9	0	F1	10241	      Chordopoxvirinae
+  0.00	9	0	F2	40070	        unclassified Chordopoxvirinae
+  0.00	9	9	S	67082	          BeAn 58058 virus
+  0.00	4	0	F	10442	    Baculoviridae
+  0.00	4	0	G	558017	      Betabaculovirus
+  0.00	4	4	S	56947	        Choristoneura fumiferana granulovirus
+  0.00	2	0	O	548681	    Herpesvirales
+  0.00	2	0	F	10292	      Herpesviridae
+  0.00	1	0	F1	10293	        Alphaherpesvirinae
+  0.00	1	0	G	180252	          Mardivirus
+  0.00	1	1	S	93386	            Columbid alphaherpesvirus 1
+  0.00	1	0	F1	10357	        Betaherpesvirinae
+  0.00	1	1	S	33706	          Caviid betaherpesvirus 2
+  0.00	1	0	F	39724	    Circoviridae
+  0.00	1	0	G	39725	      Circovirus
+  0.00	1	0	S	2003309	        Bat associated circovirus 4
+  0.00	1	1	S1	1732201	          Tadarida brasiliensis circovirus 1
+  0.00	1	0	D1	12429	    unclassified viruses
+  0.00	1	0	D2	2204151	      unclassified DNA viruses
+  0.00	1	0	D3	51368	        unclassified dsDNA viruses
+  0.00	1	0	G	2060084	          Pandoravirus
+  0.00	1	1	S	2107708	            Pandoravirus neocaledonia
+  0.00	1	0	F	1511852	    Nudiviridae
+  0.00	1	0	F1	1110703	      unclassified Nudiviridae
+  0.00	1	1	S	2072209	        Esparto virus

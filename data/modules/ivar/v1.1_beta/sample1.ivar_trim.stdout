@@ -1,0 +1,12 @@
+Number of references: 1
+Reference Name: NC_045512.2
+Reference Length: 29903
+Using Region: NC_045512.2
+Sorted By Coordinate
+Sorted By Query Name
+Processed 1000000 reads ... 
+Processed 2000000 reads ... 
+Results: 
+Trimmed primers from 2480382 reads.
+40995 reads were shortened below the minimum length of 30 bp and were not writen to file.
+216882 reads started outside of primer regions. Since the -e flag was given, these reads were written to file
