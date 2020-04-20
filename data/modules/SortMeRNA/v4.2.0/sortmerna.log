@@ -1,0 +1,36 @@
+ Command:
+    sortmerna --ref /data/database/SortmeRNA/rRNA.Homo_sapiens.EnsemblGenes98.fa --reads 22-6d.fq --paired_in --threads 127 --workdir /data/lab/HuangMingQian/sc-methylation2/work//22-6d/sortmerna --fastx --num_alignments 1 --aligned merge_rRNA --other merge_non_rRNA -v 
+
+ Process pid = 101083
+
+ Parameters summary: 
+    Reference file: /data/database/SortmeRNA/rRNA.Homo_sapiens.EnsemblGenes98.fa
+        Seed length = 18
+        Pass 1 = 18, Pass 2 = 9, Pass 3 = 3
+        Gumbel lambda = 0.611314
+        Gumbel K = 0.337197
+        Minimal SW score based on E-value = 51
+    Number of seeds = 2
+    Edges = 4
+    SW match = 2
+    SW mismatch = -3
+    SW gap open penalty = 5
+    SW gap extend penalty = 2
+    SW ambiguous nucleotide = -3
+    SQ tags are not output
+    Number of alignment processing threads = 127
+    Reads file: 22-6d.fq
+    Total reads = 148373484
+
+ Results:
+    Total reads passing E-value threshold = 12383 (0.01)
+    Total reads failing E-value threshold = 148361101 (99.99)
+    Minimum read length = 20
+    Maximum read length = 131
+    Mean read length    = 118
+
+ Coverage by database:
+    /data/database/SortmeRNA/rRNA.Homo_sapiens.EnsemblGenes98.fa		0.01
+
+ Fri Apr  3 19:47:19 2020
+
