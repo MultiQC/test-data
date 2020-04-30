@@ -1,0 +1,6 @@
+
+FastQ paired records kept: 46780000 (23390000 pairs)
+FastQ single records kept: 127900 (from PE1: 127400, from PE2: 5000)
+FastQ paired records discarded: 250000 (3000 pairs)
+FastQ single records discarded: 127900 (from PE1: 5000, from PE2: 1274)
+
