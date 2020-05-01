@@ -13,3 +13,6 @@ ivar trim \
 
 `sample1.trim.ivar.log` (iVar v1.2)
 
+## ivar variant log file
+
+Doesn't have a standard naming convention either, `sample1_pe_ivar_variants.tsv` for testing purposes added.
