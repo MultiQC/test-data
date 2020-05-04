@@ -1,0 +1,13 @@
+samblaster: Version 0.1.25(3.2 KiB/s) with 1 file(s) remaining
+samblaster: Inputting from stdin
+samblaster: Outputting to stdout
+samblaster: Loaded 84 header sequence entries.
+samblaster:
+samblaster: Pair Type        Type_ID_Count   %Type/All_IDs Dup_ID_Count  %Dups/Type_ID_Count  %Dups/All_Dups  %Dups/All_IDs
+samblaster: ---------------------------------------------------------------------------------------------------------------
+samblaster: Both Unmapped            2645         0.077              0           0.000             0.000          0.000
+samblaster: Orphan/Singleton        24303         0.706           1952           8.032             0.212          0.057
+samblaster: Both Mapped           3416627        99.217         920794          26.950            99.788         26.739
+samblaster: Total                 3443575       100.000         922746          26.796           100.000         26.796
+samblaster:
+samblaster: Marked      922746 of    3443575 (26.796%) total read ids as duplicates using 49304k memory in 4.779S CPU seconds and 14S wall time.
