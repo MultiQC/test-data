@@ -1,0 +1,103 @@
+
+Aligning sequencing reads from file:	SRX264575_trimmed.fq.gz
+Total reads:            	59408759
+Successfully aligned reads:	58215735	98%	(>NC_003888.3 Streptomyces coelicolor A3(2) chromosome, complete genome)
+	Aligning (sense) to protein-coding genes:	3%
+	Aligning (antisense) to protein-coding genes:	0%
+	Aligning (sense) to ribosomal RNAs:	95%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	1%
+Successfully aligned reads:	0	0%	(>NC_003903.1 Streptomyces coelicolor A3(2) plasmid SCP1, complete sequence)
+	Aligning (sense) to protein-coding genes:	0%
+	Aligning (antisense) to protein-coding genes:	0%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	0%
+Successfully aligned reads:	0	0%	(>NC_003904.1 Streptomyces coelicolor A3(2) plasmid SCP2, complete sequence)
+	Aligning (sense) to protein-coding genes:	0%
+	Aligning (antisense) to protein-coding genes:	0%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	0%
+
+Analyzing transcripts...
+
+************************************************************
+Streptomyces coelicolor A3(2) chromosome, complete
+************************************************************
+
+Computing transcript boundaries...
+	Number of 5'UTRs:			964
+	Number of 3'UTRs:			666
+	Number of predicted RNAs:			11
+	Number of predicted RNAs (not antisense):		5
+	Number of predicted RNAs (antisense):		6
+
+Computing differential gene expression...
+	Number of differentially expressed protein coding genes:	0
+
+Computing likely operons...
+	Number of gene-pairs predicted to be part of the same operon:	2099
+	Number of predicted multi-gene operons:		1311
+
+
+************************************************************
+Streptomyces coelicolor A3(2) plasmid SCP1, complete
+************************************************************
+
+Computing transcript boundaries...
+	Number of 5'UTRs:			0
+	Number of 3'UTRs:			0
+	Number of predicted RNAs:			0
+	Number of predicted RNAs (not antisense):		0
+	Number of predicted RNAs (antisense):		0
+
+Computing differential gene expression...
+	Number of differentially expressed protein coding genes:	0
+
+Computing likely operons...
+	Number of gene-pairs predicted to be part of the same operon:	112
+	Number of predicted multi-gene operons:		64
+
+
+************************************************************
+Streptomyces coelicolor A3(2) plasmid SCP2, complete
+************************************************************
+
+Computing transcript boundaries...
+	Number of 5'UTRs:			0
+	Number of 3'UTRs:			0
+	Number of predicted RNAs:			0
+	Number of predicted RNAs (not antisense):		0
+	Number of predicted RNAs (antisense):		0
+
+Computing differential gene expression...
+	Number of differentially expressed protein coding genes:	0
+
+Computing likely operons...
+	Number of gene-pairs predicted to be part of the same operon:	11
+	Number of predicted multi-gene operons:		9
+
+
+Summary of results written to file:	SRX264575_results/summary.txt
+Expression of transcripts written to file:	SRX264575_results/NC_003888_transcripts.txt
+Operons written to file:		SRX264575_results/NC_003888_operons.txt
+Expression of transcripts written to file:	SRX264575_results/NC_003903_transcripts.txt
+Operons written to file:		SRX264575_results/NC_003903_operons.txt
+Expression of transcripts written to file:	SRX264575_results/NC_003904_transcripts.txt
+Operons written to file:		SRX264575_results/NC_003904_operons.txt
+
+FINISHED.
+
