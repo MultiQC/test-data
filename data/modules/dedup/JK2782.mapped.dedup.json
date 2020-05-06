@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "tool_name": "DeDup",
+    "version": "0.12.6",
+    "sample_name": "JK2782.mapped.bam"
+  },
+  "metrics": {
+    "total_reads": 9892,
+    "mapped_reads": 1200,
+    "merged_removed": 27,
+    "forward_removed": 0,
+    "total_removed": 27,
+    "reverse_removed": 0,
+    "dup_rate": "0",
+    "clusterfactor": "1"
+  }
+}
