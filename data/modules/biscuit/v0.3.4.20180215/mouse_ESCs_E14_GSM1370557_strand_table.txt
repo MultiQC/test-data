@@ -1,0 +1,9 @@
+BISCUITqc Strand Table
+strand	2-+	4978289
+strand	2+-	4239357
+strand	2--	2440204
+strand	1++	4308570
+strand	1+-	2684321
+strand	1-+	2914877
+strand	1--	3857003
+strand	2++	2629656

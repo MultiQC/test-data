@@ -1,0 +1,5 @@
+BISCUITqc CpG Uniformity Table
+sample	mu	sigma	cv
+mouse_ESCs_E14_GSM1370557_cpg	0.88712	27.6214	31.136
+mouse_ESCs_E14_GSM1370557_cpg_topgc	1.7906	31.552	17.6209
+mouse_ESCs_E14_GSM1370557_cpg_botgc	0.162948	2.30134	14.1231

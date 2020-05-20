@@ -1,0 +1,13 @@
+BISCUITqc CpG Distribution Table
+Territory	All	UniqCov	AllCov
+TotalCpGs	21867837	5499321	7151913
+ExonicCpGs	2151165	877574	973573
+RepeatCpGs	8751253	1627614	2913744
+GenicCpGs	10853066	3220705	3765973
+CGICpGs	1077351	619838	685490
+
+#CpG Islands	16009
+#CpG Islands covered by at least one q40-read in at least one CpG	14352
+#CpG Islands covered by at least one q40-read in at least three CpGs	13976
+#CpG Islands covered by at least one q40-read in at least five CpGs	13362
+#CpG Islands covered by at least one q40-read in at least ten CpGs	12179
