@@ -1,0 +1,28 @@
+BISCUITqc Strand Table
+Mapped reads: 65908083
+Unmapped reads: 794210
+Corrected reads: 0 (0.00%)
+
+Strand Distribution:
+strand\BS      BSW (f)      BSC (r)
+     R1 (f):   16677089     0            
+     R1 (r):   0            16334012     
+     R2 (f):   0            16224243     
+     R2 (r):   16572735     0            
+
+
+R1 mapped to converted:   33011101
+R1 mapped to synthesized: 0
+R2 mapped to converted:   0
+R2 mapped to synthesized: 32796978
+
+Confusion counts (single-end):
+orig\infer      BSW (f)      BSC (r)      Conflict (c) Unknown (u)
+     BSW (f):   32728342     306454       71562        143466       
+     BSC (r):   307858       32059909     60936        129552       
+Conflict (c):   0            0            0            0            
+ Unknown (u):   10318        26030        0            63656        
+
+[main] Version: 0.3.16.20200420
+[main] CMD: biscuit bsstrand /secondary/projects/shen/references/biscuit_hg38_noalt_analysis_set/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna tcga_lusc_normal.hg38_noalt.sorted.markdup.10percent_subsample.bam
+[main] Real time: 158.147 sec; CPU: 156.779 sec

@@ -1,0 +1,3 @@
+BISCUITqc Conversion Rate by Base Average Table
+CA	CC	CG	CT
+0.00703237	0.00439935	0.811583	0.00395807
