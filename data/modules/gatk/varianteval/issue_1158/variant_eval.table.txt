@@ -1,0 +1,29 @@
+#:GATKReport.v1.1:4
+#:GATKTable:10:3:%s:%s:%s:%s:%d:%d:%d:%.2f:%d:%.2f:;
+#:GATKTable:CompOverlap:The overlap between eval and comp sites
+CompOverlap  CompFeatureInput  EvalFeatureInput  Filter    nEvalVariants  novelSites  nVariantsAtComp  compRate  nConcordant  concordantRate
+CompOverlap  dbsnp             eval              called             1313         301             1012     77.08         1005           99.31
+CompOverlap  dbsnp             eval              filtered             37          27               10     27.03           10          100.00
+CompOverlap  dbsnp             eval              raw                1350         328             1022     75.70         1015           99.32
+
+#:GATKTable:29:3:%s:%s:%s:%s:%d:%d:%d:%d:%.8f:%.8f:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:%.2e:%.2f:%.2f:%.2e:%.2f:%.2f:;
+#:GATKTable:CountVariants:Counts different classes of variants in the sample
+CountVariants  CompFeatureInput  EvalFeatureInput  Filter    nProcessedLoci  nCalledLoci  nRefLoci  nVariantLoci  variantRate  variantRatePerBp  nSNPs  nMNPs  nInsertions  nDeletions  nComplex  nSymbolic  nMixed  nNoCalls  nHets  nHomRef  nHomVar  nSingletons  nHomDerived  heterozygosity  heterozygosityPerBp  hetHomRatio  indelRate  indelRatePerBp  insertionDeletionRatio
+CountVariants  dbsnp             eval              called         134492644         1313         0          1313   0.00000976   102431.00000000   1065      0          108         140         0          0       0         0     66        0     1247           47            0        4.91e-07           2037767.00         0.05   1.84e-06       542309.00                    0.77
+CountVariants  dbsnp             eval              filtered       134492644           37         0            37   0.00000028  3634936.00000000     27      0            2           8         0          0       0         0      0        0       37            0            0        0.00e+00                 0.00         0.00   7.44e-08     13449264.00                    0.25
+CountVariants  dbsnp             eval              raw            134492644         1350         0          1350   0.00001004    99624.00000000   1092      0          110         148         0          0       0         0     66        0     1284           47            0        4.91e-07           2037767.00         0.05   1.92e-06       521289.00                    0.74
+
+#:GATKTable:13:3:%s:%s:%s:%s:%d:%d:%.2f:%d:%d:%.2f:%d:%d:%.2f:;
+#:GATKTable:TiTvVariantEvaluator:Ti/Tv Variant Evaluator
+TiTvVariantEvaluator  CompFeatureInput  EvalFeatureInput  Filter    nTi  nTv  tiTvRatio  nTiInComp  nTvInComp  TiTvRatioStandard  nTiDerived  nTvDerived  tiTvDerivedRatio
+TiTvVariantEvaluator  dbsnp             eval              called    702  363       1.93        636        271               2.35           0           0              0.00
+TiTvVariantEvaluator  dbsnp             eval              filtered   15   12       1.25          6          3               2.00           0           0              0.00
+TiTvVariantEvaluator  dbsnp             eval              raw       717  375       1.91    2746067    1143771               2.40           0           0              0.00
+
+#:GATKTable:23:3:%s:%s:%s:%s:%d:%d:%d:%d:%d:%.2f:%.2f:%.2f:%.2f:%d:%d:%d:%d:%d:%d:%d:%d:%d:%d:;
+#:GATKTable:ValidationReport:Assess site accuracy and sensitivity of callset against follow-up validation assay
+ValidationReport  CompFeatureInput  EvalFeatureInput  Filter    nComp    TP    FP  FN       TN  sensitivity  specificity  PPV     FDR   CompMonoEvalNoCall  CompMonoEvalFiltered  CompMonoEvalMono  CompMonoEvalPoly  CompPolyEvalNoCall  CompPolyEvalFiltered  CompPolyEvalMono  CompPolyEvalPoly  CompFiltered  nDifferentAlleleSites
+ValidationReport  dbsnp             eval              called       1040  1012   0       28   0        97.31       100.00  100.00  0.00                   0                     0                 0                 0                  28                     0                 0              1012             0                      0
+ValidationReport  dbsnp             eval              filtered       10     0   0       10   0         0.00       100.00     NaN   NaN                   0                     0                 0                 0                   0                    10                 0                 0             0                      0
+ValidationReport  dbsnp             eval              raw       4217939  1012   0  4216927   0         0.02       100.00  100.00  0.00                   0                     0                 0                 0             4216917                    10                 0              1012             0                      0
+
