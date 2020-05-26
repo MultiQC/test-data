@@ -1,0 +1,3 @@
+Sample	Result1	Result2	
+123	pos	neg	
+456-abc	neg	neg
