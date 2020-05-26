@@ -1,0 +1,4818 @@
+This is cutadapt 2.10 with Python 3.6.10
+Command line parameters: --cores 2 --overlap 5 --minimum-length 30 --error-rate 0.1 -a file:primers.fasta -o SAMPLE3_SE.ptrim.fastq.gz SAMPLE3_SE.trim.fastq.gz
+Processing reads on 2 cores in single-end mode ...
+Finished in 19.35 s (415 us/read; 0.14 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  46,659
+Reads with adapters:                    18,941 (40.6%)
+Reads written (passing filters):        46,659 (100.0%)
+
+Total basepairs processed:    13,923,021 bp
+Total written (filtered):     13,738,774 bp (98.7%)
+
+=== Adapter nCoV-2019_1_LEFT ===
+
+Sequence: ACCAACCAACTTTCGATCTCTTGT; Type: non-internal 3'; Length: 24; Trimmed: 4 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 50.0%
+  C: 25.0%
+  G: 0.0%
+  T: 25.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	3	11.4	0	3
+12	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_1_RIGHT ===
+
+Sequence: CATCTTTAAGATGTTGACGTGCCTC; Type: non-internal 3'; Length: 25; Trimmed: 12 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 66.7%
+  C: 25.0%
+  G: 0.0%
+  T: 8.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+6	1	11.4	0	1
+8	2	0.7	0	2
+13	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_2_LEFT ===
+
+Sequence: CTGTTTTACAGGTTCGCGACGT; Type: non-internal 3'; Length: 22; Trimmed: 346 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 1.7%
+  C: 94.2%
+  G: 1.2%
+  T: 2.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	18	45.6	0	18
+6	8	11.4	0	8
+7	2	2.8	0	2
+8	4	0.7	0	4
+9	280	0.2	0	278 2
+11	4	0.0	1	0 4
+12	15	0.0	1	14 1
+13	5	0.0	1	4 1
+14	6	0.0	1	6
+15	1	0.0	1	1
+16	1	0.0	1	1
+20	2	0.0	2	2
+
+
+=== Adapter nCoV-2019_2_RIGHT ===
+
+Sequence: TAAGGATCAGTGCCAAGCTCGT; Type: non-internal 3'; Length: 22; Trimmed: 80 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 12.5%
+  C: 1.2%
+  G: 3.8%
+  T: 82.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	12	45.6	0	12
+6	63	11.4	0	63
+11	2	0.0	1	2
+14	2	0.0	1	2
+17	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_3_LEFT ===
+
+Sequence: CGGTAATAAAGGAGCTGGTGGC; Type: non-internal 3'; Length: 22; Trimmed: 1 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 100.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+
+
+=== Adapter nCoV-2019_3_RIGHT ===
+
+Sequence: AAGGTGTCTGCAATTCATAGCTCT; Type: non-internal 3'; Length: 24; Trimmed: 248 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 96.8%
+  C: 0.0%
+  G: 1.2%
+  T: 2.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	233	45.6	0	233
+6	6	11.4	0	6
+7	4	2.8	0	4
+8	1	0.7	0	1
+9	1	0.2	0	0 1
+11	2	0.0	1	0 2
+12	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_4_LEFT ===
+
+Sequence: GGTGTATACTGCTGCCGTGAAC; Type: non-internal 3'; Length: 22; Trimmed: 46 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 4.3%
+  G: 84.8%
+  T: 10.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+7	18	2.8	0	18
+9	12	0.2	0	12
+10	2	0.0	1	2
+11	1	0.0	1	1
+14	1	0.0	1	1
+15	1	0.0	1	1
+16	1	0.0	1	1
+19	2	0.0	1	2
+22	1	0.0	2	1
+24	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_4_RIGHT ===
+
+Sequence: CACAAGTAGTGGCACCTTCTTTAGT; Type: non-internal 3'; Length: 25; Trimmed: 15 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 26.7%
+  C: 53.3%
+  G: 0.0%
+  T: 20.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+7	2	2.8	0	2
+11	1	0.0	1	1
+20	2	0.0	2	2
+22	4	0.0	2	3 1
+
+
+=== Adapter nCoV-2019_5_LEFT ===
+
+Sequence: TGGTGAAACTTCATGGCAGACG; Type: non-internal 3'; Length: 22; Trimmed: 45 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 11.1%
+  C: 31.1%
+  G: 51.1%
+  T: 6.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	17	45.6	0	17
+7	6	2.8	0	6
+9	4	0.2	0	4
+10	3	0.0	1	3
+12	4	0.0	1	1 3
+15	3	0.0	1	3
+17	3	0.0	1	3
+22	1	0.0	2	1
+23	4	0.0	2	0 4
+
+
+=== Adapter nCoV-2019_5_RIGHT ===
+
+Sequence: ATTGATGTTGACTTTCTCTTTTTGGAGT; Type: non-internal 3'; Length: 28; Trimmed: 28 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 7.1%
+  C: 10.7%
+  G: 3.6%
+  T: 78.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+6	1	11.4	0	1
+10	1	0.0	1	1
+11	1	0.0	1	0 1
+13	1	0.0	1	1
+16	1	0.0	1	1
+19	2	0.0	1	2
+20	13	0.0	2	12 1
+23	1	0.0	2	1
+25	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_6_LEFT ===
+
+Sequence: GGTGTTGTTGGAGAAGGTTCCG; Type: non-internal 3'; Length: 22; Trimmed: 6 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 50.0%
+  T: 50.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	4	11.4	0	4
+7	1	2.8	0	1
+9	1	0.2	0	0 1
+
+
+=== Adapter nCoV-2019_6_RIGHT ===
+
+Sequence: TAGCGGCCTTCTGTAAAACACG; Type: non-internal 3'; Length: 22; Trimmed: 5 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 60.0%
+  C: 0.0%
+  G: 20.0%
+  T: 20.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+7	1	2.8	0	1
+11	1	0.0	1	1
+14	1	0.0	1	1
+19	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_7_LEFT ===
+
+Sequence: ATCAGAGGCTGCTCGTGTTGTA; Type: non-internal 3'; Length: 22; Trimmed: 9 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 33.3%
+  G: 0.0%
+  T: 66.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+6	2	11.4	0	2
+10	1	0.0	1	1
+21	1	0.0	2	1
+24	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_7_RIGHT ===
+
+Sequence: TGCACAGGTGACAATTTGTCCA; Type: non-internal 3'; Length: 22; Trimmed: 19 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 15.8%
+  C: 42.1%
+  G: 5.3%
+  T: 36.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	9	45.6	0	9
+6	4	11.4	0	4
+7	3	2.8	0	3
+12	1	0.0	1	1
+21	1	0.0	2	0 1
+22	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_8_LEFT ===
+
+Sequence: AGAGTTTCTTAGAGACGGTTGGGA; Type: non-internal 3'; Length: 24; Trimmed: 152 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 7.2%
+  C: 3.3%
+  G: 0.0%
+  T: 89.5%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	137	45.6	0	137
+6	10	11.4	0	10
+7	1	2.8	0	1
+8	2	0.7	0	2
+9	1	0.2	0	1
+10	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_8_RIGHT ===
+
+Sequence: GCTTCAACAGCTTCACTAGTAGGT; Type: non-internal 3'; Length: 24; Trimmed: 26 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 19.2%
+  C: 7.7%
+  G: 50.0%
+  T: 23.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+6	11	11.4	0	11
+9	2	0.2	0	0 2
+11	1	0.0	1	1
+14	3	0.0	1	3
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_9_LEFT ===
+
+Sequence: TCCCACAGAAGTGTTAACAGAGGA; Type: non-internal 3'; Length: 24; Trimmed: 5 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+10	1	0.0	1	1
+18	1	0.0	1	1
+20	1	0.0	2	1
+23	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_9_RIGHT ===
+
+Sequence: ATGACAGCATCTGCCACAACAC; Type: non-internal 3'; Length: 22; Trimmed: 15 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 13.3%
+  C: 0.0%
+  G: 6.7%
+  T: 80.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	10	45.6	0	10
+18	1	0.0	1	1
+20	3	0.0	2	3
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_10_LEFT ===
+
+Sequence: TGAGAAGTGCTCTGCCTATACAGT; Type: non-internal 3'; Length: 24; Trimmed: 57 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 94.7%
+  C: 3.5%
+  G: 0.0%
+  T: 1.8%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	48	45.6	0	48
+8	1	0.7	0	1
+9	1	0.2	0	1
+10	1	0.0	1	1
+12	1	0.0	1	1
+14	1	0.0	1	1
+16	1	0.0	1	1
+17	1	0.0	1	1
+21	1	0.0	2	1
+24	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_10_RIGHT ===
+
+Sequence: TCATCTAACCAATCTTCTTCTTGCTCT; Type: non-internal 3'; Length: 27; Trimmed: 627 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 99.2%
+  C: 0.5%
+  G: 0.2%
+  T: 0.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	621	45.6	0	621
+7	1	2.8	0	1
+10	3	0.0	1	3
+16	1	0.0	1	1
+19	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_11_LEFT ===
+
+Sequence: GGAATTTGGTGCCACTTCTGCT; Type: non-internal 3'; Length: 22; Trimmed: 177 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.6%
+  T: 99.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	168	45.6	0	168
+6	7	11.4	0	7
+7	1	2.8	0	1
+10	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_11_RIGHT ===
+
+Sequence: TCATCAGATTCAACTTGCATGGCA; Type: non-internal 3'; Length: 24; Trimmed: 0 times
+
+=== Adapter nCoV-2019_12_LEFT ===
+
+Sequence: AAACATGGAGGAGGTGTTGCAG; Type: non-internal 3'; Length: 22; Trimmed: 20 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 15.0%
+  C: 25.0%
+  G: 5.0%
+  T: 55.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	14	45.6	0	14
+6	2	11.4	0	2
+8	2	0.7	0	2
+11	1	0.0	1	1
+20	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_12_RIGHT ===
+
+Sequence: TTCACTCTTCATTTCCAAAAAGCTTGA; Type: non-internal 3'; Length: 27; Trimmed: 27 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 3.7%
+  C: 11.1%
+  G: 63.0%
+  T: 22.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	10	45.6	0	10
+6	6	11.4	0	6
+9	11	0.2	0	0 11
+
+
+=== Adapter nCoV-2019_13_LEFT ===
+
+Sequence: TCGCACAAATGTCTACTTAGCTGT; Type: non-internal 3'; Length: 24; Trimmed: 10 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 10.0%
+  G: 20.0%
+  T: 70.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+6	1	11.4	0	1
+8	1	0.7	0	1
+9	2	0.2	0	0 2
+10	1	0.0	1	1
+11	1	0.0	1	1
+14	1	0.0	1	1
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_13_RIGHT ===
+
+Sequence: ACCACAGCAGTTAAAACACCCT; Type: non-internal 3'; Length: 22; Trimmed: 626 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 98.7%
+  C: 0.2%
+  G: 0.5%
+  T: 0.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+6	2	11.4	0	2
+7	1	2.8	0	1
+8	6	0.7	0	6
+9	2	0.2	0	2
+10	4	0.0	1	4
+12	2	0.0	1	2
+13	3	0.0	1	3
+14	564	0.0	1	537 27
+15	30	0.0	1	29 1
+16	2	0.0	1	2
+17	3	0.0	1	3
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_14_LEFT ===
+
+Sequence: CATCCAGATTCTGCCACTCTTGT; Type: non-internal 3'; Length: 23; Trimmed: 32 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 3.1%
+  C: 0.0%
+  G: 0.0%
+  T: 96.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	29	45.6	0	29
+6	1	11.4	0	1
+15	1	0.0	1	1
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_14_RIGHT ===
+
+Sequence: AGTTTCCACACAGACAGGCATT; Type: non-internal 3'; Length: 22; Trimmed: 32 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 31.2%
+  C: 53.1%
+  G: 0.0%
+  T: 15.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	28	45.6	0	28
+6	4	11.4	0	4
+
+
+=== Adapter nCoV-2019_15_LEFT ===
+
+Sequence: ACAGTGCTTAAAAAGTGTAAAAGTGCC; Type: non-internal 3'; Length: 27; Trimmed: 24 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 20.8%
+  C: 0.0%
+  G: 20.8%
+  T: 58.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	19	45.6	0	19
+6	3	11.4	0	3
+9	2	0.2	0	0 2
+
+
+=== Adapter nCoV-2019_15_RIGHT ===
+
+Sequence: AACAGAAACTGTAGCTGGCACT; Type: non-internal 3'; Length: 22; Trimmed: 12 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 33.3%
+  C: 8.3%
+  G: 0.0%
+  T: 58.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+6	6	11.4	0	6
+7	1	2.8	0	1
+11	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_16_LEFT ===
+
+Sequence: AATTTGGAAGAAGCTGCTCGGT; Type: non-internal 3'; Length: 22; Trimmed: 20 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 40.0%
+  C: 5.0%
+  G: 25.0%
+  T: 30.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	15	45.6	0	15
+6	5	11.4	0	5
+
+
+=== Adapter nCoV-2019_16_RIGHT ===
+
+Sequence: CACAACTTGCGTGTGGAGGTTA; Type: non-internal 3'; Length: 22; Trimmed: 2 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 100.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	2	11.4	0	2
+
+
+=== Adapter nCoV-2019_17_LEFT ===
+
+Sequence: CTTCTTTCTTTGAGAGAAGTGAGGACT; Type: non-internal 3'; Length: 27; Trimmed: 359 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 18.7%
+  C: 8.6%
+  G: 71.9%
+  T: 0.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	58	45.6	0	58
+6	35	11.4	0	35
+7	234	2.8	0	234
+8	20	0.7	0	20
+9	1	0.2	0	0 1
+10	2	0.0	1	1 1
+11	2	0.0	1	1 1
+12	5	0.0	1	4 1
+17	1	0.0	1	0 1
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_17_RIGHT ===
+
+Sequence: TTTGTTGGAGTGTTAACAATGCAGT; Type: non-internal 3'; Length: 25; Trimmed: 59 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 15.3%
+  C: 47.5%
+  G: 22.0%
+  T: 15.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	51	45.6	0	51
+6	6	11.4	0	6
+7	1	2.8	0	1
+8	1	0.7	0	1
+
+
+=== Adapter nCoV-2019_18_LEFT ===
+
+Sequence: TGGAAATACCCACAAGTTAATGGTTTAAC; Type: non-internal 3'; Length: 29; Trimmed: 876 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2
+
+Bases preceding removed adapters:
+  A: 52.9%
+  C: 0.2%
+  G: 1.8%
+  T: 45.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	358	45.6	0	358
+6	50	11.4	0	50
+7	1	2.8	0	1
+9	452	0.2	0	0 452
+10	13	0.0	1	12 1
+21	1	0.0	2	1
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_18_RIGHT ===
+
+Sequence: AGCTTGTTTACCACACGTACAAGG; Type: non-internal 3'; Length: 24; Trimmed: 50 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 46.0%
+  C: 20.0%
+  G: 28.0%
+  T: 6.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	33	45.6	0	33
+6	6	11.4	0	6
+7	1	2.8	0	1
+10	2	0.0	1	0 2
+11	3	0.0	1	0 3
+12	4	0.0	1	0 4
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_19_LEFT ===
+
+Sequence: GCTGTTATGTACATGGGCACACT; Type: non-internal 3'; Length: 23; Trimmed: 29 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 13.8%
+  C: 31.0%
+  G: 24.1%
+  T: 31.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	14	45.6	0	14
+6	12	11.4	0	12
+8	2	0.7	0	2
+10	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_19_RIGHT ===
+
+Sequence: TGTCCAACTTAGGGTCAATTTCTGT; Type: non-internal 3'; Length: 25; Trimmed: 20 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 20.0%
+  C: 35.0%
+  G: 20.0%
+  T: 25.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+6	8	11.4	0	8
+9	1	0.2	0	0 1
+14	1	0.0	1	1
+17	1	0.0	1	1
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_20_LEFT ===
+
+Sequence: ACAAAGAAAACAGTTACACAACAACCA; Type: non-internal 3'; Length: 27; Trimmed: 24 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 12.5%
+  C: 16.7%
+  G: 16.7%
+  T: 54.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	12	45.6	0	12
+6	1	11.4	0	1
+7	2	2.8	0	2
+10	1	0.0	1	0 1
+11	4	0.0	1	4
+14	1	0.0	1	1
+19	3	0.0	1	3
+
+
+=== Adapter nCoV-2019_20_RIGHT ===
+
+Sequence: ACGTGGCTTTATTAGTTGCATTGTT; Type: non-internal 3'; Length: 25; Trimmed: 20 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 20.0%
+  C: 35.0%
+  G: 0.0%
+  T: 45.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	10	45.6	0	10
+7	1	2.8	0	1
+11	1	0.0	1	0 1
+19	3	0.0	1	3
+23	4	0.0	2	2 2
+24	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_21_LEFT ===
+
+Sequence: TGGCTATTGATTATAAACACTACACACCC; Type: non-internal 3'; Length: 29; Trimmed: 13 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2
+
+Bases preceding removed adapters:
+  A: 15.4%
+  C: 0.0%
+  G: 38.5%
+  T: 46.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	10	45.6	0	10
+7	2	2.8	0	2
+26	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_21_RIGHT ===
+
+Sequence: TAGATCTGTGTGGCCAACCTCT; Type: non-internal 3'; Length: 22; Trimmed: 9 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 11.1%
+  C: 33.3%
+  G: 11.1%
+  T: 44.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+6	1	11.4	0	1
+10	1	0.0	1	0 1
+12	3	0.0	1	3
+13	1	0.0	1	1
+16	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_22_LEFT ===
+
+Sequence: ACTACCGAAGTTGTAGGAGACATTATACT; Type: non-internal 3'; Length: 29; Trimmed: 32 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2
+
+Bases preceding removed adapters:
+  A: 84.4%
+  C: 0.0%
+  G: 6.2%
+  T: 9.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	29	45.6	0	29
+6	1	11.4	0	1
+17	1	0.0	1	1
+28	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_22_RIGHT ===
+
+Sequence: ACAGTATTCTTTGCTATAGTAGTCGGC; Type: non-internal 3'; Length: 27; Trimmed: 5 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 100.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	11.4	0	1
+13	1	0.0	1	1
+20	2	0.0	2	2
+27	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_23_LEFT ===
+
+Sequence: ACAACTACTAACATAGTTACACGGTGT; Type: non-internal 3'; Length: 27; Trimmed: 541 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 1.5%
+  C: 0.6%
+  G: 96.3%
+  T: 1.7%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	16	45.6	0	16
+6	505	11.4	0	505
+8	6	0.7	0	6
+9	7	0.2	0	7
+10	3	0.0	1	0 3
+11	1	0.0	1	0 1
+20	1	0.0	2	1
+23	1	0.0	2	1
+27	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_23_RIGHT ===
+
+Sequence: ACCAGTACAGTAGGTTGCAATAGTG; Type: non-internal 3'; Length: 25; Trimmed: 111 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 29.7%
+  C: 0.0%
+  G: 69.4%
+  T: 0.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+6	83	11.4	0	83
+7	1	2.8	0	1
+8	16	0.7	0	16
+11	5	0.0	1	5
+14	1	0.0	1	1
+16	1	0.0	1	1
+17	2	0.0	1	2
+27	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_24_LEFT ===
+
+Sequence: AGGCATGCCTTCTTACTGTACTG; Type: non-internal 3'; Length: 23; Trimmed: 12 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 66.7%
+  C: 8.3%
+  G: 0.0%
+  T: 25.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+6	8	11.4	0	8
+7	1	2.8	0	1
+9	1	0.2	0	1
+14	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_24_RIGHT ===
+
+Sequence: ACATTCTAACCATAGCTGAAATCGGG; Type: non-internal 3'; Length: 26; Trimmed: 466 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 3.0%
+  C: 1.5%
+  G: 0.6%
+  T: 94.8%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	35	45.6	0	35
+6	4	11.4	0	4
+7	1	2.8	0	1
+10	1	0.0	1	1
+12	1	0.0	1	1
+13	4	0.0	1	4
+14	2	0.0	1	2
+16	3	0.0	1	3
+17	5	0.0	1	5
+18	40	0.0	1	38 2
+20	2	0.0	2	1 1
+21	4	0.0	2	2 2
+22	324	0.0	2	304 19 1
+23	25	0.0	2	22 3
+24	7	0.0	2	7
+25	4	0.0	2	4
+26	2	0.0	2	2
+27	1	0.0	2	0 1
+28	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_25_LEFT ===
+
+Sequence: GCAATTGTTTTTCAGCTATTTTGCAGT; Type: non-internal 3'; Length: 27; Trimmed: 29 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 44.8%
+  C: 3.4%
+  G: 17.2%
+  T: 34.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	19	45.6	0	19
+6	4	11.4	0	4
+8	1	0.7	0	1
+24	1	0.0	2	1
+26	1	0.0	2	1
+27	1	0.0	2	1
+29	2	0.0	2	0 0 2
+
+
+=== Adapter nCoV-2019_25_RIGHT ===
+
+Sequence: ACTGTAGTGACAAGTCTCTCGCA; Type: non-internal 3'; Length: 23; Trimmed: 25 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 28.0%
+  C: 8.0%
+  G: 12.0%
+  T: 52.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	18	45.6	0	18
+6	2	11.4	0	2
+8	1	0.7	0	1
+11	3	0.0	1	2 1
+20	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_26_LEFT ===
+
+Sequence: TTGTGATACATTCTGTGCTGGTAGT; Type: non-internal 3'; Length: 25; Trimmed: 758 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 80.9%
+  C: 17.4%
+  G: 1.6%
+  T: 0.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	619	45.6	0	619
+6	3	11.4	0	3
+7	3	2.8	0	3
+11	1	0.0	1	0 1
+12	129	0.0	1	0 129
+13	1	0.0	1	1
+22	2	0.0	2	2
+
+
+=== Adapter nCoV-2019_26_RIGHT ===
+
+Sequence: TCCGCACTATCACCAACATCAG; Type: non-internal 3'; Length: 22; Trimmed: 5 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 80.0%
+  C: 20.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+8	3	0.7	0	3
+
+
+=== Adapter nCoV-2019_27_LEFT ===
+
+Sequence: ACTACAGTCAGCTTATGTGTCAACC; Type: non-internal 3'; Length: 25; Trimmed: 10 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 40.0%
+  C: 40.0%
+  G: 0.0%
+  T: 20.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	3	11.4	0	3
+8	4	0.7	0	4
+9	1	0.2	0	1
+10	1	0.0	1	0 1
+18	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_27_RIGHT ===
+
+Sequence: AATACAAGCACCAAGGTCACGG; Type: non-internal 3'; Length: 22; Trimmed: 6 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 33.3%
+  G: 33.3%
+  T: 33.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	5	45.6	0	5
+7	1	2.8	0	1
+
+
+=== Adapter nCoV-2019_28_LEFT ===
+
+Sequence: ACATAGAAGTTACTGGCGATAGTTGT; Type: non-internal 3'; Length: 26; Trimmed: 15 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 46.7%
+  G: 20.0%
+  T: 33.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	13	45.6	0	13
+13	1	0.0	1	0 1
+15	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_28_RIGHT ===
+
+Sequence: TGTTTAGACATGACATGAACAGGTGT; Type: non-internal 3'; Length: 26; Trimmed: 191 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 95.3%
+  C: 0.5%
+  G: 1.0%
+  T: 3.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	187	45.6	0	187
+6	2	11.4	0	2
+11	2	0.0	1	0 2
+
+
+=== Adapter nCoV-2019_29_LEFT ===
+
+Sequence: ACTTGTGTTCCTTTTTGTTGCTGC; Type: non-internal 3'; Length: 24; Trimmed: 61 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 9.8%
+  C: 6.6%
+  G: 8.2%
+  T: 75.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	16	45.6	0	16
+6	35	11.4	0	35
+7	6	2.8	0	6
+10	4	0.0	1	0 4
+
+
+=== Adapter nCoV-2019_29_RIGHT ===
+
+Sequence: AGTGTACTCTATAAGTTTTGATGGTGTGT; Type: non-internal 3'; Length: 29; Trimmed: 292 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2
+
+Bases preceding removed adapters:
+  A: 4.1%
+  C: 92.1%
+  G: 0.7%
+  T: 3.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	25	45.6	0	25
+6	2	11.4	0	2
+8	3	0.7	0	3
+12	236	0.0	1	218 18
+13	16	0.0	1	14 2
+16	3	0.0	1	3
+17	2	0.0	1	2
+20	1	0.0	2	0 1
+23	2	0.0	2	2
+25	1	0.0	2	1
+27	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_30_LEFT ===
+
+Sequence: GCACAACTAATGGTGACTTTTTGCA; Type: non-internal 3'; Length: 25; Trimmed: 0 times
+
+=== Adapter nCoV-2019_30_RIGHT ===
+
+Sequence: ACCACTAGTAGATACACAAACACCAG; Type: non-internal 3'; Length: 26; Trimmed: 4 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 25.0%
+  C: 0.0%
+  G: 0.0%
+  T: 75.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	11.4	0	1
+7	1	2.8	0	1
+15	1	0.0	1	1
+24	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_31_LEFT ===
+
+Sequence: TTCTGAGTACTGTAGGCACGGC; Type: non-internal 3'; Length: 22; Trimmed: 7 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 14.3%
+  C: 0.0%
+  G: 0.0%
+  T: 85.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+6	1	11.4	0	1
+
+
+=== Adapter nCoV-2019_31_RIGHT ===
+
+Sequence: ACAGAATAAACACCAGGTAAGAATGAGT; Type: non-internal 3'; Length: 28; Trimmed: 37 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 56.8%
+  C: 37.8%
+  G: 2.7%
+  T: 2.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+6	6	11.4	0	6
+7	1	2.8	0	1
+9	1	0.2	0	1
+24	2	0.0	2	2
+25	2	0.0	2	2
+28	17	0.0	2	13 4
+
+
+=== Adapter nCoV-2019_32_LEFT ===
+
+Sequence: TGGTGAATACAGTCATGTAGTTGCC; Type: non-internal 3'; Length: 25; Trimmed: 7 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 14.3%
+  C: 0.0%
+  G: 0.0%
+  T: 85.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+13	1	0.0	1	1
+21	1	0.0	2	0 1
+22	3	0.0	2	3
+23	1	0.0	2	1
+24	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_32_RIGHT ===
+
+Sequence: AGCACATCACTACGCAACTTTAGA; Type: non-internal 3'; Length: 24; Trimmed: 11 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 54.5%
+  C: 18.2%
+  G: 9.1%
+  T: 18.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	5	45.6	0	5
+7	4	2.8	0	4
+19	1	0.0	1	1
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_33_LEFT ===
+
+Sequence: ACTTTTGAAGAAGCTGCGCTGT; Type: non-internal 3'; Length: 22; Trimmed: 85 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 9.4%
+  C: 54.1%
+  G: 11.8%
+  T: 24.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	78	45.6	0	78
+6	3	11.4	0	3
+9	1	0.2	0	1
+10	2	0.0	1	0 2
+17	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_33_RIGHT ===
+
+Sequence: TGGACAGTAAACTACGTCATCAAGC; Type: non-internal 3'; Length: 25; Trimmed: 612 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 1.0%
+  G: 0.2%
+  T: 98.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+6	3	11.4	0	3
+7	2	2.8	0	2
+8	3	0.7	0	3
+9	64	0.2	0	64
+11	1	0.0	1	1
+12	5	0.0	1	4 1
+13	524	0.0	1	503 21
+15	1	0.0	1	1
+18	2	0.0	1	2
+22	1	0.0	2	1
+26	2	0.0	2	0 2
+
+
+=== Adapter nCoV-2019_34_LEFT ===
+
+Sequence: TCCCATCTGGTAAAGTTGAGGGT; Type: non-internal 3'; Length: 23; Trimmed: 104 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 1.9%
+  G: 0.0%
+  T: 98.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	82	0.2	0	82
+10	7	0.0	1	7
+11	6	0.0	1	5 1
+13	2	0.0	1	2
+17	1	0.0	1	1
+18	2	0.0	1	1 1
+21	1	0.0	2	1
+23	1	0.0	2	1
+24	2	0.0	2	0 1 1
+
+
+=== Adapter nCoV-2019_34_RIGHT ===
+
+Sequence: AGTGAAATTGGGCCTCATAGCA; Type: non-internal 3'; Length: 22; Trimmed: 6 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 33.3%
+  C: 0.0%
+  G: 0.0%
+  T: 66.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+6	2	11.4	0	2
+10	1	0.0	1	0 1
+23	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_35_LEFT ===
+
+Sequence: TGTTCGCATTCAACCAGGACAG; Type: non-internal 3'; Length: 22; Trimmed: 560 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 1.1%
+  C: 0.5%
+  G: 0.0%
+  T: 98.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+9	2	0.2	0	2
+10	2	0.0	1	2
+14	4	0.0	1	4
+15	526	0.0	1	503 23
+18	7	0.0	1	7
+19	1	0.0	1	1
+20	10	0.0	2	8 2
+
+
+=== Adapter nCoV-2019_35_RIGHT ===
+
+Sequence: ACTTCATAGCCACAAGGTTAAAGTCA; Type: non-internal 3'; Length: 26; Trimmed: 27 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 14.8%
+  C: 7.4%
+  G: 3.7%
+  T: 74.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	11	45.6	0	11
+6	3	11.4	0	3
+7	3	2.8	0	3
+10	2	0.0	1	0 2
+11	1	0.0	1	0 1
+13	1	0.0	1	1
+15	1	0.0	1	1
+18	2	0.0	1	2
+19	2	0.0	1	2
+21	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_36_LEFT ===
+
+Sequence: TTAGCTTGGTTGTACGCTGCTG; Type: non-internal 3'; Length: 22; Trimmed: 17 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 11.8%
+  G: 41.2%
+  T: 47.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	9	45.6	0	9
+6	7	11.4	0	7
+7	1	2.8	0	1
+
+
+=== Adapter nCoV-2019_36_RIGHT ===
+
+Sequence: GAACAAAGACCATTGAGTACTCTGGA; Type: non-internal 3'; Length: 26; Trimmed: 15 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 46.7%
+  C: 26.7%
+  G: 20.0%
+  T: 6.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	11	45.6	0	11
+7	2	2.8	0	2
+10	1	0.0	1	0 1
+28	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_37_LEFT ===
+
+Sequence: ACACACCACTGGTTGTTACTCAC; Type: non-internal 3'; Length: 23; Trimmed: 14 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 14.3%
+  C: 14.3%
+  G: 7.1%
+  T: 64.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+6	3	11.4	0	3
+7	1	2.8	0	1
+11	1	0.0	1	0 1
+17	3	0.0	1	3
+
+
+=== Adapter nCoV-2019_37_RIGHT ===
+
+Sequence: GTCCACACTCTCCTAGCACCAT; Type: non-internal 3'; Length: 22; Trimmed: 8 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 50.0%
+  G: 0.0%
+  T: 50.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+9	4	0.2	0	0 4
+10	4	0.0	1	0 4
+
+
+=== Adapter nCoV-2019_38_LEFT ===
+
+Sequence: ACTGTGTTATGTATGCATCAGCTGT; Type: non-internal 3'; Length: 25; Trimmed: 12 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 25.0%
+  C: 0.0%
+  G: 58.3%
+  T: 16.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	11.4	0	1
+7	2	2.8	0	2
+9	1	0.2	0	0 1
+10	1	0.0	1	0 1
+11	2	0.0	1	2
+12	1	0.0	1	0 1
+14	1	0.0	1	1
+18	1	0.0	1	1
+19	1	0.0	1	1
+24	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_38_RIGHT ===
+
+Sequence: CACCAAGAGTCAGTCTAAAGTAGCG; Type: non-internal 3'; Length: 25; Trimmed: 13 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 23.1%
+  T: 76.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	12	45.6	0	12
+11	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_39_LEFT ===
+
+Sequence: AGTATTGCCCTATTTTCTTCATAACTGGT; Type: non-internal 3'; Length: 29; Trimmed: 76 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2
+
+Bases preceding removed adapters:
+  A: 7.9%
+  C: 9.2%
+  G: 1.3%
+  T: 81.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+6	62	11.4	0	62
+7	2	2.8	0	2
+9	1	0.2	0	0 1
+10	3	0.0	1	0 3
+18	1	0.0	1	1
+25	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_39_RIGHT ===
+
+Sequence: TGTAACTGGACACATTGAGCCC; Type: non-internal 3'; Length: 22; Trimmed: 15 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 26.7%
+  C: 26.7%
+  G: 40.0%
+  T: 6.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+6	9	11.4	0	9
+7	2	2.8	0	2
+
+
+=== Adapter nCoV-2019_40_LEFT ===
+
+Sequence: TGCACATCAGTAGTCTTACTCTCAGT; Type: non-internal 3'; Length: 26; Trimmed: 2 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 100.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+7	1	2.8	0	1
+23	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_40_RIGHT ===
+
+Sequence: CATGGCTGCATCACGGTCAAAT; Type: non-internal 3'; Length: 22; Trimmed: 4 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 25.0%
+  C: 0.0%
+  G: 75.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+16	1	0.0	1	1
+19	1	0.0	1	1
+24	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_41_LEFT ===
+
+Sequence: GTTCCCTTCCATCATATGCAGCT; Type: non-internal 3'; Length: 23; Trimmed: 22 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 4.5%
+  C: 0.0%
+  G: 86.4%
+  T: 9.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	20	45.6	0	20
+6	1	11.4	0	1
+8	1	0.7	0	1
+
+
+=== Adapter nCoV-2019_41_RIGHT ===
+
+Sequence: TGGTATGACAACCATTAGTTTGGCT; Type: non-internal 3'; Length: 25; Trimmed: 11 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 54.5%
+  G: 27.3%
+  T: 18.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	7	45.6	0	7
+7	3	2.8	0	3
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_42_LEFT ===
+
+Sequence: TGCAAGAGATGGTTGTGTTCCC; Type: non-internal 3'; Length: 22; Trimmed: 64 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 7.8%
+  C: 4.7%
+  G: 4.7%
+  T: 82.8%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	62	45.6	0	62
+6	1	11.4	0	1
+7	1	2.8	0	1
+
+
+=== Adapter nCoV-2019_42_RIGHT ===
+
+Sequence: CCTACCTCCCTTTGTTGTGTTGT; Type: non-internal 3'; Length: 23; Trimmed: 32 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 53.1%
+  C: 6.2%
+  G: 0.0%
+  T: 40.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	3	45.6	0	3
+6	13	11.4	0	13
+7	14	2.8	0	14
+8	1	0.7	0	1
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_43_LEFT ===
+
+Sequence: TACGACAGATGTCTTGTGCTGC; Type: non-internal 3'; Length: 22; Trimmed: 107 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.9%
+  C: 97.2%
+  G: 0.0%
+  T: 1.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+6	93	11.4	0	93
+7	1	2.8	0	1
+10	1	0.0	1	0 1
+11	1	0.0	1	1
+12	1	0.0	1	1
+13	2	0.0	1	2
+14	3	0.0	1	3
+15	1	0.0	1	1
+16	1	0.0	1	1
+24	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_43_RIGHT ===
+
+Sequence: AGCAGCATCTACAGCAAAAGCA; Type: non-internal 3'; Length: 22; Trimmed: 7 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 14.3%
+  C: 0.0%
+  G: 28.6%
+  T: 57.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+6	3	11.4	0	3
+17	1	0.0	1	1
+18	2	0.0	1	2
+
+
+=== Adapter nCoV-2019_44_LEFT ===
+
+Sequence: TGCCACAGTACGTCTACAAGCT; Type: non-internal 3'; Length: 22; Trimmed: 48 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 8.3%
+  C: 70.8%
+  G: 6.2%
+  T: 14.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	10	45.6	0	10
+6	26	11.4	0	26
+7	2	2.8	0	2
+9	5	0.2	0	5
+11	3	0.0	1	3
+12	1	0.0	1	1
+15	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_44_RIGHT ===
+
+Sequence: AACCTTTCCACATACCGCAGAC; Type: non-internal 3'; Length: 22; Trimmed: 65 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 89.2%
+  C: 0.0%
+  G: 4.6%
+  T: 6.2%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	60	45.6	0	60
+6	2	11.4	0	2
+10	1	0.0	1	0 1
+18	1	0.0	1	1
+24	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_45_LEFT ===
+
+Sequence: TACCTACAACTTGTGCTAATGACCC; Type: non-internal 3'; Length: 25; Trimmed: 12 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 50.0%
+  C: 0.0%
+  G: 16.7%
+  T: 33.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+6	1	11.4	0	1
+11	1	0.0	1	1
+15	1	0.0	1	1
+16	1	0.0	1	1
+21	1	0.0	2	1
+24	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_45_RIGHT ===
+
+Sequence: AAATTGTTTCTTCATGTTGGTAGTTAGAGA; Type: non-internal 3'; Length: 30; Trimmed: 447 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30 bp: 3
+
+Bases preceding removed adapters:
+  A: 2.9%
+  C: 11.0%
+  G: 17.9%
+  T: 68.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	105	45.6	0	105
+6	4	11.4	0	4
+7	5	2.8	0	5
+9	2	0.2	0	2
+10	40	0.0	1	4 36
+11	2	0.0	1	1 1
+12	54	0.0	1	50 4
+15	2	0.0	1	1 1
+16	205	0.0	1	186 19
+17	19	0.0	1	15 4
+18	4	0.0	1	3 1
+21	2	0.0	2	2
+24	1	0.0	2	1
+27	2	0.0	2	1 1
+
+
+=== Adapter nCoV-2019_46_LEFT ===
+
+Sequence: TGTCGCTTCCAAGAAAAGGACG; Type: non-internal 3'; Length: 22; Trimmed: 47 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 2.1%
+  C: 2.1%
+  G: 0.0%
+  T: 95.7%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+6	1	11.4	0	1
+10	2	0.0	1	1 1
+11	2	0.0	1	2
+15	1	0.0	1	1
+16	1	0.0	1	1
+17	8	0.0	1	7 1
+18	1	0.0	1	1
+21	25	0.0	2	24 1
+22	2	0.0	2	2
+
+
+=== Adapter nCoV-2019_46_RIGHT ===
+
+Sequence: CACGTTCACCTAAGTTGGCGTA; Type: non-internal 3'; Length: 22; Trimmed: 66 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 25.8%
+  C: 68.2%
+  G: 4.5%
+  T: 1.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	49	45.6	0	49
+9	1	0.2	0	1
+11	3	0.0	1	3
+12	2	0.0	1	2
+14	1	0.0	1	1
+15	1	0.0	1	1
+16	3	0.0	1	2 1
+17	3	0.0	1	3
+21	2	0.0	2	1 1
+23	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_47_LEFT ===
+
+Sequence: AGGACTGGTATGATTTTGTAGAAAACCC; Type: non-internal 3'; Length: 28; Trimmed: 14 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 78.6%
+  C: 0.0%
+  G: 0.0%
+  T: 21.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+6	3	11.4	0	3
+8	1	0.7	0	1
+12	1	0.0	1	1
+18	1	0.0	1	1
+19	3	0.0	1	3
+22	1	0.0	2	1
+28	2	0.0	2	2
+
+
+=== Adapter nCoV-2019_47_RIGHT ===
+
+Sequence: AATAACGGTCAAAGAGTTTTAACCTCTC; Type: non-internal 3'; Length: 28; Trimmed: 16 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 56.2%
+  C: 18.8%
+  G: 12.5%
+  T: 12.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	5	45.6	0	5
+6	5	11.4	0	5
+7	3	2.8	0	3
+8	1	0.7	0	1
+18	1	0.0	1	1
+20	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_48_LEFT ===
+
+Sequence: TGTTGACACTGACTTAACAAAGCCT; Type: non-internal 3'; Length: 25; Trimmed: 634 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 45.7%
+  C: 0.5%
+  G: 0.3%
+  T: 53.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	62	45.6	0	62
+6	3	11.4	0	3
+7	271	2.8	0	271
+8	1	0.7	0	1
+9	6	0.2	0	3 3
+10	9	0.0	1	0 9
+11	235	0.0	1	225 10
+12	1	0.0	1	0 1
+13	28	0.0	1	26 2
+14	5	0.0	1	4 1
+15	3	0.0	1	3
+18	3	0.0	1	3
+20	5	0.0	2	5
+24	1	0.0	2	1
+25	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_48_RIGHT ===
+
+Sequence: TAGATTACCAGAAGCAGCGTGC; Type: non-internal 3'; Length: 22; Trimmed: 3 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 100.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	11.4	0	1
+9	1	0.2	0	1
+15	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_49_LEFT ===
+
+Sequence: AGGAATTACTTGTGTATGCTGCTGA; Type: non-internal 3'; Length: 25; Trimmed: 6 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 33.3%
+  C: 33.3%
+  G: 0.0%
+  T: 33.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+6	1	11.4	0	1
+22	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_49_RIGHT ===
+
+Sequence: TGACGATGACTTGGTTAGCATTAATACA; Type: non-internal 3'; Length: 28; Trimmed: 8 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+6	1	11.4	0	1
+8	1	0.7	0	1
+11	1	0.0	1	1
+12	2	0.0	1	2
+14	1	0.0	1	1
+28	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_50_LEFT ===
+
+Sequence: GTTGATAAGTACTTTGATTGTTACGATGGT; Type: non-internal 3'; Length: 30; Trimmed: 5 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30 bp: 3
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 20.0%
+  G: 20.0%
+  T: 60.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	3	11.4	0	3
+32	2	0.0	3	0 0 2
+
+
+=== Adapter nCoV-2019_50_RIGHT ===
+
+Sequence: TAACATGTTGTGCCAACCACCA; Type: non-internal 3'; Length: 22; Trimmed: 33 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 6.1%
+  C: 6.1%
+  G: 39.4%
+  T: 48.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	13	45.6	0	13
+6	8	11.4	0	8
+8	2	0.7	0	2
+9	1	0.2	0	1
+23	9	0.0	2	0 7 2
+
+
+=== Adapter nCoV-2019_51_LEFT ===
+
+Sequence: TCAATAGCCGCCACTAGAGGAG; Type: non-internal 3'; Length: 22; Trimmed: 27 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 70.4%
+  C: 3.7%
+  G: 3.7%
+  T: 22.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	15	45.6	0	15
+6	1	11.4	0	1
+8	1	0.7	0	1
+9	1	0.2	0	1
+10	6	0.0	1	1 5
+14	2	0.0	1	2
+15	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_51_RIGHT ===
+
+Sequence: AGTGCATTAACATTGGCCGTGA; Type: non-internal 3'; Length: 22; Trimmed: 30 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 26.7%
+  C: 23.3%
+  G: 46.7%
+  T: 3.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	13	45.6	0	13
+6	6	11.4	0	6
+8	1	0.7	0	1
+10	5	0.0	1	0 5
+11	2	0.0	1	2
+13	1	0.0	1	0 1
+15	1	0.0	1	0 1
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_52_LEFT ===
+
+Sequence: CATCAGGAGATGCCACAACTGC; Type: non-internal 3'; Length: 22; Trimmed: 126 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 88.9%
+  G: 2.4%
+  T: 8.7%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	113	45.6	0	113
+6	2	11.4	0	2
+7	4	2.8	0	4
+8	1	0.7	0	1
+9	1	0.2	0	1
+13	3	0.0	1	3
+15	1	0.0	1	1
+17	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_52_RIGHT ===
+
+Sequence: GTTGAGAGCAAAATTCATGAGGTCC; Type: non-internal 3'; Length: 25; Trimmed: 32 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 3.1%
+  C: 0.0%
+  G: 93.8%
+  T: 3.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+11	1	0.0	1	0 1
+12	2	0.0	1	1 1
+14	28	0.0	1	0 28
+19	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_53_LEFT ===
+
+Sequence: AGCAAAATGTTGGACTGAGACTGA; Type: non-internal 3'; Length: 24; Trimmed: 152 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.7%
+  C: 3.3%
+  G: 92.8%
+  T: 3.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	7	45.6	0	7
+9	1	0.2	0	1
+10	7	0.0	1	2 5
+11	2	0.0	1	0 2
+12	123	0.0	1	0 123
+13	9	0.0	1	0 9
+14	3	0.0	1	0 3
+
+
+=== Adapter nCoV-2019_53_RIGHT ===
+
+Sequence: AGCCTCATAAAACTCAGGTTCCC; Type: non-internal 3'; Length: 23; Trimmed: 16 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 6.2%
+  C: 68.8%
+  G: 0.0%
+  T: 25.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	3	45.6	0	3
+6	2	11.4	0	2
+7	9	2.8	0	9
+11	1	0.0	1	1
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_54_LEFT ===
+
+Sequence: TGAGTTAACAGGACACATGTTAGACA; Type: non-internal 3'; Length: 26; Trimmed: 696 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 97.1%
+  C: 0.6%
+  G: 1.9%
+  T: 0.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	28	45.6	0	28
+6	5	11.4	0	5
+8	2	0.7	0	2
+9	632	0.2	0	632
+10	2	0.0	1	0 2
+12	11	0.0	1	11
+14	3	0.0	1	3
+16	3	0.0	1	3
+18	3	0.0	1	3
+21	6	0.0	2	6
+26	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_54_RIGHT ===
+
+Sequence: AACCAAAAACTTGTCCATTAGCACA; Type: non-internal 3'; Length: 25; Trimmed: 12 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 25.0%
+  C: 33.3%
+  G: 16.7%
+  T: 25.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+6	1	11.4	0	1
+7	3	2.8	0	3
+11	1	0.0	1	1
+24	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_55_LEFT ===
+
+Sequence: ACTCAACTTTACTTAGGAGGTATGAGCT; Type: non-internal 3'; Length: 28; Trimmed: 14 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 50.0%
+  G: 42.9%
+  T: 7.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+6	2	11.4	0	2
+7	1	2.8	0	1
+8	1	0.7	0	1
+11	1	0.0	1	0 1
+24	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_55_RIGHT ===
+
+Sequence: GGTGTACTCTCCTATTTGTACTTTACTGT; Type: non-internal 3'; Length: 29; Trimmed: 120 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2
+
+Bases preceding removed adapters:
+  A: 38.3%
+  C: 0.0%
+  G: 0.0%
+  T: 61.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+7	74	2.8	0	74
+8	1	0.7	0	1
+22	1	0.0	2	1
+24	4	0.0	2	4
+27	1	0.0	2	1
+28	37	0.0	2	33 4
+30	2	0.0	2	0 2
+
+
+=== Adapter nCoV-2019_56_LEFT ===
+
+Sequence: ACCTAGACCACCACTTAACCGA; Type: non-internal 3'; Length: 22; Trimmed: 4 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 75.0%
+  C: 0.0%
+  G: 0.0%
+  T: 25.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+6	1	11.4	0	1
+17	1	0.0	1	1
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_56_RIGHT ===
+
+Sequence: ACACTATGCGAGCAGAAGGGTA; Type: non-internal 3'; Length: 22; Trimmed: 30 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 13.3%
+  C: 3.3%
+  G: 60.0%
+  T: 23.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	15	45.6	0	15
+6	12	11.4	0	12
+8	1	0.7	0	1
+16	1	0.0	1	1
+19	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_57_LEFT ===
+
+Sequence: ATTCTACACTCCAGGGACCACC; Type: non-internal 3'; Length: 22; Trimmed: 17 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 29.4%
+  C: 5.9%
+  G: 35.3%
+  T: 29.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	13	45.6	0	13
+7	3	2.8	0	3
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_57_RIGHT ===
+
+Sequence: GTAATTGAGCAGGGTCGCCAAT; Type: non-internal 3'; Length: 22; Trimmed: 21 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 9.5%
+  C: 23.8%
+  G: 38.1%
+  T: 28.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	11	45.6	0	11
+6	5	11.4	0	5
+10	2	0.0	1	0 2
+13	1	0.0	1	1
+18	1	0.0	1	1
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_58_LEFT ===
+
+Sequence: TGATTTGAGTGTTGTCAATGCCAGA; Type: non-internal 3'; Length: 25; Trimmed: 31 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 38.7%
+  C: 29.0%
+  G: 16.1%
+  T: 16.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	20	45.6	0	20
+6	4	11.4	0	4
+7	2	2.8	0	2
+13	1	0.0	1	1
+15	2	0.0	1	2
+19	1	0.0	1	1
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_58_RIGHT ===
+
+Sequence: CTTTTCTCCAAGCAGGGTTACGT; Type: non-internal 3'; Length: 23; Trimmed: 18 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 5.6%
+  C: 16.7%
+  G: 61.1%
+  T: 16.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	9	45.6	0	9
+6	2	11.4	0	2
+7	1	2.8	0	1
+9	1	0.2	0	1
+12	1	0.0	1	0 1
+13	2	0.0	1	2
+22	1	0.0	2	1
+23	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_59_LEFT ===
+
+Sequence: TCACGCATGATGTTTCATCTGCA; Type: non-internal 3'; Length: 23; Trimmed: 641 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 99.5%
+  C: 0.0%
+  G: 0.2%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	3	45.6	0	3
+6	2	11.4	0	2
+8	588	0.7	0	588
+9	38	0.2	0	38
+12	2	0.0	1	2
+15	1	0.0	1	1
+16	1	0.0	1	1
+19	1	0.0	1	1
+21	2	0.0	2	2
+22	2	0.0	2	2
+25	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_59_RIGHT ===
+
+Sequence: AAGAGTCCTGTTACATTTTCAGCTTG; Type: non-internal 3'; Length: 26; Trimmed: 160 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 90.0%
+  C: 0.0%
+  G: 0.0%
+  T: 10.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	15	45.6	0	15
+6	1	11.4	0	1
+10	2	0.0	1	2
+14	129	0.0	1	122 7
+16	6	0.0	1	6
+17	2	0.0	1	1 1
+18	2	0.0	1	1 1
+19	2	0.0	1	2
+25	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_60_LEFT ===
+
+Sequence: TGATAGAGACCTTTATGACAAGTTGCA; Type: non-internal 3'; Length: 27; Trimmed: 392 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 99.2%
+  G: 0.5%
+  T: 0.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+6	357	11.4	0	357
+8	1	0.7	0	1
+9	2	0.2	0	0 2
+10	18	0.0	1	17 1
+11	4	0.0	1	4
+12	2	0.0	1	2
+14	1	0.0	1	1
+19	3	0.0	1	3
+20	1	0.0	2	1
+26	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_60_RIGHT ===
+
+Sequence: GGTACCAACAGCTTCTCTAGTAGC; Type: non-internal 3'; Length: 24; Trimmed: 15 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 6.7%
+  C: 6.7%
+  G: 13.3%
+  T: 73.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	9	45.6	0	9
+6	4	11.4	0	4
+9	1	0.2	0	1
+12	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_61_LEFT ===
+
+Sequence: TGTTTATCACCCGCGAAGAAGC; Type: non-internal 3'; Length: 22; Trimmed: 207 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 70.0%
+  C: 1.0%
+  G: 29.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+7	4	2.8	0	4
+8	2	0.7	0	2
+9	58	0.2	0	3 55
+10	12	0.0	1	9 3
+11	4	0.0	1	0 4
+13	1	0.0	1	1
+14	114	0.0	1	111 3
+15	12	0.0	1	11 1
+
+
+=== Adapter nCoV-2019_61_RIGHT ===
+
+Sequence: ATCACATAGACAACAGGTGCGC; Type: non-internal 3'; Length: 22; Trimmed: 58 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 15.5%
+  C: 48.3%
+  G: 6.9%
+  T: 29.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	42	45.6	0	42
+7	4	2.8	0	4
+8	4	0.7	0	4
+11	1	0.0	1	1
+12	3	0.0	1	2 1
+14	1	0.0	1	1
+16	1	0.0	1	1
+18	1	0.0	1	1
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_62_LEFT ===
+
+Sequence: GGCACATGGCTTTGAGTTGACA; Type: non-internal 3'; Length: 22; Trimmed: 20 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 10.0%
+  C: 5.0%
+  G: 45.0%
+  T: 40.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	16	45.6	0	16
+6	2	11.4	0	2
+7	2	2.8	0	2
+
+
+=== Adapter nCoV-2019_62_RIGHT ===
+
+Sequence: GTTGAACCTTTCTACAAGCCGC; Type: non-internal 3'; Length: 22; Trimmed: 1 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	11.4	0	1
+
+
+=== Adapter nCoV-2019_63_LEFT ===
+
+Sequence: TGTTAAGCGTGTTGACTGGACT; Type: non-internal 3'; Length: 22; Trimmed: 133 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 12.0%
+  C: 62.4%
+  G: 3.0%
+  T: 22.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	111	45.6	0	111
+6	4	11.4	0	4
+7	1	2.8	0	1
+10	2	0.0	1	1 1
+11	1	0.0	1	1
+13	1	0.0	1	1
+14	3	0.0	1	3
+16	1	0.0	1	1
+18	2	0.0	1	2
+19	1	0.0	1	1
+22	3	0.0	2	3
+24	3	0.0	2	0 0 3
+
+
+=== Adapter nCoV-2019_63_RIGHT ===
+
+Sequence: ACAAACTGCCACCATCACAACC; Type: non-internal 3'; Length: 22; Trimmed: 19 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	7	11.4	0	7
+7	7	2.8	0	7
+8	5	0.7	0	5
+
+
+=== Adapter nCoV-2019_64_LEFT ===
+
+Sequence: TCGATAGATATCCTGCTAATTCCATTGT; Type: non-internal 3'; Length: 28; Trimmed: 10 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 10.0%
+  C: 0.0%
+  G: 90.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	5	45.6	0	5
+13	3	0.0	1	3
+23	2	0.0	2	2
+
+
+=== Adapter nCoV-2019_64_RIGHT ===
+
+Sequence: AGTCTTGTAAAAGTGTTCCAGAGGT; Type: non-internal 3'; Length: 25; Trimmed: 16 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 87.5%
+  C: 6.2%
+  G: 6.2%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+7	1	2.8	0	1
+9	1	0.2	0	0 1
+10	2	0.0	1	0 2
+17	1	0.0	1	1
+19	3	0.0	1	3
+21	2	0.0	2	1 1
+
+
+=== Adapter nCoV-2019_65_LEFT ===
+
+Sequence: GCTGGCTTTAGCTTGTGGGTTT; Type: non-internal 3'; Length: 22; Trimmed: 14 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 7.1%
+  C: 28.6%
+  G: 7.1%
+  T: 57.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+6	1	11.4	0	1
+7	1	2.8	0	1
+9	4	0.2	0	0 4
+
+
+=== Adapter nCoV-2019_65_RIGHT ===
+
+Sequence: TGTCAGTCATAGAACAAACACCAATAGT; Type: non-internal 3'; Length: 28; Trimmed: 11 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 45.5%
+  C: 18.2%
+  G: 18.2%
+  T: 18.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	7	45.6	0	7
+6	1	11.4	0	1
+10	2	0.0	1	2
+28	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_66_LEFT ===
+
+Sequence: GGGTGTGGACATTGCTGCTAAT; Type: non-internal 3'; Length: 22; Trimmed: 100 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 5.0%
+  C: 0.0%
+  G: 46.0%
+  T: 49.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	45	45.6	0	45
+6	43	11.4	0	43
+7	1	2.8	0	1
+8	1	0.7	0	1
+10	9	0.0	1	4 5
+16	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_66_RIGHT ===
+
+Sequence: TCAATTTCCATTTGACTCCTGGGT; Type: non-internal 3'; Length: 24; Trimmed: 3 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 66.7%
+  C: 33.3%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	11.4	0	1
+9	1	0.2	0	1
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_67_LEFT ===
+
+Sequence: GTTGTCCAACAATTACCTGAAACTTACT; Type: non-internal 3'; Length: 28; Trimmed: 37 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 10.8%
+  C: 0.0%
+  G: 13.5%
+  T: 75.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	28	45.6	0	28
+6	2	11.4	0	2
+7	2	2.8	0	2
+10	4	0.0	1	1 3
+14	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_67_RIGHT ===
+
+Sequence: CAACCTTAGAAACTACAGATAAATCTTGGG; Type: non-internal 3'; Length: 30; Trimmed: 9 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30 bp: 3
+
+Bases preceding removed adapters:
+  A: 44.4%
+  C: 11.1%
+  G: 33.3%
+  T: 11.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+6	1	11.4	0	1
+16	3	0.0	1	3
+29	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_68_LEFT ===
+
+Sequence: ACAGGTTCATCTAAGTGTGTGTGT; Type: non-internal 3'; Length: 24; Trimmed: 26 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 69.2%
+  C: 3.8%
+  G: 3.8%
+  T: 23.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+6	4	11.4	0	4
+7	4	2.8	0	4
+8	3	0.7	0	3
+9	1	0.2	0	0 1
+11	1	0.0	1	0 1
+12	1	0.0	1	1
+16	2	0.0	1	2
+17	1	0.0	1	1
+18	2	0.0	1	2
+23	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_68_RIGHT ===
+
+Sequence: CTCCTTTATCAGAACCAGCACCA; Type: non-internal 3'; Length: 23; Trimmed: 166 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 96.4%
+  C: 0.0%
+  G: 0.6%
+  T: 3.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+6	1	11.4	0	1
+7	1	2.8	0	1
+8	1	0.7	0	1
+12	2	0.0	1	2
+15	2	0.0	1	2
+17	3	0.0	1	2 1
+18	4	0.0	1	4
+21	2	0.0	2	2
+22	142	0.0	2	129 12 1
+23	2	0.0	2	2
+24	2	0.0	2	0 2
+25	2	0.0	2	0 0 2
+
+
+=== Adapter nCoV-2019_69_LEFT ===
+
+Sequence: TGTCGCAAAATATACTCAACTGTGTCA; Type: non-internal 3'; Length: 27; Trimmed: 9 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 100.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+7	1	2.8	0	1
+11	1	0.0	1	1
+25	2	0.0	2	2
+29	5	0.0	2	0 0 5
+
+
+=== Adapter nCoV-2019_69_RIGHT ===
+
+Sequence: TCTTTATAGCCACGGAACCTCCA; Type: non-internal 3'; Length: 23; Trimmed: 30 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 56.7%
+  C: 13.3%
+  G: 23.3%
+  T: 6.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	18	45.6	0	18
+6	1	11.4	0	1
+9	1	0.2	0	0 1
+15	10	0.0	1	8 2
+
+
+=== Adapter nCoV-2019_70_LEFT ===
+
+Sequence: ACAAAAGAAAATGACTCTAAAGAGGGTTT; Type: non-internal 3'; Length: 29; Trimmed: 153 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2
+
+Bases preceding removed adapters:
+  A: 3.3%
+  C: 0.7%
+  G: 0.7%
+  T: 95.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	2	11.4	0	2
+7	5	2.8	0	5
+8	19	0.7	0	19
+9	1	0.2	0	1
+12	111	0.0	1	106 5
+13	9	0.0	1	9
+14	1	0.0	1	0 1
+17	1	0.0	1	1
+18	2	0.0	1	2
+26	1	0.0	2	1
+29	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_70_RIGHT ===
+
+Sequence: TGACCTTCTTTTAAAGACATAACAGCAG; Type: non-internal 3'; Length: 28; Trimmed: 46 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 23.9%
+  C: 4.3%
+  G: 2.2%
+  T: 69.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	39	45.6	0	39
+6	1	11.4	0	1
+12	6	0.0	1	5 1
+
+
+=== Adapter nCoV-2019_71_LEFT ===
+
+Sequence: ACAAATCCAATTCAGTTGTCTTCCTATTC; Type: non-internal 3'; Length: 29; Trimmed: 228 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.4%
+  C: 3.5%
+  G: 94.3%
+  T: 1.8%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	9	11.4	0	9
+7	4	2.8	0	4
+8	195	0.7	0	195
+10	17	0.0	1	1 16
+18	1	0.0	1	1
+19	2	0.0	1	2
+
+
+=== Adapter nCoV-2019_71_RIGHT ===
+
+Sequence: TGGAAAAGAAAGGTAAGAACAAGTCCT; Type: non-internal 3'; Length: 27; Trimmed: 15 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 53.3%
+  T: 46.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+7	3	2.8	0	3
+8	1	0.7	0	1
+10	6	0.0	1	2 4
+14	1	0.0	1	1
+15	2	0.0	1	2
+26	1	0.0	2	0 0 1
+28	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_72_LEFT ===
+
+Sequence: ACACGTGGTGTTTATTACCCTGAC; Type: non-internal 3'; Length: 24; Trimmed: 5 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+6	1	11.4	0	1
+10	1	0.0	1	0 1
+12	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_72_RIGHT ===
+
+Sequence: ACTCTGAACTCACTTTCCATCCAAC; Type: non-internal 3'; Length: 25; Trimmed: 11 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 27.3%
+  C: 0.0%
+  G: 54.5%
+  T: 18.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	9	45.6	0	9
+6	1	11.4	0	1
+10	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_73_LEFT ===
+
+Sequence: CAATTTTGTAATGATCCATTTTTGGGTGT; Type: non-internal 3'; Length: 29; Trimmed: 651 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2
+
+Bases preceding removed adapters:
+  A: 2.0%
+  C: 96.6%
+  G: 0.3%
+  T: 1.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	13	45.6	0	13
+6	625	11.4	0	625
+8	1	0.7	0	1
+9	1	0.2	0	1
+10	1	0.0	1	0 1
+12	1	0.0	1	0 1
+14	1	0.0	1	0 1
+16	1	0.0	1	1
+21	1	0.0	2	1
+30	1	0.0	2	0 1
+31	5	0.0	2	0 0 5
+
+
+=== Adapter nCoV-2019_73_RIGHT ===
+
+Sequence: CACCAGCTGTCCAACCTGAAGA; Type: non-internal 3'; Length: 22; Trimmed: 1 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 100.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_74_LEFT ===
+
+Sequence: ACATCACTAGGTTTCAAACTTTACTTGC; Type: non-internal 3'; Length: 28; Trimmed: 377 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 2.9%
+  C: 69.2%
+  G: 0.0%
+  T: 27.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	256	45.6	0	256
+6	14	11.4	0	14
+7	86	2.8	0	86
+8	17	0.7	0	17
+10	2	0.0	1	0 2
+13	1	0.0	1	1
+15	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_74_RIGHT ===
+
+Sequence: GCAACACAGTTGCTGATTCTCTTC; Type: non-internal 3'; Length: 24; Trimmed: 13 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 7.7%
+  C: 7.7%
+  G: 53.8%
+  T: 30.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	13	45.6	0	13
+
+
+=== Adapter nCoV-2019_75_LEFT ===
+
+Sequence: AGAGTCCAACCAACAGAATCTATTGT; Type: non-internal 3'; Length: 26; Trimmed: 2 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	2	11.4	0	2
+
+
+=== Adapter nCoV-2019_75_RIGHT ===
+
+Sequence: ACCACCAACCTTAGAATCAAGATTGT; Type: non-internal 3'; Length: 26; Trimmed: 3 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 33.3%
+  C: 33.3%
+  G: 0.0%
+  T: 33.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	2	11.4	0	2
+24	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_76_LEFT ===
+
+Sequence: AGGGCAAACTGGAAAGATTGCT; Type: non-internal 3'; Length: 22; Trimmed: 160 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.6%
+  C: 98.8%
+  G: 0.0%
+  T: 0.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+8	1	0.7	0	1
+9	2	0.2	0	2
+10	1	0.0	1	0 1
+11	2	0.0	1	1 1
+12	1	0.0	1	1
+13	1	0.0	1	1
+15	4	0.0	1	4
+16	10	0.0	1	9 1
+17	1	0.0	1	1
+20	127	0.0	2	122 5
+21	8	0.0	2	7 1
+23	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_76_RIGHT ===
+
+Sequence: ACACCTGTGCCTGTTAAACCAT; Type: non-internal 3'; Length: 22; Trimmed: 32 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 68.8%
+  C: 12.5%
+  G: 3.1%
+  T: 15.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	12	45.6	0	12
+6	4	11.4	0	4
+7	1	2.8	0	1
+8	2	0.7	0	2
+10	1	0.0	1	1
+11	1	0.0	1	1
+15	2	0.0	1	2
+16	2	0.0	1	2
+17	1	0.0	1	1
+19	1	0.0	1	1
+20	1	0.0	2	1
+22	2	0.0	2	2
+24	2	0.0	2	0 0 2
+
+
+=== Adapter nCoV-2019_77_LEFT ===
+
+Sequence: CCAGCAACTGTTTGTGGACCTA; Type: non-internal 3'; Length: 22; Trimmed: 5 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 80.0%
+  C: 0.0%
+  G: 20.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+9	1	0.2	0	1
+16	1	0.0	1	1
+17	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_77_RIGHT ===
+
+Sequence: CAGCCCCTATTAAACAGCCTGC; Type: non-internal 3'; Length: 22; Trimmed: 45 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 4.4%
+  C: 2.2%
+  G: 71.1%
+  T: 22.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	34	45.6	0	34
+11	8	0.0	1	8
+15	1	0.0	1	1
+21	2	0.0	2	2
+
+
+=== Adapter nCoV-2019_78_LEFT ===
+
+Sequence: CAACTTACTCCTACTTGGCGTGT; Type: non-internal 3'; Length: 23; Trimmed: 16 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 6.2%
+  C: 18.8%
+  G: 25.0%
+  T: 50.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+6	4	11.4	0	4
+7	1	2.8	0	1
+12	1	0.0	1	1
+17	1	0.0	1	1
+19	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_78_RIGHT ===
+
+Sequence: TGTGTACAAAAACTGCCATATTGCA; Type: non-internal 3'; Length: 25; Trimmed: 77 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 37.7%
+  C: 6.5%
+  G: 35.1%
+  T: 20.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	71	45.6	0	71
+7	1	2.8	0	1
+8	2	0.7	0	2
+9	1	0.2	0	0 1
+10	1	0.0	1	0 1
+17	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_79_LEFT ===
+
+Sequence: GTGGTGATTCAACTGAATGCAGC; Type: non-internal 3'; Length: 23; Trimmed: 67 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 6.0%
+  C: 3.0%
+  G: 1.5%
+  T: 89.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	44	45.6	0	44
+6	18	11.4	0	18
+7	2	2.8	0	2
+9	1	0.2	0	1
+11	1	0.0	1	0 1
+13	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_79_RIGHT ===
+
+Sequence: CATTTCATCTGTGAGCAAAGGTGG; Type: non-internal 3'; Length: 24; Trimmed: 89 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 2.2%
+  C: 6.7%
+  G: 83.1%
+  T: 7.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	80	45.6	0	80
+6	3	11.4	0	3
+7	3	2.8	0	3
+8	1	0.7	0	1
+11	1	0.0	1	1
+17	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_80_LEFT ===
+
+Sequence: TTGCCTTGGTGATATTGCTGCT; Type: non-internal 3'; Length: 22; Trimmed: 23 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 73.9%
+  C: 0.0%
+  G: 4.3%
+  T: 21.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+6	3	11.4	0	3
+7	1	2.8	0	1
+11	13	0.0	1	11 2
+13	1	0.0	1	1
+24	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_80_RIGHT ===
+
+Sequence: TGGAGCTAAGTTGTTTAACAAGCG; Type: non-internal 3'; Length: 24; Trimmed: 7 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 28.6%
+  G: 14.3%
+  T: 57.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	3	45.6	0	3
+8	1	0.7	0	1
+14	1	0.0	1	1
+20	2	0.0	2	2
+
+
+=== Adapter nCoV-2019_81_LEFT ===
+
+Sequence: GCACTTGGAAAACTTCAAGATGTGG; Type: non-internal 3'; Length: 25; Trimmed: 302 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 1.7%
+  C: 93.7%
+  G: 0.3%
+  T: 4.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	296	45.6	0	296
+6	1	11.4	0	1
+9	4	0.2	0	0 4
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_81_RIGHT ===
+
+Sequence: GTGAAGTTCTTTTCTTGTGCAGGG; Type: non-internal 3'; Length: 24; Trimmed: 111 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 1.8%
+  C: 1.8%
+  G: 1.8%
+  T: 94.6%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	5	45.6	0	5
+7	1	2.8	0	1
+8	1	0.7	0	1
+10	15	0.0	1	15
+14	81	0.0	1	60 21
+15	6	0.0	1	6
+16	2	0.0	1	2
+
+
+=== Adapter nCoV-2019_82_LEFT ===
+
+Sequence: GGGCTATCATCTTATGTCCTTCCCT; Type: non-internal 3'; Length: 25; Trimmed: 10 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 90.0%
+  C: 0.0%
+  G: 10.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+8	3	0.7	0	3
+13	3	0.0	1	3
+17	1	0.0	1	1
+19	1	0.0	1	1
+21	1	0.0	2	1
+23	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_82_RIGHT ===
+
+Sequence: TGCCAGAGATGTCACCTAAATCAA; Type: non-internal 3'; Length: 24; Trimmed: 134 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 100.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	129	11.4	0	129
+7	1	2.8	0	1
+11	1	0.0	1	1
+12	1	0.0	1	1
+13	1	0.0	1	1
+25	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_83_LEFT ===
+
+Sequence: TCCTTTGCAACCTGAATTAGACTCA; Type: non-internal 3'; Length: 25; Trimmed: 158 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 90.5%
+  C: 0.0%
+  G: 0.6%
+  T: 8.9%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	9	45.6	0	9
+6	2	11.4	0	2
+8	2	0.7	0	2
+10	3	0.0	1	0 3
+12	1	0.0	1	1
+13	1	0.0	1	1
+14	1	0.0	1	1
+18	132	0.0	1	125 7
+19	2	0.0	1	0 2
+22	2	0.0	2	2
+23	1	0.0	2	1
+24	1	0.0	2	1
+27	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_83_RIGHT ===
+
+Sequence: TTTGACTCCTTTGAGCACTGGC; Type: non-internal 3'; Length: 22; Trimmed: 6 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 83.3%
+  C: 16.7%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	11.4	0	1
+9	1	0.2	0	1
+11	1	0.0	1	1
+12	1	0.0	1	1
+21	1	0.0	2	1
+23	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_84_LEFT ===
+
+Sequence: TGCTGTAGTTGTCTCAAGGGCT; Type: non-internal 3'; Length: 22; Trimmed: 16 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 6.2%
+  C: 18.8%
+  G: 25.0%
+  T: 50.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+6	5	11.4	0	5
+10	1	0.0	1	0 1
+15	1	0.0	1	1
+21	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_84_RIGHT ===
+
+Sequence: AGGTGTGAGTAAACTGTTACAAACAAC; Type: non-internal 3'; Length: 27; Trimmed: 51 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 7.8%
+  C: 3.9%
+  G: 2.0%
+  T: 86.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	46	45.6	0	46
+6	1	11.4	0	1
+10	1	0.0	1	1
+11	1	0.0	1	1
+18	1	0.0	1	1
+28	1	0.0	2	0 1
+
+
+=== Adapter nCoV-2019_85_LEFT ===
+
+Sequence: ACTAGCACTCTCCAAGGGTGTT; Type: non-internal 3'; Length: 22; Trimmed: 14 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 64.3%
+  C: 7.1%
+  G: 21.4%
+  T: 7.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	3	45.6	0	3
+6	7	11.4	0	7
+7	1	2.8	0	1
+10	1	0.0	1	1
+12	1	0.0	1	1
+14	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_85_RIGHT ===
+
+Sequence: ACACAGTCTTTTACTCCAGATTCCC; Type: non-internal 3'; Length: 25; Trimmed: 10 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 60.0%
+  C: 10.0%
+  G: 10.0%
+  T: 20.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	11.4	0	1
+7	4	2.8	0	4
+8	1	0.7	0	1
+9	1	0.2	0	0 1
+10	2	0.0	1	0 2
+12	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_86_LEFT ===
+
+Sequence: TCAGGTGATGGCACAACAAGTC; Type: non-internal 3'; Length: 22; Trimmed: 10 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 30.0%
+  C: 30.0%
+  G: 10.0%
+  T: 30.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+6	4	11.4	0	4
+7	2	2.8	0	2
+
+
+=== Adapter nCoV-2019_86_RIGHT ===
+
+Sequence: ACGAAAGCAAGAAAAAGAAGTACGC; Type: non-internal 3'; Length: 25; Trimmed: 867 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.2%
+  C: 99.8%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+8	2	0.7	0	2
+11	1	0.0	1	1
+13	1	0.0	1	1
+15	1	0.0	1	1
+16	3	0.0	1	3
+17	1	0.0	1	1
+18	1	0.0	1	1
+19	7	0.0	1	6 1
+20	13	0.0	2	12 1
+21	6	0.0	2	6
+22	434	0.0	2	409 22 3
+23	1	0.0	2	0 1
+24	6	0.0	2	6
+25	18	0.0	2	18
+26	372	0.0	2	0 344 28
+
+
+=== Adapter nCoV-2019_87_LEFT ===
+
+Sequence: CGACTACTAGCGTGCCTTTGTA; Type: non-internal 3'; Length: 22; Trimmed: 97 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 100.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	87	45.6	0	87
+7	4	2.8	0	4
+8	2	0.7	0	2
+9	1	0.2	0	1
+12	1	0.0	1	1
+16	1	0.0	1	1
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_87_RIGHT ===
+
+Sequence: ACTAGGTTCCATTGTTCAAGGAGC; Type: non-internal 3'; Length: 24; Trimmed: 3 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+8	1	0.7	0	1
+14	1	0.0	1	1
+17	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_88_LEFT ===
+
+Sequence: CCATGGCAGATTCCAACGGTAC; Type: non-internal 3'; Length: 22; Trimmed: 21 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 61.9%
+  T: 38.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	14	45.6	0	14
+6	1	11.4	0	1
+7	3	2.8	0	3
+12	1	0.0	1	1
+14	2	0.0	1	2
+
+
+=== Adapter nCoV-2019_88_RIGHT ===
+
+Sequence: TGGTCAGAATAGTGCCATGGAGT; Type: non-internal 3'; Length: 23; Trimmed: 7 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 14.3%
+  C: 57.1%
+  G: 0.0%
+  T: 28.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+10	1	0.0	1	0 1
+17	1	0.0	1	1
+20	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_89_LEFT ===
+
+Sequence: GTACGCGTTCCATGTGGTCATT; Type: non-internal 3'; Length: 22; Trimmed: 17 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 11.8%
+  C: 76.5%
+  G: 5.9%
+  T: 5.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+6	2	11.4	0	2
+7	1	2.8	0	1
+10	4	0.0	1	1 3
+11	1	0.0	1	1
+12	1	0.0	1	1
+14	1	0.0	1	1
+15	1	0.0	1	1
+19	1	0.0	1	1
+23	2	0.0	2	0 2
+24	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_89_RIGHT ===
+
+Sequence: ACCTGAAAGTCAACGAGATGAAACA; Type: non-internal 3'; Length: 25; Trimmed: 21 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 76.2%
+  C: 19.0%
+  G: 0.0%
+  T: 4.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	4	45.6	0	4
+6	5	11.4	0	5
+7	2	2.8	0	2
+11	3	0.0	1	3
+16	1	0.0	1	1
+21	2	0.0	2	1 1
+22	1	0.0	2	1
+24	1	0.0	2	1
+26	1	0.0	2	0 1
+27	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_90_LEFT ===
+
+Sequence: ACACAGACCATTCCAGTAGCAGT; Type: non-internal 3'; Length: 23; Trimmed: 11 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 100.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+12	1	0.0	1	1
+13	1	0.0	1	1
+17	2	0.0	1	2
+20	7	0.0	2	6 1
+
+
+=== Adapter nCoV-2019_90_RIGHT ===
+
+Sequence: TGAAATGGTGAATTGCCCTCGT; Type: non-internal 3'; Length: 22; Trimmed: 494 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 2.0%
+  C: 94.3%
+  G: 1.2%
+  T: 2.4%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	480	45.6	0	480
+6	7	11.4	0	7
+7	5	2.8	0	5
+10	1	0.0	1	0 1
+11	1	0.0	1	0 1
+
+
+=== Adapter nCoV-2019_91_LEFT ===
+
+Sequence: TCACTACCAAGAGTGTGTTAGAGGT; Type: non-internal 3'; Length: 25; Trimmed: 14 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-25 bp: 2
+
+Bases preceding removed adapters:
+  A: 35.7%
+  C: 7.1%
+  G: 57.1%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+6	3	11.4	0	3
+19	1	0.0	1	1
+21	2	0.0	2	2
+
+
+=== Adapter nCoV-2019_91_RIGHT ===
+
+Sequence: TTCAAGTGAGAACCAAAAGATAATAAGCA; Type: non-internal 3'; Length: 29; Trimmed: 16 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2
+
+Bases preceding removed adapters:
+  A: 6.2%
+  C: 12.5%
+  G: 62.5%
+  T: 18.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	9	45.6	0	9
+8	1	0.7	0	1
+11	1	0.0	1	1
+13	1	0.0	1	1
+15	2	0.0	1	2
+20	1	0.0	2	1
+26	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_92_LEFT ===
+
+Sequence: TTTGTGCTTTTTAGCCTTTCTGCT; Type: non-internal 3'; Length: 24; Trimmed: 96 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 1.0%
+  C: 1.0%
+  G: 60.4%
+  T: 37.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	93	11.4	0	93
+9	1	0.2	0	0 1
+12	1	0.0	1	0 1
+16	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_92_RIGHT ===
+
+Sequence: AGGTTCCTGGCAATTAATTGTAAAAGG; Type: non-internal 3'; Length: 27; Trimmed: 452 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-27 bp: 2
+
+Bases preceding removed adapters:
+  A: 1.3%
+  C: 0.2%
+  G: 1.1%
+  T: 97.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	24	45.6	0	24
+7	3	2.8	0	3
+8	9	0.7	0	9
+9	355	0.2	0	355
+10	29	0.0	1	28 1
+11	16	0.0	1	15 1
+12	7	0.0	1	7
+16	2	0.0	1	2
+18	2	0.0	1	2
+21	1	0.0	2	1
+22	1	0.0	2	1
+24	1	0.0	2	1
+28	1	0.0	2	0 1
+29	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_93_LEFT ===
+
+Sequence: TGAGGCTGGTTCTAAATCACCCA; Type: non-internal 3'; Length: 23; Trimmed: 23 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 82.6%
+  C: 8.7%
+  G: 4.3%
+  T: 4.3%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "A" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	12	45.6	0	12
+6	5	11.4	0	5
+7	3	2.8	0	3
+10	1	0.0	1	0 1
+17	1	0.0	1	1
+18	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_93_RIGHT ===
+
+Sequence: AGGTCTTCCTTGCCATGTTGAG; Type: non-internal 3'; Length: 22; Trimmed: 5 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 60.0%
+  C: 0.0%
+  G: 20.0%
+  T: 20.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+7	1	2.8	0	1
+12	1	0.0	1	0 1
+18	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_94_LEFT ===
+
+Sequence: GGCCCCAAGGTTTACCCAATAA; Type: non-internal 3'; Length: 22; Trimmed: 7 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	1	11.4	0	1
+7	3	2.8	0	3
+10	1	0.0	1	1
+17	1	0.0	1	1
+18	1	0.0	1	1
+
+
+=== Adapter nCoV-2019_94_RIGHT ===
+
+Sequence: TTTGGCAATGTTGTTCCTTGAGG; Type: non-internal 3'; Length: 23; Trimmed: 232 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.9%
+  C: 2.2%
+  G: 0.9%
+  T: 96.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "T" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	8	45.6	0	8
+6	1	11.4	0	1
+7	2	2.8	0	2
+8	2	0.7	0	2
+9	1	0.2	0	1
+10	5	0.0	1	5
+11	4	0.0	1	3 1
+12	7	0.0	1	7
+13	15	0.0	1	15
+15	1	0.0	1	1
+17	176	0.0	1	169 7
+18	6	0.0	1	6
+19	4	0.0	1	4
+
+
+=== Adapter nCoV-2019_95_LEFT ===
+
+Sequence: TGAGGGAGCCTTGAATACACCA; Type: non-internal 3'; Length: 22; Trimmed: 89 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "C" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+7	1	2.8	0	1
+9	1	0.2	0	1
+10	2	0.0	1	2
+11	5	0.0	1	5
+12	1	0.0	1	1
+13	2	0.0	1	2
+14	9	0.0	1	9
+17	3	0.0	1	3
+18	60	0.0	1	59 1
+20	3	0.0	2	2 1
+21	1	0.0	2	1
+22	1	0.0	2	1
+
+
+=== Adapter nCoV-2019_95_RIGHT ===
+
+Sequence: CAGTACGTTTTTGCCGAGGCTT; Type: non-internal 3'; Length: 22; Trimmed: 11 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 9.1%
+  C: 0.0%
+  G: 27.3%
+  T: 63.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+6	3	11.4	0	3
+10	2	0.0	1	0 2
+
+
+=== Adapter nCoV-2019_96_LEFT ===
+
+Sequence: GCCAACAACAACAAGGCCAAAC; Type: non-internal 3'; Length: 22; Trimmed: 8 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 25.0%
+  C: 12.5%
+  G: 50.0%
+  T: 12.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	2	45.6	0	2
+10	2	0.0	1	0 2
+11	1	0.0	1	0 1
+12	1	0.0	1	1
+18	2	0.0	1	2
+
+
+=== Adapter nCoV-2019_96_RIGHT ===
+
+Sequence: TAGGCTCTGTTGGTGGGAATGT; Type: non-internal 3'; Length: 22; Trimmed: 4 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 25.0%
+  T: 75.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	1	45.6	0	1
+6	1	11.4	0	1
+7	2	2.8	0	2
+
+
+=== Adapter nCoV-2019_97_LEFT ===
+
+Sequence: TGGATGACAAAGATCCAAATTTCAAAGA; Type: non-internal 3'; Length: 28; Trimmed: 127 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-28 bp: 2
+
+Bases preceding removed adapters:
+  A: 0.8%
+  C: 3.1%
+  G: 92.9%
+  T: 3.1%
+  none/other: 0.0%
+WARNING:
+    The adapter is preceded by "G" extremely often.
+    The provided adapter sequence could be incomplete at its 3' end.
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	3	45.6	0	3
+6	119	11.4	0	119
+7	1	2.8	0	1
+10	3	0.0	1	3
+30	1	0.0	2	0 0 1
+
+
+=== Adapter nCoV-2019_97_RIGHT ===
+
+Sequence: ACACACTGATTAAAGATTGCTATGTGAG; Type: non-internal 3'; Length: 28; Trimmed: 0 times
+
+=== Adapter nCoV-2019_98_LEFT ===
+
+Sequence: AACAATTGCAACAATCCATGAGCA; Type: non-internal 3'; Length: 24; Trimmed: 14 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-24 bp: 2
+
+Bases preceding removed adapters:
+  A: 42.9%
+  C: 14.3%
+  G: 14.3%
+  T: 28.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	6	45.6	0	6
+6	4	11.4	0	4
+7	1	2.8	0	1
+9	3	0.2	0	3
+
+
+=== Adapter nCoV-2019_98_RIGHT ===
+
+Sequence: TTCTCCTAAGAAGCTATTAAAATCACATGG; Type: non-internal 3'; Length: 30; Trimmed: 5 times
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30 bp: 3
+
+Bases preceding removed adapters:
+  A: 20.0%
+  C: 20.0%
+  G: 0.0%
+  T: 60.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	5	45.6	0	5
+
+
+WARNING:
+    One or more of your adapter sequences may be incomplete.
+    Please see the detailed output above.
