@@ -1,0 +1,10 @@
+report_header_info:
+    - Date: 'December 03, 2019'
+
+
+custom_data:
+    my_data_type:
+        id: 'ID section'
+        section_name: 'Section name'
+        plot_type: 'html'
+        data: '<h1>html text here</h1>'
