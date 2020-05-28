@@ -1,0 +1,39 @@
+#Fastq_screen version: 0.14.0	#Aligner: Bismark/bowtie2	#Reads in subset: 100000
+Genome	#Reads_processed	#Unmapped	%Unmapped	#One_hit_one_genome	%One_hit_one_genome	#Multiple_hits_one_genome	%Multiple_hits_one_genome	#One_hit_multiple_genomes	%One_hit_multiple_genomes	Multiple_hits_multiple_genomes	%Multiple_hits_multiple_genomes
+Cat	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Chicken	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Cow	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Drosophila	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Human	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Macaque	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Mouse	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Opossum	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Pig	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Rat	10000	9909	99.09	0	0.00	0	0.00	9	0.09	82	0.82
+Zebrafish	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Arabidopsis	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Grape	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Potato	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Tomato	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Pseudomonas	10000	9987	99.87	0	0.00	0	0.00	2	0.02	11	0.11
+Massilia_oculi	10000	9998	99.98	0	0.00	0	0.00	0	0.00	2	0.02
+Ecoli	10000	0	-0.00	9259	92.59	579	5.79	35	0.35	127	1.27
+Lambda	10000	9977	99.77	0	0.00	0	0.00	23	0.23	0	0.00
+MT	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+PhiX	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+Wasp	10000	9999	99.99	0	0.00	0	0.00	1	0.01	0	0.00
+Vectors	10000	9933	99.33	0	0.00	0	0.00	67	0.67	0	0.00
+Worm	10000	9990	99.90	0	0.00	0	0.00	0	0.00	10	0.10
+Yeast	10000	10000	100.00	0	0.00	0	0.00	0	0.00	0	0.00
+
+%Hit_no_genomes: 0.00
+
+
+#Bisulfite read orientation results
+Library	#Original_top_strand	%Original_top_strand	#Complementary_to_original_top_strand	%Complementary_to_original_top_strand	#Complementary_to_original_bottom_strand	%Complementary_to_original_bottom_strand	#Original_bottom_strand	%Original_bottom_strand
+Rat	3	33.33	3	33.33	2	22.22	1	11.11
+Pseudomonas	0	0.00	2	100.00	0	0.00	0	0.00
+Ecoli	2335	25.12	2324	25.01	2350	25.29	2285	24.59
+Lambda	2	8.70	12	52.17	5	21.74	4	17.39
+Wasp	0	0.00	0	0.00	0	0.00	1	100.00
+Vectors	12	17.91	26	38.81	14	20.90	15	22.39
