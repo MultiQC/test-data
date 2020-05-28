@@ -1,0 +1,47 @@
+file	percent	reads	taxon_id	taxon_name
+second_kaiju_MEM_verbose.out	36.420803	10186115	1224	Proteobacteria
+second_kaiju_MEM_verbose.out	25.410604	7106800	1239	Firmicutes
+second_kaiju_MEM_verbose.out	9.429709	2637287	201174	Actinobacteria
+second_kaiju_MEM_verbose.out	7.197650	2013028	976	Bacteroidetes
+second_kaiju_MEM_verbose.out	4.027550	1126419	203691	Spirochaetes
+second_kaiju_MEM_verbose.out	3.415522	955248	28890	Euryarchaeota
+second_kaiju_MEM_verbose.out	1.652276	462106	32066	Fusobacteria
+second_kaiju_MEM_verbose.out	1.651636	461927	74201	Verrucomicrobia
+second_kaiju_MEM_verbose.out	0.004856	1358	1117	Cyanobacteria
+second_kaiju_MEM_verbose.out	0.002628	735	1090	Chlorobi
+second_kaiju_MEM_verbose.out	0.002106	589	544448	Tenericutes
+second_kaiju_MEM_verbose.out	0.001920	537	200795	Chloroflexi
+second_kaiju_MEM_verbose.out	0.001620	453	57723	Acidobacteria
+second_kaiju_MEM_verbose.out	0.001355	379	1297	Deinococcus-Thermus
+second_kaiju_MEM_verbose.out	0.001348	377	203682	Planctomycetes
+second_kaiju_MEM_verbose.out	0.001201	336	200918	Thermotogae
+second_kaiju_MEM_verbose.out	0.000958	268	28889	Crenarchaeota
+second_kaiju_MEM_verbose.out	0.000851	238	200783	Aquificae
+second_kaiju_MEM_verbose.out	0.000772	216	256845	Lentisphaerae
+second_kaiju_MEM_verbose.out	0.000744	208	1134404	Ignavibacteriae
+second_kaiju_MEM_verbose.out	0.000733	205	40117	Nitrospirae
+second_kaiju_MEM_verbose.out	0.000522	146	1930617	Calditrichaeota
+second_kaiju_MEM_verbose.out	0.000436	122	95818	Candidatus Saccharibacteria
+second_kaiju_MEM_verbose.out	0.000422	118	65842	Fibrobacteres
+second_kaiju_MEM_verbose.out	0.000400	112	508458	Synergistetes
+second_kaiju_MEM_verbose.out	0.000379	106	142182	Gemmatimonadetes
+second_kaiju_MEM_verbose.out	0.000333	93	67819	Armatimonadetes
+second_kaiju_MEM_verbose.out	0.000325	91	204428	Chlamydiae
+second_kaiju_MEM_verbose.out	0.000139	39	1936987	Balneolaeota
+second_kaiju_MEM_verbose.out	0.000136	38	200940	Thermodesulfobacteria
+second_kaiju_MEM_verbose.out	0.000132	37	456828	Candidatus Cloacimonetes
+second_kaiju_MEM_verbose.out	0.000089	25	651137	Thaumarchaeota
+second_kaiju_MEM_verbose.out	0.000082	23	134625	Kiritimatiellaeota
+second_kaiju_MEM_verbose.out	0.000072	20	200930	Deferribacteres
+second_kaiju_MEM_verbose.out	0.000046	13	74152	Elusimicrobia
+second_kaiju_MEM_verbose.out	0.000039	11	2138240	Coprothermobacterota
+second_kaiju_MEM_verbose.out	0.000021	6	1801631	Candidatus Micrarchaeota
+second_kaiju_MEM_verbose.out	0.000018	5	68297	Dictyoglomi
+second_kaiju_MEM_verbose.out	0.000011	3	51967	Candidatus Korarchaeota
+second_kaiju_MEM_verbose.out	0.000007	2	363464	Candidatus Gracilibacteria
+second_kaiju_MEM_verbose.out	0.000004	1	67810	Candidatus Bipolaricaulota
+second_kaiju_MEM_verbose.out	0.000004	1	67814	Caldiserica
+second_kaiju_MEM_verbose.out	0.000004	1	200938	Chrysiogenetes
+second_kaiju_MEM_verbose.out	0.017738	4961	10239	Viruses
+second_kaiju_MEM_verbose.out	8.152114	2279971	NA	cannot be assigned to a (non-viral) phylum
+second_kaiju_MEM_verbose.out	2.599685	727076	NA	unclassified
