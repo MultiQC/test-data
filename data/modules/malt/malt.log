@@ -1,0 +1,333 @@
+MaltRun - Aligns sequences using MALT (MEGAN alignment tool)
+Options:
+Mode:
+	--mode: BlastN
+	--alignmentType: SemiGlobal
+Input:
+	--inFile: BRK001.A0101.SG1.1.unmapped.fastq.gz MAF001.A0101.SG1.1.unmapped.fastq.gz HAI001.A0101.SG1.1.unmapped.fastq.gz CRM001.A0101.SG1.1.unmapped.fastq.gz HAI002.A0101.SG1.1.unmapped.fastq.gz ARD001.A0101.SG1.1.unmapped.fastq.gz RIE001.B0101.SG1.1.unmapped.fastq.gz BRK002.A0101.SG1.1.unmapped.fastq.gz ORM001.A0101.SG1.1.unmapped.fastq.gz RAN004.A0101.SG1.1.unmapped.fastq.gz
+	--index: /projects1/malt/databases/indexed/index040/refseq-bac-arch-homo-2018_11
+Output:
+	--output: .
+	--includeUnaligned: false
+	--samSoftClip: false
+	--sparseSAM: false
+Performance:
+	--numThreads: 112
+	--memoryMode: load
+	--maxTables: 0
+	--replicateQueryCache: false
+Filter:
+	--minBitScore: 50.0
+	--maxExpected: 1.0
+	--minPercentIdentity: 85.0
+	--maxAlignmentsPerQuery: 100
+	--maxAlignmentsPerRef: 1
+BlastN parameters:
+	--matchScore: 2
+	--mismatchScore: -3
+	--setLambda: 0.625
+	--setK: 0.41
+DNA query parameters:
+	--forwardOnly: false
+	--reverseOnly: false
+LCA parameters:
+	--topPercent: 1.0
+	--minSupportPercent: 0.01
+	--minSupport: 0
+	--minPercentIdentityLCA: 0.0
+	--useMinPercentIdentityFilterLCA: false
+	--weightedLCA: false
+	--magnitudes: false
+Heuristics:
+	--maxSeedsPerFrame: 100
+	--maxSeedsPerRef: 20
+	--seedShift: 1
+Banded alignment parameters:
+	--gapOpen: 7
+	--gapExtend: 3
+	--band: 4
+Other:
+	--replicateQueryCacheBits: 20
+	--xPart: false
+	--verbose: true
+Version   MALT (version 0.4.1, built 24 May 2018)
+Copyright (C) 2018 Daniel H. Huson. This program comes with ABSOLUTELY NO WARRANTY.
+--- LOADING ---:
+Reading file: /projects1/malt/databases/indexed/index040/refseq-bac-arch-homo-2018_11/ref.idx
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (0.8s)
+Reading file: /projects1/malt/databases/indexed/index040/refseq-bac-arch-homo-2018_11/ref.db
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (1163.2s)
+100% (0.0s)
+Number of sequences:     1,780,321
+Number of letters: 130,589,137,643
+LOADING table (0) ...
+Reading file: /projects1/malt/databases/indexed/index040/refseq-bac-arch-homo-2018_11/index0.idx
+Reference sequence type: DNA
+Index was built using stepSize=2
+100% (0.0s)
+Reading file: /projects1/malt/databases/indexed/index040/refseq-bac-arch-homo-2018_11/table0.idx
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (64.3s)
+Reading file: /projects1/malt/databases/indexed/index040/refseq-bac-arch-homo-2018_11/table0.db
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (1602.3s)
+Table size: 65,022,892,631
+Loading ncbi.map: 1,703,606
+Loading ncbi.tre: 1,703,609
+Reading file: /projects1/malt/databases/indexed/index040/refseq-bac-arch-homo-2018_11/taxonomy.idx
+10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (0.1s)
+--- ALIGNING ---:
++++++ Aligning file: BRK001.A0101.SG1.1.unmapped.fastq.gz
+Starting file: ./BRK001.A0101.SG1.1.unmapped.rma6
+10% 20% 30% 40% 50% 100% (1354.9s)
+Finishing file: ./BRK001.A0101.SG1.1.unmapped.rma6
+Loading MEGAN File: BRK001.A0101.SG1.1.unmapped.rma6
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:        3,837,362
+With hits:           3,837,362 
+Alignments:         53,969,393
+Assig. Taxonomy:     3,831,406
+MinSupport set to: 383
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:      10,202
+Binning reads: Writing classification tables
+Numb. Tax. classes:        611
+Binning reads: Syncing
+Class. Taxonomy:           611
+Analysis written to file: ./BRK001.A0101.SG1.1.unmapped.rma6
+Num. of queries:    8389476
+Aligned queries:    3837362
+Num. alignments:   53969393
++++++ Aligning file: MAF001.A0101.SG1.1.unmapped.fastq.gz
+Starting file: ./MAF001.A0101.SG1.1.unmapped.rma6
+10% 20% 30% 40% 50% 60% 100% (1265.2s)
+Finishing file: ./MAF001.A0101.SG1.1.unmapped.rma6
+Loading MEGAN File: MAF001.A0101.SG1.1.unmapped.rma6
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:        5,154,285
+With hits:           5,154,285 
+Alignments:         69,944,085
+Assig. Taxonomy:     5,149,760
+MinSupport set to: 515
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:      10,966
+Binning reads: Writing classification tables
+Numb. Tax. classes:        563
+Binning reads: Syncing
+Class. Taxonomy:           563
+Analysis written to file: ./MAF001.A0101.SG1.1.unmapped.rma6
+Num. of queries:   10011745
+Aligned queries:    5154285
+Num. alignments:   69944085
++++++ Aligning file: HAI001.A0101.SG1.1.unmapped.fastq.gz
+Starting file: ./HAI001.A0101.SG1.1.unmapped.rma6
+10% 20% 30% 40% 50% 100% (1002.1s)
+Finishing file: ./HAI001.A0101.SG1.1.unmapped.rma6
+Loading MEGAN File: HAI001.A0101.SG1.1.unmapped.rma6
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:        3,408,092
+With hits:           3,408,092 
+Alignments:         66,161,506
+Assig. Taxonomy:     3,395,411
+MinSupport set to: 340
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:       9,765
+Binning reads: Writing classification tables
+Numb. Tax. classes:        906
+Binning reads: Syncing
+Class. Taxonomy:           906
+Analysis written to file: ./HAI001.A0101.SG1.1.unmapped.rma6
+Num. of queries:   10077537
+Aligned queries:    3408092
+Num. alignments:   66161506
++++++ Aligning file: CRM001.A0101.SG1.1.unmapped.fastq.gz
+Starting file: ./CRM001.A0101.SG1.1.unmapped.rma6
+10% 20% 30% 40% 50% 100% (678.1s)
+Finishing file: ./CRM001.A0101.SG1.1.unmapped.rma6
+Loading MEGAN File: CRM001.A0101.SG1.1.unmapped.rma6
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:        3,636,455
+With hits:           3,636,455 
+Alignments:         22,687,733
+Assig. Taxonomy:     3,633,822
+MinSupport set to: 363
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:      10,488
+Binning reads: Writing classification tables
+Numb. Tax. classes:        498
+Binning reads: Syncing
+Class. Taxonomy:           498
+Analysis written to file: ./CRM001.A0101.SG1.1.unmapped.rma6
+Num. of queries:    9420569
+Aligned queries:    3636455
+Num. alignments:   22687733
++++++ Aligning file: HAI002.A0101.SG1.1.unmapped.fastq.gz
+Starting file: ./HAI002.A0101.SG1.1.unmapped.rma6
+10% 20% 30% 40% 50% 100% (957.1s)
+Finishing file: ./HAI002.A0101.SG1.1.unmapped.rma6
+Loading MEGAN File: HAI002.A0101.SG1.1.unmapped.rma6
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:        5,134,263
+With hits:           5,134,263 
+Alignments:         35,043,168
+Assig. Taxonomy:     5,129,969
+MinSupport set to: 513
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:       9,027
+Binning reads: Writing classification tables
+Numb. Tax. classes:        368
+Binning reads: Syncing
+Class. Taxonomy:           368
+Analysis written to file: ./HAI002.A0101.SG1.1.unmapped.rma6
+Num. of queries:   10820528
+Aligned queries:    5134263
+Num. alignments:   35043168
++++++ Aligning file: ARD001.A0101.SG1.1.unmapped.fastq.gz
+Starting file: ./ARD001.A0101.SG1.1.unmapped.rma6
+10% 20% 30% 40% 50% 60% 100% (1244.5s)
+Finishing file: ./ARD001.A0101.SG1.1.unmapped.rma6
+Loading MEGAN File: ARD001.A0101.SG1.1.unmapped.rma6
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:        4,086,175
+With hits:           4,086,175 
+Alignments:         87,088,521
+Assig. Taxonomy:     4,079,641
+MinSupport set to: 408
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:      10,827
+Binning reads: Writing classification tables
+Numb. Tax. classes:        681
+Binning reads: Syncing
+Class. Taxonomy:           681
+Analysis written to file: ./ARD001.A0101.SG1.1.unmapped.rma6
+Num. of queries:    7917732
+Aligned queries:    4086175
+Num. alignments:   87088521
++++++ Aligning file: RIE001.B0101.SG1.1.unmapped.fastq.gz
+Starting file: ./RIE001.B0101.SG1.1.unmapped.rma6
+10% 20% 30% 40% 50% 60% 100% (669.4s)
+Finishing file: ./RIE001.B0101.SG1.1.unmapped.rma6
+Loading MEGAN File: RIE001.B0101.SG1.1.unmapped.rma6
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:        2,736,030
+With hits:           2,736,030 
+Alignments:         36,746,846
+Assig. Taxonomy:     2,726,751
+MinSupport set to: 273
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:      10,593
+Binning reads: Writing classification tables
+Numb. Tax. classes:        726
+Binning reads: Syncing
+Class. Taxonomy:           726
+Analysis written to file: ./RIE001.B0101.SG1.1.unmapped.rma6
+Num. of queries:    8031917
+Aligned queries:    2736030
+Num. alignments:   36746846
++++++ Aligning file: BRK002.A0101.SG1.1.unmapped.fastq.gz
+Starting file: ./BRK002.A0101.SG1.1.unmapped.rma6
+10% 20% 30% 40% 50% 60% 100% (1247.8s)
+Finishing file: ./BRK002.A0101.SG1.1.unmapped.rma6
+Loading MEGAN File: BRK002.A0101.SG1.1.unmapped.rma6
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:        4,347,401
+With hits:           4,347,401 
+Alignments:         82,265,824
+Assig. Taxonomy:     4,341,125
+MinSupport set to: 434
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:      10,351
+Binning reads: Writing classification tables
+Numb. Tax. classes:        533
+Binning reads: Syncing
+Class. Taxonomy:           533
+Analysis written to file: ./BRK002.A0101.SG1.1.unmapped.rma6
+Num. of queries:    8734006
+Aligned queries:    4347401
+Num. alignments:   82265824
++++++ Aligning file: ORM001.A0101.SG1.1.unmapped.fastq.gz
+Starting file: ./ORM001.A0101.SG1.1.unmapped.rma6
+10% 20% 30% 40% 50% 100% (527.9s)
+Finishing file: ./ORM001.A0101.SG1.1.unmapped.rma6
+Loading MEGAN File: ORM001.A0101.SG1.1.unmapped.rma6
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:        1,560,855
+With hits:           1,560,855 
+Alignments:         26,992,576
+Assig. Taxonomy:     1,549,073
+MinSupport set to: 156
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:       9,763
+Binning reads: Writing classification tables
+Numb. Tax. classes:      1,400
+Binning reads: Syncing
+Class. Taxonomy:         1,400
+Analysis written to file: ./ORM001.A0101.SG1.1.unmapped.rma6
+Num. of queries:   11146707
+Aligned queries:    1560855
+Num. alignments:   26992576
++++++ Aligning file: RAN004.A0101.SG1.1.unmapped.fastq.gz
+Starting file: ./RAN004.A0101.SG1.1.unmapped.rma6
+10% 20% 30% 40% 50% 100% (921.4s)
+Finishing file: ./RAN004.A0101.SG1.1.unmapped.rma6
+Loading MEGAN File: RAN004.A0101.SG1.1.unmapped.rma6
+Binning reads: Initializing...
+Initializing binning...
+Using 'Naive LCA' algorithm (80.0 %) for binning: Taxonomy
+Binning reads...
+Binning reads: Analyzing alignments
+Total reads:        3,155,761
+With hits:           3,155,761 
+Alignments:         55,753,945
+Assig. Taxonomy:     3,149,343
+MinSupport set to: 315
+Binning reads: Applying min-support & disabled filter to Taxonomy...
+Min-supp. changes:      10,395
+Binning reads: Writing classification tables
+Numb. Tax. classes:        617
+Binning reads: Syncing
+Class. Taxonomy:           617
+Analysis written to file: ./RAN004.A0101.SG1.1.unmapped.rma6
+Num. of queries:    7921167
+Aligned queries:    3155761
+Num. alignments:   55753945
+Number of input files:         10
+Total num. of queries:   92471384
+Total aligned queries:   37056679
+Total num. alignments:  536653597
+Total time:  50071s
+Peak memory: 886.8 of 1813.4G
