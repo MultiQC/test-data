@@ -1,0 +1,92 @@
+file	percent	reads	taxon_id	taxon_name
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	22.902338	6133128	1239	Firmicutes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	21.733652	5820160	1224	Proteobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	17.174240	4599173	976	Bacteroidetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	14.219438	3807892	201174	Actinobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	4.027718	1078602	203691	Spirochaetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	3.415208	914575	28890	Euryarchaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	1.652276	442471	32066	Fusobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	1.651701	442317	74201	Verrucomicrobia
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.004896	1311	1117	Cyanobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.002502	670	1090	Chlorobi
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.002143	574	544448	Tenericutes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.001990	533	200795	Chloroflexi
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.001748	468	1297	Deinococcus-Thermus
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.001680	450	57723	Acidobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.001318	353	203682	Planctomycetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.001165	312	28889	Crenarchaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.001154	309	200918	Thermotogae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000758	203	1134404	Ignavibacteriae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000713	191	256845	Lentisphaerae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000676	181	40117	Nitrospirae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000489	131	1930617	Calditrichaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000437	117	95818	Candidatus Saccharibacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000429	115	65842	Fibrobacteres
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000414	111	508458	Synergistetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000411	110	200783	Aquificae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000411	110	204428	Chlamydiae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000388	104	142182	Gemmatimonadetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000332	89	67819	Armatimonadetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000164	44	1936987	Balneolaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000149	40	200940	Thermodesulfobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000127	34	456828	Candidatus Cloacimonetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000090	24	134625	Kiritimatiellaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000090	24	651137	Thaumarchaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000075	20	200930	Deferribacteres
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000045	12	74152	Elusimicrobia
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000045	12	2138240	Coprothermobacterota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000019	5	68297	Dictyoglomi
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000011	3	51967	Candidatus Korarchaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000007	2	363464	Candidatus Gracilibacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000004	1	67810	Candidatus Bipolaricaulota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000004	1	67814	Caldiserica
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.000004	1	200938	Chrysiogenetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	0.020273	5429	10239	Viruses
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	10.372000	2777568	NA	cannot be assigned to a (non-viral) phylum
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s1_kaiju.out	2.806271	751505	NA	unclassified
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	36.420803	10186115	1224	Proteobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	25.410604	7106800	1239	Firmicutes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	9.429709	2637287	201174	Actinobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	7.197650	2013028	976	Bacteroidetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	4.027550	1126419	203691	Spirochaetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	3.415522	955248	28890	Euryarchaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	1.652276	462106	32066	Fusobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	1.651636	461927	74201	Verrucomicrobia
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.004856	1358	1117	Cyanobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.002628	735	1090	Chlorobi
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.002106	589	544448	Tenericutes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.001920	537	200795	Chloroflexi
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.001620	453	57723	Acidobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.001355	379	1297	Deinococcus-Thermus
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.001348	377	203682	Planctomycetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.001201	336	200918	Thermotogae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000958	268	28889	Crenarchaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000851	238	200783	Aquificae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000772	216	256845	Lentisphaerae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000744	208	1134404	Ignavibacteriae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000733	205	40117	Nitrospirae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000522	146	1930617	Calditrichaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000436	122	95818	Candidatus Saccharibacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000422	118	65842	Fibrobacteres
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000400	112	508458	Synergistetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000379	106	142182	Gemmatimonadetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000333	93	67819	Armatimonadetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000325	91	204428	Chlamydiae
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000139	39	1936987	Balneolaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000136	38	200940	Thermodesulfobacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000132	37	456828	Candidatus Cloacimonetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000089	25	651137	Thaumarchaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000082	23	134625	Kiritimatiellaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000072	20	200930	Deferribacteres
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000046	13	74152	Elusimicrobia
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000039	11	2138240	Coprothermobacterota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000021	6	1801631	Candidatus Micrarchaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000018	5	68297	Dictyoglomi
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000011	3	51967	Candidatus Korarchaeota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000007	2	363464	Candidatus Gracilibacteria
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000004	1	67810	Candidatus Bipolaricaulota
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000004	1	67814	Caldiserica
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.000004	1	200938	Chrysiogenetes
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	0.017738	4961	10239	Viruses
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	8.152114	2279971	NA	cannot be assigned to a (non-viral) phylum
+/work2/genphyse/NED_metaG/processing/mock/metagWGS_1_CPM_without_host/results/03_Classification_Kaiju/s2_kaiju.out	2.599685	727076	NA	unclassified
