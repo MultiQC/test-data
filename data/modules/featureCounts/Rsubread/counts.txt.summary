@@ -1,0 +1,15 @@
+"Status" "Sample1" "Sample2"
+"Assigned" 2531689 2524167
+"Unassigned_Unmapped" 2343 0
+"Unassigned_Read_Type" 3456 0
+"Unassigned_Singleton" 678 0
+"Unassigned_MappingQuality" 123 0
+"Unassigned_Chimera" 345 0
+"Unassigned_FragmentLength" 678 0
+"Unassigned_Duplicate" 968 0
+"Unassigned_MultiMapping" 345 0
+"Unassigned_Secondary" 5678 0
+"Unassigned_NonSplit" 345 0
+"Unassigned_NoFeatures" 14171269 14183045
+"Unassigned_Overlapping_Length" 864 0
+"Unassigned_Ambiguity" 70374 70233
