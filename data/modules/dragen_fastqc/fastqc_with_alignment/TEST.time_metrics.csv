@@ -1,0 +1,6 @@
+RUN TIME,,Time loading reference,00:00:38.882,38.88
+RUN TIME,,Time aligning reads,00:00:12.445,12.44
+RUN TIME,,Time sorting,00:00:05.341,5.34
+RUN TIME,,Time saving map/align output,00:00:21.936,21.94
+RUN TIME,,Time partitioning,00:00:11.440,11.44
+RUN TIME,,Total runtime,00:01:32.032,92.03
