@@ -1,0 +1,20 @@
+ZMWs input          (A)  : 93
+ZMWs generating CCS (B)  : 44 (47.31%)
+ZMWs filtered       (C)  : 49 (52.69%)
+
+Exclusive ZMW counts for (C):
+Median length filter     : 0 (0.00%)
+Below SNR threshold      : 0 (0.00%)
+Lacking full passes      : 42 (85.71%)
+Heteroduplex insertions  : 0 (0.00%)
+Coverage drops           : 0 (0.00%)
+Insufficient draft cov   : 0 (0.00%)
+Draft too different      : 0 (0.00%)
+Draft generation error   : 1 (2.04%)
+Draft above --max-length : 0 (0.00%)
+Draft below --min-length : 0 (0.00%)
+Reads failed polishing   : 0 (0.00%)
+Empty coverage windows   : 0 (0.00%)
+CCS did not converge     : 0 (0.00%)
+CCS below minimum RQ     : 6 (12.24%)
+Unknown error            : 0 (0.00%)
