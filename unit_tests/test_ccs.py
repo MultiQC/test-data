@@ -14,7 +14,8 @@ PARSABLE_LINES  = [
         'ZMWs input :',
         'ZMWs input (A) :',
         'ZMWs input : 93',
-        'ZMWs input (A) : 93'
+        'ZMWs input (A) : 93',
+        'Coefficient of correlation    : 28.78%'
 ]
 
 PARSED_RESULTS = [
@@ -34,6 +35,10 @@ PARSED_RESULTS = [
             'name':'ZMWs input',
             'annotation':'A',
             'count': 93
+        },
+        {
+            'name': 'Coefficient of correlation',
+            'percentage': 28.78
         }
 ]
 
