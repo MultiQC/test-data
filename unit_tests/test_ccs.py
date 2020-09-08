@@ -11,8 +11,10 @@ from multiqc.modules.ccs.ccs import parse_ccs_log
 
 class Test(unittest.TestCase):
 
-    def test_nothing(self):
-        pass
+    def test_parse_line(self):
+        with open('data/ccs/ccs.report.txt') as fin:
+            data = parse_ccs_log(fin)
+            assert data['ZMWs input'] == 93
 
 if __name__ == '__main__':
     unittest.main()
