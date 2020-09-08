@@ -13,6 +13,8 @@ PARSABLE_LINES  = [
         '',
         'ZMWs input :',
         'ZMWs input (A) :',
+        'ZMWs input : 93',
+        'ZMWs input (A) : 93'
 ]
 
 PARSED_RESULTS = [
@@ -23,6 +25,15 @@ PARSED_RESULTS = [
         {
             'name':'ZMWs input',
             'annotation':'A'
+        },
+        {
+            'name':'ZMWs input',
+            'count': 93
+        },
+        {
+            'name':'ZMWs input',
+            'annotation':'A',
+            'count': 93
         }
 ]
 
