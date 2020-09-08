@@ -1,0 +1,10 @@
+QCStatus	PASS
+SegmentPass	true
+GenderPass	true
+DeletedGenesPass	true
+SegmentScore	1
+UnsupportedSegments	1
+Ploidy	1.9987
+AmberGender	FEMALE
+CobaltGender	FEMALE
+DeletedGenes	0
