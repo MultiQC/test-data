@@ -77,6 +77,23 @@ CCS_LINES = [
         'ZMWs input (A)  : 93',
         'ZMWs filtered (C)  : 49 (52.69%)',
         'Exclusive ZMW counts for (C):'
+    ],
+    [
+        'ZMWs input                (A) : 44',
+        'ZMWs above all thresholds (B) : 39 (89%)',
+        'ZMWs below any threshold  (C) : 5 (11%)',
+        '',
+        'ZMWs for (B):',
+        'With same pair                : 39 (100%)',
+        'Coefficient of correlation    : 28.78%',
+        '',
+        'ZMWs for (A):',
+        'Allow diff pair               : 44 (100%)',
+        'Allow same pair               : 44 (100%)',
+        '',
+        'Reads for (B):',
+        'Above length                  : 39 (100%)',
+        'Below length                  : 0 (0%)'
     ]
 ]
 
@@ -103,6 +120,48 @@ CCS_DATA = [
             'percentage': 52.69,
             'Exclusive ZMW counts': {}
         }
+    },
+    {
+        'ZMWs input': {
+            'count':44,
+            'ZMWs': {
+                'Allow diff pair': {
+                    'count': 44,
+                    'percentage': 100.0
+                },
+                'Allow same pair': {
+                    'count': 44,
+                    'percentage': 100.0
+                }
+            }
+        },
+        'ZMWs above all thresholds': {
+            'count':39,
+            'percentage': 89.0,
+            'ZMWs': {
+                'With same pair': {
+                    'count': 39,
+                    'percentage': 100.0
+                },
+                'Coefficient of correlation': {
+                    'percentage': 28.78
+                }
+            },
+            'Reads': {
+                'Above length': {
+                    'count': 39,
+                    'percentage': 100.0
+                },
+                'Below length': {
+                    'count': 0,
+                    'percentage': 0.0
+                }
+            }
+        },
+        'ZMWs below any threshold': {
+            'count': 5,
+            'percentage': 11.0
+        },
     }
 ]
 
@@ -118,5 +177,3 @@ def test_parsable_lines(line, data):
 def test_parse_PacBio_log_ccs(lines, data):
     result = parse_PacBio_log(lines)
     assert result == data
-
-    print(result)
