@@ -10,14 +10,26 @@ sys.path.insert(0,'../MultiQC')
 from multiqc.modules.ccs.ccs import parse_PacBio_log, parse_line
 
 PARSABLE_LINES  = [
-        ('', {}),
-        ('ZMWs input (A) :', {'name':'ZMWs input', 'annotation':'A'}),
-        ('ZMWs input :', {'name':'ZMWs input'})
-        #('ZMWs input          (A)  : 93', {'name':'ZMWs input', 'count': 93})
-        #('ZMWs input          (A)  : 93', {'name':'ZMWs input', 'count': 93})
+        '',
+        'ZMWs input :',
+        'ZMWs input (A) :',
 ]
 
-@pytest.mark.parametrize(['line', 'data'], PARSABLE_LINES)
+PARSED_RESULTS = [
+        {},
+        {
+            'name':'ZMWs input'
+        },
+        {
+            'name':'ZMWs input',
+            'annotation':'A'
+        }
+]
+
+MARK = zip(PARSABLE_LINES, PARSED_RESULTS)
+
+
+@pytest.mark.parametrize(['line', 'data'], MARK)
 def test_parsable_lines(line, data):
     parsed_line = parse_line(line)
     assert parsed_line == data
