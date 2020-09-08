@@ -15,7 +15,9 @@ PARSABLE_LINES  = [
         'ZMWs input (A) :',
         'ZMWs input : 93',
         'ZMWs input (A) : 93',
-        'Coefficient of correlation    : 28.78%'
+        'Coefficient of correlation    : 28.78%',
+        'ZMWs generating CCS (B)  : 44 (47.31%)',
+        'Coefficient of correlation  (A)  : 28.78%',
 ]
 
 PARSED_RESULTS = [
@@ -39,6 +41,17 @@ PARSED_RESULTS = [
         {
             'name': 'Coefficient of correlation',
             'percentage': 28.78
+        },
+        {
+            'name': 'ZMWs generating CCS',
+            'annotation': 'B',
+            'count': 44,
+            'percentage': 47.31
+        },
+        {
+            'name': 'Coefficient of correlation',
+            'percentage': 28.78,
+            'annotation': 'A'
         }
 ]
 
