@@ -57,8 +57,66 @@ PARSED_RESULTS = [
 
 MARK = zip(PARSABLE_LINES, PARSED_RESULTS)
 
+CCS_LINES = [
+    [
+        ''
+    ],
+    [
+        'ZMWs input (A) : 93'
+    ],
+    [
+        'ZMWs input (A)  : 93',
+        'Exclusive ZMW counts for (A):'
+    ],
+    [
+        'ZMWs filtered (C)  : 49 (52.69%)',
+        'ZMWs input (A)  : 93',
+        'Exclusive ZMW counts for (C):'
+    ],
+    [
+        'ZMWs input (A)  : 93',
+        'ZMWs filtered (C)  : 49 (52.69%)',
+        'Exclusive ZMW counts for (C):'
+    ]
+]
+
+CCS_DATA = [
+    {},
+    {'ZMWs input': {'count':93}},
+    {'ZMWs input': {
+        'count':93,
+        'Exclusive ZMW counts': {}
+        }
+    },
+    {
+        'ZMWs input': {'count':93},
+        'ZMWs filtered': {
+            'count': 49,
+            'percentage': 52.69,
+            'Exclusive ZMW counts': {}
+        }
+    },
+    {
+        'ZMWs input': {'count':93},
+        'ZMWs filtered': {
+            'count': 49,
+            'percentage': 52.69,
+            'Exclusive ZMW counts': {}
+        }
+    }
+]
+
+CCS = zip(CCS_LINES, CCS_DATA)
+
 
 @pytest.mark.parametrize(['line', 'data'], MARK)
 def test_parsable_lines(line, data):
     parsed_line = parse_line(line)
     assert parsed_line == data
+
+@pytest.mark.parametrize(['lines', 'data'], CCS)
+def test_parse_PacBio_log_ccs(lines, data):
+    result = parse_PacBio_log(lines)
+    assert result == data
+
+    print(result)
