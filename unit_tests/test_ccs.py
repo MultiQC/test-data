@@ -18,6 +18,7 @@ PARSABLE_LINES  = [
         'Coefficient of correlation    : 28.78%',
         'ZMWs generating CCS (B)  : 44 (47.31%)',
         'Coefficient of correlation  (A)  : 28.78%',
+        'Below min length : 0 (-nan%)'
 ]
 
 PARSED_RESULTS = [
@@ -52,6 +53,11 @@ PARSED_RESULTS = [
             'name': 'Coefficient of correlation',
             'percentage': 28.78,
             'annotation': 'A'
+        },
+        {
+            'name': 'Below min length',
+            'percentage': 0.0,
+            'count': 0
         }
 ]
 
