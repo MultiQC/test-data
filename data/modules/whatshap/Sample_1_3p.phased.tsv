@@ -1,0 +1,2 @@
+#sample	chromosome	file_name	variants	phased	unphased	singletons	blocks	variant_per_block_median	variant_per_block_avg	variant_per_block_min	variant_per_block_max	variant_per_block_sum	bp_per_block_median	bp_per_block_avg	bp_per_block_min	bp_per_block_max	bp_per_block_sum	heterozygous_variants	heterozygous_snvs	phased_snvs	block_n50
+Sample_1_3p	LC029411	/cromwell-executions/VariantCalling/df946ed2-9b47-46e2-ad3e-af19426dfcbc/call-stats/shard-0/inputs/-651508269/Sample_1_3p.phased.vcf.gz	1	0	0	0	0	nan	nan	0	0	0	nan	nan	0	0	0	0	0	0	nan
