@@ -1,0 +1,8 @@
+#SentieonCommandLine: /mnt/ix1/Resources/tools/sentieon-genomics/v201808.08/libexec/driver -t 8 -i Pinsky_150_repl1_PE.st.mdup.bam -r /mnt/ix1/Projects_lite/20200402_BL_COVID_primer_selection/00_seq/reference_genome/merged.fasta --algo QualDistribution Pinsky_150_repl1_PE.st.mdup.metrics.QualDist
+QUALITY	COUNT_OF_Q	
+11	79573	
+25	137457	
+37	5169964	
+
+
+
