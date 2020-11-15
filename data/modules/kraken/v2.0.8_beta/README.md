@@ -18,4 +18,3 @@ pigz -p 12 *.fastq
 
 `sample1.kraken2.report.txt` (Kraken2 v2.0.8_beta using [human database](https://zenodo.org/record/3738199/files/kraken2_human.tar.gz))
 `sample1.kraken2.report` (Kraken2 v2.0.8_beta using [viral database](https://zenodo.org/record/3741444/files/kraken2_viral.tar.gz))
-
