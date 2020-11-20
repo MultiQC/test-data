@@ -1,0 +1,8 @@
+#length	nodes	edges	paths
+13222970	17764	22337	14399
+#mean_links_length
+path	in_node_space	in_nucleotide_space	num_links_considered
+all_paths	8306.4	7.21036e+06	3365
+#sum_of_path_node_distances
+path	in_node_space	in_nucleotide_space	nodes	nucleotides	num_penalties	num_penalties_different_orientation
+all_paths	2694.22	3188.48	17764	13222970	1169	40
