@@ -1,16 +1,14 @@
 ---
 Name: odgi
 URL: https://github.com/vgteam/odgi
-Description: >
-    is an optimized dynamic graph genome implementation.
+Description:Optimized dynamic graph genome implementation.
 ---
 
 ## Example command line
 The [odgi stats](https://pangenome.github.io/odgi/odgi_docs.html#_odgi_stats1) reports were generated with the following parameters:
 
 ```bash
-odgi stats \
-    -i  input_graph.og -S -s -l -d
+odgi stats -i input_graph.og -S -s -l -d
 ```
 
 ## Example output
