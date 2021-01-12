@@ -1,2 +1,3 @@
 File	Instrument	Confidence	Basis
 test.bam	HiSeq 2000 or HiSeq 2500 or HiSeq 1500	low confidence	flowcell id
+test2.bam	HiSeq 2000 or HiSeq 2500	high confidence	instrument id
