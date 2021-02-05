@@ -1,0 +1,2 @@
+File	Evidence	ProbableEncoding
+test.bam	ASCII range: 35-69	Sanger/Illumina 1.8

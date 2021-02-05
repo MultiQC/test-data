@@ -1,0 +1,2 @@
+File	total_junctions	total_splice_events	known_junctions	partial_novel_junctions	complete_novel_junctions	known_spliced_reads	complete_novel_spliced_reads	partial_novel_spliced_reads
+test.bam	203352	18754335	164494	26501	12357	18307776	281507	165052
