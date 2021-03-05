@@ -1,22 +1,22 @@
- 99.98	199194	199194	0	0	U	0	unclassified
-  0.02	46	0	279	98	R	1	root
-  0.02	46	0	279	98	R1	131567	  cellular organisms
-  0.02	46	0	279	98	D	2	    Bacteria
-  0.02	44	0	260	83	P	1224	      Proteobacteria
-  0.02	44	0	260	83	C	1236	        Gammaproteobacteria
-  0.02	44	0	260	83	O	91347	          Enterobacterales
-  0.02	44	0	260	83	F	543	            Enterobacteriaceae
-  0.02	44	0	260	83	G	561	              Escherichia
-  0.02	44	0	260	83	S	562	                Escherichia coli
-  0.02	44	0	260	83	S1	83333	                  Escherichia coli K-12
-  0.02	44	44	260	83	S2	511145	                    Escherichia coli str. K-12 substr. MG1655
-  0.00	2	0	19	15	D1	1783272	      Terrabacteria group
-  0.00	2	0	19	15	P	1239	        Firmicutes
-  0.00	2	0	19	15	C	91061	          Bacilli
-  0.00	2	0	19	15	O	1385	            Bacillales
-  0.00	2	0	19	15	F	186817	              Bacillaceae
-  0.00	2	0	19	15	G	1386	                Bacillus
-  0.00	2	0	19	15	G1	653685	                  Bacillus subtilis group
-  0.00	2	0	40	15	S	1423	                    Bacillus subtilis
-  0.00	2	0	40	15	S1	135461	                      Bacillus subtilis subsp. subtilis
-  0.00	2	2	40	15	S2	224308	                        Bacillus subtilis subsp. subtilis str. 168
+ 54.0	54	54	0	0	U	0	unclassified
+  46.0	46	0	279	98	R	1	root
+  46.0	46	0	279	98	R1	131567	  cellular organisms
+  46.0	46	0	279	98	D	2	    Bacteria
+  44.0	44	0	260	83	P	1224	      Proteobacteria
+  44.0	44	0	260	83	C	1236	        Gammaproteobacteria
+  44.0	44	0	260	83	O	91347	          Enterobacterales
+  44.0	44	0	260	83	F	543	            Enterobacteriaceae
+  44.0	44	0	260	83	G	561	              Escherichia
+  44.0	44	0	260	83	S	562	                Escherichia coli
+  44.0	44	0	260	83	S1	83333	                  Escherichia coli K-12
+  44.0	44	44	260	83	S2	511145	                    Escherichia coli str. K-12 substr. MG1655
+  2.0	2	0	19	15	D1	1783272	      Terrabacteria group
+  2.0	2	0	19	15	P	1239	        Firmicutes
+  2.0	2	0	19	15	C	91061	          Bacilli
+  2.0	2	0	19	15	O	1385	            Bacillales
+  2.0	2	0	19	15	F	186817	              Bacillaceae
+  2.0	2	0	19	15	G	1386	                Bacillus
+  2.0	2	0	19	15	G1	653685	                  Bacillus subtilis group
+  2.0	2	0	19	15	S	1423	                    Bacillus subtilis
+  2.0	2	0	19	15	S1	135461	                      Bacillus subtilis subsp. subtilis
+  2.0	2	2	19	15	S2	224308	                        Bacillus subtilis subsp. subtilis str. 168
