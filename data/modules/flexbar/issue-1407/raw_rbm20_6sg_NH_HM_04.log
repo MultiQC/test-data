@@ -1,0 +1,71 @@
+
+               ________          __              
+              / ____/ /__  _  __/ /_  ____ ______
+             / /_  / / _ \| |/ / __ \/ __ `/ ___/
+            / __/ / /  __/>  </ /_/ / /_/ / /    
+           /_/   /_/\___/_/|_/_.___/\__._/_/     
+
+Flexbar - flexible barcode and adapter removal, version 3.5.0
+Developed with SeqAn, the library for sequence analysis
+
+Available on github.com/seqan/flexbar
+
+
+Local time:            Tue Mar 16 13:34:09 2021
+
+Number of threads:     6
+Bundled fragments:     256
+
+Target name:           raw_rbm20_6sg_NH_HM_04
+File type:             fastq
+Reads file:            /mnt/genomics/projects/RBM20_clip/results/processed_reads/flexbar/raw_rbm20_6sg_NH_HM_04.fastq.gz
+Adapter file:          adapter.fa
+
+max-uncalled:          2
+min-read-length:       15
+
+adapter-trim-end:      RIGHT
+adapter-min-overlap:   3
+adapter-error-rate:    0.2
+adapter-match:         1
+adapter-mismatch:     -1
+adapter-gap:          -6
+
+Adapter:               Sequence:
+adapter                TCGTATGCCGTCTTCTGCTTGT
+
+
+Processing reads ...done.
+
+Elapsed time:       1 sec
+Processing speed:   0 reads/s
+
+
+Adapter removal statistics
+==========================
+Adapter:            Overlap removal:    Full length:
+adapter             0                   0
+
+
+Output file statistics
+======================
+Read file:               raw_rbm20_6sg_NH_HM_04.fastq.gz
+  written reads          0
+  short reads            0
+
+
+Filtering statistics
+====================
+Processed reads                   0
+  skipped due to uncalled bases   0
+  short prior to adapter removal  0
+  finally skipped short reads     0
+Discarded reads overall           0
+Remaining reads                   0
+
+Processed bases   0
+Remaining bases   0
+
+
+Flexbar completed adapter removal.
+
