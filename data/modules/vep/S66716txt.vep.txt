@@ -1,0 +1,137 @@
+[VEP run statistics]
+VEP version (API)	 103 (103)
+Annotation sources	Cache: /nobackup/lab_bsf/resources/VEP/homo_sapiens_merged/103_GRCh38; Custom: /nobackup/lab_bsf/resources/ClinVar/hg38/clinvar_20210213.vcf.gz (exact)
+Species	homo_sapiens
+Command line options	--allele_number --allow_non_variant --assembly GRCh38 --cache --compress_output bgzip --custom /nobackup/lab_bsf/resources/ClinVar/hg38/clinvar_20210213.vcf.gz,ClnV,vcf,exact,0,ALLELEID,ORIGIN,CLNSIG,CLNREVSTAT,CLNDN --dir_cache /nobackup/lab_bsf/resources/VEP --dir_plugins /nobackup/lab_bsf/resources/VEP/Plugins_103 --dont_skip --everything --exclude_predicted --failed --fasta /nobackup/lab_bsf/resources/VEP/homo_sapiens_merged/103_GRCh38/Homo_sapiens.GRCh38.dna.toplevel.fa.gz --flag_pick_allele_gene --force_overwrite --fork 16 --format vcf --gencode_basic --hgvsg --input_file /nobackup/lab_bsf/users/berguener/junk/BSA_0000_test_variant_calling/cromwell-executions/variant_calling/362b6986-35d9-4d94-9593-8549cc92a6cc/call-somatic_vcf_vep/shard-1/inputs/-1373366727/S66716-filtered.vcf.gz --merged --offline --output_file /nobackup/lab_bsf/users/berguener/junk/BSA_0000_test_variant_calling/hg38/mutect2/S66716.vep.vcf.gz --plugin CADD,/nobackup/lab_bsf/resources/CADD/hg38/1.6/whole_genome_SNVs.tsv.gz,/nobackup/lab_bsf/resources/CADD/hg38/1.6/gnomad.genomes.r3.0.indel.tsv.gz --species homo_sapiens --stats_file /nobackup/lab_bsf/users/berguener/junk/BSA_0000_test_variant_calling/hg38/mutect2/S66716.vep.txt --stats_text --tmpdir /nobackup/lab_bsf/users/berguener/junk/BSA_0000_test_variant_calling/hg38/mutect2 --transcript_filter not stable_id match ^X._ --vcf --warning_file /nobackup/lab_bsf/users/berguener/junk/BSA_0000_test_variant_calling/hg38/mutect2/S66716.vep.warning.txt
+Start time	2021-04-21 12:35:07
+End time	2021-04-21 12:36:54
+Run time	107 seconds
+Input file	/nobackup/lab_bsf/users/berguener/junk/BSA_0000_test_variant_calling/cromwell-executions/variant_calling/362b6986-35d9-4d94-9593-8549cc92a6cc/call-somatic_vcf_vep/shard-1/inputs/-1373366727/S66716-filtered.vcf.gz
+Output file	/nobackup/lab_bsf/users/berguener/junk/BSA_0000_test_variant_calling/hg38/mutect2/S66716.vep.vcf.gz
+
+[General statistics]
+Lines of input read	4691
+Variants processed	4691
+Variants filtered out	0
+Novel / existing variants	255 (5.4) / 4436 (94.6)
+Overlapped genes	1119
+Overlapped transcripts	2482
+Overlapped regulatory features	788
+
+[Variant classes]
+indel	3
+sequence_alteration	51
+substitution	84
+insertion	335
+deletion	371
+SNV	3847
+
+[Consequences (most severe)]
+splice_donor_variant	2
+splice_acceptor_variant	2
+stop_gained	2
+frameshift_variant	10
+stop_lost	1
+start_lost	2
+inframe_insertion	4
+inframe_deletion	3
+missense_variant	210
+splice_region_variant	62
+incomplete_terminal_codon_variant	2
+synonymous_variant	234
+5_prime_UTR_variant	152
+3_prime_UTR_variant	572
+non_coding_transcript_exon_variant	122
+intron_variant	2282
+upstream_gene_variant	834
+downstream_gene_variant	138
+regulatory_region_variant	16
+intergenic_variant	41
+
+[Consequences (all)]
+splice_donor_variant	2
+splice_acceptor_variant	4
+stop_gained	4
+frameshift_variant	14
+stop_lost	1
+start_lost	4
+inframe_insertion	10
+inframe_deletion	8
+missense_variant	424
+splice_region_variant	224
+incomplete_terminal_codon_variant	2
+synonymous_variant	648
+coding_sequence_variant	2
+5_prime_UTR_variant	297
+3_prime_UTR_variant	1526
+non_coding_transcript_exon_variant	147
+intron_variant	10367
+NMD_transcript_variant	64
+non_coding_transcript_variant	436
+upstream_gene_variant	3177
+downstream_gene_variant	3609
+TF_binding_site_variant	457
+regulatory_region_variant	2123
+intergenic_variant	57
+
+[Coding consequences]
+stop_gained	4
+frameshift_variant	14
+stop_lost	1
+start_lost	4
+inframe_insertion	10
+inframe_deletion	8
+missense_variant	424
+incomplete_terminal_codon_variant	2
+synonymous_variant	648
+coding_sequence_variant	2
+
+[SIFT summary]
+deleterious_low_confidence	24
+tolerated_low_confidence	48
+deleterious	120
+tolerated	220
+
+[PolyPhen summary]
+unknown	9
+probably_damaging	42
+possibly_damaging	43
+benign	321
+
+[Variants by chromosome]
+chr1	175
+chr10	85
+chr11	130
+chr12	197
+chr13	81
+chr14	979
+chr15	110
+chr16	154
+chr17	214
+chr18	33
+chr19	155
+chr2	281
+chr20	51
+chr21	111
+chr22	362
+chr3	201
+chr4	126
+chr5	180
+chr6	292
+chr7	408
+chr7_KI270803v1_alt	2
+chr8	63
+chr9	177
+chrX	124
+
+[Position in protein]
+00-10%	111
+10-20%	87
+20-30%	108
+30-40%	78
+40-50%	102
+50-60%	101
+60-70%	110
+70-80%	122
+80-90%	178
+90-100%	118
