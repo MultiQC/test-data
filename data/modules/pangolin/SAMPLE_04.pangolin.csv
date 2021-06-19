@@ -1,0 +1,2 @@
+taxon,lineage,conflict,ambiguity_score,scorpio_call,scorpio_support,scorpio_conflict,version,pangolin_version,pangoLEARN_version,pango_version,status,note
+Consensus_SAMPLE_04.consensus_threshold_0.75_quality_20,B.1.1.7,0.0,0.9997723996661861,cB.1.1.7,0.739100,0.130400,PLEARN-v1.2.6,3.0.5,2021-05-27,v1.2.6,passed_qc,scorpio call: Alt alleles 17; Ref alleles 3; Amb alleles 2
