@@ -1,0 +1,10 @@
+DateTime	2020-10-06T12:22:21
+ReadFiles	fake_reads.fq
+Reference	/home/ktmeaton/Projects/plague-phylogeography/results/data/reference/GCA_000009065.1_ASM906v1_genomic/GCA_000009065.1_ASM906v1_genomic.gbff
+ReferenceSize	4829855
+Software	snippy 4.6.0
+Variant-COMPLEX	8
+Variant-DEL	68
+Variant-INS	81
+Variant-SNP	257
+VariantTotal	414
