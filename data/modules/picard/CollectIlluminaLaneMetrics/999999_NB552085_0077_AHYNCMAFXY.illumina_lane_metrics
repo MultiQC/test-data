@@ -1,0 +1,13 @@
+## htsjdk.samtools.metrics.StringHeader
+# CollectIlluminaLaneMetrics --RUN_DIRECTORY /input_run --OUTPUT_DIRECTORY /input_run --OUTPUT_PREFIX 999999_NB552085_0077_AHYNCMAFXY --IS_NOVASEQ false --VERBOSITY INFO --QUIET false --VALIDATION_STRINGENCY STRICT --COMPRESSION_LEVEL 2 --MAX_RECORDS_IN_RAM 500000 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+## htsjdk.samtools.metrics.StringHeader
+# Started on: Fri Sep 11 13:54:21 GMT 2020
+
+## METRICS CLASS	picard.illumina.IlluminaLaneMetrics
+CLUSTER_DENSITY	LANE
+259552.479171	1
+259193.748895	2
+257999.268882	3
+257730.17267	4
+
+
