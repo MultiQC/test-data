@@ -1,8 +1,8 @@
 This is cutadapt 1.7 with Python 3.6.10
 
-Command line parameters: --cores 2 --overlap 5 --minimum-length 30 --error-rate 0.1 -a file:primers.fasta -A file:primers.fasta -o SAMPLE1_PE_1.ptrim.fastq.gz -p SAMPLE1_PE_2.ptrim.fastq.gz SAMPLE1_PE_1.trim.fastq.gz SAMPLE1_PE_2.trim.fastq.gz
-Processing reads on 2 cores in paired-end mode ...
-Finished in 19.52 s (809 us/read; 0.07 M reads/minute).
+Command line parameters: -a ^ADAPTER1...ADAPTER2 -o out.fastq.gz in.fastq.gz
+Processing reads on x cores in xx mode ...
+Finished in xx.xx s (x us/read; x.xx M reads/minute).
 
 === First read: Adapter background ===
 
