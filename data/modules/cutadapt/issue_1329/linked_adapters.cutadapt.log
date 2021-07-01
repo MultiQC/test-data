@@ -4,6 +4,17 @@ Command line parameters: -a ^ADAPTER1...ADAPTER2 -o out.fastq.gz in.fastq.gz
 Processing reads on x cores in xx mode ...
 Finished in xx.xx s (x us/read; x.xx M reads/minute).
 
+=== Summary ===
+
+Total reads processed:              30,680,980
+Reads with adapters:                10,073,438 (32.8%)
+Reads written (passing filters):    30,680,980 (100.0%)
+
+Total basepairs processed: 1,104,515,280 bp
+Quality-trimmed:               8,562,114 bp (0.8%)
+Total written (filtered):  1,081,733,605 bp (97.9%)
+
+
 === First read: Adapter background ===
 
 Sequence: GGGGGGGGGGATATGCGATCGC...GTGTCTCAACGGTATCCGCAACT; Type: linked; Length: 22+23; 5' trimmed: 1629783 times; 3' trimmed: 115720 times
