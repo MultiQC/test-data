@@ -1,0 +1,37 @@
+This is cutadapt 3.4 with Python 3.9.2
+Command line parameters: -a GGGGGGGGGGATATGCGATCGC...GTGTCTCAACGGTATCCGCAACT -o SRR4238351_subsamp.trimed.fastq.gz SRR4238351_subsamp.fastq.gz -m 999999999999999
+Processing reads on 1 core in single-end mode ...
+Finished in 0.06 s (32 µs/read; 1.90 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   2,052
+Reads with adapters:                        94 (4.6%)
+Reads that were too short:               2,052 (100.0%)
+Reads written (passing filters):             0 (0.0%)
+
+Total basepairs processed:       103,432 bp
+Total written (filtered):              0 bp (0.0%)
+
+=== Adapter 3 ===
+
+Sequence: GGGGGGGGGGATATGCGATCGC...GTGTCTCAACGGTATCCGCAACT; Type: linked; Length: 22+23; 5' trimmed: 13 times; 3' trimmed: 82 times
+
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20-23 bp: 2
+
+Overview of removed sequences at 5' end
+length	count	expect	max.err	error counts
+3	13	32.1	0	13
+
+
+
+Overview of removed sequences at 3' end
+length	count	expect	max.err	error counts
+3	69	32.1	0	69
+4	4	8.0	0	4
+5	9	2.0	0	9
