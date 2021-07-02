@@ -1,0 +1,2 @@
+Bam_file	TIN(mean)	TIN(median)	TIN(stdev)
+New_abx_ZT13_IP_4.bam	7.02476575118	4.49012445245	8.88929776247
