@@ -8,7 +8,7 @@ Finished in 16.83 s (67 us/read; 0.89 M reads/minute).
 Total read pairs processed:            250,000
   Read 1 with adapter:                 106,082 (42.4%)
   Read 2 with adapter:                 105,259 (42.1%)
-Pairs that were too short:               3,850 (1.5%)
+Pairs that were too short:             250,000 (100.0%)
 Pairs written (passing filters):       0 (0.0%)
 
 Total basepairs processed:    50,500,000 bp
@@ -17,9 +17,9 @@ Total basepairs processed:    50,500,000 bp
 Quality-trimmed:                 502,550 bp (1.0%)
   Read 1:       138,527 bp
   Read 2:       364,023 bp
-Total written (filtered):     42,444,099 bp (84.0%)
-  Read 1:    21,267,717 bp
-  Read 2:    21,176,382 bp
+Total written (filtered):              0 bp (0.0%)
+  Read 1:             0 bp
+  Read 2:             0 bp
 
 
 === First read: Adapter 1 ===
