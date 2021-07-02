@@ -7,7 +7,6 @@ Finished in 0.06 s (32 µs/read; 1.90 M reads/minute).
 
 Total reads processed:                   2,052
 Reads with adapters:                        94 (4.6%)
-Reads that were too short:               2,052 (100.0%)
 Reads written (passing filters):             0 (0.0%)
 
 Total basepairs processed:       103,432 bp
