@@ -1,0 +1,65 @@
+This is cutadapt 1.18 with Python 2.7.15rc1
+Command line parameters: -g XACTGGGATTAGATACCCC -G XTAGAACAGGCTCCTCTAG -o ./00_Data/02a_Cutadapt/TE18-018_12S_R1_cut.fastq.gz --paired-output ./00_Data/02a_Cutadapt/TE18-018_12S_R2_cut.fastq.gz ./00_Data/01b_RawData_rename/TE18-018_12S_R1.fastq.gz ./00_Data/01b_RawData_rename/TE18-018_12S_R2.fastq.gz --discard-untrimmed
+Processing reads on 1 core in paired-end mode ...
+Finished in 85.12 s (48 us/read; 1.26 M reads/minute).
+
+=== Summary ===
+
+Total read pairs processed:          1,785,521
+  Read 1 with adapter:               1,757,664 (98.4%)
+  Read 2 with adapter:               1,609,609 (90.1%)
+Pairs written (passing filters):     1,602,591 (89.8%)
+
+Total basepairs processed:   714,208,400 bp
+  Read 1:   357,104,200 bp
+  Read 2:   357,104,200 bp
+Total written (filtered):    583,701,024 bp (81.7%)
+  Read 1:   291,691,355 bp
+  Read 2:   292,009,669 bp
+
+=== First read: Adapter 1 ===
+
+Sequence: ACTGGGATTAGATACCCC; Type: non-internal 5'; Length: 18; Trimmed: 1757664 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	89	27898.8	0	89
+4	13	6974.7	0	13
+5	3	1743.7	0	3
+6	4	435.9	0	4
+11	2	0.4	1	1 1
+12	1	0.1	1	0 1
+13	7	0.0	1	0 7
+14	3	0.0	1	2 1
+15	15	0.0	1	7 8
+16	231	0.0	1	18 213
+17	22947	0.0	1	4073 18874
+18	1732878	0.0	1	1693598 39280
+19	1471	0.0	1	0 1471
+
+=== Second read: Adapter 2 ===
+
+Sequence: TAGAACAGGCTCCTCTAG; Type: non-internal 5'; Length: 18; Trimmed: 1609609 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-18 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	21934	27898.8	0	21934
+4	5	6974.7	0	5
+5	57	1743.7	0	57
+10	5	1.7	1	0 5
+11	1	0.4	1	0 1
+12	1	0.1	1	0 1
+13	3	0.0	1	0 3
+14	6	0.0	1	2 4
+15	18	0.0	1	4 14
+16	281	0.0	1	8 273
+17	20704	0.0	1	1997 18707
+18	1565017	0.0	1	772621 792396
+19	1577	0.0	1	0 1577
+
