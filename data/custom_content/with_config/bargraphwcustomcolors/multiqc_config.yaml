@@ -1,0 +1,27 @@
+custom_data:
+    testA:
+        parent_id: parentid
+        parent_name: "tests"
+        plot_type: 'bargraph'
+        file_format: 'csv'
+        section_name: 'Section testA'
+        categories:
+            A:
+                name: "Aa"
+                color: "#c3e0e5"
+            B:
+                name: "Bb"
+                color: "#274472"
+            C:
+                name: "Cc"
+                color: "#5885af"
+            D:
+                name: "Dd"
+                color: "#41729f"
+        pconfig:
+            id: 'example_bargraph'
+            title: 'Example Bargraph'
+            ylab: 'y values'
+sp:
+    testA:
+        fn: 'testA_*.csv'
