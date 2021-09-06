@@ -1,7 +1,5 @@
 custom_data:
     testA:
-        parent_id: parentid
-        parent_name: "tests"
         plot_type: 'bargraph'
         file_format: 'csv'
         section_name: 'Section testA'
