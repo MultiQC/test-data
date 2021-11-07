@@ -1,7 +1,0 @@
-PASS	Basic Statistics	f759aea1_barcode23
-PASS	Per base sequence quality	f759aea1_barcode23
-PASS	Per sequence quality scores	f759aea1_barcode23
-PASS	Per base sequence content	f759aea1_barcode23
-PASS	Per base N content	f759aea1_barcode23
-PASS	Sequence Length Distribution	f759aea1_barcode23
-PASS	Adapter Content	f759aea1_barcode23
