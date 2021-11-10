@@ -7,6 +7,7 @@
 #    id: 'custom_bargraph_w_header'
 #    title: Custom Content Bar Plot
 #    ylab: 'Number of things'
+#    height: 200
 Category_1	374
 Category_2	229
 Category_3	39
