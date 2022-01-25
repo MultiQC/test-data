@@ -1,0 +1,3 @@
+#name   %unambiguousReads       unambiguousMB   %ambiguousReads ambiguousMB     unambiguousReads        ambiguousReads
+hg38    83.16030        5598.96128      1.11830 51.55901        87337366        1174470
+mm38    15.56726        1051.54145      1.11830 51.55901        16349186        1174470
