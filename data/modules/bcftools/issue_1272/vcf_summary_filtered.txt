@@ -1,0 +1,193 @@
+# This file was produced by bcftools stats (1.10.2+htslib-1.10.2) and can be plotted using plot-vcfstats.
+# The command line was:	bcftools stats  -s - calls/freebayes_filtered.vcf
+#
+# Definition of sets:
+# ID	[2]id	[3]tab-separated file names
+ID	0	calls/freebayes_filtered.vcf
+# SN, Summary numbers:
+#   number of records   .. number of data rows in the VCF
+#   number of no-ALTs   .. reference-only sites, ALT is either "." or identical to REF
+#   number of SNPs      .. number of rows with a SNP
+#   number of MNPs      .. number of rows with a MNP, such as CC>TT
+#   number of indels    .. number of rows with an indel
+#   number of others    .. number of rows with other type, for example a symbolic allele or
+#                          a complex substitution, such as ACT>TCGA
+#   number of multiallelic sites     .. number of rows with multiple alternate alleles
+#   number of multiallelic SNP sites .. number of rows with multiple alternate alleles, all SNPs
+# 
+#   Note that rows containing multiple types will be counted multiple times, in each
+#   counter. For example, a row with a SNP and an indel increments both the SNP and
+#   the indel counter.
+# 
+# SN	[2]id	[3]key	[4]value
+SN	0	number of samples:	3
+SN	0	number of records:	139
+SN	0	number of no-ALTs:	0
+SN	0	number of SNPs:	112
+SN	0	number of MNPs:	12
+SN	0	number of indels:	16
+SN	0	number of others:	1
+SN	0	number of multiallelic sites:	5
+SN	0	number of multiallelic SNP sites:	1
+# TSTV, transitions/transversions:
+# TSTV	[2]id	[3]ts	[4]tv	[5]ts/tv	[6]ts (1st ALT)	[7]tv (1st ALT)	[8]ts/tv (1st ALT)
+TSTV	0	57	52	1.10	56	52	1.08
+# SiS, Singleton stats:
+# SiS	[2]id	[3]allele count	[4]number of SNPs	[5]number of transitions	[6]number of transversions	[7]number of indels	[8]repeat-consistent	[9]repeat-inconsistent	[10]not applicable
+SiS	0	1	17	11	6	2	0	0	2
+# AF, Stats by non-reference allele frequency:
+# AF	[2]id	[3]allele frequency	[4]number of SNPs	[5]number of transitions	[6]number of transversions	[7]number of indels	[8]repeat-consistent	[9]repeat-inconsistent	[10]not applicable
+AF	0	0.000000	18	11	7	2	0	0	2
+AF	0	0.330000	4	4	0	0	0	0	0
+AF	0	0.490000	13	9	4	1	0	0	1
+AF	0	0.660000	9	4	5	0	0	0	0
+AF	0	0.740000	12	4	8	3	0	0	3
+AF	0	0.820000	3	3	0	0	0	0	0
+AF	0	0.990000	50	22	28	11	0	0	11
+# QUAL, Stats by quality:
+# QUAL	[2]id	[3]Quality	[4]number of SNPs	[5]number of transitions (1st ALT)	[6]number of transversions (1st ALT)	[7]number of indels
+QUAL	0	20	4	1	3	0
+QUAL	0	21	3	2	1	1
+QUAL	0	22	5	3	2	0
+QUAL	0	23	2	0	2	0
+QUAL	0	24	3	0	3	0
+QUAL	0	25	2	1	1	0
+QUAL	0	26	1	0	0	0
+QUAL	0	27	3	2	1	0
+QUAL	0	29	4	1	2	0
+QUAL	0	30	2	1	1	0
+QUAL	0	31	1	0	1	1
+QUAL	0	32	2	0	2	0
+QUAL	0	33	3	1	2	1
+QUAL	0	34	2	0	2	0
+QUAL	0	36	3	2	1	0
+QUAL	0	37	1	1	0	0
+QUAL	0	38	2	2	0	0
+QUAL	0	39	5	4	1	0
+QUAL	0	40	2	0	2	0
+QUAL	0	41	1	0	0	0
+QUAL	0	42	1	0	1	2
+QUAL	0	43	1	0	1	0
+QUAL	0	44	3	1	2	0
+QUAL	0	45	1	1	0	1
+QUAL	0	46	0	0	0	1
+QUAL	0	48	1	0	1	0
+QUAL	0	50	1	1	0	0
+QUAL	0	51	1	1	0	0
+QUAL	0	53	3	3	0	0
+QUAL	0	54	1	0	1	0
+QUAL	0	55	2	2	0	0
+QUAL	0	56	1	0	1	1
+QUAL	0	57	1	1	0	0
+QUAL	0	58	1	0	1	0
+QUAL	0	59	2	1	1	1
+QUAL	0	61	1	1	0	0
+QUAL	0	62	1	1	0	0
+QUAL	0	66	2	1	1	0
+QUAL	0	67	2	2	0	0
+QUAL	0	68	1	0	1	0
+QUAL	0	70	2	0	2	0
+QUAL	0	71	1	1	0	0
+QUAL	0	73	1	1	0	0
+QUAL	0	74	1	0	1	0
+QUAL	0	77	1	0	0	1
+QUAL	0	79	2	1	1	0
+QUAL	0	80	1	1	0	0
+QUAL	0	83	0	0	0	1
+QUAL	0	87	1	0	1	0
+QUAL	0	93	1	1	0	0
+QUAL	0	96	1	1	0	0
+QUAL	0	97	1	1	0	0
+QUAL	0	99	1	0	1	0
+QUAL	0	100	1	0	1	0
+QUAL	0	102	2	1	1	1
+QUAL	0	104	0	0	0	1
+QUAL	0	110	1	1	0	0
+QUAL	0	112	1	1	0	1
+QUAL	0	113	1	0	1	0
+QUAL	0	129	1	1	0	0
+QUAL	0	133	1	1	0	0
+QUAL	0	154	1	0	1	0
+QUAL	0	157	0	0	0	1
+QUAL	0	158	1	1	0	0
+QUAL	0	167	1	0	1	0
+QUAL	0	198	1	0	1	0
+QUAL	0	223	1	1	0	0
+QUAL	0	232	1	1	0	1
+QUAL	0	249	1	1	0	0
+QUAL	0	260	1	1	0	0
+QUAL	0	304	1	1	0	0
+QUAL	0	313	1	1	0	0
+QUAL	0	358	1	0	1	0
+QUAL	0	434	1	0	1	0
+# IDD, InDel distribution:
+# IDD	[2]id	[3]length (deletions negative)	[4]number of sites	[5]number of genotypes	[6]mean VAF
+IDD	0	-8	1	0	.
+IDD	0	-5	1	0	.
+IDD	0	-1	9	4	0.58
+IDD	0	1	4	1	0.67
+IDD	0	4	2	0	.
+# ST, Substitution types:
+# ST	[2]id	[3]type	[4]count
+ST	0	A>C	2
+ST	0	A>G	11
+ST	0	A>T	5
+ST	0	C>A	13
+ST	0	C>G	7
+ST	0	C>T	18
+ST	0	G>A	11
+ST	0	G>C	8
+ST	0	G>T	9
+ST	0	T>A	3
+ST	0	T>C	17
+ST	0	T>G	5
+# DP, Depth distribution
+# DP	[2]id	[3]bin	[4]number of genotypes	[5]fraction of genotypes (%)	[6]number of sites	[7]fraction of sites (%)
+DP	0	1	72	23.684211	0	0.000000
+DP	0	2	48	15.789474	0	0.000000
+DP	0	3	46	15.131579	0	0.000000
+DP	0	4	34	11.184211	30	21.582734
+DP	0	5	25	8.223684	19	13.669065
+DP	0	6	23	7.565789	13	9.352518
+DP	0	7	8	2.631579	17	12.230216
+DP	0	8	15	4.934211	8	5.755396
+DP	0	9	9	2.960526	10	7.194245
+DP	0	10	6	1.973684	10	7.194245
+DP	0	11	2	0.657895	3	2.158273
+DP	0	12	2	0.657895	3	2.158273
+DP	0	13	3	0.986842	4	2.877698
+DP	0	14	2	0.657895	5	3.597122
+DP	0	15	3	0.986842	1	0.719424
+DP	0	16	1	0.328947	2	1.438849
+DP	0	17	2	0.657895	1	0.719424
+DP	0	18	1	0.328947	1	0.719424
+DP	0	21	1	0.328947	0	0.000000
+DP	0	23	1	0.328947	3	2.158273
+DP	0	24	0	0.000000	1	0.719424
+DP	0	25	0	0.000000	1	0.719424
+DP	0	27	0	0.000000	1	0.719424
+DP	0	28	0	0.000000	1	0.719424
+DP	0	29	0	0.000000	1	0.719424
+DP	0	30	0	0.000000	1	0.719424
+DP	0	38	0	0.000000	1	0.719424
+DP	0	39	0	0.000000	1	0.719424
+DP	0	44	0	0.000000	1	0.719424
+# PSC, Per-sample counts. Note that the ref/het/hom counts include only SNPs, for indels see PSI. The rest include both SNPs and indels.
+# PSC	[2]id	[3]sample	[4]nRefHom	[5]nNonRefHom	[6]nHets	[7]nTransitions	[8]nTransversions	[9]nIndels	[10]average depth	[11]nSingletons	[12]nHapRef	[13]nHapAlt	[14]nMissing
+PSC	0	PT2_taa_port	14	66	29	47	48	15	5.3	37	0	0	5
+PSC	0	PT3_taa_port	19	41	16	31	26	9	3.7	8	0	0	48
+PSC	0	PT1_taa_port	19	48	3	25	26	5	3.1	5	0	0	60
+# PSI, Per-Sample Indels. Note that alt-het genotypes with both ins and del allele are counted twice, in both nInsHets and nDelHets.
+# PSI	[2]id	[3]sample	[4]in-frame	[5]out-frame	[6]not applicable	[7]out/(in+out) ratio	[8]nInsHets	[9]nDelHets	[10]nInsAltHoms	[11]nDelAltHoms
+PSI	0	PT2_taa_port	0	0	0	0.00	1	1	5	8
+PSI	0	PT3_taa_port	0	0	0	0.00	0	2	2	5
+PSI	0	PT1_taa_port	0	0	0	0.00	0	0	1	4
+# HWE
+# HWE	[2]id	[3]1st ALT allele frequency	[4]Number of observations	[5]25th percentile	[6]median	[7]75th percentile
+HWE	0	0.000000	19	0.330000	0.490000	0.490000
+HWE	0	0.330000	5	0.000000	0.000000	0.000000
+HWE	0	0.490000	17	0.000000	0.000000	0.330000
+HWE	0	0.660000	11	0.000000	0.000000	0.660000
+HWE	0	0.740000	15	0.490000	0.490000	0.490000
+HWE	0	0.820000	4	0.000000	0.330000	0.330000
+HWE	0	0.990000	68	0.000000	0.000000	0.000000
