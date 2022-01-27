@@ -1,0 +1,3 @@
+sp:
+    rseqc/tin:
+        fn: '*.tin.txt'
