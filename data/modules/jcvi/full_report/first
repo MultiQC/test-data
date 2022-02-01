@@ -1,0 +1,28 @@
+===================================================================
+                                                   o            all
+-------------------------------------------------------------------
+                  Max number of transcripts per gene              4
+                                      Mean exon size          580.0
+           Mean gene locus size (first to last exon)         1689.2
+              Mean number of distinct exons per gene            2.7
+                 Mean number of transcripts per gene            1.1
+                     Mean transcript size (UTR, CDS)         1462.2
+                            Number of distinct exons          1,336
+                                     Number of genes            503
+Number of genes with alternative transcript variants      34 (6.8%)
+                          Number of multi-exon genes    364 (72.4%)
+                     Number of predicted transcripts            542
+                         Number of single-exon genes    139 (27.6%)
+-------------------------------------------------------------------
+=====================================================================================================
+     o    % GC    % of genome    Average size (bp)    Median size (bp)    Number    Total length (Mb)
+-----------------------------------------------------------------------------------------------------
+  Exon     39%            32%                  579                 333     1,336                  1Mb
+  Gene     38%            35%                1,689               1,410       503                  1Mb
+Intron     33%             4%                  119                  57       771                  0Mb
+-----------------------------------------------------------------------------------------------------
+Exon_Length: Min=2 Max=4413 N=1295 Mean=484.436293436 SD=605.947033437 Median=237.0 Sum=627345
+Intron_Length: Min=27 Max=7568 N=753 Mean=119.36122178 SD=409.849957561 Median=57.0 Sum=89879
+Gene_Length: Min=24 Max=5598 N=542 Mean=1157.46309963 SD=808.894957993 Median=975.0 Sum=627345
+Exon_Count: Min=1 Max=13 N=542 Mean=2.38929889299 SD=1.53487017227 Median=2.0 Sum=1295
+

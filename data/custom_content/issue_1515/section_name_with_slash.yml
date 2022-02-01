@@ -1,0 +1,31 @@
+custom_data:
+    rnaseq:
+        id: 'software_versions'
+        section_name: 'nf-core/rnaseq Software Versions'
+        section_href: 'https://github.com/nf-core/rnaseq'
+        plot_type: 'table'
+        description: 'are collected at run time from the software output.'
+        data:
+            Workflow:
+                Nextflow: 21.04.0
+                nf-core/rnaseq: 3.4dev
+            STAR_ALIGN:
+                star: 2.6.1d
+            TRIMGALORE:
+                trimgalore: 0.6.6 
+            SALMON_TXIMPORT:
+                bioconductor-txmeta: 1.8.0
+            SAMTOOLS_SORT:
+                samtools: 1.12 
+            STRINGTIE:
+                stringtie: 2.1.7
+            SALMON_QUANT:
+                salmon: 1.4.0
+            UCSC_BEDCLIP:
+                ucsc: 377
+            PICARD_MARKDUPLICATES:
+                picard: 2.23.9
+            SALMON_SE_GENE:
+                bioconductor-summarizedexperiment: 1.20.0
+            BEDTOOLS_GENOMECOV:
+                bedtools: 2.30.0

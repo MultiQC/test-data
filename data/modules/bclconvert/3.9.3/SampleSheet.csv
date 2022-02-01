@@ -1,0 +1,10 @@
+[Demultiplexing]
+runID,indexType,indexLength
+210615_A00302_0309_AHY3CLDSXY,DUAL,TEN
+
+[Data]
+Lane,Sample_ID,Sample_Name,index,index2,Sample_Project,Description,Application,user,pi,date,organism,group
+3,S34863_GBC_Multiplex,,ACAGGGCTAC,GAGCATCTAT,,,Chromium_other,smilovan,Pelicci,210615,HUMAN,DPT
+1,S34863_GBC_Multiplex,,ACAGGGCTAC,GAGCATCTAT,,,Chromium_other,smilovan,Pelicci,210615,HUMAN,DPT
+2,S34863_GBC_Multiplex,,ACAGGGCTAC,GAGCATCTAT,,,Chromium_other,smilovan,Pelicci,210615,HUMAN,DPT
+4,S34863_GBC_Multiplex,,ACAGGGCTAC,GAGCATCTAT,,,Chromium_other,smilovan,Pelicci,210615,HUMAN,DPT

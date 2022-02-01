@@ -1,0 +1,24 @@
+ZMWs input               : 93
+
+ZMWs pass filters        : 44 (47.31%)
+ZMWs fail filters        : 49 (52.69%)
+ZMWs shortcut filters    : 0 (0.00%)
+
+ZMWs with tandem repeats : 0 (0.00%)
+
+Exclusive counts for ZMWs failing filters:
+Below SNR threshold      : 0 (0.00%)
+Median length filter     : 0 (0.00%)
+Lacking full passes      : 42 (85.71%)
+Heteroduplex insertions  : 0 (0.00%)
+Coverage drops           : 0 (0.00%)
+Insufficient draft cov   : 0 (0.00%)
+Draft too different      : 0 (0.00%)
+Draft generation error   : 1 (2.04%)
+Draft above --max-length : 0 (0.00%)
+Draft below --min-length : 0 (0.00%)
+Reads failed polishing   : 0 (0.00%)
+Empty coverage windows   : 0 (0.00%)
+CCS did not converge     : 0 (0.00%)
+CCS below minimum RQ     : 6 (12.24%)
+Unknown error            : 0 (0.00%)

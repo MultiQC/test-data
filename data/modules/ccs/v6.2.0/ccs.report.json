@@ -1,0 +1,114 @@
+{
+    "_comment": "Created by pbcopper v1.9.3",
+    "attributes": [
+        {
+            "id": "ccs_processing.zmw_input",
+            "name": "ZMWs input",
+            "value": 177
+        },
+        {
+            "id": "ccs_processing.zmw_passed_yield",
+            "name": "ZMWs pass filters",
+            "value": 104
+        },
+        {
+            "id": "ccs_processing.zmw_filtered_yield",
+            "name": "ZMWs fail filters",
+            "value": 73
+        },
+        {
+            "id": "ccs_processing.zmw_2_pass_shortcut",
+            "name": "ZMWs shortcut filters",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.zmw_tandem_repeat",
+            "name": "ZMWs with tandem repeats",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_poor_snr",
+            "name": "Below SNR threshold",
+            "value": 4
+        },
+        {
+            "id": "ccs_processing.filtered_median_length_filter",
+            "name": "Median length filter",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_too_few_passes",
+            "name": "Lacking full passes",
+            "value": 66
+        },
+        {
+            "id": "ccs_processing.filtered_heteroduplexes",
+            "name": "Heteroduplex insertions",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_coverage_drops",
+            "name": "Coverage drops",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_insufficient_draft_cov",
+            "name": "Insufficient draft cov",
+            "value": 1
+        },
+        {
+            "id": "ccs_processing.filtered_draft_too_different",
+            "name": "Draft too different",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_draft_failure",
+            "name": "Draft generation error",
+            "value": 2
+        },
+        {
+            "id": "ccs_processing.filtered_draft_too_long",
+            "name": "Draft above --max-length",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_draft_too_short",
+            "name": "Draft below --min-length",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_read_failed_polish",
+            "name": "Reads failed polishing",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_empty_window_during_polishing",
+            "name": "Empty coverage windows",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_non_convergent",
+            "name": "CCS did not converge",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_below_rq",
+            "name": "CCS below minimum RQ",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.filtered_unknown_error",
+            "name": "Unknown error",
+            "value": 0
+        }
+    ],
+    "dataset_uuids": [
+        ""
+    ],
+    "id": "ccs_processing",
+    "plotGroups": [],
+    "tables": [],
+    "title": "CCS Processing Report",
+    "uuid": "6b5a4cba-f796-4b39-9909-2980c3319bc0",
+    "version": "1.0.1"
+}

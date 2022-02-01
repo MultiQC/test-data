@@ -1,0 +1,34 @@
+[Header]
+IEMFileVersion,5
+Experiment Name,TsqN_TsqSTR_NebRNA_200929_TSOctDNA200901_Chr10X-3prime_02Oct20
+Date,29-Sep-20
+Workflow,GenerateFASTQ
+Application,NovaSeq FASTQ Only
+Instrument Type,NovaSeq
+Assay,TruSeq Nano DNA
+Index Adapters,IDT-ILMN Nextera DNA UD Indexes (96 Indexes) Set B
+Chemistry,Amplicon
+FileFormatVersion,2
+InstrumentType,NovaSeq 6000
+
+[Reads]
+Read1Cycles,151
+Read2Cycles,151
+
+[BCLConvert_Data]
+Lane,Sample_ID,index,Sample_Project
+4,PRJ200438_LPRJ200438,CATGCGAT,Dawson
+4,PRJ200438_LPRJ200438,TGATATTC,Dawson
+4,PRJ200438_LPRJ200438,GTGATCGA,Dawson
+4,PRJ200438_LPRJ200438,ACCCGACG,Dawson
+4,PRJ200439_LPRJ200439,GCAACAAA,Dawson
+4,PRJ200439_LPRJ200439,TAGTTGTC,Dawson
+4,PRJ200439_LPRJ200439,CGCCATCG,Dawson
+4,PRJ200439_LPRJ200439,ATTGGCGT,Dawson
+
+
+[BCLConvert_Settings]
+AdapterRead2,AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+OverrideCycles,Y28N123;I8N2;N10;Y91N60
+AdapterRead1,AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+

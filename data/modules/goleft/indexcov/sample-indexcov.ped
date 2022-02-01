@@ -1,4 +1,5 @@
 #family_id	sample_id	paternal_id	maternal_id	sex	phenotype	CNX	CNY	bins.out	bins.lo	bins.hi	bins.in	p.out	PC1	PC2	PC3	PC4	PC5
+unknown	sample_0001_lo.bam	-9	-9	1	-9	1.02	1.05	0	0	0	0	0.12	-7295.50	4607.98	-3070.86	8594.82	-4696.74
 unknown	sample_0001.bam	-9	-9	1	-9	1.02	1.05	19282	11859	4274	159022	0.12	-7295.50	4607.98	-3070.86	8594.82	-4696.74
 unknown	sample_0002.bam	-9	-9	2	-9	2.01	0.00	18571	11854	4643	159733	0.12	-6090.70	-6679.45	-1991.05	452.23	2081.07
 unknown	sample_0003.bam	-9	-9	1	-9	1.01	1.06	18734	11865	4785	159570	0.12	2988.66	6780.49	-7133.10	-1176.07	1902.06

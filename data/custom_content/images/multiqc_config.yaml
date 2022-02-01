@@ -1,4 +1,10 @@
 custom_data:
-    some_science:
-        section_name: 'Some real science'
-        description: 'This description comes from multiqc_config.yaml and helps to annotate the Custom Content image.'
+  some_science:
+    section_name: "Some real science"
+    description: "This description comes from multiqc_config.yaml and helps to annotate the Custom Content image."
+  my_custom_content_image:
+    section_name: "My nice image"
+sp:
+  my_custom_content_image:
+    fn: "*.png"
+ignore_images: false

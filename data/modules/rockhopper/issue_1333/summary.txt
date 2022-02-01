@@ -1,0 +1,277 @@
+
+Aligning sequencing reads from files:
+	ZM4_ZRMPG-20_AE_BA_EXL_landick_1_trim_paired_R1.fastq.gz
+	ZM4_ZRMPG-20_AE_BA_EXL_landick_1_trim_paired_R2.fastq.gz
+Total reads:            	40895475
+Successfully aligned reads:	38768346	95%	(ZM4)
+	Aligning (sense) to protein-coding genes:	86%
+	Aligning (antisense) to protein-coding genes:	1%
+	Aligning (sense) to ribosomal RNAs:	1%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	11%
+Successfully aligned reads:	200498	0%	(pZM32)
+	Aligning (sense) to protein-coding genes:	76%
+	Aligning (antisense) to protein-coding genes:	5%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	19%
+Successfully aligned reads:	261572	1%	(pZM33)
+	Aligning (sense) to protein-coding genes:	76%
+	Aligning (antisense) to protein-coding genes:	7%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	18%
+Successfully aligned reads:	113076	0%	(pZM36)
+	Aligning (sense) to protein-coding genes:	87%
+	Aligning (antisense) to protein-coding genes:	13%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	0%
+Successfully aligned reads:	78958	0%	(pZM39)
+	Aligning (sense) to protein-coding genes:	72%
+	Aligning (antisense) to protein-coding genes:	11%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	17%
+
+Aligning sequencing reads from files:
+	ZM4_ZRMPG-20_AE_BA_EXL_landick_2_trim_paired_R1.fastq.gz
+	ZM4_ZRMPG-20_AE_BA_EXL_landick_2_trim_paired_R2.fastq.gz
+Total reads:            	36240940
+Successfully aligned reads:	34157772	94%	(ZM4)
+	Aligning (sense) to protein-coding genes:	87%
+	Aligning (antisense) to protein-coding genes:	1%
+	Aligning (sense) to ribosomal RNAs:	1%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	10%
+Successfully aligned reads:	184460	1%	(pZM32)
+	Aligning (sense) to protein-coding genes:	77%
+	Aligning (antisense) to protein-coding genes:	4%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	19%
+Successfully aligned reads:	313782	1%	(pZM33)
+	Aligning (sense) to protein-coding genes:	80%
+	Aligning (antisense) to protein-coding genes:	5%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	16%
+Successfully aligned reads:	111916	0%	(pZM36)
+	Aligning (sense) to protein-coding genes:	89%
+	Aligning (antisense) to protein-coding genes:	11%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	0%
+Successfully aligned reads:	71231	0%	(pZM39)
+	Aligning (sense) to protein-coding genes:	74%
+	Aligning (antisense) to protein-coding genes:	10%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	16%
+
+Aligning sequencing reads from files:
+	ZM4_ZRMPG-20_AE_BA_EXL_landick_3_trim_paired_R1.fastq.gz
+	ZM4_ZRMPG-20_AE_BA_EXL_landick_3_trim_paired_R2.fastq.gz
+Total reads:            	35014586
+Successfully aligned reads:	33051208	94%	(ZM4)
+	Aligning (sense) to protein-coding genes:	86%
+	Aligning (antisense) to protein-coding genes:	1%
+	Aligning (sense) to ribosomal RNAs:	2%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	10%
+Successfully aligned reads:	169967	0%	(pZM32)
+	Aligning (sense) to protein-coding genes:	76%
+	Aligning (antisense) to protein-coding genes:	5%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	19%
+Successfully aligned reads:	234035	1%	(pZM33)
+	Aligning (sense) to protein-coding genes:	76%
+	Aligning (antisense) to protein-coding genes:	7%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	17%
+Successfully aligned reads:	100822	0%	(pZM36)
+	Aligning (sense) to protein-coding genes:	87%
+	Aligning (antisense) to protein-coding genes:	13%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	0%
+Successfully aligned reads:	66740	0%	(pZM39)
+	Aligning (sense) to protein-coding genes:	72%
+	Aligning (antisense) to protein-coding genes:	11%
+	Aligning (sense) to ribosomal RNAs:	0%
+	Aligning (antisense) to ribosomal RNAs:	0%
+	Aligning (sense) to transfer RNAs:	0%
+	Aligning (antisense) to transfer RNAs:	0%
+	Aligning (sense) to miscellaneous RNAs:	0%
+	Aligning (antisense) to miscellaneous RNAs:	0%
+	Aligning to unannotated regions:        	18%
+
+Analyzing transcripts...
+
+************************************************************
+ZM4
+************************************************************
+
+Computing transcript boundaries...
+	Number of 5'UTRs:			1058
+	Number of 3'UTRs:			997
+	Number of predicted RNAs:			10
+	Number of predicted RNAs (not antisense):		10
+	Number of predicted RNAs (antisense):		0
+
+Computing differential gene expression...
+	Number of differentially expressed protein coding genes:	366
+
+Computing likely operons...
+	Number of gene-pairs predicted to be part of the same operon:	656
+	Number of predicted multi-gene operons:		359
+
+
+************************************************************
+pZM32
+************************************************************
+
+Computing transcript boundaries...
+	Number of 5'UTRs:			13
+	Number of 3'UTRs:			8
+	Number of predicted RNAs:			0
+	Number of predicted RNAs (not antisense):		0
+	Number of predicted RNAs (antisense):		0
+
+Computing differential gene expression...
+	Number of differentially expressed protein coding genes:	7
+
+Computing likely operons...
+	Number of gene-pairs predicted to be part of the same operon:	11
+	Number of predicted multi-gene operons:		7
+
+
+************************************************************
+pZM33
+************************************************************
+
+Computing transcript boundaries...
+	Number of 5'UTRs:			19
+	Number of 3'UTRs:			20
+	Number of predicted RNAs:			0
+	Number of predicted RNAs (not antisense):		0
+	Number of predicted RNAs (antisense):		0
+
+Computing differential gene expression...
+	Number of differentially expressed protein coding genes:	13
+
+Computing likely operons...
+	Number of gene-pairs predicted to be part of the same operon:	14
+	Number of predicted multi-gene operons:		10
+
+
+************************************************************
+pZM36
+************************************************************
+
+Computing transcript boundaries...
+	Number of 5'UTRs:			20
+	Number of 3'UTRs:			11
+	Number of predicted RNAs:			0
+	Number of predicted RNAs (not antisense):		0
+	Number of predicted RNAs (antisense):		0
+
+Computing differential gene expression...
+	Number of differentially expressed protein coding genes:	6
+
+Computing likely operons...
+	Number of gene-pairs predicted to be part of the same operon:	29
+	Number of predicted multi-gene operons:		14
+
+
+************************************************************
+pZM39
+************************************************************
+
+Computing transcript boundaries...
+	Number of 5'UTRs:			12
+	Number of 3'UTRs:			12
+	Number of predicted RNAs:			0
+	Number of predicted RNAs (not antisense):		0
+	Number of predicted RNAs (antisense):		0
+
+Computing differential gene expression...
+	Number of differentially expressed protein coding genes:	8
+
+Computing likely operons...
+	Number of gene-pairs predicted to be part of the same operon:	9
+	Number of predicted multi-gene operons:		8
+
+
+Summary of results written to file:	results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/summary.txt
+Expression of transcripts written to file:	results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/ZM4_transcripts.txt
+Operons written to file:		results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/ZM4_operons.txt
+Expression of transcripts written to file:	results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/pZM32_transcripts.txt
+Operons written to file:		results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/pZM32_operons.txt
+Expression of transcripts written to file:	results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/pZM33_transcripts.txt
+Operons written to file:		results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/pZM33_operons.txt
+Expression of transcripts written to file:	results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/pZM36_transcripts.txt
+Operons written to file:		results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/pZM36_operons.txt
+Expression of transcripts written to file:	results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/pZM39_transcripts.txt
+Operons written to file:		results/assembly/rockhopper_exp/rockhopper/rockhopper_ZRMPG_AE_EXL_landick/pZM39_operons.txt
+
+FINISHED.
+

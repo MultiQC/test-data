@@ -1,0 +1,5 @@
+General summary:        
+Fake stat:                 1.23
+This file is not from nanostat.
+As the search pattern is quite vague, it's here to check that
+the module doesn't crash if it finds stuff that's not from Nanostat.

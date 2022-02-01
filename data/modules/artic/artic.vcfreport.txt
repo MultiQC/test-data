@@ -1,0 +1,55 @@
+[10:32:26] [artic-tools::check_vcf] starting VCF checker
+[10:32:26] [artic-tools::check_vcf] reading scheme
+[10:32:26] [artic-tools::check_vcf] collecting scheme stats
+[10:32:26] [artic-tools::check_vcf] 	primer scheme file:	./primer-schemes/ncov/V3/ncov.scheme.bed
+[10:32:26] [artic-tools::check_vcf] 	reference sequence:	MN908947.3
+[10:32:26] [artic-tools::check_vcf] 	number of pools:	2
+[10:32:26] [artic-tools::check_vcf] 	number of primers:	218 (includes 22 alts)
+[10:32:26] [artic-tools::check_vcf] 	minimum primer size:	22
+[10:32:26] [artic-tools::check_vcf] 	maximum primer size:	57
+[10:32:26] [artic-tools::check_vcf] 	number of amplicons:	98
+[10:32:26] [artic-tools::check_vcf] 	mean amplicon size:	343
+[10:32:26] [artic-tools::check_vcf] 	maximum amplicon size:	375
+[10:32:26] [artic-tools::check_vcf] 	scheme ref. span:	30-29866
+[10:32:26] [artic-tools::check_vcf] 	scheme overlaps:	12.850247%
+[10:32:26] [artic-tools::check_vcf] checking VCF file
+[10:32:26] [artic-tools::check_vcf] 	filtering variants: true
+[10:32:26] [artic-tools::check_vcf] 	output file: blam.merged.filtered.vcf
+[10:32:26] [artic-tools::check_vcf] 	discard primer site vars: true
+[10:32:26] [artic-tools::check_vcf] 	discard overlap fail vars: true
+[10:32:26] [artic-tools::check_vcf] variant at pos 241: C->T
+[10:32:26] [artic-tools::check_vcf] variant at pos 3037: C->T
+[10:32:26] [artic-tools::check_vcf] variant at pos 12733: C->T
+[10:32:26] [artic-tools::check_vcf] 	located within an amplicon overlap region
+[10:32:26] [artic-tools::check_vcf] 	nothing seen at position yet, holding var
+[10:32:26] [artic-tools::check_vcf] variant at pos 12733: C->T
+[10:32:26] [artic-tools::check_vcf] 	located within an amplicon overlap region
+[10:32:26] [artic-tools::check_vcf] 	multiple copies of var found at pos 12733 in overlap region, keeping all copies
+[10:32:26] [artic-tools::check_vcf] variant at pos 14408: C->T
+[10:32:26] [artic-tools::check_vcf] variant at pos 22863: TA->T
+[10:32:26] [artic-tools::check_vcf] 	located within an amplicon overlap region
+[10:32:26] [artic-tools::check_vcf] 	nothing seen at position yet, holding var
+[10:32:26] [artic-tools::check_vcf] variant at pos 22868: TG->T
+[10:32:26] [artic-tools::check_vcf] 	located within an amplicon overlap region
+[10:32:26] [artic-tools::check_vcf] 	var pos does not match with that of previously identified overlap var, holding new var (and dropping held var at 22863)
+[10:32:26] [artic-tools::check_vcf] variant at pos 22896: T->TTGG
+[10:32:26] [artic-tools::check_vcf] variant at pos 22909: TA->T
+[10:32:26] [artic-tools::check_vcf] variant at pos 22913: T->C
+[10:32:26] [artic-tools::check_vcf] variant at pos 22916: CT->TC
+[10:32:26] [artic-tools::check_vcf] variant at pos 22926: T->TAA
+[10:32:26] [artic-tools::check_vcf] variant at pos 22949: CC->A
+[10:32:26] [artic-tools::check_vcf] variant at pos 22995: C->CA
+[10:32:26] [artic-tools::check_vcf] variant at pos 22997: C->T
+[10:32:26] [artic-tools::check_vcf] variant at pos 23009: G->GT
+[10:32:26] [artic-tools::check_vcf] variant at pos 23057: C->A
+[10:32:26] [artic-tools::check_vcf] variant at pos 23098: AC->GT
+[10:32:26] [artic-tools::check_vcf] variant at pos 23183: T->TC
+[10:32:26] [artic-tools::check_vcf] 	located within an amplicon overlap region
+[10:32:26] [artic-tools::check_vcf] 	var pos does not match with that of previously identified overlap var, holding new var (and dropping held var at 22868)
+[10:32:26] [artic-tools::check_vcf] variant at pos 23403: A->G
+[10:32:26] [artic-tools::check_vcf] variant at pos 27752: C->T
+[10:32:26] [artic-tools::check_vcf] variant at pos 28881: GGG->AAC
+[10:32:26] [artic-tools::check_vcf] finished checking
+[10:32:26] [artic-tools::check_vcf] 	dropped var at 23182 which is in an amplicon overlap region but was only found once
+[10:32:26] [artic-tools::check_vcf] 	22 variant records processed
+[10:32:26] [artic-tools::check_vcf] 	19 variant records passed checks

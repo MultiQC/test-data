@@ -1,0 +1,67 @@
+[VEP run statistics]
+VEP version (API)	102 (102)
+Annotation sources	Cache: resources/vep/cache/saccharomyces_cerevisiae_R64-1-1_103/saccharomyces_cerevisiae/103_R64-1-1
+Species	saccharomyces_cerevisiae
+Command line options	--assembly R64-1-1 --buffer_size 50000 --cache --cache_version 103 --dir_cache resources/vep/cache/saccharomyces_cerevisiae_R64-1-1_103 --dir_plugins resources/vep/plugins/103 --everything --failed --fasta resources/genome/saccharomyces_cerevisiae_R64-1-1_103.fasta --force_overwrite --fork 4 --format vcf --hgvsg --no_escape --offline --output_file STDOUT --plugin LoFtool --species saccharomyces_cerevisiae --stats_file temp/variants/real/delly.1-of-2.annot_vep.stats.txt --stats_text --vcf --vcf_info_field ANN,--assembly R64-1-1 --buffer_size 50000 --cache --cache_version 103 --dir_cache resources/vep/cache/saccharomyces_cerevisiae_R64-1-1_103 --dir_plugins resources/vep/plugins/103 --everything --failed --fasta resources/genome/saccharomyces_cerevisiae_R64-1-1_103.fasta --force_overwrite --fork 4 --format vcf --hgvsg --no_escape --offline --output_file STDOUT --plugin LoFtool --species saccharomyces_cerevisiae --stats_file temp/variants/real/delly.2-of-2.annot_vep.stats.txt --stats_text --vcf --vcf_info_field ANN
+Run time	00:00:00
+Input file	STDIN
+Output file	STDOUT
+
+[General statistics]
+Lines of input read	6
+Variants processed	6
+Variants filtered out	0
+Overlapped genes	49
+Overlapped transcripts	49
+Overlapped regulatory features	0
+Novel / existing variants	-
+
+[Variant classes]
+deletion	6
+
+[Consequences (most severe)]
+transcript_ablation	1
+frameshift_variant	3
+upstream_gene_variant	2
+
+[Consequences (all)]
+transcript_ablation	2
+frameshift_variant	4
+stop_lost	1
+coding_sequence_variant	1
+3_prime_UTR_variant	1
+upstream_gene_variant	24
+downstream_gene_variant	18
+feature_truncation	5
+
+[Coding consequences]
+frameshift_variant	4
+stop_lost	1
+coding_sequence_variant	1
+
+[Variants by chromosome]
+I	1
+II	4
+III	1
+
+[Distribution of variants on chromosome I]
+0	1
+
+[Distribution of variants on chromosome II]
+0	4
+
+[Position in protein]
+00-10%	0
+10-20%	0
+20-30%	0
+30-40%	0
+40-50%	2
+50-60%	1
+60-70%	0
+70-80%	0
+80-90%	0
+90-100%	2
+
+[Distribution of variants on chromosome III]
+0	1
+

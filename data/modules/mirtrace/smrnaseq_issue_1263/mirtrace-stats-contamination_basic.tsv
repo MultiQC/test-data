@@ -1,0 +1,15 @@
+CLADE	SRR5398643_GSM2560996_clinic1_Homo_sapiens_ncRNA-Seq	SRR5398644_GSM2560997_clinic2_Homo_sapiens_ncRNA-Seq	SRR5398645_GSM2560998_clinic3_Homo_sapiens_ncRNA-Seq	SRR5398646_GSM2560999_clinic4_Homo_sapiens_ncRNA-Seq	SRR5398647_GSM2561000_clinic5_Homo_sapiens_ncRNA-Seq	SRR5398648_GSM2561001_clinic6_Homo_sapiens_ncRNA-Seq	SRR5398650_GSM2561003_clinic7_Homo_sapiens_ncRNA-Seq	SRR5398637_GSM2560990_control_clinic1_Homo_sapiens_ncRNA-Seq	SRR5398638_GSM2560991_control_clinic2_Homo_sapiens_ncRNA-Seq	SRR5398639_GSM2560992_control_clinic3_Homo_sapiens_ncRNA-Seq	SRR5398640_GSM2560993_control_clinic4_Homo_sapiens_ncRNA-Seq	SRR5398641_GSM2560994_control_clinic5_Homo_sapiens_ncRNA-Seq	SRR5398642_GSM2560995_control_clinic6_Homo_sapiens_ncRNA-Seq	SRR5398649_GSM2561002_control_clinic7_Homo_sapiens_ncRNA-Seq	SRR5398623_GSM2560976_control_preclinic1_Homo_sapiens_ncRNA-Seq	SRR5398624_GSM2560977_control_preclinic2_Homo_sapiens_ncRNA-Seq	SRR5398625_GSM2560978_control_preclinic3_Homo_sapiens_ncRNA-Seq	SRR5398626_GSM2560979_control_preclinic4_Homo_sapiens_ncRNA-Seq	SRR5398627_GSM2560980_control_preclinic5_Homo_sapiens_ncRNA-Seq	SRR5398628_GSM2560981_control_preclinic6_Homo_sapiens_ncRNA-Seq	SRR5398635_GSM2560988_control_preclinic7_Homo_sapiens_ncRNA-Seq	SRR5398629_GSM2560982_preclinic1_Homo_sapiens_ncRNA-Seq	SRR5398630_GSM2560983_preclinic2_Homo_sapiens_ncRNA-Seq	SRR5398631_GSM2560984_preclinic3_Homo_sapiens_ncRNA-Seq	SRR5398632_GSM2560985_preclinic4_Homo_sapiens_ncRNA-Seq	SRR5398633_GSM2560986_preclinic5_Homo_sapiens_ncRNA-Seq	SRR5398634_GSM2560987_preclinic6_Homo_sapiens_ncRNA-Seq	SRR5398636_GSM2560989_preclinic7_Homo_sapiens_ncRNA-Seq
+bryophytes	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+lycopods	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+gymnosperms	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+monocots	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+dicots	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+sponges	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+nematode	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+insects	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+lophotrochozoa	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+echinoderms	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+fish	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+birds_reptiles	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rodents	0	94	32	0	0	0	0	0	0	0	1	43	17	0	1	0	2	0	58	19	1	4	39	3	9	1	14	11
+primates	6250	2906	1848	3614	4462	7484	3118	4576	9926	3207	6019	11462	2561	5241	6829	14136	5258	7888	16862	2901	5715	2142	6793	10642	4056	1526	2077	5794
