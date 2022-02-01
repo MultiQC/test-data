@@ -1,0 +1,13 @@
+
+sambamba 0.8.1
+ by Artem Tarasov and Pjotr Prins (C) 2012-2021
+    LDC 1.20.0 / DMD v2.090.1 / LLVM7.0.0 / bootstrap LDC - the LLVM D compiler (0.17.6)
+
+finding positions of the duplicate reads in the file...
+  sorted 7419320 end pairs
+     and 21677 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 5518 ms
+  found 5086715 duplicates
+collected list of positions in 1 min 42 sec
+marking duplicates...
+collected list of positions in 2 min 7 sec
