@@ -1,0 +1,9 @@
+taxon,lineage,conflict,"ambiguity_score","scorpio_call","scorpio_support","scorpio_conflict","scorpio_notes",version,"pangolin_version","scorpio_version","constellation_version",is_designated,qc_status,qc_notes,note
+Virus1,B.1.617.1,0,,B.1.617.1-like,1,0,scorpio call: Alt alleles 11; Ref alleles 0; Amb alleles 0; Oth alleles 0,PUSHER-1.2.101,4,0.3.16,v0.1.3,FALSE,pass,Ambiguous_content:0.02,
+Virus2,B.1.1.7,0,,Alpha (B.1.1.7-like),0.91,0.04,scorpio call: Alt alleles 21; Ref alleles 1; Amb alleles 1; Oth alleles 0,PUSHER-1.2.101,4,0.3.16,v0.1.3,FALSE,pass,Ambiguous_content:0.02,
+Virus3,A,,,,,,PUSHER-1.2.101,4,0.3.16,v0.1.3,FALSE,pass,Ambiguous_content:0.02,,
+Virus4,B,0.5,,,,,PANGO-1.2.101,4,0.3.16,v0.1.3,TRUE,pass,Ambiguous_content:0.02,Assigned from designation hash.,
+Virus5,B.1.314,0,,,,,PANGO-1.2.101,4,0.3.16,v0.1.3,TRUE,pass,Ambiguous_content:0.02,Assigned from designation hash.,
+Virus6,Unassigned,,,,,,PUSHER-1.2.101,4,0.3.16,v0.1.3,FALSE,fail,Ambiguous_content:0.9,,
+Virus7,Unassigned,,,,,,PUSHER-1.2.101,4,0.3.16,v0.1.3,FALSE,fail,Ambiguous_content:0.98,,
+Virus8,Unassigned,,,,,,PUSHER-1.2.101,4,0.3.16,v0.1.3,FALSE,fail,,Failed to map,
