@@ -1,0 +1,2 @@
+AtlasFileType,NbCells,NbGenes,AnnData.raw,AnnData.X,File_extension,File_path
+Scanpy,2638,1838,True,True,.h5ad,pbmc_3k_scanpy.h5ad

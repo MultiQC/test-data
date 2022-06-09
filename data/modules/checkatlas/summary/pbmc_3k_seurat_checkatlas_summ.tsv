@@ -1,0 +1,2 @@
+AtlasFileType,NbCells,NbGenes,AnnData.raw,AnnData.X,File_extension,File_path
+Seurat,2638,13714,True,True,.rds,pbmc_3k_seurat.h5ad
