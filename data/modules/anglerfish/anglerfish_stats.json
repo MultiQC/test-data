@@ -1,0 +1,717 @@
+{
+    "anglerfish_version": "0.4.1",
+    "paf_stats": [
+        {
+            "aligned reads matching both I7 and I5 adaptor": [
+                49903,
+                0.5290874585184321
+            ],
+            "aligned reads matching multiple I7/I5 adaptor pairs": [
+                337,
+                0.0035729810536583298
+            ],
+            "aligned reads matching only I7 or I5 adaptor": [
+                37180,
+                0.39419417084574687
+            ],
+            "aligned reads with uncategorized alignments": [
+                6899,
+                0.07314538958216266
+            ],
+            "input_reads": [
+                105608,
+                1.0
+            ],
+            "reads aligning to adaptor sequences": [
+                94319,
+                0.8931046890387092
+            ]
+        },
+        {
+            "aligned reads matching both I7 and I5 adaptor": [
+                52515,
+                0.5519586306927468
+            ],
+            "aligned reads matching multiple I7/I5 adaptor pairs": [
+                353,
+                0.0037102046393323734
+            ],
+            "aligned reads matching only I7 or I5 adaptor": [
+                35333,
+                0.3713673102592939
+            ],
+            "aligned reads with uncategorized alignments": [
+                6942,
+                0.07296385440862702
+            ],
+            "input_reads": [
+                105608,
+                1.0
+            ],
+            "reads aligning to adaptor sequences": [
+                95143,
+                0.90090712824786
+            ]
+        }
+    ],
+    "sample_stats": [
+        {
+            "#reads": "927",
+            "mean_read_len": "434.11",
+            "sample_name": "Sample_0",
+            "std_read_len": "112.29"
+        },
+        {
+            "#reads": "146",
+            "mean_read_len": "443.07",
+            "sample_name": "Sample_1",
+            "std_read_len": "108.98"
+        },
+        {
+            "#reads": "230",
+            "mean_read_len": "191.86",
+            "sample_name": "Sample_2",
+            "std_read_len": "90.06"
+        },
+        {
+            "#reads": "140",
+            "mean_read_len": "182.8",
+            "sample_name": "Sample_3",
+            "std_read_len": "93.09"
+        },
+        {
+            "#reads": "128",
+            "mean_read_len": "206.73",
+            "sample_name": "Sample_4",
+            "std_read_len": "104.17"
+        },
+        {
+            "#reads": "152",
+            "mean_read_len": "213.8",
+            "sample_name": "Sample_5",
+            "std_read_len": "114.09"
+        },
+        {
+            "#reads": "193",
+            "mean_read_len": "193.42",
+            "sample_name": "Sample_6",
+            "std_read_len": "93.91"
+        },
+        {
+            "#reads": "198",
+            "mean_read_len": "197.33",
+            "sample_name": "Sample_7",
+            "std_read_len": "82.95"
+        },
+        {
+            "#reads": "153",
+            "mean_read_len": "223.17",
+            "sample_name": "Sample_8",
+            "std_read_len": "121.53"
+        },
+        {
+            "#reads": "190",
+            "mean_read_len": "189.49",
+            "sample_name": "Sample_9",
+            "std_read_len": "87.51"
+        },
+        {
+            "#reads": "138",
+            "mean_read_len": "186.5",
+            "sample_name": "Sample_10",
+            "std_read_len": "98.68"
+        },
+        {
+            "#reads": "149",
+            "mean_read_len": "191.6",
+            "sample_name": "Sample_11",
+            "std_read_len": "91.49"
+        },
+        {
+            "#reads": "138",
+            "mean_read_len": "199.59",
+            "sample_name": "Sample_12",
+            "std_read_len": "83.59"
+        },
+        {
+            "#reads": "179",
+            "mean_read_len": "216.26",
+            "sample_name": "Sample_13",
+            "std_read_len": "107.57"
+        },
+        {
+            "#reads": "136",
+            "mean_read_len": "201.53",
+            "sample_name": "Sample_14",
+            "std_read_len": "99.49"
+        },
+        {
+            "#reads": "174",
+            "mean_read_len": "190.81",
+            "sample_name": "Sample_15",
+            "std_read_len": "96.02"
+        },
+        {
+            "#reads": "163",
+            "mean_read_len": "220.1",
+            "sample_name": "Sample_16",
+            "std_read_len": "120.07"
+        },
+        {
+            "#reads": "142",
+            "mean_read_len": "179.82",
+            "sample_name": "Sample_17",
+            "std_read_len": "76.72"
+        },
+        {
+            "#reads": "180",
+            "mean_read_len": "152.77",
+            "sample_name": "Sample_18",
+            "std_read_len": "65.62"
+        },
+        {
+            "#reads": "189",
+            "mean_read_len": "196.5",
+            "sample_name": "Sample_19",
+            "std_read_len": "93.47"
+        },
+        {
+            "#reads": "132",
+            "mean_read_len": "203.72",
+            "sample_name": "Sample_20",
+            "std_read_len": "102.44"
+        },
+        {
+            "#reads": "217",
+            "mean_read_len": "198.56",
+            "sample_name": "Sample_21",
+            "std_read_len": "106.94"
+        },
+        {
+            "#reads": "227",
+            "mean_read_len": "198.44",
+            "sample_name": "Sample_22",
+            "std_read_len": "89.73"
+        },
+        {
+            "#reads": "194",
+            "mean_read_len": "195.71",
+            "sample_name": "Sample_23",
+            "std_read_len": "99.11"
+        },
+        {
+            "#reads": "138",
+            "mean_read_len": "219.01",
+            "sample_name": "Sample_24",
+            "std_read_len": "110.49"
+        },
+        {
+            "#reads": "143",
+            "mean_read_len": "200.07",
+            "sample_name": "Sample_25",
+            "std_read_len": "91.66"
+        },
+        {
+            "#reads": "188",
+            "mean_read_len": "214.48",
+            "sample_name": "Sample_26",
+            "std_read_len": "102.29"
+        },
+        {
+            "#reads": "1",
+            "mean_read_len": "146.0",
+            "sample_name": "Sample_27",
+            "std_read_len": "0.0"
+        },
+        {
+            "#reads": "131",
+            "mean_read_len": "212.65",
+            "sample_name": "Sample_28",
+            "std_read_len": "103.12"
+        },
+        {
+            "#reads": "153",
+            "mean_read_len": "191.98",
+            "sample_name": "Sample_29",
+            "std_read_len": "101.77"
+        },
+        {
+            "#reads": "175",
+            "mean_read_len": "199.98",
+            "sample_name": "Sample_30",
+            "std_read_len": "98.18"
+        },
+        {
+            "#reads": "130",
+            "mean_read_len": "185.67",
+            "sample_name": "Sample_31",
+            "std_read_len": "77.31"
+        },
+        {
+            "#reads": "742",
+            "mean_read_len": "415.2",
+            "sample_name": "Sample_32",
+            "std_read_len": "141.69"
+        },
+        {
+            "#reads": "985",
+            "mean_read_len": "407.63",
+            "sample_name": "Sample_33",
+            "std_read_len": "133.67"
+        },
+        {
+            "#reads": "140",
+            "mean_read_len": "285.41",
+            "sample_name": "Sample_34",
+            "std_read_len": "210.81"
+        },
+        {
+            "#reads": "803",
+            "mean_read_len": "397.54",
+            "sample_name": "Sample_35",
+            "std_read_len": "124.0"
+        },
+        {
+            "#reads": "417",
+            "mean_read_len": "402.02",
+            "sample_name": "Sample_36",
+            "std_read_len": "137.82"
+        },
+        {
+            "#reads": "335",
+            "mean_read_len": "390.36",
+            "sample_name": "Sample_37",
+            "std_read_len": "127.06"
+        },
+        {
+            "#reads": "644",
+            "mean_read_len": "361.56",
+            "sample_name": "Sample_38",
+            "std_read_len": "169.87"
+        },
+        {
+            "#reads": "646",
+            "mean_read_len": "407.25",
+            "sample_name": "Sample_39",
+            "std_read_len": "141.9"
+        },
+        {
+            "#reads": "448",
+            "mean_read_len": "420.16",
+            "sample_name": "Sample_40",
+            "std_read_len": "154.82"
+        },
+        {
+            "#reads": "420",
+            "mean_read_len": "413.01",
+            "sample_name": "Sample_41",
+            "std_read_len": "150.39"
+        },
+        {
+            "#reads": "426",
+            "mean_read_len": "406.42",
+            "sample_name": "Sample_42",
+            "std_read_len": "158.57"
+        },
+        {
+            "#reads": "478",
+            "mean_read_len": "421.06",
+            "sample_name": "Sample_43",
+            "std_read_len": "160.45"
+        },
+        {
+            "#reads": "604",
+            "mean_read_len": "412.62",
+            "sample_name": "Sample_44",
+            "std_read_len": "145.2"
+        },
+        {
+            "#reads": "694",
+            "mean_read_len": "414.13",
+            "sample_name": "Sample_45",
+            "std_read_len": "163.4"
+        },
+        {
+            "#reads": "452",
+            "mean_read_len": "423.27",
+            "sample_name": "Sample_46",
+            "std_read_len": "144.9"
+        },
+        {
+            "#reads": "517",
+            "mean_read_len": "409.44",
+            "sample_name": "Sample_47",
+            "std_read_len": "144.26"
+        },
+        {
+            "#reads": "729",
+            "mean_read_len": "395.93",
+            "sample_name": "Sample_48",
+            "std_read_len": "138.12"
+        },
+        {
+            "#reads": "668",
+            "mean_read_len": "398.39",
+            "sample_name": "Sample_49",
+            "std_read_len": "148.75"
+        },
+        {
+            "#reads": "571",
+            "mean_read_len": "397.65",
+            "sample_name": "Sample_50",
+            "std_read_len": "147.44"
+        },
+        {
+            "#reads": "510",
+            "mean_read_len": "412.36",
+            "sample_name": "Sample_51",
+            "std_read_len": "151.26"
+        },
+        {
+            "#reads": "657",
+            "mean_read_len": "417.05",
+            "sample_name": "Sample_52",
+            "std_read_len": "147.52"
+        },
+        {
+            "#reads": "471",
+            "mean_read_len": "418.23",
+            "sample_name": "Sample_53",
+            "std_read_len": "160.23"
+        },
+        {
+            "#reads": "577",
+            "mean_read_len": "420.71",
+            "sample_name": "Sample_54",
+            "std_read_len": "152.47"
+        },
+        {
+            "#reads": "637",
+            "mean_read_len": "417.92",
+            "sample_name": "Sample_55",
+            "std_read_len": "151.97"
+        },
+        {
+            "#reads": "773",
+            "mean_read_len": "409.67",
+            "sample_name": "Sample_56",
+            "std_read_len": "141.24"
+        },
+        {
+            "#reads": "465",
+            "mean_read_len": "404.93",
+            "sample_name": "Sample_57",
+            "std_read_len": "148.2"
+        },
+        {
+            "#reads": "500",
+            "mean_read_len": "421.67",
+            "sample_name": "Sample_58",
+            "std_read_len": "172.15"
+        },
+        {
+            "#reads": "518",
+            "mean_read_len": "412.41",
+            "sample_name": "Sample_59",
+            "std_read_len": "158.52"
+        },
+        {
+            "#reads": "695",
+            "mean_read_len": "397.51",
+            "sample_name": "Sample_60",
+            "std_read_len": "148.02"
+        },
+        {
+            "#reads": "665",
+            "mean_read_len": "400.45",
+            "sample_name": "Sample_61",
+            "std_read_len": "135.22"
+        },
+        {
+            "#reads": "551",
+            "mean_read_len": "372.53",
+            "sample_name": "Sample_62",
+            "std_read_len": "158.41"
+        },
+        {
+            "#reads": "676",
+            "mean_read_len": "403.79",
+            "sample_name": "Sample_63",
+            "std_read_len": "144.54"
+        },
+        {
+            "#reads": "661",
+            "mean_read_len": "392.31",
+            "sample_name": "Sample_64",
+            "std_read_len": "122.39"
+        },
+        {
+            "#reads": "647",
+            "mean_read_len": "394.35",
+            "sample_name": "Sample_65",
+            "std_read_len": "125.57"
+        },
+        {
+            "#reads": "652",
+            "mean_read_len": "390.81",
+            "sample_name": "Sample_66",
+            "std_read_len": "115.76"
+        },
+        {
+            "#reads": "501",
+            "mean_read_len": "381.12",
+            "sample_name": "Sample_67",
+            "std_read_len": "114.03"
+        },
+        {
+            "#reads": "597",
+            "mean_read_len": "418.66",
+            "sample_name": "Sample_68",
+            "std_read_len": "164.45"
+        },
+        {
+            "#reads": "607",
+            "mean_read_len": "425.61",
+            "sample_name": "Sample_69",
+            "std_read_len": "142.14"
+        },
+        {
+            "#reads": "464",
+            "mean_read_len": "433.77",
+            "sample_name": "Sample_70",
+            "std_read_len": "164.54"
+        },
+        {
+            "#reads": "580",
+            "mean_read_len": "447.02",
+            "sample_name": "Sample_71",
+            "std_read_len": "161.56"
+        },
+        {
+            "#reads": "467",
+            "mean_read_len": "430.25",
+            "sample_name": "Sample_72",
+            "std_read_len": "149.77"
+        },
+        {
+            "#reads": "311",
+            "mean_read_len": "417.06",
+            "sample_name": "Sample_73",
+            "std_read_len": "135.8"
+        },
+        {
+            "#reads": "542",
+            "mean_read_len": "420.96",
+            "sample_name": "Sample_74",
+            "std_read_len": "142.54"
+        },
+        {
+            "#reads": "432",
+            "mean_read_len": "428.72",
+            "sample_name": "Sample_75",
+            "std_read_len": "148.36"
+        },
+        {
+            "#reads": "496",
+            "mean_read_len": "430.96",
+            "sample_name": "Sample_76",
+            "std_read_len": "146.8"
+        },
+        {
+            "#reads": "470",
+            "mean_read_len": "449.56",
+            "sample_name": "Sample_77",
+            "std_read_len": "169.67"
+        },
+        {
+            "#reads": "619",
+            "mean_read_len": "425.51",
+            "sample_name": "Sample_78",
+            "std_read_len": "142.65"
+        },
+        {
+            "#reads": "514",
+            "mean_read_len": "433.83",
+            "sample_name": "Sample_79",
+            "std_read_len": "178.25"
+        },
+        {
+            "#reads": "464",
+            "mean_read_len": "414.09",
+            "sample_name": "Sample_80",
+            "std_read_len": "147.65"
+        },
+        {
+            "#reads": "519",
+            "mean_read_len": "415.77",
+            "sample_name": "Sample_81",
+            "std_read_len": "137.79"
+        },
+        {
+            "#reads": "479",
+            "mean_read_len": "411.15",
+            "sample_name": "Sample_82",
+            "std_read_len": "147.17"
+        },
+        {
+            "#reads": "451",
+            "mean_read_len": "419.52",
+            "sample_name": "Sample_83",
+            "std_read_len": "145.75"
+        },
+        {
+            "#reads": "385",
+            "mean_read_len": "425.18",
+            "sample_name": "Sample_84",
+            "std_read_len": "172.75"
+        },
+        {
+            "#reads": "530",
+            "mean_read_len": "426.44",
+            "sample_name": "Sample_85",
+            "std_read_len": "164.56"
+        },
+        {
+            "#reads": "393",
+            "mean_read_len": "429.61",
+            "sample_name": "Sample_86",
+            "std_read_len": "168.13"
+        },
+        {
+            "#reads": "558",
+            "mean_read_len": "426.61",
+            "sample_name": "Sample_87",
+            "std_read_len": "155.59"
+        },
+        {
+            "#reads": "576",
+            "mean_read_len": "425.23",
+            "sample_name": "Sample_88",
+            "std_read_len": "145.14"
+        },
+        {
+            "#reads": "583",
+            "mean_read_len": "429.05",
+            "sample_name": "Sample_89",
+            "std_read_len": "148.82"
+        },
+        {
+            "#reads": "464",
+            "mean_read_len": "421.3",
+            "sample_name": "Sample_90",
+            "std_read_len": "147.72"
+        },
+        {
+            "#reads": "557",
+            "mean_read_len": "429.2",
+            "sample_name": "Sample_91",
+            "std_read_len": "168.62"
+        },
+        {
+            "#reads": "485",
+            "mean_read_len": "416.95",
+            "sample_name": "Sample_92",
+            "std_read_len": "138.15"
+        },
+        {
+            "#reads": "359",
+            "mean_read_len": "419.96",
+            "sample_name": "Sample_93",
+            "std_read_len": "154.45"
+        },
+        {
+            "#reads": "410",
+            "mean_read_len": "420.37",
+            "sample_name": "Sample_94",
+            "std_read_len": "141.04"
+        },
+        {
+            "#reads": "603",
+            "mean_read_len": "426.32",
+            "sample_name": "Sample_95",
+            "std_read_len": "148.02"
+        }
+    ],
+    "undetermined": [
+        {
+            "count": 36,
+            "undetermined_index": "taatgcgc+aggacatt"
+        },
+        {
+            "count": 7,
+            "undetermined_index": "cgctcatt+aggacatt"
+        },
+        {
+            "count": 5,
+            "undetermined_index": "tgtctatg+caggacgt"
+        },
+        {
+            "count": 5,
+            "undetermined_index": "atgcgcac+caggacgt"
+        },
+        {
+            "count": 4,
+            "undetermined_index": "caaatacg+caggacgt"
+        },
+        {
+            "count": 4,
+            "undetermined_index": "taatgcgc+ggacggcc"
+        },
+        {
+            "count": 4,
+            "undetermined_index": "gtgggtgt+caggacgt"
+        },
+        {
+            "count": 4,
+            "undetermined_index": "attactcg+aggacatt"
+        },
+        {
+            "count": 4,
+            "undetermined_index": "agaccata+caggacgt"
+        },
+        {
+            "count": 4,
+            "undetermined_index": "tcgtcacg+caggacgt"
+        },
+        {
+            "count": 1559,
+            "undetermined_index": "cgctcatt"
+        },
+        {
+            "count": 1329,
+            "undetermined_index": "attactcg"
+        },
+        {
+            "count": 26,
+            "undetermined_index": "gctcattt"
+        },
+        {
+            "count": 16,
+            "undetermined_index": "ttccgaga"
+        },
+        {
+            "count": 11,
+            "undetermined_index": "tcaggaga"
+        },
+        {
+            "count": 10,
+            "undetermined_index": "tccgggag"
+        },
+        {
+            "count": 10,
+            "undetermined_index": "gcaataaa"
+        },
+        {
+            "count": 9,
+            "undetermined_index": "tatccggg"
+        },
+        {
+            "count": 6,
+            "undetermined_index": "caaggaga"
+        },
+        {
+            "count": 5,
+            "undetermined_index": "tccttatt"
+        }
+    ]
+}
