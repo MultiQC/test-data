@@ -1,0 +1,23 @@
+custom_data:
+  my_data_type:
+    id: "mqc_config_file_section"
+    section_name: "My Custom Section"
+    description: "This data comes from a single multiqc_config.yaml file"
+    plot_type: "bargraph"
+    pconfig:
+      id: "barplot_config_only"
+      title: "MultiQC Config Data Plot"
+      ylab: "Number of things"
+    data:
+      sample_a:
+        first_thing: 12
+        second_thing: 14
+      sample_b:
+        first_thing: 8
+        second_thing: 6
+      sample_c:
+        first_thing: 11
+        second_thing: 5
+      sample_d:
+        first_thing: 12
+        second_thing: 9
