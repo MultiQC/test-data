@@ -1,0 +1,10 @@
+
+Scoring long reads
+  367 reads (484442 bp)  716 reads (970013 bp)  1071 reads (1454004 bp)  1419 reads (1937984 bp)  1778 reads (2422540 bp)  2125 reads (2908402 bp)  2445 reads (3394242 bp)  2786 reads (3878183 bp)  3125 reads (4362188 bp)  3489 reads (4846113 bp)  3833 reads (5330263 bp)  4216 reads (5814634 bp)  4567 reads (6298509 bp)  4918 reads (6783901 bp)  5225 reads (7269933 bp)  5577 reads (7754663 bp)  5916 reads (8238458 bp)  6288 reads (8725231 bp)  6638 reads (9210957 bp)  7010 reads (9695116 bp)  7339 reads (10179025 bp)  7702 reads (10664981 bp)  8058 reads (11151430 bp)  8384 reads (11635366 bp)  8760 reads (12121134 bp)  9103 reads (12605740 bp)  9443 reads (13091081 bp)  9777 reads (13575681 bp)  9999 reads (13858696 bp)
+
+Filtering long reads
+  target: 1 bp
+  keeping 5678 bp
+
+Outputting passed long reads
+
