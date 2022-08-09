@@ -4,4 +4,5 @@
 1970 reads removed by -min_qual_score
 7 reads removed by -min_qual_mean
 130 reads removed by -ns_max_n
-141 reads removed by -lc_entropy
+2879 reads removed by -derep
+54 reads removed by -lc_entropy
