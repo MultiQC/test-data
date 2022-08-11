@@ -1,0 +1,29 @@
+java -ea -Xmx6g -Xms6g -cp /home/jfellows/.conda/envs/bbmap/opt/bbmap-38.98-0/current/ jgi.BBDuk -Xmx6g in1=2612_ERR5766176_B_1.trim.fastq.gz in2=2612_ERR5766176_B_2.trim.fastq.gz out1=2612-ERR5766176_B_1.fastq.gz out2=2612-ERR5766176_B_2.fastq.gz threads=2 entropy=0.3 entropywindow=50 entropymask=f ktrim=r k=23 mink=11 hdist=1 tpe tbo ref=/home/jfellows/.conda/envs/bbmap/opt/bbmap-38.98-0/resources/adapters.fa qtrim=r trimq=10 maq=10 k=31 hdist=1 minlen=100
+Executing jgi.BBDuk [-Xmx6g, in1=2612_ERR5766176_B_1.trim.fastq.gz, in2=2612_ERR5766176_B_2.trim.fastq.gz, out1=2612-ERR5766176_B_1.fastq.gz, out2=2612-ERR5766176_B_2.fastq.gz, threads=2, entropy=0.3, entropywindow=50, entropymask=f, ktrim=r, k=23, mink=11, hdist=1, tpe, tbo, ref=/home/jfellows/.conda/envs/bbmap/opt/bbmap-38.98-0/resources/adapters.fa, qtrim=r, trimq=10, maq=10, k=31, hdist=1, minlen=100]
+Version 38.98
+
+Set threads to 2
+maskMiddle was disabled because useShortKmers=true
+0.032 seconds.
+Initial:
+Memory: max=6442m, total=6442m, free=6417m, used=25m
+
+Added 370086 kmers; time: 	0.131 seconds.
+Memory: max=6442m, total=6442m, free=6398m, used=44m
+
+Input is being processed as paired
+Started output streams:	0.042 seconds.
+Processing time:   		13.899 seconds.
+
+Input:                  	1256568 reads 		133201551 bases.
+QTrimmed:               	7618 reads (0.61%) 	11256 bases (0.01%)
+KTrimmed:               	2012 reads (0.16%) 	66690 bases (0.05%)
+Trimmed by overlap:     	6 reads (0.00%) 	34 bases (0.00%)
+Low quality discards:   	558706 reads (44.46%) 	34365307 bases (25.80%)
+Low entropy discards:   	32 reads (0.00%) 	4782 bases (0.00%)
+Total Removed:          	559196 reads (44.50%) 	34448069 bases (25.86%)
+Result:                 	697372 reads (55.50%) 	98753482 bases (74.14%)
+
+Time:                         	14.076 seconds.
+Reads Processed:       1256k 	89.27k reads/sec
+Bases Processed:        133m 	9.46m bases/sec
