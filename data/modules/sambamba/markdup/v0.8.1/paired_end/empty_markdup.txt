@@ -1,0 +1,8 @@
+finding positions of the duplicate reads in the file...
+  sorted 0 end pairs
+     and 0 single ends (among them 0 unmatched pairs)
+  collecting indices of duplicate reads...   done in 0 ms
+  found 0 duplicates
+collected list of positions in 0 min 0 sec
+removing duplicates...
+collected list of positions in 0 min 0 sec
