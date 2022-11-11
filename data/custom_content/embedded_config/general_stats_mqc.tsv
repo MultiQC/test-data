@@ -1,0 +1,6 @@
+# plot_type: 'generalstats'
+Sample Name	Batch	Cell Type	Cell Count	PCR Cycles
+Sample_1	Batch_1	GM12878	283456	29
+Sample_2	Batch_1	GM12878	276112	29
+Sample_3	Batch_2	GM12878	298193	29
+Sample_4	Batch_2	GM12878	218172	30
