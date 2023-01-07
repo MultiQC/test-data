@@ -1,0 +1,228 @@
+diamond blastx --threads 2 --db ./testdb-diamond --query ERX5474932_ERR5766176_1.fastq.gz ERX5474932_ERR5766176_2.fastq.gz --outfmt 102 --out 2612_pe-ERR5766176-db1.tsv --log
+diamond v2.0.15.153
+#CPU threads: 2
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+CPU features detected: ssse3 popcnt sse4.1
+Runtime dispatch: disabled
+L3 cache size: 16777216
+MAX_SHAPE_LEN=19 SEQ_MASK STRICT_BAND
+Temporary directory: 
+Percentage range of top alignment score to report hits: 10
+DP fields: 0
+Opening the database...  [2.55s]
+Database: ./testdb-diamond.dmnd (type: Diamond database, sequences: 9794, letters: 4768111)
+Block size = 2000000000
+Loading taxonomy nodes...  [0.077s]
+Opening the input file...  [0.555s]
+Opening the output file...  [0.017s]
+Loading query sequences...  [14.407s]
+Sequences = 7584720, letters = 376707760, average length = 49
+Masking queries...  [604.616s]
+Current RSS: 1.1 GB, Peak RSS: 1.1 GB
+Algorithm: Double-indexed
+Shape configuration: 111101110111,111011010010111
+Building query histograms...  [17.547s]
+Allocating buffers...  [0.029s]
+Current RSS: 1.1 GB, Peak RSS: 1.1 GB
+Loading reference sequences...  [0.416s]
+Sequences = 9794, letters = 4768111, average length = 486
+Current RSS: 1.1 GB, Peak RSS: 1.1 GB
+Masking reference...  [5.946s]
+Masked letters: 0
+Initializing temporary storage... Async_buffer() 1264120,79008
+ [0.106s]
+Building reference histograms...  [0.326s]
+Allocating buffers...  [0.013s]
+Current RSS: 1.1 GB, Peak RSS: 1.1 GB
+Processing query block 1, reference block 1/1, shape 1/2, index chunk 1/4.
+Building reference seed array...  [0.168s]
+Building query seed array...  [6.729s]
+Indexed query seeds = 274916445344/376707760 (72978.71%), reference seeds = 274916445344/4768111 (5765730.82%)
+Soft masked letters = 22584/376707760 (0.01%), 2402/4768111 (0.05%)
+Computing hash join...  [1.795s]
+Masking low complexity seeds...  [0.056s]
+Masked seeds: 908/162021 (0.56%)
+Masked positions (query): 28157/376707760 (0.01%)
+Masked positions (target): 1339/4768111 (0.03%)
+Searching alignments...  [0.383s]
+Processing query block 1, reference block 1/1, shape 1/2, index chunk 2/4.
+Building reference seed array...  [0.125s]
+Building query seed array...  [6.608s]
+Indexed query seeds = 274916445344/376707760 (72978.71%), reference seeds = 274916445344/4768111 (5765730.82%)
+Soft masked letters = 22584/376707760 (0.01%), 2402/4768111 (0.05%)
+Computing hash join...  [1.348s]
+Masking low complexity seeds...  [0.093s]
+Masked seeds: 908/163128 (0.56%)
+Masked positions (query): 28444/376707760 (0.01%)
+Masked positions (target): 1351/4768111 (0.03%)
+Searching alignments...  [0.404s]
+Processing query block 1, reference block 1/1, shape 1/2, index chunk 3/4.
+Building reference seed array...  [0.139s]
+Building query seed array...  [6.626s]
+Indexed query seeds = 274916445344/376707760 (72978.71%), reference seeds = 274916445344/4768111 (5765730.82%)
+Soft masked letters = 22584/376707760 (0.01%), 2402/4768111 (0.05%)
+Computing hash join...  [1.36s]
+Masking low complexity seeds...  [0.049s]
+Masked seeds: 936/162909 (0.57%)
+Masked positions (query): 33045/376707760 (0.01%)
+Masked positions (target): 1347/4768111 (0.03%)
+Searching alignments...  [0.615s]
+Processing query block 1, reference block 1/1, shape 1/2, index chunk 4/4.
+Building reference seed array...  [0.121s]
+Building query seed array...  [6.414s]
+Indexed query seeds = 48625449/376707760 (12.91%), reference seeds = 1123668/4768111 (23.57%)
+Soft masked letters = 22584/376707760 (0.01%), 2402/4768111 (0.05%)
+Computing hash join...  [1.441s]
+Masking low complexity seeds...  [0.065s]
+Masked seeds: 927/162359 (0.57%)
+Masked positions (query): 26003/376707760 (0.01%)
+Masked positions (target): 1380/4768111 (0.03%)
+Searching alignments...  [0.402s]
+Current RSS: 1.5 GB, Peak RSS: 1.5 GB
+Processing query block 1, reference block 1/1, shape 2/2, index chunk 1/4.
+Building reference seed array...  [0.122s]
+Building query seed array...  [5.865s]
+Indexed query seeds = 274916445344/376707760 (72978.71%), reference seeds = 274916445344/4768111 (5765730.82%)
+Soft masked letters = 22584/376707760 (0.01%), 2402/4768111 (0.05%)
+Computing hash join...  [1.353s]
+Masking low complexity seeds...  [0.064s]
+Masked seeds: 828/153932 (0.54%)
+Masked positions (query): 22968/376707760 (0.01%)
+Masked positions (target): 1166/4768111 (0.02%)
+Searching alignments...  [0.406s]
+Processing query block 1, reference block 1/1, shape 2/2, index chunk 2/4.
+Building reference seed array...  [0.14s]
+Building query seed array...  [6.069s]
+Indexed query seeds = 274916445344/376707760 (72978.71%), reference seeds = 274916445344/4768111 (5765730.82%)
+Soft masked letters = 22584/376707760 (0.01%), 2402/4768111 (0.05%)
+Computing hash join...  [1.632s]
+Masking low complexity seeds...  [0.044s]
+Masked seeds: 831/154225 (0.54%)
+Masked positions (query): 24036/376707760 (0.01%)
+Masked positions (target): 1172/4768111 (0.02%)
+Searching alignments...  [0.334s]
+Processing query block 1, reference block 1/1, shape 2/2, index chunk 3/4.
+Building reference seed array...  [0.125s]
+Building query seed array...  [5.794s]
+Indexed query seeds = 274916445344/376707760 (72978.71%), reference seeds = 274916445344/4768111 (5765730.82%)
+Soft masked letters = 22584/376707760 (0.01%), 2402/4768111 (0.05%)
+Computing hash join...  [1.421s]
+Masking low complexity seeds...  [0.054s]
+Masked seeds: 866/154382 (0.56%)
+Masked positions (query): 27009/376707760 (0.01%)
+Masked positions (target): 1235/4768111 (0.03%)
+Searching alignments...  [0.286s]
+Processing query block 1, reference block 1/1, shape 2/2, index chunk 4/4.
+Building reference seed array...  [0.115s]
+Building query seed array...  [5.677s]
+Indexed query seeds = 42093466/376707760 (11.17%), reference seeds = 1112746/4768111 (23.34%)
+Soft masked letters = 22584/376707760 (0.01%), 2402/4768111 (0.05%)
+Computing hash join...  [1.295s]
+Masking low complexity seeds...  [0.047s]
+Masked seeds: 831/153471 (0.54%)
+Masked positions (query): 30658/376707760 (0.01%)
+Masked positions (target): 1190/4768111 (0.02%)
+Searching alignments...  [0.392s]
+Deallocating buffers...  [0.014s]
+Clearing query masking...  [0.315s]
+Computing alignments... Async_buffer.load() 68010(0.000950089 GB, 0.000736591 GB on disk)
+Loading trace points...  [0.236s]
+Sorting trace points...  [0.034s]
+Computing alignments... Queries=23799 size=0.0117188 max_size=0.0898438 next=ERR5766176.11900 ETA=52.1165s
+Queries=49906 size=0 max_size=0.261719 next=ERR5766176.24954 ETA=48.66s
+Queries=76485 size=0.0195312 max_size=0.261719 next=ERR5766176.38243 ETA=46.5831s
+Queries=102839 size=0 max_size=0.261719 next=ERR5766176.51420 ETA=45.1689s
+Queries=129713 size=0 max_size=0.261719 next=ERR5766176.64857 ETA=43.7276s
+Queries=157639 size=0 max_size=0.261719 next=ERR5766176.78820 ETA=42.1145s
+Queries=185040 size=0.0117188 max_size=0.261719 next=ERR5766176.92521 ETA=40.8212s
+Queries=210511 size=0 max_size=0.261719 next=ERR5766176.105256 ETA=40.0401s
+Queries=237872 size=0 max_size=0.261719 next=ERR5766176.118937 ETA=38.8286s
+Queries=265927 size=0 max_size=0.261719 next=ERR5766176.132964 ETA=37.5364s
+Queries=293989 size=0 max_size=0.261719 next=ERR5766176.146995 ETA=36.2988s
+Queries=317854 size=0.00390625 max_size=0.484375 next=ERR5766176.158928 ETA=38.7016s
+Queries=343502 size=0.0078125 max_size=0.484375 next=ERR5766176.171752 ETA=37.5213s
+Queries=370502 size=0.0117188 max_size=0.484375 next=ERR5766176.185252 ETA=36.1787s
+Queries=396788 size=0.00390625 max_size=0.484375 next=ERR5766176.198395 ETA=34.9741s
+Queries=422688 size=0 max_size=0.484375 next=ERR5766176.211345 ETA=33.8414s
+Queries=450042 size=0.0117188 max_size=0.484375 next=ERR5766176.225022 ETA=32.5601s
+Queries=475661 size=0.00390625 max_size=0.484375 next=ERR5766176.237831 ETA=31.4945s
+Queries=504467 size=0.00390625 max_size=0.484375 next=ERR5766176.252234 ETA=31.6229s
+Queries=530514 size=0 max_size=0.484375 next=ERR5766176.265258 ETA=30.4221s
+Queries=556947 size=0 max_size=0.484375 next=ERR5766176.278474 ETA=29.2038s
+Queries=582619 size=0 max_size=0.484375 next=ERR5766176.291310 ETA=28.0733s
+Queries=608341 size=0.03125 max_size=0.484375 next=ERR5766176.304171 ETA=26.9495s
+Queries=634732 size=0 max_size=0.484375 next=ERR5766176.317367 ETA=25.7811s
+Queries=661172 size=0 max_size=0.484375 next=ERR5766176.330587 ETA=24.6223s
+Queries=687272 size=0 max_size=0.484375 next=ERR5766176.343637 ETA=23.5012s
+Queries=712020 size=0.0195312 max_size=0.484375 next=ERR5766176.356011 ETA=22.4866s
+Queries=738216 size=0 max_size=0.484375 next=ERR5766176.369109 ETA=21.372s
+Queries=765385 size=0 max_size=0.484375 next=ERR5766176.382693 ETA=20.2s
+Queries=791912 size=0.00390625 max_size=0.484375 next=ERR5766176.395957 ETA=19.0812s
+Queries=818719 size=0 max_size=0.484375 next=ERR5766176.409360 ETA=18.4967s
+Queries=844204 size=0 max_size=0.484375 next=ERR5766176.422103 ETA=17.4094s
+Queries=869809 size=0 max_size=0.484375 next=ERR5766176.434905 ETA=16.3199s
+Queries=895659 size=0 max_size=0.484375 next=ERR5766176.447830 ETA=15.2213s
+Queries=922396 size=0 max_size=0.484375 next=ERR5766176.461199 ETA=14.078s
+Queries=948594 size=0 max_size=0.484375 next=ERR5766176.474298 ETA=12.9724s
+Queries=976590 size=0 max_size=0.484375 next=ERR5766176.488296 ETA=11.7769s
+Queries=1004710 size=0 max_size=0.484375 next=ERR5766176.502356 ETA=10.586s
+Queries=1032411 size=0 max_size=0.484375 next=ERR5766176.516206 ETA=9.42626s
+Queries=1056335 size=0 max_size=0.578125 next=ERR5766176.528168 ETA=8.65496s
+Queries=1083424 size=0 max_size=0.578125 next=ERR5766176.541713 ETA=7.50521s
+Queries=1111014 size=0 max_size=0.578125 next=ERR5766176.555508 ETA=6.33914s
+Queries=1138059 size=0 max_size=0.578125 next=ERR5766176.569030 ETA=5.20612s
+Queries=1165062 size=0.0234375 max_size=0.578125 next=ERR5766176.582532 ETA=4.08114s
+Queries=1192684 size=0 max_size=0.578125 next=ERR5766176.596343 ETA=2.93486s
+Queries=1220520 size=0 max_size=0.578125 next=ERR5766176.610261 ETA=1.78612s
+Queries=1248238 size=0.00390625 max_size=0.578125 next=ERR5766176.624120 ETA=0.6489s
+ [52.283s]
+Deallocating buffers...  [0.009s]
+Loading trace points...  [0.009s]
+ [52.743s]
+Deallocating reference...  [0.009s]
+Loading reference sequences...  [0.013s]
+Current RSS: 1.6 GB, Peak RSS: 1.6 GB
+Deallocating buffers...  [0.09s]
+Current RSS: 1.2 GB, Peak RSS: 1.6 GB
+Deallocating queries...  [0.244s]
+Loading query sequences...  [0.015s]
+Closing the input file...  [0.01s]
+Closing the output file...  [0.597s]
+Cleaning up...  [0.022s]
+Current RSS: 516.1 MB, Peak RSS: 1.6 GB
+Total time = 771.488s
+Hits (filter stage 0) = 5540816
+Hits (filter stage 1) = 335686 (6.05842 %)
+Hits (filter stage 2) = 166925 (49.7265 %)
+Hits (filter stage 3) = 68010 (40.7428 %)
+Target hits (stage 0) = 63393
+Target hits (stage 1) = 0
+Target hits (stage 2) = 63393
+Target hits (stage 3) = 63393 (0 (0%) with CBS)
+Target hits (stage 4) = 39585
+Target hits (stage 5) = 31225
+Swipe realignments    = 0
+Matrix adjusts        = 0
+Extensions (8 bit)    = 63800
+Extensions (16 bit)   = 16
+Extensions (32 bit)   = 0
+Hard queries          = 0
+Gapped filter (targets) = 0
+Gapped filter (hits) stage 1 = 0
+Gapped filter (hits) stage 2 = 0
+Time (Load seed hit targets) = 0.121899s (CPU)
+Time (Sort targets by score) = 0s (CPU)
+Time (Gapped filter)         = 0s (CPU)
+Time (Matrix adjust)         = 0.088676s (CPU)
+Time (Chaining)              = 0.287954s (CPU)
+Time (DP target sorting)     = 0s (CPU)
+Time (Smith Waterman)        = 15.3099s (CPU)
+Time (Smith Waterman TB)     = 0s (CPU)
+Time (Traceback)             = 0.331676s (CPU)
+Time (Target parallel)       = 0s (wall)
+Time (Load seed hits)        = 0.20366s (wall)
+Time (Sort seed hits)        = 0.031551s (wall)
+Time (Extension)             = 52.2773s (wall)
+Temporary disk space used (search): 0.000736591 GB
+Reported 31225 pairwise alignments, 31225 HSPs.
+24758 queries aligned.
