@@ -1,0 +1,5 @@
+Sample,obs,Kruskal
+pbmc_3k_scanpy_X_pca,X_pca,-1
+pbmc_3k_scanpy_X_tsne,X_tsne,-1
+pbmc_3k_scanpy_X_umap,X_umap,-1
+pbmc_3k_scanpy_X_draw_graph_fr,X_draw_graph_fr,-1
