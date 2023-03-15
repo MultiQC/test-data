@@ -1,0 +1,33 @@
+COVERAGE SUMMARY,,Aligned bases,1409473188
+COVERAGE SUMMARY,,Aligned bases in target bed,3743141724,39.15
+COVERAGE SUMMARY,,Average alignment coverage over target bed,71.35
+COVERAGE SUMMARY,,Uniformity of coverage (PCT > 0.2*mean) over target bed,89.72
+COVERAGE SUMMARY,,PCT of target bed with coverage [1500x: inf),0.008
+COVERAGE SUMMARY,,PCT of target bed with coverage [1000x: inf),0.011
+COVERAGE SUMMARY,,PCT of target bed with coverage [ 500x: inf),0.024
+COVERAGE SUMMARY,,PCT of target bed with coverage [ 100x: inf),0.031
+COVERAGE SUMMARY,,PCT of target bed with coverage [  50x: inf),4.87
+COVERAGE SUMMARY,,PCT of target bed with coverage [  20x: inf),56.46
+COVERAGE SUMMARY,,PCT of target bed with coverage [  15x: inf),68.84
+COVERAGE SUMMARY,,PCT of target bed with coverage [  10x: inf),71.14
+COVERAGE SUMMARY,,PCT of target bed with coverage [   3x: inf),82.54
+COVERAGE SUMMARY,,PCT of target bed with coverage [   1x: inf),92.04
+COVERAGE SUMMARY,,PCT of target bed with coverage [   0x: inf),100.00
+COVERAGE SUMMARY,,PCT of target bed with coverage [1000x:1500x),0.0
+COVERAGE SUMMARY,,PCT of target bed with coverage [ 500x:1000x),0.0005
+COVERAGE SUMMARY,,PCT of target bed with coverage [ 100x: 500x),0.0003
+COVERAGE SUMMARY,,PCT of target bed with coverage [  50x: 100x),0.57
+COVERAGE SUMMARY,,PCT of target bed with coverage [  20x:  50x),0.89
+COVERAGE SUMMARY,,PCT of target bed with coverage [  15x:  20x),0.6
+COVERAGE SUMMARY,,PCT of target bed with coverage [  10x:  15x),0.82
+COVERAGE SUMMARY,,PCT of target bed with coverage [   3x:  10x),0.69
+COVERAGE SUMMARY,,PCT of target bed with coverage [   1x:   3x),0.12
+COVERAGE SUMMARY,,PCT of target bed with coverage [   0x:   1x),0.009
+COVERAGE SUMMARY,,Average chr X coverage over target bed,94.17
+COVERAGE SUMMARY,,Average chr Y coverage over target bed,111.82
+COVERAGE SUMMARY,,Average mitochondrial coverage over target bed,48.9
+COVERAGE SUMMARY,,Average autosomal coverage over target bed,97.18
+COVERAGE SUMMARY,,Median autosomal coverage over target bed,74.25
+COVERAGE SUMMARY,,Mean/Median autosomal coverage ratio over target bed,9.99
+COVERAGE SUMMARY,,Aligned reads,2195136231
+COVERAGE SUMMARY,,Aligned reads in target bed,1017893205,18.26
