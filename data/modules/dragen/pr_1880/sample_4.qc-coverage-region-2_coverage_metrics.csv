@@ -1,0 +1,33 @@
+COVERAGE SUMMARY,,Aligned bases,3853219648
+COVERAGE SUMMARY,,Aligned bases in QC coverage region,2683707941,1.56
+COVERAGE SUMMARY,,Average alignment coverage over QC coverage region,55.09
+COVERAGE SUMMARY,,Uniformity of coverage (PCT > 0.2*mean) over QC coverage region,96.52
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [1500x: inf),0.008
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [1000x: inf),0.01
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [ 500x: inf),0.02
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [ 100x: inf),0.031
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [  50x: inf),4.68
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [  20x: inf),52.33
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [  15x: inf),68.32
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [  10x: inf),70.94
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [   3x: inf),80.64
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [   1x: inf),90.91
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [   0x: inf),100.00
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [1000x:1500x),0.0004
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [ 500x:1000x),0.0001
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [ 100x: 500x),0.0004
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [  50x: 100x),0.84
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [  20x:  50x),0.54
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [  15x:  20x),0.92
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [  10x:  15x),0.57
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [   3x:  10x),0.28
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [   1x:   3x),0.15
+COVERAGE SUMMARY,,PCT of QC coverage region with coverage [   0x:   1x),0.006
+COVERAGE SUMMARY,,Average chr X coverage over QC coverage region,103.94
+COVERAGE SUMMARY,,Average chr Y coverage over QC coverage region,64.06
+COVERAGE SUMMARY,,Average mitochondrial coverage over QC coverage region,58.8
+COVERAGE SUMMARY,,Average autosomal coverage over QC coverage region,16.97
+COVERAGE SUMMARY,,Median autosomal coverage over QC coverage region,3.9
+COVERAGE SUMMARY,,Mean/Median autosomal coverage ratio over QC coverage region,46.99
+COVERAGE SUMMARY,,Aligned reads,1323815766
+COVERAGE SUMMARY,,Aligned reads in QC coverage region,1062307371,64.25

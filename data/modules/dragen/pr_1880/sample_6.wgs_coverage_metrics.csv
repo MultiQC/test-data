@@ -1,0 +1,33 @@
+COVERAGE SUMMARY,,Aligned bases,2648028091
+COVERAGE SUMMARY,,Aligned bases in genome,1678728515,93.95
+COVERAGE SUMMARY,,Average alignment coverage over genome,32.78
+COVERAGE SUMMARY,,Uniformity of coverage (PCT > 0.2*mean) over genome,31.66
+COVERAGE SUMMARY,,PCT of genome with coverage [1500x: inf),0.007
+COVERAGE SUMMARY,,PCT of genome with coverage [1000x: inf),0.015
+COVERAGE SUMMARY,,PCT of genome with coverage [ 500x: inf),0.022
+COVERAGE SUMMARY,,PCT of genome with coverage [ 100x: inf),0.038
+COVERAGE SUMMARY,,PCT of genome with coverage [  50x: inf),4.6
+COVERAGE SUMMARY,,PCT of genome with coverage [  20x: inf),59.68
+COVERAGE SUMMARY,,PCT of genome with coverage [  15x: inf),61.56
+COVERAGE SUMMARY,,PCT of genome with coverage [  10x: inf),76.49
+COVERAGE SUMMARY,,PCT of genome with coverage [   3x: inf),84.41
+COVERAGE SUMMARY,,PCT of genome with coverage [   1x: inf),92.87
+COVERAGE SUMMARY,,PCT of genome with coverage [   0x: inf),100.00
+COVERAGE SUMMARY,,PCT of genome with coverage [1000x:1500x),0.0008
+COVERAGE SUMMARY,,PCT of genome with coverage [ 500x:1000x),0.0002
+COVERAGE SUMMARY,,PCT of genome with coverage [ 100x: 500x),0.001
+COVERAGE SUMMARY,,PCT of genome with coverage [  50x: 100x),0.44
+COVERAGE SUMMARY,,PCT of genome with coverage [  20x:  50x),0.42
+COVERAGE SUMMARY,,PCT of genome with coverage [  15x:  20x),0.94
+COVERAGE SUMMARY,,PCT of genome with coverage [  10x:  15x),0.41
+COVERAGE SUMMARY,,PCT of genome with coverage [   3x:  10x),0.35
+COVERAGE SUMMARY,,PCT of genome with coverage [   1x:   3x),0.1
+COVERAGE SUMMARY,,PCT of genome with coverage [   0x:   1x),0.006
+COVERAGE SUMMARY,,Average chr X coverage over genome,74.77
+COVERAGE SUMMARY,,Average chr Y coverage over genome,56.21
+COVERAGE SUMMARY,,Average mitochondrial coverage over genome,16.0
+COVERAGE SUMMARY,,Average autosomal coverage over genome,99.85
+COVERAGE SUMMARY,,Median autosomal coverage over genome,41.49
+COVERAGE SUMMARY,,Mean/Median autosomal coverage ratio over genome,91.13
+COVERAGE SUMMARY,,Aligned reads,3681274780
+COVERAGE SUMMARY,,Aligned reads in genome,2815829089,51.11
