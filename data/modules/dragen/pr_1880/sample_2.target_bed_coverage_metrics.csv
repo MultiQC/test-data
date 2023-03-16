@@ -1,0 +1,33 @@
+COVERAGE SUMMARY,,Aligned bases,1330187585
+COVERAGE SUMMARY,,Aligned bases in target region,3035251214,92.25
+COVERAGE SUMMARY,,Average alignment coverage over target region,24.89
+COVERAGE SUMMARY,,Uniformity of coverage (PCT > 0.2*mean) over target region,91.28
+COVERAGE SUMMARY,,PCT of target region with coverage [1500x: inf),0.003
+COVERAGE SUMMARY,,PCT of target region with coverage [1000x: inf),0.015
+COVERAGE SUMMARY,,PCT of target region with coverage [ 500x: inf),0.024
+COVERAGE SUMMARY,,PCT of target region with coverage [ 100x: inf),0.037
+COVERAGE SUMMARY,,PCT of target region with coverage [  50x: inf),4.63
+COVERAGE SUMMARY,,PCT of target region with coverage [  20x: inf),54.01
+COVERAGE SUMMARY,,PCT of target region with coverage [  15x: inf),61.54
+COVERAGE SUMMARY,,PCT of target region with coverage [  10x: inf),72.72
+COVERAGE SUMMARY,,PCT of target region with coverage [   3x: inf),80.85
+COVERAGE SUMMARY,,PCT of target region with coverage [   1x: inf),90.55
+COVERAGE SUMMARY,,PCT of target region with coverage [   0x: inf),100.00
+COVERAGE SUMMARY,,PCT of target region with coverage [1000x:1500x),0.0001
+COVERAGE SUMMARY,,PCT of target region with coverage [ 500x:1000x),0.0007
+COVERAGE SUMMARY,,PCT of target region with coverage [ 100x: 500x),0.0003
+COVERAGE SUMMARY,,PCT of target region with coverage [  50x: 100x),0.81
+COVERAGE SUMMARY,,PCT of target region with coverage [  20x:  50x),0.94
+COVERAGE SUMMARY,,PCT of target region with coverage [  15x:  20x),0.84
+COVERAGE SUMMARY,,PCT of target region with coverage [  10x:  15x),0.71
+COVERAGE SUMMARY,,PCT of target region with coverage [   3x:  10x),0.5
+COVERAGE SUMMARY,,PCT of target region with coverage [   1x:   3x),0.17
+COVERAGE SUMMARY,,PCT of target region with coverage [   0x:   1x),0.009
+COVERAGE SUMMARY,,Average chr X coverage over target region,93.65
+COVERAGE SUMMARY,,Average chr Y coverage over target region,116.34
+COVERAGE SUMMARY,,Average mitochondrial coverage over target region,84.7
+COVERAGE SUMMARY,,Average autosomal coverage over target region,85.0
+COVERAGE SUMMARY,,Median autosomal coverage over target region,32.57
+COVERAGE SUMMARY,,Mean/Median autosomal coverage ratio over target region,12.6
+COVERAGE SUMMARY,,Aligned reads,1970006929
+COVERAGE SUMMARY,,Aligned reads in target region,2449555604,71.39
