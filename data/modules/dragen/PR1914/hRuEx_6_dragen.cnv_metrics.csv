@@ -1,0 +1,15 @@
+SEX GENOTYPER,,hRuEx_6,XX,0.4883
+CNV SUMMARY,,Bases in reference genome,3168627941
+CNV SUMMARY,,Average alignment coverage over genome,0.34
+CNV SUMMARY,,Number of alignment records,3881565611
+CNV SUMMARY,,Number of filtered records (total),327088361,0.87
+CNV SUMMARY,,Number of filtered records (duplicates),20621,0.04
+CNV SUMMARY,,Number of filtered records (MAPQ),371389810,0.85
+CNV SUMMARY,,Number of filtered records (unmapped),340918862,0.54
+CNV SUMMARY,,Coverage uniformity,0.99
+CNV SUMMARY,,Number of target intervals,1815
+CNV SUMMARY,,Number of segments,28022
+CNV SUMMARY,,Number of amplifications,30657
+CNV SUMMARY,,Number of deletions,89303
+CNV SUMMARY,,Number of passing amplifications,40000,0.18
+CNV SUMMARY,,Number of passing deletions,311814,0.4
