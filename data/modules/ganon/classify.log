@@ -1,0 +1,52 @@
+INFO:    Environment variable SINGULARITYENV_NXF_DEBUG is set, but APPTAINERENV_NXF_DEBUG is preferred
+- - - - - - - - - -
+   _  _  _  _  _   
+  (_|(_|| |(_)| |  
+   _|   v. 1.5.1
+- - - - - - - - - -
+Classifying reads
+----------------------------------------------------------------------
+--paired-reads        
+                      ERX5474932_ERR5766176_1.fastq.gz
+                      ERX5474932_ERR5766176_2.fastq.gz
+--output-prefix       2612_pe_ERR5766176_db1.ganon
+--output-lca          1
+--output-all          1
+--output-unclassified 1
+--output-single       0
+--hibf                0
+--threads             2
+--n-batches           1000
+--n-reads             400
+--verbose             1
+--quiet               0
+----------------------------------------------------------------------
+H1
+--rel-filter 0
+    ./meslier2022_ganon/ganon.ibf, ./meslier2022_ganon/ganon.tax --rel-cutoff 0.1
+    Output files: 2612_pe_ERR5766176_db1.ganon.rep, 2612_pe_ERR5766176_db1.ganon.lca, 2612_pe_ERR5766176_db1.ganon.all
+----------------------------------------------------------------------
+
+ganon-classify    start time: Mon Jun 12 08:54:16 2023
+loading filters      elapsed: 0.0492417 seconds
+classifying+printing elapsed: 5.52765 seconds
+ganon-classify       elapsed: 5.58071 seconds
+ganon-classify      end time: Mon Jun 12 08:54:22 2023
+
+ganon-classify processed 632060 sequences (190.882 Mbp) in 5.52765 seconds (2071.93 Mbp/m)
+ - 457530 reads classified (72.3871%)
+   - 295091 with unique matches (46.6872%)
+   - 162439 with multiple matches (25.6999%)
+ - 710566 matches (avg. 1.55305 match/read classified)
+ - 174530 reads unclassified (27.6129%)
+- - - - - - - - - -
+Generating report(s)
+
+Total valid files: 1
+
+ - 269 entries removed not in --ranks [superkingdom,phylum,class,order,family,genus,species,assembly]
+ - 14 entries removed with --min-count 0.0001
+ - 308 entries reported
+ - report saved to 2612_pe_ERR5766176_db1.ganon.tre
+
+Total elapsed time: 5.61 seconds.
