@@ -1,0 +1,3 @@
+Sample	obs	davies_bouldin
+pbmc3k_seurat_RNA_snn_res.0.5	RNA_snn_res.0.5	44.53439022535138
+pbmc3k_seurat_seurat_clusters	seurat_clusters	44.53439022535138

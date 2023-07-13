@@ -1,0 +1,2 @@
+Atlas_name,Atlas_type,Atlas_extension,Atlas_path
+pbmc3k_cellranger,Cellranger >= v3,.h5,/home/becavin/checkatlas/tests/data/pbmc3k_cellranger/outs/filtered_feature_bc_matrix.h5

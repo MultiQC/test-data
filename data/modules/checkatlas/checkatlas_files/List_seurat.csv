@@ -1,0 +1,2 @@
+Atlas_name,Atlas_type,Atlas_extension,Atlas_path
+pbmc3k_seurat,Seurat,.rds,/home/becavin/checkatlas/tests/data/pbmc3k_seurat.rds

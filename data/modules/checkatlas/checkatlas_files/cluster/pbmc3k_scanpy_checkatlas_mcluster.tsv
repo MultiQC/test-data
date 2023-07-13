@@ -1,0 +1,3 @@
+Sample	obs	davies_bouldin
+pbmc3k_scanpy_leiden	leiden	0.5400363055271881
+pbmc3k_scanpy_louvain	louvain	0.485008606862351

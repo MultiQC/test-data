@@ -1,2 +1,0 @@
-obs,obsm,var,varm,uns
-<code>n_genes</code><br><code>percent_mito</code><br><code>n_counts</code><br><code>louvain</code>,<code>X_pca</code><br><code>X_tsne</code><br><code>X_umap</code><br><code>X_draw_graph_fr</code>,<code>n_cells</code>,<code>PCs</code>,<code>draw_graph</code><br><code>louvain</code><br><code>louvain_colors</code><br><code>neighbors</code><br><code>pca</code><br><code>rank_genes_groups</code>
