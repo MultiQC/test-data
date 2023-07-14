@@ -1,0 +1,34 @@
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head></head>
+            <body>
+            <div class="tab">
+  <button class="reductions_tablinks active" onclick="openPNG(event, 'reductions_pbmc3k_scanpy_umap_mqc',
+                            'reductions_tablinks','reductions_tabcontent')">pbmc3k_scanpy_umap_mqc</button>
+  <button class="reductions_tablinks" onclick="openPNG(event, 'reductions_pbmc3k_seurat_umap_mqc',
+                            'reductions_tablinks','reductions_tabcontent')">pbmc3k_seurat_umap_mqc</button>
+</div><div id="reductions_pbmc3k_scanpy_umap_mqc" class="reductions_tabcontent" style ="display: block;"><img src="pbmc3k_scanpy_umap_mqc.png" >
+</div>
+<div id="reductions_pbmc3k_seurat_umap_mqc" class="reductions_tabcontent" style ="display: none;"><img src="pbmc3k_seurat_umap_mqc.png" >
+</div>
+
+<script>
+function openPNG(evt, pngName, tablinks_id, tabcontent_id) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName(tabcontent_id);
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName(tablinks_id);
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(pngName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+        </body>
+        </html>
+        

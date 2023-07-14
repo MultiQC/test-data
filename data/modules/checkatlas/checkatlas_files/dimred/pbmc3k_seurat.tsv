@@ -1,0 +1,4 @@
+Dimred_Sample	obsm
+pbmc3k_seurat_pca	pca
+pbmc3k_seurat_umap	umap
+pbmc3k_seurat_tsne	tsne
