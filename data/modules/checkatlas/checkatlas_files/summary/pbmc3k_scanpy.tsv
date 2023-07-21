@@ -1,2 +1,0 @@
-AtlasFileType	NbCells	NbGenes	AnnData.raw	AnnData.X	File_extension	File_path
-AnnData	100	999	True	True	pbmc3k_scanpy	/home/becavin/checkatlas/tests/data/pbmc3k_scanpy.h5ad

@@ -1,0 +1,5 @@
+Dimred_Sample	obsm
+pbmc_3k_scanpy_X_pca	X_pca
+pbmc_3k_scanpy_X_tsne	X_tsne
+pbmc_3k_scanpy_X_umap	X_umap
+pbmc_3k_scanpy_X_draw_graph_fr	X_draw_graph_fr

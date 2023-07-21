@@ -1,2 +1,0 @@
-AtlasFileType	NbCells	NbGenes	AnnData.raw	AnnData.X	File_extension	File_path
-Cellranger >= v3	5025	33538	False	True	pbmc3k_cellranger	/home/becavin/checkatlas/tests/data/pbmc3k_cellranger/outs/filtered_feature_bc_matrix.h5

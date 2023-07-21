@@ -1,2 +1,0 @@
-AtlasFileType	NbCells	NbGenes	AnnData.raw	AnnData.X	File_extension	File_path
-Seurat	1000	1000	False	True	.rds	/home/becavin/checkatlas/tests/data/pbmc3k_seurat.rds

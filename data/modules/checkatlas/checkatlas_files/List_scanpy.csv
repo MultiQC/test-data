@@ -1,2 +1,2 @@
 Atlas_name,Atlas_type,Atlas_extension,Atlas_path
-pbmc3k_scanpy,AnnData,.h5ad,/home/becavin/checkatlas/tests/data/pbmc3k_scanpy.h5ad
+pbmc_3k_scanpy,AnnData,.h5ad,/data/analysis/data_becavin/checkatlas_test/tuto/data3/pbmc_3k_scanpy.h5ad
