@@ -1,2 +1,0 @@
-obs,obsm,var,varm,uns
-<code>orig.ident</code><br><code>nCount_RNA</code><br><code>nFeature_RNA</code><br><code>percent.mt</code><br><code>RNA_snn_res.0.5</code><br><code>seurat_clusters</code>,<code>X_pca</code><br><code>X_umap</code>,<code>mean</code><br><code>variance</code><br><code>variance.expected</code><br><code>variance.standardized</code>,<code>PCs</code>,<code>neighbors</code>

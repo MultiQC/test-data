@@ -1,2 +1,0 @@
-AtlasFileType,NbCells,NbGenes,AnnData.raw,AnnData.X,File_extension,File_path
-Cellranger,5025,33538,False,True,.h5,pbmc_3k_cellranger/outs/filtered_feature_bc_matrix.h5
