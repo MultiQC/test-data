@@ -9,5 +9,5 @@ multiqc Cloudbreak-DVT-human-wgs-2x150/ --filename Cloudbreak-DVT-human-wgs-2x15
 multiqc Cloudbreak-DVT-human-rnaseq-2x75/ --filename Cloudbreak-DVT-human-rnaseq-2x75 --force
 
  Cloudbreak-DVT-ecoli-wgs-2x150/ - contains a 96plex of Ecoli WGS lirbaries, sequenced on a single AVITI run, 1 run total.
- Cloudbreak-DVT-human-wgs-2x150/ - contains a 2plex of Human WGS lirbaries, sequenced on a single AVITI run, 10 runs total.
+ Cloudbreak-DVT-human-wgs-2x150/ - contains a 2plex of Human WGS lirbaries, sequenced on a single AVITI run, 2 runs total.
  Cloudbreak-DVT-human-rnaseq-2x75/ - contains a 16plex of Human RNASEQ lirbaries, sequenced on a single AVITI run, 10 runs total.
