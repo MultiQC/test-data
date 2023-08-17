@@ -1,0 +1,2 @@
+File	f+l-	f-l+	f-l-	f+l+	Reads per template	Endedness
+test.bam	2716278	2716278	0	0	2.0	Paired-End
