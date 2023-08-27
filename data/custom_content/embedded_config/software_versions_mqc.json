@@ -1,0 +1,6 @@
+{
+  "id": "ngi-rnaseq",
+  "section_name": "NGI-RNAseq Software Versions",
+  "plot_type": "html",
+  "data": "<dl class=dl-horizontal>\n  <dt><code>bismark_genome_preparation</code></dt><dd>0.18.2</dd>\n  <dt>FastQC</dt><dd>0.11.5</dd>\n  <dt>Trim Galore!</dt><dd>0.4.4</dd>\n  <dt><code>bismark</code></dt><dd>0.18.2</dd>\n  <dt><code>bismark_deduplicate</code></dt><dd>0.18.2</dd>\n  <dt><code>bismark_methylation_extractor</code></dt><dd><span class=text-muted>0.18.2</a></dd>\n  <dt><code>bismark_report</code></dt><dd><span class=text-muted>0.18.2</a></dd>\n  <dt><code>bismark_summary</code></dt><dd><span class=text-muted>0.18.2</a></dd>\n  <dt>Qualimap</dt><dd><span class=text-muted>2.2.1</a></dd>\n</dl>"
+}
