@@ -1,0 +1,2 @@
+File	f+l-	f-l+	f-l-	f+l+	Endedness
+test2.bam	1467368	1467367	0	0	Unknown
