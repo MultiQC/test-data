@@ -1,0 +1,15 @@
+SEX GENOTYPER,,atfQyN_4144,XX,0.3914
+CNV SUMMARY,,Bases in reference genome,3907457211
+CNV SUMMARY,,Average alignment coverage over genome,0.7
+CNV SUMMARY,,Number of alignment records,3778076120
+CNV SUMMARY,,Number of filtered records (total),325332333,0.95
+CNV SUMMARY,,Number of filtered records (duplicates),31925,0.02
+CNV SUMMARY,,Number of filtered records (MAPQ),338832227,0.98
+CNV SUMMARY,,Number of filtered records (unmapped),362035172,0.32
+CNV SUMMARY,,Coverage uniformity,0.83
+CNV SUMMARY,,Number of target intervals,6252
+CNV SUMMARY,,Number of segments,10697
+CNV SUMMARY,,Number of amplifications,4915
+CNV SUMMARY,,Number of deletions,306601
+CNV SUMMARY,,Number of passing amplifications,36691,0.78
+CNV SUMMARY,,Number of passing deletions,378533,0.62

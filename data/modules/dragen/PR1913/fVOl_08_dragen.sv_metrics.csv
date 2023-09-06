@@ -1,0 +1,10 @@
+SV SUMMARY,fVOl_08,Total number of structural variants (PASS),14298
+SV SUMMARY,fVOl_08,Number of deletions (PASS),6989,48.88
+SV SUMMARY,fVOl_08,Number of insertions (PASS),5976,41.79
+SV SUMMARY,fVOl_08,Number of duplications (PASS),39,0.27
+SV SUMMARY,fVOl_08,Number of breakend pairs (PASS),1294,9.05
+SV SUMMARY,W_589,Total number of structural variants (PASS),14294
+SV SUMMARY,W_589,Number of deletions (PASS),6995,48.93
+SV SUMMARY,W_589,Number of insertions (PASS),6361,44.50
+SV SUMMARY,W_589,Number of duplications (PASS),38,0.26
+SV SUMMARY,W_589,Number of breakend pairs (PASS),900,6.29
