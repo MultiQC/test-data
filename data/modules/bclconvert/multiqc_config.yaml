@@ -1,0 +1,13 @@
+# Some inputs are incompatible. Splitting module run into groups for integration tests
+# to make sure it runs without errors.
+module_order:
+  - bclconvert:
+      name: 'bclconvert (28 cycles)'
+      info: 'bclconvert (28 cycles)'
+      path_filters:
+          - '*/3.9.3/*'
+  - bclconvert:
+      name: 'bclconvert (151 cycle)'
+      info: 'bclconvert (151 cycle)'
+      path_filters_exclude:
+          - '*/3.9.3/*'
