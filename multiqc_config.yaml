@@ -11,3 +11,13 @@ module_order:
       info: 'bclconvert (151 cycle)'
       path_filters_exclude:
           - '*/3.9.3/*'
+  - preseq:
+      name: 'Preseq (bases)'
+      info: 'Preseq from base count inputs'
+      path_filters:
+          - '*gc_extrap/preseq_sample_9.txt'
+  - preseq:
+      name: 'Preseq (reads)'
+      info: 'Preseq from read count inputs'
+      path_filters_exclude:
+          - '*gc_extrap/preseq_sample_9.txt'
