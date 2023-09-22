@@ -1,0 +1,11 @@
+custom_data:
+    customtab:
+        file_format: 'tsv'
+        section_name: 'Custom Data'
+        plot_type: 'linegraph'
+        pconfig:
+            id: 'custom_linegraph'
+            title: 'Custom Data Linegraph'
+sp:
+    customtab:
+        fn: 'testfile.tsv'

@@ -9,4 +9,4 @@ multiqc_plots
 # Needed for unit-tests
 __pycache__/
 *.pyc
-
+.idea

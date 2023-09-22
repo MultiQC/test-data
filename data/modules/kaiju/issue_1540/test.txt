@@ -1,0 +1,6 @@
+file	percent	reads	taxon_id	taxon_name
+NGS_0397_quality_analysis/20666_S4_kaiju_v.out	0.000591	1	195	Campylobacter coli
+NGS_0397_quality_analysis/20666_S4_kaiju_v.out	0.000591	1	470	Acinetobacter baumannii
+NGS_0397_quality_analysis/20666_S4_kaiju_v.out	98.592234	166892	10239	Viruses
+NGS_0397_quality_analysis/20666_S4_kaiju_v.out	0.000591	1	0	cannot be assigned to a (non-viral) taxon_name
+NGS_0397_quality_analysis/20666_S4_kaiju_v.out	1.405996	2380	0	unclassified

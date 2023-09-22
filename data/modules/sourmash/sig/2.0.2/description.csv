@@ -1,0 +1,3 @@
+signature_file,md5,ksize,moltype,num,scaled,n_hashes,seed,with_abundance,name,filename,license
+short.fa.sig,e45a080101751e044d6df861d3d0f3fd,21,protein,500,0,500,42,0,../tests/test-data/short.fa,../tests/test-data/short.fa,CC0
+short2.fa.sig,3fe60397515b18380125dfcdb9badf0e,21,protein,500,0,500,42,0,../tests/test-data/short2.fa,../tests/test-data/short2.fa,CC0

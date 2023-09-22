@@ -1,0 +1,358 @@
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq*.finaltrim_forward_paired.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 0 reads, 0 reads pseudoaligned
+[~warn] no reads pseudoaligned.
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[~warn] Warning, zero reads pseudoaligned check your input files and index
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq1.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 268,847 reads, 6,254 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq10.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 497,666 reads, 67,786 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq17.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 216,592 reads, 5,224 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq23.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 187,414 reads, 5,261 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq24.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 262,326 reads, 86,616 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq25.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 525,146 reads, 23,276 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq26.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 354,916 reads, 26,688 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq31.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 184,684 reads, 3,147 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq36.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 258,350 reads, 8,542 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq4.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 267,299 reads, 17,410 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq44.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 667,250 reads, 30,502 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq46.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 5,109,272 reads, 285,880 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq5.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,417,562 reads, 107,795 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq50.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 3,897,784 reads, 1,185,566 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq55.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 510,068 reads, 96,266 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq6.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 9,316,091 reads, 607,972 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq63.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1,214,057 reads, 31,505 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq74.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 4,113,171 reads, 297,081 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq77.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 403,121 reads, 17,020 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq80.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 733,583 reads, 25,451 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq86.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 889,061 reads, 45,982 reads pseudoaligned
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq89.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 0 reads, 0 reads pseudoaligned
+[~warn] no reads pseudoaligned.
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[~warn] Warning, zero reads pseudoaligned check your input files and index
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq9.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 0 reads, 0 reads pseudoaligned
+[~warn] no reads pseudoaligned.
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[~warn] Warning, zero reads pseudoaligned check your input files and index
+[  bam] writing pseudoalignments to BAM format .. done
+
+
+[quant] fragment length distribution is truncated gaussian with mean = 200, sd = 20
+[index] k-mer length: 21
+[index] number of targets: 1
+[index] number of k-mers: 81,367,107
+[index] number of equivalence classes: 1
+[quant] running in single-end mode
+[quant] will process file 1: /scratch/thoffme3/Dcor/Dcor-1_Celseq96.finaltrim_forward_paired_umiext.fq.list.fixedlist.sequences_pullseq.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 0 reads, 0 reads pseudoaligned
+[~warn] no reads pseudoaligned.
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[~warn] Warning, zero reads pseudoaligned check your input files and index
+[  bam] writing pseudoalignments to BAM format .. done
+
