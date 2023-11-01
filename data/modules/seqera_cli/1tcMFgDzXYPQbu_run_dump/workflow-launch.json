@@ -1,0 +1,70 @@
+{
+  "id" : "bw2esJRdG0UqSR6zh9X7o",
+  "computeEnv" : {
+    "id" : "7VHZkCiA95sVRAxnkjdb1D",
+    "name" : "deleted-14104983912783154",
+    "platform" : "aws-batch",
+    "config" : {
+      "region" : "eu-west-1",
+      "computeQueue" : "TowerForge-7VHZkCiA95sVRAxnkjdb1D",
+      "executionRole" : "arn:aws:iam::128997144437:role/TowerForge-7VHZkCiA95sVRAxnkjdb1D-ExecutionRole",
+      "headQueue" : "TowerForge-7VHZkCiA95sVRAxnkjdb1D",
+      "volumes" : [ ],
+      "workDir" : "s3://scidev-eu-west-1",
+      "environment" : [ ],
+      "waveEnabled" : true,
+      "fusion2Enabled" : true,
+      "nvnmeStorageEnabled" : true,
+      "forge" : {
+        "type" : "EC2",
+        "minCpus" : 0,
+        "maxCpus" : 500,
+        "gpuEnabled" : false,
+        "instanceTypes" : [ "c6id", "m6id", "r6id" ],
+        "subnets" : [ ],
+        "securityGroups" : [ ],
+        "disposeOnDeletion" : true,
+        "allowBuckets" : [ "s3://ngi-igenomes", "s3://nf-core-awsmegatests", "s3://scidev-eu-west-1" ],
+        "efsCreate" : false,
+        "dragenEnabled" : false,
+        "ebsBootSize" : 100
+      },
+      "forgedResources" : [ {
+        "IamRole" : "arn:aws:iam::128997144437:role/TowerForge-7VHZkCiA95sVRAxnkjdb1D-ServiceRole"
+      }, {
+        "IamRole" : "arn:aws:iam::128997144437:role/TowerForge-7VHZkCiA95sVRAxnkjdb1D-ExecutionRole"
+      }, {
+        "IamInstanceProfile" : "arn:aws:iam::128997144437:instance-profile/TowerForge-7VHZkCiA95sVRAxnkjdb1D-InstanceRole"
+      }, {
+        "Ec2LaunchTemplate" : "TowerForge-7VHZkCiA95sVRAxnkjdb1D"
+      }, {
+        "BatchEnv" : "arn:aws:batch:eu-west-1:128997144437:compute-environment/TowerForge-7VHZkCiA95sVRAxnkjdb1D"
+      }, {
+        "BatchQueue" : "arn:aws:batch:eu-west-1:128997144437:job-queue/TowerForge-7VHZkCiA95sVRAxnkjdb1D"
+      } ],
+      "discriminator" : "aws-batch"
+    },
+    "dateCreated" : "2023-10-12T01:23:40Z",
+    "lastUpdated" : "2023-10-12T13:23:56Z",
+    "lastUsed" : "2023-10-12T01:24:10Z",
+    "deleted" : true,
+    "status" : "INVALID",
+    "message" : "Compute environment has been deleted",
+    "credentialsId" : "6ZrVbCDYtPStsv4vYDwbkl",
+    "orgId" : 88848180287559,
+    "workspaceId" : 70508760960023
+  },
+  "pipeline" : "https://github.com/nf-core/rnaseq",
+  "workDir" : "s3://scidev-eu-west-1",
+  "revision" : "3.12.0",
+  "configText" : "process {\n  withName: 'NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_INDEX' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:BAM_SORT_STATS_SAMTOOLS:SAMTOOLS_SORT' {\n    cpus = { 6 * task.attempt }\n    memory = { 6.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:ALIGN_STAR:STAR_ALIGN_IGENOMES' {\n    cpus = { 7 * task.attempt }\n    memory = { 36.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_FLAGSTAT' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_IDXSTATS' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:BAM_STATS_SAMTOOLS:SAMTOOLS_STATS' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:PICARD_MARKDUPLICATES' {\n    cpus = { 2 * task.attempt }\n    memory = { 30.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_MARKDUPLICATES_PICARD:SAMTOOLS_INDEX' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_BAMSTAT' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_INFEREXPERIMENT' {\n    cpus = { 4 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_INNERDISTANCE' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONANNOTATION' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_JUNCTIONSATURATION' {\n    cpus = { 2 * task.attempt }\n    memory = { 3.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_READDISTRIBUTION' {\n    cpus = { 2 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BAM_RSEQC:RSEQC_READDUPLICATION' {\n    cpus = { 2 * task.attempt }\n    memory = { 33.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDCLIP' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_FORWARD:UCSC_BEDGRAPHTOBIGWIG' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDCLIP' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BEDGRAPH_BEDCLIP_BEDGRAPHTOBIGWIG_REVERSE:UCSC_BEDGRAPHTOBIGWIG' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:BEDTOOLS_GENOMECOV' {\n    cpus = { 2 * task.attempt }\n    memory = { 16.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:CUSTOM_DUMPSOFTWAREVERSIONS' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:DESEQ2_QC_SALMON' {\n    cpus = { 5 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:DESEQ2_QC_STAR_SALMON' {\n    cpus = { 6 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:DUPRADAR' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:FASTQC' {\n    cpus = { 3 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:FASTQ_FASTQC_UMITOOLS_TRIMGALORE:TRIMGALORE' {\n    cpus = { 8 * task.attempt }\n    memory = { 7.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:INPUT_CHECK:SAMPLESHEET_CHECK' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:MULTIQC' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:MULTIQC_CUSTOM_BIOTYPE' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:PREPARE_GENOME:CUSTOM_GETCHROMSIZES' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:PREPARE_GENOME:GTF_GENE_FILTER' {\n    cpus = { 1 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:PREPARE_GENOME:MAKE_TRANSCRIPTS_FASTA' {\n    cpus = { 1 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:PREPARE_GENOME:SALMON_INDEX' {\n    cpus = { 5 * task.attempt }\n    memory = { 19.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUALIMAP_RNASEQ' {\n    cpus = { 1 * task.attempt }\n    memory = { 11.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_SALMON:SALMON_QUANT' {\n    cpus = { 7 * task.attempt }\n    memory = { 18.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_SALMON:SALMON_SE_GENE' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_SALMON:SALMON_SE_GENE_LENGTH_SCALED' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_SALMON:SALMON_SE_GENE_SCALED' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_SALMON:SALMON_SE_TRANSCRIPT' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_SALMON:SALMON_TX2GENE' {\n    cpus = { 1 * task.attempt }\n    memory = { 8.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_SALMON:SALMON_TXIMPORT' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SALMON_QUANT' {\n    cpus = { 6 * task.attempt }\n    memory = { 7.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SALMON_SE_GENE' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SALMON_SE_GENE_LENGTH_SCALED' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SALMON_SE_GENE_SCALED' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SALMON_SE_TRANSCRIPT' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SALMON_TX2GENE' {\n    cpus = { 1 * task.attempt }\n    memory = { 8.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:QUANTIFY_STAR_SALMON:SALMON_TXIMPORT' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:STRINGTIE_STRINGTIE' {\n    cpus = { 2 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_RNASEQ:RNASEQ:SUBREAD_FEATURECOUNTS' {\n    cpus = { 4 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  errorStrategy = 'retry'\n  maxRetries = 2\n  scratch = false\n}\n",
+  "paramsText" : "{\"outdir\": \"s3://scidev-eu-west-1/projects/fusion_benchmarking/fusionv2_groundswell-nf-core_rnaseq-2-a338e5f34b2c43f4bdf65f1a4282b21e/\"}",
+  "preRunScript" : "export NXF_VER=23.04.4",
+  "resume" : false,
+  "pullLatest" : false,
+  "stubRun" : false,
+  "runName" : "aws-fusionv2_groundswell-nf-core_rnaseq-2-a338e5f34b2c43f4bdf65f1a4282b21e",
+  "configProfiles" : [ "test_full" ],
+  "dateCreated" : "2023-10-12T01:24:04Z",
+  "lastUpdated" : "2023-10-12T01:24:10Z"
+}
