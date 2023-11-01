@@ -1,0 +1,70 @@
+{
+  "id" : "uwD4Ta6KoYehmnFIkA5Eb",
+  "computeEnv" : {
+    "id" : "6CQVxQyy01kbVMzNvJibYS",
+    "name" : "deleted-7909984838092785",
+    "platform" : "aws-batch",
+    "config" : {
+      "region" : "eu-west-1",
+      "computeQueue" : "TowerForge-6CQVxQyy01kbVMzNvJibYS",
+      "executionRole" : "arn:aws:iam::128997144437:role/TowerForge-6CQVxQyy01kbVMzNvJibYS-ExecutionRole",
+      "headQueue" : "TowerForge-6CQVxQyy01kbVMzNvJibYS",
+      "volumes" : [ ],
+      "workDir" : "s3://scidev-eu-west-1",
+      "environment" : [ ],
+      "waveEnabled" : true,
+      "fusion2Enabled" : true,
+      "nvnmeStorageEnabled" : true,
+      "forge" : {
+        "type" : "EC2",
+        "minCpus" : 0,
+        "maxCpus" : 500,
+        "gpuEnabled" : false,
+        "instanceTypes" : [ "c6id", "m6id", "r6id" ],
+        "subnets" : [ ],
+        "securityGroups" : [ ],
+        "disposeOnDeletion" : true,
+        "allowBuckets" : [ "s3://ngi-igenomes", "s3://nf-core-awsmegatests", "s3://scidev-eu-west-1" ],
+        "efsCreate" : false,
+        "dragenEnabled" : false,
+        "ebsBootSize" : 100
+      },
+      "forgedResources" : [ {
+        "IamRole" : "arn:aws:iam::128997144437:role/TowerForge-6CQVxQyy01kbVMzNvJibYS-ServiceRole"
+      }, {
+        "IamRole" : "arn:aws:iam::128997144437:role/TowerForge-6CQVxQyy01kbVMzNvJibYS-ExecutionRole"
+      }, {
+        "IamInstanceProfile" : "arn:aws:iam::128997144437:instance-profile/TowerForge-6CQVxQyy01kbVMzNvJibYS-InstanceRole"
+      }, {
+        "Ec2LaunchTemplate" : "TowerForge-6CQVxQyy01kbVMzNvJibYS"
+      }, {
+        "BatchEnv" : "arn:aws:batch:eu-west-1:128997144437:compute-environment/TowerForge-6CQVxQyy01kbVMzNvJibYS"
+      }, {
+        "BatchQueue" : "arn:aws:batch:eu-west-1:128997144437:job-queue/TowerForge-6CQVxQyy01kbVMzNvJibYS"
+      } ],
+      "discriminator" : "aws-batch"
+    },
+    "dateCreated" : "2023-10-11T13:48:14Z",
+    "lastUpdated" : "2023-10-11T21:21:29Z",
+    "lastUsed" : "2023-10-11T13:48:41Z",
+    "deleted" : true,
+    "status" : "INVALID",
+    "message" : "Compute environment has been deleted",
+    "credentialsId" : "6ZrVbCDYtPStsv4vYDwbkl",
+    "orgId" : 88848180287559,
+    "workspaceId" : 70508760960023
+  },
+  "pipeline" : "https://github.com/nf-core/rnaseq",
+  "workDir" : "s3://scidev-eu-west-1",
+  "revision" : "3.12.0",
+  "configText" : "process.scratch = false\n",
+  "paramsText" : "{\"outdir\": \"s3://scidev-eu-west-1/projects/fusion_benchmarking/fusionv2_nvme-nf-core_rnaseq-2-d15797681de34bffa5a6bd1e811fc4fe/\"}",
+  "preRunScript" : "export NXF_VER=23.04.4",
+  "resume" : false,
+  "pullLatest" : false,
+  "stubRun" : false,
+  "runName" : "aws-fusionv2_nvme-nf-core_rnaseq-2-d15797681de34bffa5a6bd1e811fc4fe",
+  "configProfiles" : [ "test_full" ],
+  "dateCreated" : "2023-10-11T13:48:37Z",
+  "lastUpdated" : "2023-10-11T13:48:41Z"
+}

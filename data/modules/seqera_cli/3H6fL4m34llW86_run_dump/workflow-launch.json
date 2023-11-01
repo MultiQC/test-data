@@ -1,0 +1,70 @@
+{
+  "id" : "6WwaB4R1eSZZlpDcKuiQBA",
+  "computeEnv" : {
+    "id" : "376JxIYNd2ZoJ1roBF0uA5",
+    "name" : "deleted-14068363080875485",
+    "platform" : "aws-batch",
+    "config" : {
+      "region" : "eu-west-1",
+      "computeQueue" : "TowerForge-376JxIYNd2ZoJ1roBF0uA5",
+      "executionRole" : "arn:aws:iam::128997144437:role/TowerForge-376JxIYNd2ZoJ1roBF0uA5-ExecutionRole",
+      "headQueue" : "TowerForge-376JxIYNd2ZoJ1roBF0uA5",
+      "volumes" : [ ],
+      "workDir" : "s3://scidev-eu-west-1",
+      "environment" : [ ],
+      "waveEnabled" : true,
+      "fusion2Enabled" : true,
+      "nvnmeStorageEnabled" : true,
+      "forge" : {
+        "type" : "EC2",
+        "minCpus" : 0,
+        "maxCpus" : 500,
+        "gpuEnabled" : false,
+        "instanceTypes" : [ "c6id", "m6id", "r6id" ],
+        "subnets" : [ ],
+        "securityGroups" : [ ],
+        "disposeOnDeletion" : true,
+        "allowBuckets" : [ "s3://ngi-igenomes", "s3://nf-core-awsmegatests", "s3://scidev-eu-west-1" ],
+        "efsCreate" : false,
+        "dragenEnabled" : false,
+        "ebsBootSize" : 100
+      },
+      "forgedResources" : [ {
+        "IamRole" : "arn:aws:iam::128997144437:role/TowerForge-376JxIYNd2ZoJ1roBF0uA5-ServiceRole"
+      }, {
+        "IamRole" : "arn:aws:iam::128997144437:role/TowerForge-376JxIYNd2ZoJ1roBF0uA5-ExecutionRole"
+      }, {
+        "IamInstanceProfile" : "arn:aws:iam::128997144437:instance-profile/TowerForge-376JxIYNd2ZoJ1roBF0uA5-InstanceRole"
+      }, {
+        "Ec2LaunchTemplate" : "TowerForge-376JxIYNd2ZoJ1roBF0uA5"
+      }, {
+        "BatchEnv" : "arn:aws:batch:eu-west-1:128997144437:compute-environment/TowerForge-376JxIYNd2ZoJ1roBF0uA5"
+      }, {
+        "BatchQueue" : "arn:aws:batch:eu-west-1:128997144437:job-queue/TowerForge-376JxIYNd2ZoJ1roBF0uA5"
+      } ],
+      "discriminator" : "aws-batch"
+    },
+    "dateCreated" : "2023-10-11T22:06:23Z",
+    "lastUpdated" : "2023-10-12T03:13:35Z",
+    "lastUsed" : "2023-10-11T22:06:51Z",
+    "deleted" : true,
+    "status" : "INVALID",
+    "message" : "Compute environment has been deleted",
+    "credentialsId" : "6ZrVbCDYtPStsv4vYDwbkl",
+    "orgId" : 88848180287559,
+    "workspaceId" : 70508760960023
+  },
+  "pipeline" : "https://github.com/nf-core/viralrecon",
+  "workDir" : "s3://scidev-eu-west-1",
+  "revision" : "2.6.0",
+  "configText" : "process.scratch = false\n",
+  "paramsText" : "{\"outdir\": \"s3://scidev-eu-west-1/projects/fusion_benchmarking/fusionv2_nvme-nf-core_viralrecon-2-f6c3f9ba2ead491fb478bce387dec82a/\"}",
+  "preRunScript" : "export NXF_VER=23.04.4",
+  "resume" : false,
+  "pullLatest" : false,
+  "stubRun" : false,
+  "runName" : "aws-fusionv2_nvme-nf-core_viralrecon-2-f6c3f9ba2ead491fb478bce387dec82a",
+  "configProfiles" : [ "test_full" ],
+  "dateCreated" : "2023-10-11T22:06:47Z",
+  "lastUpdated" : "2023-10-11T22:06:51Z"
+}

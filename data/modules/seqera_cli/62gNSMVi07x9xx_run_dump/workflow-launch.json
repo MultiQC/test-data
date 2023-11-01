@@ -1,0 +1,71 @@
+{
+  "id" : "2oKKmok4TotdFQzr7Bt6Zp",
+  "computeEnv" : {
+    "id" : "iAyvNlFHBWcSqyG7z1R4K",
+    "name" : "deleted-14311127329908689",
+    "platform" : "aws-batch",
+    "config" : {
+      "region" : "eu-west-1",
+      "computeQueue" : "TowerForge-iAyvNlFHBWcSqyG7z1R4K",
+      "executionRole" : "arn:aws:iam::128997144437:role/TowerForge-iAyvNlFHBWcSqyG7z1R4K-ExecutionRole",
+      "headQueue" : "TowerForge-iAyvNlFHBWcSqyG7z1R4K",
+      "cliPath" : "/home/ec2-user/miniconda/bin/aws",
+      "volumes" : [ ],
+      "workDir" : "s3://scidev-eu-west-1",
+      "environment" : [ ],
+      "waveEnabled" : false,
+      "fusion2Enabled" : false,
+      "forge" : {
+        "type" : "EC2",
+        "minCpus" : 0,
+        "maxCpus" : 500,
+        "gpuEnabled" : false,
+        "ebsAutoScale" : true,
+        "instanceTypes" : [ "c6i", "m6i", "r6i" ],
+        "subnets" : [ ],
+        "securityGroups" : [ ],
+        "disposeOnDeletion" : true,
+        "allowBuckets" : [ "s3://ngi-igenomes", "s3://nf-core-awsmegatests", "s3://scidev-eu-west-1" ],
+        "fusionEnabled" : false,
+        "efsCreate" : false,
+        "dragenEnabled" : false
+      },
+      "forgedResources" : [ {
+        "IamRole" : "arn:aws:iam::128997144437:role/TowerForge-iAyvNlFHBWcSqyG7z1R4K-ServiceRole"
+      }, {
+        "IamRole" : "arn:aws:iam::128997144437:role/TowerForge-iAyvNlFHBWcSqyG7z1R4K-ExecutionRole"
+      }, {
+        "IamInstanceProfile" : "arn:aws:iam::128997144437:instance-profile/TowerForge-iAyvNlFHBWcSqyG7z1R4K-InstanceRole"
+      }, {
+        "Ec2LaunchTemplate" : "TowerForge-iAyvNlFHBWcSqyG7z1R4K"
+      }, {
+        "BatchEnv" : "arn:aws:batch:eu-west-1:128997144437:compute-environment/TowerForge-iAyvNlFHBWcSqyG7z1R4K"
+      }, {
+        "BatchQueue" : "arn:aws:batch:eu-west-1:128997144437:job-queue/TowerForge-iAyvNlFHBWcSqyG7z1R4K"
+      } ],
+      "discriminator" : "aws-batch"
+    },
+    "dateCreated" : "2023-10-13T17:37:35Z",
+    "lastUpdated" : "2023-10-14T22:39:39Z",
+    "lastUsed" : "2023-10-13T17:38:15Z",
+    "deleted" : true,
+    "status" : "INVALID",
+    "message" : "Compute environment has been deleted",
+    "credentialsId" : "6ZrVbCDYtPStsv4vYDwbkl",
+    "orgId" : 88848180287559,
+    "workspaceId" : 70508760960023
+  },
+  "pipeline" : "https://github.com/nf-core/sarek",
+  "workDir" : "s3://scidev-eu-west-1",
+  "revision" : "3.3.2",
+  "configText" : "process.errorStrategy='retry'\nprocess.maxRetries=3",
+  "paramsText" : "{\"outdir\": \"s3://scidev-eu-west-1/projects/fusion_benchmarking/plain_s3-nf-core_sarek-3-a4fb41b408b040219970679d20bd5ade/\"}",
+  "preRunScript" : "export NXF_VER=23.04.4",
+  "resume" : false,
+  "pullLatest" : false,
+  "stubRun" : false,
+  "runName" : "aws-plain_s3-nf-core_sarek-3-a4fb41b408b040219970679d20bd5ade",
+  "configProfiles" : [ "test_full_germline" ],
+  "dateCreated" : "2023-10-13T17:37:58Z",
+  "lastUpdated" : "2023-10-13T17:38:15Z"
+}
