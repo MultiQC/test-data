@@ -1,0 +1,4 @@
+file	percent	reads	taxon_id	taxon_name
+empty.txt	100.0	0	10239	Viruses
+empty.txt	0.0	0	NA	cannot be assigned to a (non-viral) species
+empty.txt	0.0	0	NA	unclassified
