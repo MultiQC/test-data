@@ -1,0 +1,2885 @@
+################################################################################
+# Program                   split-pipe v1.0.5p
+# Run date                  2023-04-14 16:55:12.223075+0
+# Run on                    jst249 (x86_64 Linux) by batiuk
+# System                    503.3G (540408811520) RAM and 72 CPUs
+# PID                       856023
+################################################################################
+#
+#                ------ >>> Initialization messages <<< ------
+# Setting threads to 32 (ncpu=72, initial nthreads=72.0 limited to 32) (init threads)
+# Parsing SampleLoadingTable WT-Mini-Sample-Loading-Table-V1.2.0_28022023.xlsm
+# WARNING Cleaned sample name '78' >--> 'sample_78'
+# WARNING Cleaned sample name '76' >--> 'sample_76'
+# Set 4 samples, from list WT-Mini-Sample-Loading-Table-V1.2.0_28022023.xlsm (init sample_sltab)
+# Set run_name sublibrary_S1 (init run_name)
+# Use_case behavior set to normal (init use_case)
+# Checking run env (conda); timeout 30
+# Checking called executables; timeout 30
+# Version info: STAR /home/batiuk/mambaforge/envs/spipe/bin/STAR 2.7.10b
+# Version info: samtools /home/batiuk/mambaforge/envs/spipe/bin/samtools samtools 1.17
+# Version info: fastqc /home/batiuk/mambaforge/envs/spipe/bin/fastqc FastQC v0.12.1
+# Version info: gzip /usr/bin/gzip gzip 1.9
+# Version info: pigz /home/batiuk/mambaforge/envs/spipe/bin/pigz pigz 2.6
+# Version info: unzip /home/batiuk/mambaforge/envs/spipe/bin/unzip UnZip 6.00 of 20 April 2009, by Debian. Original by Info-ZIP.
+# Scoring fastq data against 3 kits, chemistry v2
+# Sampling 1000000 R2 reads (from 100000 to 1100000)
+#   WT_mini (n24_v4) = 0.958
+#   WT (n96_v4) = 0.247
+#   WT_mega (n192_v4) = 0.124
+# Best scoring kit = WT_mini, 0.958
+# Set barcodes for kit WT_mini chemistry v2 (set kit defaults)
+# Genome /home/batiuk/genomes/mus/mus109_tdt_yfp version 1.0.5 >= min v1.0.4
+# Setting up genome files
+# Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/all_genes.csv
+# Added 'all-well' sample; ['all-well', 'A1:A12']
+# Set up 5 samples
+# Opening log /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/split-pipe_v1_0_5p.log 
+#
+#                ------ >>> Parameter settings <<< ------
+# use_case                  normal
+# mode                      all
+# chemistry                 v2
+# kit                       WT_mini	(12 wells)
+# kit_source                score 0.958
+# parfile                   <Not set>
+# logfile                   /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/split-pipe_v1_0_5p.log
+# run_name                  sublibrary_S1	(automatic)
+# input_dir                 <Not set>
+# output_dir                /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/
+# parent_dir                <Not set>
+# fq1                       /home/batiuk/primary/fastq/13.04.2023_parse_trial1_H3CMMBGXT/sublibrary_S1_S1_R1_001.fastq.gz
+# fq2                       /home/batiuk/primary/fastq/13.04.2023_parse_trial1_H3CMMBGXT/sublibrary_S1_S1_R2_001.fastq.gz
+# sublib_list               <Not set>
+# sublib_pref               <Not set>
+# sublib_suff               <Not set>
+# sublibraries              <Not set>
+# samp_list                 <Not set>
+# samp_sltab                WT-Mini-Sample-Loading-Table-V1.2.0_28022023.xlsm
+# sample                    Item_1_of_5	['S1', 'A12', '1 wells']
+# sample                    Item_2_of_5	['S3', 'A8-A11', '4 wells']
+# sample                    Item_3_of_5	['sample_76', 'A4-A7', '4 wells']
+# sample                    Item_4_of_5	['sample_78', 'A1-A3', '3 wells']
+# sample                    Item_5_of_5	['all-well', 'A1:A12', '12 wells']
+# genome_dir                /home/batiuk/genomes/mus/mus109_tdt_yfp/
+# genome_name               <Not set>
+# genes                     <Not set>
+# fasta                     <Not set>
+# gfasta                    <Not set>
+# targeted_list             <Not set>
+# focal_barcoding           False
+# nthreads                  32
+# max_threads               32
+# rseed                     1
+# reuse                     False
+# make_allwell              True
+# make_allsample            False
+# samp_wells_unique         False
+# keep_going                True
+# keep_temps                False
+# no_compress               False
+# gzip_compresslevel        4
+# one_step                  False
+# start_timeout             30
+# dryrun                    False
+# bc_save_data_file         True
+# bc_amp_seq                NNNNNNNNNN33333333GTGGCCGATGTTTCGCATCGGCGTACGACT22222222ATCCACGTGCTTGAGACTGTGG11111111
+# bc_round_set              Item_1_of_3	['bc1', 'n24_v4', ' 24 barcodes,  12 wells; A-A, 1-12']
+# bc_round_set              Item_2_of_3	['bc2', 'v1', ' 96 barcodes,  96 wells; A-H, 1-12']
+# bc_round_set              Item_3_of_3	['bc3', 'v1', ' 96 barcodes,  96 wells; A-H, 1-12']
+# bc_edit_dist              2
+# kit_score_warn            0.7
+# kit_score_min             0
+# kit_score_remain_frac     0.2
+# kit_score_skip            False
+# tso_seq                   AACGCAGAGTGAATGGG
+# tso_read_limit            15
+# fastq_samp_slice          [100000, 1100000]
+# mkref_id_for_no_name      True
+# mkref_gtf_guess_min       1
+# mkref_min_genes           1
+# mkref_min_exons           1
+# mkref_max_gtf_not_fas     0
+# mkref_gtf_dict_stepsize   10000
+# mkref_star_splicing       True
+# mkref_star_genomesaindexnbases 14
+# mkref_star_genomesasparsed 2
+# mkref_star_extra_args     <Not set>
+# inqc_fastqc_run           True
+# inqc_fastqc_show_warn     False
+# inqc_min_good_length_frac 0.5
+# pre_min_r1_len            45
+# pre_check_name_match      True
+# pre_check_name_r1r2       True
+# pre_head_keep_seq_index   True
+# pre_head_regex            @(\S+)\s+([12])\S*:(\S*)$
+# pre_perfect_bc_cell_thresh 0.92
+# pre_keep_no_bc_fq         False
+# align_min_genome_version  v1.0.4
+# align_min_start_reads     100000
+# align_star_outfiltermultimapnmax 3
+# align_star_keep_no_map    False
+# align_star_extra_args     <Not set>
+# post_min_map_frac         0.2
+# tcr_analysis              False
+# tcr_kmer                  21
+# tcr_read_threshold        2
+# tcr_trim                  30
+# mol_min_mapq_score        255
+# dge_min_start_tscp        10000
+# dge_copy_dge_genes_file   True
+# dge_save_express_gene_file True
+# dge_ssc_xstep_size        1000
+# dge_ssc_xstep_ndup        5
+# dge_species_purity_thresh 0.9
+# dge_tscp_cut_given        <Not set>
+# dge_tscp_cut_min          30
+# dge_tscp_cut_max          <Not set>
+# dge_tscp_cut_scale_fac    1.0
+# dge_cell_est              <Not set>
+# dge_cell_given            <Not set>
+# dge_cell_gxfold           3
+# dge_cell_min              10
+# dge_cell_auc_min          0.4
+# dge_cell_max              30000
+# dge_cell_scale_by_frac    True
+# dge_cell_hard_min         5
+# dge_cell_list             <Not set>
+# dge_gene_cell_min         3
+# dge_tscp_cut_umin         10
+# dge_gene_cell_umin        1
+# dge_tscp_cut_targeted_min 15
+# dge_tscp_cut_targeted_umin 5
+# dge_gene_cell_targeted_min 2
+# dge_tscp_read_min         1
+# dge_tscp_read_fb_min      2
+# comb_new_tscp             False
+# comb_unfilt_dge           True
+# ana_scanpy_verbosity      <Not set>
+# ana_save_anndata          True
+# ana_mem_eff_cell_thresh   100000
+# ana_norm_target_sum       10000
+# ana_scale_max_value       10
+# ana_scale_zero_center     True
+# ana_pca_min_hvar          100
+# ana_pca_dim_max           50
+# ana_pca_dim_min           10
+# ana_pca_dim_targeted_max  10
+# ana_pca_irlbpy            True
+# ana_cluster_min_bc        30
+# ana_cluster_1base         True
+# ana_save_umap             True
+# ana_umap_n_neighbors      50
+# ana_umap_min_dist         0.5
+# ana_cluster_alg           leiden
+# ana_ctab_top_n            20
+# ana_ctab_sco_min_den      0.01
+# ana_gene_cell_min         3
+# rep_save_figs             True
+# rep_plate_min_zero        True
+# rep_gxplt_subsamp         15000
+# rep_gxplt_ss_clus_min     10
+# rep_gxplt_norm_fac        10000.0
+# rep_gene_def_url          https://www.ncbi.nlm.nih.gov/gene/?term={gene_id}
+# rep_gene_url              <Not set>
+# clean_per_step            False
+# clean_make_summaries_zip  True
+# map_targ_genome_dir_path  map_targs
+# map_targ                  <Not set>
+# map_targ_kmer_len         30
+# map_targ_kmer_step        1
+# map_targ_kmer_search_max  41
+# map_targ_kmer_search_step 10
+#
+# Kit_score Processing: Score kit barcodes
+# Kit_score Given kit: None
+# Kit_score Total kits screened: 3
+# Kit_score Score WT_mini (n24_v4)   = 0.958    <---- using
+# Kit_score Score WT (n96_v4)        = 0.247
+# Kit_score Score WT_mega (n192_v4)  = 0.124
+#
+############################  Plate sample layout  ############################
+# Plate_samples          1  2  3  4  5  6  7  8  9  10  11  12
+# Plate_samples    well                                       
+# Plate_samples    A     4  4  4  3  3  3  3  2  2   2   2   1
+################################################################################
+
+
+# Time	Starting split-pipe v1.0.5p	2023-04-14 16:55:12.235527+0
+# Saved env info /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/run_proc_def.json 
+#2 MemStatus: InQC  14.1G proc, 1.5G rss, 12.7G vms, 2.7% usd, 489.9G avail
+#2 DskStatus: InQC  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+# >> Running InQC
+#2 MemStatus: InQC  14.1G proc, 1.5G rss, 12.7G vms, 2.7% usd, 489.9G avail
+#2 DskStatus: InQC  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+# Input fastq R1: /home/batiuk/primary/fastq/13.04.2023_parse_trial1_H3CMMBGXT/sublibrary_S1_S1_R1_001.fastq.gz, 3.8G, (4075057253), 04/13/2023
+# Input fastq R2: /home/batiuk/primary/fastq/13.04.2023_parse_trial1_H3CMMBGXT/sublibrary_S1_S1_R2_001.fastq.gz, 4.6G, (4938603339), 04/13/2023
+# Checking fastq read lengths
+# Sampling 1000000 R1 reads (from 100000 to 1100000)
+#2 R1 fastq read length good fraction; 1.0
+#2 R2 fastq read length good fraction; 1.0
+# Calling fastQC for inputs; Sample 100000 to 1100000 fastq records
+#2 /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/fastQC/R1_fastqc.html
+#2 /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/fastQC/R1_fastqc.zip
+#2 /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/fastQC/R2_fastqc.html
+#2 /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/fastQC/R2_fastqc.zip
+#2 New file: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/fastQC_pass_fail_sum.txt
+#2 MemStatus: InQC  14.9G proc, 1.8G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: InQC  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+#2 MemStatus: InQC  14.9G proc, 1.8G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: InQC  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+# << Running InQC; Status True; Duration 0:00:16.88
+
+#2 MemStatus: Preprocess  14.9G proc, 1.8G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Preprocess  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+# >> Running Preprocess
+#2 MemStatus: Preprocess  14.9G proc, 1.8G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Preprocess  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+#2 Collecting R2 Q30 stats
+#2 Collecting perfect bc counts for correction
+#2 Got bc count_threshold 5, 81251 counts
+#2 Correcting barcodes for fastq
+#2 Collecting R1 Q30 stats; 1000000 samples (From 100000 to 1100000)
+#3 Processed 200000 fastq records; Valid bc 81.71%
+#3 Processed 400000 fastq records; Valid bc 81.88%
+#3 Processed 600000 fastq records; Valid bc 81.89%
+#3 Processed 800000 fastq records; Valid bc 81.9%
+#3 Processed 1000000 fastq records; Valid bc 81.9%
+#3 Processed 1200000 fastq records; Valid bc 81.91%
+#3 Processed 1400000 fastq records; Valid bc 81.9%
+#3 Processed 1600000 fastq records; Valid bc 81.93%
+#3 Processed 1800000 fastq records; Valid bc 81.93%
+#3 Processed 2000000 fastq records; Valid bc 81.94%
+#3 Processed 2200000 fastq records; Valid bc 81.95%
+#3 Processed 2400000 fastq records; Valid bc 81.98%
+#3 Processed 2600000 fastq records; Valid bc 81.98%
+#3 Processed 2800000 fastq records; Valid bc 81.99%
+#3 Processed 3000000 fastq records; Valid bc 82.0%
+#3 Processed 3200000 fastq records; Valid bc 81.99%
+#3 Processed 3400000 fastq records; Valid bc 82.01%
+#3 Processed 3600000 fastq records; Valid bc 82.02%
+#3 Processed 3800000 fastq records; Valid bc 82.0%
+#3 Processed 4000000 fastq records; Valid bc 82.0%
+#3 Processed 4200000 fastq records; Valid bc 82.01%
+#3 Processed 4400000 fastq records; Valid bc 82.01%
+#3 Processed 4600000 fastq records; Valid bc 82.01%
+#3 Processed 4800000 fastq records; Valid bc 82.01%
+#3 Processed 5000000 fastq records; Valid bc 82.02%
+#3 Processed 5200000 fastq records; Valid bc 82.03%
+#3 Processed 5400000 fastq records; Valid bc 82.04%
+#3 Processed 5600000 fastq records; Valid bc 82.04%
+#3 Processed 5800000 fastq records; Valid bc 82.05%
+#3 Processed 6000000 fastq records; Valid bc 82.06%
+#3 Processed 6200000 fastq records; Valid bc 82.06%
+#3 Processed 6400000 fastq records; Valid bc 82.06%
+#3 Processed 6600000 fastq records; Valid bc 82.07%
+#3 Processed 6800000 fastq records; Valid bc 82.07%
+#3 Processed 7000000 fastq records; Valid bc 82.08%
+#3 Processed 7200000 fastq records; Valid bc 82.08%
+#3 Processed 7400000 fastq records; Valid bc 82.08%
+#3 Processed 7600000 fastq records; Valid bc 82.07%
+#3 Processed 7800000 fastq records; Valid bc 82.07%
+#3 Processed 8000000 fastq records; Valid bc 82.08%
+#3 Processed 8200000 fastq records; Valid bc 82.08%
+#3 Processed 8400000 fastq records; Valid bc 82.07%
+#3 Processed 8600000 fastq records; Valid bc 82.07%
+#3 Processed 8800000 fastq records; Valid bc 82.07%
+#3 Processed 9000000 fastq records; Valid bc 82.08%
+#3 Processed 9200000 fastq records; Valid bc 82.08%
+#3 Processed 9400000 fastq records; Valid bc 82.08%
+#3 Processed 9600000 fastq records; Valid bc 82.08%
+#3 Processed 9800000 fastq records; Valid bc 82.08%
+#3 Processed 10000000 fastq records; Valid bc 82.09%
+#3 Processed 10200000 fastq records; Valid bc 82.09%
+#3 Processed 10400000 fastq records; Valid bc 82.09%
+#3 Processed 10600000 fastq records; Valid bc 82.1%
+#3 Processed 10800000 fastq records; Valid bc 82.1%
+#3 Processed 11000000 fastq records; Valid bc 82.1%
+#3 Processed 11200000 fastq records; Valid bc 82.09%
+#3 Processed 11400000 fastq records; Valid bc 82.09%
+#3 Processed 11600000 fastq records; Valid bc 82.08%
+#3 Processed 11800000 fastq records; Valid bc 82.08%
+#3 Processed 12000000 fastq records; Valid bc 82.08%
+#3 Processed 12200000 fastq records; Valid bc 82.08%
+#3 Processed 12400000 fastq records; Valid bc 82.08%
+#3 Processed 12600000 fastq records; Valid bc 82.08%
+#3 Processed 12800000 fastq records; Valid bc 82.07%
+#3 Processed 13000000 fastq records; Valid bc 82.08%
+#3 Processed 13200000 fastq records; Valid bc 82.07%
+#3 Processed 13400000 fastq records; Valid bc 82.07%
+#3 Processed 13600000 fastq records; Valid bc 82.08%
+#3 Processed 13800000 fastq records; Valid bc 82.08%
+#3 Processed 14000000 fastq records; Valid bc 82.08%
+#3 Processed 14200000 fastq records; Valid bc 82.08%
+#3 Processed 14400000 fastq records; Valid bc 82.08%
+#3 Processed 14600000 fastq records; Valid bc 82.07%
+#3 Processed 14800000 fastq records; Valid bc 82.07%
+#3 Processed 15000000 fastq records; Valid bc 82.07%
+#3 Processed 15200000 fastq records; Valid bc 82.08%
+#3 Processed 15400000 fastq records; Valid bc 82.08%
+#3 Processed 15600000 fastq records; Valid bc 82.08%
+#3 Processed 15800000 fastq records; Valid bc 82.08%
+#3 Processed 16000000 fastq records; Valid bc 82.08%
+#3 Processed 16200000 fastq records; Valid bc 82.08%
+#3 Processed 16400000 fastq records; Valid bc 82.08%
+#3 Processed 16600000 fastq records; Valid bc 82.08%
+#3 Processed 16800000 fastq records; Valid bc 82.08%
+#3 Processed 17000000 fastq records; Valid bc 82.08%
+#3 Processed 17200000 fastq records; Valid bc 82.08%
+#3 Processed 17400000 fastq records; Valid bc 82.09%
+#3 Processed 17600000 fastq records; Valid bc 82.09%
+#3 Processed 17800000 fastq records; Valid bc 82.09%
+#3 Processed 18000000 fastq records; Valid bc 82.09%
+#3 Processed 18200000 fastq records; Valid bc 82.09%
+#3 Processed 18400000 fastq records; Valid bc 82.09%
+#3 Processed 18600000 fastq records; Valid bc 82.09%
+#3 Processed 18800000 fastq records; Valid bc 82.09%
+#3 Processed 19000000 fastq records; Valid bc 82.09%
+#3 Processed 19200000 fastq records; Valid bc 82.09%
+#3 Processed 19400000 fastq records; Valid bc 82.09%
+#3 Processed 19600000 fastq records; Valid bc 82.09%
+#3 Processed 19800000 fastq records; Valid bc 82.09%
+#3 Processed 20000000 fastq records; Valid bc 82.09%
+#3 Processed 20200000 fastq records; Valid bc 82.09%
+#3 Processed 20400000 fastq records; Valid bc 82.09%
+#3 Processed 20600000 fastq records; Valid bc 82.09%
+#3 Processed 20800000 fastq records; Valid bc 82.1%
+#3 Processed 21000000 fastq records; Valid bc 82.1%
+#3 Processed 21200000 fastq records; Valid bc 82.1%
+#3 Processed 21400000 fastq records; Valid bc 82.1%
+#3 Processed 21600000 fastq records; Valid bc 82.1%
+#3 Processed 21800000 fastq records; Valid bc 82.1%
+#3 Processed 22000000 fastq records; Valid bc 82.1%
+#3 Processed 22200000 fastq records; Valid bc 82.1%
+#3 Processed 22400000 fastq records; Valid bc 82.1%
+#3 Processed 22600000 fastq records; Valid bc 82.1%
+#3 Processed 22800000 fastq records; Valid bc 82.1%
+#3 Processed 23000000 fastq records; Valid bc 82.1%
+#3 Processed 23200000 fastq records; Valid bc 82.1%
+#3 Processed 23400000 fastq records; Valid bc 82.1%
+#3 Processed 23600000 fastq records; Valid bc 82.1%
+#3 Processed 23800000 fastq records; Valid bc 82.1%
+#3 Processed 24000000 fastq records; Valid bc 82.1%
+#3 Processed 24200000 fastq records; Valid bc 82.1%
+#3 Processed 24400000 fastq records; Valid bc 82.1%
+#3 Processed 24600000 fastq records; Valid bc 82.1%
+#3 Processed 24800000 fastq records; Valid bc 82.1%
+#3 Processed 25000000 fastq records; Valid bc 82.1%
+#3 Processed 25200000 fastq records; Valid bc 82.1%
+#3 Processed 25400000 fastq records; Valid bc 82.1%
+#3 Processed 25600000 fastq records; Valid bc 82.1%
+#3 Processed 25800000 fastq records; Valid bc 82.1%
+#3 Processed 26000000 fastq records; Valid bc 82.1%
+#3 Processed 26200000 fastq records; Valid bc 82.1%
+#3 Processed 26400000 fastq records; Valid bc 82.1%
+#3 Processed 26600000 fastq records; Valid bc 82.1%
+#3 Processed 26800000 fastq records; Valid bc 82.1%
+#3 Processed 27000000 fastq records; Valid bc 82.1%
+#3 Processed 27200000 fastq records; Valid bc 82.1%
+#3 Processed 27400000 fastq records; Valid bc 82.1%
+#3 Processed 27600000 fastq records; Valid bc 82.1%
+#3 Processed 27800000 fastq records; Valid bc 82.1%
+#3 Processed 28000000 fastq records; Valid bc 82.1%
+#3 Processed 28200000 fastq records; Valid bc 82.1%
+#3 Processed 28400000 fastq records; Valid bc 82.1%
+#3 Processed 28600000 fastq records; Valid bc 82.1%
+#3 Processed 28800000 fastq records; Valid bc 82.1%
+#3 Processed 29000000 fastq records; Valid bc 82.1%
+#3 Processed 29200000 fastq records; Valid bc 82.1%
+#3 Processed 29400000 fastq records; Valid bc 82.1%
+#3 Processed 29600000 fastq records; Valid bc 82.1%
+#3 Processed 29800000 fastq records; Valid bc 82.1%
+#3 Processed 30000000 fastq records; Valid bc 82.1%
+#3 Processed 30200000 fastq records; Valid bc 82.1%
+#3 Processed 30400000 fastq records; Valid bc 82.1%
+#3 Processed 30600000 fastq records; Valid bc 82.11%
+#3 Processed 30800000 fastq records; Valid bc 82.11%
+#3 Processed 31000000 fastq records; Valid bc 82.11%
+#3 Processed 31200000 fastq records; Valid bc 82.11%
+#3 Processed 31400000 fastq records; Valid bc 82.11%
+#3 Processed 31600000 fastq records; Valid bc 82.11%
+#3 Processed 31800000 fastq records; Valid bc 82.11%
+#3 Processed 32000000 fastq records; Valid bc 82.11%
+#3 Processed 32200000 fastq records; Valid bc 82.11%
+#3 Processed 32400000 fastq records; Valid bc 82.11%
+#3 Processed 32600000 fastq records; Valid bc 82.11%
+#3 Processed 32800000 fastq records; Valid bc 82.11%
+#3 Processed 33000000 fastq records; Valid bc 82.11%
+#3 Processed 33200000 fastq records; Valid bc 82.11%
+#3 Processed 33400000 fastq records; Valid bc 82.11%
+#3 Processed 33600000 fastq records; Valid bc 82.11%
+#3 Processed 33800000 fastq records; Valid bc 82.11%
+#3 Processed 34000000 fastq records; Valid bc 82.11%
+#3 Processed 34200000 fastq records; Valid bc 82.11%
+#3 Processed 34400000 fastq records; Valid bc 82.11%
+#3 Processed 34600000 fastq records; Valid bc 82.11%
+#3 Processed 34800000 fastq records; Valid bc 82.11%
+#3 Processed 35000000 fastq records; Valid bc 82.11%
+#3 Processed 35200000 fastq records; Valid bc 82.11%
+#3 Processed 35400000 fastq records; Valid bc 82.11%
+#3 Processed 35600000 fastq records; Valid bc 82.11%
+#3 Processed 35800000 fastq records; Valid bc 82.11%
+#3 Processed 36000000 fastq records; Valid bc 82.1%
+#3 Processed 36200000 fastq records; Valid bc 82.1%
+#3 Processed 36400000 fastq records; Valid bc 82.1%
+#3 Processed 36600000 fastq records; Valid bc 82.1%
+#3 Processed 36800000 fastq records; Valid bc 82.1%
+#3 Processed 37000000 fastq records; Valid bc 82.1%
+#3 Processed 37200000 fastq records; Valid bc 82.1%
+#3 Processed 37400000 fastq records; Valid bc 82.1%
+#3 Processed 37600000 fastq records; Valid bc 82.11%
+#3 Processed 37800000 fastq records; Valid bc 82.11%
+#3 Processed 38000000 fastq records; Valid bc 82.11%
+#3 Processed 38200000 fastq records; Valid bc 82.11%
+#3 Processed 38400000 fastq records; Valid bc 82.11%
+#3 Processed 38600000 fastq records; Valid bc 82.11%
+#3 Processed 38800000 fastq records; Valid bc 82.11%
+#3 Processed 39000000 fastq records; Valid bc 82.11%
+#3 Processed 39200000 fastq records; Valid bc 82.11%
+#3 Processed 39400000 fastq records; Valid bc 82.11%
+#3 Processed 39600000 fastq records; Valid bc 82.11%
+#3 Processed 39800000 fastq records; Valid bc 82.11%
+#3 Processed 40000000 fastq records; Valid bc 82.11%
+#3 Processed 40200000 fastq records; Valid bc 82.11%
+#3 Processed 40400000 fastq records; Valid bc 82.11%
+#3 Processed 40600000 fastq records; Valid bc 82.11%
+#3 Processed 40800000 fastq records; Valid bc 82.11%
+#3 Processed 41000000 fastq records; Valid bc 82.11%
+#3 Processed 41200000 fastq records; Valid bc 82.11%
+#3 Processed 41400000 fastq records; Valid bc 82.11%
+#3 Processed 41600000 fastq records; Valid bc 82.11%
+#3 Processed 41800000 fastq records; Valid bc 82.11%
+#3 Processed 42000000 fastq records; Valid bc 82.11%
+#3 Processed 42200000 fastq records; Valid bc 82.11%
+#3 Processed 42400000 fastq records; Valid bc 82.11%
+#3 Processed 42600000 fastq records; Valid bc 82.11%
+#3 Processed 42800000 fastq records; Valid bc 82.11%
+#3 Processed 43000000 fastq records; Valid bc 82.11%
+#3 Processed 43200000 fastq records; Valid bc 82.11%
+#3 Processed 43400000 fastq records; Valid bc 82.11%
+#3 Processed 43600000 fastq records; Valid bc 82.11%
+#3 Processed 43800000 fastq records; Valid bc 82.11%
+#3 Processed 44000000 fastq records; Valid bc 82.11%
+#3 Processed 44200000 fastq records; Valid bc 82.11%
+#3 Processed 44400000 fastq records; Valid bc 82.11%
+#3 Processed 44600000 fastq records; Valid bc 82.11%
+#3 Processed 44800000 fastq records; Valid bc 82.11%
+#3 Processed 45000000 fastq records; Valid bc 82.11%
+#3 Processed 45200000 fastq records; Valid bc 82.11%
+#3 Processed 45400000 fastq records; Valid bc 82.11%
+#3 Processed 45600000 fastq records; Valid bc 82.11%
+#3 Processed 45800000 fastq records; Valid bc 82.11%
+#3 Processed 46000000 fastq records; Valid bc 82.11%
+#3 Processed 46200000 fastq records; Valid bc 82.11%
+#3 Processed 46400000 fastq records; Valid bc 82.11%
+#3 Processed 46600000 fastq records; Valid bc 82.11%
+#3 Processed 46800000 fastq records; Valid bc 82.11%
+#3 Processed 47000000 fastq records; Valid bc 82.11%
+#3 Processed 47200000 fastq records; Valid bc 82.11%
+#3 Processed 47400000 fastq records; Valid bc 82.12%
+#3 Processed 47600000 fastq records; Valid bc 82.12%
+#3 Processed 47800000 fastq records; Valid bc 82.12%
+#3 Processed 48000000 fastq records; Valid bc 82.12%
+#3 Processed 48200000 fastq records; Valid bc 82.12%
+#3 Processed 48400000 fastq records; Valid bc 82.12%
+#3 Processed 48600000 fastq records; Valid bc 82.12%
+#3 Processed 48800000 fastq records; Valid bc 82.12%
+#3 Processed 49000000 fastq records; Valid bc 82.12%
+#3 Processed 49200000 fastq records; Valid bc 82.12%
+#3 Processed 49400000 fastq records; Valid bc 82.12%
+#3 Processed 49600000 fastq records; Valid bc 82.12%
+#3 Processed 49800000 fastq records; Valid bc 82.12%
+#3 Processed 50000000 fastq records; Valid bc 82.12%
+#3 Processed 50200000 fastq records; Valid bc 82.12%
+#3 Processed 50400000 fastq records; Valid bc 82.12%
+#3 Processed 50600000 fastq records; Valid bc 82.12%
+#3 Processed 50800000 fastq records; Valid bc 82.12%
+#3 Processed 51000000 fastq records; Valid bc 82.12%
+#3 Processed 51200000 fastq records; Valid bc 82.13%
+#3 Processed 51400000 fastq records; Valid bc 82.13%
+#3 Processed 51600000 fastq records; Valid bc 82.13%
+#3 Processed 51800000 fastq records; Valid bc 82.13%
+#3 Processed 52000000 fastq records; Valid bc 82.13%
+#3 Processed 52200000 fastq records; Valid bc 82.13%
+#3 Processed 52400000 fastq records; Valid bc 82.13%
+#3 Processed 52600000 fastq records; Valid bc 82.13%
+#3 Processed 52800000 fastq records; Valid bc 82.13%
+#3 Processed 53000000 fastq records; Valid bc 82.13%
+#3 Processed 53200000 fastq records; Valid bc 82.13%
+#3 Processed 53400000 fastq records; Valid bc 82.13%
+#3 Processed 53600000 fastq records; Valid bc 82.13%
+#3 Processed 53800000 fastq records; Valid bc 82.13%
+#3 Processed 54000000 fastq records; Valid bc 82.13%
+#3 Processed 54200000 fastq records; Valid bc 82.13%
+#3 Processed 54400000 fastq records; Valid bc 82.13%
+#3 Processed 54600000 fastq records; Valid bc 82.13%
+#3 Processed 54800000 fastq records; Valid bc 82.13%
+#3 Processed 55000000 fastq records; Valid bc 82.13%
+#3 Processed 55200000 fastq records; Valid bc 82.13%
+#3 Processed 55400000 fastq records; Valid bc 82.13%
+#3 Processed 55600000 fastq records; Valid bc 82.13%
+#3 Processed 55800000 fastq records; Valid bc 82.13%
+#3 Processed 56000000 fastq records; Valid bc 82.13%
+#3 Processed 56200000 fastq records; Valid bc 82.13%
+#3 Processed 56400000 fastq records; Valid bc 82.13%
+#3 Processed 56600000 fastq records; Valid bc 82.13%
+#3 Processed 56800000 fastq records; Valid bc 82.13%
+#3 Processed 57000000 fastq records; Valid bc 82.13%
+#3 Processed 57200000 fastq records; Valid bc 82.13%
+#3 Processed 57400000 fastq records; Valid bc 82.13%
+#3 Processed 57600000 fastq records; Valid bc 82.13%
+#3 Processed 57800000 fastq records; Valid bc 82.13%
+#3 Processed 58000000 fastq records; Valid bc 82.13%
+#3 Processed 58200000 fastq records; Valid bc 82.14%
+#3 Processed 58400000 fastq records; Valid bc 82.14%
+#3 Processed 58600000 fastq records; Valid bc 82.14%
+#3 Processed 58800000 fastq records; Valid bc 82.14%
+#3 Processed 59000000 fastq records; Valid bc 82.14%
+#3 Processed 59200000 fastq records; Valid bc 82.14%
+#3 Processed 59400000 fastq records; Valid bc 82.14%
+#3 Processed 59600000 fastq records; Valid bc 82.14%
+#3 Processed 59800000 fastq records; Valid bc 82.14%
+#3 Processed 60000000 fastq records; Valid bc 82.14%
+#3 Processed 60200000 fastq records; Valid bc 82.14%
+#3 Processed 60400000 fastq records; Valid bc 82.14%
+#3 Processed 60600000 fastq records; Valid bc 82.14%
+#3 Processed 60800000 fastq records; Valid bc 82.14%
+#3 Processed 61000000 fastq records; Valid bc 82.14%
+#3 Processed 61200000 fastq records; Valid bc 82.14%
+#3 Processed 61400000 fastq records; Valid bc 82.14%
+#3 Processed 61600000 fastq records; Valid bc 82.14%
+#3 Processed 61800000 fastq records; Valid bc 82.14%
+#3 Processed 62000000 fastq records; Valid bc 82.14%
+#3 Processed 62200000 fastq records; Valid bc 82.14%
+#3 Processed 62400000 fastq records; Valid bc 82.14%
+#3 Processed 62600000 fastq records; Valid bc 82.14%
+#3 Processed 62800000 fastq records; Valid bc 82.14%
+#3 Processed 63000000 fastq records; Valid bc 82.14%
+#3 Processed 63200000 fastq records; Valid bc 82.14%
+#3 Processed 63400000 fastq records; Valid bc 82.14%
+#3 Processed 63600000 fastq records; Valid bc 82.14%
+#3 Processed 63800000 fastq records; Valid bc 82.14%
+#3 Processed 64000000 fastq records; Valid bc 82.14%
+#3 Processed 64200000 fastq records; Valid bc 82.14%
+#3 Processed 64400000 fastq records; Valid bc 82.14%
+#3 Processed 64600000 fastq records; Valid bc 82.14%
+#3 Processed 64800000 fastq records; Valid bc 82.14%
+#3 Processed 65000000 fastq records; Valid bc 82.14%
+#3 Processed 65200000 fastq records; Valid bc 82.14%
+#3 Processed 65400000 fastq records; Valid bc 82.14%
+#3 Processed 65600000 fastq records; Valid bc 82.14%
+#3 Processed 65800000 fastq records; Valid bc 82.14%
+#3 Processed 66000000 fastq records; Valid bc 82.14%
+#3 Processed 66200000 fastq records; Valid bc 82.14%
+#3 Processed 66400000 fastq records; Valid bc 82.14%
+#3 Processed 66600000 fastq records; Valid bc 82.14%
+#3 Processed 66800000 fastq records; Valid bc 82.14%
+#3 Processed 67000000 fastq records; Valid bc 82.15%
+#3 Processed 67200000 fastq records; Valid bc 82.15%
+#3 Processed 67400000 fastq records; Valid bc 82.15%
+#3 Processed 67600000 fastq records; Valid bc 82.15%
+#3 Processed 67800000 fastq records; Valid bc 82.15%
+#3 Processed 68000000 fastq records; Valid bc 82.15%
+#3 Processed 68200000 fastq records; Valid bc 82.15%
+#3 Processed 68400000 fastq records; Valid bc 82.15%
+#3 Processed 68600000 fastq records; Valid bc 82.15%
+#3 Processed 68800000 fastq records; Valid bc 82.15%
+#3 Processed 69000000 fastq records; Valid bc 82.15%
+#3 Processed 69200000 fastq records; Valid bc 82.15%
+#3 Processed 69400000 fastq records; Valid bc 82.15%
+#3 Processed 69600000 fastq records; Valid bc 82.15%
+#3 Processed 69800000 fastq records; Valid bc 82.15%
+#3 Processed 70000000 fastq records; Valid bc 82.15%
+#3 Processed 70200000 fastq records; Valid bc 82.15%
+#3 Processed 70400000 fastq records; Valid bc 82.15%
+#3 Processed 70600000 fastq records; Valid bc 82.15%
+#3 Processed 70800000 fastq records; Valid bc 82.15%
+#3 Processed 71000000 fastq records; Valid bc 82.15%
+#3 Processed 71200000 fastq records; Valid bc 82.15%
+#3 Processed 71400000 fastq records; Valid bc 82.15%
+#3 Processed 71600000 fastq records; Valid bc 82.15%
+#3 Processed 71800000 fastq records; Valid bc 82.15%
+#3 Processed 72000000 fastq records; Valid bc 82.15%
+#3 Processed 72200000 fastq records; Valid bc 82.15%
+#3 Processed 72400000 fastq records; Valid bc 82.15%
+#3 Processed 72600000 fastq records; Valid bc 82.15%
+#3 Processed 72800000 fastq records; Valid bc 82.16%
+#3 Processed 73000000 fastq records; Valid bc 82.16%
+#3 Processed 73200000 fastq records; Valid bc 82.16%
+#3 Processed 73400000 fastq records; Valid bc 82.16%
+#3 Processed 73600000 fastq records; Valid bc 82.16%
+#3 Processed 73800000 fastq records; Valid bc 82.16%
+#3 Processed 74000000 fastq records; Valid bc 82.16%
+#3 Processed 74200000 fastq records; Valid bc 82.16%
+#3 Processed 74400000 fastq records; Valid bc 82.16%
+#3 Processed 74600000 fastq records; Valid bc 82.16%
+#3 Processed 74800000 fastq records; Valid bc 82.16%
+#3 Processed 75000000 fastq records; Valid bc 82.16%
+#3 Processed 75200000 fastq records; Valid bc 82.16%
+#3 Processed 75400000 fastq records; Valid bc 82.16%
+#3 Processed 75600000 fastq records; Valid bc 82.16%
+#3 Processed 75800000 fastq records; Valid bc 82.16%
+#3 Processed 76000000 fastq records; Valid bc 82.16%
+#3 Processed 76200000 fastq records; Valid bc 82.16%
+#3 Processed 76400000 fastq records; Valid bc 82.16%
+#3 Processed 76600000 fastq records; Valid bc 82.16%
+#3 Processed 76800000 fastq records; Valid bc 82.16%
+#3 Processed 77000000 fastq records; Valid bc 82.16%
+#3 Processed 77200000 fastq records; Valid bc 82.16%
+#3 Processed 77400000 fastq records; Valid bc 82.16%
+#3 Processed 77600000 fastq records; Valid bc 82.16%
+#3 Processed 77800000 fastq records; Valid bc 82.16%
+#3 Processed 78000000 fastq records; Valid bc 82.16%
+#3 Processed 78200000 fastq records; Valid bc 82.16%
+#3 Processed 78400000 fastq records; Valid bc 82.16%
+#3 Processed 78600000 fastq records; Valid bc 82.16%
+#3 Processed 78800000 fastq records; Valid bc 82.16%
+#3 Processed 79000000 fastq records; Valid bc 82.16%
+#3 Processed 79200000 fastq records; Valid bc 82.16%
+#3 Processed 79400000 fastq records; Valid bc 82.16%
+#3 Processed 79600000 fastq records; Valid bc 82.16%
+#3 Processed 79800000 fastq records; Valid bc 82.16%
+#3 Processed 80000000 fastq records; Valid bc 82.16%
+#3 Processed 80200000 fastq records; Valid bc 82.16%
+#3 Processed 80400000 fastq records; Valid bc 82.16%
+#3 Processed 80600000 fastq records; Valid bc 82.16%
+#3 Processed 80800000 fastq records; Valid bc 82.16%
+#3 Processed 81000000 fastq records; Valid bc 82.16%
+#3 Processed 81200000 fastq records; Valid bc 82.16%
+#3 Processed 81400000 fastq records; Valid bc 82.16%
+#3 Processed 81600000 fastq records; Valid bc 82.16%
+#3 Processed 81800000 fastq records; Valid bc 82.16%
+#3 Processed 82000000 fastq records; Valid bc 82.17%
+#3 Processed 82200000 fastq records; Valid bc 82.17%
+#3 Processed 82400000 fastq records; Valid bc 82.17%
+#3 Processed 82600000 fastq records; Valid bc 82.17%
+#3 Processed 82800000 fastq records; Valid bc 82.17%
+#3 Processed 83000000 fastq records; Valid bc 82.17%
+#3 Processed 83200000 fastq records; Valid bc 82.17%
+#3 Processed 83400000 fastq records; Valid bc 82.17%
+#3 Processed 83600000 fastq records; Valid bc 82.17%
+#3 Processed 83800000 fastq records; Valid bc 82.17%
+#3 Processed 84000000 fastq records; Valid bc 82.17%
+#3 Processed 84200000 fastq records; Valid bc 82.17%
+#3 Processed 84400000 fastq records; Valid bc 82.17%
+#3 Processed 84600000 fastq records; Valid bc 82.17%
+#3 Processed 84800000 fastq records; Valid bc 82.17%
+#3 Processed 85000000 fastq records; Valid bc 82.17%
+#3 Processed 85200000 fastq records; Valid bc 82.17%
+#3 Processed 85400000 fastq records; Valid bc 82.17%
+#3 Processed 85600000 fastq records; Valid bc 82.17%
+#3 Processed 85800000 fastq records; Valid bc 82.17%
+#3 Processed 86000000 fastq records; Valid bc 82.17%
+#3 Processed 86200000 fastq records; Valid bc 82.17%
+#3 Processed 86400000 fastq records; Valid bc 82.17%
+#3 Processed 86600000 fastq records; Valid bc 82.17%
+#3 Processed 86800000 fastq records; Valid bc 82.17%
+#2 Preprocess total 86840829 reads, 71356651 valid BC 82.17%
+#2 Preprocess too short 0 0.0%, with ambig 137894 0.16%
+# Wrote 6 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/sequencing_stats.csv
+#2 PF_STAT_SEQ Row_1_of_8                           value
+#2 PF_STAT_SEQ Row_2_of_8  statistic                     
+#2 PF_STAT_SEQ Row_3_of_8  bc1_Q30                  0.872
+#2 PF_STAT_SEQ Row_4_of_8  bc2_Q30                  0.904
+#2 PF_STAT_SEQ Row_5_of_8  bc3_Q30                  0.945
+#2 PF_STAT_SEQ Row_6_of_8  cDNA_Q30                 0.919
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/pipeline_stats.csv
+#2 PF_STAT_PIPE Row_1_of_14                              value
+#2 PF_STAT_PIPE Row_2_of_14  statistic                        
+#2 PF_STAT_PIPE Row_3_of_14  bc1_perfrac          7.540000e-01
+#2 PF_STAT_PIPE Row_4_of_14  bc2_perfrac          8.130000e-01
+#2 PF_STAT_PIPE Row_5_of_14  bc3_perfrac          8.770000e-01
+#2 PF_STAT_PIPE Row_6_of_14  bc_edit_dist_0       6.263514e+07
+# Wrote 16 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/bcc_read_length_counts.csv
+#2 PF_BCC_READ_LENS Row_1_of_18             count
+#2 PF_BCC_READ_LENS Row_2_of_18  length          
+#2 PF_BCC_READ_LENS Row_3_of_18  43         22213
+#2 PF_BCC_READ_LENS Row_4_of_18  44       5879195
+#2 PF_BCC_READ_LENS Row_5_of_18  45       1062832
+#2 PF_BCC_READ_LENS Row_6_of_18  46        783536
+#2 Compressing /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_head.fastq
+#2 MemStatus: Preprocess  15.0G proc, 1.9G rss, 13.1G vms, 2.8% usd, 489.5G avail
+#2 DskStatus: Preprocess  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+#2 MemStatus: Preprocess  15.0G proc, 1.9G rss, 13.1G vms, 2.8% usd, 489.5G avail
+#2 DskStatus: Preprocess  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+# << Running Preprocess; Status True; Duration 0:17:33.87
+
+#2 MemStatus: Alignment  15.0G proc, 1.9G rss, 13.1G vms, 2.8% usd, 489.5G avail
+#2 DskStatus: Alignment  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+# >> Running Alignment
+#2 MemStatus: Alignment  15.0G proc, 1.9G rss, 13.1G vms, 2.8% usd, 489.5G avail
+#2 DskStatus: Alignment  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/pipeline_stats.csv
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/sequencing_stats.csv
+# # Subproc:, Call:   /home/batiuk/mambaforge/envs/spipe/bin/STAR --genomeDir /home/batiuk/genomes/mus/mus109_tdt_yfp --runThreadN 32 --readFilesIn /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_head.fastq.gz --outFileNamePrefix /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_head --outSAMtype BAM Unsorted --readFilesCommand zcat --outFilterMultimapNmax 3
+# Subproc: Status: True
+# Subproc: Output: (first 100 char)
+	/home/batiuk/mambaforge/envs/spipe/bin/STAR --genomeDir /home/batiuk/genomes/mus/mus109_tdt_yfp --r
+# Subproc: Duration 0:04:00.93
+# STAR output saved to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/STAR_align_sdtout.txt
+# Wrote 16 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/pipeline_stats.csv
+#2 PF_STAT_PIPE Row_1_of_18                               value
+#2 PF_STAT_PIPE Row_2_of_18  statistic                         
+#2 PF_STAT_PIPE Row_3_of_18  bc1_perfrac           7.540000e-01
+#2 PF_STAT_PIPE Row_4_of_18  bc2_perfrac           8.130000e-01
+#2 PF_STAT_PIPE Row_5_of_18  bc3_perfrac           8.770000e-01
+#2 PF_STAT_PIPE Row_6_of_18  bc_edit_dist_0        6.263514e+07
+#2 Compressing /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headSJ.out.tab
+#2 MemStatus: Alignment  15.0G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Alignment  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+#2 MemStatus: Alignment  15.0G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Alignment  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+# << Running Alignment; Status True; Duration 0:04:01.07
+
+#2 MemStatus: Postprocess  15.0G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Postprocess  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+# >> Running Postprocess
+#2 MemStatus: Postprocess  15.0G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Postprocess  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.3T (20.64%) free
+# # Subproc:, Call:   /home/batiuk/mambaforge/envs/spipe/bin/samtools sort -n --threads 32 -T /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_sorted -o /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_sorted.bam /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned.out.bam
+# Subproc: Status: True
+# Subproc: Output: (first 100 char)
+[bam_sort_core] merging from 0 files and 32 in-memory blocks...
+
+# Subproc: Duration 0:01:05.34
+#2 MemStatus: Postprocess  15.0G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Postprocess  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.2T (20.64%) free
+#2 MemStatus: Postprocess  15.0G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Postprocess  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.2T (20.64%) free
+# << Running Postprocess; Status True; Duration 0:01:05.37
+
+#2 MemStatus: Molinfo  15.0G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Molinfo  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.2T (20.64%) free
+# >> Running Molinfo
+#2 MemStatus: Molinfo  15.0G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Molinfo  '/scratch/' 480.9T total, 381.7T (79.36%) used, 99.2T (20.64%) free
+# Splitting bam file (32 threads)
+# Aligned reads = 64820121, total reads to process = 64820121
+#2 Reads per chunk 2025629
+#2 Starting thread 1
+#2 Starting thread 2
+#2 Starting thread 3
+#2 Starting thread 4
+#2 Starting thread 5
+#2 Starting thread 6
+#2 Starting thread 7
+#2 Starting thread 8
+#2 Starting thread 9
+#2 Starting thread 10
+#2 Starting thread 11
+#2 Starting thread 12
+#2 Starting thread 13
+#2 Starting thread 14
+#2 Starting thread 15
+#2 Starting thread 16
+#2 Starting thread 17
+#2 Starting thread 18
+#2 Starting thread 19
+#2 Starting thread 20
+#2 Starting thread 21
+#2 Starting thread 22
+#2 Starting thread 23
+#2 Starting thread 24
+#2 Starting thread 25
+#2 Starting thread 26
+#2 Starting thread 27
+#2 Starting thread 28
+#2 Starting thread 29
+#2 Starting thread 30
+#2 Starting thread 31
+#2 Starting thread 32
+#3 Molinfo processed 100000 aligned reads...  thread 4
+#3 Molinfo processed 100000 aligned reads...  thread 30
+#3 Molinfo processed 100000 aligned reads...  thread 14
+#3 Molinfo processed 100000 aligned reads...  thread 13
+#3 Molinfo processed 100000 aligned reads...  thread 26
+#3 Molinfo processed 100000 aligned reads...  thread 21
+#3 Molinfo processed 100000 aligned reads...  thread 11
+#3 Molinfo processed 100000 aligned reads...  thread 17
+#3 Molinfo processed 100000 aligned reads...  thread 15
+#3 Molinfo processed 100000 aligned reads...  thread 7
+#3 Molinfo processed 100000 aligned reads...  thread 6
+#3 Molinfo processed 100000 aligned reads...  thread 5
+#3 Molinfo processed 100000 aligned reads...  thread 18
+#3 Molinfo processed 100000 aligned reads...  thread 8
+#3 Molinfo processed 100000 aligned reads...  thread 2
+#3 Molinfo processed 100000 aligned reads...  thread 10
+#3 Molinfo processed 100000 aligned reads...  thread 32
+#3 Molinfo processed 100000 aligned reads...  thread 27
+#3 Molinfo processed 100000 aligned reads...  thread 24
+#3 Molinfo processed 100000 aligned reads...  thread 31
+#3 Molinfo processed 100000 aligned reads...  thread 25
+#3 Molinfo processed 100000 aligned reads...  thread 3
+#3 Molinfo processed 100000 aligned reads...  thread 12
+#3 Molinfo processed 100000 aligned reads...  thread 29
+#3 Molinfo processed 100000 aligned reads...  thread 22
+#3 Molinfo processed 100000 aligned reads...  thread 28
+#3 Molinfo processed 100000 aligned reads...  thread 20
+#3 Molinfo processed 100000 aligned reads...  thread 9
+#3 Molinfo processed 100000 aligned reads...  thread 1
+#3 Molinfo processed 100000 aligned reads...  thread 16
+#3 Molinfo processed 100000 aligned reads...  thread 23
+#3 Molinfo processed 100000 aligned reads...  thread 19
+#3 Molinfo processed 200000 aligned reads...  thread 26
+#3 Molinfo processed 200000 aligned reads...  thread 31
+#3 Molinfo processed 200000 aligned reads...  thread 30
+#3 Molinfo processed 200000 aligned reads...  thread 14
+#3 Molinfo processed 200000 aligned reads...  thread 4
+#3 Molinfo processed 200000 aligned reads...  thread 7
+#3 Molinfo processed 200000 aligned reads...  thread 6
+#3 Molinfo processed 200000 aligned reads...  thread 12
+#3 Molinfo processed 200000 aligned reads...  thread 25
+#3 Molinfo processed 200000 aligned reads...  thread 11
+#3 Molinfo processed 200000 aligned reads...  thread 32
+#3 Molinfo processed 200000 aligned reads...  thread 13
+#3 Molinfo processed 200000 aligned reads...  thread 2
+#3 Molinfo processed 200000 aligned reads...  thread 29
+#3 Molinfo processed 200000 aligned reads...  thread 28
+#3 Molinfo processed 200000 aligned reads...  thread 3
+#3 Molinfo processed 200000 aligned reads...  thread 5
+#3 Molinfo processed 200000 aligned reads...  thread 15
+#3 Molinfo processed 200000 aligned reads...  thread 27
+#3 Molinfo processed 200000 aligned reads...  thread 10
+#3 Molinfo processed 200000 aligned reads...  thread 21
+#3 Molinfo processed 200000 aligned reads...  thread 18
+#3 Molinfo processed 200000 aligned reads...  thread 22
+#3 Molinfo processed 200000 aligned reads...  thread 24
+#3 Molinfo processed 200000 aligned reads...  thread 9
+#3 Molinfo processed 200000 aligned reads...  thread 16
+#3 Molinfo processed 200000 aligned reads...  thread 17
+#3 Molinfo processed 200000 aligned reads...  thread 8
+#3 Molinfo processed 200000 aligned reads...  thread 20
+#3 Molinfo processed 200000 aligned reads...  thread 1
+#3 Molinfo processed 200000 aligned reads...  thread 23
+#3 Molinfo processed 200000 aligned reads...  thread 19
+#3 Molinfo processed 300000 aligned reads...  thread 31
+#3 Molinfo processed 300000 aligned reads...  thread 32
+#3 Molinfo processed 300000 aligned reads...  thread 30
+#3 Molinfo processed 300000 aligned reads...  thread 7
+#3 Molinfo processed 300000 aligned reads...  thread 12
+#3 Molinfo processed 300000 aligned reads...  thread 6
+#3 Molinfo processed 300000 aligned reads...  thread 14
+#3 Molinfo processed 300000 aligned reads...  thread 26
+#3 Molinfo processed 300000 aligned reads...  thread 5
+#3 Molinfo processed 300000 aligned reads...  thread 13
+#3 Molinfo processed 300000 aligned reads...  thread 4
+#3 Molinfo processed 300000 aligned reads...  thread 11
+#3 Molinfo processed 300000 aligned reads...  thread 2
+#3 Molinfo processed 300000 aligned reads...  thread 3
+#3 Molinfo processed 300000 aligned reads...  thread 29
+#3 Molinfo processed 300000 aligned reads...  thread 18
+#3 Molinfo processed 300000 aligned reads...  thread 28
+#3 Molinfo processed 300000 aligned reads...  thread 22
+#3 Molinfo processed 300000 aligned reads...  thread 25
+#3 Molinfo processed 300000 aligned reads...  thread 15
+#3 Molinfo processed 300000 aligned reads...  thread 19
+#3 Molinfo processed 300000 aligned reads...  thread 21
+#3 Molinfo processed 300000 aligned reads...  thread 24
+#3 Molinfo processed 300000 aligned reads...  thread 8
+#3 Molinfo processed 300000 aligned reads...  thread 27
+#3 Molinfo processed 300000 aligned reads...  thread 10
+#3 Molinfo processed 300000 aligned reads...  thread 9
+#3 Molinfo processed 300000 aligned reads...  thread 20
+#3 Molinfo processed 300000 aligned reads...  thread 17
+#3 Molinfo processed 300000 aligned reads...  thread 16
+#3 Molinfo processed 300000 aligned reads...  thread 23
+#3 Molinfo processed 300000 aligned reads...  thread 1
+#3 Molinfo processed 400000 aligned reads...  thread 12
+#3 Molinfo processed 400000 aligned reads...  thread 31
+#3 Molinfo processed 400000 aligned reads...  thread 6
+#3 Molinfo processed 400000 aligned reads...  thread 11
+#3 Molinfo processed 400000 aligned reads...  thread 30
+#3 Molinfo processed 400000 aligned reads...  thread 2
+#3 Molinfo processed 400000 aligned reads...  thread 14
+#3 Molinfo processed 400000 aligned reads...  thread 26
+#3 Molinfo processed 400000 aligned reads...  thread 32
+#3 Molinfo processed 400000 aligned reads...  thread 7
+#3 Molinfo processed 400000 aligned reads...  thread 28
+#3 Molinfo processed 400000 aligned reads...  thread 15
+#3 Molinfo processed 400000 aligned reads...  thread 3
+#3 Molinfo processed 400000 aligned reads...  thread 13
+#3 Molinfo processed 400000 aligned reads...  thread 5
+#3 Molinfo processed 400000 aligned reads...  thread 29
+#3 Molinfo processed 400000 aligned reads...  thread 21
+#3 Molinfo processed 400000 aligned reads...  thread 4
+#3 Molinfo processed 400000 aligned reads...  thread 25
+#3 Molinfo processed 400000 aligned reads...  thread 9
+#3 Molinfo processed 400000 aligned reads...  thread 8
+#3 Molinfo processed 400000 aligned reads...  thread 16
+#3 Molinfo processed 400000 aligned reads...  thread 17
+#3 Molinfo processed 400000 aligned reads...  thread 10
+#3 Molinfo processed 400000 aligned reads...  thread 20
+#3 Molinfo processed 400000 aligned reads...  thread 22
+#3 Molinfo processed 400000 aligned reads...  thread 24
+#3 Molinfo processed 400000 aligned reads...  thread 27
+#3 Molinfo processed 400000 aligned reads...  thread 19
+#3 Molinfo processed 400000 aligned reads...  thread 23
+#3 Molinfo processed 400000 aligned reads...  thread 18
+#3 Molinfo processed 400000 aligned reads...  thread 1
+#3 Molinfo processed 500000 aligned reads...  thread 14
+#3 Molinfo processed 500000 aligned reads...  thread 31
+#3 Molinfo processed 500000 aligned reads...  thread 13
+#3 Molinfo processed 500000 aligned reads...  thread 6
+#3 Molinfo processed 500000 aligned reads...  thread 12
+#3 Molinfo processed 500000 aligned reads...  thread 29
+#3 Molinfo processed 500000 aligned reads...  thread 5
+#3 Molinfo processed 500000 aligned reads...  thread 7
+#3 Molinfo processed 500000 aligned reads...  thread 3
+#3 Molinfo processed 500000 aligned reads...  thread 30
+#3 Molinfo processed 500000 aligned reads...  thread 32
+#3 Molinfo processed 500000 aligned reads...  thread 28
+#3 Molinfo processed 500000 aligned reads...  thread 2
+#3 Molinfo processed 500000 aligned reads...  thread 26
+#3 Molinfo processed 500000 aligned reads...  thread 4
+#3 Molinfo processed 500000 aligned reads...  thread 11
+#3 Molinfo processed 500000 aligned reads...  thread 17
+#3 Molinfo processed 500000 aligned reads...  thread 10
+#3 Molinfo processed 500000 aligned reads...  thread 15
+#3 Molinfo processed 500000 aligned reads...  thread 25
+#3 Molinfo processed 500000 aligned reads...  thread 21
+#3 Molinfo processed 500000 aligned reads...  thread 16
+#3 Molinfo processed 500000 aligned reads...  thread 27
+#3 Molinfo processed 500000 aligned reads...  thread 20
+#3 Molinfo processed 500000 aligned reads...  thread 8
+#3 Molinfo processed 500000 aligned reads...  thread 9
+#3 Molinfo processed 500000 aligned reads...  thread 19
+#3 Molinfo processed 500000 aligned reads...  thread 22
+#3 Molinfo processed 500000 aligned reads...  thread 23
+#3 Molinfo processed 500000 aligned reads...  thread 24
+#3 Molinfo processed 500000 aligned reads...  thread 18
+#3 Molinfo processed 500000 aligned reads...  thread 1
+#3 Molinfo processed 600000 aligned reads...  thread 32
+#3 Molinfo processed 600000 aligned reads...  thread 31
+#3 Molinfo processed 600000 aligned reads...  thread 28
+#3 Molinfo processed 600000 aligned reads...  thread 5
+#3 Molinfo processed 600000 aligned reads...  thread 3
+#3 Molinfo processed 600000 aligned reads...  thread 30
+#3 Molinfo processed 600000 aligned reads...  thread 6
+#3 Molinfo processed 600000 aligned reads...  thread 14
+#3 Molinfo processed 600000 aligned reads...  thread 12
+#3 Molinfo processed 600000 aligned reads...  thread 26
+#3 Molinfo processed 600000 aligned reads...  thread 7
+#3 Molinfo processed 600000 aligned reads...  thread 29
+#3 Molinfo processed 600000 aligned reads...  thread 13
+#3 Molinfo processed 600000 aligned reads...  thread 11
+#3 Molinfo processed 600000 aligned reads...  thread 10
+#3 Molinfo processed 600000 aligned reads...  thread 17
+#3 Molinfo processed 600000 aligned reads...  thread 19
+#3 Molinfo processed 600000 aligned reads...  thread 4
+#3 Molinfo processed 600000 aligned reads...  thread 15
+#3 Molinfo processed 600000 aligned reads...  thread 27
+#3 Molinfo processed 600000 aligned reads...  thread 2
+#3 Molinfo processed 600000 aligned reads...  thread 16
+#3 Molinfo processed 600000 aligned reads...  thread 20
+#3 Molinfo processed 600000 aligned reads...  thread 8
+#3 Molinfo processed 600000 aligned reads...  thread 21
+#3 Molinfo processed 600000 aligned reads...  thread 22
+#3 Molinfo processed 600000 aligned reads...  thread 25
+#3 Molinfo processed 600000 aligned reads...  thread 24
+#3 Molinfo processed 600000 aligned reads...  thread 18
+#3 Molinfo processed 600000 aligned reads...  thread 9
+#3 Molinfo processed 600000 aligned reads...  thread 23
+#3 Molinfo processed 600000 aligned reads...  thread 1
+#3 Molinfo processed 700000 aligned reads...  thread 32
+#3 Molinfo processed 700000 aligned reads...  thread 31
+#3 Molinfo processed 700000 aligned reads...  thread 12
+#3 Molinfo processed 700000 aligned reads...  thread 14
+#3 Molinfo processed 700000 aligned reads...  thread 6
+#3 Molinfo processed 700000 aligned reads...  thread 7
+#3 Molinfo processed 700000 aligned reads...  thread 29
+#3 Molinfo processed 700000 aligned reads...  thread 5
+#3 Molinfo processed 700000 aligned reads...  thread 30
+#3 Molinfo processed 700000 aligned reads...  thread 28
+#3 Molinfo processed 700000 aligned reads...  thread 11
+#3 Molinfo processed 700000 aligned reads...  thread 4
+#3 Molinfo processed 700000 aligned reads...  thread 3
+#3 Molinfo processed 700000 aligned reads...  thread 13
+#3 Molinfo processed 700000 aligned reads...  thread 10
+#3 Molinfo processed 700000 aligned reads...  thread 27
+#3 Molinfo processed 700000 aligned reads...  thread 2
+#3 Molinfo processed 700000 aligned reads...  thread 20
+#3 Molinfo processed 700000 aligned reads...  thread 26
+#3 Molinfo processed 700000 aligned reads...  thread 17
+#3 Molinfo processed 700000 aligned reads...  thread 25
+#3 Molinfo processed 700000 aligned reads...  thread 15
+#3 Molinfo processed 700000 aligned reads...  thread 16
+#3 Molinfo processed 700000 aligned reads...  thread 22
+#3 Molinfo processed 700000 aligned reads...  thread 24
+#3 Molinfo processed 700000 aligned reads...  thread 21
+#3 Molinfo processed 700000 aligned reads...  thread 18
+#3 Molinfo processed 700000 aligned reads...  thread 19
+#3 Molinfo processed 700000 aligned reads...  thread 8
+#3 Molinfo processed 700000 aligned reads...  thread 23
+#3 Molinfo processed 700000 aligned reads...  thread 9
+#3 Molinfo processed 800000 aligned reads...  thread 13
+#3 Molinfo processed 800000 aligned reads...  thread 31
+#3 Molinfo processed 700000 aligned reads...  thread 1
+#3 Molinfo processed 800000 aligned reads...  thread 14
+#3 Molinfo processed 800000 aligned reads...  thread 12
+#3 Molinfo processed 800000 aligned reads...  thread 32
+#3 Molinfo processed 800000 aligned reads...  thread 6
+#3 Molinfo processed 800000 aligned reads...  thread 5
+#3 Molinfo processed 800000 aligned reads...  thread 3
+#3 Molinfo processed 800000 aligned reads...  thread 28
+#3 Molinfo processed 800000 aligned reads...  thread 30
+#3 Molinfo processed 800000 aligned reads...  thread 29
+#3 Molinfo processed 800000 aligned reads...  thread 4
+#3 Molinfo processed 800000 aligned reads...  thread 7
+#3 Molinfo processed 800000 aligned reads...  thread 26
+#3 Molinfo processed 800000 aligned reads...  thread 10
+#3 Molinfo processed 800000 aligned reads...  thread 11
+#3 Molinfo processed 800000 aligned reads...  thread 17
+#3 Molinfo processed 800000 aligned reads...  thread 20
+#3 Molinfo processed 800000 aligned reads...  thread 27
+#3 Molinfo processed 800000 aligned reads...  thread 22
+#3 Molinfo processed 800000 aligned reads...  thread 2
+#3 Molinfo processed 800000 aligned reads...  thread 15
+#3 Molinfo processed 800000 aligned reads...  thread 19
+#3 Molinfo processed 800000 aligned reads...  thread 16
+#3 Molinfo processed 800000 aligned reads...  thread 25
+#3 Molinfo processed 800000 aligned reads...  thread 24
+#3 Molinfo processed 800000 aligned reads...  thread 9
+#3 Molinfo processed 800000 aligned reads...  thread 21
+#3 Molinfo processed 800000 aligned reads...  thread 18
+#3 Molinfo processed 800000 aligned reads...  thread 8
+#3 Molinfo processed 800000 aligned reads...  thread 23
+#3 Molinfo processed 900000 aligned reads...  thread 29
+#3 Molinfo processed 900000 aligned reads...  thread 31
+#3 Molinfo processed 900000 aligned reads...  thread 28
+#3 Molinfo processed 900000 aligned reads...  thread 32
+#3 Molinfo processed 900000 aligned reads...  thread 3
+#3 Molinfo processed 900000 aligned reads...  thread 12
+#3 Molinfo processed 900000 aligned reads...  thread 14
+#3 Molinfo processed 900000 aligned reads...  thread 6
+#3 Molinfo processed 900000 aligned reads...  thread 4
+#3 Molinfo processed 900000 aligned reads...  thread 5
+#3 Molinfo processed 900000 aligned reads...  thread 2
+#3 Molinfo processed 800000 aligned reads...  thread 1
+#3 Molinfo processed 900000 aligned reads...  thread 30
+#3 Molinfo processed 900000 aligned reads...  thread 11
+#3 Molinfo processed 900000 aligned reads...  thread 13
+#3 Molinfo processed 900000 aligned reads...  thread 7
+#3 Molinfo processed 900000 aligned reads...  thread 27
+#3 Molinfo processed 900000 aligned reads...  thread 10
+#3 Molinfo processed 900000 aligned reads...  thread 26
+#3 Molinfo processed 900000 aligned reads...  thread 15
+#3 Molinfo processed 900000 aligned reads...  thread 20
+#3 Molinfo processed 900000 aligned reads...  thread 16
+#3 Molinfo processed 900000 aligned reads...  thread 22
+#3 Molinfo processed 900000 aligned reads...  thread 17
+#3 Molinfo processed 900000 aligned reads...  thread 25
+#3 Molinfo processed 900000 aligned reads...  thread 19
+#3 Molinfo processed 900000 aligned reads...  thread 24
+#3 Molinfo processed 900000 aligned reads...  thread 21
+#3 Molinfo processed 900000 aligned reads...  thread 9
+#3 Molinfo processed 900000 aligned reads...  thread 8
+#3 Molinfo processed 900000 aligned reads...  thread 18
+#3 Molinfo processed 900000 aligned reads...  thread 23
+#3 Molinfo processed 1000000 aligned reads...  thread 31
+#3 Molinfo processed 1000000 aligned reads...  thread 28
+#3 Molinfo processed 1000000 aligned reads...  thread 30
+#3 Molinfo processed 1000000 aligned reads...  thread 29
+#3 Molinfo processed 1000000 aligned reads...  thread 6
+#3 Molinfo processed 1000000 aligned reads...  thread 14
+#3 Molinfo processed 1000000 aligned reads...  thread 12
+#3 Molinfo processed 1000000 aligned reads...  thread 32
+#3 Molinfo processed 1000000 aligned reads...  thread 5
+#3 Molinfo processed 1000000 aligned reads...  thread 2
+#3 Molinfo processed 1000000 aligned reads...  thread 3
+#3 Molinfo processed 1000000 aligned reads...  thread 10
+#3 Molinfo processed 1000000 aligned reads...  thread 20
+#3 Molinfo processed 1000000 aligned reads...  thread 4
+#3 Molinfo processed 1000000 aligned reads...  thread 27
+#3 Molinfo processed 1000000 aligned reads...  thread 13
+#3 Molinfo processed 1000000 aligned reads...  thread 7
+#3 Molinfo processed 1000000 aligned reads...  thread 11
+#3 Molinfo processed 1000000 aligned reads...  thread 26
+#3 Molinfo processed 1000000 aligned reads...  thread 17
+#3 Molinfo processed 900000 aligned reads...  thread 1
+#3 Molinfo processed 1000000 aligned reads...  thread 16
+#3 Molinfo processed 1000000 aligned reads...  thread 25
+#3 Molinfo processed 1000000 aligned reads...  thread 15
+#3 Molinfo processed 1000000 aligned reads...  thread 22
+#3 Molinfo processed 1000000 aligned reads...  thread 24
+#3 Molinfo processed 1000000 aligned reads...  thread 8
+#3 Molinfo processed 1000000 aligned reads...  thread 19
+#3 Molinfo processed 1000000 aligned reads...  thread 21
+#3 Molinfo processed 1000000 aligned reads...  thread 18
+#3 Molinfo processed 1000000 aligned reads...  thread 9
+#3 Molinfo processed 1000000 aligned reads...  thread 23
+#3 Molinfo processed 1100000 aligned reads...  thread 29
+#3 Molinfo processed 1100000 aligned reads...  thread 31
+#3 Molinfo processed 1100000 aligned reads...  thread 14
+#3 Molinfo processed 1100000 aligned reads...  thread 30
+#3 Molinfo processed 1100000 aligned reads...  thread 28
+#3 Molinfo processed 1100000 aligned reads...  thread 12
+#3 Molinfo processed 1100000 aligned reads...  thread 6
+#3 Molinfo processed 1100000 aligned reads...  thread 4
+#3 Molinfo processed 1100000 aligned reads...  thread 32
+#3 Molinfo processed 1100000 aligned reads...  thread 5
+#3 Molinfo processed 1100000 aligned reads...  thread 3
+#3 Molinfo processed 1100000 aligned reads...  thread 13
+#3 Molinfo processed 1100000 aligned reads...  thread 11
+#3 Molinfo processed 1100000 aligned reads...  thread 10
+#3 Molinfo processed 1100000 aligned reads...  thread 2
+#3 Molinfo processed 1100000 aligned reads...  thread 27
+#3 Molinfo processed 1100000 aligned reads...  thread 7
+#3 Molinfo processed 1100000 aligned reads...  thread 20
+#3 Molinfo processed 1100000 aligned reads...  thread 15
+#3 Molinfo processed 1100000 aligned reads...  thread 16
+#3 Molinfo processed 1100000 aligned reads...  thread 26
+#3 Molinfo processed 1100000 aligned reads...  thread 17
+#3 Molinfo processed 1100000 aligned reads...  thread 25
+#3 Molinfo processed 1000000 aligned reads...  thread 1
+#3 Molinfo processed 1100000 aligned reads...  thread 22
+#3 Molinfo processed 1100000 aligned reads...  thread 18
+#3 Molinfo processed 1100000 aligned reads...  thread 19
+#3 Molinfo processed 1100000 aligned reads...  thread 8
+#3 Molinfo processed 1100000 aligned reads...  thread 9
+#3 Molinfo processed 1100000 aligned reads...  thread 21
+#3 Molinfo processed 1100000 aligned reads...  thread 24
+#3 Molinfo processed 1200000 aligned reads...  thread 29
+#3 Molinfo processed 1200000 aligned reads...  thread 31
+#3 Molinfo processed 1100000 aligned reads...  thread 23
+#3 Molinfo processed 1200000 aligned reads...  thread 32
+#3 Molinfo processed 1200000 aligned reads...  thread 14
+#3 Molinfo processed 1200000 aligned reads...  thread 12
+#3 Molinfo processed 1200000 aligned reads...  thread 6
+#3 Molinfo processed 1200000 aligned reads...  thread 30
+#3 Molinfo processed 1200000 aligned reads...  thread 5
+#3 Molinfo processed 1200000 aligned reads...  thread 28
+#3 Molinfo processed 1200000 aligned reads...  thread 4
+#3 Molinfo processed 1200000 aligned reads...  thread 3
+#3 Molinfo processed 1200000 aligned reads...  thread 13
+#3 Molinfo processed 1200000 aligned reads...  thread 10
+#3 Molinfo processed 1200000 aligned reads...  thread 11
+#3 Molinfo processed 1200000 aligned reads...  thread 27
+#3 Molinfo processed 1200000 aligned reads...  thread 7
+#3 Molinfo processed 1200000 aligned reads...  thread 2
+#3 Molinfo processed 1200000 aligned reads...  thread 25
+#3 Molinfo processed 1200000 aligned reads...  thread 15
+#3 Molinfo processed 1200000 aligned reads...  thread 20
+#3 Molinfo processed 1200000 aligned reads...  thread 26
+#3 Molinfo processed 1200000 aligned reads...  thread 17
+#3 Molinfo processed 1200000 aligned reads...  thread 16
+#3 Molinfo processed 1100000 aligned reads...  thread 1
+#3 Molinfo processed 1200000 aligned reads...  thread 22
+#3 Molinfo processed 1200000 aligned reads...  thread 24
+#3 Molinfo processed 1300000 aligned reads...  thread 29
+#3 Molinfo processed 1200000 aligned reads...  thread 9
+#3 Molinfo processed 1200000 aligned reads...  thread 18
+#3 Molinfo processed 1200000 aligned reads...  thread 19
+#3 Molinfo processed 1200000 aligned reads...  thread 8
+#3 Molinfo processed 1200000 aligned reads...  thread 21
+#3 Molinfo processed 1300000 aligned reads...  thread 12
+#3 Molinfo processed 1300000 aligned reads...  thread 31
+#3 Molinfo processed 1300000 aligned reads...  thread 6
+#3 Molinfo processed 1300000 aligned reads...  thread 32
+#3 Molinfo processed 1300000 aligned reads...  thread 30
+#3 Molinfo processed 1200000 aligned reads...  thread 23
+#3 Molinfo processed 1300000 aligned reads...  thread 3
+#3 Molinfo processed 1300000 aligned reads...  thread 5
+#3 Molinfo processed 1300000 aligned reads...  thread 4
+#3 Molinfo processed 1300000 aligned reads...  thread 14
+#3 Molinfo processed 1300000 aligned reads...  thread 13
+#3 Molinfo processed 1300000 aligned reads...  thread 27
+#3 Molinfo processed 1300000 aligned reads...  thread 2
+#3 Molinfo processed 1300000 aligned reads...  thread 28
+#3 Molinfo processed 1300000 aligned reads...  thread 7
+#3 Molinfo processed 1300000 aligned reads...  thread 17
+#3 Molinfo processed 1300000 aligned reads...  thread 10
+#3 Molinfo processed 1300000 aligned reads...  thread 11
+#3 Molinfo processed 1300000 aligned reads...  thread 15
+#3 Molinfo processed 1300000 aligned reads...  thread 20
+#3 Molinfo processed 1300000 aligned reads...  thread 26
+#3 Molinfo processed 1300000 aligned reads...  thread 25
+#3 Molinfo processed 1300000 aligned reads...  thread 16
+#3 Molinfo processed 1200000 aligned reads...  thread 1
+#3 Molinfo processed 1300000 aligned reads...  thread 19
+#3 Molinfo processed 1300000 aligned reads...  thread 9
+#3 Molinfo processed 1300000 aligned reads...  thread 21
+#3 Molinfo processed 1300000 aligned reads...  thread 18
+#3 Molinfo processed 1300000 aligned reads...  thread 22
+#3 Molinfo processed 1300000 aligned reads...  thread 8
+#3 Molinfo processed 1300000 aligned reads...  thread 24
+#3 Molinfo processed 1400000 aligned reads...  thread 29
+#3 Molinfo processed 1400000 aligned reads...  thread 31
+#3 Molinfo processed 1400000 aligned reads...  thread 12
+#3 Molinfo processed 1400000 aligned reads...  thread 30
+#3 Molinfo processed 1400000 aligned reads...  thread 6
+#3 Molinfo processed 1400000 aligned reads...  thread 32
+#3 Molinfo processed 1300000 aligned reads...  thread 23
+#3 Molinfo processed 1400000 aligned reads...  thread 5
+#3 Molinfo processed 1400000 aligned reads...  thread 3
+#3 Molinfo processed 1400000 aligned reads...  thread 4
+#3 Molinfo processed 1400000 aligned reads...  thread 14
+#3 Molinfo processed 1400000 aligned reads...  thread 13
+#3 Molinfo processed 1400000 aligned reads...  thread 28
+#3 Molinfo processed 1400000 aligned reads...  thread 27
+#3 Molinfo processed 1400000 aligned reads...  thread 2
+#3 Molinfo processed 1400000 aligned reads...  thread 11
+#3 Molinfo processed 1400000 aligned reads...  thread 10
+#3 Molinfo processed 1400000 aligned reads...  thread 7
+#3 Molinfo processed 1400000 aligned reads...  thread 25
+#3 Molinfo processed 1400000 aligned reads...  thread 16
+#3 Molinfo processed 1400000 aligned reads...  thread 20
+#3 Molinfo processed 1400000 aligned reads...  thread 17
+#3 Molinfo processed 1400000 aligned reads...  thread 15
+#3 Molinfo processed 1400000 aligned reads...  thread 26
+#3 Molinfo processed 1400000 aligned reads...  thread 9
+#3 Molinfo processed 1400000 aligned reads...  thread 18
+#3 Molinfo processed 1400000 aligned reads...  thread 8
+#3 Molinfo processed 1400000 aligned reads...  thread 19
+#3 Molinfo processed 1400000 aligned reads...  thread 22
+#3 Molinfo processed 1500000 aligned reads...  thread 31
+#3 Molinfo processed 1300000 aligned reads...  thread 1
+#3 Molinfo processed 1400000 aligned reads...  thread 24
+#3 Molinfo processed 1500000 aligned reads...  thread 29
+#3 Molinfo processed 1500000 aligned reads...  thread 32
+#3 Molinfo processed 1500000 aligned reads...  thread 12
+#3 Molinfo processed 1400000 aligned reads...  thread 21
+#3 Molinfo processed 1500000 aligned reads...  thread 6
+#3 Molinfo processed 1500000 aligned reads...  thread 5
+#3 Molinfo processed 1500000 aligned reads...  thread 14
+#3 Molinfo processed 1400000 aligned reads...  thread 23
+#3 Molinfo processed 1500000 aligned reads...  thread 4
+#3 Molinfo processed 1500000 aligned reads...  thread 3
+#3 Molinfo processed 1500000 aligned reads...  thread 30
+#3 Molinfo processed 1500000 aligned reads...  thread 28
+#3 Molinfo processed 1500000 aligned reads...  thread 27
+#3 Molinfo processed 1500000 aligned reads...  thread 13
+#3 Molinfo processed 1500000 aligned reads...  thread 2
+#3 Molinfo processed 1500000 aligned reads...  thread 25
+#3 Molinfo processed 1500000 aligned reads...  thread 7
+#3 Molinfo processed 1500000 aligned reads...  thread 11
+#3 Molinfo processed 1500000 aligned reads...  thread 16
+#3 Molinfo processed 1500000 aligned reads...  thread 10
+#3 Molinfo processed 1500000 aligned reads...  thread 17
+#3 Molinfo processed 1500000 aligned reads...  thread 15
+#3 Molinfo processed 1500000 aligned reads...  thread 9
+#3 Molinfo processed 1500000 aligned reads...  thread 20
+#3 Molinfo processed 1500000 aligned reads...  thread 26
+#3 Molinfo processed 1500000 aligned reads...  thread 24
+#3 Molinfo processed 1500000 aligned reads...  thread 8
+#3 Molinfo processed 1600000 aligned reads...  thread 29
+#3 Molinfo processed 1600000 aligned reads...  thread 32
+#3 Molinfo processed 1500000 aligned reads...  thread 19
+#3 Molinfo processed 1500000 aligned reads...  thread 22
+#3 Molinfo processed 1500000 aligned reads...  thread 18
+#3 Molinfo processed 1600000 aligned reads...  thread 31
+#3 Molinfo processed 1600000 aligned reads...  thread 12
+#3 Molinfo processed 1600000 aligned reads...  thread 14
+#3 Molinfo processed 1500000 aligned reads...  thread 21
+#3 Molinfo processed 1600000 aligned reads...  thread 3
+#3 Molinfo processed 1600000 aligned reads...  thread 27
+#3 Molinfo processed 1400000 aligned reads...  thread 1
+#3 Molinfo processed 1600000 aligned reads...  thread 6
+#3 Molinfo processed 1600000 aligned reads...  thread 5
+#3 Molinfo processed 1600000 aligned reads...  thread 30
+#3 Molinfo processed 1600000 aligned reads...  thread 4
+#3 Molinfo processed 1600000 aligned reads...  thread 13
+#3 Molinfo processed 1600000 aligned reads...  thread 2
+#3 Molinfo processed 1600000 aligned reads...  thread 28
+#3 Molinfo processed 1500000 aligned reads...  thread 23
+#3 Molinfo processed 1600000 aligned reads...  thread 25
+#3 Molinfo processed 1600000 aligned reads...  thread 11
+#3 Molinfo processed 1600000 aligned reads...  thread 16
+#3 Molinfo processed 1600000 aligned reads...  thread 7
+#3 Molinfo processed 1600000 aligned reads...  thread 10
+#3 Molinfo processed 1600000 aligned reads...  thread 15
+#3 Molinfo processed 1600000 aligned reads...  thread 8
+#3 Molinfo processed 1600000 aligned reads...  thread 20
+#3 Molinfo processed 1600000 aligned reads...  thread 17
+#3 Molinfo processed 1700000 aligned reads...  thread 32
+#3 Molinfo processed 1700000 aligned reads...  thread 29
+#3 Molinfo processed 1600000 aligned reads...  thread 26
+#3 Molinfo processed 1600000 aligned reads...  thread 9
+#3 Molinfo processed 1600000 aligned reads...  thread 24
+#3 Molinfo processed 1700000 aligned reads...  thread 31
+#3 Molinfo processed 1600000 aligned reads...  thread 22
+#3 Molinfo processed 1700000 aligned reads...  thread 12
+#3 Molinfo processed 1600000 aligned reads...  thread 18
+#3 Molinfo processed 1700000 aligned reads...  thread 4
+#3 Molinfo processed 1700000 aligned reads...  thread 6
+#3 Molinfo processed 1700000 aligned reads...  thread 3
+#3 Molinfo processed 1600000 aligned reads...  thread 19
+#3 Molinfo processed 1700000 aligned reads...  thread 28
+#3 Molinfo processed 1700000 aligned reads...  thread 13
+#3 Molinfo processed 1700000 aligned reads...  thread 5
+#3 Molinfo processed 1500000 aligned reads...  thread 1
+#3 Molinfo processed 1600000 aligned reads...  thread 21
+#3 Molinfo processed 1700000 aligned reads...  thread 14
+#3 Molinfo processed 1700000 aligned reads...  thread 30
+#3 Molinfo processed 1700000 aligned reads...  thread 27
+#3 Molinfo processed 1700000 aligned reads...  thread 2
+#3 Molinfo processed 1600000 aligned reads...  thread 23
+#3 Molinfo processed 1700000 aligned reads...  thread 16
+#3 Molinfo processed 1700000 aligned reads...  thread 11
+#3 Molinfo processed 1700000 aligned reads...  thread 25
+#3 Molinfo processed 1700000 aligned reads...  thread 10
+#3 Molinfo processed 1700000 aligned reads...  thread 7
+#3 Molinfo processed 1700000 aligned reads...  thread 15
+#3 Molinfo processed 1800000 aligned reads...  thread 29
+#3 Molinfo processed 1700000 aligned reads...  thread 20
+#3 Molinfo processed 1700000 aligned reads...  thread 17
+#3 Molinfo processed 1700000 aligned reads...  thread 24
+#3 Molinfo processed 1700000 aligned reads...  thread 9
+#3 Molinfo processed 1700000 aligned reads...  thread 26
+#3 Molinfo processed 1700000 aligned reads...  thread 8
+#3 Molinfo processed 1800000 aligned reads...  thread 31
+#3 Molinfo processed 1800000 aligned reads...  thread 32
+#3 Molinfo processed 1800000 aligned reads...  thread 12
+#3 Molinfo processed 1800000 aligned reads...  thread 28
+#3 Molinfo processed 1700000 aligned reads...  thread 18
+#3 Molinfo processed 1700000 aligned reads...  thread 22
+#3 Molinfo processed 1800000 aligned reads...  thread 4
+#3 Molinfo processed 1800000 aligned reads...  thread 6
+#3 Molinfo processed 1800000 aligned reads...  thread 30
+#3 Molinfo processed 1800000 aligned reads...  thread 13
+#3 Molinfo processed 1800000 aligned reads...  thread 5
+#3 Molinfo processed 1800000 aligned reads...  thread 3
+#3 Molinfo processed 1700000 aligned reads...  thread 19
+#3 Molinfo processed 1800000 aligned reads...  thread 14
+#3 Molinfo processed 1800000 aligned reads...  thread 27
+#3 Molinfo processed 1700000 aligned reads...  thread 21
+#3 Molinfo processed 1800000 aligned reads...  thread 2
+#3 Molinfo processed 1600000 aligned reads...  thread 1
+#3 Molinfo processed 1700000 aligned reads...  thread 23
+#3 Molinfo processed 1800000 aligned reads...  thread 16
+#3 Molinfo processed 1800000 aligned reads...  thread 11
+#3 Molinfo processed 1800000 aligned reads...  thread 15
+#3 Molinfo processed 1900000 aligned reads...  thread 29
+#3 Molinfo processed 1800000 aligned reads...  thread 25
+#3 Molinfo processed 1800000 aligned reads...  thread 7
+#3 Molinfo processed 1800000 aligned reads...  thread 10
+#3 Molinfo processed 1800000 aligned reads...  thread 17
+#3 Molinfo processed 1800000 aligned reads...  thread 9
+#3 Molinfo processed 1900000 aligned reads...  thread 31
+#3 Molinfo processed 1800000 aligned reads...  thread 20
+#3 Molinfo processed 1800000 aligned reads...  thread 8
+#3 Molinfo processed 1800000 aligned reads...  thread 24
+#3 Molinfo processed 1800000 aligned reads...  thread 22
+#3 Molinfo processed 1800000 aligned reads...  thread 26
+#3 Molinfo processed 1900000 aligned reads...  thread 32
+#3 Molinfo processed 1900000 aligned reads...  thread 5
+#3 Molinfo processed 1900000 aligned reads...  thread 12
+#3 Molinfo processed 1900000 aligned reads...  thread 4
+#3 Molinfo processed 1900000 aligned reads...  thread 6
+#3 Molinfo processed 1900000 aligned reads...  thread 3
+#3 Molinfo processed 1900000 aligned reads...  thread 28
+#3 Molinfo processed 1800000 aligned reads...  thread 18
+#3 Molinfo processed 1900000 aligned reads...  thread 14
+#3 Molinfo processed 1800000 aligned reads...  thread 19
+#3 Molinfo processed 1900000 aligned reads...  thread 30
+#3 Molinfo processed 1900000 aligned reads...  thread 13
+#3 Molinfo processed 1800000 aligned reads...  thread 21
+#3 Molinfo processed 1900000 aligned reads...  thread 2
+#3 Molinfo processed 1900000 aligned reads...  thread 27
+#3 Molinfo processed 1800000 aligned reads...  thread 23
+#3 Molinfo processed 1700000 aligned reads...  thread 1
+#3 Molinfo processed 1900000 aligned reads...  thread 11
+#3 Molinfo processed 1900000 aligned reads...  thread 25
+#3 Molinfo processed 1900000 aligned reads...  thread 10
+#3 Molinfo processed 1900000 aligned reads...  thread 26
+#3 Molinfo processed 1900000 aligned reads...  thread 16
+#3 Molinfo processed 2000000 aligned reads...  thread 29
+#3 Molinfo processed 1900000 aligned reads...  thread 7
+#3 Molinfo processed 1900000 aligned reads...  thread 15
+#3 Molinfo processed 1900000 aligned reads...  thread 9
+#3 Molinfo processed 1900000 aligned reads...  thread 20
+#3 Molinfo processed 1900000 aligned reads...  thread 17
+#3 Molinfo processed 1900000 aligned reads...  thread 24
+#3 Molinfo processed 2000000 aligned reads...  thread 6
+#3 Molinfo processed 2000000 aligned reads...  thread 31
+#3 Molinfo processed 2000000 aligned reads...  thread 4
+#3 Molinfo processed 2000000 aligned reads...  thread 30
+#3 Molinfo processed 1900000 aligned reads...  thread 8
+#3 Molinfo processed 2000000 aligned reads...  thread 12
+#3 Molinfo processed 2000000 aligned reads...  thread 28
+#3 Molinfo processed 1900000 aligned reads...  thread 22
+#3 Molinfo processed 2000000 aligned reads...  thread 32
+#3 Molinfo processed 1900000 aligned reads...  thread 18
+#3 Molinfo processed 2000000 aligned reads...  thread 5
+#3 Molinfo processed 1900000 aligned reads...  thread 19
+#3 Molinfo processed 2000000 aligned reads...  thread 3
+#3 Molinfo processed 2000000 aligned reads...  thread 13
+#3 Molinfo processed 2000000 aligned reads...  thread 14
+#3 Molinfo processed 1900000 aligned reads...  thread 21
+#3 Molinfo processed 2000000 aligned reads...  thread 27
+#3 Molinfo processed 2000000 aligned reads...  thread 11
+#3 Molinfo processed 1900000 aligned reads...  thread 23
+#3 Molinfo processed 2000000 aligned reads...  thread 2
+#3 Molinfo processed 2000000 aligned reads...  thread 25
+#3 Molinfo processed 1800000 aligned reads...  thread 1
+#3 Molinfo processed 2000000 aligned reads...  thread 10
+#3 Molinfo processed 2000000 aligned reads...  thread 9
+#3 Molinfo processed 2000000 aligned reads...  thread 16
+#3 Molinfo processed 2000000 aligned reads...  thread 15
+#3 Molinfo processed 2000000 aligned reads...  thread 20
+#3 Molinfo processed 2000000 aligned reads...  thread 7
+#3 Molinfo processed 2000000 aligned reads...  thread 17
+#3 Molinfo processed 2000000 aligned reads...  thread 24
+#3 Molinfo processed 2000000 aligned reads...  thread 8
+#3 Molinfo processed 2000000 aligned reads...  thread 26
+#3 Molinfo processed 2000000 aligned reads...  thread 22
+#3 Molinfo processed 2000000 aligned reads...  thread 18
+#3 Molinfo processed 2000000 aligned reads...  thread 19
+#3 Molinfo processed 2000000 aligned reads...  thread 21
+#3 Molinfo processed 1900000 aligned reads...  thread 1
+#3 Molinfo processed 2000000 aligned reads...  thread 23
+#3 Molinfo processed 2000000 aligned reads...  thread 1
+#2 Combining 32 annotated bam parts
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk1.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk2.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk3.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk4.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk5.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk6.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk7.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk8.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk9.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk10.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk11.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk12.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk13.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk14.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk15.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk16.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk17.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk18.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk19.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk20.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk21.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk22.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk23.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk24.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk25.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk26.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk27.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk28.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk29.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk30.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk31.bam
+#3 bam part file /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.chunk32.bam
+# # Subproc:, Call:   /home/batiuk/mambaforge/envs/spipe/bin/samtools cat -b /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/temp1.temp -o /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/barcode_headAligned_anno.bam
+# Subproc: Status: True
+# Subproc: Output: (first 100 char)
+
+# Subproc: Duration 0:00:03.84
+#2 Combining 32 transcript assignment parts
+# Wrote 18 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/pipeline_stats.csv
+#2 PF_STAT_PIPE Row_1_of_20                                  value
+#2 PF_STAT_PIPE Row_2_of_20  statistic                            
+#2 PF_STAT_PIPE Row_3_of_20  bc1_perfrac              7.540000e-01
+#2 PF_STAT_PIPE Row_4_of_20  bc2_perfrac              8.130000e-01
+#2 PF_STAT_PIPE Row_5_of_20  bc3_perfrac              8.770000e-01
+#2 PF_STAT_PIPE Row_6_of_20  bc_edit_dist_0           6.263514e+07
+# Cleaning molinfo temp files
+# Compressing transcript assignments csv
+#2 MemStatus: Molinfo  14.9G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Molinfo  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+#2 MemStatus: Molinfo  14.9G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: Molinfo  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# << Running Molinfo; Status True; Duration 0:20:34.73
+
+#2 MemStatus: DGE  14.9G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: DGE  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# >> Running DGE
+#2 MemStatus: DGE  14.9G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 DskStatus: DGE  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# Processing global (not per-sample) data
+#2 No map targets to screen
+# Processing data for 5 samples
+# DGE processing sample (1) S1
+#2 MemStatus: DGE_samp_1  14.9G proc, 1.9G rss, 13.1G vms, 2.7% usd, 489.5G avail
+#2 Read Dataframe: Dims 18 x 1, Mem 288B (288) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/pipeline_stats.csv
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/sequencing_stats.csv
+#2 Loading transcript assignments from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/tscp_assignment.csv.gz
+#2 DF 'tas_df': Dims 49961161 x 11, Mem 3.8G (4046854169)
+#2 Starting tscp records 49961161
+#2 Masking tscp to wells (A12, n=1)
+#2 After sample-mask tscp records 8853877
+#2 Getting unfiltered DGE matrix
+# >> Getting DGE; S1 Unfiltered, Genes all, Barcodes TBD
+#2 Raw transcripts per cell (9094, 1)
+#2 Getting tscp cutoff to call cells
+#2 Cells filtered by tscp cutoff 10: cells 8356
+#2 dge_matrix (8356, 57012)
+#2 expressed_genes S1 Unfiltered, Genes all, Barcodes TBD, genes=23192
+#2 << DGE matrix S1 Unfiltered, Genes all, Barcodes TBD (8356, 57012), bc_indexes (8356,)
+#2 Matrix 8356 x 57012 = 476392272 total; 3006395 (0.63%) >= 1; 612598 (0.13%) >= 3; 130382 (0.03%) >= 10
+# Wrote 8356 by 57012 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/DGE_unfiltered/DGE.mtx
+#2 Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/DGE_unfiltered/all_genes.csv
+# Wrote 8356 by 12 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/DGE_unfiltered/cell_metadata.csv
+#2 SFU_CELL Row_1_of_8358           sample         species  gene_count  tscp_count  mread_count bc1_well bc2_well bc3_well  bc1_wind  bc2_wind  bc3_wind
+#2 SFU_CELL Row_2_of_8358  bc_wells                                                                                                                     
+#2 SFU_CELL Row_3_of_8358  12_01_01     S1  mus109-tdt-yfp         119         135          145      A12       A1       A1        12         1         1
+#2 SFU_CELL Row_4_of_8358  12_01_02     S1  mus109-tdt-yfp         144         165          174      A12       A1       A2        12         1         2
+#2 SFU_CELL Row_5_of_8358  12_01_03     S1  mus109-tdt-yfp         140         158          175      A12       A1       A3        12         1         3
+#2 SFU_CELL Row_6_of_8358  12_01_04     S1  mus109-tdt-yfp         137         159          169      A12       A1       A4        12         1         4
+#2 Getting filtered DGE matrix
+# >> Getting DGE; S1 Filtered, Genes all, Barcodes TBD
+#2 Raw transcripts per cell (9094, 1)
+#2 Getting tscp cutoff to call cells
+#2 Calculating tscp cutoff; Cell min=10 (5), max=30000, Tscp min=30
+#2 Cell bounds scaled by 1 wells; min=5, max=2500
+#2 Transcript cutoff status True, thresh 824
+#2 Cells filtered by tscp cutoff 824: cells 678
+#2 dge_matrix (678, 57012)
+#2 expressed_genes S1 Filtered, Genes all, Barcodes TBD, genes=22811
+#2 << DGE matrix S1 Filtered, Genes all, Barcodes TBD (678, 57012), bc_indexes (678,)
+#2 Matrix 678 x 57012 = 38654136 total; 2080123 (5.38%) >= 1; 594827 (1.54%) >= 3; 129922 (0.34%) >= 10
+# Wrote 678 by 57012 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/DGE_filtered/DGE.mtx
+#2 Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/DGE_filtered/all_genes.csv
+# Wrote 678 by 12 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/DGE_filtered/cell_metadata.csv
+#2 SFF_CELL Row_1_of_680           sample         species  gene_count  tscp_count  mread_count bc1_well bc2_well bc3_well  bc1_wind  bc2_wind  bc3_wind
+#2 SFF_CELL Row_2_of_680  bc_wells                                                                                                                     
+#2 SFF_CELL Row_3_of_680  12_01_06     S1  mus109-tdt-yfp        2266        5677         6299      A12       A1       A6        12         1         6
+#2 SFF_CELL Row_4_of_680  12_01_40     S1  mus109-tdt-yfp        6476       41210        45700      A12       A1       D4        12         1        40
+#2 SFF_CELL Row_5_of_680  12_01_42     S1  mus109-tdt-yfp        4812       23776        26483      A12       A1       D6        12         1        42
+#2 SFF_CELL Row_6_of_680  12_01_61     S1  mus109-tdt-yfp        1427        2535         2791      A12       A1       F1        12         1        61
+# Wrote 22811 by 5 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/expressed_genes.csv
+#2 SFF_EXPRESS_GENE Row_1_of_22812                    gene_id        gene_name          genome  cell_count  tscp_count
+#2 SFF_EXPRESS_GENE Row_2_of_22812  0      ENSMUSG00000000001            Gnai3  mus109-tdt-yfp         185         264
+#2 SFF_EXPRESS_GENE Row_3_of_22812  2      ENSMUSG00000000028            Cdc45  mus109-tdt-yfp          12          12
+#2 SFF_EXPRESS_GENE Row_4_of_22812  4      ENSMUSG00000000037            Scml2  mus109-tdt-yfp          10          11
+#2 SFF_EXPRESS_GENE Row_5_of_22812  5      ENSMUSG00000000049             Apoh  mus109-tdt-yfp           8           9
+#2 SFF_EXPRESS_GENE Row_6_of_22812  6      ENSMUSG00000000056             Narf  mus109-tdt-yfp         183         263
+# Wrote 32 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_cutoff_calc.csv
+#2 SFR_TSCP_CUTOFF Row_1_of_34                               value
+#2 SFR_TSCP_CUTOFF Row_2_of_34  statistic                         
+#2 SFR_TSCP_CUTOFF Row_3_of_34  cell_call          get_tscp_cutoff
+#2 SFR_TSCP_CUTOFF Row_4_of_34  cell_tscp_cutoff               824
+#2 SFR_TSCP_CUTOFF Row_5_of_34  cnt_scale_fac                  1.0
+#2 SFR_TSCP_CUTOFF Row_6_of_34  cv_slope_win                  0.02
+# Wrote 9094 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_counts.csv
+#2 SFR_TSCP_CT Row_1_of_9096            count
+#2 SFR_TSCP_CT Row_2_of_9096  bc_wells       
+#2 SFR_TSCP_CT Row_3_of_9096  12_01_01    135
+#2 SFR_TSCP_CT Row_4_of_9096  12_01_02    165
+#2 SFR_TSCP_CT Row_5_of_9096  12_01_03    158
+#2 SFR_TSCP_CT Row_6_of_9096  12_01_04    159
+# Wrote 678 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/species_read_counts.csv
+#2 SFR_SPEC_READ_CT Row_1_of_680            mus109-tdt-yfp
+#2 SFR_SPEC_READ_CT Row_2_of_680  bc_wells                
+#2 SFR_SPEC_READ_CT Row_3_of_680  12_01_06            6299
+#2 SFR_SPEC_READ_CT Row_4_of_680  12_01_40           45700
+#2 SFR_SPEC_READ_CT Row_5_of_680  12_01_42           26483
+#2 SFR_SPEC_READ_CT Row_6_of_680  12_01_61            2791
+# Wrote 678 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/species_tscp_counts.csv
+#2 SFR_SPEC_TSCP_CT Row_1_of_680            mus109-tdt-yfp
+#2 SFR_SPEC_TSCP_CT Row_2_of_680  bc_wells                
+#2 SFR_SPEC_TSCP_CT Row_3_of_680  12_01_06            5677
+#2 SFR_SPEC_TSCP_CT Row_4_of_680  12_01_40           41210
+#2 SFR_SPEC_TSCP_CT Row_5_of_680  12_01_42           23776
+#2 SFR_SPEC_TSCP_CT Row_6_of_680  12_01_61            2535
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_median_by_rnd1_well.csv
+#2 SFR_TSCP_R1W Row_1_of_14        count
+#2 SFR_TSCP_R1W Row_2_of_14  well       
+#2 SFR_TSCP_R1W Row_3_of_14  1         0
+#2 SFR_TSCP_R1W Row_4_of_14  2         0
+#2 SFR_TSCP_R1W Row_5_of_14  3         0
+#2 SFR_TSCP_R1W Row_6_of_14  4         0
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_median_by_rnd2_well.csv
+#2 SFR_TSCP_R2W Row_1_of_98        count
+#2 SFR_TSCP_R2W Row_2_of_98  well       
+#2 SFR_TSCP_R2W Row_3_of_98  1     23776
+#2 SFR_TSCP_R2W Row_4_of_98  2     10893
+#2 SFR_TSCP_R2W Row_5_of_98  3      1747
+#2 SFR_TSCP_R2W Row_6_of_98  4      6804
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_median_by_rnd3_well.csv
+#2 SFR_TSCP_R3W Row_1_of_98        count
+#2 SFR_TSCP_R3W Row_2_of_98  well       
+#2 SFR_TSCP_R3W Row_3_of_98  1     18656
+#2 SFR_TSCP_R3W Row_4_of_98  2      6362
+#2 SFR_TSCP_R3W Row_5_of_98  3     28916
+#2 SFR_TSCP_R3W Row_6_of_98  4      3854
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/cell_counts_by_rnd1_well.csv
+#2 SFR_CELL_R1W Row_1_of_14        count
+#2 SFR_CELL_R1W Row_2_of_14  well       
+#2 SFR_CELL_R1W Row_3_of_14  1         0
+#2 SFR_CELL_R1W Row_4_of_14  2         0
+#2 SFR_CELL_R1W Row_5_of_14  3         0
+#2 SFR_CELL_R1W Row_6_of_14  4         0
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/cell_counts_by_rnd2_well.csv
+#2 SFR_CELL_R2W Row_1_of_98        count
+#2 SFR_CELL_R2W Row_2_of_98  well       
+#2 SFR_CELL_R2W Row_3_of_98  1         5
+#2 SFR_CELL_R2W Row_4_of_98  2         7
+#2 SFR_CELL_R2W Row_5_of_98  3         5
+#2 SFR_CELL_R2W Row_6_of_98  4        11
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/cell_counts_by_rnd3_well.csv
+#2 SFR_CELL_R3W Row_1_of_98        count
+#2 SFR_CELL_R3W Row_2_of_98  well       
+#2 SFR_CELL_R3W Row_3_of_98  1         6
+#2 SFR_CELL_R3W Row_4_of_98  2        11
+#2 SFR_CELL_R3W Row_5_of_98  3         3
+#2 SFR_CELL_R3W Row_6_of_98  4         8
+# Wrote 6 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/sample_mrtg_counts.csv
+#2 SFR_SAMP_MRTG_CT Row_1_of_8                       count
+#2 SFR_SAMP_MRTG_CT Row_2_of_8  statistic                 
+#2 SFR_SAMP_MRTG_CT Row_3_of_8  cell_gene_count      22811
+#2 SFR_SAMP_MRTG_CT Row_4_of_8  cell_mread_count   8653582
+#2 SFR_SAMP_MRTG_CT Row_5_of_8  cell_tscp_count    7815565
+#2 SFR_SAMP_MRTG_CT Row_6_of_8  total_gene_count     23193
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/sample_mrtg_counts.csv
+#2 Getting read subsample stats
+#2 Subsampling 13 depths to 22698 for mus109-tdt-yfp
+#3 Subsample depth[0] = 1000.0
+#3 Subsample depth[1] = 2000.0
+#3 Subsample depth[2] = 3000.0
+#3 Subsample depth[3] = 4000.0
+#3 Subsample depth[4] = 5000.0
+#3 Subsample depth[5] = 6000.0
+#3 Subsample depth[6] = 8000.0
+#3 Subsample depth[7] = 10000.0
+#3 Subsample depth[8] = 12000.0
+#3 Subsample depth[9] = 14000.0
+#3 Subsample depth[10] = 16000.0
+#3 Subsample depth[11] = 20000.0
+#3 Subsample depth[12] = 22698.39917118173
+# Wrote 14 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/gene_counts_subsampled.csv
+#2 SFR_SS_GENE_CT Row_1_of_16                mus109-tdt-yfp
+#2 SFR_SS_GENE_CT Row_2_of_16  subsample                   
+#2 SFR_SS_GENE_CT Row_3_of_16  0.000000                 0.0
+#2 SFR_SS_GENE_CT Row_4_of_16  1000.000000            330.5
+#2 SFR_SS_GENE_CT Row_5_of_16  2000.000000            582.5
+#2 SFR_SS_GENE_CT Row_6_of_16  3000.000000            794.0
+# Wrote 14 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_counts_subsampled.csv
+#2 SFR_SS_TSCP_CT Row_1_of_16                mus109-tdt-yfp
+#2 SFR_SS_TSCP_CT Row_2_of_16  subsample                   
+#2 SFR_SS_TSCP_CT Row_3_of_16  0.000000                 0.0
+#2 SFR_SS_TSCP_CT Row_4_of_16  1000.000000            413.5
+#2 SFR_SS_TSCP_CT Row_5_of_16  2000.000000            824.0
+#2 SFR_SS_TSCP_CT Row_6_of_16  3000.000000           1225.5
+# Wrote 50 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/analysis_all_stats.csv
+#2 SFR_ALLSTATS Row_1_of_52                                                 value
+#2 SFR_ALLSTATS Row_2_of_52  statistic                                           
+#2 SFR_ALLSTATS Row_3_of_52  bc1_Q30                                 8.720000e-01
+#2 SFR_ALLSTATS Row_4_of_52  bc1_perfrac                             7.540000e-01
+#2 SFR_ALLSTATS Row_5_of_52  bc2_Q30                                 9.040000e-01
+#2 SFR_ALLSTATS Row_6_of_52  bc2_perfrac                             8.130000e-01
+# Wrote 24 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/analysis_summary.csv
+#2 SFR_ASUM_CSV Row_1_of_26                                                 value
+#2 SFR_ASUM_CSV Row_2_of_26  statistic                                           
+#2 SFR_ASUM_CSV Row_3_of_26  sample_well_count                       1.000000e+00
+#2 SFR_ASUM_CSV Row_4_of_26  number_of_cells                         6.780000e+02
+#2 SFR_ASUM_CSV Row_5_of_26  mus109-tdt-yfp_number_of_cells          6.780000e+02
+#2 SFR_ASUM_CSV Row_6_of_26  mus109-tdt-yfp_median_tscp_per_cell     8.473000e+03
+# DGE processing sample (2) S3
+#2 MemStatus: DGE_samp_2  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 Read Dataframe: Dims 18 x 1, Mem 288B (288) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/pipeline_stats.csv
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/sequencing_stats.csv
+#2 Starting tscp records 49961161
+#2 Masking tscp to wells (A8-A11, n=4)
+#2 After sample-mask tscp records 15042021
+#2 Getting unfiltered DGE matrix
+# >> Getting DGE; S3 Unfiltered, Genes all, Barcodes TBD
+#2 Raw transcripts per cell (35689, 1)
+#2 Getting tscp cutoff to call cells
+#2 Cells filtered by tscp cutoff 10: cells 32490
+#2 dge_matrix (32490, 57012)
+#2 expressed_genes S3 Unfiltered, Genes all, Barcodes TBD, genes=24753
+#2 << DGE matrix S3 Unfiltered, Genes all, Barcodes TBD (32490, 57012), bc_indexes (32490,)
+#2 Matrix 32490 x 57012 = 1852319880 total; 5790916 (0.31%) >= 1; 1043380 (0.06%) >= 3; 209520 (0.01%) >= 10
+# Wrote 32490 by 57012 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/DGE_unfiltered/DGE.mtx
+#2 Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/DGE_unfiltered/all_genes.csv
+# Wrote 32490 by 12 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/DGE_unfiltered/cell_metadata.csv
+#2 SFU_CELL Row_1_of_32492           sample         species  gene_count  tscp_count  mread_count bc1_well bc2_well bc3_well  bc1_wind  bc2_wind  bc3_wind
+#2 SFU_CELL Row_2_of_32492  bc_wells                                                                                                                     
+#2 SFU_CELL Row_3_of_32492  08_01_01     S3  mus109-tdt-yfp          57          61           67       A8       A1       A1         8         1         1
+#2 SFU_CELL Row_4_of_32492  08_01_02     S3  mus109-tdt-yfp          59          61           68       A8       A1       A2         8         1         2
+#2 SFU_CELL Row_5_of_32492  08_01_03     S3  mus109-tdt-yfp          50          53           56       A8       A1       A3         8         1         3
+#2 SFU_CELL Row_6_of_32492  08_01_04     S3  mus109-tdt-yfp          55          59           63       A8       A1       A4         8         1         4
+#2 Getting filtered DGE matrix
+# >> Getting DGE; S3 Filtered, Genes all, Barcodes TBD
+#2 Raw transcripts per cell (35689, 1)
+#2 Getting tscp cutoff to call cells
+#2 Calculating tscp cutoff; Cell min=10 (5), max=30000, Tscp min=30
+#2 Cell bounds scaled by 4 wells; min=5, max=10000
+#2 Transcript cutoff status True, thresh 745
+#2 Cells filtered by tscp cutoff 745: cells 1443
+#2 dge_matrix (1443, 57012)
+#2 expressed_genes S3 Filtered, Genes all, Barcodes TBD, genes=24200
+#2 << DGE matrix S3 Filtered, Genes all, Barcodes TBD (1443, 57012), bc_indexes (1443,)
+#2 Matrix 1443 x 57012 = 82268316 total; 3971982 (4.83%) >= 1; 1023975 (1.24%) >= 3; 209284 (0.25%) >= 10
+# Wrote 1443 by 57012 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/DGE_filtered/DGE.mtx
+#2 Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/DGE_filtered/all_genes.csv
+# Wrote 1443 by 12 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/DGE_filtered/cell_metadata.csv
+#2 SFF_CELL Row_1_of_1445           sample         species  gene_count  tscp_count  mread_count bc1_well bc2_well bc3_well  bc1_wind  bc2_wind  bc3_wind
+#2 SFF_CELL Row_2_of_1445  bc_wells                                                                                                                     
+#2 SFF_CELL Row_3_of_1445  08_01_22     S3  mus109-tdt-yfp        3803       13847        15404       A8       A1      B10         8         1        22
+#2 SFF_CELL Row_4_of_1445  08_01_28     S3  mus109-tdt-yfp        3947       13971        15560       A8       A1       C4         8         1        28
+#2 SFF_CELL Row_5_of_1445  08_01_35     S3  mus109-tdt-yfp        4113       16849        18739       A8       A1      C11         8         1        35
+#2 SFF_CELL Row_6_of_1445  08_03_47     S3  mus109-tdt-yfp        3146        9443        10558       A8       A3      D11         8         3        47
+# Wrote 24200 by 5 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/expressed_genes.csv
+#2 SFF_EXPRESS_GENE Row_1_of_24201                    gene_id        gene_name          genome  cell_count  tscp_count
+#2 SFF_EXPRESS_GENE Row_2_of_24201  0      ENSMUSG00000000001            Gnai3  mus109-tdt-yfp         321         408
+#2 SFF_EXPRESS_GENE Row_3_of_24201  2      ENSMUSG00000000028            Cdc45  mus109-tdt-yfp          11          12
+#2 SFF_EXPRESS_GENE Row_4_of_24201  4      ENSMUSG00000000037            Scml2  mus109-tdt-yfp          22          27
+#2 SFF_EXPRESS_GENE Row_5_of_24201  5      ENSMUSG00000000049             Apoh  mus109-tdt-yfp           8           9
+#2 SFF_EXPRESS_GENE Row_6_of_24201  6      ENSMUSG00000000056             Narf  mus109-tdt-yfp         304         379
+# Wrote 32 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_cutoff_calc.csv
+#2 SFR_TSCP_CUTOFF Row_1_of_34                               value
+#2 SFR_TSCP_CUTOFF Row_2_of_34  statistic                         
+#2 SFR_TSCP_CUTOFF Row_3_of_34  cell_call          get_tscp_cutoff
+#2 SFR_TSCP_CUTOFF Row_4_of_34  cell_tscp_cutoff               745
+#2 SFR_TSCP_CUTOFF Row_5_of_34  cnt_scale_fac                  1.0
+#2 SFR_TSCP_CUTOFF Row_6_of_34  cv_slope_win                  0.02
+# Wrote 35689 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_counts.csv
+#2 SFR_TSCP_CT Row_1_of_35691            count
+#2 SFR_TSCP_CT Row_2_of_35691  bc_wells       
+#2 SFR_TSCP_CT Row_3_of_35691  08_01_01     61
+#2 SFR_TSCP_CT Row_4_of_35691  08_01_02     61
+#2 SFR_TSCP_CT Row_5_of_35691  08_01_03     53
+#2 SFR_TSCP_CT Row_6_of_35691  08_01_04     59
+# Wrote 1443 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/species_read_counts.csv
+#2 SFR_SPEC_READ_CT Row_1_of_1445            mus109-tdt-yfp
+#2 SFR_SPEC_READ_CT Row_2_of_1445  bc_wells                
+#2 SFR_SPEC_READ_CT Row_3_of_1445  08_01_22           15404
+#2 SFR_SPEC_READ_CT Row_4_of_1445  08_01_28           15560
+#2 SFR_SPEC_READ_CT Row_5_of_1445  08_01_35           18739
+#2 SFR_SPEC_READ_CT Row_6_of_1445  08_03_47           10558
+# Wrote 1443 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/species_tscp_counts.csv
+#2 SFR_SPEC_TSCP_CT Row_1_of_1445            mus109-tdt-yfp
+#2 SFR_SPEC_TSCP_CT Row_2_of_1445  bc_wells                
+#2 SFR_SPEC_TSCP_CT Row_3_of_1445  08_01_22           13847
+#2 SFR_SPEC_TSCP_CT Row_4_of_1445  08_01_28           13971
+#2 SFR_SPEC_TSCP_CT Row_5_of_1445  08_01_35           16849
+#2 SFR_SPEC_TSCP_CT Row_6_of_1445  08_03_47            9443
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_median_by_rnd1_well.csv
+#2 SFR_TSCP_R1W Row_1_of_14        count
+#2 SFR_TSCP_R1W Row_2_of_14  well       
+#2 SFR_TSCP_R1W Row_3_of_14  1         0
+#2 SFR_TSCP_R1W Row_4_of_14  2         0
+#2 SFR_TSCP_R1W Row_5_of_14  3         0
+#2 SFR_TSCP_R1W Row_6_of_14  4         0
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_median_by_rnd2_well.csv
+#2 SFR_TSCP_R2W Row_1_of_98        count
+#2 SFR_TSCP_R2W Row_2_of_98  well       
+#2 SFR_TSCP_R2W Row_3_of_98  1      7735
+#2 SFR_TSCP_R2W Row_4_of_98  2     13582
+#2 SFR_TSCP_R2W Row_5_of_98  3      9724
+#2 SFR_TSCP_R2W Row_6_of_98  4      8471
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_median_by_rnd3_well.csv
+#2 SFR_TSCP_R3W Row_1_of_98        count
+#2 SFR_TSCP_R3W Row_2_of_98  well       
+#2 SFR_TSCP_R3W Row_3_of_98  1     12087
+#2 SFR_TSCP_R3W Row_4_of_98  2      9771
+#2 SFR_TSCP_R3W Row_5_of_98  3      9303
+#2 SFR_TSCP_R3W Row_6_of_98  4     11449
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/cell_counts_by_rnd1_well.csv
+#2 SFR_CELL_R1W Row_1_of_14        count
+#2 SFR_CELL_R1W Row_2_of_14  well       
+#2 SFR_CELL_R1W Row_3_of_14  1         0
+#2 SFR_CELL_R1W Row_4_of_14  2         0
+#2 SFR_CELL_R1W Row_5_of_14  3         0
+#2 SFR_CELL_R1W Row_6_of_14  4         0
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/cell_counts_by_rnd2_well.csv
+#2 SFR_CELL_R2W Row_1_of_98        count
+#2 SFR_CELL_R2W Row_2_of_98  well       
+#2 SFR_CELL_R2W Row_3_of_98  1        12
+#2 SFR_CELL_R2W Row_4_of_98  2        11
+#2 SFR_CELL_R2W Row_5_of_98  3        17
+#2 SFR_CELL_R2W Row_6_of_98  4        19
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/cell_counts_by_rnd3_well.csv
+#2 SFR_CELL_R3W Row_1_of_98        count
+#2 SFR_CELL_R3W Row_2_of_98  well       
+#2 SFR_CELL_R3W Row_3_of_98  1         7
+#2 SFR_CELL_R3W Row_4_of_98  2        14
+#2 SFR_CELL_R3W Row_5_of_98  3        11
+#2 SFR_CELL_R3W Row_6_of_98  4        19
+# Wrote 6 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/sample_mrtg_counts.csv
+#2 SFR_SAMP_MRTG_CT Row_1_of_8                        count
+#2 SFR_SAMP_MRTG_CT Row_2_of_8  statistic                  
+#2 SFR_SAMP_MRTG_CT Row_3_of_8  cell_gene_count       24200
+#2 SFR_SAMP_MRTG_CT Row_4_of_8  cell_mread_count   14534249
+#2 SFR_SAMP_MRTG_CT Row_5_of_8  cell_tscp_count    13080928
+#2 SFR_SAMP_MRTG_CT Row_6_of_8  total_gene_count      24755
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/sample_mrtg_counts.csv
+#2 Getting read subsample stats
+#2 Subsampling 12 depths to 18119 for mus109-tdt-yfp
+#3 Subsample depth[0] = 1000.0
+#3 Subsample depth[1] = 2000.0
+#3 Subsample depth[2] = 3000.0
+#3 Subsample depth[3] = 4000.0
+#3 Subsample depth[4] = 5000.0
+#3 Subsample depth[5] = 6000.0
+#3 Subsample depth[6] = 8000.0
+#3 Subsample depth[7] = 10000.0
+#3 Subsample depth[8] = 12000.0
+#3 Subsample depth[9] = 14000.0
+#3 Subsample depth[10] = 16000.0
+#3 Subsample depth[11] = 18118.877895144073
+# Wrote 13 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/gene_counts_subsampled.csv
+#2 SFR_SS_GENE_CT Row_1_of_15                mus109-tdt-yfp
+#2 SFR_SS_GENE_CT Row_2_of_15  subsample                   
+#2 SFR_SS_GENE_CT Row_3_of_15  0.000000                 0.0
+#2 SFR_SS_GENE_CT Row_4_of_15  1000.000000            370.0
+#2 SFR_SS_GENE_CT Row_5_of_15  2000.000000            643.0
+#2 SFR_SS_GENE_CT Row_6_of_15  3000.000000            875.0
+# Wrote 13 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_counts_subsampled.csv
+#2 SFR_SS_TSCP_CT Row_1_of_15                mus109-tdt-yfp
+#2 SFR_SS_TSCP_CT Row_2_of_15  subsample                   
+#2 SFR_SS_TSCP_CT Row_3_of_15  0.000000                 0.0
+#2 SFR_SS_TSCP_CT Row_4_of_15  1000.000000            484.0
+#2 SFR_SS_TSCP_CT Row_5_of_15  2000.000000            955.0
+#2 SFR_SS_TSCP_CT Row_6_of_15  3000.000000           1425.0
+# Wrote 50 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/analysis_all_stats.csv
+#2 SFR_ALLSTATS Row_1_of_52                                                 value
+#2 SFR_ALLSTATS Row_2_of_52  statistic                                           
+#2 SFR_ALLSTATS Row_3_of_52  bc1_Q30                                 8.720000e-01
+#2 SFR_ALLSTATS Row_4_of_52  bc1_perfrac                             7.540000e-01
+#2 SFR_ALLSTATS Row_5_of_52  bc2_Q30                                 9.040000e-01
+#2 SFR_ALLSTATS Row_6_of_52  bc2_perfrac                             8.130000e-01
+# Wrote 24 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/analysis_summary.csv
+#2 SFR_ASUM_CSV Row_1_of_26                                                 value
+#2 SFR_ASUM_CSV Row_2_of_26  statistic                                           
+#2 SFR_ASUM_CSV Row_3_of_26  sample_well_count                       4.000000e+00
+#2 SFR_ASUM_CSV Row_4_of_26  number_of_cells                         1.443000e+03
+#2 SFR_ASUM_CSV Row_5_of_26  mus109-tdt-yfp_number_of_cells          1.443000e+03
+#2 SFR_ASUM_CSV Row_6_of_26  mus109-tdt-yfp_median_tscp_per_cell     7.903000e+03
+# DGE processing sample (3) sample_76
+#2 MemStatus: DGE_samp_3  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 Read Dataframe: Dims 18 x 1, Mem 288B (288) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/pipeline_stats.csv
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/sequencing_stats.csv
+#2 Starting tscp records 49961161
+#2 Masking tscp to wells (A4-A7, n=4)
+#2 After sample-mask tscp records 16077765
+#2 Getting unfiltered DGE matrix
+# >> Getting DGE; sample_76 Unfiltered, Genes all, Barcodes TBD
+#2 Raw transcripts per cell (35738, 1)
+#2 Getting tscp cutoff to call cells
+#2 Cells filtered by tscp cutoff 10: cells 32582
+#2 dge_matrix (32582, 57012)
+#2 expressed_genes sample_76 Unfiltered, Genes all, Barcodes TBD, genes=24810
+#2 << DGE matrix sample_76 Unfiltered, Genes all, Barcodes TBD (32582, 57012), bc_indexes (32582,)
+#2 Matrix 32582 x 57012 = 1857564984 total; 5950223 (0.32%) >= 1; 1087418 (0.06%) >= 3; 228447 (0.01%) >= 10
+# Wrote 32582 by 57012 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/DGE_unfiltered/DGE.mtx
+#2 Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/DGE_unfiltered/all_genes.csv
+# Wrote 32582 by 12 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/DGE_unfiltered/cell_metadata.csv
+#2 SFU_CELL Row_1_of_32584               sample         species  gene_count  tscp_count  mread_count bc1_well bc2_well bc3_well  bc1_wind  bc2_wind  bc3_wind
+#2 SFU_CELL Row_2_of_32584  bc_wells                                                                                                                         
+#2 SFU_CELL Row_3_of_32584  04_01_01  sample_76  mus109-tdt-yfp          51          52           57       A4       A1       A1         4         1         1
+#2 SFU_CELL Row_4_of_32584  04_01_02  sample_76  mus109-tdt-yfp          60          64           71       A4       A1       A2         4         1         2
+#2 SFU_CELL Row_5_of_32584  04_01_03  sample_76  mus109-tdt-yfp          68          71           76       A4       A1       A3         4         1         3
+#2 SFU_CELL Row_6_of_32584  04_01_04  sample_76  mus109-tdt-yfp          56          59           62       A4       A1       A4         4         1         4
+#2 Getting filtered DGE matrix
+# >> Getting DGE; sample_76 Filtered, Genes all, Barcodes TBD
+#2 Raw transcripts per cell (35738, 1)
+#2 Getting tscp cutoff to call cells
+#2 Calculating tscp cutoff; Cell min=10 (5), max=30000, Tscp min=30
+#2 Cell bounds scaled by 4 wells; min=5, max=10000
+#2 Transcript cutoff status True, thresh 823
+#2 Cells filtered by tscp cutoff 823: cells 1402
+#2 dge_matrix (1402, 57012)
+#2 expressed_genes sample_76 Filtered, Genes all, Barcodes TBD, genes=24224
+#2 << DGE matrix sample_76 Filtered, Genes all, Barcodes TBD (1402, 57012), bc_indexes (1402,)
+#2 Matrix 1402 x 57012 = 79930824 total; 3960856 (4.96%) >= 1; 1063058 (1.33%) >= 3; 228232 (0.29%) >= 10
+# Wrote 1402 by 57012 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/DGE_filtered/DGE.mtx
+#2 Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/DGE_filtered/all_genes.csv
+# Wrote 1402 by 12 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/DGE_filtered/cell_metadata.csv
+#2 SFF_CELL Row_1_of_1404               sample         species  gene_count  tscp_count  mread_count bc1_well bc2_well bc3_well  bc1_wind  bc2_wind  bc3_wind
+#2 SFF_CELL Row_2_of_1404  bc_wells                                                                                                                         
+#2 SFF_CELL Row_3_of_1404  04_01_09  sample_76  mus109-tdt-yfp        2767        8064         8959       A4       A1       A9         4         1         9
+#2 SFF_CELL Row_4_of_1404  04_01_18  sample_76  mus109-tdt-yfp        3107        9472        10568       A4       A1       B6         4         1        18
+#2 SFF_CELL Row_5_of_1404  04_01_19  sample_76  mus109-tdt-yfp         761        1158         1295       A4       A1       B7         4         1        19
+#2 SFF_CELL Row_6_of_1404  04_01_42  sample_76  mus109-tdt-yfp        3088        9639        10772       A4       A1       D6         4         1        42
+# Wrote 24224 by 5 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/expressed_genes.csv
+#2 SFF_EXPRESS_GENE Row_1_of_24225                    gene_id        gene_name          genome  cell_count  tscp_count
+#2 SFF_EXPRESS_GENE Row_2_of_24225  0      ENSMUSG00000000001            Gnai3  mus109-tdt-yfp         332         432
+#2 SFF_EXPRESS_GENE Row_3_of_24225  2      ENSMUSG00000000028            Cdc45  mus109-tdt-yfp          21          21
+#2 SFF_EXPRESS_GENE Row_4_of_24225  4      ENSMUSG00000000037            Scml2  mus109-tdt-yfp          33          34
+#2 SFF_EXPRESS_GENE Row_5_of_24225  5      ENSMUSG00000000049             Apoh  mus109-tdt-yfp          15          18
+#2 SFF_EXPRESS_GENE Row_6_of_24225  6      ENSMUSG00000000056             Narf  mus109-tdt-yfp         326         417
+# Wrote 32 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_cutoff_calc.csv
+#2 SFR_TSCP_CUTOFF Row_1_of_34                               value
+#2 SFR_TSCP_CUTOFF Row_2_of_34  statistic                         
+#2 SFR_TSCP_CUTOFF Row_3_of_34  cell_call          get_tscp_cutoff
+#2 SFR_TSCP_CUTOFF Row_4_of_34  cell_tscp_cutoff               823
+#2 SFR_TSCP_CUTOFF Row_5_of_34  cnt_scale_fac                  1.0
+#2 SFR_TSCP_CUTOFF Row_6_of_34  cv_slope_win                  0.02
+# Wrote 35738 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_counts.csv
+#2 SFR_TSCP_CT Row_1_of_35740            count
+#2 SFR_TSCP_CT Row_2_of_35740  bc_wells       
+#2 SFR_TSCP_CT Row_3_of_35740  04_01_01     52
+#2 SFR_TSCP_CT Row_4_of_35740  04_01_02     64
+#2 SFR_TSCP_CT Row_5_of_35740  04_01_03     71
+#2 SFR_TSCP_CT Row_6_of_35740  04_01_04     59
+# Wrote 1402 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/species_read_counts.csv
+#2 SFR_SPEC_READ_CT Row_1_of_1404            mus109-tdt-yfp
+#2 SFR_SPEC_READ_CT Row_2_of_1404  bc_wells                
+#2 SFR_SPEC_READ_CT Row_3_of_1404  04_01_09            8959
+#2 SFR_SPEC_READ_CT Row_4_of_1404  04_01_18           10568
+#2 SFR_SPEC_READ_CT Row_5_of_1404  04_01_19            1295
+#2 SFR_SPEC_READ_CT Row_6_of_1404  04_01_42           10772
+# Wrote 1402 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/species_tscp_counts.csv
+#2 SFR_SPEC_TSCP_CT Row_1_of_1404            mus109-tdt-yfp
+#2 SFR_SPEC_TSCP_CT Row_2_of_1404  bc_wells                
+#2 SFR_SPEC_TSCP_CT Row_3_of_1404  04_01_09            8064
+#2 SFR_SPEC_TSCP_CT Row_4_of_1404  04_01_18            9472
+#2 SFR_SPEC_TSCP_CT Row_5_of_1404  04_01_19            1158
+#2 SFR_SPEC_TSCP_CT Row_6_of_1404  04_01_42            9639
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_median_by_rnd1_well.csv
+#2 SFR_TSCP_R1W Row_1_of_14        count
+#2 SFR_TSCP_R1W Row_2_of_14  well       
+#2 SFR_TSCP_R1W Row_3_of_14  1         0
+#2 SFR_TSCP_R1W Row_4_of_14  2         0
+#2 SFR_TSCP_R1W Row_5_of_14  3         0
+#2 SFR_TSCP_R1W Row_6_of_14  4      7538
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_median_by_rnd2_well.csv
+#2 SFR_TSCP_R2W Row_1_of_98        count
+#2 SFR_TSCP_R2W Row_2_of_98  well       
+#2 SFR_TSCP_R2W Row_3_of_98  1      9555
+#2 SFR_TSCP_R2W Row_4_of_98  2     10008
+#2 SFR_TSCP_R2W Row_5_of_98  3      8627
+#2 SFR_TSCP_R2W Row_6_of_98  4      8906
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_median_by_rnd3_well.csv
+#2 SFR_TSCP_R3W Row_1_of_98        count
+#2 SFR_TSCP_R3W Row_2_of_98  well       
+#2 SFR_TSCP_R3W Row_3_of_98  1      4646
+#2 SFR_TSCP_R3W Row_4_of_98  2      7686
+#2 SFR_TSCP_R3W Row_5_of_98  3      7334
+#2 SFR_TSCP_R3W Row_6_of_98  4      8949
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/cell_counts_by_rnd1_well.csv
+#2 SFR_CELL_R1W Row_1_of_14        count
+#2 SFR_CELL_R1W Row_2_of_14  well       
+#2 SFR_CELL_R1W Row_3_of_14  1         0
+#2 SFR_CELL_R1W Row_4_of_14  2         0
+#2 SFR_CELL_R1W Row_5_of_14  3         0
+#2 SFR_CELL_R1W Row_6_of_14  4       313
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/cell_counts_by_rnd2_well.csv
+#2 SFR_CELL_R2W Row_1_of_98        count
+#2 SFR_CELL_R2W Row_2_of_98  well       
+#2 SFR_CELL_R2W Row_3_of_98  1        16
+#2 SFR_CELL_R2W Row_4_of_98  2        17
+#2 SFR_CELL_R2W Row_5_of_98  3        12
+#2 SFR_CELL_R2W Row_6_of_98  4        11
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/cell_counts_by_rnd3_well.csv
+#2 SFR_CELL_R3W Row_1_of_98        count
+#2 SFR_CELL_R3W Row_2_of_98  well       
+#2 SFR_CELL_R3W Row_3_of_98  1         6
+#2 SFR_CELL_R3W Row_4_of_98  2        12
+#2 SFR_CELL_R3W Row_5_of_98  3        19
+#2 SFR_CELL_R3W Row_6_of_98  4        21
+# Wrote 6 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/sample_mrtg_counts.csv
+#2 SFR_SAMP_MRTG_CT Row_1_of_8                        count
+#2 SFR_SAMP_MRTG_CT Row_2_of_8  statistic                  
+#2 SFR_SAMP_MRTG_CT Row_3_of_8  cell_gene_count       24224
+#2 SFR_SAMP_MRTG_CT Row_4_of_8  cell_mread_count   15483862
+#2 SFR_SAMP_MRTG_CT Row_5_of_8  cell_tscp_count    13917740
+#2 SFR_SAMP_MRTG_CT Row_6_of_8  total_gene_count      24815
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/sample_mrtg_counts.csv
+#2 Getting read subsample stats
+#2 Subsampling 12 depths to 19933 for mus109-tdt-yfp
+#3 Subsample depth[0] = 1000.0
+#3 Subsample depth[1] = 2000.0
+#3 Subsample depth[2] = 3000.0
+#3 Subsample depth[3] = 4000.0
+#3 Subsample depth[4] = 5000.0
+#3 Subsample depth[5] = 6000.0
+#3 Subsample depth[6] = 8000.0
+#3 Subsample depth[7] = 10000.0
+#3 Subsample depth[8] = 12000.0
+#3 Subsample depth[9] = 14000.0
+#3 Subsample depth[10] = 16000.0
+#3 Subsample depth[11] = 19932.836368251606
+# Wrote 13 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/gene_counts_subsampled.csv
+#2 SFR_SS_GENE_CT Row_1_of_15                mus109-tdt-yfp
+#2 SFR_SS_GENE_CT Row_2_of_15  subsample                   
+#2 SFR_SS_GENE_CT Row_3_of_15  0.000000                 0.0
+#2 SFR_SS_GENE_CT Row_4_of_15  1000.000000            368.0
+#2 SFR_SS_GENE_CT Row_5_of_15  2000.000000            642.0
+#2 SFR_SS_GENE_CT Row_6_of_15  3000.000000            868.5
+# Wrote 13 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_counts_subsampled.csv
+#2 SFR_SS_TSCP_CT Row_1_of_15                mus109-tdt-yfp
+#2 SFR_SS_TSCP_CT Row_2_of_15  subsample                   
+#2 SFR_SS_TSCP_CT Row_3_of_15  0.000000                 0.0
+#2 SFR_SS_TSCP_CT Row_4_of_15  1000.000000            487.0
+#2 SFR_SS_TSCP_CT Row_5_of_15  2000.000000            978.0
+#2 SFR_SS_TSCP_CT Row_6_of_15  3000.000000           1450.0
+# Wrote 50 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/analysis_all_stats.csv
+#2 SFR_ALLSTATS Row_1_of_52                                                 value
+#2 SFR_ALLSTATS Row_2_of_52  statistic                                           
+#2 SFR_ALLSTATS Row_3_of_52  bc1_Q30                                 8.720000e-01
+#2 SFR_ALLSTATS Row_4_of_52  bc1_perfrac                             7.540000e-01
+#2 SFR_ALLSTATS Row_5_of_52  bc2_Q30                                 9.040000e-01
+#2 SFR_ALLSTATS Row_6_of_52  bc2_perfrac                             8.130000e-01
+# Wrote 24 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/analysis_summary.csv
+#2 SFR_ASUM_CSV Row_1_of_26                                                 value
+#2 SFR_ASUM_CSV Row_2_of_26  statistic                                           
+#2 SFR_ASUM_CSV Row_3_of_26  sample_well_count                       4.000000e+00
+#2 SFR_ASUM_CSV Row_4_of_26  number_of_cells                         1.402000e+03
+#2 SFR_ASUM_CSV Row_5_of_26  mus109-tdt-yfp_number_of_cells          1.402000e+03
+#2 SFR_ASUM_CSV Row_6_of_26  mus109-tdt-yfp_median_tscp_per_cell     8.880500e+03
+# DGE processing sample (4) sample_78
+#2 MemStatus: DGE_samp_4  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 Read Dataframe: Dims 18 x 1, Mem 288B (288) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/pipeline_stats.csv
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/sequencing_stats.csv
+#2 Starting tscp records 49961161
+#2 Masking tscp to wells (A1-A3, n=3)
+#2 After sample-mask tscp records 9987498
+#2 Getting unfiltered DGE matrix
+# >> Getting DGE; sample_78 Unfiltered, Genes all, Barcodes TBD
+#2 Raw transcripts per cell (26592, 1)
+#2 Getting tscp cutoff to call cells
+#2 Cells filtered by tscp cutoff 10: cells 23626
+#2 dge_matrix (23626, 57012)
+#2 expressed_genes sample_78 Unfiltered, Genes all, Barcodes TBD, genes=23452
+#2 << DGE matrix sample_78 Unfiltered, Genes all, Barcodes TBD (23626, 57012), bc_indexes (23626,)
+#2 Matrix 23626 x 57012 = 1346965512 total; 3976823 (0.3%) >= 1; 678818 (0.05%) >= 3; 137890 (0.01%) >= 10
+# Wrote 23626 by 57012 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/DGE_unfiltered/DGE.mtx
+#2 Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/DGE_unfiltered/all_genes.csv
+# Wrote 23626 by 12 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/DGE_unfiltered/cell_metadata.csv
+#2 SFU_CELL Row_1_of_23628               sample         species  gene_count  tscp_count  mread_count bc1_well bc2_well bc3_well  bc1_wind  bc2_wind  bc3_wind
+#2 SFU_CELL Row_2_of_23628  bc_wells                                                                                                                         
+#2 SFU_CELL Row_3_of_23628  01_01_01  sample_78  mus109-tdt-yfp          40          41           46       A1       A1       A1         1         1         1
+#2 SFU_CELL Row_4_of_23628  01_01_02  sample_78  mus109-tdt-yfp          47          50           56       A1       A1       A2         1         1         2
+#2 SFU_CELL Row_5_of_23628  01_01_03  sample_78  mus109-tdt-yfp          43          46           56       A1       A1       A3         1         1         3
+#2 SFU_CELL Row_6_of_23628  01_01_04  sample_78  mus109-tdt-yfp          40          40           47       A1       A1       A4         1         1         4
+#2 Getting filtered DGE matrix
+# >> Getting DGE; sample_78 Filtered, Genes all, Barcodes TBD
+#2 Raw transcripts per cell (26592, 1)
+#2 Getting tscp cutoff to call cells
+#2 Calculating tscp cutoff; Cell min=10 (5), max=30000, Tscp min=30
+#2 Cell bounds scaled by 3 wells; min=5, max=7500
+#2 Transcript cutoff status True, thresh 724
+#2 Cells filtered by tscp cutoff 724: cells 1136
+#2 dge_matrix (1136, 57012)
+#2 expressed_genes sample_78 Filtered, Genes all, Barcodes TBD, genes=22911
+#2 << DGE matrix sample_78 Filtered, Genes all, Barcodes TBD (1136, 57012), bc_indexes (1136,)
+#2 Matrix 1136 x 57012 = 64765632 total; 2716608 (4.19%) >= 1; 662368 (1.02%) >= 3; 137624 (0.21%) >= 10
+# Wrote 1136 by 57012 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/DGE_filtered/DGE.mtx
+#2 Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/DGE_filtered/all_genes.csv
+# Wrote 1136 by 12 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/DGE_filtered/cell_metadata.csv
+#2 SFF_CELL Row_1_of_1138               sample         species  gene_count  tscp_count  mread_count bc1_well bc2_well bc3_well  bc1_wind  bc2_wind  bc3_wind
+#2 SFF_CELL Row_2_of_1138  bc_wells                                                                                                                         
+#2 SFF_CELL Row_3_of_1138  01_01_31  sample_78  mus109-tdt-yfp        2738        7834         8677       A1       A1       C7         1         1        31
+#2 SFF_CELL Row_4_of_1138  01_01_74  sample_78  mus109-tdt-yfp        3496       12066        13434       A1       A1       G2         1         1        74
+#2 SFF_CELL Row_5_of_1138  01_01_82  sample_78  mus109-tdt-yfp        2808        8631         9632       A1       A1      G10         1         1        82
+#2 SFF_CELL Row_6_of_1138  01_01_91  sample_78  mus109-tdt-yfp        2485        6632         7401       A1       A1       H7         1         1        91
+# Wrote 22911 by 5 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/expressed_genes.csv
+#2 SFF_EXPRESS_GENE Row_1_of_22912                    gene_id        gene_name          genome  cell_count  tscp_count
+#2 SFF_EXPRESS_GENE Row_2_of_22912  0      ENSMUSG00000000001            Gnai3  mus109-tdt-yfp         234         276
+#2 SFF_EXPRESS_GENE Row_3_of_22912  2      ENSMUSG00000000028            Cdc45  mus109-tdt-yfp           8           8
+#2 SFF_EXPRESS_GENE Row_4_of_22912  4      ENSMUSG00000000037            Scml2  mus109-tdt-yfp          26          27
+#2 SFF_EXPRESS_GENE Row_5_of_22912  5      ENSMUSG00000000049             Apoh  mus109-tdt-yfp           4           4
+#2 SFF_EXPRESS_GENE Row_6_of_22912  6      ENSMUSG00000000056             Narf  mus109-tdt-yfp         195         227
+# Wrote 32 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_cutoff_calc.csv
+#2 SFR_TSCP_CUTOFF Row_1_of_34                               value
+#2 SFR_TSCP_CUTOFF Row_2_of_34  statistic                         
+#2 SFR_TSCP_CUTOFF Row_3_of_34  cell_call          get_tscp_cutoff
+#2 SFR_TSCP_CUTOFF Row_4_of_34  cell_tscp_cutoff               724
+#2 SFR_TSCP_CUTOFF Row_5_of_34  cnt_scale_fac                  1.0
+#2 SFR_TSCP_CUTOFF Row_6_of_34  cv_slope_win                  0.02
+# Wrote 26592 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_counts.csv
+#2 SFR_TSCP_CT Row_1_of_26594            count
+#2 SFR_TSCP_CT Row_2_of_26594  bc_wells       
+#2 SFR_TSCP_CT Row_3_of_26594  01_01_01     41
+#2 SFR_TSCP_CT Row_4_of_26594  01_01_02     50
+#2 SFR_TSCP_CT Row_5_of_26594  01_01_03     46
+#2 SFR_TSCP_CT Row_6_of_26594  01_01_04     40
+# Wrote 1136 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/species_read_counts.csv
+#2 SFR_SPEC_READ_CT Row_1_of_1138            mus109-tdt-yfp
+#2 SFR_SPEC_READ_CT Row_2_of_1138  bc_wells                
+#2 SFR_SPEC_READ_CT Row_3_of_1138  01_01_31            8677
+#2 SFR_SPEC_READ_CT Row_4_of_1138  01_01_74           13434
+#2 SFR_SPEC_READ_CT Row_5_of_1138  01_01_82            9632
+#2 SFR_SPEC_READ_CT Row_6_of_1138  01_01_91            7401
+# Wrote 1136 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/species_tscp_counts.csv
+#2 SFR_SPEC_TSCP_CT Row_1_of_1138            mus109-tdt-yfp
+#2 SFR_SPEC_TSCP_CT Row_2_of_1138  bc_wells                
+#2 SFR_SPEC_TSCP_CT Row_3_of_1138  01_01_31            7834
+#2 SFR_SPEC_TSCP_CT Row_4_of_1138  01_01_74           12066
+#2 SFR_SPEC_TSCP_CT Row_5_of_1138  01_01_82            8631
+#2 SFR_SPEC_TSCP_CT Row_6_of_1138  01_01_91            6632
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_median_by_rnd1_well.csv
+#2 SFR_TSCP_R1W Row_1_of_14        count
+#2 SFR_TSCP_R1W Row_2_of_14  well       
+#2 SFR_TSCP_R1W Row_3_of_14  1      5070
+#2 SFR_TSCP_R1W Row_4_of_14  2      8745
+#2 SFR_TSCP_R1W Row_5_of_14  3      6892
+#2 SFR_TSCP_R1W Row_6_of_14  4         0
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_median_by_rnd2_well.csv
+#2 SFR_TSCP_R2W Row_1_of_98        count
+#2 SFR_TSCP_R2W Row_2_of_98  well       
+#2 SFR_TSCP_R2W Row_3_of_98  1      7714
+#2 SFR_TSCP_R2W Row_4_of_98  2      9393
+#2 SFR_TSCP_R2W Row_5_of_98  3      8929
+#2 SFR_TSCP_R2W Row_6_of_98  4      7196
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_median_by_rnd3_well.csv
+#2 SFR_TSCP_R3W Row_1_of_98        count
+#2 SFR_TSCP_R3W Row_2_of_98  well       
+#2 SFR_TSCP_R3W Row_3_of_98  1      5946
+#2 SFR_TSCP_R3W Row_4_of_98  2      7212
+#2 SFR_TSCP_R3W Row_5_of_98  3      6605
+#2 SFR_TSCP_R3W Row_6_of_98  4      6903
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/cell_counts_by_rnd1_well.csv
+#2 SFR_CELL_R1W Row_1_of_14        count
+#2 SFR_CELL_R1W Row_2_of_14  well       
+#2 SFR_CELL_R1W Row_3_of_14  1       237
+#2 SFR_CELL_R1W Row_4_of_14  2       301
+#2 SFR_CELL_R1W Row_5_of_14  3       598
+#2 SFR_CELL_R1W Row_6_of_14  4         0
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/cell_counts_by_rnd2_well.csv
+#2 SFR_CELL_R2W Row_1_of_98        count
+#2 SFR_CELL_R2W Row_2_of_98  well       
+#2 SFR_CELL_R2W Row_3_of_98  1        13
+#2 SFR_CELL_R2W Row_4_of_98  2        11
+#2 SFR_CELL_R2W Row_5_of_98  3         4
+#2 SFR_CELL_R2W Row_6_of_98  4        13
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/cell_counts_by_rnd3_well.csv
+#2 SFR_CELL_R3W Row_1_of_98        count
+#2 SFR_CELL_R3W Row_2_of_98  well       
+#2 SFR_CELL_R3W Row_3_of_98  1         3
+#2 SFR_CELL_R3W Row_4_of_98  2        11
+#2 SFR_CELL_R3W Row_5_of_98  3        15
+#2 SFR_CELL_R3W Row_6_of_98  4        20
+# Wrote 6 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/sample_mrtg_counts.csv
+#2 SFR_SAMP_MRTG_CT Row_1_of_8                        count
+#2 SFR_SAMP_MRTG_CT Row_2_of_8  statistic                  
+#2 SFR_SAMP_MRTG_CT Row_3_of_8  cell_gene_count       22911
+#2 SFR_SAMP_MRTG_CT Row_4_of_8  cell_mread_count    9571841
+#2 SFR_SAMP_MRTG_CT Row_5_of_8  cell_tscp_count     8609164
+#2 SFR_SAMP_MRTG_CT Row_6_of_8  total_gene_count      23454
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/sample_mrtg_counts.csv
+#2 Getting read subsample stats
+#2 Subsampling 11 depths to 15282 for mus109-tdt-yfp
+#3 Subsample depth[0] = 1000.0
+#3 Subsample depth[1] = 2000.0
+#3 Subsample depth[2] = 3000.0
+#3 Subsample depth[3] = 4000.0
+#3 Subsample depth[4] = 5000.0
+#3 Subsample depth[5] = 6000.0
+#3 Subsample depth[6] = 8000.0
+#3 Subsample depth[7] = 10000.0
+#3 Subsample depth[8] = 12000.0
+#3 Subsample depth[9] = 14000.0
+#3 Subsample depth[10] = 15281.634657532692
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/gene_counts_subsampled.csv
+#2 SFR_SS_GENE_CT Row_1_of_14                mus109-tdt-yfp
+#2 SFR_SS_GENE_CT Row_2_of_14  subsample                   
+#2 SFR_SS_GENE_CT Row_3_of_14  0.000000                 0.0
+#2 SFR_SS_GENE_CT Row_4_of_14  1000.000000            366.0
+#2 SFR_SS_GENE_CT Row_5_of_14  2000.000000            635.0
+#2 SFR_SS_GENE_CT Row_6_of_14  3000.000000            859.5
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_counts_subsampled.csv
+#2 SFR_SS_TSCP_CT Row_1_of_14                mus109-tdt-yfp
+#2 SFR_SS_TSCP_CT Row_2_of_14  subsample                   
+#2 SFR_SS_TSCP_CT Row_3_of_14  0.000000                 0.0
+#2 SFR_SS_TSCP_CT Row_4_of_14  1000.000000            485.0
+#2 SFR_SS_TSCP_CT Row_5_of_14  2000.000000            965.0
+#2 SFR_SS_TSCP_CT Row_6_of_14  3000.000000           1437.5
+# Wrote 50 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/analysis_all_stats.csv
+#2 SFR_ALLSTATS Row_1_of_52                                                 value
+#2 SFR_ALLSTATS Row_2_of_52  statistic                                           
+#2 SFR_ALLSTATS Row_3_of_52  bc1_Q30                                 8.720000e-01
+#2 SFR_ALLSTATS Row_4_of_52  bc1_perfrac                             7.540000e-01
+#2 SFR_ALLSTATS Row_5_of_52  bc2_Q30                                 9.040000e-01
+#2 SFR_ALLSTATS Row_6_of_52  bc2_perfrac                             8.130000e-01
+# Wrote 24 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/analysis_summary.csv
+#2 SFR_ASUM_CSV Row_1_of_26                                                 value
+#2 SFR_ASUM_CSV Row_2_of_26  statistic                                           
+#2 SFR_ASUM_CSV Row_3_of_26  sample_well_count                       3.000000e+00
+#2 SFR_ASUM_CSV Row_4_of_26  number_of_cells                         1.136000e+03
+#2 SFR_ASUM_CSV Row_5_of_26  mus109-tdt-yfp_number_of_cells          1.136000e+03
+#2 SFR_ASUM_CSV Row_6_of_26  mus109-tdt-yfp_median_tscp_per_cell     6.715500e+03
+# DGE processing sample (5) all-well
+#2 MemStatus: DGE_samp_5  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 Read Dataframe: Dims 18 x 1, Mem 288B (288) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/pipeline_stats.csv
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/process/sequencing_stats.csv
+#2 Starting tscp records 49961161
+#2 all-well sample so no masking
+#2 Getting unfiltered DGE matrix
+# >> Getting DGE; all-well Unfiltered, Genes all, Barcodes TBD
+#2 Raw transcripts per cell (107113, 1)
+#2 Getting tscp cutoff to call cells
+#2 Cells filtered by tscp cutoff 10: cells 97054
+#2 dge_matrix (97054, 57012)
+#2 expressed_genes all-well Unfiltered, Genes all, Barcodes TBD, genes=29040
+#2 << DGE matrix all-well Unfiltered, Genes all, Barcodes TBD (97054, 57012), bc_indexes (97054,)
+#2 Matrix 97054 x 57012 = 5533242648 total; 18724357 (0.34%) >= 1; 3422214 (0.06%) >= 3; 706239 (0.01%) >= 10
+# Wrote 97054 by 57012 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/DGE_unfiltered/DGE.mtx
+#2 Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/DGE_unfiltered/all_genes.csv
+# Wrote 97054 by 12 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/DGE_unfiltered/cell_metadata.csv
+#2 SFU_CELL Row_1_of_97056               sample         species  gene_count  tscp_count  mread_count bc1_well bc2_well bc3_well  bc1_wind  bc2_wind  bc3_wind
+#2 SFU_CELL Row_2_of_97056  bc_wells                                                                                                                         
+#2 SFU_CELL Row_3_of_97056  01_01_01  sample_78  mus109-tdt-yfp          40          41           46       A1       A1       A1         1         1         1
+#2 SFU_CELL Row_4_of_97056  01_01_02  sample_78  mus109-tdt-yfp          47          50           56       A1       A1       A2         1         1         2
+#2 SFU_CELL Row_5_of_97056  01_01_03  sample_78  mus109-tdt-yfp          43          46           56       A1       A1       A3         1         1         3
+#2 SFU_CELL Row_6_of_97056  01_01_04  sample_78  mus109-tdt-yfp          40          40           47       A1       A1       A4         1         1         4
+#2 Getting filtered DGE matrix
+# >> Getting DGE; all-well Filtered, Genes all, Barcodes TBD
+#2 Raw transcripts per cell (107113, 1)
+#2 Getting tscp cutoff to call cells
+#2 Calculating tscp cutoff; Cell min=10 (5), max=30000, Tscp min=30
+#2 Cell bounds scaled by 12 wells; min=10, max=30000
+#2 Transcript cutoff status True, thresh 878
+#2 Cells filtered by tscp cutoff 878: cells 4603
+#2 dge_matrix (4603, 57012)
+#2 expressed_genes all-well Filtered, Genes all, Barcodes TBD, genes=28456
+#2 << DGE matrix all-well Filtered, Genes all, Barcodes TBD (4603, 57012), bc_indexes (4603,)
+#2 Matrix 4603 x 57012 = 262426236 total; 12697687 (4.84%) >= 1; 3341900 (1.27%) >= 3; 704862 (0.27%) >= 10
+# Wrote 4603 by 57012 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/DGE_filtered/DGE.mtx
+#2 Copy /home/batiuk/genomes/mus/mus109_tdt_yfp/all_genes.csv to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/DGE_filtered/all_genes.csv
+# Wrote 4603 by 12 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/DGE_filtered/cell_metadata.csv
+#2 SFF_CELL Row_1_of_4605               sample         species  gene_count  tscp_count  mread_count bc1_well bc2_well bc3_well  bc1_wind  bc2_wind  bc3_wind
+#2 SFF_CELL Row_2_of_4605  bc_wells                                                                                                                         
+#2 SFF_CELL Row_3_of_4605  01_01_31  sample_78  mus109-tdt-yfp        2738        7834         8677       A1       A1       C7         1         1        31
+#2 SFF_CELL Row_4_of_4605  01_01_74  sample_78  mus109-tdt-yfp        3496       12066        13434       A1       A1       G2         1         1        74
+#2 SFF_CELL Row_5_of_4605  01_01_82  sample_78  mus109-tdt-yfp        2808        8631         9632       A1       A1      G10         1         1        82
+#2 SFF_CELL Row_6_of_4605  01_01_91  sample_78  mus109-tdt-yfp        2485        6632         7401       A1       A1       H7         1         1        91
+# Wrote 28456 by 5 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/expressed_genes.csv
+#2 SFF_EXPRESS_GENE Row_1_of_28457                    gene_id        gene_name          genome  cell_count  tscp_count
+#2 SFF_EXPRESS_GENE Row_2_of_28457  0      ENSMUSG00000000001            Gnai3  mus109-tdt-yfp        1071        1379
+#2 SFF_EXPRESS_GENE Row_3_of_28457  2      ENSMUSG00000000028            Cdc45  mus109-tdt-yfp          52          53
+#2 SFF_EXPRESS_GENE Row_4_of_28457  4      ENSMUSG00000000037            Scml2  mus109-tdt-yfp          91          99
+#2 SFF_EXPRESS_GENE Row_5_of_28457  5      ENSMUSG00000000049             Apoh  mus109-tdt-yfp          35          40
+#2 SFF_EXPRESS_GENE Row_6_of_28457  6      ENSMUSG00000000056             Narf  mus109-tdt-yfp        1006        1284
+# Wrote 32 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_cutoff_calc.csv
+#2 SFR_TSCP_CUTOFF Row_1_of_34                               value
+#2 SFR_TSCP_CUTOFF Row_2_of_34  statistic                         
+#2 SFR_TSCP_CUTOFF Row_3_of_34  cell_call          get_tscp_cutoff
+#2 SFR_TSCP_CUTOFF Row_4_of_34  cell_tscp_cutoff               878
+#2 SFR_TSCP_CUTOFF Row_5_of_34  cnt_scale_fac                  1.0
+#2 SFR_TSCP_CUTOFF Row_6_of_34  cv_slope_win                  0.02
+# Wrote 107113 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_counts.csv
+#2 SFR_TSCP_CT Row_1_of_107115            count
+#2 SFR_TSCP_CT Row_2_of_107115  bc_wells       
+#2 SFR_TSCP_CT Row_3_of_107115  01_01_01     41
+#2 SFR_TSCP_CT Row_4_of_107115  01_01_02     50
+#2 SFR_TSCP_CT Row_5_of_107115  01_01_03     46
+#2 SFR_TSCP_CT Row_6_of_107115  01_01_04     40
+# Wrote 4603 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/species_read_counts.csv
+#2 SFR_SPEC_READ_CT Row_1_of_4605            mus109-tdt-yfp
+#2 SFR_SPEC_READ_CT Row_2_of_4605  bc_wells                
+#2 SFR_SPEC_READ_CT Row_3_of_4605  01_01_31            8677
+#2 SFR_SPEC_READ_CT Row_4_of_4605  01_01_74           13434
+#2 SFR_SPEC_READ_CT Row_5_of_4605  01_01_82            9632
+#2 SFR_SPEC_READ_CT Row_6_of_4605  01_01_91            7401
+# Wrote 4603 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/species_tscp_counts.csv
+#2 SFR_SPEC_TSCP_CT Row_1_of_4605            mus109-tdt-yfp
+#2 SFR_SPEC_TSCP_CT Row_2_of_4605  bc_wells                
+#2 SFR_SPEC_TSCP_CT Row_3_of_4605  01_01_31            7834
+#2 SFR_SPEC_TSCP_CT Row_4_of_4605  01_01_74           12066
+#2 SFR_SPEC_TSCP_CT Row_5_of_4605  01_01_82            8631
+#2 SFR_SPEC_TSCP_CT Row_6_of_4605  01_01_91            6632
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_median_by_rnd1_well.csv
+#2 SFR_TSCP_R1W Row_1_of_14        count
+#2 SFR_TSCP_R1W Row_2_of_14  well       
+#2 SFR_TSCP_R1W Row_3_of_14  1      5301
+#2 SFR_TSCP_R1W Row_4_of_14  2      8771
+#2 SFR_TSCP_R1W Row_5_of_14  3      7022
+#2 SFR_TSCP_R1W Row_6_of_14  4      7585
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_median_by_rnd2_well.csv
+#2 SFR_TSCP_R2W Row_1_of_98        count
+#2 SFR_TSCP_R2W Row_2_of_98  well       
+#2 SFR_TSCP_R2W Row_3_of_98  1      7952
+#2 SFR_TSCP_R2W Row_4_of_98  2     10375
+#2 SFR_TSCP_R2W Row_5_of_98  3      8935
+#2 SFR_TSCP_R2W Row_6_of_98  4      8289
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_median_by_rnd3_well.csv
+#2 SFR_TSCP_R3W Row_1_of_98        count
+#2 SFR_TSCP_R3W Row_2_of_98  well       
+#2 SFR_TSCP_R3W Row_3_of_98  1     10816
+#2 SFR_TSCP_R3W Row_4_of_98  2      7509
+#2 SFR_TSCP_R3W Row_5_of_98  3      8163
+#2 SFR_TSCP_R3W Row_6_of_98  4      8485
+# Wrote 12 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/cell_counts_by_rnd1_well.csv
+#2 SFR_CELL_R1W Row_1_of_14        count
+#2 SFR_CELL_R1W Row_2_of_14  well       
+#2 SFR_CELL_R1W Row_3_of_14  1       223
+#2 SFR_CELL_R1W Row_4_of_14  2       300
+#2 SFR_CELL_R1W Row_5_of_14  3       588
+#2 SFR_CELL_R1W Row_6_of_14  4       310
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/cell_counts_by_rnd2_well.csv
+#2 SFR_CELL_R2W Row_1_of_98        count
+#2 SFR_CELL_R2W Row_2_of_98  well       
+#2 SFR_CELL_R2W Row_3_of_98  1        46
+#2 SFR_CELL_R2W Row_4_of_98  2        45
+#2 SFR_CELL_R2W Row_5_of_98  3        37
+#2 SFR_CELL_R2W Row_6_of_98  4        54
+# Wrote 96 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/cell_counts_by_rnd3_well.csv
+#2 SFR_CELL_R3W Row_1_of_98        count
+#2 SFR_CELL_R3W Row_2_of_98  well       
+#2 SFR_CELL_R3W Row_3_of_98  1        22
+#2 SFR_CELL_R3W Row_4_of_98  2        48
+#2 SFR_CELL_R3W Row_5_of_98  3        48
+#2 SFR_CELL_R3W Row_6_of_98  4        68
+# Wrote 6 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/sample_mrtg_counts.csv
+#2 SFR_SAMP_MRTG_CT Row_1_of_8                        count
+#2 SFR_SAMP_MRTG_CT Row_2_of_8  statistic                  
+#2 SFR_SAMP_MRTG_CT Row_3_of_8  cell_gene_count       28456
+#2 SFR_SAMP_MRTG_CT Row_4_of_8  cell_mread_count   48193275
+#2 SFR_SAMP_MRTG_CT Row_5_of_8  cell_tscp_count    43377837
+#2 SFR_SAMP_MRTG_CT Row_6_of_8  total_gene_count      29041
+#2 Read Dataframe: Dims 6 x 1, Mem 96B (96) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/sample_mrtg_counts.csv
+#2 Getting read subsample stats
+#2 Subsampling 12 depths to 18866 for mus109-tdt-yfp
+#3 Subsample depth[0] = 1000.0
+#3 Subsample depth[1] = 2000.0
+#3 Subsample depth[2] = 3000.0
+#3 Subsample depth[3] = 4000.0
+#3 Subsample depth[4] = 5000.0
+#3 Subsample depth[5] = 6000.0
+#3 Subsample depth[6] = 8000.0
+#3 Subsample depth[7] = 10000.0
+#3 Subsample depth[8] = 12000.0
+#3 Subsample depth[9] = 14000.0
+#3 Subsample depth[10] = 16000.0
+#3 Subsample depth[11] = 18866.1370845101
+# Wrote 13 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/gene_counts_subsampled.csv
+#2 SFR_SS_GENE_CT Row_1_of_15                mus109-tdt-yfp
+#2 SFR_SS_GENE_CT Row_2_of_15  subsample                   
+#2 SFR_SS_GENE_CT Row_3_of_15  0.000000                 0.0
+#2 SFR_SS_GENE_CT Row_4_of_15  1000.000000            357.0
+#2 SFR_SS_GENE_CT Row_5_of_15  2000.000000            625.0
+#2 SFR_SS_GENE_CT Row_6_of_15  3000.000000            850.0
+# Wrote 13 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_counts_subsampled.csv
+#2 SFR_SS_TSCP_CT Row_1_of_15                mus109-tdt-yfp
+#2 SFR_SS_TSCP_CT Row_2_of_15  subsample                   
+#2 SFR_SS_TSCP_CT Row_3_of_15  0.000000                 0.0
+#2 SFR_SS_TSCP_CT Row_4_of_15  1000.000000            467.0
+#2 SFR_SS_TSCP_CT Row_5_of_15  2000.000000            933.0
+#2 SFR_SS_TSCP_CT Row_6_of_15  3000.000000           1387.0
+# Wrote 50 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/analysis_all_stats.csv
+#2 SFR_ALLSTATS Row_1_of_52                                                 value
+#2 SFR_ALLSTATS Row_2_of_52  statistic                                           
+#2 SFR_ALLSTATS Row_3_of_52  bc1_Q30                                 8.720000e-01
+#2 SFR_ALLSTATS Row_4_of_52  bc1_perfrac                             7.540000e-01
+#2 SFR_ALLSTATS Row_5_of_52  bc2_Q30                                 9.040000e-01
+#2 SFR_ALLSTATS Row_6_of_52  bc2_perfrac                             8.130000e-01
+# Wrote 24 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/analysis_summary.csv
+#2 SFR_ASUM_CSV Row_1_of_26                                                 value
+#2 SFR_ASUM_CSV Row_2_of_26  statistic                                           
+#2 SFR_ASUM_CSV Row_3_of_26  sample_well_count                       1.200000e+01
+#2 SFR_ASUM_CSV Row_4_of_26  number_of_cells                         4.603000e+03
+#2 SFR_ASUM_CSV Row_5_of_26  mus109-tdt-yfp_number_of_cells          4.603000e+03
+#2 SFR_ASUM_CSV Row_6_of_26  mus109-tdt-yfp_median_tscp_per_cell     7.987000e+03
+# Aggregating sample analysis_summary csv files
+#2 Read Dataframe: Dims 24 x 1, Mem 384B (384) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/analysis_summary.csv
+#2 Read Dataframe: Dims 24 x 1, Mem 384B (384) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/analysis_summary.csv
+#2 Read Dataframe: Dims 24 x 1, Mem 384B (384) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/analysis_summary.csv
+#2 Read Dataframe: Dims 24 x 1, Mem 384B (384) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/analysis_summary.csv
+#2 Read Dataframe: Dims 24 x 1, Mem 384B (384) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/analysis_summary.csv
+# Wrote 24 by 6 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/agg_samp_ana_summary.csv
+#2 SF_AGG_ASUM_CSV Row_1_of_26                                                    S1            S3     sample_76     sample_78      all-well
+#2 SF_AGG_ASUM_CSV Row_2_of_26  statistic                                                                                                   
+#2 SF_AGG_ASUM_CSV Row_3_of_26  sample_well_count                       1.000000e+00  4.000000e+00  4.000000e+00  3.000000e+00  1.200000e+01
+#2 SF_AGG_ASUM_CSV Row_4_of_26  number_of_cells                         6.780000e+02  1.443000e+03  1.402000e+03  1.136000e+03  4.603000e+03
+#2 SF_AGG_ASUM_CSV Row_5_of_26  mus109-tdt-yfp_number_of_cells          6.780000e+02  1.443000e+03  1.402000e+03  1.136000e+03  4.603000e+03
+#2 SF_AGG_ASUM_CSV Row_6_of_26  mus109-tdt-yfp_median_tscp_per_cell     8.473000e+03  7.903000e+03  8.880500e+03  6.715500e+03  7.987000e+03
+#2 MemStatus: DGE  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 DskStatus: DGE  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+#2 MemStatus: DGE  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 DskStatus: DGE  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# << Running DGE; Status True; Duration 0:11:49.63
+
+#2 MemStatus: Analysis  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 DskStatus: Analysis  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# >> Running Analysis
+#2 MemStatus: Analysis  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 DskStatus: Analysis  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# 
+# Analysis processing sample (1 of 5) S1
+#2 MemStatus: Analysis_samp_1  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 Loaded anndata (678, 57012) /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/DGE_filtered/
+#2 Calling Scanpy to cluster (adata shape (678, 57012))
+#2 MemStatus: SCA_(678,_57012)_function_scanpy_cluster_anndata_start,_rseed=1  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 MemStatus: SCA_(678,_17927)_After_filter_genes_3  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 MemStatus: SCA_(678,_17927)_After_normalize_total_target_sum=10000.0  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 MemStatus: SCA_(678,_17927)_After_log1p  34.3G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 MemStatus: SCA_(678,_17927)_After_highly_variable_genes  34.4G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 MemStatus: SCA_(678,_17927)_After_scale_(max=10.0,_zero_center=False)  34.4G proc, 11.6G rss, 22.8G vms, 4.7% usd, 479.8G avail
+#2 PCA using 5209 highly variable genes
+#2 PCA irlbpy, n_comps 50
+#2 PCA via irlbpy, input shape (678, 5209), n_comps=50, use_hv=True, zero_center=True
+#2 MemStatus: SCA_(678,_17927)_After_irlbpy;_Next_neighbors  35.0G proc, 11.8G rss, 23.3G vms, 4.7% usd, 479.6G avail
+#2 MemStatus: SCA_(678,_17927)_After_neighbors,_n_neighbors=50;_Next_umap  40.1G proc, 11.8G rss, 28.3G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(678,_17927)_After_umap,_min_dist=0.5  40.9G proc, 11.8G rss, 29.0G vms, 4.7% usd, 479.5G avail
+#2 Clustering (leiden)
+#2 MemStatus: SCA_(678,_17927)_After_clustering_leiden,_done  40.9G proc, 11.8G rss, 29.0G vms, 4.7% usd, 479.5G avail
+#2 Wrote anndata: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/DGE_filtered/anndata.h5ad
+# Wrote 678 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/cluster_assignment.csv
+#2 SFR_CLUST_ASSIGN Row_1_of_680            cluster
+#2 SFR_CLUST_ASSIGN Row_2_of_680  bc_wells         
+#2 SFR_CLUST_ASSIGN Row_3_of_680  12_01_06        1
+#2 SFR_CLUST_ASSIGN Row_4_of_680  12_01_40        3
+#2 SFR_CLUST_ASSIGN Row_5_of_680  12_01_42        3
+#2 SFR_CLUST_ASSIGN Row_6_of_680  12_01_61        6
+# Wrote 678 by 3 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/cluster_umap.csv
+#2 SFR_CLUST_UMAP Row_1_of_680               umap_X   umap_Y
+#2 SFR_CLUST_UMAP Row_2_of_680  bc_wells                    
+#2 SFR_CLUST_UMAP Row_3_of_680  12_01_06  15.154600  -9.0213
+#2 SFR_CLUST_UMAP Row_4_of_680  12_01_40   7.532100  -7.6668
+#2 SFR_CLUST_UMAP Row_5_of_680  12_01_42   4.922600  -7.6111
+#2 SFR_CLUST_UMAP Row_6_of_680  12_01_61  10.085200  -8.7594
+# Getting gene enrichment table, 8 clusters, top 20 genes each
+#3 Collecting, cluster 0
+#3 Collecting, cluster 1
+#3 Collecting, cluster 2
+#3 Collecting, cluster 3
+#3 Collecting, cluster 4
+#3 Collecting, cluster 5
+#3 Collecting, cluster 6
+#3 Collecting, cluster 7
+#3 Calculating, cluster 0
+#3 Calculating, cluster 1
+#3 Calculating, cluster 2
+#3 Calculating, cluster 3
+#3 Calculating, cluster 4
+#3 Calculating, cluster 5
+#3 Calculating, cluster 6
+#3 Calculating, cluster 7
+# Wrote 160 by 9 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/cluster_diff_exp.csv
+#2 SFR_CLUST_DIFF_EXP Row_1_of_161       cluster             gene_id           gene_name          genome    score  log2_FC   pct1   pct2   pval_adj
+#2 SFR_CLUST_DIFF_EXP Row_2_of_161  0          1  ENSMUSG00000036907               C1ql2  mus109-tdt-yfp   79.601    4.100  0.250  0.013  1.047e-04
+#2 SFR_CLUST_DIFF_EXP Row_3_of_161  1          1  ENSMUSG00000066510             Ankdd1a  mus109-tdt-yfp   65.412    4.376  0.160  0.011  2.603e-01
+#2 SFR_CLUST_DIFF_EXP Row_4_of_161  2          1  ENSMUSG00000093942             Or13a18  mus109-tdt-yfp   56.658    4.109  0.325  0.024  2.863e-08
+#2 SFR_CLUST_DIFF_EXP Row_5_of_161  3          1  ENSMUSG00000109506             Gm44724  mus109-tdt-yfp   55.905    3.947  0.274  0.019  1.328e-05
+#2 SFR_CLUST_DIFF_EXP Row_6_of_161  4          1  ENSMUSG00000043013             Onecut1  mus109-tdt-yfp   55.807    3.693  0.259  0.017  5.889e-05
+# 
+# Analysis processing sample (2 of 5) S3
+#2 MemStatus: Analysis_samp_2  40.9G proc, 11.8G rss, 29.0G vms, 4.7% usd, 479.5G avail
+#2 Loaded anndata (1443, 57012) /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/DGE_filtered/
+#2 Calling Scanpy to cluster (adata shape (1443, 57012))
+#2 MemStatus: SCA_(1443,_57012)_function_scanpy_cluster_anndata_start,_rseed=1  40.9G proc, 11.8G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1443,_19265)_After_filter_genes_3  40.9G proc, 11.8G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1443,_19265)_After_normalize_total_target_sum=10000.0  40.9G proc, 11.8G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1443,_19265)_After_log1p  40.9G proc, 11.8G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1443,_19265)_After_highly_variable_genes  40.9G proc, 11.8G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1443,_19265)_After_scale_(max=10.0,_zero_center=False)  40.9G proc, 11.8G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 PCA using 4816 highly variable genes
+#2 PCA irlbpy, n_comps 50
+#2 PCA via irlbpy, input shape (1443, 4816), n_comps=50, use_hv=True, zero_center=True
+#2 MemStatus: SCA_(1443,_19265)_After_irlbpy;_Next_neighbors  40.9G proc, 11.8G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1443,_19265)_After_neighbors,_n_neighbors=50;_Next_umap  40.9G proc, 11.8G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1443,_19265)_After_umap,_min_dist=0.5  40.9G proc, 11.8G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Clustering (leiden)
+#2 MemStatus: SCA_(1443,_19265)_After_clustering_leiden,_done  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Wrote anndata: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/DGE_filtered/anndata.h5ad
+# Wrote 1443 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/cluster_assignment.csv
+#2 SFR_CLUST_ASSIGN Row_1_of_1445            cluster
+#2 SFR_CLUST_ASSIGN Row_2_of_1445  bc_wells         
+#2 SFR_CLUST_ASSIGN Row_3_of_1445  08_01_22        4
+#2 SFR_CLUST_ASSIGN Row_4_of_1445  08_01_28        4
+#2 SFR_CLUST_ASSIGN Row_5_of_1445  08_01_35        4
+#2 SFR_CLUST_ASSIGN Row_6_of_1445  08_03_47        1
+# Wrote 1443 by 3 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/cluster_umap.csv
+#2 SFR_CLUST_UMAP Row_1_of_1445             umap_X     umap_Y
+#2 SFR_CLUST_UMAP Row_2_of_1445  bc_wells                    
+#2 SFR_CLUST_UMAP Row_3_of_1445  08_01_22  10.8373   2.137900
+#2 SFR_CLUST_UMAP Row_4_of_1445  08_01_28  10.5145   3.182300
+#2 SFR_CLUST_UMAP Row_5_of_1445  08_01_35  11.2058   1.803900
+#2 SFR_CLUST_UMAP Row_6_of_1445  08_03_47 -13.3171  13.879900
+# Getting gene enrichment table, 14 clusters, top 20 genes each
+#3 Collecting, cluster 0
+#3 Collecting, cluster 1
+#3 Collecting, cluster 2
+#3 Collecting, cluster 3
+#3 Collecting, cluster 4
+#3 Collecting, cluster 5
+#3 Collecting, cluster 6
+#3 Collecting, cluster 7
+#3 Collecting, cluster 8
+#3 Collecting, cluster 9
+#3 Collecting, cluster 10
+#3 Collecting, cluster 11
+#3 Collecting, cluster 12
+#3 Collecting, cluster 13
+#3 Calculating, cluster 0
+#3 Calculating, cluster 1
+#3 Calculating, cluster 2
+#3 Calculating, cluster 3
+#3 Calculating, cluster 4
+#3 Calculating, cluster 5
+#3 Calculating, cluster 6
+#3 Calculating, cluster 7
+#3 Calculating, cluster 8
+#3 Calculating, cluster 9
+#3 Calculating, cluster 10
+#3 Calculating, cluster 11
+#3 Calculating, cluster 12
+#3 Calculating, cluster 13
+# Wrote 280 by 9 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/cluster_diff_exp.csv
+#2 SFR_CLUST_DIFF_EXP Row_1_of_281       cluster             gene_id           gene_name          genome    score  log2_FC   pct1   pct2   pval_adj
+#2 SFR_CLUST_DIFF_EXP Row_2_of_281  0          1  ENSMUSG00000020169               Best3  mus109-tdt-yfp   45.996    3.436  0.200  0.015  1.880e-04
+#2 SFR_CLUST_DIFF_EXP Row_3_of_281  1          1  ENSMUSG00000029123              Stk32b  mus109-tdt-yfp   43.358    3.306  0.131  0.010  3.060e-01
+#2 SFR_CLUST_DIFF_EXP Row_4_of_281  2          1  ENSMUSG00000040364                Sec1  mus109-tdt-yfp   41.259    3.401  0.121  0.010  7.510e-01
+#2 SFR_CLUST_DIFF_EXP Row_5_of_281  3          1  ENSMUSG00000070564                Ntn5  mus109-tdt-yfp   37.876    3.851  0.098  0.007  1.000e+00
+#2 SFR_CLUST_DIFF_EXP Row_6_of_281  4          1  ENSMUSG00000028011                Tdo2  mus109-tdt-yfp   36.901    3.126  0.118  0.010  1.000e+00
+# 
+# Analysis processing sample (3 of 5) sample_76
+#2 MemStatus: Analysis_samp_3  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Loaded anndata (1402, 57012) /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/DGE_filtered/
+#2 Calling Scanpy to cluster (adata shape (1402, 57012))
+#2 MemStatus: SCA_(1402,_57012)_function_scanpy_cluster_anndata_start,_rseed=1  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1402,_19244)_After_filter_genes_3  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1402,_19244)_After_normalize_total_target_sum=10000.0  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1402,_19244)_After_log1p  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1402,_19244)_After_highly_variable_genes  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1402,_19244)_After_scale_(max=10.0,_zero_center=False)  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 PCA using 4769 highly variable genes
+#2 PCA irlbpy, n_comps 50
+#2 PCA via irlbpy, input shape (1402, 4769), n_comps=50, use_hv=True, zero_center=True
+#2 MemStatus: SCA_(1402,_19244)_After_irlbpy;_Next_neighbors  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1402,_19244)_After_neighbors,_n_neighbors=50;_Next_umap  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1402,_19244)_After_umap,_min_dist=0.5  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Clustering (leiden)
+#2 MemStatus: SCA_(1402,_19244)_After_clustering_leiden,_done  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Wrote anndata: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/DGE_filtered/anndata.h5ad
+# Wrote 1402 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/cluster_assignment.csv
+#2 SFR_CLUST_ASSIGN Row_1_of_1404            cluster
+#2 SFR_CLUST_ASSIGN Row_2_of_1404  bc_wells         
+#2 SFR_CLUST_ASSIGN Row_3_of_1404  04_01_09        1
+#2 SFR_CLUST_ASSIGN Row_4_of_1404  04_01_18        9
+#2 SFR_CLUST_ASSIGN Row_5_of_1404  04_01_19        2
+#2 SFR_CLUST_ASSIGN Row_6_of_1404  04_01_42        1
+# Wrote 1402 by 3 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/cluster_umap.csv
+#2 SFR_CLUST_UMAP Row_1_of_1404             umap_X   umap_Y
+#2 SFR_CLUST_UMAP Row_2_of_1404  bc_wells                  
+#2 SFR_CLUST_UMAP Row_3_of_1404  04_01_09   1.0562   3.0802
+#2 SFR_CLUST_UMAP Row_4_of_1404  04_01_18  10.7216  -9.3718
+#2 SFR_CLUST_UMAP Row_5_of_1404  04_01_19  -1.6947  12.1680
+#2 SFR_CLUST_UMAP Row_6_of_1404  04_01_42   0.4658   1.2843
+# Getting gene enrichment table, 13 clusters, top 20 genes each
+#3 Collecting, cluster 0
+#3 Collecting, cluster 1
+#3 Collecting, cluster 2
+#3 Collecting, cluster 3
+#3 Collecting, cluster 4
+#3 Collecting, cluster 5
+#3 Collecting, cluster 6
+#3 Collecting, cluster 7
+#3 Collecting, cluster 8
+#3 Collecting, cluster 9
+#3 Collecting, cluster 10
+#3 Collecting, cluster 11
+#3 Collecting, cluster 12
+#3 Calculating, cluster 0
+#3 Calculating, cluster 1
+#3 Calculating, cluster 2
+#3 Calculating, cluster 3
+#3 Calculating, cluster 4
+#3 Calculating, cluster 5
+#3 Calculating, cluster 6
+#3 Calculating, cluster 7
+#3 Calculating, cluster 8
+#3 Calculating, cluster 9
+#3 Calculating, cluster 10
+#3 Calculating, cluster 11
+#3 Calculating, cluster 12
+# Wrote 260 by 9 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/cluster_diff_exp.csv
+#2 SFR_CLUST_DIFF_EXP Row_1_of_261       cluster             gene_id           gene_name          genome    score  log2_FC   pct1   pct2   pval_adj
+#2 SFR_CLUST_DIFF_EXP Row_2_of_261  0          1  ENSMUSG00000054889                 Dsp  mus109-tdt-yfp  126.804    4.659  0.391  0.014  2.782e-24
+#2 SFR_CLUST_DIFF_EXP Row_3_of_261  1          1  ENSMUSG00000093942             Or13a18  mus109-tdt-yfp   99.297    5.386  0.184  0.004  8.325e-05
+#2 SFR_CLUST_DIFF_EXP Row_4_of_261  2          1  ENSMUSG00000043013             Onecut1  mus109-tdt-yfp   88.428    5.366  0.165  0.003  1.214e-03
+#2 SFR_CLUST_DIFF_EXP Row_5_of_261  3          1  ENSMUSG00000040998                Npnt  mus109-tdt-yfp   63.767    3.875  0.441  0.027  1.208e-29
+#2 SFR_CLUST_DIFF_EXP Row_6_of_261  4          1  ENSMUSG00000109506             Gm44724  mus109-tdt-yfp   62.698    4.354  0.221  0.015  1.133e-06
+# 
+# Analysis processing sample (4 of 5) sample_78
+#2 MemStatus: Analysis_samp_4  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Loaded anndata (1136, 57012) /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/DGE_filtered/
+#2 Calling Scanpy to cluster (adata shape (1136, 57012))
+#2 MemStatus: SCA_(1136,_57012)_function_scanpy_cluster_anndata_start,_rseed=1  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1136,_17937)_After_filter_genes_3  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1136,_17937)_After_normalize_total_target_sum=10000.0  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1136,_17937)_After_log1p  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1136,_17937)_After_highly_variable_genes  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1136,_17937)_After_scale_(max=10.0,_zero_center=False)  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 PCA using 4992 highly variable genes
+#2 PCA irlbpy, n_comps 50
+#2 PCA via irlbpy, input shape (1136, 4992), n_comps=50, use_hv=True, zero_center=True
+#2 MemStatus: SCA_(1136,_17937)_After_irlbpy;_Next_neighbors  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1136,_17937)_After_neighbors,_n_neighbors=50;_Next_umap  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(1136,_17937)_After_umap,_min_dist=0.5  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Clustering (leiden)
+#2 MemStatus: SCA_(1136,_17937)_After_clustering_leiden,_done  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Wrote anndata: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/DGE_filtered/anndata.h5ad
+# Wrote 1136 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/cluster_assignment.csv
+#2 SFR_CLUST_ASSIGN Row_1_of_1138            cluster
+#2 SFR_CLUST_ASSIGN Row_2_of_1138  bc_wells         
+#2 SFR_CLUST_ASSIGN Row_3_of_1138  01_01_31        1
+#2 SFR_CLUST_ASSIGN Row_4_of_1138  01_01_74        4
+#2 SFR_CLUST_ASSIGN Row_5_of_1138  01_01_82        3
+#2 SFR_CLUST_ASSIGN Row_6_of_1138  01_01_91        1
+# Wrote 1136 by 3 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/cluster_umap.csv
+#2 SFR_CLUST_UMAP Row_1_of_1138             umap_X   umap_Y
+#2 SFR_CLUST_UMAP Row_2_of_1138  bc_wells                  
+#2 SFR_CLUST_UMAP Row_3_of_1138  01_01_31   5.8631  -4.7460
+#2 SFR_CLUST_UMAP Row_4_of_1138  01_01_74  11.1160   1.6840
+#2 SFR_CLUST_UMAP Row_5_of_1138  01_01_82  11.7729  -2.5297
+#2 SFR_CLUST_UMAP Row_6_of_1138  01_01_91   4.6818  -5.5862
+# Getting gene enrichment table, 11 clusters, top 20 genes each
+#3 Collecting, cluster 0
+#3 Collecting, cluster 1
+#3 Collecting, cluster 2
+#3 Collecting, cluster 3
+#3 Collecting, cluster 4
+#3 Collecting, cluster 5
+#3 Collecting, cluster 6
+#3 Collecting, cluster 7
+#3 Collecting, cluster 8
+#3 Collecting, cluster 9
+#3 Collecting, cluster 10
+#3 Calculating, cluster 0
+#3 Calculating, cluster 1
+#3 Calculating, cluster 2
+#3 Calculating, cluster 3
+#3 Calculating, cluster 4
+#3 Calculating, cluster 5
+#3 Calculating, cluster 6
+#3 Calculating, cluster 7
+#3 Calculating, cluster 8
+#3 Calculating, cluster 9
+#3 Calculating, cluster 10
+# Wrote 220 by 9 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/cluster_diff_exp.csv
+#2 SFR_CLUST_DIFF_EXP Row_1_of_221       cluster             gene_id           gene_name          genome    score  log2_FC   pct1   pct2    pval_adj
+#2 SFR_CLUST_DIFF_EXP Row_2_of_221  0          1  ENSMUSG00000054889                 Dsp  mus109-tdt-yfp  106.474    4.660  0.257  0.011   1.005e-08
+#2 SFR_CLUST_DIFF_EXP Row_3_of_221  1          1  ENSMUSG00000035486                Plk5  mus109-tdt-yfp   72.884    4.521  0.161  0.006   7.955e-03
+#2 SFR_CLUST_DIFF_EXP Row_4_of_221  2          1  ENSMUSG00000043013             Onecut1  mus109-tdt-yfp   59.813    5.009  0.119  0.006   5.375e-01
+#2 SFR_CLUST_DIFF_EXP Row_5_of_221  3          1  ENSMUSG00000040998                Npnt  mus109-tdt-yfp   57.102    3.612  0.355  0.022   1.643e-16
+#2 SFR_CLUST_DIFF_EXP Row_6_of_221  4          1  ENSMUSG00000026389              Steap3  mus109-tdt-yfp   52.982    4.671  0.113  0.006   9.007e-01
+# 
+# Analysis processing sample (5 of 5) all-well
+#2 MemStatus: Analysis_samp_5  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Loaded anndata (4603, 57012) /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/DGE_filtered/
+#2 Calling Scanpy to cluster (adata shape (4603, 57012))
+#2 MemStatus: SCA_(4603,_57012)_function_scanpy_cluster_anndata_start,_rseed=1  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(4603,_23285)_After_filter_genes_3  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(4603,_23285)_After_normalize_total_target_sum=10000.0  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(4603,_23285)_After_log1p  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(4603,_23285)_After_highly_variable_genes  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(4603,_23285)_After_scale_(max=10.0,_zero_center=False)  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 PCA using 4584 highly variable genes
+#2 PCA irlbpy, n_comps 50
+#2 PCA via irlbpy, input shape (4603, 4584), n_comps=50, use_hv=True, zero_center=True
+#2 MemStatus: SCA_(4603,_23285)_After_irlbpy;_Next_neighbors  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(4603,_23285)_After_neighbors,_n_neighbors=50;_Next_umap  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 MemStatus: SCA_(4603,_23285)_After_umap,_min_dist=0.5  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Clustering (leiden)
+#2 MemStatus: SCA_(4603,_23285)_After_clustering_leiden,_done  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Wrote anndata: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/DGE_filtered/anndata.h5ad
+# Wrote 4603 by 2 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/cluster_assignment.csv
+#2 SFR_CLUST_ASSIGN Row_1_of_4605            cluster
+#2 SFR_CLUST_ASSIGN Row_2_of_4605  bc_wells         
+#2 SFR_CLUST_ASSIGN Row_3_of_4605  01_01_31        5
+#2 SFR_CLUST_ASSIGN Row_4_of_4605  01_01_74        3
+#2 SFR_CLUST_ASSIGN Row_5_of_4605  01_01_82        6
+#2 SFR_CLUST_ASSIGN Row_6_of_4605  01_01_91        1
+# Wrote 4603 by 3 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/cluster_umap.csv
+#2 SFR_CLUST_UMAP Row_1_of_4605               umap_X     umap_Y
+#2 SFR_CLUST_UMAP Row_2_of_4605  bc_wells                      
+#2 SFR_CLUST_UMAP Row_3_of_4605  01_01_31  19.590000  12.374300
+#2 SFR_CLUST_UMAP Row_4_of_4605  01_01_74  10.362900  -1.371600
+#2 SFR_CLUST_UMAP Row_5_of_4605  01_01_82   7.417100  -3.899300
+#2 SFR_CLUST_UMAP Row_6_of_4605  01_01_91  18.570101  12.104900
+# Getting gene enrichment table, 19 clusters, top 20 genes each
+#3 Collecting, cluster 0
+#3 Collecting, cluster 1
+#3 Collecting, cluster 2
+#3 Collecting, cluster 3
+#3 Collecting, cluster 4
+#3 Collecting, cluster 5
+#3 Collecting, cluster 6
+#3 Collecting, cluster 7
+#3 Collecting, cluster 8
+#3 Collecting, cluster 9
+#3 Collecting, cluster 10
+#3 Collecting, cluster 11
+#3 Collecting, cluster 12
+#3 Collecting, cluster 13
+#3 Collecting, cluster 14
+#3 Collecting, cluster 15
+#3 Collecting, cluster 16
+#3 Collecting, cluster 17
+#3 Collecting, cluster 18
+#3 Calculating, cluster 0
+#3 Calculating, cluster 1
+#3 Calculating, cluster 2
+#3 Calculating, cluster 3
+#3 Calculating, cluster 4
+#3 Calculating, cluster 5
+#3 Calculating, cluster 6
+#3 Calculating, cluster 7
+#3 Calculating, cluster 8
+#3 Calculating, cluster 9
+#3 Calculating, cluster 10
+#3 Calculating, cluster 11
+#3 Calculating, cluster 12
+#3 Calculating, cluster 13
+#3 Calculating, cluster 14
+#3 Calculating, cluster 15
+#3 Calculating, cluster 16
+#3 Calculating, cluster 17
+#3 Calculating, cluster 18
+# Wrote 380 by 9 table to /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/cluster_diff_exp.csv
+#2 SFR_CLUST_DIFF_EXP Row_1_of_381       cluster             gene_id           gene_name          genome    score  log2_FC   pct1   pct2    pval_adj
+#2 SFR_CLUST_DIFF_EXP Row_2_of_381  0          1  ENSMUSG00000110092         Or13a23-ps1  mus109-tdt-yfp   34.011    3.497  0.097  0.009   4.044e-03
+#2 SFR_CLUST_DIFF_EXP Row_3_of_381  1          1  ENSMUSG00000060890                Arr3  mus109-tdt-yfp   30.208    3.829  0.079  0.005   8.970e-02
+#2 SFR_CLUST_DIFF_EXP Row_4_of_381  2          1  ENSMUSG00000036907               C1ql2  mus109-tdt-yfp   30.163    3.159  0.144  0.015   4.167e-08
+#2 SFR_CLUST_DIFF_EXP Row_5_of_381  3          1  ENSMUSG00000029816               Gpnmb  mus109-tdt-yfp   29.626    3.364  0.088  0.009   2.886e-02
+#2 SFR_CLUST_DIFF_EXP Row_6_of_381  4          1  ENSMUSG00000035486                Plk5  mus109-tdt-yfp   29.224    3.287  0.294  0.033   4.518e-37
+#2 MemStatus: Analysis  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 DskStatus: Analysis  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+#2 MemStatus: Analysis  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 DskStatus: Analysis  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# << Running Analysis; Status True; Duration 0:01:35.99
+
+#2 MemStatus: Reports  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 DskStatus: Reports  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# >> Running Reports
+#2 MemStatus: Reports  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 DskStatus: Reports  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# 
+# Report processing sample (1 of 5) S1
+#2 MemStatus: Report_samp_1  40.9G proc, 11.9G rss, 29.1G vms, 4.7% usd, 479.5G avail
+#2 Loaded anndata (678, 17927) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/DGE_filtered/
+#2 Read Dataframe: Dims 50 x 1, Mem 800B (800) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/analysis_all_stats.csv
+#2 Collecting stats to report
+#2 Generating plate figures
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_median_by_rnd1_well.csv
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/cell_counts_by_rnd1_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_median_by_rnd2_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/cell_counts_by_rnd2_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_median_by_rnd3_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/cell_counts_by_rnd3_well.csv
+#2 Generating subsample plots
+#2 Read Dataframe: Dims 14 x 1, Mem 224B (224) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_counts_subsampled.csv
+#2 Read Dataframe: Dims 14 x 1, Mem 224B (224) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/gene_counts_subsampled.csv
+#2 Generating tscp cell count figure
+#2 Read Dataframe: Dims 9094 x 1, Mem 142.1K (145504) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/tscp_counts.csv
+#2 Rendering gene enrichment table (pb)
+#2 Read Dataframe: Dims 160 x 9, Mem 11.4K (11648) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1/report/cluster_diff_exp.csv
+#2 No cell subsampling for gex plots; All 678
+#2 Generating 4 umap cluster plot figures
+#2 Generating and saving umap cluster plot leiden
+#2 Generating and saving umap cluster plot gene_count
+#2 Generating and saving umap cluster plot mread_count
+#2 Packaging gene expression data for plots (17927 genes)
+#2 Using 4 threads for multiprocessing
+# New report html: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S1_analysis_summary.html
+# 
+# Report processing sample (2 of 5) S3
+#2 MemStatus: Report_samp_2  40.1G proc, 11.9G rss, 28.2G vms, 4.7% usd, 479.5G avail
+#2 Loaded anndata (1443, 19265) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/DGE_filtered/
+#2 Read Dataframe: Dims 50 x 1, Mem 800B (800) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/analysis_all_stats.csv
+#2 Collecting stats to report
+#2 Generating plate figures
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_median_by_rnd1_well.csv
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/cell_counts_by_rnd1_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_median_by_rnd2_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/cell_counts_by_rnd2_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_median_by_rnd3_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/cell_counts_by_rnd3_well.csv
+#2 Generating subsample plots
+#2 Read Dataframe: Dims 13 x 1, Mem 208B (208) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_counts_subsampled.csv
+#2 Read Dataframe: Dims 13 x 1, Mem 208B (208) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/gene_counts_subsampled.csv
+#2 Generating tscp cell count figure
+#2 Read Dataframe: Dims 35689 x 1, Mem 557.6K (571024) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/tscp_counts.csv
+#2 Rendering gene enrichment table (pb)
+#2 Read Dataframe: Dims 280 x 9, Mem 19.8K (20288) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3/report/cluster_diff_exp.csv
+#2 No cell subsampling for gex plots; All 1443
+#2 Generating 4 umap cluster plot figures
+#2 Generating and saving umap cluster plot leiden
+#2 Generating and saving umap cluster plot gene_count
+#2 Generating and saving umap cluster plot mread_count
+#2 Packaging gene expression data for plots (19265 genes)
+#2 Using 4 threads for multiprocessing
+# New report html: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/S3_analysis_summary.html
+# 
+# Report processing sample (3 of 5) sample_76
+#2 MemStatus: Report_samp_3  40.1G proc, 11.9G rss, 28.2G vms, 4.7% usd, 479.4G avail
+#2 Loaded anndata (1402, 19244) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/DGE_filtered/
+#2 Read Dataframe: Dims 50 x 1, Mem 800B (800) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/analysis_all_stats.csv
+#2 Collecting stats to report
+#2 Generating plate figures
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_median_by_rnd1_well.csv
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/cell_counts_by_rnd1_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_median_by_rnd2_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/cell_counts_by_rnd2_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_median_by_rnd3_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/cell_counts_by_rnd3_well.csv
+#2 Generating subsample plots
+#2 Read Dataframe: Dims 13 x 1, Mem 208B (208) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_counts_subsampled.csv
+#2 Read Dataframe: Dims 13 x 1, Mem 208B (208) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/gene_counts_subsampled.csv
+#2 Generating tscp cell count figure
+#2 Read Dataframe: Dims 35738 x 1, Mem 558.4K (571808) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/tscp_counts.csv
+#2 Rendering gene enrichment table (pb)
+#2 Read Dataframe: Dims 260 x 9, Mem 18.4K (18848) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76/report/cluster_diff_exp.csv
+#2 No cell subsampling for gex plots; All 1402
+#2 Generating 4 umap cluster plot figures
+#2 Generating and saving umap cluster plot leiden
+#2 Generating and saving umap cluster plot gene_count
+#2 Generating and saving umap cluster plot mread_count
+#2 Packaging gene expression data for plots (19244 genes)
+#2 Using 4 threads for multiprocessing
+# New report html: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_76_analysis_summary.html
+# 
+# Report processing sample (4 of 5) sample_78
+#2 MemStatus: Report_samp_4  40.2G proc, 11.9G rss, 28.2G vms, 4.7% usd, 479.4G avail
+#2 Loaded anndata (1136, 17937) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/DGE_filtered/
+#2 Read Dataframe: Dims 50 x 1, Mem 800B (800) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/analysis_all_stats.csv
+#2 Collecting stats to report
+#2 Generating plate figures
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_median_by_rnd1_well.csv
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/cell_counts_by_rnd1_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_median_by_rnd2_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/cell_counts_by_rnd2_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_median_by_rnd3_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/cell_counts_by_rnd3_well.csv
+#2 Generating subsample plots
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_counts_subsampled.csv
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/gene_counts_subsampled.csv
+#2 Generating tscp cell count figure
+#2 Read Dataframe: Dims 26592 x 1, Mem 415.5K (425472) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/tscp_counts.csv
+#2 Rendering gene enrichment table (pb)
+#2 Read Dataframe: Dims 220 x 9, Mem 15.6K (15968) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78/report/cluster_diff_exp.csv
+#2 No cell subsampling for gex plots; All 1136
+#2 Generating 4 umap cluster plot figures
+#2 Generating and saving umap cluster plot leiden
+#2 Generating and saving umap cluster plot gene_count
+#2 Generating and saving umap cluster plot mread_count
+#2 Packaging gene expression data for plots (17937 genes)
+#2 Using 4 threads for multiprocessing
+# New report html: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/sample_78_analysis_summary.html
+# 
+# Report processing sample (5 of 5) all-well
+#2 MemStatus: Report_samp_5  40.2G proc, 11.9G rss, 28.2G vms, 4.7% usd, 479.4G avail
+#2 Loaded anndata (4603, 23285) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/DGE_filtered/
+#2 Read Dataframe: Dims 50 x 1, Mem 800B (800) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/analysis_all_stats.csv
+#2 Collecting stats to report
+#2 Generating plate figures
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_median_by_rnd1_well.csv
+#2 Read Dataframe: Dims 12 x 1, Mem 192B (192) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/cell_counts_by_rnd1_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_median_by_rnd2_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/cell_counts_by_rnd2_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_median_by_rnd3_well.csv
+#2 Read Dataframe: Dims 96 x 1, Mem 1.5K (1536) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/cell_counts_by_rnd3_well.csv
+#2 Generating subsample plots
+#2 Read Dataframe: Dims 13 x 1, Mem 208B (208) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_counts_subsampled.csv
+#2 Read Dataframe: Dims 13 x 1, Mem 208B (208) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/gene_counts_subsampled.csv
+#2 Generating tscp cell count figure
+#2 Read Dataframe: Dims 107113 x 1, Mem 1.6M (1713808) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/tscp_counts.csv
+#2 Rendering gene enrichment table (pb)
+#2 Read Dataframe: Dims 380 x 9, Mem 26.8K (27488) from /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well/report/cluster_diff_exp.csv
+#2 No cell subsampling for gex plots; All 4603
+#2 Generating 4 umap cluster plot figures
+#2 Generating and saving umap cluster plot leiden
+#2 Generating and saving umap cluster plot sample
+#2 Generating and saving umap cluster plot gene_count
+#2 Generating and saving umap cluster plot mread_count
+#2 Packaging gene expression data for plots (23285 genes)
+#2 Using 4 threads for multiprocessing
+# New report html: /scratch/batiuk/secondary/13.04.2023_parse_trial1_count/sublibrary_S1/all-well_analysis_summary.html
+#2 MemStatus: Reports  40.2G proc, 11.9G rss, 28.2G vms, 4.7% usd, 479.4G avail
+#2 DskStatus: Reports  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+#2 MemStatus: Reports  40.2G proc, 11.9G rss, 28.2G vms, 4.7% usd, 479.4G avail
+#2 DskStatus: Reports  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# << Running Reports; Status True; Duration 0:01:03.11
+
+#2 MemStatus: Clean  40.2G proc, 11.9G rss, 28.2G vms, 4.7% usd, 479.4G avail
+#2 DskStatus: Clean  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
+# >> Running Clean
+#2 MemStatus: Clean  40.2G proc, 11.9G rss, 28.2G vms, 4.7% usd, 479.4G avail
+#2 DskStatus: Clean  '/scratch/' 480.9T total, 381.7T (79.37%) used, 99.2T (20.63%) free
