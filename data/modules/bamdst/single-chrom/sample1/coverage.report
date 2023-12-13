@@ -1,0 +1,65 @@
+## The file was created by bamdst
+## Version : 1.0.9
+## Files : example/sample1.bam 
+                               [Total] Raw Reads (All reads)	14
+                                       [Total] QC Fail reads	0
+                                        [Total] Raw Data(Mb)	0.00
+                                        [Total] Paired Reads	0
+                                        [Total] Mapped Reads	14
+                            [Total] Fraction of Mapped Reads	100.00%
+                                     [Total] Mapped Data(Mb)	0.00
+                         [Total] Fraction of Mapped Data(Mb)	100.00%
+                                     [Total] Properly paired	0
+                         [Total] Fraction of Properly paired	0.00%
+                                [Total] Read and mate paired	0
+                    [Total] Fraction of Read and mate paired	0.00%
+                                          [Total] Singletons	0
+                       [Total] Read and mate map to diff chr	0
+                                               [Total] Read1	0
+                                               [Total] Read2	0
+                                        [Total] Read1(rmdup)	0
+                                        [Total] Read2(rmdup)	0
+                                [Total] forward strand reads	0
+                               [Total] backward strand reads	14
+                                 [Total] PCR duplicate reads	0
+                     [Total] Fraction of PCR duplicate reads	0.00%
+                            [Total] Map quality cutoff value	20
+                       [Total] MapQuality above cutoff reads	9
+                 [Total] Fraction of MapQ reads in all reads	64.29%
+              [Total] Fraction of MapQ reads in mapped reads	64.29%
+                                       [Target] Target Reads	10
+              [Target] Fraction of Target Reads in all reads	71.43%
+           [Target] Fraction of Target Reads in mapped reads	71.43%
+                                    [Target] Target Data(Mb)	0.00
+                              [Target] Target Data Rmdup(Mb)	0.00
+                [Target] Fraction of Target Data in all data	36.05%
+             [Target] Fraction of Target Data in mapped data	36.05%
+                                      [Target] Len of region	954
+                                      [Target] Average depth	0.25
+                               [Target] Average depth(rmdup)	0.05
+                                     [Target] Coverage (>0x)	5.66%
+                                    [Target] Coverage (>=4x)	2.83%
+                                   [Target] Coverage (>=10x)	0.00%
+                                   [Target] Coverage (>=30x)	0.00%
+                                  [Target] Coverage (>=100x)	0.00%
+                                [Target] Target Region Count	1
+                                [Target] Region covered > 0x	0
+                       [Target] Fraction Region covered > 0x	0.00%
+                      [Target] Fraction Region covered >= 4x	0.00%
+                     [Target] Fraction Region covered >= 10x	0.00%
+                     [Target] Fraction Region covered >= 30x	0.00%
+                    [Target] Fraction Region covered >= 100x	0.00%
+                                          [flank] flank size	200
+           [flank] Len of region (not include target region)	1354
+                                       [flank] Average depth	0.00
+                                         [flank] flank Reads	14
+                [flank] Fraction of flank Reads in all reads	100.00%
+             [flank] Fraction of flank Reads in mapped reads	100.00%
+                                      [flank] flank Data(Mb)	0.00
+                  [flank] Fraction of flank Data in all data	0.00%
+               [flank] Fraction of flank Data in mapped data	0.00%
+                                      [flank] Coverage (>0x)	0.00%
+                                     [flank] Coverage (>=4x)	0.00%
+                                    [flank] Coverage (>=10x)	0.00%
+                                    [flank] Coverage (>=30x)	0.00%
+                                   [flank] Coverage (>=100x)	0.00%
