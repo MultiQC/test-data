@@ -1,4 +1,4 @@
-Data from <https://github.com/ewels/MultiQC/issues/737>
+Data from <https://github.com/MultiQC/MultiQC/issues/737>
 
 Description:
 
