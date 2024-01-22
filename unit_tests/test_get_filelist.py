@@ -20,6 +20,16 @@ def report_init():
     report.init()
     yield
 
+@pytest.fixture
+def ignored_dirs(data_dir):
+    config.analysis_dir = [data_dir / 'exclusions/ignore_dirs']
+    config.fn_ignore_dirs = ["ignored", "*_ignored"]
+
+@pytest.fixture
+def ignored_paths(data_dir):
+    config.analysis_dir = [data_dir / 'exclusions/ignore_paths']
+    config.fn_ignore_paths = ["*/*_ignored"]
+
 @pytest.mark.parametrize(["ignore_links", "expected"], [(True, ["file"]), (False, ["filelink", "nested", "file"])])
 @pytest.mark.parametrize(["traverse_method"], [(report.oswalk,), (report.pathwalk,)])
 def test_symlinked_files_found(report_init, traverse_method, ignore_links, expected):
@@ -31,3 +41,23 @@ def test_symlinked_files_found(report_init, traverse_method, ignore_links, expec
     report.get_filelist([], traverse_method=traverse_method)
     searchfiles_names = [f[0] for f in report.searchfiles]
     assert all(f in searchfiles_names for f in expected)
+
+@pytest.mark.parametrize(["traverse_method"], [(report.oswalk,), (report.pathwalk,)])
+def test_excluded_dirs(ignored_dirs, report_init, traverse_method):
+    """
+    Tests that ignored folder names are ignored
+    """
+    expected_files = {"should_be_included"}
+    report.get_filelist([], traverse_method=traverse_method)
+    filenames = {f[0] for f in report.searchfiles}
+    assert filenames == expected_files
+
+@pytest.mark.parametrize(["traverse_method"], [(report.oswalk,), (report.pathwalk,)])
+def test_excluded_paths(ignored_paths, report_init, traverse_method):
+    """
+    Tests that ignored *folder* paths are ignored
+    """
+    expected_files = {"should_be_included"}
+    report.get_filelist([], traverse_method=traverse_method)
+    filenames = {f[0] for f in report.searchfiles}
+    assert filenames == expected_files
