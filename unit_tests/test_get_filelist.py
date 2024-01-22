@@ -30,14 +30,17 @@ def ignored_paths(data_dir):
     config.analysis_dir = [data_dir / 'exclusions/ignore_paths']
     config.fn_ignore_paths = ["*/*_ignored"]
 
-@pytest.mark.parametrize(["ignore_links", "expected"], [(True, ["file"]), (False, ["filelink", "nested", "file"])])
+@pytest.fixture
+def ignore_links(request):
+    config.analysis_dir = [Path(__file__).parent.parent / "data/special_cases/symlinks/linked"]
+    config.ignore_symlinks = request.param
+
+@pytest.mark.parametrize(["ignore_links", "expected"], [(True, ["file"]), (False, ["filelink", "nested", "file"])], indirect=["ignore_links"])
 @pytest.mark.parametrize(["traverse_method"], [(report.oswalk,), (report.pathwalk,)])
-def test_symlinked_files_found(report_init, traverse_method, ignore_links, expected):
+def test_symlinked_files_found(report_init, ignore_links, traverse_method, expected):
     """
     Tests that symlinked files are discovered and ignored properly.
     """
-    config.analysis_dir = [Path(__file__).parent.parent / "data/special_cases/symlinks/linked"]
-    config.ignore_symlinks = ignore_links
     report.get_filelist([], traverse_method=traverse_method)
     searchfiles_names = [f[0] for f in report.searchfiles]
     assert all(f in searchfiles_names for f in expected)
