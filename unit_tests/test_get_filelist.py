@@ -12,17 +12,22 @@ sys.path.insert(0,'../MultiQC')
 from multiqc.utils import report
 
 @pytest.fixture
-def analysis_dir():
-    config.analysis_dir = [Path(__file__).parent / "../data/special_cases/symlinks/linked"]
-    yield
+def data_dir():
+    yield Path(__file__).parent.parent / 'data'
 
 @pytest.fixture
 def report_init():
     report.init()
     yield
 
-def test_symlinked_files_found(analysis_dir, report_init):
-    expected = ["filelink.txt", "nested.txt"]
-    report.get_filelist([])
+@pytest.mark.parametrize(["ignore_links", "expected"], [(True, ["file"]), (False, ["filelink", "nested", "file"])])
+@pytest.mark.parametrize(["traverse_method"], [(report.oswalk,), (report.pathwalk,)])
+def test_symlinked_files_found(report_init, traverse_method, ignore_links, expected):
+    """
+    Tests that symlinked files are discovered and ignored properly.
+    """
+    config.analysis_dir = [Path(__file__).parent.parent / "data/special_cases/symlinks/linked"]
+    config.ignore_symlinks = ignore_links
+    report.get_filelist([], traverse_method=traverse_method)
     searchfiles_names = [f[0] for f in report.searchfiles]
     assert all(f in searchfiles_names for f in expected)
