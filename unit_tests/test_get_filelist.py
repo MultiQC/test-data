@@ -36,7 +36,7 @@ def ignore_links(request):
     config.ignore_symlinks = request.param
 
 @pytest.mark.parametrize(["ignore_links", "expected"], [(True, ["file"]), (False, ["filelink", "nested", "file"])], indirect=["ignore_links"])
-@pytest.mark.parametrize(["walk_method"], [(report.oswalk,), (report.pathwalk,)])
+@pytest.mark.parametrize(["walk_method"], [('oswalk',), ('pathwalk',)])
 def test_symlinked_files_found(report_init, ignore_links, walk_method, expected):
     """
     Tests that symlinked files are discovered and ignored properly.
@@ -45,7 +45,7 @@ def test_symlinked_files_found(report_init, ignore_links, walk_method, expected)
     searchfiles_names = [f[0] for f in report.searchfiles]
     assert all(f in searchfiles_names for f in expected)
 
-@pytest.mark.parametrize(["walk_method"], [(report.oswalk,), (report.pathwalk,)])
+@pytest.mark.parametrize(["walk_method"], [('oswalk',), ('pathwalk',)])
 def test_excluded_dirs(ignored_dirs, report_init, walk_method):
     """
     Tests that ignored folder names are ignored
@@ -55,7 +55,7 @@ def test_excluded_dirs(ignored_dirs, report_init, walk_method):
     filenames = {f[0] for f in report.searchfiles}
     assert filenames == expected_files
 
-@pytest.mark.parametrize(["walk_method"], [(report.oswalk,), (report.pathwalk,)])
+@pytest.mark.parametrize(["walk_method"], [('oswalk',), ('pathwalk',)])
 def test_excluded_paths(ignored_paths, report_init, walk_method):
     """
     Tests that ignored *folder* paths are ignored
