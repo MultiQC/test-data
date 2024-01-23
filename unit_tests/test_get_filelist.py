@@ -24,7 +24,6 @@ def data_dir():
 @pytest.fixture
 def report_init():
     report.init()
-    yield
 
 
 @pytest.fixture
@@ -46,7 +45,7 @@ def ignore_links(request):
 
 
 @pytest.mark.parametrize(
-    ["ignore_links", "expected"], [(True, ["file"]), (False, ["filelink", "nested", "file"])], indirect=["ignore_links"]
+    ["ignore_links", "expected"], [(True, {"file", "filelink"}), (False, {"filelink", "nested", "file"})], indirect=["ignore_links"]
 )
 @pytest.mark.parametrize(["walk_method"], [("oswalk",), ("pathwalk",)])
 def test_symlinked_files_found(report_init, ignore_links, walk_method, expected):
@@ -54,8 +53,8 @@ def test_symlinked_files_found(report_init, ignore_links, walk_method, expected)
     Tests that symlinked files are discovered and ignored properly.
     """
     report.get_filelist([], walk_method=walk_method)
-    searchfiles_names = [f[0] for f in report.searchfiles]
-    assert all(f in searchfiles_names for f in expected)
+    filenames = {f[0] for f in report.searchfiles}
+    assert filenames == expected
 
 
 @pytest.mark.parametrize(["walk_method"], [("oswalk",), ("pathwalk",)])
