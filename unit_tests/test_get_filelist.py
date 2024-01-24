@@ -46,7 +46,7 @@ def ignore_links(request):
 
 @pytest.mark.parametrize(
     ["ignore_links", "expected"],
-    [(True, {"file", "filelink"}), (False, {"filelink", "nested", "file"})],
+    [(True, {"file"}), (False, {"filelink", "nested", "file"})],
     indirect=["ignore_links"],
 )
 def test_symlinked_files_found(report_init, ignore_links, expected):
