@@ -9,7 +9,7 @@
         "fastq1_out_name": "SAMPLE-C1_R1.clean_1.fastq.gz",
         "fastq1_out_path": "SAMPLE-C1_R1.clean_1.fastq.gz",
         "reads_in": 154753,
-        "reads_out": 126242,
+        "reads_out": 140541,
         "reads_removed": 14212,
         "reads_removed_proportion": 0.0918,
         "fastq2_in_name": "SAMPLE-C1_R2.fastq.gz",
