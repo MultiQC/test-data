@@ -1,0 +1,20 @@
+[
+    {
+        "version": "1.1.0",
+        "aligner": "bowtie2",
+        "index": "/databases/hostile/human-t2t-hla",
+        "options": [],
+        "fastq1_in_name": "Sample-C_S140_R1_001.fastq.gz",
+        "fastq1_in_path": "/raw-reads/Sample-C_S140_R1_001.fastq.gz",
+        "fastq1_out_name": "Sample-C_S140_R1_001.clean_1.fastq.gz",
+        "fastq1_out_path": "./output/Sample-C_S140_R1_001.clean_1.fastq.gz",
+        "reads_in": 44592518,
+        "reads_out": 9385164,
+        "reads_removed": 35207354,
+        "reads_removed_proportion": 0.78954,
+        "fastq2_in_name": "Sample-C_S140_R2_001.fastq.gz",
+        "fastq2_in_path": "/raw-reads/Sample-C_S140_R2_001.fastq.gz",
+        "fastq2_out_name": "Sample-C_S140_R2_001.clean_2.fastq.gz",
+        "fastq2_out_path": "./output/Sample-C_S140_R2_001.clean_2.fastq.gz"
+    }
+]
