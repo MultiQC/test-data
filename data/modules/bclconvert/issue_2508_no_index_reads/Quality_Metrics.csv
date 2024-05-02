@@ -1,0 +1,9 @@
+Lane,SampleID,Sample_Project,index,index2,ReadNumber,Yield,YieldQ30,QualityScoreSum,Mean Quality Score (PF),% Q30
+1,quantseq_pool_202404,HGL_Cancer_Met_Mechanisms,,,1,65792955300,58749609350,2128522799816,32.35,0.89
+1,quantseq_pool_202404,HGL_Cancer_Met_Mechanisms,,,2,14474450166,13121547102,471974553044,32.61,0.91
+1,Undetermined,Undetermined,,,1,0,0,0,0.00,0.00
+1,Undetermined,Undetermined,,,2,0,0,0,0.00,0.00
+2,quantseq_pool_202404,HGL_Cancer_Met_Mechanisms,,,1,62770231600,52924309787,1972378180434,31.42,0.84
+2,quantseq_pool_202404,HGL_Cancer_Met_Mechanisms,,,2,13809450952,12392061933,447434032944,32.40,0.90
+2,Undetermined,Undetermined,,,1,0,0,0,0.00,0.00
+2,Undetermined,Undetermined,,,2,0,0,0,0.00,0.00
