@@ -4,6 +4,8 @@
 Tests for discovering and excluding files
 """
 
+from pathlib import Path
+
 import pytest
 
 from multiqc import config
@@ -24,20 +26,25 @@ def search_files():
 
 
 @pytest.fixture
-def ignored_dirs():
-    config.analysis_dir = ["data/exclusions/ignore_dirs"]
+def data_dir():
+    yield Path(__file__).parent.parent / "data"
+
+
+@pytest.fixture
+def ignored_dirs(data_dir):
+    config.analysis_dir = [data_dir / "exclusions/ignore_dirs"]
     config.fn_ignore_dirs = ["ignored", "*_ignored"]
 
 
 @pytest.fixture
-def ignored_paths():
-    config.analysis_dir = ["data/exclusions/ignore_paths"]
+def ignored_paths(data_dir):
+    config.analysis_dir = [data_dir / "exclusions/ignore_paths"]
     config.fn_ignore_paths = ["*/*_ignored"]
 
 
 @pytest.fixture
-def ignore_links(request):
-    config.analysis_dir = ["data/special_cases/symlinks/linked"]
+def ignore_links(data_dir, request):
+    config.analysis_dir = [data_dir / "special_cases/symlinks/linked"]
     config.ignore_symlinks = request.param
 
 
