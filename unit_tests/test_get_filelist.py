@@ -9,10 +9,17 @@ import pytest
 from multiqc import config
 from multiqc import report
 from multiqc.core.file_search import file_search
+from multiqc.core.update_config import update_config
+
+
+@pytest.fixture
+def init_config():
+    update_config()
 
 
 @pytest.fixture
 def search_files():
+    report.reset_file_search()
     file_search()
 
 
@@ -39,7 +46,7 @@ def ignore_links(request):
     [(True, {"file"}), (False, {"filelink", "nested", "file"})],
     indirect=["ignore_links"],
 )
-def test_symlinked_files_found(ignore_links, parse_logs, expected):
+def test_symlinked_files_found(init_config, ignore_links, search_files, expected):
     """
     Tests that symlinked files are discovered and ignored properly.
     """
@@ -47,7 +54,7 @@ def test_symlinked_files_found(ignore_links, parse_logs, expected):
     assert filenames == expected
 
 
-def test_excluded_dirs(ignored_dirs, parse_logs):
+def test_excluded_dirs(init_config, ignored_dirs, search_files):
     """
     Tests that ignored folder names are ignored
     """
@@ -56,7 +63,7 @@ def test_excluded_dirs(ignored_dirs, parse_logs):
     assert filenames == expected_files
 
 
-def test_excluded_paths(ignored_paths, parse_logs):
+def test_excluded_paths(init_config, ignored_paths, search_files):
     """
     Tests that ignored *folder* paths are ignored
     """
