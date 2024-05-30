@@ -36,3 +36,10 @@ GLIMPSE2_concordance \
     --input input.txt --min-val-gl 0.9 --min-val-dp 5 --bins 0 0.01 0.05 0.1 0.2 0.5 \
     --output validation
 ```
+
+For the moment the files are in a compressed format and this not supported by MultiQC.
+The files are uncompressed using the following command:
+
+```bash
+gunzip validation*
+```

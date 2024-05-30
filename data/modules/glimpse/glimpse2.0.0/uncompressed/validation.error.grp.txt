@@ -1,0 +1,21 @@
+#Genotype concordance by allele frequency bin (SNPs)
+#GCsSAF id n_genotypes mean_AF #val_gt_RR #val_gt_RA #val_gt_AA filtered_gp RR_hom_matches RA_het_matches AA_hom_matches RR_hom_mismatches RA_het_mismatches AA_hom_mismatches RR_hom_mismatches_rate_percent RA_het_mismatches_rate_percent AA_hom_mimatches_rate_percent
+GCsSAF 0 2838 0.001590 2830 8 0 0 2829 8 0 1 0 0 0.035 0.000 0.000 0.888575 0.882978
+GCsSAF 1 367 0.022783 335 31 1 0 335 30 0 0 1 1 0.000 3.226 100.000 0.938664 0.956999
+GCsSAF 2 130 0.070898 112 17 1 0 112 17 0 0 0 1 0.000 0.000 100.000 0.948173 0.918263
+GCsSAF 3 100 0.142570 63 36 1 0 63 36 1 0 0 0 0.000 0.000 0.000 1.000000 1.000000
+GCsSAF 4 98 0.362634 51 21 26 0 51 21 26 0 0 0 0.000 0.000 0.000 1.000000 0.999847
+#Genotype concordance by allele frequency bin (indels)
+#GCsIAF id n_genotypes mean_AF #val_gt_RR #val_gt_RA #val_gt_AA filtered_gp RR_hom_matches RA_het_matches AA_hom_matches RR_hom_mismatches RA_het_mismatches AA_hom_mismatches RR_hom_mismatches_rate_percent RA_het_mismatches_rate_percent AA_hom_mimatches_rate_percent
+GCsIAF 0 0 0.000000 0 0 0 0 0 0 0 0 0 0 0.000 0.000 0.000 0.000000 0.000000
+GCsIAF 1 0 0.000000 0 0 0 0 0 0 0 0 0 0 0.000 0.000 0.000 0.000000 0.000000
+GCsIAF 2 0 0.000000 0 0 0 0 0 0 0 0 0 0 0.000 0.000 0.000 0.000000 0.000000
+GCsIAF 3 0 0.000000 0 0 0 0 0 0 0 0 0 0 0.000 0.000 0.000 0.000000 0.000000
+GCsIAF 4 0 0.000000 0 0 0 0 0 0 0 0 0 0 0.000 0.000 0.000 0.000000 0.000000
+#Genotype concordance by allele frequency bin (Variants: SNPs + indels)
+#GCsVAF id n_genotypes mean_AF #val_gt_RR #val_gt_RA #val_gt_AA filtered_gp RR_hom_matches RA_het_matches AA_hom_matches RR_hom_mismatches RA_het_mismatches AA_hom_mismatches RR_hom_mismatches_rate_percent RA_het_mismatches_rate_percent AA_hom_mimatches_rate_percent
+GCsVAF 0 2838 0.001590 2830 8 0 0 2829 8 0 1 0 0 0.035 0.000 0.000 0.888575 0.882978
+GCsVAF 1 367 0.022783 335 31 1 0 335 30 0 0 1 1 0.000 3.226 100.000 0.938664 0.956999
+GCsVAF 2 130 0.070898 112 17 1 0 112 17 0 0 0 1 0.000 0.000 100.000 0.948173 0.918263
+GCsVAF 3 100 0.142570 63 36 1 0 63 36 1 0 0 0 0.000 0.000 0.000 1.000000 1.000000
+GCsVAF 4 98 0.362634 51 21 26 0 51 21 26 0 0 0 0.000 0.000 0.000 1.000000 0.999847

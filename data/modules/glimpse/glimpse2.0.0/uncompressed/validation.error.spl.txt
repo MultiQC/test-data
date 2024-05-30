@@ -1,0 +1,12 @@
+#Genotype concordance by sample (SNPs)
+#GCsS id sample_name #val_gt_RR #val_gt_RA #val_gt_AA #filtered_gp RR_hom_matches RA_het_matches AA_hom_matches RR_hom_mismatches RA_het_mismatches AA_hom_mismatches RR_hom_mismatches_rate_percent RA_het_mismatches_rate_percent AA_hom_mimatches non_reference_discordanc_rate_percent best_gt_rsquared imputed_ds_rsquared
+GCsS 0 NA20359 1662 77 27 0 1662 76 25 0 1 2 0.000 1.299 7.407 2.885 0.983021 0.983111
+GCsS 1 NA12878 1729 36 2 0 1728 36 2 1 0 0 0.058 0.000 0.000 2.564 0.977311 0.976842
+#Genotype concordance by sample (indels)
+#GCsI id sample_name #val_gt_RR #val_gt_RA #val_gt_AA #filtered_gp RR_hom_matches RA_het_matches AA_hom_matches RR_hom_mismatches RA_het_mismatches AA_hom_mismatches RR_hom_mismatches_rate_percent RA_het_mismatches_rate_percent AA_hom_mimatches non_reference_discordanc_rate_percent best_gt_rsquared imputed_ds_rsquared
+GCsI 0 NA20359 0 0 0 0 0 0 0 0 0 0 0.000 0.000 0.000 0.000 0.000000 0.000000
+GCsI 1 NA12878 0 0 0 0 0 0 0 0 0 0 0.000 0.000 0.000 0.000 0.000000 0.000000
+#Genotype concordance by sample (Variants: SNPs + indels)
+#GCsV id sample_name #val_gt_RR #val_gt_RA #val_gt_AA #filtered_gp RR_hom_matches RA_het_matches AA_hom_matches RR_hom_mismatches RA_het_mismatches AA_hom_mismatches RR_hom_mismatches_rate_percent RA_het_mismatches_rate_percent AA_hom_mimatches non_reference_discordanc_rate_percent best_gt_rsquared imputed_ds_rsquared
+GCsV 0 NA20359 1662 77 27 0 1662 76 25 0 1 2 0.000 1.299 7.407 2.885 0.983021 0.983111
+GCsV 1 NA12878 1729 36 2 0 1728 36 2 1 0 0 0.058 0.000 0.000 2.564 0.977311 0.976842
