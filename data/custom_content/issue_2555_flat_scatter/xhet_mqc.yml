@@ -1,0 +1,17 @@
+id: "xhet_section"
+section_name: "X heterozygosity"
+description: "This plot shows the fraction of heterozygous variants to total variants in X chromosome."
+plot_type: "scatter"
+pconfig:
+  id: "Xhet_plot"
+  title: "X heterozygosity plot"
+  xlab: "samples"
+  ylab: "Xhet"
+data:
+  150420-HG005-Homogeneity-01-Combined_S1: {x: 150420-HG005-Homogeneity-01-Combined_S1, y: 0.0126928}
+  HG002-Run2_S1: {x: HG002-Run2_S1, y: 0.00921452}
+  HG003Run03_S1: {x: HG003Run03_S1, y: 0.0128297}
+  HG004run02_S1: {x: HG004run02_S1, y: 0.588197}
+  NA24694-combined_S1: {x: NA24694-combined_S1, y: 0.00737769}
+  NA24695-combined_S1: {x: NA24695-combined_S1, y: 0.532036}
+
