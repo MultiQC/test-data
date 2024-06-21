@@ -15,9 +15,8 @@ custom_data:
         plot_type: 'table'
         pconfig:
             id: 'summary_variants_metrics_plot'
-            table_title: 'Variant calling metrics'
+            title: 'Variant calling metrics'
             namespace: 'Variant calling metrics'
-            format: '{:.0f}'
             only_defined_headers: false
         headers:
             '% Mapped reads (viral)':
@@ -28,6 +27,5 @@ custom_data:
         plot_type: 'table'
         pconfig:
             id: 'summary_assembly_metrics_plot'
-            table_title: 'De novo assembly metrics'
+            title: 'De novo assembly metrics'
             namespace: 'De novo assembly metrics'
-            format: '{:.0f}'
