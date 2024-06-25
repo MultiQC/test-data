@@ -4,8 +4,8 @@ custom_data:
         section_name: 'Concordance Rates'
         plot_type: 'heatmap'
         pconfig:
-            id: 'concordance'
-        sortRows: True
+            id: 'concordance_heatmap'
+        sort_rows: true
 
 sp:
     concordance:
