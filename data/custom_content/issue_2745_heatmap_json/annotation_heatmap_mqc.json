@@ -1,0 +1,25 @@
+{
+    "id": "annotation_alignment_stats",
+    "plot_type": "heatmap",
+    "pconfig": {
+        "title": "Annotation stats (DRAMv)",
+	    "min": 0
+    },
+    "ycats": ["sample 1", "sample 2"],
+    "xcats": ["one", "two", "three", "four", "five", "six"],
+    "data": {
+        "sample 1": {
+            "one": 0.9,
+            "two": 0.87,
+            "three": 0.73,
+            "four": 0.6,
+            "five": 0.2
+        },
+        "sample 2": {
+            "two": 1,
+            "three": 0.7,
+            "four": 0.6,
+            "six": 0.3
+        }
+    }
+}
