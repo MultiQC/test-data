@@ -3,7 +3,7 @@
     "plot_type": "heatmap",
     "pconfig": {
         "title": "Annotation stats (DRAMv)",
-	    "min": 0
+        "min": 0
     },
     "ycats": ["sample 1", "sample 2"],
     "xcats": ["one", "two", "three", "four", "five", "six"],
