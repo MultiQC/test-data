@@ -1,0 +1,12 @@
+Arguments	[bam, -i, SRR19887564.sorted.bam, -o, SRR19887564.umi_dedup.sorted.bam, --paired, --two-pass, --remove-unpaired, --remove-chimeric, --algo, dir]
+Done with the first pass!
+Number of input reads	61102320
+Number of removed unmapped reads	36688
+Number of unpaired reads	0
+Number of chimeric reads	0
+Number of unremoved reads	61065632
+Number of unique alignment positions	25880680
+Average number of UMIs per alignment position	1.3413553276034478
+Max number of UMIs over all alignment positions	200
+Number of reads after deduplicating	32424562
+UMI collapsing finished in 1257.136 seconds!
