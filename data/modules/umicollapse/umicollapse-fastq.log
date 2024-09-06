@@ -1,0 +1,6 @@
+Arguments	[fastq, -i, example.fq.gz, -o, example_dedup.fq.gz]
+Done reading input file into memory!
+Number of input reads	250000
+Number of unique reads	176706
+Number of reads after deduplicating	156633
+UMI collapsing finished in 8.169 seconds!
