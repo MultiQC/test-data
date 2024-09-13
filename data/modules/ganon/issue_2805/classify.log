@@ -1,0 +1,31 @@
+- - - - - - - - - -
+   _  _  _  _  _   
+  (_|(_|| |(_)| |  
+   _|   v. 2.0.0
+- - - - - - - - - -
+Classifying reads
+
+ganon-classify processed 787877 sequences (118.969 Mbp) in 1.84222 seconds (3874.76 Mbp/m)
+ - 93 reads classified (0.0118039%)
+   - 80 with unique matches (0.0101539%)
+   - 13 with multiple matches (0.00165%)
+ - 184 matches (avg. 1.97849 match/read classified)
+ - 787784 reads unclassified (99.9882%)
+- - - - - - - - - -
+Reassigning reads
+
+Ganon report output found: 2611_db1.ganon.rep
+2611_db1.ganon.all
+ - Iteration 1 (0.003495)
+ - Iteration 2 (0.0)
+New .rep file: 2611_db1.ganon.rep
+- - - - - - - - - -
+Generating report(s)
+
+Total valid files: 1
+
+ - 9 entries removed not in --ranks [superkingdom,phylum,class,order,family,genus,species,assembly]
+ - 8 entries reported
+ - report saved to 2611_db1.ganon.tre
+
+Total elapsed time: 1.88 seconds.
