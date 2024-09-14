@@ -1,0 +1,10 @@
+id: 'custom_yaml_box'
+section_name: 'Custom box plot'
+description: 'This is a custom content box plot.'
+plot_type: 'box'
+pconfig:
+    id: 'custom_data_yaml_box_plot'
+    title: 'Box plot from YAML'
+data:
+    sample_1: [1.2, 2.3, 3.112, 3.88, 4,1]
+    sample_2: [1.3, 2.5, 1.1, 0.1, 4,5]
