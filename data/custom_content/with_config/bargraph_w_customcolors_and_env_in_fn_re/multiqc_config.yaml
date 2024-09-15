@@ -29,6 +29,6 @@ sp:
         # Case insensitive pattern matching. Test with:
         #    export UMAP_GENE_0="galc"
         # and filename:
-        #    sample_name.clust.scaled.GALC_1234.csv
+        #    sample3.clust.scaled.GALC_1234.csv
         # See https://community.seqera.io/t/can-i-make-the-filename-pattern-case-insensitive/384
         fn_re: !ENV "(?i).*\\.clust\\.scaled\\.${UMAP_GENE_0}.*\\.csv"

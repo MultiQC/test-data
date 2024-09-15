@@ -1,13 +1,13 @@
 custom_data:
     my_genstats:
         plot_type: 'generalstats'
-        pconfig:
-            - col_1:
+        headers:
+            col_1:
                 max: 100
                 min: 0
                 scale: 'RdYlGn'
                 format: '{:.1f}%'
-            - col_2:
+            col_2:
                 min: 0
         data:
             sample_a:
