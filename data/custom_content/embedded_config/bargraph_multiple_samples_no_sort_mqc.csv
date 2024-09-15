@@ -1,0 +1,8 @@
+# plot_type: 'bargraph'
+# pconfig:
+#     sort_samples: false
+Sample Name, Cat 1, Cat 2, Cat 3, Cat 4, Cat 5
+Sample 1,1,6,2,4,6
+Sample 3,2,5,3,4,5
+Sample 4,12,16,18,13,15
+Sample 2,3,2,5,7,3
