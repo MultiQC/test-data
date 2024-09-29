@@ -1,4 +1,5 @@
 Arguments	[bam, -i, SRR19887568.sorted.bam, -o, SRR19887568.umi_dedup.sorted.bam, --paired, --two-pass, --remove-unpaired, --remove-chimeric, --algo, dir]
+Done with the first pass!
 Number of input reads	53490614
 Number of removed unmapped reads	24260
 Number of unpaired reads	0
