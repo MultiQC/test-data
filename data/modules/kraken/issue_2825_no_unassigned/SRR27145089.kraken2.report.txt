@@ -1,0 +1,159 @@
+100.00	55099	0	R	1	root
+100.00	55099	0	R1	131567	  cellular organisms
+100.00	55098	0	D	2	    Bacteria
+100.00	55098	0	P	1224	      Proteobacteria
+100.00	55098	5	C	1236	        Gammaproteobacteria
+ 99.98	55089	11	O	91347	          Enterobacterales
+ 99.96	55078	275	F	543	            Enterobacteriaceae
+ 98.94	54517	374	G	570	              Klebsiella
+ 98.07	54036	40381	S	573	                Klebsiella pneumoniae
+ 18.07	9954	4245	S1	72407	                  Klebsiella pneumoniae subsp. pneumoniae
+  7.08	3902	3902	S2	1193292	                    Klebsiella pneumoniae subsp. pneumoniae 1084
+  1.48	815	815	S2	1125630	                    Klebsiella pneumoniae subsp. pneumoniae HS11286
+  0.58	318	318	S2	1123862	                    Klebsiella pneumoniae subsp. pneumoniae Kp13
+  0.39	215	215	S2	1328324	                    Klebsiella pneumoniae subsp. pneumoniae KPNIH27
+  0.36	197	197	S2	272620	                    Klebsiella pneumoniae subsp. pneumoniae MGH 78578
+  0.28	155	155	S2	1392499	                    Klebsiella pneumoniae subsp. pneumoniae 1158
+  0.18	99	99	S2	484021	                    Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044
+  0.01	5	5	S2	1094170	                    Klebsiella pneumoniae subsp. pneumoniae KPNIH10
+  0.00	2	2	S2	1087440	                    Klebsiella pneumoniae subsp. pneumoniae KPNIH1
+  0.00	1	1	S2	1328325	                    Klebsiella pneumoniae subsp. pneumoniae KPR0928
+  2.94	1620	0	S1	39831	                  Klebsiella pneumoniae subsp. rhinoscleromatis
+  2.94	1620	1620	S2	861365	                    Klebsiella pneumoniae subsp. rhinoscleromatis SB3432
+  1.43	787	787	S1	1380908	                  Klebsiella pneumoniae JM45
+  0.48	262	262	S1	507522	                  Klebsiella pneumoniae 342
+  0.42	234	234	S1	1365186	                  Klebsiella pneumoniae KP-1
+  0.36	201	201	S1	1284802	                  Klebsiella pneumoniae UHKPC33
+  0.24	131	131	S1	1304922	                  Klebsiella pneumoniae 500_1420
+  0.21	116	116	S1	1049565	                  Klebsiella pneumoniae KCTC 2242
+  0.17	95	95	S1	1244085	                  Klebsiella pneumoniae CG43
+  0.14	78	78	S1	1420012	                  Klebsiella pneumoniae 30660/NJST258_1
+  0.14	77	77	S1	1420013	                  Klebsiella pneumoniae 30684/NJST258_2
+  0.08	44	44	S1	1392500	                  Klebsiella pneumoniae HK787
+  0.06	33	33	S1	1284804	                  Klebsiella pneumoniae UHKPC07
+  0.03	19	19	S1	574	                  Klebsiella pneumoniae subsp. ozaenae
+  0.01	4	4	S1	1284798	                  Klebsiella pneumoniae DMC1097
+  0.06	31	29	S	571	                Klebsiella oxytoca
+  0.00	2	2	S1	1333852	                  Klebsiella oxytoca KONIH1
+  0.05	25	25	S	244366	                Klebsiella variicola
+  0.03	16	16	S	1905288	                Klebsiella sp. LTGPAF-6F
+  0.02	13	12	S	1463165	                Klebsiella quasipneumoniae
+  0.00	1	1	S1	1667327	                  Klebsiella quasipneumoniae subsp. quasipneumoniae
+  0.01	8	8	S	2026240	                Klebsiella quasivariicola
+  0.01	7	7	S	548	                Klebsiella aerogenes
+  0.01	7	3	S	1134687	                Klebsiella michiganensis
+  0.01	4	4	S1	1191061	                  Klebsiella michiganensis E718
+  0.19	105	1	G	561	              Escherichia
+  0.18	101	92	S	562	                Escherichia coli
+  0.00	2	2	S1	745156	                  Escherichia coli 1303
+  0.00	2	2	S1	1446707	                  Escherichia coli O25:NM
+  0.00	1	1	S1	83333	                  Escherichia coli K-12
+  0.00	1	1	S1	941280	                  Escherichia coli O25b:H4
+  0.00	1	1	S1	1329907	                  Escherichia coli APEC IMT5155
+  0.00	1	0	S1	498388	                  Escherichia coli C
+  0.00	1	1	S2	481805	                    Escherichia coli ATCC 8739
+  0.00	1	1	S1	199310	                  Escherichia coli CFT073
+  0.00	2	2	S	1499973	                Escherichia marmotae
+  0.00	1	1	S	208962	                Escherichia albertii
+  0.13	74	0	G	590	              Salmonella
+  0.13	74	3	S	28901	                Salmonella enterica
+  0.13	71	5	S1	59201	                  Salmonella enterica subsp. enterica
+  0.12	64	0	S2	340190	                    Salmonella enterica subsp. enterica serovar Schwarzengrund
+  0.12	64	64	S3	439843	                      Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633
+  0.00	1	1	S2	90371	                    Salmonella enterica subsp. enterica serovar Typhimurium
+  0.00	1	1	S2	483687	                    Salmonella enterica subsp. enterica serovar Concord
+  0.09	52	9	G	547	              Enterobacter
+  0.08	42	2	G1	354276	                Enterobacter cloacae complex
+  0.06	35	32	S	550	                  Enterobacter cloacae
+  0.00	2	2	S1	1333850	                    Enterobacter cloacae ECNIH2
+  0.00	1	0	S1	336306	                    Enterobacter cloacae subsp. cloacae
+  0.00	1	1	S2	716541	                      Enterobacter cloacae subsp. cloacae ATCC 13047
+  0.00	2	2	S	158836	                  Enterobacter hormaechei
+  0.00	1	1	S	208224	                  Enterobacter kobei
+  0.00	1	1	S	1812935	                  Enterobacter roggenkampii
+  0.00	1	1	S	2027919	                  Enterobacter cloacae complex sp.
+  0.00	1	1	S	399742	                Enterobacter sp. 638
+  0.06	33	0	G	544	              Citrobacter
+  0.03	19	2	G1	1344959	                Citrobacter freundii complex
+  0.03	15	14	S	546	                  Citrobacter freundii
+  0.00	1	1	S1	1333848	                    Citrobacter freundii CFNIH1
+  0.00	2	2	S	2077147	                  Citrobacter freundii complex sp. CFNIH3
+  0.01	8	8	S	35703	                Citrobacter amalonaticus
+  0.01	3	3	S	545	                Citrobacter koseri
+  0.00	1	1	S	67824	                Citrobacter farmeri
+  0.00	1	1	S	1702170	                Citrobacter sp. FDAARGOS_156
+  0.00	1	1	S	1920110	                Citrobacter sp. CFNIH10
+  0.01	8	2	G	413496	              Cronobacter
+  0.01	4	0	S	28141	                Cronobacter sakazakii
+  0.01	4	4	S1	956149	                  Cronobacter sakazakii SP291
+  0.00	1	0	S	413502	                Cronobacter turicensis
+  0.00	1	1	S1	693216	                  Cronobacter turicensis z3032
+  0.00	1	0	S	413503	                Cronobacter malonaticus
+  0.00	1	1	S1	1159491	                  Cronobacter malonaticus LMG 23826
+  0.01	8	0	G	160674	              Raoultella
+  0.01	8	8	S	575	                Raoultella planticola
+  0.00	1	0	F1	191675	              unclassified Enterobacteriaceae
+  0.00	1	0	F2	84563	                ant, tsetse, mealybug, aphid, etc. endosymbionts
+  0.00	1	0	F3	146507	                  aphid secondary symbionts
+  0.00	1	0	G	568987	                    Candidatus Hamiltonella
+  0.00	1	1	S	138072	                      Candidatus Hamiltonella defensa
+  0.00	1	0	G	1335483	              Shimwellia
+  0.00	1	0	S	563	                Shimwellia blattae
+  0.00	1	1	S1	630626	                  Shimwellia blattae DSM 4481 = NBRC 105725
+  0.00	1	0	G	1330546	              Pluralibacter
+  0.00	1	1	S	61647	                Pluralibacter gergoviae
+  0.00	1	0	G	1330545	              Lelliottia
+  0.00	1	1	S	2153385	                Lelliottia sp. WB101
+  0.00	1	0	G	158483	              Cedecea
+  0.00	1	1	S	158822	                Cedecea neteri
+  0.00	1	0	G	579	              Kluyvera
+  0.00	1	1	S	61648	                Kluyvera intermedia
+  0.00	1	0	O	72274	          Pseudomonadales
+  0.00	1	0	F	468	            Moraxellaceae
+  0.00	1	0	G	469	              Acinetobacter
+  0.00	1	0	G1	909768	                Acinetobacter calcoaceticus/baumannii complex
+  0.00	1	1	S	470	                  Acinetobacter baumannii
+  0.00	1	0	O	135623	          Vibrionales
+  0.00	1	0	F	641	            Vibrionaceae
+  0.00	1	0	G	662	              Vibrio
+  0.00	1	1	S	76258	                Vibrio rumoiensis
+  0.00	1	0	O	135622	          Alteromonadales
+  0.00	1	0	F	267890	            Shewanellaceae
+  0.00	1	0	G	22	              Shewanella
+  0.00	1	0	S	70863	                Shewanella oneidensis
+  0.00	1	1	S1	211586	                  Shewanella oneidensis MR-1
+  0.00	1	0	O	135613	          Chromatiales
+  0.00	1	0	F	255526	            Halothiobacillaceae
+  0.00	1	0	G	109262	              Halothiobacillus
+  0.00	1	0	S	927	                Halothiobacillus neapolitanus
+  0.00	1	1	S1	555778	                  Halothiobacillus neapolitanus c2
+  0.00	1	0	D	2759	    Eukaryota
+  0.00	1	0	D1	33154	      Opisthokonta
+  0.00	1	0	K	33208	        Metazoa
+  0.00	1	0	K1	6072	          Eumetazoa
+  0.00	1	0	K2	33213	            Bilateria
+  0.00	1	0	K3	33511	              Deuterostomia
+  0.00	1	0	P	7711	                Chordata
+  0.00	1	0	P1	89593	                  Craniata
+  0.00	1	0	P2	7742	                    Vertebrata
+  0.00	1	0	P3	7776	                      Gnathostomata
+  0.00	1	0	P4	117570	                        Teleostomi
+  0.00	1	0	P5	117571	                          Euteleostomi
+  0.00	1	0	P6	8287	                            Sarcopterygii
+  0.00	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  0.00	1	0	P8	32523	                                Tetrapoda
+  0.00	1	0	P9	32524	                                  Amniota
+  0.00	1	0	C	40674	                                    Mammalia
+  0.00	1	0	C1	32525	                                      Theria
+  0.00	1	0	C2	9347	                                        Eutheria
+  0.00	1	0	C3	1437010	                                          Boreoeutheria
+  0.00	1	0	C4	314146	                                            Euarchontoglires
+  0.00	1	0	O	9443	                                              Primates
+  0.00	1	0	O1	376913	                                                Haplorrhini
+  0.00	1	0	O2	314293	                                                  Simiiformes
+  0.00	1	0	O3	9526	                                                    Catarrhini
+  0.00	1	0	O4	314295	                                                      Hominoidea
+  0.00	1	0	F	9604	                                                        Hominidae
+  0.00	1	0	F1	207598	                                                          Homininae
+  0.00	1	0	G	9605	                                                            Homo
+  0.00	1	1	S	9606	                                                              Homo sapiens
