@@ -1,0 +1,10 @@
+Total Purity Filtered Reads Sequenced	Alternative Aligments	Failed Vendor QC Check	Read Length	Estimated Library Size
+30651300	0	0	151	0
+Mapped	Mapping Rate	Mapped Unique	Mapped Unique Rate of Total	Unique Rate of Mapped	Duplication Rate of Mapped	Base Mismatch Rate	rRNA	rRNA rate
+30651300	1.0	30651300	1.0	1.0	0.0	0.005431152	65472	0.0021360267
+Mapped Pairs	Unpaired Reads	End 1 Mapping Rate	End 2 Mapping Rate	End 1 Mismatch Rate	End 2 Mismatch Rate	Fragment Length Mean	Fragment Length StdDev	Chimeric Pairs
+15317259	0	1.0	1.0	0.0039608004	0.0069015035	178	170	0
+Intragenic Rate	Exonic Rate	Intronic Rate	Intergenic Rate	Split Reads	Expression Profiling Efficiency	Transcripts Detected	Genes Detected
+0.8550467	0.7199892	0.13505751	0.14438295	9659148	0.7199892	112199	16702
+End 1 Sense	End 1 Antisense	End 2 Sense	End 2 Antisense	End 1 % Sense	End 2 % Sense
+618317	10988717	11013586	616640	5.327089	94.69795

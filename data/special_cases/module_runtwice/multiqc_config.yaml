@@ -1,11 +1,13 @@
 module_order:
     - fastqc:
         name: 'FastQC (one)'
+        # anchor: "fastqc_1"
         info: 'This section of the report shows FastQC results from read 1.'
         path_filters:
             - '*1_fastqc.zip'
     - fastqc:
         name: 'FastQC (two)'
+        # anchor: "fastqc_2"
         info: 'This section of the report shows FastQC results from read 2.'
         path_filters:
             - '*2_fastqc.zip'

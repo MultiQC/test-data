@@ -1,0 +1,343 @@
+[M::ha_analyze_count] lowest: count[8] = 0
+[M::ha_analyze_count] highest: count[25] = 110451
+[M::ha_hist_line]     2: * 632
+[M::ha_hist_line]     3:  42
+[M::ha_hist_line]     4:  13
+[M::ha_hist_line]     5:  57
+[M::ha_hist_line]     6:  34
+[M::ha_hist_line]     7:  8
+[M::ha_hist_line]     8:  0
+[M::ha_hist_line]     9:  23
+[M::ha_hist_line]    10:  0
+[M::ha_hist_line]    11:  484
+[M::ha_hist_line]    12: * 1411
+[M::ha_hist_line]    13: *** 2984
+[M::ha_hist_line]    14: ***** 5937
+[M::ha_hist_line]    15: ********* 9609
+[M::ha_hist_line]    16: ************ 13106
+[M::ha_hist_line]    17: ****************** 19857
+[M::ha_hist_line]    18: ********************** 24810
+[M::ha_hist_line]    19: ***************************** 32059
+[M::ha_hist_line]    20: ************************************* 41051
+[M::ha_hist_line]    21: ************************************************ 53469
+[M::ha_hist_line]    22: ************************************************************ 66714
+[M::ha_hist_line]    23: ************************************************************************ 80013
+[M::ha_hist_line]    24: ************************************************************************************** 95076
+[M::ha_hist_line]    25: **************************************************************************************************** 110451
+[M::ha_hist_line]    26: *************************************************************************************************** 109129
+[M::ha_hist_line]    27: ************************************************************************************************ 105730
+[M::ha_hist_line]    28: **************************************************************************************** 97121
+[M::ha_hist_line]    29: **************************************************************************** 83686
+[M::ha_hist_line]    30: ************************************************************************ 79613
+[M::ha_hist_line]    31: ********************************************************** 64060
+[M::ha_hist_line]    32: *********************************************** 52100
+[M::ha_hist_line]    33: ***************************************** 45203
+[M::ha_hist_line]    34: ******************************* 34466
+[M::ha_hist_line]    35: ************************ 27022
+[M::ha_hist_line]    36: ************ 13167
+[M::ha_hist_line]    37: ********* 9916
+[M::ha_hist_line]    38: ****** 6833
+[M::ha_hist_line]    39: **** 4763
+[M::ha_hist_line]    40: **** 4108
+[M::ha_hist_line]    41: *** 3351
+[M::ha_hist_line]    42: ** 2293
+[M::ha_hist_line]    43: ** 1764
+[M::ha_hist_line]    44: ** 1961
+[M::ha_hist_line]    45: * 934
+[M::ha_hist_line]    46: * 870
+[M::ha_hist_line]    47: * 555
+[M::ha_hist_line]  rest: ***** 5987
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: none
+[M::ha_ft_gen] peak_hom: 25; peak_het: -1
+[M::ha_ct_shrink::13.523*1.16] ==> counted 0 distinct minimizer k-mers
+[M::ha_ft_gen::13.526*1.16@16.351GB] ==> filtered out 0 k-mers occurring 125 or more times
+[M::ha_opt_update_cov] updated max_n_chain to 125
+[M::yak_count] collected 1359327 minimizers
+[M::ha_pt_gen::14.109*1.25] ==> counted 62265 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[5] = 1
+[M::ha_analyze_count] highest: count[25] = 4324
+[M::ha_hist_line]     1: ****************************************************************************************************> 11574
+[M::ha_hist_line]     2: ** 67
+[M::ha_hist_line]     3:  3
+[M::ha_hist_line]     4:  2
+[M::ha_hist_line]     5:  1
+[M::ha_hist_line]     6:  2
+[M::ha_hist_line]     7:  0
+[M::ha_hist_line]     8:  0
+[M::ha_hist_line]     9:  1
+[M::ha_hist_line]    10:  0
+[M::ha_hist_line]    11:  17
+[M::ha_hist_line]    12: * 51
+[M::ha_hist_line]    13: *** 127
+[M::ha_hist_line]    14: ****** 242
+[M::ha_hist_line]    15: ********* 395
+[M::ha_hist_line]    16: ************ 505
+[M::ha_hist_line]    17: ****************** 794
+[M::ha_hist_line]    18: *********************** 974
+[M::ha_hist_line]    19: ****************************** 1296
+[M::ha_hist_line]    20: ************************************** 1638
+[M::ha_hist_line]    21: ************************************************* 2102
+[M::ha_hist_line]    22: ************************************************************* 2649
+[M::ha_hist_line]    23: ************************************************************************* 3160
+[M::ha_hist_line]    24: **************************************************************************************** 3784
+[M::ha_hist_line]    25: **************************************************************************************************** 4324
+[M::ha_hist_line]    26: ************************************************************************************************* 4206
+[M::ha_hist_line]    27: ********************************************************************************************* 4009
+[M::ha_hist_line]    28: ************************************************************************************** 3730
+[M::ha_hist_line]    29: ************************************************************************** 3213
+[M::ha_hist_line]    30: *********************************************************************** 3077
+[M::ha_hist_line]    31: ******************************************************* 2385
+[M::ha_hist_line]    32: ********************************************* 1955
+[M::ha_hist_line]    33: *************************************** 1697
+[M::ha_hist_line]    34: ***************************** 1259
+[M::ha_hist_line]    35: *********************** 974
+[M::ha_hist_line]    36: *********** 479
+[M::ha_hist_line]    37: ******** 356
+[M::ha_hist_line]    38: ****** 241
+[M::ha_hist_line]    39: **** 187
+[M::ha_hist_line]    40: *** 145
+[M::ha_hist_line]    41: *** 122
+[M::ha_hist_line]    42: ** 77
+[M::ha_hist_line]    43: * 60
+[M::ha_hist_line]    44: ** 78
+[M::ha_hist_line]    45: * 39
+[M::ha_hist_line]    46: * 31
+[M::ha_hist_line]  rest: ***** 237
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: none
+[M::ha_pt_gen] peak_hom: 25; peak_het: -1
+[M::ha_ct_shrink::14.134*1.25] ==> counted 50691 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 1359327 minimizers
+[M::ha_pt_gen::14.487*1.33] ==> indexed 1347753 positions, counted 50691 distinct minimizer k-mers
+[M::ha_assemble::18.776*2.85@16.351GB] ==> corrected reads for round 1
+[M::ha_assemble] # bases: 48738135; # corrected bases: 75488; # recorrected bases: 89
+[M::ha_assemble] size of buffer: 0.074GB
+[M::yak_count] collected 1359095 minimizers
+[M::ha_pt_gen::19.085*2.88] ==> counted 51743 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[5] = 1
+[M::ha_analyze_count] highest: count[25] = 4294
+[M::ha_hist_line]     1: ************************** 1120
+[M::ha_hist_line]     2:  2
+[M::ha_hist_line]     3:  2
+[M::ha_hist_line]     4:  1
+[M::ha_hist_line]     5:  1
+[M::ha_hist_line]     6:  2
+[M::ha_hist_line]     7:  0
+[M::ha_hist_line]     8:  0
+[M::ha_hist_line]     9:  0
+[M::ha_hist_line]    10:  0
+[M::ha_hist_line]    11:  13
+[M::ha_hist_line]    12: * 40
+[M::ha_hist_line]    13: *** 117
+[M::ha_hist_line]    14: ***** 231
+[M::ha_hist_line]    15: ********* 378
+[M::ha_hist_line]    16: *********** 458
+[M::ha_hist_line]    17: ***************** 737
+[M::ha_hist_line]    18: ********************** 965
+[M::ha_hist_line]    19: **************************** 1192
+[M::ha_hist_line]    20: ************************************** 1613
+[M::ha_hist_line]    21: *********************************************** 2015
+[M::ha_hist_line]    22: ********************************************************* 2437
+[M::ha_hist_line]    23: *********************************************************************** 3063
+[M::ha_hist_line]    24: ************************************************************************************ 3625
+[M::ha_hist_line]    25: **************************************************************************************************** 4294
+[M::ha_hist_line]    26: **************************************************************************************************** 4285
+[M::ha_hist_line]    27: ******************************************************************************************** 3971
+[M::ha_hist_line]    28: ***************************************************************************************** 3822
+[M::ha_hist_line]    29: ***************************************************************************** 3327
+[M::ha_hist_line]    30: ************************************************************************* 3127
+[M::ha_hist_line]    31: ********************************************************* 2446
+[M::ha_hist_line]    32: ************************************************* 2083
+[M::ha_hist_line]    33: **************************************** 1735
+[M::ha_hist_line]    34: ******************************** 1386
+[M::ha_hist_line]    35: ************************* 1060
+[M::ha_hist_line]    36: ************ 514
+[M::ha_hist_line]    37: ********* 372
+[M::ha_hist_line]    38: ****** 269
+[M::ha_hist_line]    39: **** 191
+[M::ha_hist_line]    40: *** 150
+[M::ha_hist_line]    41: *** 145
+[M::ha_hist_line]    42: ** 88
+[M::ha_hist_line]    43: * 63
+[M::ha_hist_line]    44: ** 80
+[M::ha_hist_line]    45: * 39
+[M::ha_hist_line]    46: * 36
+[M::ha_hist_line]    47: * 24
+[M::ha_hist_line]  rest: ***** 224
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: none
+[M::ha_pt_gen] peak_hom: 25; peak_het: -1
+[M::ha_ct_shrink::19.088*2.88] ==> counted 50623 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 1359095 minimizers
+[M::ha_pt_gen::19.455*2.91] ==> indexed 1357975 positions, counted 50623 distinct minimizer k-mers
+[M::ha_assemble::22.883*3.66@16.351GB] ==> corrected reads for round 2
+[M::ha_assemble] # bases: 48753332; # corrected bases: 1425; # recorrected bases: 20
+[M::ha_assemble] size of buffer: 0.071GB
+[M::yak_count] collected 1359087 minimizers
+[M::ha_pt_gen::23.156*3.69] ==> counted 51623 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[5] = 1
+[M::ha_analyze_count] highest: count[26] = 4292
+[M::ha_hist_line]     1: *********************** 1000
+[M::ha_hist_line]     2:  2
+[M::ha_hist_line]     3:  2
+[M::ha_hist_line]     4:  1
+[M::ha_hist_line]     5:  1
+[M::ha_hist_line]     6:  2
+[M::ha_hist_line]     7:  0
+[M::ha_hist_line]     8:  0
+[M::ha_hist_line]     9:  0
+[M::ha_hist_line]    10:  0
+[M::ha_hist_line]    11:  13
+[M::ha_hist_line]    12: * 40
+[M::ha_hist_line]    13: *** 117
+[M::ha_hist_line]    14: ***** 231
+[M::ha_hist_line]    15: ********* 378
+[M::ha_hist_line]    16: *********** 458
+[M::ha_hist_line]    17: ***************** 737
+[M::ha_hist_line]    18: ********************** 965
+[M::ha_hist_line]    19: **************************** 1189
+[M::ha_hist_line]    20: ************************************** 1613
+[M::ha_hist_line]    21: *********************************************** 2017
+[M::ha_hist_line]    22: ********************************************************* 2436
+[M::ha_hist_line]    23: *********************************************************************** 3061
+[M::ha_hist_line]    24: ************************************************************************************ 3618
+[M::ha_hist_line]    25: **************************************************************************************************** 4285
+[M::ha_hist_line]    26: **************************************************************************************************** 4292
+[M::ha_hist_line]    27: ********************************************************************************************* 3980
+[M::ha_hist_line]    28: ***************************************************************************************** 3816
+[M::ha_hist_line]    29: ****************************************************************************** 3335
+[M::ha_hist_line]    30: ************************************************************************* 3120
+[M::ha_hist_line]    31: ********************************************************* 2446
+[M::ha_hist_line]    32: ************************************************* 2091
+[M::ha_hist_line]    33: **************************************** 1727
+[M::ha_hist_line]    34: ********************************* 1398
+[M::ha_hist_line]    35: ************************* 1054
+[M::ha_hist_line]    36: ************ 513
+[M::ha_hist_line]    37: ********* 374
+[M::ha_hist_line]    38: ****** 268
+[M::ha_hist_line]    39: **** 192
+[M::ha_hist_line]    40: **** 152
+[M::ha_hist_line]    41: *** 145
+[M::ha_hist_line]    42: ** 88
+[M::ha_hist_line]    43: * 63
+[M::ha_hist_line]    44: ** 80
+[M::ha_hist_line]    45: * 39
+[M::ha_hist_line]    46: * 36
+[M::ha_hist_line]    47: * 24
+[M::ha_hist_line]  rest: ***** 224
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: none
+[M::ha_pt_gen] peak_hom: 26; peak_het: -1
+[M::ha_ct_shrink::23.159*3.69] ==> counted 50623 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 1359087 minimizers
+[M::ha_pt_gen::23.452*3.70] ==> indexed 1358087 positions, counted 50623 distinct minimizer k-mers
+[M::ha_assemble::26.772*4.23@16.351GB] ==> corrected reads for round 3
+[M::ha_assemble] # bases: 48753014; # corrected bases: 121; # recorrected bases: 62
+[M::ha_assemble] size of buffer: 0.070GB
+[M::yak_count] collected 1359084 minimizers
+[M::ha_pt_gen::27.061*4.24] ==> counted 51609 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[5] = 1
+[M::ha_analyze_count] highest: count[26] = 4298
+[M::ha_hist_line]     1: *********************** 986
+[M::ha_hist_line]     2:  2
+[M::ha_hist_line]     3:  2
+[M::ha_hist_line]     4:  1
+[M::ha_hist_line]     5:  1
+[M::ha_hist_line]     6:  2
+[M::ha_hist_line]     7:  0
+[M::ha_hist_line]     8:  0
+[M::ha_hist_line]     9:  0
+[M::ha_hist_line]    10:  0
+[M::ha_hist_line]    11:  13
+[M::ha_hist_line]    12: * 40
+[M::ha_hist_line]    13: *** 117
+[M::ha_hist_line]    14: ***** 231
+[M::ha_hist_line]    15: ********* 378
+[M::ha_hist_line]    16: *********** 458
+[M::ha_hist_line]    17: ***************** 737
+[M::ha_hist_line]    18: ********************** 965
+[M::ha_hist_line]    19: **************************** 1186
+[M::ha_hist_line]    20: ************************************** 1616
+[M::ha_hist_line]    21: *********************************************** 2017
+[M::ha_hist_line]    22: ********************************************************* 2436
+[M::ha_hist_line]    23: *********************************************************************** 3062
+[M::ha_hist_line]    24: ************************************************************************************ 3617
+[M::ha_hist_line]    25: **************************************************************************************************** 4279
+[M::ha_hist_line]    26: **************************************************************************************************** 4298
+[M::ha_hist_line]    27: ********************************************************************************************* 3980
+[M::ha_hist_line]    28: ***************************************************************************************** 3816
+[M::ha_hist_line]    29: ****************************************************************************** 3335
+[M::ha_hist_line]    30: ************************************************************************* 3119
+[M::ha_hist_line]    31: ********************************************************* 2447
+[M::ha_hist_line]    32: ************************************************* 2090
+[M::ha_hist_line]    33: **************************************** 1727
+[M::ha_hist_line]    34: ********************************* 1399
+[M::ha_hist_line]    35: ************************* 1054
+[M::ha_hist_line]    36: ************ 513
+[M::ha_hist_line]    37: ********* 374
+[M::ha_hist_line]    38: ****** 268
+[M::ha_hist_line]    39: **** 192
+[M::ha_hist_line]    40: **** 152
+[M::ha_hist_line]    41: *** 145
+[M::ha_hist_line]    42: ** 88
+[M::ha_hist_line]    43: * 63
+[M::ha_hist_line]    44: ** 80
+[M::ha_hist_line]    45: * 39
+[M::ha_hist_line]    46: * 36
+[M::ha_hist_line]    47: * 24
+[M::ha_hist_line]  rest: ***** 224
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: none
+[M::ha_pt_gen] peak_hom: 26; peak_het: -1
+[M::ha_ct_shrink::27.064*4.24] ==> counted 50623 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 1359084 minimizers
+[M::ha_pt_gen::27.364*4.24] ==> indexed 1358098 positions, counted 50623 distinct minimizer k-mers
+[M::ha_assemble::27.945*4.32@16.351GB] ==> found overlaps for the final round
+[M::ha_print_ovlp_stat] # overlaps: 369621
+[M::ha_print_ovlp_stat] # strong overlaps: 3679
+[M::ha_print_ovlp_stat] # weak overlaps: 365942
+[M::ha_print_ovlp_stat] # exact overlaps: 366984
+[M::ha_print_ovlp_stat] # inexact overlaps: 2637
+[M::ha_print_ovlp_stat] # overlaps without large indels: 369264
+[M::ha_print_ovlp_stat] # reverse overlaps: 1563
+[M::ha_opt_update_cov_min] updated max_n_chain to 130
+Writing reads to disk... 
+Reads has been written.
+Writing ma_hit_ts to disk... 
+ma_hit_ts has been written.
+Writing ma_hit_ts to disk... 
+ma_hit_ts has been written.
+bin files have been written.
+[M::purge_dups] homozygous read coverage threshold: 25
+[M::purge_dups] purge duplication coverage threshold: 32
+Writing raw unitig GFA to disk... 
+Writing processed unitig GFA to disk... 
+[M::purge_dups] homozygous read coverage threshold: 25
+[M::purge_dups] purge duplication coverage threshold: 32
+[M::adjust_utg_by_primary] primary contig coverage range: [21, infinity]
+Writing Methanocorpusculum_labreanum_test.asm.bp.p_ctg.gfa to disk... 
+[M::reduce_hamming_error_adv::0.000] # inserted edges: 0, # fixed bubbles: 0
+[M::adjust_utg_by_trio] primary contig coverage range: [21, infinity]
+[M::recall_arcs] # transitive arcs::0
+[M::recall_arcs] # new arcs::36, # old arcs::18
+[M::clean_trio_untig_graph] # adjusted arcs::0
+[M::adjust_utg_by_trio] primary contig coverage range: [21, infinity]
+[M::recall_arcs] # transitive arcs::0
+[M::recall_arcs] # new arcs::36, # old arcs::26
+[M::clean_trio_untig_graph] # adjusted arcs::0
+[M::output_trio_graph_joint] dedup_base::0, miss_base::0
+Writing Methanocorpusculum_labreanum_test.asm.bp.hap1.p_ctg.gfa to disk... 
+Writing Methanocorpusculum_labreanum_test.asm.bp.hap2.p_ctg.gfa to disk... 
+Inconsistency threshold for low-quality regions in BED files: 70%
+[M::main] Version: 0.19.8-r603
+[M::main] CMD: hifiasm --n-hap 4 -o Methanocorpusculum_labreanum_test.asm -t 8 Methanocorpusculum_labreanum_test.fastq.gz
+[M::main] Real time: 28.349 sec; CPU: 121.176 sec; Peak RSS: 16.351 GB

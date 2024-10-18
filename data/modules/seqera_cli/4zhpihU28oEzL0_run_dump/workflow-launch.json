@@ -1,0 +1,70 @@
+{
+  "id" : "5NqPYHmsb9fucN6cyko4P5",
+  "computeEnv" : {
+    "id" : "6pMivQ9yKFRXJ0LsmvtIki",
+    "name" : "deleted-8173879267182278",
+    "platform" : "aws-batch",
+    "config" : {
+      "region" : "eu-west-1",
+      "computeQueue" : "TowerForge-6pMivQ9yKFRXJ0LsmvtIki",
+      "executionRole" : "arn:aws:iam::128997144437:role/TowerForge-6pMivQ9yKFRXJ0LsmvtIki-ExecutionRole",
+      "headQueue" : "TowerForge-6pMivQ9yKFRXJ0LsmvtIki",
+      "volumes" : [ ],
+      "workDir" : "s3://scidev-eu-west-1",
+      "environment" : [ ],
+      "waveEnabled" : true,
+      "fusion2Enabled" : true,
+      "nvnmeStorageEnabled" : true,
+      "forge" : {
+        "type" : "EC2",
+        "minCpus" : 0,
+        "maxCpus" : 500,
+        "gpuEnabled" : false,
+        "instanceTypes" : [ "c6id", "m6id", "r6id" ],
+        "subnets" : [ ],
+        "securityGroups" : [ ],
+        "disposeOnDeletion" : true,
+        "allowBuckets" : [ "s3://ngi-igenomes", "s3://nf-core-awsmegatests", "s3://scidev-eu-west-1" ],
+        "efsCreate" : false,
+        "dragenEnabled" : false,
+        "ebsBootSize" : 100
+      },
+      "forgedResources" : [ {
+        "IamRole" : "arn:aws:iam::128997144437:role/TowerForge-6pMivQ9yKFRXJ0LsmvtIki-ServiceRole"
+      }, {
+        "IamRole" : "arn:aws:iam::128997144437:role/TowerForge-6pMivQ9yKFRXJ0LsmvtIki-ExecutionRole"
+      }, {
+        "IamInstanceProfile" : "arn:aws:iam::128997144437:instance-profile/TowerForge-6pMivQ9yKFRXJ0LsmvtIki-InstanceRole"
+      }, {
+        "Ec2LaunchTemplate" : "TowerForge-6pMivQ9yKFRXJ0LsmvtIki"
+      }, {
+        "BatchEnv" : "arn:aws:batch:eu-west-1:128997144437:compute-environment/TowerForge-6pMivQ9yKFRXJ0LsmvtIki"
+      }, {
+        "BatchQueue" : "arn:aws:batch:eu-west-1:128997144437:job-queue/TowerForge-6pMivQ9yKFRXJ0LsmvtIki"
+      } ],
+      "discriminator" : "aws-batch"
+    },
+    "dateCreated" : "2023-10-13T04:17:33Z",
+    "lastUpdated" : "2023-10-14T22:39:43Z",
+    "lastUsed" : "2023-10-13T04:18:14Z",
+    "deleted" : true,
+    "status" : "INVALID",
+    "message" : "Compute environment has been deleted",
+    "credentialsId" : "6ZrVbCDYtPStsv4vYDwbkl",
+    "orgId" : 88848180287559,
+    "workspaceId" : 70508760960023
+  },
+  "pipeline" : "https://github.com/nf-core/sarek",
+  "workDir" : "s3://scidev-eu-west-1",
+  "revision" : "3.3.2",
+  "configText" : "process {\n  withName: 'NFCORE_SAREK:SAREK:BAM_APPLYBQSR:CRAM_MERGE_INDEX_SAMTOOLS:INDEX_CRAM' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_APPLYBQSR:CRAM_MERGE_INDEX_SAMTOOLS:MERGE_CRAM' {\n    cpus = { 2 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_APPLYBQSR:GATK4_APPLYBQSR' {\n    cpus = { 2 * task.attempt }\n    memory = { 3.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_BASERECALIBRATOR:GATK4_BASERECALIBRATOR' {\n    cpus = { 1 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_BASERECALIBRATOR:GATK4_GATHERBQSRREPORTS' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_MARKDUPLICATES:CRAM_QC_MOSDEPTH_SAMTOOLS:MOSDEPTH' {\n    cpus = { 3 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_MARKDUPLICATES:CRAM_QC_MOSDEPTH_SAMTOOLS:SAMTOOLS_STATS' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_MARKDUPLICATES:GATK4_MARKDUPLICATES' {\n    cpus = { 2 * task.attempt }\n    memory = { 25.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_CNVKIT:CNVKIT_BATCH' {\n    cpus = { 2 * task.attempt }\n    memory = { 3.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_DEEPVARIANT:DEEPVARIANT' {\n    cpus = { 19 * task.attempt }\n    memory = { 9.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_DEEPVARIANT:MERGE_DEEPVARIANT_GVCF' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_DEEPVARIANT:MERGE_DEEPVARIANT_VCF' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_FREEBAYES:BCFTOOLS_SORT' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_FREEBAYES:FREEBAYES' {\n    cpus = { 1 * task.attempt }\n    memory = { 3.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_FREEBAYES:MERGE_FREEBAYES' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_GERMLINE_MANTA:MANTA_GERMLINE' {\n    cpus = { 9 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_HAPLOTYPECALLER:GATK4_HAPLOTYPECALLER' {\n    cpus = { 3 * task.attempt }\n    memory = { 4.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_HAPLOTYPECALLER:MERGE_HAPLOTYPECALLER' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_SINGLE_STRELKA:MERGE_STRELKA' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_SINGLE_STRELKA:MERGE_STRELKA_GENOME' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_SINGLE_STRELKA:STRELKA_SINGLE' {\n    cpus = { 7 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_SINGLE_TIDDIT:TABIX_BGZIP_TIDDIT_SV' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:BAM_VARIANT_CALLING_SINGLE_TIDDIT:TIDDIT_SV' {\n    cpus = { 1 * task.attempt }\n    memory = { 7.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:VCF_VARIANT_FILTERING_GATK:CNNSCOREVARIANTS' {\n    cpus = { 12 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:BAM_VARIANT_CALLING_GERMLINE_ALL:VCF_VARIANT_FILTERING_GATK:FILTERVARIANTTRANCHES' {\n    cpus = { 2 * task.attempt }\n    memory = { 3.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:CRAM_QC_RECAL:MOSDEPTH' {\n    cpus = { 3 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:CRAM_QC_RECAL:SAMTOOLS_STATS' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:CUSTOM_DUMPSOFTWAREVERSIONS' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:FASTP' {\n    cpus = { 11 * task.attempt }\n    memory = { 2.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:FASTQC' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:FASTQ_ALIGN_BWAMEM_MEM2_DRAGMAP_SENTIEON:BWAMEM1_MEM' {\n    cpus = { 16 * task.attempt }\n    memory = { 21.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:MULTIQC' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:PREPARE_INTERVALS:CREATE_INTERVALS_BED' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:PREPARE_INTERVALS:TABIX_BGZIPTABIX_INTERVAL_COMBINED' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:PREPARE_INTERVALS:TABIX_BGZIPTABIX_INTERVAL_SPLIT' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:PREPARE_REFERENCE_CNVKIT:CNVKIT_ANTITARGET' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:PREPARE_REFERENCE_CNVKIT:CNVKIT_REFERENCE' {\n    cpus = { 2 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:VCF_ANNOTATE_ALL:VCF_ANNOTATE_ENSEMBLVEP:ENSEMBLVEP_VEP' {\n    cpus = { 6 * task.attempt }\n    memory = { 25.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:VCF_ANNOTATE_ALL:VCF_ANNOTATE_ENSEMBLVEP:TABIX_TABIX' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:VCF_QC_BCFTOOLS_VCFTOOLS:BCFTOOLS_STATS' {\n    cpus = { 11 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:VCF_QC_BCFTOOLS_VCFTOOLS:VCFTOOLS_SUMMARY' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:VCF_QC_BCFTOOLS_VCFTOOLS:VCFTOOLS_TSTV_COUNT' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  withName: 'NFCORE_SAREK:SAREK:VCF_QC_BCFTOOLS_VCFTOOLS:VCFTOOLS_TSTV_QUAL' {\n    cpus = { 1 * task.attempt }\n    memory = { 1.GB * task.attempt }\n  }\n  errorStrategy = 'retry'\n  maxRetries = 2\n  scratch = false\n}\n\n",
+  "paramsText" : "{\"outdir\": \"s3://scidev-eu-west-1/projects/fusion_benchmarking/fusionv2_groundswell-nf-core_sarek-2-04df148ae8994a08a63abd5c37e7f8cf/\"}",
+  "preRunScript" : "export NXF_VER=23.04.4",
+  "resume" : false,
+  "pullLatest" : false,
+  "stubRun" : false,
+  "runName" : "aws-fusionv2_groundswell-nf-core_sarek-2-04df148ae8994a08a63abd5c37e7f8cf",
+  "configProfiles" : [ "test_full_germline" ],
+  "dateCreated" : "2023-10-13T04:17:57Z",
+  "lastUpdated" : "2023-10-13T04:18:14Z"
+}

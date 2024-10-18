@@ -1,0 +1,5 @@
+Lane,SampleID,Sample_Project,Index,# Reads,# Perfect Index Reads,# One Mismatch Index Reads,# Two Mismatch Index Reads,% Reads,% Perfect Index Reads,% One Mismatch Index Reads,% Two Mismatch Index Reads
+1,quantseq_pool_202404,HGL_Cancer_Met_Mechanisms,,657929553,657929553,0,0,1.0000,1.0000,0.0000,0.0000
+1,Undetermined,Undetermined,,0,0,0,0,0.0000,0.0000,0.0000,0.0000
+2,quantseq_pool_202404,HGL_Cancer_Met_Mechanisms,,627702316,627702316,0,0,1.0000,1.0000,0.0000,0.0000
+2,Undetermined,Undetermined,,0,0,0,0,0.0000,0.0000,0.0000,0.0000

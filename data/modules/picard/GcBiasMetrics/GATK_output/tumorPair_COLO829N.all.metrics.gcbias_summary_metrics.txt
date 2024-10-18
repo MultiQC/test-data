@@ -1,0 +1,11 @@
+## htsjdk.samtools.metrics.StringHeader
+# CollectGcBiasMetrics --CHART_OUTPUT metrics/tumorPair_COLO829N/tumorPair_COLO829N.all.metrics.gcbias_metrics.pdf --SUMMARY_OUTPUT metrics/tumorPair_COLO829N/tumorPair_COLO829N.all.metrics.gcbias_summary_metrics.txt --ALSO_IGNORE_DUPLICATES true --INPUT alignment/tumorPair_COLO829N/tumorPair_COLO829N.sorted.dup.bam --OUTPUT metrics/tumorPair_COLO829N/tumorPair_COLO829N.all.metrics.gcbias_metrics.txt --TMP_DIR /lb/scratch/jobs/15183585.scheduler.ferrier.genome.mcgill.ca --VALIDATION_STRINGENCY SILENT --MAX_RECORDS_IN_RAM 4000000 --REFERENCE_SEQUENCE /lb/project/mugqic/analyste_dev/genomes/species/Homo_sapiens.GRCh38/genome/Homo_sapiens.GRCh38.chr19.fa --SCAN_WINDOW_SIZE 100 --MINIMUM_GENOME_FRACTION 1.0E-5 --IS_BISULFITE_SEQUENCED false --METRIC_ACCUMULATION_LEVEL ALL_READS --ASSUME_SORTED true --STOP_AFTER 0 --VERBOSITY INFO --QUIET false --COMPRESSION_LEVEL 2 --CREATE_INDEX false --CREATE_MD5_FILE false --GA4GH_CLIENT_SECRETS client_secrets.json --help false --version false --showHidden false --USE_JDK_DEFLATER false --USE_JDK_INFLATER false
+## htsjdk.samtools.metrics.StringHeader
+# Started on: Mon Feb 19 16:42:38 EST 2024
+
+## METRICS CLASS	picard.analysis.GcBiasSummaryMetrics
+ACCUMULATION_LEVEL	READS_USED	WINDOW_SIZE	TOTAL_CLUSTERS	ALIGNED_READS	AT_DROPOUT	GC_DROPOUT	GC_NC_0_19	GC_NC_20_39	GC_NC_40_59	GC_NC_60_79	GC_NC_80_100	SAMPLE	LIBRARY	READ_GROUP
+All Reads	ALL	100	8073762	16115914	1.02996	0.685728	1.142765	1.042615	0.973322	1.043185	0.971094			
+All Reads	UNIQUE	100	7214872	14407002	1.004983	0.593189	1.136803	1.032233	0.975687	1.048801	0.973339			
+
+

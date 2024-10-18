@@ -172,8 +172,8 @@ data/modules/samtools/stats/Test1.txt
 data/modules/skewer/skewer-stats-alascca_makefake_3_178936091_G_A_normal_2.fastq.gz.log
 data/modules/skewer/skewer-stats-alascca_makefake_3_178936091_G_A_tumor_2.fastq.gz.log
 data/modules/skewer/trimmed_se.log
-data/modules/snpEff/Sample1.clean.dedup.recal.bam.recalibrated.indel.annotated.vcf.gz.snpEff.summary.csv
-data/modules/snpEff/Sample1.clean.dedup.recal.bam.recalibrated.snp.annotated.vcf.gz.snpEff.summary.csv
+data/modules/snpeff/Sample1.clean.dedup.recal.bam.recalibrated.indel.annotated.vcf.gz.snpEff.summary.csv
+data/modules/snpeff/Sample1.clean.dedup.recal.bam.recalibrated.snp.annotated.vcf.gz.snpEff.summary.csv
 data/modules/star/SRR1067503_1_trimmed_star_aligned.bam_counts.txt.summary
 data/modules/star/SRR1067503_1_trimmedLog.final.out
 data/modules/star/SRR1067505_1_trimmed_star_aligned.bam_counts.txt.summary

@@ -1,0 +1,65 @@
+## The file was created by bamdst
+## Version : 1.0.9
+## Files : ST0217_Lg.bam 
+                               [Total] Raw Reads (All reads)	766026326
+                                       [Total] QC Fail reads	0
+                                        [Total] Raw Data(Mb)	113517.44
+                                        [Total] Paired Reads	766026326
+                                        [Total] Mapped Reads	750267810
+                            [Total] Fraction of Mapped Reads	97.94%
+                                     [Total] Mapped Data(Mb)	111466.09
+                         [Total] Fraction of Mapped Data(Mb)	98.19%
+                                     [Total] Properly paired	735084416
+                         [Total] Fraction of Properly paired	95.96%
+                                [Total] Read and mate paired	744300282
+                    [Total] Fraction of Read and mate paired	97.16%
+                                          [Total] Singletons	5967528
+                       [Total] Read and mate map to diff chr	5429012
+                                               [Total] Read1	383013163
+                                               [Total] Read2	383013163
+                                        [Total] Read1(rmdup)	359498611
+                                        [Total] Read2(rmdup)	359195220
+                                [Total] forward strand reads	375142297
+                               [Total] backward strand reads	375125513
+                                 [Total] PCR duplicate reads	31573979
+                     [Total] Fraction of PCR duplicate reads	4.21%
+                            [Total] Map quality cutoff value	20
+                       [Total] MapQuality above cutoff reads	694167039
+                 [Total] Fraction of MapQ reads in all reads	90.62%
+              [Total] Fraction of MapQ reads in mapped reads	92.52%
+                                       [Target] Target Reads	343938951
+              [Target] Fraction of Target Reads in all reads	44.90%
+           [Target] Fraction of Target Reads in mapped reads	45.84%
+                                    [Target] Target Data(Mb)	50324.92
+                              [Target] Target Data Rmdup(Mb)	47435.18
+                [Target] Fraction of Target Data in all data	44.33%
+             [Target] Fraction of Target Data in mapped data	45.15%
+                                      [Target] Len of region	1442021955
+                                      [Target] Average depth	34.90
+                               [Target] Average depth(rmdup)	32.89
+                                     [Target] Coverage (>0x)	93.55%
+                                    [Target] Coverage (>=4x)	93.52%
+                                   [Target] Coverage (>=10x)	93.33%
+                                   [Target] Coverage (>=30x)	74.65%
+                                  [Target] Coverage (>=100x)	0.07%
+                                [Target] Target Region Count	24429
+                                [Target] Region covered > 0x	21804
+                       [Target] Fraction Region covered > 0x	89.25%
+                      [Target] Fraction Region covered >= 4x	89.23%
+                     [Target] Fraction Region covered >= 10x	89.18%
+                     [Target] Fraction Region covered >= 30x	83.59%
+                    [Target] Fraction Region covered >= 100x	0.34%
+                                          [flank] flank size	200
+           [flank] Len of region (not include target region)	1451274993
+                                       [flank] Average depth	34.88
+                                         [flank] flank Reads	346031656
+                [flank] Fraction of flank Reads in all reads	45.17%
+             [flank] Fraction of flank Reads in mapped reads	46.12%
+                                      [flank] flank Data(Mb)	50621.18
+                  [flank] Fraction of flank Data in all data	44.59%
+               [flank] Fraction of flank Data in mapped data	45.41%
+                                      [flank] Coverage (>0x)	94.56%
+                                     [flank] Coverage (>=4x)	94.52%
+                                    [flank] Coverage (>=10x)	94.32%
+                                    [flank] Coverage (>=30x)	75.40%
+                                   [flank] Coverage (>=100x)	0.07%

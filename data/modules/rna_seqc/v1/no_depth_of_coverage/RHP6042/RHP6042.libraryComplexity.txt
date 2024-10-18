@@ -1,0 +1,7 @@
+Unique	15325650
+Duplicate	0
+Unaligned	0
+Vendor Failed	0
+Estimated Library Size	0
+Duplicate Inconsistency	0
+Unpaired Reads	0

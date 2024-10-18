@@ -1,0 +1,26 @@
+Statistics
+B	G	H	M	count	percent	class
+0	0	0	0	73938	0.231509	"neither"
+0	0	0	1	75	0.000234834	"both"
+0	0	1	0	309789	0.969988	"definitely mouse"
+0	0	1	1	238700	0.747399	"probably mouse"
+0	1	0	0	14543607	45.5378	"definitely human"
+0	1	0	1	5997046	18.7775	"probably human"
+0	1	1	0	44911	0.140622	"ambiguous"
+0	1	1	1	93516	0.29281	"ambiguous"
+1	0	0	0	30905	0.0967674	"both"
+1	0	0	1	1656	0.00518514	"probably both"
+1	0	1	0	27321	0.0855454	"definitely mouse"
+1	0	1	1	316470	0.990907	"probably mouse"
+1	1	0	0	753979	2.3608	"definitely human"
+1	1	0	1	8926026	27.9485	"probably human"
+1	1	1	0	30462	0.0953803	"ambiguous"
+1	1	1	1	549019	1.71905	"ambiguous"
+
+Summary
+count	percent	class
+30220658	94.6246	human
+892280	2.79384	mouse
+32636	0.102187	both
+73938	0.231509	neither
+717908	2.24786	ambiguous

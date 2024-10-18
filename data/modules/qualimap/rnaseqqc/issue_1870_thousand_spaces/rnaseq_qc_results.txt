@@ -1,0 +1,55 @@
+RNA-Seq QC report
+-----------------------------------
+
+>>>>>>> Input
+
+    bam file = CTL_87cAligned.sortedByCoord.out.bam
+    gff file = /home/fspecque/scratch/projects/emtsens/DATA/gencodeRef/gencode.vM31.primary_assembly.annotation_eGFP.gtf
+    counting algorithm = uniquely-mapped-reads
+    protocol = non-strand-specific
+
+
+>>>>>>> Reads alignment
+
+    reads aligned (left/right) = 1 732 470 / 1 732 586
+    read pairs aligned  = 1 731 834
+    total alignments = 4 058 852
+    secondary alignments = 593 796
+    non-unique alignments = 836 224
+    aligned to genes  = 1 233 088
+    ambiguous alignments = 24 823
+    no feature assigned = 1 953 243
+    not aligned = 1 586 544
+    SSP estimation (fwd/rev) = 0,5 / 0,5
+
+
+>>>>>>> Reads genomic origin
+
+    exonic =  1 233 088 (38,7%)
+    intronic = 1 119 695 (35,14%)
+    intergenic = 833 548 (26,16%)
+    overlapping exon = 61 165 (1,92%)
+
+
+>>>>>>> Transcript coverage profile
+
+    5' bias = 0,15
+    3' bias = 0,32
+    5'-3' bias = 1,58
+
+
+>>>>>>> Junction analysis
+
+    reads at junctions = 127 117
+
+    ACCT : 5,87%
+    AGGT : 4,65%
+    TCCT : 4,07%
+    AGGA : 4,01%
+    AGAA : 3,01%
+    AGCT : 2,88%
+    GCCT : 2,3%
+    ATCT : 2,19%
+    CCCT : 2,15%
+    AGAG : 2,13%
+    AGGC : 2,07%

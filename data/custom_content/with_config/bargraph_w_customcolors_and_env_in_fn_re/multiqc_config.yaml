@@ -1,0 +1,34 @@
+custom_data:
+    testA:
+        plot_type: 'bargraph'
+        file_format: 'csv'
+        section_name: 'Section testA'
+        categories:
+            A:
+                name: "Aa"
+                color: "#c3e0e5"
+            B:
+                name: "Bb"
+                color: "#274472"
+            C:
+                name: "Cc"
+                color: "#5885af"
+            D:
+                name: "Dd"
+                color: "#41729f"
+        pconfig:
+            id: 'example_bargraph'
+            title: 'Example Bargraph'
+            ylab: 'y values'
+    cell_qc_gene_overlay_0:
+        section_name: !ENV "Clustering UMAP (Gene: ${UMAP_GENE_0})"
+sp:
+    testA:
+        fn: 'testA_*.csv'
+    cell_qc_gene_overlay_0:
+        # Case insensitive pattern matching. Test with:
+        #    export UMAP_GENE_0="galc"
+        # and filename:
+        #    sample3.clust.scaled.GALC_1234.csv
+        # See https://community.seqera.io/t/can-i-make-the-filename-pattern-case-insensitive/384
+        fn_re: !ENV "(?i).*\\.clust\\.scaled\\.${UMAP_GENE_0}.*\\.csv"

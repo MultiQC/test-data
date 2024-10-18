@@ -1,0 +1,65 @@
+## The file was created by bamdst
+## Version : 1.0.9
+## Files : - 
+                               [Total] Raw Reads (All reads)	751492
+                                       [Total] QC Fail reads	0
+                                        [Total] Raw Data(Mb)	104.64
+                                        [Total] Paired Reads	751492
+                                        [Total] Mapped Reads	750591
+                            [Total] Fraction of Mapped Reads	99.88%
+                                     [Total] Mapped Data(Mb)	104.51
+                         [Total] Fraction of Mapped Data(Mb)	99.87%
+                                     [Total] Properly paired	745192
+                         [Total] Fraction of Properly paired	99.16%
+                                [Total] Read and mate paired	749690
+                    [Total] Fraction of Read and mate paired	99.76%
+                                          [Total] Singletons	901
+                       [Total] Read and mate map to diff chr	2898
+                                               [Total] Read1	375887
+                                               [Total] Read2	375605
+                                        [Total] Read1(rmdup)	375828
+                                        [Total] Read2(rmdup)	374763
+                                [Total] forward strand reads	375145
+                               [Total] backward strand reads	375446
+                                 [Total] PCR duplicate reads	0
+                     [Total] Fraction of PCR duplicate reads	0.00%
+                            [Total] Map quality cutoff value	20
+                       [Total] MapQuality above cutoff reads	740639
+                 [Total] Fraction of MapQ reads in all reads	98.56%
+              [Total] Fraction of MapQ reads in mapped reads	98.67%
+                                       [Target] Target Reads	1133
+              [Target] Fraction of Target Reads in all reads	0.15%
+           [Target] Fraction of Target Reads in mapped reads	0.15%
+                                    [Target] Target Data(Mb)	0.09
+                              [Target] Target Data Rmdup(Mb)	0.09
+                [Target] Fraction of Target Data in all data	0.08%
+             [Target] Fraction of Target Data in mapped data	0.08%
+                                      [Target] Len of region	36909
+                                      [Target] Average depth	2.40
+                               [Target] Average depth(rmdup)	2.40
+                                     [Target] Coverage (>0x)	19.68%
+                                    [Target] Coverage (>=4x)	9.39%
+                                   [Target] Coverage (>=10x)	6.71%
+                                   [Target] Coverage (>=30x)	3.29%
+                                  [Target] Coverage (>=100x)	0.00%
+                                [Target] Target Region Count	200
+                                [Target] Region covered > 0x	31
+                       [Target] Fraction Region covered > 0x	15.50%
+                      [Target] Fraction Region covered >= 4x	9.50%
+                     [Target] Fraction Region covered >= 10x	7.50%
+                     [Target] Fraction Region covered >= 30x	2.00%
+                    [Target] Fraction Region covered >= 100x	0.00%
+                                          [flank] flank size	200
+           [flank] Len of region (not include target region)	111129
+                                       [flank] Average depth	2.42
+                                         [flank] flank Reads	2362
+                [flank] Fraction of flank Reads in all reads	0.31%
+             [flank] Fraction of flank Reads in mapped reads	0.31%
+                                      [flank] flank Data(Mb)	0.27
+                  [flank] Fraction of flank Data in all data	0.26%
+               [flank] Fraction of flank Data in mapped data	0.26%
+                                      [flank] Coverage (>0x)	19.60%
+                                     [flank] Coverage (>=4x)	8.72%
+                                    [flank] Coverage (>=10x)	6.08%
+                                    [flank] Coverage (>=30x)	3.18%
+                                   [flank] Coverage (>=100x)	0.00%

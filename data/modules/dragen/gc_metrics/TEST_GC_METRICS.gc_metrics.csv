@@ -1,0 +1,24 @@
+GC BIAS DETAILS,,Windows at GC 0,153008,0.05
+GC BIAS DETAILS,,Windows at GC 10,226522,0.08
+GC BIAS DETAILS,,Windows at GC 20,13965431,0.5
+GC BIAS DETAILS,,Windows at GC 50,77304405,3.02
+GC BIAS DETAILS,,Windows at GC 75,2197298,0.5
+GC BIAS DETAILS,,Windows at GC 100,639,0.000
+GC BIAS DETAILS,,Normalized coverage at GC 0,0.1
+GC BIAS DETAILS,,Normalized coverage at GC 10,0.5
+GC BIAS DETAILS,,Normalized coverage at GC 20,0.9
+GC BIAS DETAILS,,Normalized coverage at GC 50,1.2
+GC BIAS DETAILS,,Normalized coverage at GC 75,1.2
+GC BIAS DETAILS,,Normalized coverage at GC 100,0.01
+GC METRICS SUMMARY,,Window size,100
+GC METRICS SUMMARY,,Number of valid windows,3000000
+GC METRICS SUMMARY,,Number of discarded windows,1000000
+GC METRICS SUMMARY,,Average reference GC,50.5
+GC METRICS SUMMARY,,Mean global coverage,9
+GC METRICS SUMMARY,,Normalized coverage at GCs 0-19,0.5
+GC METRICS SUMMARY,,Normalized coverage at GCs 20-39,1.0
+GC METRICS SUMMARY,,Normalized coverage at GCs 40-59,1.1
+GC METRICS SUMMARY,,Normalized coverage at GCs 60-79,1.3
+GC METRICS SUMMARY,,Normalized coverage at GCs 80-100,0.7
+GC METRICS SUMMARY,,AT Dropout,4.5
+GC METRICS SUMMARY,,GC Dropout,0.5

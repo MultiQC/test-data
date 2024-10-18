@@ -1,0 +1,16 @@
+# Run only these modules
+run_modules:
+  - fastqc
+
+# Order of modules
+module_order:
+  - "fastqc":
+      name: "FastQC: raw"
+      anchor: "fqc_raw"
+      path_filters_exclude:
+        - "*_trimmed_*"
+  - "fastqc":
+      name: "FastQC: trimmed"
+      anchor: "fqc_trimmed"
+      path_filters:
+        - "*_trimmed_*"

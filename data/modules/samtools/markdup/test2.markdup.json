@@ -1,0 +1,19 @@
+{
+    "COMMAND": "samtools markdup -T fastq_paired1.merged -f fastq_paired1.merged.metrics --threads 2 --json -d 2500 --write-index --output-fmt cram --output-fmt-option archive - fastq_paired1.merged.cram",
+    "READ": 1353408,
+    "WRITTEN": 1353408,
+    "EXCLUDED": 752,
+    "EXAMINED": 1352656,
+    "PAIRED": 1352588,
+    "SINGLE": 68,
+    "DUPLICATE PAIR": 1058157,
+    "DUPLICATE SINGLE": 52,
+    "DUPLICATE PAIR OPTICAL": 1026710,
+    "DUPLICATE SINGLE OPTICAL": 36,
+    "DUPLICATE NON PRIMARY": 0,
+    "DUPLICATE NON PRIMARY OPTICAL": 0,
+    "DUPLICATE PRIMARY TOTAL": 1058209,
+    "DUPLICATE TOTAL": 1058209,
+    "ESTIMATED_LIBRARY_SIZE": 788988
+}
+

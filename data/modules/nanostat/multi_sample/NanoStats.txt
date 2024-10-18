@@ -1,0 +1,28 @@
+General summary:               barcode01.fastq       barcode02.fastq
+Active channels:                         174.0                 173.0
+Mean read length:                      2,149.1               2,149.1
+Mean read quality:                        10.3                  10.3
+Median read length:                    2,455.0               2,455.0
+Median read quality:                      10.4                  10.4
+Number of reads:                         250.0                 250.0
+Read length N50:                       2,514.0               2,514.0
+STDEV read length:                     1,553.4               1,553.4
+Total bases:                         537,276.0             537,276.0
+Number, percentage and megabases of reads above quality cutoffs
+>Q5:	250 (100.0%) 0.5Mb	250 (100.0%) 0.5Mb
+>Q7:	250 (100.0%) 0.5Mb	250 (100.0%) 0.5Mb
+>Q10:	173 (69.2%) 0.4Mb	173 (69.2%) 0.4Mb
+>Q12:	1 (0.4%) 0.0Mb	1 (0.4%) 0.0Mb
+>Q15:	0 (0.0%) 0.0Mb	0 (0.0%) 0.0Mb
+Top 5 highest mean basecall quality scores and their read lengths
+1:	12.2 (493)	12.2 (493)
+2:	11.7 (405)	11.7 (405)
+3:	11.6 (452)	11.6 (452)
+4:	11.5 (2591)	11.5 (2591)
+5:	11.5 (1424)	11.5 (1424)
+Top 5 longest reads and their mean basecall quality score
+1:	24342 (10.9)	24342 (10.9)
+2:	2645 (9.8)	2645 (9.8)
+3:	2623 (10.9)	2623 (10.9)
+4:	2621 (10.6)	2621 (10.6)
+5:	2621 (10.7)	2621 (10.7)
