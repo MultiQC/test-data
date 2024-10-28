@@ -1,0 +1,7 @@
+custom_data:
+  my_custom_content_image:
+    section_name: "My nice PNG image"
+sp:
+  my_custom_content_image:
+    fn: "*.png"
+ignore_images: false

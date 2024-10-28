@@ -1,0 +1,14 @@
+custom_data:
+  my_plots:
+    section_name: "Two interesting plots"
+    description: "Two plots in one section"
+  plot_1:
+    parent_id: my_plots
+  plot_2:
+    parent_id: my_plots
+sp:
+  plot_1:
+    fn: "*.png"
+  plot_2:
+    fn: "*.jpg"
+ignore_images: false
