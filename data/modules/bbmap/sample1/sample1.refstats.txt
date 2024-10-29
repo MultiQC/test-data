@@ -1,3 +1,3 @@
-#name   %unambiguousReads       unambiguousMB   %ambiguousReads ambiguousMB     unambiguousReads        ambiguousReads
-hg38    83.16030        5598.96128      1.11830 51.55901        87337366        1174470
-mm38    15.56726        1051.54145      1.11830 51.55901        16349186        1174470
+#name	%unambiguousReads	unambiguousMB	%ambiguousReads	ambiguousMB	unambiguousReads	ambiguousReads	assignedReads	assignedBases
+primary	50.00000	0.324921	0.00000	0.000000	4000	0	4000	324921
+human	50.00000	0.325030	0.00000	0.000000	4000	0	4000	325030
