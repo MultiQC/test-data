@@ -1,10 +1,9 @@
 custom_data:
     sequencing_stats:
-        id: 'sequencing_stats'
         section_name: 'Run level metrics'
         plot_type: 'table'
         pconfig:
-            id: 'sequencing_stats'
+            id: sequencing_stats
             namespace: 'Sequencing stats'
         headers:
             Total reads:
@@ -17,3 +16,17 @@ custom_data:
 sp:
     sequencing_stats:
         fn: 'sequencing_stats.txt'
+
+section_comments:
+    sequencing_stats: "Comment about sequencing stats"
+
+custom_table_header_config:
+    sequencing_stats:
+        Total reads:
+            suffix: " reads"
+        sequencing_stats-MBp:
+            suffix: "MBp"
+
+custom_plot_config:
+    sequencing_stats:
+        col1_header: "Sample"
