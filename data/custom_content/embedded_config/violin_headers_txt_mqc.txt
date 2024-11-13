@@ -1,16 +1,19 @@
-# plot_type: 'violin'
-# section_name: 'A violin plot'
-# description: 'violin plot takes the same data format and configuration as table, and those can be switched between each other interactively'
+# plot_type: "violin"
+# section_name: "A violin plot"
+# description: "Violin plot expects the same data format and configuration as table, 
+#     and those can be switched between each other interactively. Note that the first
+#     column is used as the sample identifier. Columns starting from the 2nd will 
+#     correspond to separate violins"
 # pconfig:
-#     namespace: 'Custom Data'
+#     namespace: "Custom Data"
 # headers:
 #     col1:
-#         title: 'My Column'
-#         description: 'This is a longer hover text for my column'
-#         format: '{:,.0f}'
+#         title: "My Column"
+#         description: "This is a longer hover text for my column"
+#         format: "{:,.0f}"
 #     col2:
-#         title: 'Second Column'
-#         description: 'Hover description text'
-Sample            col1            col2
-samp_1            12.523          34
-samp_2            56.947          78
+#         title: "Second Column"
+#         description: "Hover description text"
+Sample	col1	col2
+samp_1	12.523	34
+samp_2	56.947	78
