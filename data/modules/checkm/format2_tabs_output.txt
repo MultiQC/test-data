@@ -1,0 +1,7 @@
+Bin Id	Marker lineage	# genomes	# markers	# marker sets	Completeness	Contamination	Strain heterogeneity	Genome size (bp)	# ambiguous bases	# scaffolds	# contigs	N50 (scaffolds)	N50 (contigs)	Mean scaffold length (bp)	Mean contig length (bp)	Longest scaffold (bp)	Longest contig (bp)	GC	GC std (scaffolds > 1kbp)	Coding density	Translation table	# predicted genes	0	1	2	3	4	5+
+MEGAHIT-MetaBAT2Refined-test_minigut.1_2	k__Bacteria (UID203)	5449	104	58	17.24	0.00	0.00	812495	0	46	46	23272	23272	17662	17662	94357	94357	42.9	3.79	90.23	11	686	93	11	0	0	0	0
+MEGAHIT-MetaBAT2Refined-test_minigut.2_2	k__Bacteria (UID203)	5449	104	58	24.14	0.00	0.00	726517	0	127	127	7052	7052	5720	5720	20088	20088	51.9	2.29	88.61	11	756	89	15	0	0	0	0
+SPAdes-MaxBin2Refined-test_minigut.001_sub_2	k__Bacteria (UID203)	5449	104	58	20.69	0.00	0.00	895899	0	36	36	58025	58025	24886	24886	257002	257002	43.2	3.45	89.72	11	755	91	13	0	0	0	0
+SPAdes-MetaBAT2Refined-test_minigut.2_2	k__Bacteria (UID203)	5449	104	58	24.14	0.00	0.00	775812	0	95	95	11346	11346	8166	8166	33719	33719	51.7	2.38	88.19	11	782	89	15	0	0	0	0
+
+
