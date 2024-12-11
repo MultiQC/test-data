@@ -1,0 +1,5 @@
+Target,total_coverage,average_coverage,test_total_cvg,test_mean_cvg,test_granular_Q1,test_granular_median,test_granular_Q3,test_%_above_15
+MT192765.1:1243-1264,10,0.45,10,0.45,1,1,2,0.0
+MT192765.1:1574-1595,0,0.00,0,0.00,1,1,1,0.0
+MT192765.1:1624-1651,0,0.00,0,0.00,1,1,1,0.0
+MT192765.1:1943-1964,0,0.00,0,0.00,1,1,1,0.0
