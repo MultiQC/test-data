@@ -1,0 +1,15 @@
+SV SUMMARY,halmHb_505,Total number of structural variants (PASS),12791
+SV SUMMARY,halmHb_505,Number of deletions (PASS),5668,44.31
+SV SUMMARY,halmHb_505,Number of insertions (PASS),5545,43.35
+SV SUMMARY,halmHb_505,Number of duplications (PASS),31,0.24
+SV SUMMARY,halmHb_505,Number of breakend pairs (PASS),1547,12.09
+SV SUMMARY,Q_8,Total number of structural variants (PASS),14151
+SV SUMMARY,Q_8,Number of deletions (PASS),5951,42.05
+SV SUMMARY,Q_8,Number of insertions (PASS),6753,47.72
+SV SUMMARY,Q_8,Number of duplications (PASS),37,0.26
+SV SUMMARY,Q_8,Number of breakend pairs (PASS),1410,9.96
+SV SUMMARY,Oz_16733,Total number of structural variants (PASS),14975
+SV SUMMARY,Oz_16733,Number of deletions (PASS),6911,46.15
+SV SUMMARY,Oz_16733,Number of insertions (PASS),6695,44.70
+SV SUMMARY,Oz_16733,Number of duplications (PASS),30,0.20
+SV SUMMARY,Oz_16733,Number of breakend pairs (PASS),1339,8.94
