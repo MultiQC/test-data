@@ -1,0 +1,9 @@
+[/home/lindenbaum-p/src/jvarkit-git/src/test/resources/S1.bam, /home/lindenbaum-p/src/jvarkit-git/src/test/resources/S2.bam, /home/lindenbaum-p/src/jvarkit-git/src/test/resources/S3.bam, /home/lindenbaum-p/src/jvarkit-git/src/test/resources/S4.bam, /home/lindenbaum-p/src/jvarkit-git/src/test/resources/S5.bam]
+5 BAMs
+ReadGroup	Library	Sample	Total	Mapped	Duplicates	LENGTH_ESTIMATE	TEL0	TEL1	TEL2	TEL3	TEL4	TEL5	TEL6	TEL7	TEL8	TEL9	TEL10	TEL11	TEL12	TEL13	TEL14	TEL15	TEL16	GC0	GC1	GC2	GC3	GC4	GC5	GC6	GC7	GC8	GC9	
+S1	L1	S1	1999	1999	0	UNKNOWN	1984	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	108	68	92	20	36	5	7	9	2	3	
+S2	L2	S2	1999	1999	0	UNKNOWN	1977	22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	105	76	89	22	39	8	5	4	5	1	
+S3	L3	S3	1999	1999	0	UNKNOWN	1977	22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	105	76	89	22	39	8	5	4	5	1	
+S4	L4	S4	1999	1999	0	UNKNOWN	1986	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	97	71	77	24	37	8	6	9	0	8	
+S5	L5	S5	999	999	0	UNKNOWN	989	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	42	33	52	15	18	3	2	4	1	1	
+S5b	L5b	S5	1000	1000	0	UNKNOWN	992	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	52	38	48	10	23	3	3	2	1	1	
