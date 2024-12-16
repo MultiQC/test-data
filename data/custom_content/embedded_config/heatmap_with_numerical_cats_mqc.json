@@ -1,0 +1,11 @@
+{
+    "id": "my_heatmap",
+    "plot_type": "heatmap",
+    "pconfig": {
+        "title": "Annotation stats (DRAMv)",
+        "min": 0
+    },
+    "ycats": ["sample 1", "sample 2"],
+    "xcats": [1, 2, 3, 4],
+    "data": [[0.9, 0.87, 0.73, 0], [0, 1, 0, 0.7]]
+}

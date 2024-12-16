@@ -1,0 +1,9 @@
+# section_name: "Table with numeric columns and samples"
+# format: "csv"
+# plot_type: "table"
+Sample Name,Size,Representative Length,Representative Id
+"5",39,129,"1446399400_1_131/2-130"
+"4",25,117,"782510898_278_395"
+"01",18,108,"1622851798_832_939"
+"02",34,127,"1546033206_1_127"
+"03",18,103,"4529851305_271_377"
