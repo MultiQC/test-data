@@ -1,0 +1,18 @@
+{
+  "COMMAND": "$HOME/software/samtools-1.21/samtools markdup --threads 8 -r -S -s -f BUM01.markdup_json.txt --json -d 2500 -c --reference assembly.fasta -O BAM --write-index --verbosity 3 BUM01.sorted.bam BUM01.markdup.bam",
+  "READ": 233070661,
+  "WRITTEN": 170120723,
+  "EXCLUDED": 0,
+  "EXAMINED": 233070661,
+  "PAIRED": 232940212,
+  "SINGLE": 130449,
+  "DUPLICATE PAIR": 62895132,
+  "DUPLICATE SINGLE": 54806,
+  "DUPLICATE PAIR OPTICAL": 34037112,
+  "DUPLICATE SINGLE OPTICAL": 21786,
+  "DUPLICATE NON PRIMARY": 0,
+  "DUPLICATE NON PRIMARY OPTICAL": 0,
+  "DUPLICATE PRIMARY TOTAL": 62949938,
+  "DUPLICATE TOTAL": 62949938,
+  "ESTIMATED_LIBRARY_SIZE": 308712639
+}
