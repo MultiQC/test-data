@@ -1,0 +1,144 @@
+{
+    "AnalysisID": "c2s.b72e0f0cf1e30e7177a83f23b9ca4372",
+    "AnalysisVersion": "1.2.0.1751587763",
+    "FileVersion": "1.2.0",
+    "Provider": "cells2stats",
+    "FlowCellID": "0124170814",
+    "RunID": "cto_67f9a99b5b8bac3642613532",
+    "RunName": "cells2stats_testdata",
+    "DemuxStats": {
+        "NumPolonies": 200000000,
+        "PercentAssignedReads": 95.0,
+        "PercentMismatch": 5.0,
+        "Batches": [
+            {
+                "BatchName": "B01",
+                "Wells": [
+                    {
+                        "WellLocation": "A1",
+                        "PercentAssignedReads": 96.0,
+                        "PercentMismatch": 6.0
+                    },
+                    {
+                        "WellLocation": "A2",
+                        "PercentAssignedReads": 94.0,
+                        "PercentMismatch": 4.0
+                    }
+                ]
+            },
+            {
+                "BatchName": "B02",
+                "Wells": [
+                    {
+                        "WellLocation": "A1",
+                        "PercentAssignedReads": 94.0,
+                        "PercentMismatch": 8.0
+                    },
+                    {
+                        "WellLocation": "A2",
+                        "PercentAssignedReads": 92.0,
+                        "PercentMismatch": 9.0
+                    }
+                ]
+            }
+        ]
+    },
+    "CytoStats": {
+        "Wells": [
+            {
+                "WellLocation": "A1",
+                "PercentConfluency": 50.0,
+                "PercentNucleatedCells": 99.05,
+                "CellCount": 15000,
+                "AssignedCountsPerMM2": 780000.0,
+                "MedianCellDiameter": 10.5,
+                "Batches": [
+                    {
+                        "BatchName": "B01",
+                        "MeanAssignedCountPerCell": 200,
+                        "AssignedCountsPerMM2": 430000.0,
+                        "ControlTargets": []
+                    },
+                    {
+                        "BatchName": "B02",
+                        "MeanAssignedCountPerCell": 150,
+                        "AssignedCountsPerMM2": 350000.0,
+                        "ControlTargets": [
+                            {
+                                "TargetName": "GAPDH",
+                                "ControlType": "Positive Control 1",
+                                "MeanAssignedCountPerCell": 1.1,
+                                "AssignedCountPerMM2": 5000.0
+                            },
+                            {
+                                "TargetName": "NSB",
+                                "ControlType": "Negative Control 1",
+                                "MeanAssignedCountPerCell": 0.1,
+                                "AssignedCountPerMM2": 1500.0
+                            }
+                        ]
+                    },
+                    {
+                        "BatchName": "CP01",
+                        "MeanAssignedCountPerCell": 802016.6754988214,
+                        "AssignedCountsPerMM2": -999.0,
+                        "ControlTargets": []
+                    },
+                    {
+                        "BatchName": "CP02",
+                        "MeanAssignedCountPerCell": 172994.90922674636,
+                        "AssignedCountsPerMM2": -999.0,
+                        "ControlTargets": []
+                    }
+                ]
+            },
+            {
+                "WellLocation": "A2",
+                "PercentConfluency": 50.0,
+                "PercentNucleatedCells": 99.05,
+                "CellCount": 15000,
+                "AssignedCountsPerMM2": 780000.0,
+                "MedianCellDiameter": 10.5,
+                "Batches": [
+                    {
+                        "BatchName": "B01",
+                        "MeanAssignedCountPerCell": 220,
+                        "AssignedCountsPerMM2": 440000.0,
+                        "ControlTargets": []
+                    },
+                    {
+                        "BatchName": "B02",
+                        "MeanAssignedCountPerCell": 160,
+                        "AssignedCountsPerMM2": 360000.0,
+                        "ControlTargets": [
+                            {
+                                "TargetName": "GAPDH",
+                                "ControlType": "Positive Control 1",
+                                "MeanAssignedCountPerCell": 1.2,
+                                "AssignedCountPerMM2": 5100.0
+                            },
+                            {
+                                "TargetName": "NSB",
+                                "ControlType": "Negative Control 1",
+                                "MeanAssignedCountPerCell": 0.08,
+                                "AssignedCountPerMM2": 1400.0
+                            }
+                        ]
+                    },
+                    {
+                        "BatchName": "CP01",
+                        "MeanAssignedCountPerCell": 800000.6,
+                        "AssignedCountsPerMM2": -999.0,
+                        "ControlTargets": []
+                    },
+                    {
+                        "BatchName": "CP02",
+                        "MeanAssignedCountPerCell": 173000.9,
+                        "AssignedCountsPerMM2": -999.0,
+                        "ControlTargets": []
+                    }
+                ]
+            }
+        ]
+    }
+}
