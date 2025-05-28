@@ -1,0 +1,73 @@
+[VEP run statistics]
+VEP version (API)	 114.0 (114)
+Annotation sources	Cache: ./cache_dir/homo_sapiens/114_GRCh38
+Species	homo_sapiens
+Command line options	--buffer_size 500000 --cache  --canonical --ccds --check_existing --dir_cache ./cache_dir --force_overwrite --fork 8 --input_file vep_input.vcf.gz --no_escape --no_progress --numbers --offline --output_file VEP114_vep.vcf --plugin Condel --plugin CADD,whole_genome_SNVs.tsv.gz --plugin LoF,human_ancestor_fa:human_ancestor.fa.gz,loftee_path:/VEP_plugins/loftee,conservation_file:loftee.sql,gerp_bigwig:gerp_conservation_scores.homo_sapiens.GRCh38.bw --polyphen b --protein --sift b --species homo_sapiens --stats_file VEP114_vep.txt --stats_text --symbol --vcf
+Start time	2025-05-26 15:06:37
+End time	2025-05-26 15:06:39
+Run time	2 seconds
+Input file	vep_input.vcf.gz
+Output file	VEP114_vep.vcf
+
+[Data version]
+1000genomes	phase3
+COSMIC	100
+ClinVar	202409
+HGMD-PUBLIC	20204
+assembly	GRCh38.p14
+dbSNP	156
+gencode	GENCODE 48
+genebuild	GENCODE48
+gnomADe	v4.1
+gnomADg	v4.1
+polyphen	2.2.3
+regbuild	1.0
+sift	6.2.1
+
+[General statistics]
+Lines of input read	328
+Variants processed	328
+Variants filtered out	0
+Novel / existing variants	7 (2.1) / 321 (97.9)
+Overlapped genes	12
+Overlapped transcripts	212
+Overlapped regulatory features	-
+
+[Variant classes]
+insertion	34
+deletion	50
+SNV	244
+
+[Consequences (most severe)]
+splice_donor_region_variant	1
+splice_polypyrimidine_tract_variant	3
+3_prime_UTR_variant	3
+non_coding_transcript_exon_variant	16
+intron_variant	68
+upstream_gene_variant	16
+downstream_gene_variant	31
+intergenic_variant	190
+
+[Consequences (all)]
+splice_donor_region_variant	1
+splice_polypyrimidine_tract_variant	5
+3_prime_UTR_variant	3
+non_coding_transcript_exon_variant	59
+intron_variant	544
+non_coding_transcript_variant	544
+upstream_gene_variant	160
+downstream_gene_variant	504
+intergenic_variant	190
+
+[Coding consequences]
+
+[SIFT summary]
+
+[PolyPhen summary]
+
+[Variants by chromosome]
+chr1	3
+chr2	32
+chr3	240
+chrX	14
+chrY	39
