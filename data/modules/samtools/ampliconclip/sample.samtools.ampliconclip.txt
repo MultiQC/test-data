@@ -1,0 +1,11 @@
+COMMAND: samtools ampliconclip -o out.bam -b ac_test.bed 1_test_data.sam  # test data from the samtools repo
+TOTAL READS: 8
+TOTAL CLIPPED: 7
+FORWARD CLIPPED: 3
+REVERSE CLIPPED: 4
+BOTH CLIPPED: 0
+NOT CLIPPED: 1
+EXCLUDED: 0
+FILTERED: 0
+FAILED: 0
+WRITTEN: 8
