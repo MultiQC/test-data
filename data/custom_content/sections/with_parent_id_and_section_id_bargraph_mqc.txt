@@ -3,7 +3,7 @@
 # parent_description: 'This parent section is brilliant as it contains several _Custom Content_ data types'
 # id: custom_bargraph_tsv
 # section_name: 'A bargraph'
-# description: 'This output is described in the file header. Any MultiQC installation will understand it without prior configuration.'
+# description: 'This output is described in the file header. Any _MultiQC_ installation will understand it without prior configuration.'
 # format: 'tsv'
 # plot_type: 'bargraph'
 # pconfig:
