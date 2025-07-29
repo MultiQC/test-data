@@ -1,0 +1,37 @@
+{
+  "filetype": "bam",
+  "longreadsum_version": "v1.4.0-5-g9e0d2c4",
+  "total_num_reads": 50,
+  "total_num_bases": 340189,
+  "longest_read_length": 19696,
+  "n50_read_length": 8733,
+  "mean_read_length": 6803.78,
+  "median_read_length": 5192,
+  "gc_percent": 41.56,
+  "mapped": {
+    "total_num_reads": 50,
+    "total_num_bases": 340189,
+    "longest_read_length": 19696,
+    "n50_read_length": 8733,
+    "mean_read_length": 6803.78,
+    "median_read_length": 5192,
+    "gc_percent": 41.56
+  },
+  "alignments": {
+    "primary": 50,
+    "secondary": 13,
+    "supplementary": 56,
+    "reads_with_secondary": 4,
+    "reads_with_supplementary": 50,
+    "reads_with_both": 4,
+    "forward": 53,
+    "reverse": 53
+  },
+  "base_alignment": {
+    "matched": 304323,
+    "mismatched": 41477,
+    "insertions": 10639,
+    "deletions": 18638,
+    "clipped": 178855
+  }
+}
