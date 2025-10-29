@@ -1,0 +1,4 @@
+#SampleID	CATDATA.unmapped_1.fastq.gz	Taxonomies_used:['gtdb_r214_metadata.tsv']
+clade_name	relative_abundance	sequence_abundance	ANI (if strain-level)	Coverage (if strain-level)
+NO_TAXONOMY	100.0	100.0	NA	NA
+NO_TAXONOMY|t__genome.fasta	100.0	100.0	98.66	1.252
