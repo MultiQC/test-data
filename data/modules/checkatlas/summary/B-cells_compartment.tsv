@@ -1,0 +1,2 @@
+AtlasFileType	NbCells	NbGenes	AnnData.raw	AnnData.X	File_extension	File_path
+AnnData	54934	36398	True	True	B-cells_compartment	/data/analysis/data_becavin/checkatlas_test/tuto/data1/B-cells_compartment.h5ad
