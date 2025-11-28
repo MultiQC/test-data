@@ -1,0 +1,5 @@
+Annot_Sample	Reference	obs	rand_index	rand_index_running_time
+Fetal_cell_type	author_cell_type	cell_type	0.9338405682824856	0.015674591064453125
+Fetal_cell_type_ontology_term_id	author_cell_type	cell_type_ontology_term_id	0.9338405682824856	0.011783123016357422
+Fetal_orig.ident	author_cell_type	orig.ident	0.8458873605141566	0.010969161987304688
+Fetal_seurat_clusters	author_cell_type	seurat_clusters	0.9301595090946928	0.011272668838500977

@@ -1,0 +1,6 @@
+Clust_Sample	obs	davies_bouldin	davies_bouldin_running_time
+Fetal_author_cell_type	author_cell_type	2.087750049635169	0.01888871192932129
+Fetal_cell_type	cell_type	1.9077780820484298	0.012776374816894531
+Fetal_cell_type_ontology_term_id	cell_type_ontology_term_id	1.9077780820484371	0.012590646743774414
+Fetal_orig.ident	orig.ident	23.918095097783713	0.009756803512573242
+Fetal_seurat_clusters	seurat_clusters	1.9550892255955854	0.017301559448242188
