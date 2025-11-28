@@ -1,0 +1,14 @@
+run_modules:
+  - fastqc
+
+module_order:
+  - fastqc:
+      name: "FastQC (raw)"
+      info: "This section of the report shows FastQC results before adapter trimming."
+      path_filters:
+        - "v0.10.1/*.zip"
+  - fastqc:
+      name: "FastQC (trimmed)"
+      info: "This section of the report shows FastQC results after adapter trimming."
+      path_filters:
+        - "v0.11.2/*.zip"
