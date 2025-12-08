@@ -1,0 +1,23 @@
+# plot_type: 'bargraph'
+# pconfig:
+#     title: Bargraph with grouped samples
+#     sample_groups:
+#         foo:
+#             - [Sample 1 foo, Sample 1]
+#             - [Sample 2 foo, Sample 2]
+#             - [Sample 3 foo, Sample 3]
+#             - [Sample 4 foo, Sample 4]
+#         bar:
+#             - [Sample 1 bar, Sample 1]
+#             - [Sample 2 bar, Sample 2]
+#             - [Sample 3 bar, Sample 3]
+#             - [Sample 4 bar, Sample 4]
+Sample Name, Cat 1, Cat 2, Cat 3, Cat 4, Cat 5
+Sample 1 foo,1,6,2,4,6
+Sample 2 foo,3,2,5,7,3
+Sample 3 foo,2,5,3,4,5
+Sample 4 foo,12,16,18,13,15
+Sample 1 bar,8,3,9,2,7
+Sample 2 bar,5,11,4,8,6
+Sample 3 bar,7,4,12,3,9
+Sample 4 bar,9,14,7,11,8

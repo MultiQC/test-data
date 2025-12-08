@@ -1,0 +1,16 @@
+# plot_type: 'bargraph'
+# pconfig:
+#     id: my_bargraph
+#     title: My Bar Graph
+#     sample_groups:
+#         25nt:
+#             - [sample1_25nt, sample1]
+#             - [sample2_25nt, sample2]
+#         26nt:
+#             - [sample1_26nt, sample1]
+#             - [sample2_26nt, sample2]
+Sample Name,Frame0,Frame1,Frame2
+sample1_25nt,50,30,20
+sample1_26nt,60,25,15
+sample2_25nt,55,28,17
+sample2_26nt,65,22,13
