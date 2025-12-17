@@ -1,0 +1,80 @@
+methurator_summary:
+  metadata:
+    date_generated: '2025-12-15T14:45:22.429729'
+    methurator_version: 0.1.7
+    command: methurator downsample
+    options:
+      bam_files:
+      - tests/data/Ecoli.csorted.bam
+      outdir: tests/data
+      fasta: tests/data/genome.fa
+      genome: null
+      downsampling_percentages:
+      - 0.1
+      - 0.2
+      - 0.4
+      - 0.6
+      - 0.8
+      - 1
+      minimum_coverage: [1, 3]
+      rrbs: true
+      threads: 6
+      keep_temporary_files: false
+  reads_summary:
+  - Ecoli:
+    - [0.1, 2]
+    - [0.2, 4]
+    - [0.4, 6]
+    - [0.6, 6]
+    - [0.8, 8]
+    - [1.0, 10]
+  cpgs_summary:
+  - Ecoli:
+    - minimum_coverage: 1
+      data:
+      - [0.1, 11]
+      - [0.2, 18]
+      - [0.4, 21]
+      - [0.6, 21]
+      - [0.8, 32]
+      - [1.0, 41]
+    - minimum_coverage: 3
+      data:
+      - [0.1, 0]
+      - [0.2, 0]
+      - [0.4, 0]
+      - [0.6, 0]
+      - [0.8, 0]
+      - [1.0, 0]
+  saturation_analysis:
+  - Ecoli:
+    - minimum_coverage: 1
+      fit_success: true
+      beta0: 32.03862722586334
+      beta1: 2.07723659313063
+      asymptote: 50
+      saturation: 81.5
+      data:
+      - [0.0, 0, 0.0, false]
+      - [0.1, 11, 21.9, false]
+      - [0.2, 18, 35.8, false]
+      - [0.4, 21, 41.7, false]
+      - [0.6, 21, 41.7, false]
+      - [0.8, 32, 63.6, false]
+      - [1.0, 41, 81.5, false]
+      - [1.2, 38, 75.7, true]
+      - [1.4, 40, 78.9, true]
+      - [1.6, 41, 81.4, true]
+      - [1.8, 42, 83.4, true]
+      - [2.0, 43, 85.0, true]
+    - minimum_coverage: 3
+      fit_success: false
+      fit_error: Invalid asymptote value
+      data:
+      - [0.0, 0, null, false]
+      - [0.1, 0, null, false]
+      - [0.2, 0, null, false]
+      - [0.4, 0, null, false]
+      - [0.6, 0, null, false]
+      - [0.8, 0, null, false]
+      - [1.0, 0, null, false]
