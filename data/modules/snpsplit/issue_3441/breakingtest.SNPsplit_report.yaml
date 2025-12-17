@@ -1,0 +1,58 @@
+---
+Meta:
+  tool: SNPsplit
+  version: 0.6.0
+  infile: MAT-LIBR-25352_20251001_001mouse_COR_M5_NM_plate1_DNA_S4_merged_DNA_P9.deduplicated.sorted.bam
+  date_run: 2025-12-12T23:44:26.1Z
+  mode: bisulfite
+  library: paired-end
+  command: SNPsplit --snp ../all_SNPs_CAST_EiJ_GRCm39.txt.gz --bisulfite MAT-LIBR-25352_20251001_001mouse_COR_M5_NM_plate1_DNA_S4_merged_DNA_P9.deduplicated.sorted.bam
+Tagging:
+  total_reads: 1075548
+  unaligned: 0
+  percent_unaligned: 0.00
+  g1: 220813
+  percent_g1: 20.53
+  g2: 173252
+  percent_g2: 16.11
+  unassignable: 678179
+  percent_unassignable: 63.05
+  unassigned_but_ct: 101801
+  no_snp: 727
+  percent_no_snp: 0.07
+  bizarre: 3304
+  percent_bizarre: 0.31
+  SNP_annotation: ../all_SNPs_CAST_EiJ_GRCm39.txt.gz
+  SNPs_stored: 20459869
+  N_containing_reads: 497534
+  non_N_containing_reads: 575651
+  N_deletion: 2363
+  percent_N_deletion: 0.22
+  multi_N_deletion: 5
+  N_was_known_SNP: 928485
+  percent_N_was_known_SNP: 99.94
+  CT_positions_skipped: 297282
+  N_not_known: 572
+  percent_N_not_known: 0.06
+Sorting:
+  tagged_infile: MAT-LIBR-25352_20251001_001mouse_COR_M5_NM_plate1_DNA_S4_merged_DNA_P9.deduplicated.sorted.allele_flagged.bam
+  PE_total_reads: 537774
+  PE_total_pairs: 537774
+  PE_total_singletons: 0
+  PE_unassignable: 243504
+  PE_percent_unassignable: 45.28
+  PE_unassignable_pairs: 243504
+  PE_unassignable_singletons: 0
+  PE_genome1: 162560
+  PE_percent_genome1: 30.23
+  PE_genome1_pairs: 162560
+  PE_genome1_singletons: 0
+  PE_genome2: 128184
+  PE_percent_genome2: 23.84
+  PE_genome2_pairs: 128184
+  PE_genome2_singletons: 0
+  PE_conflicting: 3526
+  PE_percent_conflicting: 0.66
+  PE_conflicting_pairs: 3526
+  PE_conflicting_singletons: 0
+...
