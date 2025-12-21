@@ -1,0 +1,4 @@
+Clust_Sample	obs	davies_bouldin	davies_bouldin_running_time
+B-cells_compartment_Manually_curated_celltype	Manually_curated_celltype	1.3069555092772787	0.021255970001220703
+B-cells_compartment_cell_type	cell_type	1.093590111229104	0.016234397888183594
+B-cells_compartment_cell_type_ontology_term_id	cell_type_ontology_term_id	1.0935901112291038	0.01587510108947754
