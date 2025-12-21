@@ -1,0 +1,8 @@
+2025-12-19 11:56:57 : INFO  Using high MCC model
+2025-12-19 11:56:57 : INFO  Log file: RAP1_UNINDUCED_REP2.log
+2025-12-19 11:56:58 : INFO  [1m[96m97654[0m sequences loaded!
+2025-12-19 11:56:58 : INFO  Writing output non-rRNA sequences into file: [94mRAP1_UNINDUCED_REP2.nonrna.fastq.gz[0m
+2025-12-19 11:57:49 : INFO  [94mWriting outputs...[0m
+2025-12-19 11:57:50 : INFO  Processed [1m[96m97654[0m sequences in total
+2025-12-19 11:57:50 : INFO  Detected [1m[96m73241[0m non-rRNA sequences
+2025-12-19 11:57:50 : INFO  Detected [1m[96m24413[0m rRNA sequences

@@ -1,0 +1,8 @@
+2025-12-19 11:57:48 : INFO  Using high MCC model
+2025-12-19 11:57:48 : INFO  Log file: WT_REP1.log
+2025-12-19 11:57:49 : INFO  [1m[96m99225[0m sequences loaded!
+2025-12-19 11:57:49 : INFO  Writing output non-rRNA sequences into file: [94mWT_REP1.nonrna.1.fastq.gz, WT_REP1.nonrna.2.fastq.gz[0m
+2025-12-19 11:59:30 : INFO  [94mWriting outputs...[0m
+2025-12-19 11:59:32 : INFO  Processed [1m[96m99225[0m sequences in total
+2025-12-19 11:59:32 : INFO  Detected [1m[96m94264[0m non-rRNA sequences
+2025-12-19 11:59:32 : INFO  Detected [1m[96m4961[0m rRNA sequences
