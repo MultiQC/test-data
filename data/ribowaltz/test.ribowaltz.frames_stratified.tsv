@@ -1,0 +1,199 @@
+sample	length	region	frame	count	scaled_count
+test.ribowaltz	20	5' UTR	0	1	2.63157894736842
+test.ribowaltz	20	5' UTR	1	30	78.9473684210526
+test.ribowaltz	20	5' UTR	2	7	18.4210526315789
+test.ribowaltz	20	CDS	0	121	37.1165644171779
+test.ribowaltz	20	CDS	1	108	33.1288343558282
+test.ribowaltz	20	CDS	2	97	29.7546012269939
+test.ribowaltz	20	3' UTR	0	22	28.9473684210526
+test.ribowaltz	20	3' UTR	1	32	42.1052631578947
+test.ribowaltz	20	3' UTR	2	22	28.9473684210526
+test.ribowaltz	21	5' UTR	0	48	38.0952380952381
+test.ribowaltz	21	5' UTR	1	78	61.9047619047619
+test.ribowaltz	21	5' UTR	2	0	0
+test.ribowaltz	21	CDS	0	200	12.1580547112462
+test.ribowaltz	21	CDS	1	1029	62.5531914893617
+test.ribowaltz	21	CDS	2	416	25.2887537993921
+test.ribowaltz	21	3' UTR	0	119	33.7110481586402
+test.ribowaltz	21	3' UTR	1	113	32.0113314447592
+test.ribowaltz	21	3' UTR	2	121	34.2776203966006
+test.ribowaltz	22	5' UTR	0	2382	82.7658095899931
+test.ribowaltz	22	5' UTR	1	97	3.37039610840862
+test.ribowaltz	22	5' UTR	2	399	13.8637943015983
+test.ribowaltz	22	CDS	0	718	60.6418918918919
+test.ribowaltz	22	CDS	1	251	21.1993243243243
+test.ribowaltz	22	CDS	2	215	18.1587837837838
+test.ribowaltz	22	3' UTR	0	65	31.1004784688995
+test.ribowaltz	22	3' UTR	1	61	29.1866028708134
+test.ribowaltz	22	3' UTR	2	83	39.7129186602871
+test.ribowaltz	23	5' UTR	0	460	28.6783042394015
+test.ribowaltz	23	5' UTR	1	429	26.7456359102244
+test.ribowaltz	23	5' UTR	2	715	44.5760598503741
+test.ribowaltz	23	CDS	0	366	25.9023354564756
+test.ribowaltz	23	CDS	1	579	40.9766454352442
+test.ribowaltz	23	CDS	2	468	33.1210191082803
+test.ribowaltz	23	3' UTR	0	82	25.705329153605
+test.ribowaltz	23	3' UTR	1	129	40.4388714733542
+test.ribowaltz	23	3' UTR	2	108	33.8557993730408
+test.ribowaltz	24	5' UTR	0	111	26.1176470588235
+test.ribowaltz	24	5' UTR	1	254	59.7647058823529
+test.ribowaltz	24	5' UTR	2	60	14.1176470588235
+test.ribowaltz	24	CDS	0	1564	34.3358946212953
+test.ribowaltz	24	CDS	1	799	17.5411635565313
+test.ribowaltz	24	CDS	2	2192	48.1229418221734
+test.ribowaltz	24	3' UTR	0	345	34.2601787487587
+test.ribowaltz	24	3' UTR	1	409	40.6156901688183
+test.ribowaltz	24	3' UTR	2	253	25.124131082423
+test.ribowaltz	25	5' UTR	0	311	60.2713178294574
+test.ribowaltz	25	5' UTR	1	74	14.3410852713178
+test.ribowaltz	25	5' UTR	2	131	25.3875968992248
+test.ribowaltz	25	CDS	0	5602	62.4804818202097
+test.ribowaltz	25	CDS	1	1392	15.5253178674994
+test.ribowaltz	25	CDS	2	1972	21.9942003122909
+test.ribowaltz	25	3' UTR	0	468	27.3844353423054
+test.ribowaltz	25	3' UTR	1	522	30.5441778818022
+test.ribowaltz	25	3' UTR	2	719	42.0713867758923
+test.ribowaltz	26	5' UTR	0	355	31.1676909569798
+test.ribowaltz	26	5' UTR	1	531	46.6198419666374
+test.ribowaltz	26	5' UTR	2	253	22.2124670763828
+test.ribowaltz	26	CDS	0	3706	39.7596824375067
+test.ribowaltz	26	CDS	1	3194	34.2667095805171
+test.ribowaltz	26	CDS	2	2421	25.9736079819762
+test.ribowaltz	26	3' UTR	0	642	34.5532831001076
+test.ribowaltz	26	3' UTR	1	582	31.3240043057051
+test.ribowaltz	26	3' UTR	2	634	34.1227125941873
+test.ribowaltz	27	5' UTR	0	729	59.2201462225833
+test.ribowaltz	27	5' UTR	1	270	21.9333874898457
+test.ribowaltz	27	5' UTR	2	232	18.8464662875711
+test.ribowaltz	27	CDS	0	11156	57.4903375418707
+test.ribowaltz	27	CDS	1	6947	35.80005153311
+test.ribowaltz	27	CDS	2	1302	6.70961092501933
+test.ribowaltz	27	3' UTR	0	1051	26.5069356872636
+test.ribowaltz	27	3' UTR	1	1242	31.3240857503153
+test.ribowaltz	27	3' UTR	2	1672	42.1689785624212
+test.ribowaltz	28	5' UTR	0	492	33.9310344827586
+test.ribowaltz	28	5' UTR	1	608	41.9310344827586
+test.ribowaltz	28	5' UTR	2	350	24.1379310344828
+test.ribowaltz	28	CDS	0	25129	85.0677048070413
+test.ribowaltz	28	CDS	1	2962	10.0270819228165
+test.ribowaltz	28	CDS	2	1449	4.90521327014218
+test.ribowaltz	28	3' UTR	0	900	19.1245218869528
+test.ribowaltz	28	3' UTR	1	1634	34.721631959201
+test.ribowaltz	28	3' UTR	2	2172	46.1538461538462
+test.ribowaltz	29	5' UTR	0	303	29.5609756097561
+test.ribowaltz	29	5' UTR	1	438	42.7317073170732
+test.ribowaltz	29	5' UTR	2	284	27.7073170731707
+test.ribowaltz	29	CDS	0	4863	61.9569371894509
+test.ribowaltz	29	CDS	1	1303	16.6008408714486
+test.ribowaltz	29	CDS	2	1683	21.4422219391005
+test.ribowaltz	29	3' UTR	0	553	27.608587119321
+test.ribowaltz	29	3' UTR	1	793	39.5906140788817
+test.ribowaltz	29	3' UTR	2	657	32.8007988017973
+test.ribowaltz	30	5' UTR	0	6	6.18556701030928
+test.ribowaltz	30	5' UTR	1	57	58.7628865979382
+test.ribowaltz	30	5' UTR	2	34	35.0515463917526
+test.ribowaltz	30	CDS	0	1328	40.1572422134865
+test.ribowaltz	30	CDS	1	1421	42.969458723919
+test.ribowaltz	30	CDS	2	558	16.8732990625945
+test.ribowaltz	30	3' UTR	0	352	36.1025641025641
+test.ribowaltz	30	3' UTR	1	280	28.7179487179487
+test.ribowaltz	30	3' UTR	2	343	35.1794871794872
+test.ribowaltz	31	5' UTR	0	10	20.4081632653061
+test.ribowaltz	31	5' UTR	1	24	48.9795918367347
+test.ribowaltz	31	5' UTR	2	15	30.6122448979592
+test.ribowaltz	31	CDS	0	357	23.8476953907816
+test.ribowaltz	31	CDS	1	738	49.2985971943888
+test.ribowaltz	31	CDS	2	402	26.8537074148297
+test.ribowaltz	31	3' UTR	0	161	32.5252525252525
+test.ribowaltz	31	3' UTR	1	212	42.8282828282828
+test.ribowaltz	31	3' UTR	2	122	24.6464646464647
+test.ribowaltz	32	5' UTR	0	31	62
+test.ribowaltz	32	5' UTR	1	7	14
+test.ribowaltz	32	5' UTR	2	12	24
+test.ribowaltz	32	CDS	0	144	27.3764258555133
+test.ribowaltz	32	CDS	1	223	42.3954372623574
+test.ribowaltz	32	CDS	2	159	30.2281368821293
+test.ribowaltz	32	3' UTR	0	103	36.013986013986
+test.ribowaltz	32	3' UTR	1	106	37.0629370629371
+test.ribowaltz	32	3' UTR	2	77	26.9230769230769
+test.ribowaltz	33	5' UTR	0	8	17.7777777777778
+test.ribowaltz	33	5' UTR	1	15	33.3333333333333
+test.ribowaltz	33	5' UTR	2	22	48.8888888888889
+test.ribowaltz	33	CDS	0	41	8.03921568627451
+test.ribowaltz	33	CDS	1	311	60.9803921568628
+test.ribowaltz	33	CDS	2	158	30.9803921568627
+test.ribowaltz	33	3' UTR	0	88	33.0827067669173
+test.ribowaltz	33	3' UTR	1	118	44.3609022556391
+test.ribowaltz	33	3' UTR	2	60	22.5563909774436
+test.ribowaltz	34	5' UTR	0	11	36.6666666666667
+test.ribowaltz	34	5' UTR	1	6	20
+test.ribowaltz	34	5' UTR	2	13	43.3333333333333
+test.ribowaltz	34	CDS	0	13	13.5416666666667
+test.ribowaltz	34	CDS	1	22	22.9166666666667
+test.ribowaltz	34	CDS	2	61	63.5416666666667
+test.ribowaltz	34	3' UTR	0	26	25.2427184466019
+test.ribowaltz	34	3' UTR	1	13	12.621359223301
+test.ribowaltz	34	3' UTR	2	64	62.1359223300971
+test.ribowaltz	35	5' UTR	0	1	50
+test.ribowaltz	35	5' UTR	1	0	0
+test.ribowaltz	35	5' UTR	2	1	50
+test.ribowaltz	35	CDS	0	27	24.5454545454546
+test.ribowaltz	35	CDS	1	57	51.8181818181818
+test.ribowaltz	35	CDS	2	26	23.6363636363636
+test.ribowaltz	35	3' UTR	0	4	26.6666666666667
+test.ribowaltz	35	3' UTR	1	11	73.3333333333333
+test.ribowaltz	35	3' UTR	2	0	0
+test.ribowaltz	36	5' UTR	0	21	52.5
+test.ribowaltz	36	5' UTR	1	8	20
+test.ribowaltz	36	5' UTR	2	11	27.5
+test.ribowaltz	36	CDS	0	23	54.7619047619048
+test.ribowaltz	36	CDS	1	5	11.9047619047619
+test.ribowaltz	36	CDS	2	14	33.3333333333333
+test.ribowaltz	36	3' UTR	0	7	31.8181818181818
+test.ribowaltz	36	3' UTR	1	2	9.09090909090909
+test.ribowaltz	36	3' UTR	2	13	59.0909090909091
+test.ribowaltz	37	5' UTR	0	0	0
+test.ribowaltz	37	5' UTR	1	0	0
+test.ribowaltz	37	5' UTR	2	0	0
+test.ribowaltz	37	CDS	0	0	0
+test.ribowaltz	37	CDS	1	2	100
+test.ribowaltz	37	CDS	2	0	0
+test.ribowaltz	37	3' UTR	0	4	80
+test.ribowaltz	37	3' UTR	1	0	0
+test.ribowaltz	37	3' UTR	2	1	20
+test.ribowaltz	38	5' UTR	0	0	0
+test.ribowaltz	38	5' UTR	1	0	0
+test.ribowaltz	38	5' UTR	2	0	0
+test.ribowaltz	38	CDS	0	0	0
+test.ribowaltz	38	CDS	1	0	0
+test.ribowaltz	38	CDS	2	0	0
+test.ribowaltz	38	3' UTR	0	0	0
+test.ribowaltz	38	3' UTR	1	4	100
+test.ribowaltz	38	3' UTR	2	0	0
+test.ribowaltz	39	5' UTR	0	0	0
+test.ribowaltz	39	5' UTR	1	0	0
+test.ribowaltz	39	5' UTR	2	0	0
+test.ribowaltz	39	CDS	0	0	0
+test.ribowaltz	39	CDS	1	0	0
+test.ribowaltz	39	CDS	2	0	0
+test.ribowaltz	39	3' UTR	0	0	0
+test.ribowaltz	39	3' UTR	1	0	0
+test.ribowaltz	39	3' UTR	2	1	100
+test.ribowaltz	40	5' UTR	0	0	0
+test.ribowaltz	40	5' UTR	1	0	0
+test.ribowaltz	40	5' UTR	2	0	0
+test.ribowaltz	40	CDS	0	0	0
+test.ribowaltz	40	CDS	1	0	0
+test.ribowaltz	40	CDS	2	0	0
+test.ribowaltz	40	3' UTR	0	0	0
+test.ribowaltz	40	3' UTR	1	0	0
+test.ribowaltz	40	3' UTR	2	0	0
+test.ribowaltz	41	5' UTR	0	0	0
+test.ribowaltz	41	5' UTR	1	0	0
+test.ribowaltz	41	5' UTR	2	0	0
+test.ribowaltz	41	CDS	0	0	0
+test.ribowaltz	41	CDS	1	0	0
+test.ribowaltz	41	CDS	2	0	0
+test.ribowaltz	41	3' UTR	0	0	0
+test.ribowaltz	41	3' UTR	1	0	0
+test.ribowaltz	41	3' UTR	2	0	0
