@@ -1,6 +1,6 @@
 methurator_summary:
   metadata:
-    date_generated: '2026-01-27T17:04:56.600219'
+    date_generated: '2026-01-28T11:12:04.516736'
     methurator_version: 2.1.0
     command: methurator gt_estimator
     options:
@@ -20,6 +20,7 @@ methurator_summary:
   gt_summary:
   - Ecoli.csorted_CpG.bedGraph:
     - minimum_coverage: 1
+      reads: 10
       asymptote(1000t): 39894
       data:
       - [0.0, 0.0, 0, .nan, .nan]
@@ -224,6 +225,7 @@ methurator_summary:
       - [9.95, 0.0102, 407, .nan, .nan]
       - [10.0, 0.0103, 409, .nan, .nan]
     - minimum_coverage: 3
+      reads: 10
       asymptote(1000t): 29
       data:
       - [0.0, 0.0, 0, .nan, .nan]
