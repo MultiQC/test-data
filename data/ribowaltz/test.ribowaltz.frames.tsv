@@ -1,0 +1,10 @@
+sample	region	frame	count	scaled_count
+test.ribowaltz	5' UTR	0	5280	49.139134481154
+test.ribowaltz	5' UTR	1	2926	27.2312703583062
+test.ribowaltz	5' UTR	2	2539	23.6295951605398
+test.ribowaltz	CDS	0	55358	61.3086140828848
+test.ribowaltz	CDS	1	21343	23.6372294947616
+test.ribowaltz	CDS	2	13593	15.0541564223536
+test.ribowaltz	3' UTR	0	4992	27.1643902704468
+test.ribowaltz	3' UTR	1	6263	34.0806442836154
+test.ribowaltz	3' UTR	2	7122	38.7549654459379
