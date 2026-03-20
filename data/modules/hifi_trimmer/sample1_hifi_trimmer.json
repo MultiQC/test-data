@@ -1,0 +1,9 @@
+{
+    "summary": {
+        "total_reads_processed": 1000,
+        "total_bases_processed": 15000000,
+        "total_reads_discarded": 50,
+        "total_reads_trimmed": 300,
+        "total_bases_removed": 1200000
+    }
+}
