@@ -1,0 +1,2237 @@
+{
+    "RunValues": {},
+    "Settings": [
+        {
+            "Lane": 1,
+            "I1MismatchThreshold": 1,
+            "I2MismatchThreshold": 1,
+            "R1Adapter": [
+                "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA",
+                "CTGTCTCTTATACACATCT"
+            ],
+            "R2Adapter": [
+                "AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT",
+                "CTGTCTCTTATACACATCT"
+            ],
+            "I1MaskManifest": "I1:Y*",
+            "I1Mask": [
+                {
+                    "Read": "I1",
+                    "Cycles": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                }
+            ],
+            "I1FastQ": false,
+            "I2MaskManifest": "I2:Y*",
+            "I2Mask": [
+                {
+                    "Read": "I2",
+                    "Cycles": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                }
+            ],
+            "I2FastQ": false,
+            "UmiMaskManifest": "I1:N*",
+            "UmiMask": [
+                {
+                    "Read": "I1",
+                    "Cycles": []
+                }
+            ],
+            "UmiFastQ": false,
+            "R1FastQMaskManifest": "R1:Y*N",
+            "R1FastQMask": [
+                {
+                    "Read": "R1",
+                    "Cycles": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                    ]
+                }
+            ],
+            "R2FastQMaskManifest": "R2:Y*N",
+            "R2FastQMask": [
+                {
+                    "Read": "R2",
+                    "Cycles": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89
+                    ]
+                }
+            ],
+            "SpikeInAsUnassigned": false,
+            "R1AdapterTrim": false,
+            "R2AdapterTrim": true,
+            "R1AdapterNMask": false,
+            "R2AdapterNMask": false,
+            "R1AdapterMinimumTrimmedLength": 16,
+            "R2AdapterMinimumTrimmedLength": 16,
+            "R1AdapterMinimumStringency": 0.9,
+            "R2AdapterMinimumStringency": 0.9,
+            "R1AdapterMinimumOverlap": 3,
+            "R2AdapterMinimumOverlap": 3,
+            "AdapterTrimType": "Paired-End"
+        },
+        {
+            "Lane": 2,
+            "I1MismatchThreshold": 1,
+            "I2MismatchThreshold": 1,
+            "R1Adapter": [
+                "AGATCGGAAGAGCACACGTCTGAACTCCAGTCA",
+                "CTGTCTCTTATACACATCT"
+            ],
+            "R2Adapter": [
+                "AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT",
+                "CTGTCTCTTATACACATCT"
+            ],
+            "I1MaskManifest": "I1:Y*",
+            "I1Mask": [
+                {
+                    "Read": "I1",
+                    "Cycles": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                }
+            ],
+            "I1FastQ": false,
+            "I2MaskManifest": "I2:Y*",
+            "I2Mask": [
+                {
+                    "Read": "I2",
+                    "Cycles": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10
+                    ]
+                }
+            ],
+            "I2FastQ": false,
+            "UmiMaskManifest": "I1:N*",
+            "UmiMask": [
+                {
+                    "Read": "I1",
+                    "Cycles": []
+                }
+            ],
+            "UmiFastQ": false,
+            "R1FastQMaskManifest": "R1:Y*N",
+            "R1FastQMask": [
+                {
+                    "Read": "R1",
+                    "Cycles": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27
+                    ]
+                }
+            ],
+            "R2FastQMaskManifest": "R2:Y*N",
+            "R2FastQMask": [
+                {
+                    "Read": "R2",
+                    "Cycles": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49,
+                        50,
+                        51,
+                        52,
+                        53,
+                        54,
+                        55,
+                        56,
+                        57,
+                        58,
+                        59,
+                        60,
+                        61,
+                        62,
+                        63,
+                        64,
+                        65,
+                        66,
+                        67,
+                        68,
+                        69,
+                        70,
+                        71,
+                        72,
+                        73,
+                        74,
+                        75,
+                        76,
+                        77,
+                        78,
+                        79,
+                        80,
+                        81,
+                        82,
+                        83,
+                        84,
+                        85,
+                        86,
+                        87,
+                        88,
+                        89
+                    ]
+                }
+            ],
+            "SpikeInAsUnassigned": false,
+            "R1AdapterTrim": false,
+            "R2AdapterTrim": true,
+            "R1AdapterNMask": false,
+            "R2AdapterNMask": false,
+            "R1AdapterMinimumTrimmedLength": 16,
+            "R2AdapterMinimumTrimmedLength": 16,
+            "R1AdapterMinimumStringency": 0.9,
+            "R2AdapterMinimumStringency": 0.9,
+            "R1AdapterMinimumOverlap": 3,
+            "R2AdapterMinimumOverlap": 3,
+            "AdapterTrimType": "Paired-End"
+        }
+    ],
+    "Samples": [
+        {
+            "SampleName": "Adept_CB1",
+            "SampleNumber": 1,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CTAGCGACAT",
+                    "Index2": "TACGAGCTAG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CTAGCGACAT",
+                    "Index2": "TACGAGCTAG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "Adept_CB2",
+            "SampleNumber": 2,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACGATCTGTG",
+                    "Index2": "AGACTCTCGT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACGATCTGTG",
+                    "Index2": "AGACTCTCGT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "Adept_CB3",
+            "SampleNumber": 3,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GACTATGTGC",
+                    "Index2": "GCTAGTAGTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GACTATGTGC",
+                    "Index2": "GCTAGTAGTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "Adept_CB4",
+            "SampleNumber": 4,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TGTCGACACA",
+                    "Index2": "CTGTCAGACA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TGTCGACACA",
+                    "Index2": "CTGTCAGACA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE103_GEX_SI-TT-C10",
+            "SampleNumber": 5,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "AAACCATTCT",
+                    "Index2": "TCCCACCCTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "AAACCATTCT",
+                    "Index2": "TCCCACCCTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE104_GEX_SI-TT-D10",
+            "SampleNumber": 6,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CCATTCGCAT",
+                    "Index2": "CGACACTTGT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CCATTCGCAT",
+                    "Index2": "CGACACTTGT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE105_GEX_SI-TT-E10",
+            "SampleNumber": 7,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TGGGATTGTG",
+                    "Index2": "TTGTGGATAT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TGGGATTGTG",
+                    "Index2": "TTGTGGATAT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE106_GEX_SI-TT-F10",
+            "SampleNumber": 8,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CAGTTGCCGG",
+                    "Index2": "TGTTAAACCG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CAGTTGCCGG",
+                    "Index2": "TGTTAAACCG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE107_GEX_SI-TT-G10",
+            "SampleNumber": 9,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CACGTAAAGT",
+                    "Index2": "AGGGCGTTCA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CACGTAAAGT",
+                    "Index2": "AGGGCGTTCA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE108_GEX_SI-TT-H10",
+            "SampleNumber": 10,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CCCTAGATAA",
+                    "Index2": "TAGAGCCTTT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CCCTAGATAA",
+                    "Index2": "TAGAGCCTTT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE109_GEX_SI-TT-A11",
+            "SampleNumber": 11,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TTGGGTTCCG",
+                    "Index2": "TCCTCGAATC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TTGGGTTCCG",
+                    "Index2": "TCCTCGAATC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE110_GEX_SI-TT-B11",
+            "SampleNumber": 12,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GCAAGTAAGA",
+                    "Index2": "CTAGAGGTCA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GCAAGTAAGA",
+                    "Index2": "CTAGAGGTCA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE111_GEX_SI-TT-C11",
+            "SampleNumber": 13,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TTTCACCCAT",
+                    "Index2": "AATTCCCAAG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TTTCACCCAT",
+                    "Index2": "AATTCCCAAG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE112_GEX_SI-TT-D11",
+            "SampleNumber": 14,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CGAATATTCG",
+                    "Index2": "TTGCTTCCAG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CGAATATTCG",
+                    "Index2": "TTGCTTCCAG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE113_GEX_SI-TT-E11",
+            "SampleNumber": 15,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TTGTCCCGGA",
+                    "Index2": "TGGCATTCAC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TTGTCCCGGA",
+                    "Index2": "TGGCATTCAC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE114_GEX_SI-TT-F11",
+            "SampleNumber": 16,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "AAGGTGTGAA",
+                    "Index2": "GTGTACACTA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "AAGGTGTGAA",
+                    "Index2": "GTGTACACTA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE115_GEX_SI-TT-G11",
+            "SampleNumber": 17,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GCAGGTTATC",
+                    "Index2": "GTTTCTAATG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GCAGGTTATC",
+                    "Index2": "GTTTCTAATG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE116_GEX_SI-TT-H11",
+            "SampleNumber": 18,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GATCGATTGT",
+                    "Index2": "CATTCCGTCA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GATCGATTGT",
+                    "Index2": "CATTCCGTCA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE117_GEX_SI-TT-A12",
+            "SampleNumber": 19,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TGGTGCGGTG",
+                    "Index2": "ATTGACAGTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TGGTGCGGTG",
+                    "Index2": "ATTGACAGTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE118_GEX_SI-TT-B12",
+            "SampleNumber": 20,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GCCCTTGACG",
+                    "Index2": "GAGTGACCTA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GCCCTTGACG",
+                    "Index2": "GAGTGACCTA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE119_GEX_SI-TT-C12",
+            "SampleNumber": 21,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ATCTTGACGA",
+                    "Index2": "CCTGAGTTGC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ATCTTGACGA",
+                    "Index2": "CCTGAGTTGC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE120_GEX_SI-TT-D12",
+            "SampleNumber": 22,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TAACCAATTC",
+                    "Index2": "CTACTAGAGT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TAACCAATTC",
+                    "Index2": "CTACTAGAGT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE103_TCR_SI-TT-E12",
+            "SampleNumber": 23,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CAGGTGGACG",
+                    "Index2": "GTCATGAATG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CAGGTGGACG",
+                    "Index2": "GTCATGAATG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE104_TCR_SI-TT-F12",
+            "SampleNumber": 24,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CGTGCGTCTC",
+                    "Index2": "ATGTTCATAG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CGTGCGTCTC",
+                    "Index2": "ATGTTCATAG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE105_TCR_SI-TT-G12",
+            "SampleNumber": 25,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TTTATGCAAG",
+                    "Index2": "AAGCCCTGAT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TTTATGCAAG",
+                    "Index2": "AAGCCCTGAT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE106_TCR_SI-TT-H12",
+            "SampleNumber": 26,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TGAATCATCA",
+                    "Index2": "CGACTCCTAC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TGAATCATCA",
+                    "Index2": "CGACTCCTAC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE107_TCR_SI-TT-E2",
+            "SampleNumber": 27,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CTCCCTCCAT",
+                    "Index2": "AATGGGTTAT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CTCCCTCCAT",
+                    "Index2": "AATGGGTTAT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE108_TCR_SI-TT-F2",
+            "SampleNumber": 28,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TGCGGCCCTT",
+                    "Index2": "GAGGAATCAG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TGCGGCCCTT",
+                    "Index2": "GAGGAATCAG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE109_TCR_SI-TT-G2",
+            "SampleNumber": 29,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "AACCCACATG",
+                    "Index2": "TAAAGGAATC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "AACCCACATG",
+                    "Index2": "TAAAGGAATC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE110_TCR_SI-TT-H2",
+            "SampleNumber": 30,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CACTATGCTA",
+                    "Index2": "GACAGAGCCG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CACTATGCTA",
+                    "Index2": "GACAGAGCCG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE111_TCR_SI-TT-A3",
+            "SampleNumber": 31,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TTTCGTAGTG",
+                    "Index2": "ATCAGTCTAA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TTTCGTAGTG",
+                    "Index2": "ATCAGTCTAA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE112_TCR_SI-TT-B3",
+            "SampleNumber": 32,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ATTCACCGTG",
+                    "Index2": "TGTGACGAAC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ATTCACCGTG",
+                    "Index2": "TGTGACGAAC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE113_TCR_SI-TT-C3",
+            "SampleNumber": 33,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CACAAGCCAT",
+                    "Index2": "CACAACATTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CACAAGCCAT",
+                    "Index2": "CACAACATTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE114_TCR_SI-TT-D3",
+            "SampleNumber": 34,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CTCTAGAAGG",
+                    "Index2": "TCGTTGTATT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CTCTAGAAGG",
+                    "Index2": "TCGTTGTATT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE115_TCR_SI-TT-E3",
+            "SampleNumber": 35,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GTTGTCTGGT",
+                    "Index2": "CCTAGTTCCT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GTTGTCTGGT",
+                    "Index2": "CCTAGTTCCT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE116_TCR_SI-TT-F3",
+            "SampleNumber": 36,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ATATCCTCTC",
+                    "Index2": "CCCATTTCAA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ATATCCTCTC",
+                    "Index2": "CCCATTTCAA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE117_TCR_SI-TT-G3",
+            "SampleNumber": 37,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GCGACGTCAT",
+                    "Index2": "ATCCTGACCT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GCGACGTCAT",
+                    "Index2": "ATCCTGACCT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE118_TCR_SI-TT-H3",
+            "SampleNumber": 38,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CGAGAACGGG",
+                    "Index2": "CCAATCCGTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CGAGAACGGG",
+                    "Index2": "CCAATCCGTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE119_TCR_SI-TT-A4",
+            "SampleNumber": 39,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CTCGCTAGAG",
+                    "Index2": "GATGAAGATA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CTCGCTAGAG",
+                    "Index2": "GATGAAGATA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE120_TCR_SI-TT-B4",
+            "SampleNumber": 40,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TTTCGTCTAC",
+                    "Index2": "ACCACACTAG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TTTCGTCTAC",
+                    "Index2": "ACCACACTAG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE103_ADT_SI-TN-E2",
+            "SampleNumber": 41,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CACTGGGTCG",
+                    "Index2": "GTTGGTGCGA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CACTGGGTCG",
+                    "Index2": "GTTGGTGCGA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE104_ADT_SI-TN-F2",
+            "SampleNumber": 42,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TCGAACAAGT",
+                    "Index2": "CACCCATCCA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TCGAACAAGT",
+                    "Index2": "CACCCATCCA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE105_ADT_SI-TN-G2",
+            "SampleNumber": 43,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TCAGTAGTGC",
+                    "Index2": "AACCGTAGTG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TCAGTAGTGC",
+                    "Index2": "AACCGTAGTG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE106_ADT_SI-TN-H2",
+            "SampleNumber": 44,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GCTGCAAGAT",
+                    "Index2": "TCCTTACTCG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GCTGCAAGAT",
+                    "Index2": "TCCTTACTCG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE107_ADT_SI-TN-A3",
+            "SampleNumber": 45,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GTGTCAATAA",
+                    "Index2": "ATCAGTTCGC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GTGTCAATAA",
+                    "Index2": "ATCAGTTCGC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE108_ADT_SI-TN-B3",
+            "SampleNumber": 46,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CCGGTAGCCA",
+                    "Index2": "AATGACTCAG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CCGGTAGCCA",
+                    "Index2": "AATGACTCAG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE109_ADT_SI-TN-C3",
+            "SampleNumber": 47,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CCCAGATCAC",
+                    "Index2": "GCGACACAGT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CCCAGATCAC",
+                    "Index2": "GCGACACAGT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE110_ADT_SI-TN-D3",
+            "SampleNumber": 48,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GTGGTTCTAT",
+                    "Index2": "GTTAGGTTAG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GTGGTTCTAT",
+                    "Index2": "GTTAGGTTAG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE111_ADT_SI-TN-E3",
+            "SampleNumber": 49,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GCGAACTATG",
+                    "Index2": "AGTTACGAAA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GCGAACTATG",
+                    "Index2": "AGTTACGAAA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE112_ADT_SI-TN-F3",
+            "SampleNumber": 50,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACTAATGGTT",
+                    "Index2": "CCCGACATAC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACTAATGGTT",
+                    "Index2": "CCCGACATAC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE113_ADT_SI-TN-G3",
+            "SampleNumber": 51,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TCGTGATAAC",
+                    "Index2": "GAGGTGTTGC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TCGTGATAAC",
+                    "Index2": "GAGGTGTTGC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE114_ADT_SI-TN-H3",
+            "SampleNumber": 52,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ATAACAGCTG",
+                    "Index2": "CTCACGTACT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ATAACAGCTG",
+                    "Index2": "CTCACGTACT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE115_ADT_SI-TN-A4",
+            "SampleNumber": 53,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "AAGGTTGTTC",
+                    "Index2": "GTACCAGTTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "AAGGTTGTTC",
+                    "Index2": "GTACCAGTTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE116_ADT_SI-TN-B4",
+            "SampleNumber": 54,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "AATCAAACGT",
+                    "Index2": "TCTCTCAGTA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "AATCAAACGT",
+                    "Index2": "TCTCTCAGTA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE117_ADT_SI-TN-C4",
+            "SampleNumber": 55,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GATCTTGCAT",
+                    "Index2": "TCAGAGGCGT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GATCTTGCAT",
+                    "Index2": "TCAGAGGCGT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE118_ADT_SI-TN-D4",
+            "SampleNumber": 56,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACGATTGTAA",
+                    "Index2": "GTACAATCTG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACGATTGTAA",
+                    "Index2": "GTACAATCTG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE119_ADT_SI-TN-E4",
+            "SampleNumber": 57,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CCCAACGTGA",
+                    "Index2": "TGGAGCAAAG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CCCAACGTGA",
+                    "Index2": "TGGAGCAAAG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE120_ADT_SI-TN-F4",
+            "SampleNumber": 58,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "AGTCCCGCAA",
+                    "Index2": "GCGATCCTCA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "AGTCCCGCAA",
+                    "Index2": "GCGATCCTCA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE121_GEX_SI-TT-C4",
+            "SampleNumber": 59,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TCATCGAGAA",
+                    "Index2": "GTGCCCGACA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TCATCGAGAA",
+                    "Index2": "GTGCCCGACA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE122_GEX_SI-TT-D4",
+            "SampleNumber": 60,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CCTATACTGC",
+                    "Index2": "GTGCACGGAA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CCTATACTGC",
+                    "Index2": "GTGCACGGAA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE123_GEX_SI-TT-E4",
+            "SampleNumber": 61,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ATGCGTGGTT",
+                    "Index2": "TAACCTGAAT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ATGCGTGGTT",
+                    "Index2": "TAACCTGAAT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE124_GEX_SI-TT-F4",
+            "SampleNumber": 62,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TTGTGGTGGG",
+                    "Index2": "AAGCGGAGGT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TTGTGGTGGG",
+                    "Index2": "AAGCGGAGGT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE125_GEX_SI-TT-G4",
+            "SampleNumber": 63,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CCATAAGCGC",
+                    "Index2": "CTAGCCAGGC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CCATAAGCGC",
+                    "Index2": "CTAGCCAGGC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE126_GEX_SI-TT-C7",
+            "SampleNumber": 64,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TAAGTGCGCG",
+                    "Index2": "AGAATACAGG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TAAGTGCGCG",
+                    "Index2": "AGAATACAGG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE127_GEX_SI-TT-A5",
+            "SampleNumber": 65,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACAGGGCTAC",
+                    "Index2": "ATAGATGCTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACAGGGCTAC",
+                    "Index2": "ATAGATGCTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE128_GEX_SI-TT-B5",
+            "SampleNumber": 66,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GTAGAGCCGA",
+                    "Index2": "AGACCATCGG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GTAGAGCCGA",
+                    "Index2": "AGACCATCGG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE129_GEX_SI-TT-C5",
+            "SampleNumber": 67,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ATCCAACGGA",
+                    "Index2": "GCGAGAACGT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ATCCAACGGA",
+                    "Index2": "GCGAGAACGT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE130_GEX_SI-TT-D5",
+            "SampleNumber": 68,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACCCGAACCA",
+                    "Index2": "CTCCTGCCAC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACCCGAACCA",
+                    "Index2": "CTCCTGCCAC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE131_GEX_SI-TT-E5",
+            "SampleNumber": 69,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACCTACCGCG",
+                    "Index2": "CAACATCCTG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACCTACCGCG",
+                    "Index2": "CAACATCCTG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE132_GEX_SI-TT-D7",
+            "SampleNumber": 70,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CCCTGACAGG",
+                    "Index2": "GTTACGGGCT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CCCTGACAGG",
+                    "Index2": "GTTACGGGCT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE121_TCR_SI-TT-G5",
+            "SampleNumber": 71,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CTCGCCCTAT",
+                    "Index2": "ACTCGATGCA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CTCGCCCTAT",
+                    "Index2": "ACTCGATGCA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE122_TCR_SI-TT-H5",
+            "SampleNumber": 72,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GCTTCTTGCT",
+                    "Index2": "AGAAACACAA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GCTTCTTGCT",
+                    "Index2": "AGAAACACAA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE123_TCR_SI-TT-A6",
+            "SampleNumber": 73,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TCACGCGTTA",
+                    "Index2": "GAAGTTAGGG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TCACGCGTTA",
+                    "Index2": "GAAGTTAGGG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE124_TCR_SI-TT-B6",
+            "SampleNumber": 74,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TCATGGCATT",
+                    "Index2": "GCATTACGTA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TCATGGCATT",
+                    "Index2": "GCATTACGTA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE125_TCR_SI-TT-C6",
+            "SampleNumber": 75,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TGGTAGTCGT",
+                    "Index2": "TTAGGGTCGT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TGGTAGTCGT",
+                    "Index2": "TTAGGGTCGT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE126_TCR_SI-TT-D6",
+            "SampleNumber": 76,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "AGAAGCTGGG",
+                    "Index2": "GTTTGGTGTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "AGAAGCTGGG",
+                    "Index2": "GTTTGGTGTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE127_TCR_SI-TT-E6",
+            "SampleNumber": 77,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TGACTCTCAA",
+                    "Index2": "CTACCAGGTT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TGACTCTCAA",
+                    "Index2": "CTACCAGGTT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE128_TCR_SI-TT-F6",
+            "SampleNumber": 78,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GCACGGGCAA",
+                    "Index2": "AATCTCACGC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GCACGGGCAA",
+                    "Index2": "AATCTCACGC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE129_TCR_SI-TT-G6",
+            "SampleNumber": 79,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACTTACCCGC",
+                    "Index2": "CTTAGTGCTA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACTTACCCGC",
+                    "Index2": "CTTAGTGCTA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE130_TCR_SI-TT-H6",
+            "SampleNumber": 80,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CGAGGATAGG",
+                    "Index2": "GTTAGTATTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CGAGGATAGG",
+                    "Index2": "GTTAGTATTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE131_TCR_SI-TT-A7",
+            "SampleNumber": 81,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACCCTTGGGA",
+                    "Index2": "AAAGGTAGTA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACCCTTGGGA",
+                    "Index2": "AAAGGTAGTA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE132_TCR_SI-TT-B7",
+            "SampleNumber": 82,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TACCGAAGGC",
+                    "Index2": "AAATCGTTGG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TACCGAAGGC",
+                    "Index2": "AAATCGTTGG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE121_ADT_SI-TN-G4",
+            "SampleNumber": 83,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TATTCGCCTG",
+                    "Index2": "CGGTAAAGGG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TATTCGCCTG",
+                    "Index2": "CGGTAAAGGG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE122_ADT_SI-TN-H4",
+            "SampleNumber": 84,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TCAGTCGTAG",
+                    "Index2": "GAGGGCGATG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TCAGTCGTAG",
+                    "Index2": "GAGGGCGATG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE123_ADT_SI-TN-A5",
+            "SampleNumber": 85,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACATTCGAGA",
+                    "Index2": "TCGCGATCGT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACATTCGAGA",
+                    "Index2": "TCGCGATCGT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE124_ADT_SI-TN-B5",
+            "SampleNumber": 86,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TGTGCACCCA",
+                    "Index2": "ATGATGCATG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TGTGCACCCA",
+                    "Index2": "ATGATGCATG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE125_ADT_SI-TN-C5",
+            "SampleNumber": 87,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "AACCCTTTGA",
+                    "Index2": "CTCAGTAATC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "AACCCTTTGA",
+                    "Index2": "CTCAGTAATC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE126_ADT_SI-TN-D5",
+            "SampleNumber": 88,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACCCAGGCAG",
+                    "Index2": "GCTATTGGTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACCCAGGCAG",
+                    "Index2": "GCTATTGGTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE127_ADT_SI-TN-E5",
+            "SampleNumber": 89,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CCGAAGATTA",
+                    "Index2": "ATTGATGGCT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CCGAAGATTA",
+                    "Index2": "ATTGATGGCT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE128_ADT_SI-TN-F5",
+            "SampleNumber": 90,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GCTTTCGCTC",
+                    "Index2": "TTGGTAAGGA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GCTTTCGCTC",
+                    "Index2": "TTGGTAAGGA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE129_ADT_SI-TN-G5",
+            "SampleNumber": 91,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CTTCTACTTA",
+                    "Index2": "AGGAAACGCG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CTTCTACTTA",
+                    "Index2": "AGGAAACGCG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE130_ADT_SI-TN-H5",
+            "SampleNumber": 92,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GCATCCCAGC",
+                    "Index2": "CCAGTTAGTC"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GCATCCCAGC",
+                    "Index2": "CCAGTTAGTC"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE131_ADT_SI-TN-A6",
+            "SampleNumber": 93,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "ACCCAGCAAA",
+                    "Index2": "CCGGAATTTG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "ACCCAGCAAA",
+                    "Index2": "CCGGAATTTG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "ABE132_ADT_SI-TN-B6",
+            "SampleNumber": 94,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "TTCCGCTCGT",
+                    "Index2": "CTTAGTTGTT"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "TTCCGCTCGT",
+                    "Index2": "CTTAGTTGTT"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "RUN2_VDJ_SI-TT-E1",
+            "SampleNumber": 95,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "CCTCGAATAA",
+                    "Index2": "AGCAGGACAG"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "CCTCGAATAA",
+                    "Index2": "AGCAGGACAG"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        },
+        {
+            "SampleName": "RUN2_HTO_SI-TN-C1",
+            "SampleNumber": 96,
+            "ExternalId": "",
+            "Indexes": [
+                {
+                    "Lane": 1,
+                    "Index1": "GTAAACCCTT",
+                    "Index2": "CGCGTGAGTA"
+                },
+                {
+                    "Lane": 2,
+                    "Index1": "GTAAACCCTT",
+                    "Index2": "CGCGTGAGTA"
+                }
+            ],
+            "CustomMetadata": {},
+            "Project": "DefaultProject"
+        }
+    ]
+}
