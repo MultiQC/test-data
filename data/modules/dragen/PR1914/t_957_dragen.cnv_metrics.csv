@@ -1,0 +1,15 @@
+SEX GENOTYPER,,t_957,XY,0.546
+CNV SUMMARY,,Bases in reference genome,3169469281
+CNV SUMMARY,,Average alignment coverage over genome,0.97
+CNV SUMMARY,,Number of alignment records,3506387218
+CNV SUMMARY,,Number of filtered records (total),374554089,0.48
+CNV SUMMARY,,Number of filtered records (duplicates),24718,0.57
+CNV SUMMARY,,Number of filtered records (MAPQ),352969827,0.01
+CNV SUMMARY,,Number of filtered records (unmapped),337874071,0.36
+CNV SUMMARY,,Coverage uniformity,0.71
+CNV SUMMARY,,Number of target intervals,15610
+CNV SUMMARY,,Number of segments,18338
+CNV SUMMARY,,Number of amplifications,19855
+CNV SUMMARY,,Number of deletions,277680
+CNV SUMMARY,,Number of passing amplifications,32360,0.72
+CNV SUMMARY,,Number of passing deletions,297424,0.83
