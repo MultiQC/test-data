@@ -21,8 +21,8 @@ SN	reads MQ0:	0
 SN	reads QC failed:	0
 SN	non-primary alignments:	0
 SN	supplementary alignments:	0
-SN	total length:	150000000
-SN	total first fragment length:	150000000
+SN	total length:	75000000
+SN	total first fragment length:	75000000
 SN	total last fragment length:	0
 SN	bases mapped:	14250000
 SN	bases mapped (cigar):	14250000
