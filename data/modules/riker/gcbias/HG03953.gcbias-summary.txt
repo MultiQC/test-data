@@ -1,0 +1,2 @@
+sample	window_size	total_clusters	aligned_reads	at_dropout	gc_dropout	gc_0_19_normcov	gc_20_39_normcov	gc_40_59_normcov	gc_60_79_normcov	gc_80_100_normcov
+HG03953	100	25794918	51627320	1.28581	0.78299	1.60739	1.00695	0.97494	1.02991	3.67370
