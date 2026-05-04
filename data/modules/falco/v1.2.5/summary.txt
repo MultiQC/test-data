@@ -1,0 +1,10 @@
+PASS	Basic Statistics	SRR7890918_WES_HCC1395-EA_tumor_1.fastq.gz
+PASS	Per base sequence quality	SRR7890918_WES_HCC1395-EA_tumor_1.fastq.gz
+PASS	Per sequence quality scores	SRR7890918_WES_HCC1395-EA_tumor_1.fastq.gz
+PASS	Per base sequence content	SRR7890918_WES_HCC1395-EA_tumor_1.fastq.gz
+FAIL	Per sequence GC content	SRR7890918_WES_HCC1395-EA_tumor_1.fastq.gz
+PASS	Per base N content	SRR7890918_WES_HCC1395-EA_tumor_1.fastq.gz
+PASS	Sequence Length Distribution	SRR7890918_WES_HCC1395-EA_tumor_1.fastq.gz
+WARN	Sequence Duplication Levels	SRR7890918_WES_HCC1395-EA_tumor_1.fastq.gz
+PASS	Overrepresented sequences	SRR7890918_WES_HCC1395-EA_tumor_1.fastq.gz
+PASS	Adapter Content	SRR7890918_WES_HCC1395-EA_tumor_1.fastq.gz
