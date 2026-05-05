@@ -1,0 +1,35 @@
+## hicstuff: v3.2.4 log file
+## date: 2026-05-05 17:30:29
+## enzyme: DpnII,HinfI
+## input1: tests/testHiC_R1.fq.gz 
+## input2: tests/testHiC_R2.fq.gz
+## ref: /home/rsg/genomes/S288c/S288c.fa
+---
+2026-05-05,17:30:29 :: INFO :: The default output format is now `.cool`. The Hi-C matrix will be generated with cooler v0.9.3 (Abdennur & Mirny, Bioinformatics 2020).
+2026-05-05,17:30:38 :: INFO :: bowtie2 index not found at results/tmp/testHiC^2GJJMN.genome.fa.gz, generating a local temporary index.
+2026-05-05,17:30:46 :: INFO :: Checking content of fastq files.
+2026-05-05,17:30:46 :: INFO :: 100000 reads found in each fastq file.
+2026-05-05,17:30:46 :: INFO :: 100000 reads to parse
+2026-05-05,17:30:46 :: INFO :: Truncating unaligned reads to 20bp and mapping.
+2026-05-05,17:30:46 :: INFO :: 100000 reads left to map.
+2026-05-05,17:30:46 :: INFO :: Trying to map unaligned reads at full length (35bp).
+2026-05-05,17:30:47 :: INFO :: 23337 reads left to map.
+2026-05-05,17:30:47 :: INFO :: 76663 reads aligned / 100000 total reads.
+2026-05-05,17:30:47 :: INFO :: 100000 reads to parse
+2026-05-05,17:30:47 :: INFO :: Truncating unaligned reads to 20bp and mapping.
+2026-05-05,17:30:48 :: INFO :: 100000 reads left to map.
+2026-05-05,17:30:48 :: INFO :: Trying to map unaligned reads at full length (35bp).
+2026-05-05,17:30:49 :: INFO :: 24859 reads left to map.
+2026-05-05,17:30:49 :: INFO :: 75141 reads aligned / 100000 total reads.
+2026-05-05,17:30:51 :: INFO :: 76% reads (single ends) mapped with Q >= 30 (151804/200000)
+2026-05-05,17:30:53 :: INFO :: 64761 pairs successfully mapped (64.76%)
+2026-05-05,17:30:53 :: INFO :: Filtering with thresholds: uncuts=7 loops=7
+2026-05-05,17:30:53 :: INFO :: Proportion of inter contacts: 21.89% (intra: 41829, inter: 11724)
+2026-05-05,17:30:53 :: INFO :: 11208 pairs discarded: Loops: 1910, Uncuts: 9266, Weirds: 32
+2026-05-05,17:30:53 :: INFO :: 53553 pairs kept (82.69%)
+2026-05-05,17:30:54 :: INFO :: 1% PCR duplicates have been filtered out (613 / 53553 pairs) 
+2026-05-05,17:30:54 :: INFO :: 52940 pairs remaining after removing PCR duplicates
+2026-05-05,17:30:54 :: INFO :: Generating matrix from pairs file results/tmp/testHiC^2GJJMN.valid_idx_pcrfree.pairs (52940 pairs in the file) 
+2026-05-05,17:31:00 :: INFO :: Fetching mapping and pairing stats
+2026-05-05,17:31:00 :: INFO :: {'Sample': 'testHiC^2GJJMN', 'Total read pairs': 100000, 'Mapped reads': 151804, 'Unmapped reads': 48196, 'Recovered contacts': 64761, 'Final contacts': 52940, 'Removed contacts': 11821, 'Filtered out': 11208, 'Loops': 1910, 'Uncuts': 9266, 'Weirds': 32, 'PCR duplicates': 613}
+2026-05-05,17:31:01 :: INFO :: Contact map generated after 0h 0m 32s
