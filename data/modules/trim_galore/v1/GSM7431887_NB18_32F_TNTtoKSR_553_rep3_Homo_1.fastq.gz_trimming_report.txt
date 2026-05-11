@@ -1,0 +1,122 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: GSM7431887_NB18_32F_TNTtoKSR_553_rep3_Homo_1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.7
+Cutadapt version: 3.4
+Python version: could not detect
+Number of cores used for trimming: 8
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Illumina adapter for trimming (count: 94). Second best hit was smallRNA (count: 0)
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Running FastQC on the data once trimming has completed
+Output file will be GZIP compressed
+
+
+This is cutadapt 3.4 with Python 3.9.6
+Command line parameters: -j 8 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC GSM7431887_NB18_32F_TNTtoKSR_553_rep3_Homo_1.fastq.gz
+Processing reads on 8 cores in single-end mode ...
+Finished in 651.13 s (2 µs/read; 30.96 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             335,942,977
+Reads with adapters:               131,737,590 (39.2%)
+Reads written (passing filters):   335,942,977 (100.0%)
+
+Total basepairs processed: 22,172,236,482 bp
+Quality-trimmed:                       0 bp (0.0%)
+Total written (filtered):  21,966,856,398 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 131737590 times
+
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 36.1%
+  C: 0.7%
+  G: 16.4%
+  T: 46.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	97005505	83985744.2	0	97005505
+2	23379064	20996436.1	0	23379064
+3	7929370	5249109.0	0	7929370
+4	2872082	1312277.3	0	2872082
+5	40461	328069.3	0	40461
+6	33919	82017.3	0	33919
+7	11576	20504.3	0	11576
+8	7922	5126.1	0	7922
+9	11709	1281.5	0	6409 5300
+10	13407	320.4	1	5371 8036
+11	8419	80.1	1	4826 3593
+12	5291	20.0	1	4126 1165
+13	4249	5.0	1	3701 548
+14	3688	5.0	1	3236 452
+15	3480	5.0	1	3115 365
+16	3241	5.0	1	2855 386
+17	2839	5.0	1	2500 339
+18	2646	5.0	1	2316 330
+19	2440	5.0	1	2127 313
+20	2176	5.0	1	1907 269
+21	2094	5.0	1	1806 288
+22	2013	5.0	1	1740 273
+23	1747	5.0	1	1517 230
+24	1668	5.0	1	1462 206
+25	1537	5.0	1	1339 198
+26	1448	5.0	1	1219 229
+27	1459	5.0	1	1240 219
+28	1331	5.0	1	1132 199
+29	1205	5.0	1	1048 157
+30	1098	5.0	1	923 175
+31	1121	5.0	1	963 158
+32	1022	5.0	1	855 167
+33	961	5.0	1	823 138
+34	917	5.0	1	794 123
+35	784	5.0	1	662 122
+36	779	5.0	1	664 115
+37	802	5.0	1	683 119
+38	768	5.0	1	639 129
+39	677	5.0	1	579 98
+40	688	5.0	1	578 110
+41	612	5.0	1	522 90
+42	565	5.0	1	461 104
+43	537	5.0	1	450 87
+44	487	5.0	1	423 64
+45	461	5.0	1	392 69
+46	371	5.0	1	315 56
+47	379	5.0	1	314 65
+48	326	5.0	1	274 52
+49	285	5.0	1	217 68
+50	249	5.0	1	198 51
+51	184	5.0	1	147 37
+52	162	5.0	1	131 31
+53	126	5.0	1	97 29
+54	110	5.0	1	80 30
+55	89	5.0	1	70 19
+56	57	5.0	1	38 19
+57	60	5.0	1	35 25
+58	30	5.0	1	19 11
+59	129	5.0	1	92 37
+60	70	5.0	1	41 29
+61	26	5.0	1	12 14
+62	37	5.0	1	8 29
+63	39	5.0	1	16 23
+64	122	5.0	1	13 109
+65	6106	5.0	1	31 6075
+66	358368	5.0	1	887 357481
+
+RUN STATISTICS FOR INPUT FILE: GSM7431887_NB18_32F_TNTtoKSR_553_rep3_Homo_1.fastq.gz
+=============================================
+335942977 sequences processed in total
+
