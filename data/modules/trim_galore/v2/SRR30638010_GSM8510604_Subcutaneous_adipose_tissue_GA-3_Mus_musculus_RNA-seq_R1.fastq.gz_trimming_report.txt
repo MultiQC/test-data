@@ -1,0 +1,127 @@
+SUMMARISING RUN PARAMETERS
+=========================
+Input filename: SRR30638010_GSM8510604_Subcutaneous_adipose_tissue_GA-3_Mus_musculus_RNA-seq_R1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 2.2.0 (Oxidized Edition)
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (user-specified or auto-detected)
+Maximum trimming error rate: 0.1
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length single-end: 20 bp
+Poly-A trimming enabled: removing poly-A tails from 3' end of R1/SE reads, and poly-T heads from 5' end of R2 reads
+Poly-G trimming enabled: removing poly-G tails from 3' end of R1/SE reads, and poly-C heads from 5' end of R2 reads
+Output file will be GZIP compressed
+
+
+Trim Galore 2.2.0 (Oxidized Edition) — adapter trimming built in
+This is cutadapt 4.0 (compatible; for MultiQC backwards compatibility)
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRR30638010_GSM8510604_Subcutaneous_adipose_tissue_GA-3_Mus_musculus_RNA-seq_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+
+=== Summary ===
+
+Total reads processed:           58,526,904
+Reads with adapters:             16,766,040 (28.6%)
+Reads written (passing filters): 58,526,904 (100.0%)
+
+Total basepairs processed:   4,448,044,704 bp
+Quality-trimmed:               28,484,410 bp (0.6%)
+Total written (filtered):    4,377,933,842 bp (98.4%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 16766040 times.
+
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	11515994	14631726.0	0	11515994
+2	4226329	3657931.5	0	4226329
+3	664191	914482.9	0	664191
+4	226553	228620.7	0	226553
+5	54034	57155.2	0	54034
+6	8374	14288.8	0	8374
+7	8399	3572.2	0	8399
+8	3881	893.0	0	3881
+9	5703	223.3	0	5703
+10	7708	55.8	1	7708
+11	1944	14.0	1	1944
+12	3480	3.5	1	3480
+13	5898	0.9	1	5898
+14	882	0.2	1	882
+15	5057	0.1	1	5057
+16	603	0.0	1	603
+17	3176	0.0	1	3176
+18	2044	0.0	1	2044
+19	1662	0.0	1	1662
+20	2122	0.0	2	2122
+21	1301	0.0	2	1301
+22	2678	0.0	2	2678
+23	857	0.0	2	857
+24	696	0.0	2	696
+25	1552	0.0	2	1552
+26	665	0.0	2	665
+27	978	0.0	2	978
+28	1503	0.0	2	1503
+29	402	0.0	2	402
+30	602	0.0	3	602
+31	514	0.0	3	514
+32	887	0.0	3	887
+33	161	0.0	3	161
+34	669	0.0	3	669
+35	271	0.0	3	271
+36	467	0.0	3	467
+37	197	0.0	3	197
+38	335	0.0	3	335
+39	189	0.0	3	189
+40	287	0.0	4	287
+41	283	0.0	4	283
+42	455	0.0	4	455
+43	128	0.0	4	128
+44	91	0.0	4	91
+45	85	0.0	4	85
+46	121	0.0	4	121
+47	163	0.0	4	163
+48	224	0.0	4	224
+49	134	0.0	4	134
+50	76	0.0	5	76
+51	71	0.0	5	71
+52	57	0.0	5	57
+53	27	0.0	5	27
+54	49	0.0	5	49
+55	70	0.0	5	70
+56	37	0.0	5	37
+57	25	0.0	5	25
+58	40	0.0	5	40
+59	23	0.0	5	23
+60	36	0.0	6	36
+61	22	0.0	6	22
+62	37	0.0	6	37
+63	34	0.0	6	34
+64	27	0.0	6	27
+65	28	0.0	6	28
+66	37	0.0	6	37
+67	42	0.0	6	42
+68	28	0.0	6	28
+69	27	0.0	6	27
+70	37	0.0	7	37
+71	76	0.0	7	76
+72	62	0.0	7	62
+73	72	0.0	7	72
+74	27	0.0	7	27
+75	18	0.0	7	18
+76	26	0.0	7	26
+
+
+RUN STATISTICS FOR INPUT FILE: SRR30638010_GSM8510604_Subcutaneous_adipose_tissue_GA-3_Mus_musculus_RNA-seq_R1.fastq.gz
+=============================================
+58526904 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	17837 (0.0%)
+Sequences removed because they were longer than the upper length cutoff:	0 (0.0%)
+Sequences removed because of too many N bases:	0 (0.0%)
+Reads with poly-A/T trimmed:	1424630 (2.4%); 9,711,625 bp removed
+Reads with poly-G/C trimmed:	1651867 (2.8%); 7,548,147 bp removed
+
