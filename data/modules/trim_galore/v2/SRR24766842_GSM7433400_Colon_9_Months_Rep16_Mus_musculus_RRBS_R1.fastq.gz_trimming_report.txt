@@ -1,0 +1,102 @@
+SUMMARISING RUN PARAMETERS
+=========================
+Input filename: SRR24766842_GSM7433400_Colon_9_Months_Rep16_Mus_musculus_Bisulfite-Seq_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 2.2.0 (Oxidized Edition)
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (user-specified or auto-detected)
+Maximum trimming error rate: 0.1
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+File was specified to be an MspI-digested RRBS sample. Read 1 sequences with adapter contamination will be trimmed a further 2 bp from their 3' end, and Read 2 sequences will be trimmed by 2 bp from their 5' end to remove potential methylation-biased bases from the end-repair reaction
+Poly-G trimming enabled: removing poly-G tails from 3' end of R1/SE reads, and poly-C heads from 5' end of R2 reads
+Output file will be GZIP compressed
+
+
+Trim Galore 2.2.0 (Oxidized Edition) — adapter trimming built in
+This is cutadapt 4.0 (compatible; for MultiQC backwards compatibility)
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRR24766842_GSM7433400_Colon_9_Months_Rep16_Mus_musculus_Bisulfite-Seq_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+
+=== Summary ===
+
+Total reads processed:           102,312,246
+Reads with adapters:             38,890,264 (38.0%)
+Reads written (passing filters): 102,312,246 (100.0%)
+
+Total basepairs processed:   5,217,924,546 bp
+Quality-trimmed:                        0 bp (0.0%)
+Total written (filtered):    4,715,442,008 bp (90.4%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 38890264 times.
+
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	20884281	25578061.5	0	20884281
+2	7873825	6394515.4	0	7873825
+3	1963150	1598628.8	0	1963150
+4	802727	399657.2	0	802727
+5	36331	99914.3	0	36331
+6	30048	24978.6	0	30048
+7	20664	6244.6	0	20664
+8	17748	1561.2	0	17748
+9	14769	390.3	0	14769
+10	18768	97.6	1	18768
+11	12113	24.4	1	12113
+12	10885	6.1	1	10885
+13	9823	1.5	1	9823
+14	6278	0.4	1	6278
+15	4841	0.1	1	4841
+16	4296	0.0	1	4296
+17	5384	0.0	1	5384
+18	3834	0.0	1	3834
+19	7366	0.0	1	7366
+20	3755	0.0	2	3755
+21	2712	0.0	2	2712
+22	3712	0.0	2	3712
+23	2480	0.0	2	2480
+24	7494	0.0	2	7494
+25	2979	0.0	2	2979
+26	2691	0.0	2	2691
+27	1824	0.0	2	1824
+28	1518	0.0	2	1518
+29	1496	0.0	2	1496
+30	996	0.0	3	996
+31	688	0.0	3	688
+32	455	0.0	3	455
+33	282	0.0	3	282
+34	241	0.0	3	241
+35	663	0.0	3	663
+36	198	0.0	3	198
+37	1073	0.0	3	1073
+38	592	0.0	3	592
+39	1577	0.0	3	1577
+40	160	0.0	4	160
+41	194	0.0	4	194
+42	161	0.0	4	161
+43	117	0.0	4	117
+44	134	0.0	4	134
+45	113	0.0	4	113
+46	117	0.0	4	117
+47	124	0.0	4	124
+48	199	0.0	4	199
+49	128	0.0	4	128
+50	791	0.0	5	791
+51	7123469	0.0	5	7123469
+
+
+RUN STATISTICS FOR INPUT FILE: SRR24766842_GSM7433400_Colon_9_Months_Rep16_Mus_musculus_Bisulfite-Seq_R1.fastq.gz
+=============================================
+102312246 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	7289010 (7.1%)
+Sequences removed because they were longer than the upper length cutoff:	0 (0.0%)
+Sequences removed because of too many N bases:	0 (0.0%)
+RRBS reads trimmed by additional 2 bp when adapter contamination was detected:	31766004 (31.0%)
+Reads with poly-G/C trimmed:	4585644 (4.5%); 26,959,645 bp removed
+
