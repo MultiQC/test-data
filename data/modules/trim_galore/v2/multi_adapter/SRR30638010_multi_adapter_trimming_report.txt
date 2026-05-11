@@ -1,0 +1,213 @@
+SUMMARISING RUN PARAMETERS
+=========================
+Input filename: SRR30638010_GSM8510604_Subcutaneous_adipose_tissue_GA-3_Mus_musculus_RNA-seq_R1.fastq.gz
+Trimming mode: single-end
+Trim Galore version: 2.2.0 (Oxidized Edition)
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence(s): 'AGATCGGAAGAGC' [adapter_1] 'CTGTCTCTTATA' [adapter_2] (user-specified)
+Trimming rounds per read (-n): 2
+Maximum trimming error rate: 0.1
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length single-end: 20 bp
+Poly-G trimming enabled: removing poly-G tails from 3' end of R1/SE reads, and poly-C heads from 5' end of R2 reads
+Output file will be GZIP compressed
+
+
+Trim Galore 2.2.0 (Oxidized Edition) — adapter trimming built in
+This is cutadapt 4.0 (compatible; for MultiQC backwards compatibility)
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC SRR30638010_GSM8510604_Subcutaneous_adipose_tissue_GA-3_Mus_musculus_RNA-seq_R1.fastq.gz
+Processing reads on 1 core in single-end mode ...
+
+=== Summary ===
+
+Total reads processed:           58,526,904
+Reads with adapters:             37,046,324 (63.3%)
+Reads written (passing filters): 58,526,904 (100.0%)
+
+Total basepairs processed:   4,448,044,704 bp
+Quality-trimmed:               28,484,410 bp (0.6%)
+Total written (filtered):    4,322,060,416 bp (97.2%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 29998127 times.
+
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	21974165	14631726.0	0	21974165
+2	6015296	3657931.5	0	6015296
+3	1496133	914482.9	0	1496133
+4	344307	228620.7	0	344307
+5	86770	57155.2	0	86770
+6	9780	14288.8	0	9780
+7	8595	3572.2	0	8595
+8	3907	893.0	0	3907
+9	5914	223.3	0	5914
+10	8150	55.8	1	8150
+11	2171	14.0	1	2171
+12	3514	3.5	1	3514
+13	5896	0.9	1	5896
+14	881	0.2	1	881
+15	5049	0.1	1	5049
+16	603	0.0	1	603
+17	3173	0.0	1	3173
+18	2044	0.0	1	2044
+19	1662	0.0	1	1662
+20	2122	0.0	2	2122
+21	1297	0.0	2	1297
+22	2676	0.0	2	2676
+23	857	0.0	2	857
+24	696	0.0	2	696
+25	1552	0.0	2	1552
+26	665	0.0	2	665
+27	977	0.0	2	977
+28	1502	0.0	2	1502
+29	402	0.0	2	402
+30	602	0.0	3	602
+31	514	0.0	3	514
+32	886	0.0	3	886
+33	161	0.0	3	161
+34	668	0.0	3	668
+35	270	0.0	3	270
+36	467	0.0	3	467
+37	197	0.0	3	197
+38	335	0.0	3	335
+39	189	0.0	3	189
+40	287	0.0	4	287
+41	283	0.0	4	283
+42	455	0.0	4	455
+43	128	0.0	4	128
+44	91	0.0	4	91
+45	85	0.0	4	85
+46	121	0.0	4	121
+47	163	0.0	4	163
+48	224	0.0	4	224
+49	134	0.0	4	134
+50	76	0.0	5	76
+51	71	0.0	5	71
+52	57	0.0	5	57
+53	27	0.0	5	27
+54	49	0.0	5	49
+55	70	0.0	5	70
+56	37	0.0	5	37
+57	25	0.0	5	25
+58	40	0.0	5	40
+59	23	0.0	5	23
+60	36	0.0	6	36
+61	22	0.0	6	22
+62	37	0.0	6	37
+63	34	0.0	6	34
+64	27	0.0	6	27
+65	28	0.0	6	28
+66	37	0.0	6	37
+67	42	0.0	6	42
+68	28	0.0	6	28
+69	27	0.0	6	27
+70	37	0.0	7	37
+71	76	0.0	7	76
+72	62	0.0	7	62
+73	72	0.0	7	72
+74	27	0.0	7	27
+75	18	0.0	7	18
+76	26	0.0	7	26
+
+
+=== Adapter 2 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 33131754 times.
+
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	24693950	14631726.0	0	24693950
+2	6030700	3657931.5	0	6030700
+3	1902136	914482.9	0	1902136
+4	320390	228620.7	0	320390
+5	109626	57155.2	0	109626
+6	22580	14288.8	0	22580
+7	15328	3572.2	0	15328
+8	3174	893.0	0	3174
+9	3263	223.3	0	3263
+10	3848	55.8	1	3848
+11	1454	14.0	1	1454
+12	667	3.5	1	667
+13	326	0.9	1	326
+14	345	0.2	1	345
+15	393	0.1	1	393
+16	343	0.0	1	343
+17	318	0.0	1	318
+18	373	0.0	1	373
+19	383	0.0	1	383
+20	325	0.0	2	325
+21	312	0.0	2	312
+22	335	0.0	2	335
+23	302	0.0	2	302
+24	314	0.0	2	314
+25	314	0.0	2	314
+26	328	0.0	2	328
+27	338	0.0	2	338
+28	378	0.0	2	378
+29	363	0.0	2	363
+30	323	0.0	3	323
+31	334	0.0	3	334
+32	399	0.0	3	399
+33	358	0.0	3	358
+34	313	0.0	3	313
+35	313	0.0	3	313
+36	294	0.0	3	294
+37	352	0.0	3	352
+38	316	0.0	3	316
+39	327	0.0	3	327
+40	438	0.0	4	438
+41	394	0.0	4	394
+42	492	0.0	4	492
+43	441	0.0	4	441
+44	340	0.0	4	340
+45	337	0.0	4	337
+46	360	0.0	4	360
+47	507	0.0	4	507
+48	464	0.0	4	464
+49	322	0.0	4	322
+50	376	0.0	5	376
+51	424	0.0	5	424
+52	349	0.0	5	349
+53	334	0.0	5	334
+54	333	0.0	5	333
+55	339	0.0	5	339
+56	414	0.0	5	414
+57	429	0.0	5	429
+58	460	0.0	5	460
+59	429	0.0	5	429
+60	406	0.0	6	406
+61	395	0.0	6	395
+62	368	0.0	6	368
+63	423	0.0	6	423
+64	436	0.0	6	436
+65	513	0.0	6	513
+66	406	0.0	6	406
+67	351	0.0	6	351
+68	363	0.0	6	363
+69	552	0.0	6	552
+70	498	0.0	7	498
+71	351	0.0	7	351
+72	399	0.0	7	399
+73	478	0.0	7	478
+74	402	0.0	7	402
+75	564	0.0	7	564
+76	632	0.0	7	632
+
+
+RUN STATISTICS FOR INPUT FILE: SRR30638010_GSM8510604_Subcutaneous_adipose_tissue_GA-3_Mus_musculus_RNA-seq_R1.fastq.gz
+=============================================
+58526904 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	17852 (0.0%)
+Sequences removed because they were longer than the upper length cutoff:	0 (0.0%)
+Sequences removed because of too many N bases:	0 (0.0%)
+Reads with poly-G/C trimmed:	2290035 (3.9%); 10,150,275 bp removed
+

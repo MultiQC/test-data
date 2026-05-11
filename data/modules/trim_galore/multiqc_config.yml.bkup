@@ -1,0 +1,7 @@
+table_sample_merge:
+  R1:
+    - type: regex
+      pattern: "_R?1$"
+  R2:
+    - type: regex
+      pattern: "_R?2$"

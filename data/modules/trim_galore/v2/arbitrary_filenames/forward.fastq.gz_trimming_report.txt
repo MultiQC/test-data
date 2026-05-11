@@ -1,0 +1,113 @@
+SUMMARISING RUN PARAMETERS
+=========================
+Input filename: forward.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 2.2.0 (Oxidized Edition)
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (user-specified or auto-detected)
+Maximum trimming error rate: 0.1
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+Trim Galore 2.2.0 (Oxidized Edition) — adapter trimming built in
+This is cutadapt 4.0 (compatible; for MultiQC backwards compatibility)
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC forward.fastq.gz
+Processing reads on 1 core in single-end mode ...
+
+=== Summary ===
+
+Total reads processed:           335,942,977
+Reads with adapters:             131,737,590 (39.2%)
+Reads written (passing filters): 335,942,977 (100.0%)
+
+Total basepairs processed:   22,172,236,482 bp
+Quality-trimmed:                        0 bp (0.0%)
+Total written (filtered):    21,966,856,237 bp (99.1%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 131737590 times.
+
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	97005505	83985744.2	0	97005505
+2	23379064	20996436.1	0	23379064
+3	7929370	5249109.0	0	7929370
+4	2872082	1312277.3	0	2872082
+5	40461	328069.3	0	40461
+6	33919	82017.3	0	33919
+7	11576	20504.3	0	11576
+8	7922	5126.1	0	7922
+9	11709	1281.5	0	11709
+10	13407	320.4	1	13407
+11	8419	80.1	1	8419
+12	5291	20.0	1	5291
+13	4249	5.0	1	4249
+14	3687	1.3	1	3687
+15	3480	0.3	1	3480
+16	3241	0.1	1	3241
+17	2839	0.0	1	2839
+18	2646	0.0	1	2646
+19	2440	0.0	1	2440
+20	2176	0.0	2	2176
+21	2094	0.0	2	2094
+22	2013	0.0	2	2013
+23	1747	0.0	2	1747
+24	1668	0.0	2	1668
+25	1536	0.0	2	1536
+26	1448	0.0	2	1448
+27	1459	0.0	2	1459
+28	1331	0.0	2	1331
+29	1205	0.0	2	1205
+30	1097	0.0	3	1097
+31	1121	0.0	3	1121
+32	1022	0.0	3	1022
+33	961	0.0	3	961
+34	917	0.0	3	917
+35	784	0.0	3	784
+36	779	0.0	3	779
+37	802	0.0	3	802
+38	768	0.0	3	768
+39	677	0.0	3	677
+40	688	0.0	4	688
+41	612	0.0	4	612
+42	565	0.0	4	565
+43	537	0.0	4	537
+44	487	0.0	4	487
+45	461	0.0	4	461
+46	371	0.0	4	371
+47	379	0.0	4	379
+48	326	0.0	4	326
+49	285	0.0	4	285
+50	249	0.0	5	249
+51	184	0.0	5	184
+52	162	0.0	5	162
+53	126	0.0	5	126
+54	107	0.0	5	107
+55	89	0.0	5	89
+56	57	0.0	5	57
+57	60	0.0	5	60
+58	30	0.0	5	30
+59	129	0.0	5	129
+60	70	0.0	6	70
+61	26	0.0	6	26
+62	38	0.0	6	38
+63	39	0.0	6	39
+64	122	0.0	6	122
+65	6106	0.0	6	6106
+66	358373	0.0	6	358373
+
+
+RUN STATISTICS FOR INPUT FILE: forward.fastq.gz
+=============================================
+335942977 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	368337 (0.1%)
+Sequences removed because they were longer than the upper length cutoff:	0 (0.0%)
+Sequences removed because of too many N bases:	0 (0.0%)
+

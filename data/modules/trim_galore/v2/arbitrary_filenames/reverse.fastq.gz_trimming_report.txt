@@ -1,0 +1,125 @@
+SUMMARISING RUN PARAMETERS
+=========================
+Input filename: reverse.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 2.2.0 (Oxidized Edition)
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (user-specified or auto-detected)
+Maximum trimming error rate: 0.1
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+Trim Galore 2.2.0 (Oxidized Edition) — adapter trimming built in
+This is cutadapt 4.0 (compatible; for MultiQC backwards compatibility)
+Command line parameters: -j 1 -e 0.1 -q 20 -O 1 -a AGATCGGAAGAGC reverse.fastq.gz
+Processing reads on 1 core in single-end mode ...
+
+=== Summary ===
+
+Total reads processed:           335,942,977
+Reads with adapters:             161,808,639 (48.2%)
+Reads written (passing filters): 335,942,977 (100.0%)
+
+Total basepairs processed:   22,172,236,482 bp
+Quality-trimmed:                        0 bp (0.0%)
+Total written (filtered):    22,007,852,578 bp (99.3%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 161808639 times.
+
+No. of allowed errors:
+1-9 bp: 0; 10-13 bp: 1
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	161136672	83985744.2	0	161136672
+2	355769	20996436.1	0	355769
+3	156650	5249109.0	0	156650
+4	42685	1312277.3	0	42685
+5	16653	328069.3	0	16653
+6	9607	82017.3	0	9607
+7	8156	20504.3	0	8156
+8	7004	5126.1	0	7004
+9	6085	1281.5	0	6085
+10	5667	320.4	1	5667
+11	5202	80.1	1	5202
+12	4401	20.0	1	4401
+13	4105	5.0	1	4105
+14	3568	1.3	1	3568
+15	3366	0.3	1	3366
+16	3139	0.1	1	3139
+17	2745	0.0	1	2745
+18	2511	0.0	1	2511
+19	2344	0.0	1	2344
+20	2088	0.0	2	2088
+21	2010	0.0	2	2010
+22	1941	0.0	2	1941
+23	1670	0.0	2	1670
+24	1639	0.0	2	1639
+25	1479	0.0	2	1479
+26	1376	0.0	2	1376
+27	1376	0.0	2	1376
+28	1254	0.0	2	1254
+29	1148	0.0	2	1148
+30	1026	0.0	3	1026
+31	1050	0.0	3	1050
+32	947	0.0	3	947
+33	920	0.0	3	920
+34	868	0.0	3	868
+35	745	0.0	3	745
+36	746	0.0	3	746
+37	764	0.0	3	764
+38	717	0.0	3	717
+39	642	0.0	3	642
+40	650	0.0	4	650
+41	594	0.0	4	594
+42	537	0.0	4	537
+43	495	0.0	4	495
+44	470	0.0	4	470
+45	420	0.0	4	420
+46	359	0.0	4	359
+47	343	0.0	4	343
+48	313	0.0	4	313
+49	245	0.0	4	245
+50	220	0.0	5	220
+51	159	0.0	5	159
+52	154	0.0	5	154
+53	109	0.0	5	109
+54	88	0.0	5	88
+55	79	0.0	5	79
+56	47	0.0	5	47
+57	38	0.0	5	38
+58	22	0.0	5	22
+59	102	0.0	5	102
+60	46	0.0	6	46
+61	12	0.0	6	12
+62	15	0.0	6	15
+63	19	0.0	6	19
+64	15	0.0	6	15
+65	37	0.0	6	37
+66	2316	0.0	6	2316
+
+
+RUN STATISTICS FOR INPUT FILE: reverse.fastq.gz
+=============================================
+335942977 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 20 bp:	368337 (0.1%)
+Sequences removed because they were longer than the upper length cutoff:	0 (0.0%)
+Sequences removed because of too many N bases:	0 (0.0%)
+
+=== Paired-end validation ===
+
+Number of sequence pairs analysed:  335,942,977
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (0.11%):
+                                368,337
+Number of pairs removed for N content (0.00%):
+                                      0
+
+Unpaired read 1 kept:             1,380
+Unpaired read 2 kept:           363,958
+
