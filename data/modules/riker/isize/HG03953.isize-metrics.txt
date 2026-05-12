@@ -1,0 +1,2 @@
+sample	pair_orientation	read_pairs	mean_insert_size	standard_deviation	median_insert_size	median_absolute_deviation	mode_insert_size	min_insert_size	max_insert_size
+HG03953	FR	22666326	435.34	102.64	426.00	66.00	399	2	231498245
