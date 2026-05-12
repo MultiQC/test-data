@@ -1,0 +1,2 @@
+AtlasFileType	NbCells	NbGenes	AnnData.raw	AnnData.X	File_extension	File_path
+AnnData	27197	32745	True	True	Fetal	/data/analysis/data_becavin/checkatlas_test/tuto/data1/Fetal.h5ad
