@@ -1,0 +1,539 @@
+25-07-02 17:34:10 | [INFO] Pipeline started on Wednesday 02 July 2025 05:34:10 PM CEST
+25-07-02 17:34:10 | [INFO] Command     : /home/rsg/repos/tinyMapper/tinyMapper.sh --mode HiC --sample tests/testHiC --genome tests/R64-1-1/R64-1-1
+25-07-02 17:34:10 | [INFO] Hash        : 2GJJMN
+25-07-02 17:34:10 | [INFO] Log file    : results/logs/250702-testHiC_2GJJMN_log.txt
+25-07-02 17:34:10 | [INFO] Version     : 0.14.5
+---
+25-07-02 17:34:10 | [INFO] MODE        : HiC
+25-07-02 17:34:10 | [INFO] SAMPLE      : tests/testHiC
+25-07-02 17:34:10 | [INFO] GENOME      : R64-1-1
+25-07-02 17:34:10 | [INFO] hicstuff opt.    :  --mapping iterative --duplicates --filter --plot --no-cleanup
+25-07-02 17:34:10 | [INFO] Restriction enz. :  DpnII,HinfI 
+25-07-02 17:34:10 | [INFO] Binning          : 1000
+25-07-02 17:34:10 | [INFO] Balancing opt.   : --cis-only --min-nnz 3 --mad-max 7
+25-07-02 17:34:10 | [INFO] CPU         : 8
+25-07-02 17:34:10 | [INFO] OUTDIR      : results
+---
+25-07-02 17:34:10 | [INFO] bowtie2     : /home/rsg/micromamba/envs/test/bin/bowtie2 (version: 2.5.4)
+25-07-02 17:34:10 | [INFO] samtools    : /home/rsg/micromamba/envs/test/bin/samtools (version: 1.22)
+25-07-02 17:34:10 | [INFO] deeptools   : /home/rsg/micromamba/envs/test/bin/deeptools (version: 3.5.5)
+25-07-02 17:34:10 | [INFO] macs2       : /home/rsg/micromamba/envs/test/bin/macs2 (version: 2.2.9.1)
+25-07-02 17:34:11 | [INFO] hicstuff    : /home/rsg/micromamba/envs/test/bin/hicstuff (version: 3.2.4)
+25-07-02 17:34:11 | [INFO] juicer_tools: /home/rsg/bin/juicer/CPU/common/juicer_tools (version: 1.9.9)
+25-07-02 17:34:11 | [INFO] cooler      : /home/rsg/micromamba/envs/test/bin/cooler (version: 0.10.3)
+---
+25-07-02 17:34:11 | [INFO] Duplicating index files for hicstuff
+25-07-02 17:34:11 | [INFO] Processing sample reads with hicstuff
+25-07-02 17:34:11 | [EXEC] hicstuff pipeline --threads 8 --enzyme DpnII,HinfI --outdir results --prefix testHiC^2GJJMN --mapping iterative --duplicates --filter --plot --no-cleanup --force --binning 1000 --exclude Mito,chrM,MT --genome results/tmp/testHiC^2GJJMN.genome.fasta tests/testHiC_R1.fq.gz tests/testHiC_R2.fq.gz
+## hicstuff: v3.2.4 log file
+INFO :: ## date: 2025-07-02 17:34:12
+INFO :: ## enzyme: DpnII,HinfI
+INFO :: ## input1: tests/testHiC_R1.fq.gz 
+INFO :: ## input2: tests/testHiC_R2.fq.gz
+INFO :: ## ref: results/tmp/testHiC^2GJJMN.genome.fasta
+INFO :: ---
+INFO :: The default output format is now `.cool`. The Hi-C matrix will be generated with cooler v0.10.3 (Abdennur & Mirny, Bioinformatics 2020).
+INFO :: Checking content of fastq files.
+INFO :: 100000 reads found in each fastq file.
+INFO :: 100000 reads to parse
+INFO :: Truncating unaligned reads to 20bp and mapping.
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+INFO :: 100000 reads left to map.
+INFO :: Trying to map unaligned reads at full length (35bp).
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+INFO :: 23337 reads left to map.
+INFO :: 76663 reads aligned / 100000 total reads.
+INFO :: 100000 reads to parse
+INFO :: Truncating unaligned reads to 20bp and mapping.
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+INFO :: 100000 reads left to map.
+INFO :: Trying to map unaligned reads at full length (35bp).
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+INFO :: 24859 reads left to map.
+INFO :: 75141 reads aligned / 100000 total reads.
+INFO :: 76% reads (single ends) mapped with Q >= 30 (151804/200000)
+INFO :: 64761 pairs successfully mapped (64.76%)
+INFO :: Filtering with thresholds: uncuts=7 loops=7
+INFO :: Proportion of inter contacts: 21.89% (intra: 41829, inter: 11724)
+INFO :: 11208 pairs discarded: Loops: 1910, Uncuts: 9266, Weirds: 32
+INFO :: 53553 pairs kept (82.69%)
+INFO :: 1% PCR duplicates have been filtered out (613 / 53553 pairs) 
+INFO :: 52940 pairs remaining after removing PCR duplicates
+INFO :: Generating matrix from pairs file results/tmp/testHiC^2GJJMN.valid_idx_pcrfree.pairs (52940 pairs in the file) 
+INFO:cooler.create:Writing chunk 0: /home/rsg/repos/tinyMapper/results/tmpu0lbyj6u.multi.cool::0
+INFO:cooler.create:Creating cooler at "/home/rsg/repos/tinyMapper/results/tmpu0lbyj6u.multi.cool::/0"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.create:Merging into results/testHiC^2GJJMN.cool
+INFO:cooler.create:Creating cooler at "/home/rsg/repos/tinyMapper/results/testHiC^2GJJMN.cool::/"
+INFO:cooler.create:Writing chroms
+INFO:cooler.create:Writing bins
+INFO:cooler.create:Writing pixels
+INFO:cooler._reduce:n_merge_epochs: 1
+INFO:cooler._reduce:nnzs: [49489]
+INFO:cooler._reduce:records consumed: [49489]
+INFO:cooler.create:Writing indexes
+INFO:cooler.create:Writing info
+INFO:cooler.cli.balance:Balancing "results/testHiC^2GJJMN.mcool::/resolutions/1000"
+INFO:cooler._balance:variance is 5.052388718005148
+INFO:cooler._balance:variance is 2.214895578366685
+INFO:cooler._balance:variance is 0.959611918968926
+INFO:cooler._balance:variance is 0.9137724134740712
+INFO:cooler._balance:variance is 0.4931935749748733
+INFO:cooler._balance:variance is 0.5104112301803088
+INFO:cooler._balance:variance is 0.3030412633621026
+INFO:cooler._balance:variance is 0.32060739713735237
+INFO:cooler._balance:variance is 0.20215127130289373
+INFO:cooler._balance:variance is 0.2154426044794081
+INFO:cooler._balance:variance is 0.14176679139321982
+INFO:cooler._balance:variance is 0.1515947995458226
+INFO:cooler._balance:variance is 0.10300353738363408
+INFO:cooler._balance:variance is 0.1104325343756498
+INFO:cooler._balance:variance is 0.07692908018793713
+INFO:cooler._balance:variance is 0.0827163778250496
+INFO:cooler._balance:variance is 0.05877961894719971
+INFO:cooler._balance:variance is 0.06341719469471192
+INFO:cooler._balance:variance is 0.045804988964884004
+INFO:cooler._balance:variance is 0.04961002257524443
+INFO:cooler._balance:variance is 0.036325336773172005
+INFO:cooler._balance:variance is 0.03950622626300257
+INFO:cooler._balance:variance is 0.029269995473319124
+INFO:cooler._balance:variance is 0.03196783117919666
+INFO:cooler._balance:variance is 0.02393340851667344
+INFO:cooler._balance:variance is 0.02624707293956043
+INFO:cooler._balance:variance is 0.019837917780542037
+INFO:cooler._balance:variance is 0.021839206494004955
+INFO:cooler._balance:variance is 0.016652870706641662
+INFO:cooler._balance:variance is 0.018395683309915086
+INFO:cooler._balance:variance is 0.014145048035024005
+INFO:cooler._balance:variance is 0.015671067232707836
+INFO:cooler._balance:variance is 0.012147292378632709
+INFO:cooler._balance:variance is 0.013489570646146854
+INFO:cooler._balance:variance is 0.01053810988435757
+INFO:cooler._balance:variance is 0.01172339510015711
+INFO:cooler._balance:variance is 0.009228097543577897
+INFO:cooler._balance:variance is 0.010278386679186175
+INFO:cooler._balance:variance is 0.008150731750587678
+INFO:cooler._balance:variance is 0.009084342712476502
+INFO:cooler._balance:variance is 0.0072560088195296355
+INFO:cooler._balance:variance is 0.008088344432165417
+INFO:cooler._balance:variance is 0.006505988416325703
+INFO:cooler._balance:variance is 0.007250098371653384
+INFO:cooler._balance:variance is 0.005871629197828075
+INFO:cooler._balance:variance is 0.006538635447477609
+INFO:cooler._balance:variance is 0.005330515605063466
+INFO:cooler._balance:variance is 0.005929942542717807
+INFO:cooler._balance:variance is 0.004865207676339086
+INFO:cooler._balance:variance is 0.005405243848448238
+INFO:cooler._balance:variance is 0.0044620317449428236
+INFO:cooler._balance:variance is 0.004949740849117571
+INFO:cooler._balance:variance is 0.004110186544187449
+INFO:cooler._balance:variance is 0.004551679856717683
+INFO:cooler._balance:variance is 0.003801077178512864
+INFO:cooler._balance:variance is 0.004201655963024297
+INFO:cooler._balance:variance is 0.0035278151903374456
+INFO:cooler._balance:variance is 0.0038920892906149844
+INFO:cooler._balance:variance is 0.003284840688705878
+INFO:cooler._balance:variance is 0.0036168279302484156
+INFO:cooler._balance:variance is 0.0030676348566841993
+INFO:cooler._balance:variance is 0.003370844790614126
+INFO:cooler._balance:variance is 0.0028724998471203536
+INFO:cooler._balance:variance is 0.003150004594229947
+INFO:cooler._balance:variance is 0.0026963892538375933
+INFO:cooler._balance:variance is 0.0029508836393100485
+INFO:cooler._balance:variance is 0.002536776774297433
+INFO:cooler._balance:variance is 0.0027706295181315257
+INFO:cooler._balance:variance is 0.002391553880992623
+INFO:cooler._balance:variance is 0.002606851282615638
+INFO:cooler._balance:variance is 0.0022589496499906877
+INFO:cooler._balance:variance is 0.0024575329500099797
+INFO:cooler._balance:variance is 0.0021374676043916653
+INFO:cooler._balance:variance is 0.0023209650032003305
+INFO:cooler._balance:variance is 0.002025835691932502
+INFO:cooler._balance:variance is 0.0021956898411030577
+INFO:cooler._balance:variance is 0.0019229664525190588
+INFO:cooler._balance:variance is 0.002080458101535738
+INFO:cooler._balance:variance is 0.0018279251307142365
+INFO:cooler._balance:variance is 0.0019741935020587686
+INFO:cooler._balance:variance is 0.0017399040130660407
+INFO:cooler._balance:variance is 0.0018759643881275604
+INFO:cooler._balance:variance is 0.0016582016661067873
+INFO:cooler._balance:variance is 0.0017849605891506477
+INFO:cooler._balance:variance is 0.0015822060509923862
+INFO:cooler._balance:variance is 0.0017004744956481388
+INFO:cooler._balance:variance is 0.001511380719311898
+INFO:cooler._balance:variance is 0.001621885509488313
+INFO:cooler._balance:variance is 0.0014452534694246338
+INFO:cooler._balance:variance is 0.0015486472024438978
+INFO:cooler._balance:variance is 0.001383406976982094
+INFO:cooler._balance:variance is 0.001480276659607056
+INFO:cooler._balance:variance is 0.0013254710168911852
+INFO:cooler._balance:variance is 0.001416345593626944
+INFO:cooler._balance:variance is 0.0012711159742176835
+INFO:cooler._balance:variance is 0.0013564729008420714
+INFO:cooler._balance:variance is 0.0012200474039297004
+INFO:cooler._balance:variance is 0.0013003183968548328
+INFO:cooler._balance:variance is 0.0011720014480989535
+INFO:cooler._balance:variance is 0.0012475775212325607
+INFO:cooler._balance:variance is 0.0011267409573616012
+INFO:cooler._balance:variance is 0.0011979768420777618
+INFO:cooler._balance:variance is 0.0010840521934842974
+INFO:cooler._balance:variance is 0.0011512702236743482
+INFO:cooler._balance:variance is 0.0010437420136115325
+INFO:cooler._balance:variance is 0.0011072355461880425
+INFO:cooler._balance:variance is 0.001005635455586232
+INFO:cooler._balance:variance is 0.001065671886938391
+INFO:cooler._balance:variance is 0.0009695736587124554
+INFO:cooler._balance:variance is 0.0010263970891935064
+INFO:cooler._balance:variance is 0.000935412066295928
+INFO:cooler._balance:variance is 0.0009892456576388205
+INFO:cooler._balance:variance is 0.000903018865897239
+INFO:cooler._balance:variance is 0.0009540669303152216
+INFO:cooler._balance:variance is 0.0008722736309621996
+INFO:cooler._balance:variance is 0.0009207234854379251
+INFO:cooler._balance:variance is 0.0008430661337420891
+INFO:cooler._balance:variance is 0.0008890897485088242
+INFO:cooler._balance:variance is 0.0008152953044874566
+INFO:cooler._balance:variance is 0.0008590507708459376
+INFO:cooler._balance:variance is 0.0007888683160301805
+INFO:cooler._balance:variance is 0.0008305011553294946
+INFO:cooler._balance:variance is 0.0007636997762472268
+INFO:cooler._balance:variance is 0.0008033441090073235
+INFO:cooler._balance:variance is 0.0007397110136737194
+INFO:cooler._balance:variance is 0.0007774906053724229
+INFO:cooler._balance:variance is 0.0007168294438195845
+INFO:cooler._balance:variance is 0.0007528586417504634
+INFO:cooler._balance:variance is 0.0006949880056358991
+INFO:cooler._balance:variance is 0.0007293725794162429
+INFO:cooler._balance:variance is 0.0006741246591485876
+INFO:cooler._balance:variance is 0.0007069625558771284
+INFO:cooler._balance:variance is 0.0006541819365872872
+INFO:cooler._balance:variance is 0.0006855639602840006
+INFO:cooler._balance:variance is 0.0006351065404335373
+INFO:cooler._balance:variance is 0.0006651169642086602
+INFO:cooler._balance:variance is 0.0006168489827333696
+INFO:cooler._balance:variance is 0.0006455661011040576
+INFO:cooler._balance:variance is 0.0005993632607955692
+INFO:cooler._balance:variance is 0.0006268598886744795
+INFO:cooler._balance:variance is 0.000582606565053483
+INFO:cooler._balance:variance is 0.0006089504891553962
+INFO:cooler._balance:variance is 0.0005665390154256119
+INFO:cooler._balance:variance is 0.0005917934031600002
+INFO:cooler._balance:variance is 0.0005511234229848631
+INFO:cooler._balance:variance is 0.0005753471933104059
+INFO:cooler._balance:variance is 0.0005363250741518746
+INFO:cooler._balance:variance is 0.0005595732343516881
+INFO:cooler._balance:variance is 0.0005221115349754615
+INFO:cooler._balance:variance is 0.0005444354868591476
+INFO:cooler._balance:variance is 0.0005084524733620391
+INFO:cooler._balance:variance is 0.0005299002920040236
+INFO:cooler._balance:variance is 0.0004953194973736262
+INFO:cooler._balance:variance is 0.0005159361851491948
+INFO:cooler._balance:variance is 0.0004826860079367174
+INFO:cooler._balance:variance is 0.0005025137263113515
+INFO:cooler._balance:variance is 0.0004705270644976847
+INFO:cooler._balance:variance is 0.0004896053457562471
+INFO:cooler._balance:variance is 0.0004588192623281828
+INFO:cooler._balance:variance is 0.00047718520319343536
+INFO:cooler._balance:variance is 0.00044754062033045667
+INFO:cooler._balance:variance is 0.00046522905921131895
+INFO:cooler._balance:variance is 0.00043667047832036704
+INFO:cooler._balance:variance is 0.0004537141577455803
+INFO:cooler._balance:variance is 0.0004261894028778956
+INFO:cooler._balance:variance is 0.000442619118507396
+INFO:cooler._balance:variance is 0.0004160791009531443
+INFO:cooler._balance:variance is 0.00043192383841481004
+INFO:cooler._balance:variance is 0.00040632234050239806
+INFO:cooler._balance:variance is 0.0004216094011734875
+INFO:cooler._balance:variance is 0.00039690287750486107
+INFO:cooler._balance:variance is 0.00041165799424360634
+INFO:cooler._balance:variance is 0.00038780538877802493
+INFO:cooler._balance:variance is 0.0004020528325095803
+INFO:cooler._balance:variance is 0.00037901541006916316
+INFO:cooler._balance:variance is 0.00039277808803999027
+INFO:cooler._balance:variance is 0.0003705192789530951
+INFO:cooler._balance:variance is 0.0003838188253875703
+INFO:cooler._balance:variance is 0.00036230408211331607
+INFO:cooler._balance:variance is 0.00037516094193473386
+INFO:cooler._balance:variance is 0.0003543576066251656
+INFO:cooler._balance:variance is 0.0003667911128392519
+INFO:cooler._balance:variance is 0.0003466682948968127
+INFO:cooler._balance:variance is 0.0003586967401787129
+INFO:cooler._balance:variance is 0.00033922520295694874
+INFO:cooler._balance:variance is 0.0003508659059313898
+INFO:cooler._balance:variance is 0.0003320179618076859
+INFO:cooler._balance:variance is 0.00034328732846607114
+INFO:cooler._balance:variance is 0.00032503674158751694
+INFO:cooler._balance:variance is 0.0003359503222445733
+INFO:cooler._balance:variance is 0.00031827221831304237
+INFO:cooler._balance:variance is 0.00032884476046856384
+INFO:cooler._balance:variance is 0.0003117155429893076
+INFO:cooler._balance:variance is 0.0003219610404273029
+INFO:cooler._balance:variance is 0.0003053583128977946
+INFO:cooler._balance:variance is 0.0003152900513253744
+INFO:cooler._balance:variance is 0.0002991925448882574
+INFO:cooler._balance:variance is 0.00030882314438960147
+INFO:cooler._balance:variance is 0.00029321065051607874
+INFO:cooler._balance:variance is 0.00030255210507246764
+ERROR:cooler.cli.balance:Iteration limit reached without convergence
+ERROR:cooler.cli.balance:Storing final result. Check log to assess convergence.
+INFO:cooler.cli.balance:Balancing "results/testHiC^2GJJMN.mcool::/resolutions/2000"
+INFO:cooler._balance:variance is 15.503393684670705
+INFO:cooler._balance:variance is 2.159171815073965
+INFO:cooler._balance:variance is 0.7629647296452843
+INFO:cooler._balance:variance is 0.41927109467202234
+INFO:cooler._balance:variance is 0.24712164893997593
+INFO:cooler._balance:variance is 0.16923264305825028
+INFO:cooler._balance:variance is 0.11337114307610191
+INFO:cooler._balance:variance is 0.08229608738175041
+INFO:cooler._balance:variance is 0.05819690070301922
+INFO:cooler._balance:variance is 0.043217506992446815
+INFO:cooler._balance:variance is 0.031482366230146185
+INFO:cooler._balance:variance is 0.023651674270459538
+INFO:cooler._balance:variance is 0.017540262098423832
+INFO:cooler._balance:variance is 0.013268143241778963
+INFO:cooler._balance:variance is 0.00995084567370772
+INFO:cooler._balance:variance is 0.007560342739710594
+INFO:cooler._balance:variance is 0.005711279304552129
+INFO:cooler._balance:variance is 0.004351999102252179
+INFO:cooler._balance:variance is 0.0033033171696634197
+INFO:cooler._balance:variance is 0.0025221909598134302
+INFO:cooler._balance:variance is 0.0019205682082392272
+INFO:cooler._balance:variance is 0.0014684685582731266
+INFO:cooler._balance:variance is 0.0011206431755312212
+INFO:cooler._balance:variance is 0.0008576896917920839
+INFO:cooler._balance:variance is 0.0006555321081932931
+INFO:cooler._balance:variance is 0.0005020667089232683
+INFO:cooler._balance:variance is 0.00038414175812764915
+INFO:cooler._balance:variance is 0.0002943592922384067
+INFO:cooler._balance:variance is 0.00022539332516751748
+INFO:cooler._balance:variance is 0.00017277690498620425
+INFO:cooler._balance:variance is 0.00013237007125342732
+INFO:cooler._balance:variance is 0.0001014962568998134
+INFO:cooler._balance:variance is 7.779110052874138e-05
+INFO:cooler._balance:variance is 5.965887939123083e-05
+INFO:cooler._balance:variance is 4.573876180353701e-05
+INFO:cooler._balance:variance is 3.508265482136984e-05
+INFO:cooler._balance:variance is 2.6902818137305666e-05
+INFO:cooler._balance:variance is 2.0637289459645e-05
+INFO:cooler._balance:variance is 1.5828132472813685e-05
+INFO:cooler._balance:variance is 1.2142822760102686e-05
+INFO:cooler._balance:variance is 9.314306347472535e-06
+INFO:cooler.cli.balance:Balancing "results/testHiC^2GJJMN.mcool::/resolutions/5000"
+INFO:cooler._balance:variance is 50.72777724794357
+INFO:cooler._balance:variance is 6.155438463892617
+INFO:cooler._balance:variance is 2.1769359381756206
+INFO:cooler._balance:variance is 1.1080590435212
+INFO:cooler._balance:variance is 0.658575968400699
+INFO:cooler._balance:variance is 0.40993446563653235
+INFO:cooler._balance:variance is 0.2691853492339696
+INFO:cooler._balance:variance is 0.17728639586619194
+INFO:cooler._balance:variance is 0.11996897249810153
+INFO:cooler._balance:variance is 0.08084446072913536
+INFO:cooler._balance:variance is 0.055315016080294696
+INFO:cooler._balance:variance is 0.03768604294801275
+INFO:cooler._balance:variance is 0.025902469935161435
+INFO:cooler._balance:variance is 0.01774798175497073
+INFO:cooler._balance:variance is 0.012223418902811997
+INFO:cooler._balance:variance is 0.008401365843751191
+INFO:cooler._balance:variance is 0.005791944701139326
+INFO:cooler._balance:variance is 0.003987897220791175
+INFO:cooler._balance:variance is 0.0027507119991808195
+INFO:cooler._balance:variance is 0.0018958591998482902
+INFO:cooler._balance:variance is 0.0013080803816234703
+INFO:cooler._balance:variance is 0.0009021027072371951
+INFO:cooler._balance:variance is 0.0006225288203982411
+INFO:cooler._balance:variance is 0.0004294745136830393
+INFO:cooler._balance:variance is 0.00029640599425104593
+INFO:cooler._balance:variance is 0.00020453145470742038
+INFO:cooler._balance:variance is 0.0001411688186091035
+INFO:cooler._balance:variance is 9.742503988422294e-05
+INFO:cooler._balance:variance is 6.72462335379403e-05
+INFO:cooler._balance:variance is 4.641265111884437e-05
+INFO:cooler._balance:variance is 3.203656343625926e-05
+INFO:cooler._balance:variance is 2.2112477200134233e-05
+INFO:cooler._balance:variance is 1.5263528364852466e-05
+INFO:cooler._balance:variance is 1.0535643882986306e-05
+INFO:cooler._balance:variance is 7.272502830045441e-06
+INFO:cooler.cli.balance:Balancing "results/testHiC^2GJJMN.mcool::/resolutions/10000"
+INFO:cooler._balance:variance is 107.48888927469108
+INFO:cooler._balance:variance is 15.479337011622665
+INFO:cooler._balance:variance is 6.183694785119701
+INFO:cooler._balance:variance is 3.0986537316001916
+INFO:cooler._balance:variance is 1.7760393956179092
+INFO:cooler._balance:variance is 1.021246405554362
+INFO:cooler._balance:variance is 0.6160511535524166
+INFO:cooler._balance:variance is 0.36721131199168283
+INFO:cooler._balance:variance is 0.22373786911567944
+INFO:cooler._balance:variance is 0.13513311075502044
+INFO:cooler._balance:variance is 0.08250210604841604
+INFO:cooler._balance:variance is 0.050107208397907776
+INFO:cooler._balance:variance is 0.030600557450056964
+INFO:cooler._balance:variance is 0.018632149090816074
+INFO:cooler._balance:variance is 0.011377860328779826
+INFO:cooler._balance:variance is 0.006936191909959641
+INFO:cooler._balance:variance is 0.004235140419770694
+INFO:cooler._balance:variance is 0.0025833993358903087
+INFO:cooler._balance:variance is 0.001577236526182722
+INFO:cooler._balance:variance is 0.0009624021449137812
+INFO:cooler._balance:variance is 0.0005875337199347527
+INFO:cooler._balance:variance is 0.00035856252620909397
+INFO:cooler._balance:variance is 0.00021888793616340813
+INFO:cooler._balance:variance is 0.0001335959705276188
+INFO:cooler._balance:variance is 8.155260139916904e-05
+INFO:cooler._balance:variance is 4.977729475230028e-05
+INFO:cooler._balance:variance is 3.0385599078601927e-05
+INFO:cooler._balance:variance is 1.8547000840116714e-05
+INFO:cooler._balance:variance is 1.1321531604764844e-05
+INFO:cooler._balance:variance is 6.9106388754845774e-06
+INFO:cooler.cli.balance:Balancing "results/testHiC^2GJJMN.mcool::/resolutions/20000"
+INFO:cooler._balance:variance is 243.50977156721302
+INFO:cooler._balance:variance is 39.63455242674973
+INFO:cooler._balance:variance is 18.43348487903257
+INFO:cooler._balance:variance is 8.15824331279824
+INFO:cooler._balance:variance is 4.215009714103173
+INFO:cooler._balance:variance is 2.0262284433133178
+INFO:cooler._balance:variance is 1.030048108795523
+INFO:cooler._balance:variance is 0.5066351662704308
+INFO:cooler._balance:variance is 0.25516042846687054
+INFO:cooler._balance:variance is 0.12659958893908377
+INFO:cooler._balance:variance is 0.06348578258132659
+INFO:cooler._balance:variance is 0.03161465202988059
+INFO:cooler._balance:variance is 0.015821936460590002
+INFO:cooler._balance:variance is 0.00789190395741782
+INFO:cooler._balance:variance is 0.003945814786199467
+INFO:cooler._balance:variance is 0.0019696434698123497
+INFO:cooler._balance:variance is 0.0009843290355106649
+INFO:cooler._balance:variance is 0.0004915269366296357
+INFO:cooler._balance:variance is 0.00024558428857076513
+INFO:cooler._balance:variance is 0.00012265436016567133
+INFO:cooler._balance:variance is 6.12755206504741e-05
+INFO:cooler._balance:variance is 3.060597623280625e-05
+INFO:cooler._balance:variance is 1.5289235307765618e-05
+INFO:cooler._balance:variance is 7.637005474499492e-06
+INFO:cooler.cli.balance:Balancing "results/testHiC^2GJJMN.mcool::/resolutions/50000"
+INFO:cooler._balance:variance is 1163.714018960069
+INFO:cooler._balance:variance is 235.79203365314092
+INFO:cooler._balance:variance is 103.6539147334311
+INFO:cooler._balance:variance is 33.880737195953174
+INFO:cooler._balance:variance is 13.33643965992218
+INFO:cooler._balance:variance is 4.673490930623706
+INFO:cooler._balance:variance is 1.7548299676861867
+INFO:cooler._balance:variance is 0.6315783763258591
+INFO:cooler._balance:variance is 0.2331645398122676
+INFO:cooler._balance:variance is 0.08475881017366896
+INFO:cooler._balance:variance is 0.03109958356326674
+INFO:cooler._balance:variance is 0.011346770673084414
+INFO:cooler._balance:variance is 0.0041540435483073505
+INFO:cooler._balance:variance is 0.0015176570185392656
+INFO:cooler._balance:variance is 0.0005551596600345878
+INFO:cooler._balance:variance is 0.0002029245298110254
+INFO:cooler._balance:variance is 7.420775081024785e-05
+INFO:cooler._balance:variance is 2.712965110385312e-05
+INFO:cooler._balance:variance is 9.919997723874565e-06
+INFO:cooler.cli.balance:Balancing "results/testHiC^2GJJMN.mcool::/resolutions/100000"
+INFO:cooler._balance:variance is 4310.934772215013
+INFO:cooler._balance:variance is 795.1514420278047
+INFO:cooler._balance:variance is 293.3162848628604
+INFO:cooler._balance:variance is 81.53720222163236
+INFO:cooler._balance:variance is 26.62826304721317
+INFO:cooler._balance:variance is 7.914139075014152
+INFO:cooler._balance:variance is 2.4767903423094495
+INFO:cooler._balance:variance is 0.7529290554221767
+INFO:cooler._balance:variance is 0.23258371492852198
+INFO:cooler._balance:variance is 0.07120823758110524
+INFO:cooler._balance:variance is 0.021909104352613826
+INFO:cooler._balance:variance is 0.0067224814588613445
+INFO:cooler._balance:variance is 0.002065824339682084
+INFO:cooler._balance:variance is 0.0006342959410299706
+INFO:cooler._balance:variance is 0.0001948466080778748
+INFO:cooler._balance:variance is 5.983862411983351e-05
+INFO:cooler._balance:variance is 1.837944988049722e-05
+INFO:cooler._balance:variance is 5.644805306725665e-06
+INFO :: Fetching mapping and pairing stats
+INFO :: {'Sample': 'testHiC^manual', 'Total read pairs': 100000, 'Mapped reads': 151804, 'Unmapped reads': 48196, 'Recovered contacts': 64761, 'Final contacts': 52940, 'Removed contacts': 11821, 'Filtered out': 11208, 'Loops': 1910, 'Uncuts': 9266, 'Weirds': 32, 'PCR duplicates': 613}
+INFO :: Contact map generated after 0h 0m 16s
+25-07-02 17:34:28 | [INFO] Computing coverage track
+25-07-02 17:34:28 | [EXEC] samtools merge -@ 8 results/tmp/2GJJMN/testHiC^2GJJMN.bam results/tmp/testHiC^2GJJMN.for.bam results/tmp/testHiC^2GJJMN.rev.bam
+25-07-02 17:34:28 | [EXEC] samtools sort -@ 8 -T results/tmp/2GJJMN/testHiC^2GJJMN_sorting results/tmp/2GJJMN/testHiC^2GJJMN.bam | samtools markdup -@ 8 -r - - > results/tmp/2GJJMN/testHiC^2GJJMN.sorted.bam
+[bam_sort_core] merging from 0 files and 8 in-memory blocks...
+25-07-02 17:34:29 | [EXEC] bedtools genomecov -bg -scale 5.93542260208926875593 -ibam results/tmp/2GJJMN/testHiC^2GJJMN.sorted.bam | bedtools sort -i - > results/tmp/2GJJMN/testHiC^2GJJMN.bg
+25-07-02 17:34:29 | [EXEC] bedGraphToBigWig results/tmp/2GJJMN/testHiC^2GJJMN.bg tests/R64-1-1/R64-1-1.chrom.sizes results/tracks/testHiC/testHiC^mapped_R64-1-1^2GJJMN.CPM.bw
+25-07-02 17:34:29 | [INFO] Generating .hic file
+25-07-02 17:34:29 | [EXEC] grep -v '^#' results/tmp/testHiC^2GJJMN.valid_idx_pcrfree.pairs | sort -k2,2d -k4,4d | sed -e '1 i\## pairs format v1.0
+#columns: readID chr1 position1 chr2 position2 strand1 strand2' > tmp1
+grep: results/tmp/testHiC^2GJJMN.valid_idx_pcrfree.pairs: No such file or directory
+25-07-02 17:34:29 | [EXEC] sed '1d' results/testHiC^2GJJMN.chr.tsv | cut -f1,2 > tmp2
+25-07-02 17:34:29 | [EXEC] juicer_tools pre -r 1000 tmp1 results/matrices/testHiC/testHiC^mapped_R64-1-1^2GJJMN.hic tmp2
+tmp1 does not exist or does not contain any reads.
+25-07-02 17:34:29 | [EXEC] rm tmp1 tmp2
+---
+25-07-02 17:34:29 | [INFO] NUMBER OF SEQUENCED FRAGMENTS: tests/testHiC_R1.fq.gz
+100000
+---
+25-07-02 17:34:29 | [INFO] MAPPING STATS: results/tmp/2GJJMN/testHiC^2GJJMN.for.bam
+[E::hts_open_format] Failed to open file "results/tmp/2GJJMN/testHiC^2GJJMN.for.bam" : No such file or directory
+samtools flagstat: Cannot open input file "results/tmp/2GJJMN/testHiC^2GJJMN.for.bam": No such file or directory
+---
+25-07-02 17:34:30 | [INFO] MAPPING STATS: results/tmp/2GJJMN/testHiC^2GJJMN.rev.bam
+[E::hts_open_format] Failed to open file "results/tmp/2GJJMN/testHiC^2GJJMN.rev.bam" : No such file or directory
+samtools flagstat: Cannot open input file "results/tmp/2GJJMN/testHiC^2GJJMN.rev.bam": No such file or directory
+---
+25-07-02 17:34:30 | [INFO] HICSTUFF STATS:
+76% reads (single ends) mapped with Q >= 30 (151804/200000)
+Filtering with thresholds: uncuts=7 loops=7
+Proportion of inter contacts: 21.89% (intra: 41829, inter: 11724)
+11208 pairs discarded: Loops: 1910, Uncuts: 9266, Weirds: 32
+53553 pairs kept (82.69%)
+1% PCR duplicates have been filtered out (613 / 53553 pairs) 
+---
+25-07-02 17:34:30 | [INFO] Cleaning up temporary files for testHiC
+25-07-02 17:34:30 | [INFO] Backing up pipeline script
+---
+25-07-02 17:34:30 | [INFO] GENERATED FILES
+results
+├── 250702-testHiC_2GJJMN_INPROGRESS
+├── logs
+│   ├── 250702-testHiC_2GJJMN_log.txt
+│   └── 250702-testHiC_2GJJMN_script.txt
+├── matrices
+│   └── testHiC
+│       └── testHiC^mapped_R64-1-1^2GJJMN.mcool
+├── pairs
+│   └── testHiC
+│       ├── testHiC^mapped_R64-1-1^2GJJMN.event_distance.pdf
+│       ├── testHiC^mapped_R64-1-1^2GJJMN.event_distribution.pdf
+│       ├── testHiC^mapped_R64-1-1^2GJJMN.frags.tsv
+│       └── testHiC^mapped_R64-1-1^2GJJMN.valid_idx_pcrfree.pairs.gz
+├── plots
+│   └── testHiC^2GJJMN_frags_hist.pdf
+├── tmp
+│   ├── testHiC^2GJJMN.valid_idx_filtered.pairs
+│   ├── testHiC^2GJJMN.valid_idx.pairs
+│   └── testHiC^2GJJMN.valid.pairs
+└── tracks
+    └── testHiC
+        └── testHiC^mapped_R64-1-1^2GJJMN.CPM.bw
+
+10 directories, 13 files
+---
+25-07-02 17:34:30 | [INFO] COMMANDS EXECUTED
+ hicstuff pipeline --threads 8 --enzyme DpnII,HinfI --outdir results --prefix testHiC^2GJJMN --mapping iterative --duplicates --filter --plot --no-cleanup --force --binning 1000 --exclude Mito,chrM,MT --genome results/tmp/testHiC^2GJJMN.genome.fasta tests/testHiC_R1.fq.gz tests/testHiC_R2.fq.gz
+ samtools merge -@ 8 results/tmp/2GJJMN/testHiC^2GJJMN.bam results/tmp/testHiC^2GJJMN.for.bam results/tmp/testHiC^2GJJMN.rev.bam
+ samtools sort -@ 8 -T results/tmp/2GJJMN/testHiC^2GJJMN_sorting results/tmp/2GJJMN/testHiC^2GJJMN.bam \
+	| samtools markdup -@ 8 -r - - > results/tmp/2GJJMN/testHiC^2GJJMN.sorted.bam
+ bedtools genomecov -bg -scale 5.93542260208926875593 -ibam results/tmp/2GJJMN/testHiC^2GJJMN.sorted.bam \
+	| bedtools sort -i - > results/tmp/2GJJMN/testHiC^2GJJMN.bg
+ bedGraphToBigWig results/tmp/2GJJMN/testHiC^2GJJMN.bg tests/R64-1-1/R64-1-1.chrom.sizes results/tracks/testHiC/testHiC^mapped_R64-1-1^2GJJMN.CPM.bw
+ grep -v '^#' results/tmp/testHiC^2GJJMN.valid_idx_pcrfree.pairs \
+	| sort -k2,2d -k4,4d \
+	| sed -e '1 i\## pairs format v1.0
+ sed '1d' results/testHiC^2GJJMN.chr.tsv \
+	| cut -f1,2 > tmp2
+ juicer_tools pre -r 1000 tmp1 results/matrices/testHiC/testHiC^mapped_R64-1-1^2GJJMN.hic tmp2
+ rm tmp1 tmp2
+---
+25-07-02 17:34:30 | [INFO] Pipeline achieved: Wednesday 02 July 2025 05:34:30 PM CEST

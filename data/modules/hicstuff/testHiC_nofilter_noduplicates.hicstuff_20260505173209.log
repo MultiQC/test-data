@@ -1,0 +1,29 @@
+## hicstuff: v3.2.4 log file
+## date: 2026-05-05 17:32:09
+## enzyme: DpnII,HinfI
+## input1: tests/testHiC_R1.fq.gz 
+## input2: tests/testHiC_R2.fq.gz
+## ref: /home/rsg/genomes/S288c/S288c.fa
+---
+2026-05-05,17:32:09 :: INFO :: The default output format is now `.cool`. The Hi-C matrix will be generated with cooler v0.9.3 (Abdennur & Mirny, Bioinformatics 2020).
+2026-05-05,17:32:17 :: INFO :: bowtie2 index not found at results/tmp/testHiC_nofilter_noduplicates.genome.fa.gz, generating a local temporary index.
+2026-05-05,17:32:25 :: INFO :: Checking content of fastq files.
+2026-05-05,17:32:25 :: INFO :: 100000 reads found in each fastq file.
+2026-05-05,17:32:25 :: INFO :: 100000 reads to parse
+2026-05-05,17:32:25 :: INFO :: Truncating unaligned reads to 20bp and mapping.
+2026-05-05,17:32:26 :: INFO :: 100000 reads left to map.
+2026-05-05,17:32:26 :: INFO :: Trying to map unaligned reads at full length (35bp).
+2026-05-05,17:32:27 :: INFO :: 23337 reads left to map.
+2026-05-05,17:32:27 :: INFO :: 76663 reads aligned / 100000 total reads.
+2026-05-05,17:32:27 :: INFO :: 100000 reads to parse
+2026-05-05,17:32:27 :: INFO :: Truncating unaligned reads to 20bp and mapping.
+2026-05-05,17:32:27 :: INFO :: 100000 reads left to map.
+2026-05-05,17:32:27 :: INFO :: Trying to map unaligned reads at full length (35bp).
+2026-05-05,17:32:28 :: INFO :: 24859 reads left to map.
+2026-05-05,17:32:28 :: INFO :: 75141 reads aligned / 100000 total reads.
+2026-05-05,17:32:31 :: INFO :: 76% reads (single ends) mapped with Q >= 30 (151804/200000)
+2026-05-05,17:32:32 :: INFO :: 64761 pairs successfully mapped (64.76%)
+2026-05-05,17:32:32 :: INFO :: Generating matrix from pairs file results/tmp/testHiC_nofilter_noduplicates.valid_idx.pairs (64761 pairs in the file) 
+2026-05-05,17:32:39 :: INFO :: Fetching mapping and pairing stats
+2026-05-05,17:32:39 :: INFO :: {'Sample': 'testHiC_nofilter_noduplicates', 'Total read pairs': 100000, 'Mapped reads': 151804, 'Unmapped reads': 48196, 'Recovered contacts': 64761, 'Final contacts': 64761, 'Removed contacts': 0, 'Filtered out': 0, 'Loops': 0, 'Uncuts': 0, 'Weirds': 0, 'PCR duplicates': 0}
+2026-05-05,17:32:40 :: INFO :: Contact map generated after 0h 0m 31s
