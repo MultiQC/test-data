@@ -1,4 +1,4 @@
-File name	PKD1_bead_test1_B_haplotagged.bam
+File name	example_aligned.bam
 Number of alignments	20564409
 % from total alignments	96.04
 Number of reads	20235704
@@ -209,5 +209,5 @@ chrUn_KI270757v1	2.54
 chrX	0.81
 chrY	0.02
 
-Path	/work/aligned_reads/PKD1_bead_test1_B/PKD1_bead_test1_B_haplotagged.bam
+Path	/work/aligned_reads/example_aligned/example_aligned.bam
 Creation time	NA
