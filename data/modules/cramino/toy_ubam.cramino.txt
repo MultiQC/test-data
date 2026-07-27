@@ -1,0 +1,14 @@
+File name	toy_ubam.bam
+Number of alignments	1000
+% from total alignments	100.00
+Number of reads	1000
+Yield [Gb]	0.01
+Mean coverage	0.00
+Yield [Gb] (>25kb)	0.00
+N50	12000
+N75	9000
+Median length	10500.00
+Mean length	10800.50
+
+Path	/work/toy_ubam.bam
+Creation time	NA
