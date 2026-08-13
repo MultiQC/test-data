@@ -36,7 +36,7 @@
     "sha256": "67bbb20e722e6278dee87fd45571640b333def9d97e99a36afcf9e5da323bccc",
     "size_bytes": 6170
   },
-  "payload_sha256": "0e3e56dfefa3319e9a23a448b66fddbf24952020558b791f06b000fff06b42cc",
+  "payload_sha256": "a124ff29e359cd0eb5e5e129eee78b912e64f8b1a76f16cf5ce393bc5d4b7930",
   "producer": {
     "name": "vcf-sv-stats",
     "version": "0.1.0.dev5+g87bfd58ad"
@@ -211,8 +211,18 @@
           "minimum": 8,
           "missing": 0,
           "n": 94,
-          "not_applicable": 0,
+          "not_applicable": 6,
           "policy_id": "vss-bins/1"
+        },
+        "merged_support": {
+          "declared_fields": [],
+          "interpretation": "merger_provenance_only",
+          "records_with_support": 0,
+          "records_without_support": 0,
+          "source_count_states": {},
+          "status": "not_declared",
+          "supporting_sources": {},
+          "vector_count_consistency": {}
         },
         "metric_contracts": {
           "alleles": {
@@ -256,6 +266,12 @@
             "denominator": "alleles_with_applicable_length",
             "scope": "alternate_allele",
             "unit": "base_pairs"
+          },
+          "merged_support": {
+            "comparability": "merger-support-provenance/1",
+            "denominator": "records_with_declared_merger_support",
+            "scope": "source_record",
+            "unit": "records"
           },
           "qual": {
             "comparability": "declared-qual/1",
@@ -505,8 +521,18 @@
       "minimum": 8,
       "missing": 0,
       "n": 94,
-      "not_applicable": 0,
+      "not_applicable": 6,
       "policy_id": "vss-bins/1"
+    },
+    "merged_support": {
+      "declared_fields": [],
+      "interpretation": "merger_provenance_only",
+      "records_with_support": 0,
+      "records_without_support": 0,
+      "source_count_states": {},
+      "status": "not_declared",
+      "supporting_sources": {},
+      "vector_count_consistency": {}
     },
     "metric_contracts": {
       "alleles": {
@@ -550,6 +576,12 @@
         "denominator": "alleles_with_applicable_length",
         "scope": "alternate_allele",
         "unit": "base_pairs"
+      },
+      "merged_support": {
+        "comparability": "merger-support-provenance/1",
+        "denominator": "records_with_declared_merger_support",
+        "scope": "source_record",
+        "unit": "records"
       },
       "qual": {
         "comparability": "declared-qual/1",
