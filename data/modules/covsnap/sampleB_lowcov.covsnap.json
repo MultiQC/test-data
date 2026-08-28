@@ -1,0 +1,120 @@
+{
+  "covsnap_version": "0.5.0",
+  "schema_version": "1.0",
+  "run": {
+    "sample_name": "sampleB_lowcov",
+    "bam_path": "/data/sampleB_lowcov.bam",
+    "reference": null,
+    "engine_used": "mosdepth",
+    "engine_version": "0.3.8",
+    "contig_style": "chr",
+    "run_date": "2026-06-29",
+    "bed_path": null,
+    "exon_only": false,
+    "thresholds": [
+      1,
+      5,
+      10,
+      20,
+      30,
+      50,
+      100
+    ],
+    "classify_params": {
+      "pass_pct_ge_20": 95.0,
+      "pass_max_pct_zero": 1.0,
+      "dropout_pct_zero": 5.0,
+      "dropout_zero_block_bp": 500,
+      "uneven_cv": 1.0,
+      "exon_pct_ge_20": 90.0,
+      "exon_max_pct_zero": 5.0
+    }
+  },
+  "summary": {
+    "n_targets": 2,
+    "n_pass": 0,
+    "status_counts": {
+      "LOW_COVERAGE": 1,
+      "DROP_OUT": 1
+    }
+  },
+  "targets": [
+    {
+      "target_id": "BRCA1",
+      "contig": "chr17",
+      "start": 43044294,
+      "end": 43125483,
+      "length_bp": 81189,
+      "mean_depth": 55.0,
+      "median_depth": 52.0,
+      "min_depth": 0,
+      "max_depth": 140,
+      "stdev_depth": 16.0,
+      "pct_zero": 4.2,
+      "pct_thresholds": {
+        "1": 96.0,
+        "5": 96.0,
+        "10": 96.0,
+        "20": 70.0,
+        "30": 70.0,
+        "50": 37.5,
+        "100": 5.0
+      },
+      "coverage_status": "LOW_COVERAGE",
+      "n_lowcov_blocks": 1,
+      "lowcov_total_bp": 600,
+      "lowcov_blocks": [
+        {
+          "contig": "chr17",
+          "start": 43100000,
+          "end": 43100600,
+          "length": 600,
+          "mean_depth": 2.1
+        }
+      ],
+      "histogram": {
+        "0": 3400,
+        "50": 40000
+      }
+    },
+    {
+      "target_id": "ETFDH",
+      "contig": "chr4",
+      "start": 158680400,
+      "end": 158716400,
+      "length_bp": 36000,
+      "mean_depth": 0.8,
+      "median_depth": 0.0,
+      "min_depth": 0,
+      "max_depth": 12,
+      "stdev_depth": 1.5,
+      "pct_zero": 82.0,
+      "pct_thresholds": {
+        "1": 18.0,
+        "5": 18.0,
+        "10": 18.0,
+        "20": 3.0,
+        "30": 3.0,
+        "50": 1.5,
+        "100": 0.0
+      },
+      "coverage_status": "DROP_OUT",
+      "n_lowcov_blocks": 1,
+      "lowcov_total_bp": 29600,
+      "lowcov_blocks": [
+        {
+          "contig": "chr4",
+          "start": 158680400,
+          "end": 158710000,
+          "length": 29600,
+          "mean_depth": 0.2
+        }
+      ],
+      "histogram": {
+        "0": 29600,
+        "5": 6400
+      }
+    }
+  ],
+  "genes": []
+}

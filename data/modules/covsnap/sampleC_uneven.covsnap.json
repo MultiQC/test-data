@@ -1,0 +1,105 @@
+{
+  "covsnap_version": "0.5.0",
+  "schema_version": "1.0",
+  "run": {
+    "sample_name": "sampleC_uneven",
+    "bam_path": "/data/sampleC_uneven.bam",
+    "reference": null,
+    "engine_used": "mosdepth",
+    "engine_version": "0.3.8",
+    "contig_style": "chr",
+    "run_date": "2026-06-29",
+    "bed_path": null,
+    "exon_only": false,
+    "thresholds": [
+      1,
+      5,
+      10,
+      20,
+      30,
+      50,
+      100
+    ],
+    "classify_params": {
+      "pass_pct_ge_20": 95.0,
+      "pass_max_pct_zero": 1.0,
+      "dropout_pct_zero": 5.0,
+      "dropout_zero_block_bp": 500,
+      "uneven_cv": 1.0,
+      "exon_pct_ge_20": 90.0,
+      "exon_max_pct_zero": 5.0
+    }
+  },
+  "summary": {
+    "n_targets": 2,
+    "n_pass": 1,
+    "status_counts": {
+      "UNEVEN": 1,
+      "PASS": 1
+    }
+  },
+  "targets": [
+    {
+      "target_id": "EGFR",
+      "contig": "chr7",
+      "start": 55019016,
+      "end": 55211627,
+      "length_bp": 192611,
+      "mean_depth": 210.0,
+      "median_depth": 180.0,
+      "min_depth": 0,
+      "max_depth": 1400,
+      "stdev_depth": 260.0,
+      "pct_zero": 0.3,
+      "pct_thresholds": {
+        "1": 99.0,
+        "5": 99.0,
+        "10": 99.0,
+        "20": 96.0,
+        "30": 96.0,
+        "50": 78.0,
+        "100": 60.0
+      },
+      "coverage_status": "UNEVEN",
+      "n_lowcov_blocks": 0,
+      "lowcov_total_bp": 0,
+      "lowcov_blocks": [],
+      "histogram": {
+        "0": 600,
+        "180": 80000,
+        "1400": 200
+      }
+    },
+    {
+      "target_id": "KRAS",
+      "contig": "chr12",
+      "start": 25204788,
+      "end": 25250462,
+      "length_bp": 45674,
+      "mean_depth": 120.0,
+      "median_depth": 119.0,
+      "min_depth": 30,
+      "max_depth": 240,
+      "stdev_depth": 28.0,
+      "pct_zero": 0.0,
+      "pct_thresholds": {
+        "1": 100.0,
+        "5": 100.0,
+        "10": 100.0,
+        "20": 99.0,
+        "30": 99.0,
+        "50": 84.5,
+        "100": 70.0
+      },
+      "coverage_status": "PASS",
+      "n_lowcov_blocks": 0,
+      "lowcov_total_bp": 0,
+      "lowcov_blocks": [],
+      "histogram": {
+        "30": 1000,
+        "120": 40000
+      }
+    }
+  ],
+  "genes": []
+}

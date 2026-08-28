@@ -1,0 +1,164 @@
+{
+  "covsnap_version": "0.5.0",
+  "schema_version": "1.0",
+  "run": {
+    "sample_name": "NA12878_panel",
+    "bam_path": "/data/NA12878_panel.bam",
+    "reference": null,
+    "engine_used": "mosdepth",
+    "engine_version": "0.3.8",
+    "contig_style": "chr",
+    "run_date": "2026-06-29",
+    "bed_path": null,
+    "exon_only": false,
+    "thresholds": [
+      1,
+      5,
+      10,
+      20,
+      30,
+      50,
+      100
+    ],
+    "classify_params": {
+      "pass_pct_ge_20": 95.0,
+      "pass_max_pct_zero": 1.0,
+      "dropout_pct_zero": 5.0,
+      "dropout_zero_block_bp": 500,
+      "uneven_cv": 1.0,
+      "exon_pct_ge_20": 90.0,
+      "exon_max_pct_zero": 5.0
+    }
+  },
+  "summary": {
+    "n_targets": 2,
+    "n_pass": 2,
+    "status_counts": {
+      "PASS": 2
+    }
+  },
+  "targets": [
+    {
+      "target_id": "BRCA1",
+      "contig": "chr17",
+      "start": 43044294,
+      "end": 43125483,
+      "length_bp": 81189,
+      "mean_depth": 142.3,
+      "median_depth": 140.0,
+      "min_depth": 3,
+      "max_depth": 310,
+      "stdev_depth": 38.1,
+      "pct_zero": 0.12,
+      "pct_thresholds": {
+        "1": 99.9,
+        "5": 99.9,
+        "10": 99.9,
+        "20": 98.6,
+        "30": 98.6,
+        "50": 84.8,
+        "100": 71.0
+      },
+      "coverage_status": "PASS",
+      "n_lowcov_blocks": 0,
+      "lowcov_total_bp": 0,
+      "lowcov_blocks": [],
+      "histogram": {
+        "0": 96,
+        "30": 400,
+        "140": 12000
+      },
+      "exons": [
+        {
+          "target_id": "BRCA1_exon1",
+          "contig": "chr17",
+          "start": 43125270,
+          "end": 43125483,
+          "length_bp": 213,
+          "mean_depth": 150.0,
+          "median_depth": 149.0,
+          "min_depth": 40,
+          "max_depth": 210,
+          "stdev_depth": 22.0,
+          "pct_zero": 0.0,
+          "pct_thresholds": {
+            "1": 100.0,
+            "5": 100.0,
+            "10": 100.0,
+            "20": 100.0,
+            "30": 100.0,
+            "50": 90.0,
+            "100": 80.0
+          },
+          "coverage_status": "OK",
+          "n_lowcov_blocks": 0,
+          "lowcov_total_bp": 0,
+          "lowcov_blocks": [],
+          "histogram": {},
+          "exon_number": 1,
+          "status": "OK"
+        },
+        {
+          "target_id": "BRCA1_exon2",
+          "contig": "chr17",
+          "start": 43124016,
+          "end": 43124114,
+          "length_bp": 98,
+          "mean_depth": 138.0,
+          "median_depth": 140.0,
+          "min_depth": 55,
+          "max_depth": 190,
+          "stdev_depth": 19.0,
+          "pct_zero": 0.0,
+          "pct_thresholds": {
+            "1": 100.0,
+            "5": 100.0,
+            "10": 100.0,
+            "20": 100.0,
+            "30": 100.0,
+            "50": 86.0,
+            "100": 72.0
+          },
+          "coverage_status": "OK",
+          "n_lowcov_blocks": 0,
+          "lowcov_total_bp": 0,
+          "lowcov_blocks": [],
+          "histogram": {},
+          "exon_number": 2,
+          "status": "OK"
+        }
+      ]
+    },
+    {
+      "target_id": "TP53",
+      "contig": "chr17",
+      "start": 7668401,
+      "end": 7694173,
+      "length_bp": 25772,
+      "mean_depth": 160.0,
+      "median_depth": 158.0,
+      "min_depth": 20,
+      "max_depth": 300,
+      "stdev_depth": 30.0,
+      "pct_zero": 0.0,
+      "pct_thresholds": {
+        "1": 100.0,
+        "5": 100.0,
+        "10": 100.0,
+        "20": 99.5,
+        "30": 99.5,
+        "50": 89.75,
+        "100": 80.0
+      },
+      "coverage_status": "PASS",
+      "n_lowcov_blocks": 0,
+      "lowcov_total_bp": 0,
+      "lowcov_blocks": [],
+      "histogram": {
+        "50": 2000,
+        "160": 15000
+      }
+    }
+  ],
+  "genes": []
+}
