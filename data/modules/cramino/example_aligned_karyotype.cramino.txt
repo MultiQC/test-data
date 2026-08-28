@@ -1,0 +1,213 @@
+File name	example_aligned.bam
+Number of alignments	20564409
+% from total alignments	96.04
+Number of reads	20235704
+Yield [Gb]	15.34
+Mean coverage	4.95
+Yield [Gb] (>25kb)	1.89
+N50	633
+N75	527
+Median length	539.00
+Mean length	746.19
+
+Median identity	99.41
+Mean identity	99.02
+Modal identity	100.0
+
+
+
+# Normalized read count per chromosome
+
+chr1	0.84
+chr10	0.86
+chr11	0.83
+chr11_KI270721v1_random	0.32
+chr12	0.83
+chr13	0.76
+chr14	0.70
+chr14_GL000009v2_random	2.32
+chr14_GL000194v1_random	2.75
+chr14_GL000225v1_random	9.89
+chr14_KI270722v1_random	1.38
+chr14_KI270723v1_random	2.86
+chr14_KI270724v1_random	2.36
+chr14_KI270725v1_random	0.85
+chr14_KI270726v1_random	0.09
+chr15	0.69
+chr15_KI270727v1_random	0.41
+chr16	0.88
+chr16_KI270728v1_random	0.41
+chr17	0.82
+chr17_GL000205v2_random	2.25
+chr17_KI270729v1_random	2.92
+chr17_KI270730v1_random	1.33
+chr18	0.83
+chr19	0.80
+chr1_KI270706v1_random	1.18
+chr1_KI270707v1_random	1.09
+chr1_KI270708v1_random	0.55
+chr1_KI270709v1_random	16.18
+chr1_KI270710v1_random	1.41
+chr1_KI270711v1_random	2.24
+chr1_KI270712v1_random	1.00
+chr1_KI270713v1_random	2.45
+chr1_KI270714v1_random	0.69
+chr2	0.84
+chr20	0.86
+chr21	0.78
+chr22	0.64
+chr22_KI270731v1_random	0.62
+chr22_KI270732v1_random	2.46
+chr22_KI270733v1_random	7.82
+chr22_KI270734v1_random	0.92
+chr22_KI270735v1_random	2.87
+chr22_KI270736v1_random	2.10
+chr22_KI270737v1_random	0.69
+chr22_KI270738v1_random	1.24
+chr22_KI270739v1_random	0.47
+chr2_KI270715v1_random	0.64
+chr2_KI270716v1_random	0.31
+chr3	0.86
+chr3_GL000221v1_random	1.75
+chr4	0.84
+chr4_GL000008v2_random	1.53
+chr5	0.83
+chr5_GL000208v1_random	1.36
+chr6	0.83
+chr7	0.83
+chr8	0.83
+chr9	0.73
+chr9_KI270717v1_random	0.42
+chr9_KI270718v1_random	1.25
+chr9_KI270719v1_random	1.29
+chr9_KI270720v1_random	1.51
+chrM	71.44
+chrUn_GL000195v1	1.40
+chrUn_GL000213v1	0.31
+chrUn_GL000214v1	2.26
+chrUn_GL000216v2	5.17
+chrUn_GL000218v1	1.08
+chrUn_GL000219v1	2.27
+chrUn_GL000220v1	9.71
+chrUn_GL000224v1	5.20
+chrUn_GL000226v1	22.07
+chrUn_KI270302v1	0.59
+chrUn_KI270303v1	0.56
+chrUn_KI270304v1	0.22
+chrUn_KI270305v1	0.91
+chrUn_KI270310v1	9.72
+chrUn_KI270311v1	1.41
+chrUn_KI270315v1	0.11
+chrUn_KI270316v1	0.17
+chrUn_KI270317v1	0.05
+chrUn_KI270320v1	2.95
+chrUn_KI270322v1	0.31
+chrUn_KI270329v1	0.94
+chrUn_KI270330v1	17.16
+chrUn_KI270333v1	93.62
+chrUn_KI270334v1	4.80
+chrUn_KI270335v1	1.04
+chrUn_KI270336v1	42.45
+chrUn_KI270337v1	112.98
+chrUn_KI270338v1	0.34
+chrUn_KI270340v1	18.49
+chrUn_KI270362v1	0.76
+chrUn_KI270363v1	1.21
+chrUn_KI270364v1	0.60
+chrUn_KI270366v1	0.75
+chrUn_KI270371v1	0.17
+chrUn_KI270372v1	0.52
+chrUn_KI270373v1	0.25
+chrUn_KI270374v1	0.23
+chrUn_KI270375v1	0.36
+chrUn_KI270376v1	0.21
+chrUn_KI270378v1	0.23
+chrUn_KI270379v1	0.23
+chrUn_KI270381v1	0.38
+chrUn_KI270382v1	0.20
+chrUn_KI270383v1	0.07
+chrUn_KI270384v1	0.59
+chrUn_KI270385v1	0.37
+chrUn_KI270386v1	0.14
+chrUn_KI270387v1	0.16
+chrUn_KI270388v1	0.30
+chrUn_KI270390v1	0.20
+chrUn_KI270391v1	0.08
+chrUn_KI270392v1	0.13
+chrUn_KI270393v1	0.47
+chrUn_KI270394v1	0.50
+chrUn_KI270395v1	2.55
+chrUn_KI270396v1	0.06
+chrUn_KI270411v1	8.60
+chrUn_KI270412v1	1.24
+chrUn_KI270414v1	0.49
+chrUn_KI270417v1	1.07
+chrUn_KI270418v1	0.57
+chrUn_KI270419v1	0.71
+chrUn_KI270420v1	2.15
+chrUn_KI270422v1	0.93
+chrUn_KI270423v1	2.36
+chrUn_KI270424v1	0.17
+chrUn_KI270425v1	0.13
+chrUn_KI270429v1	3.04
+chrUn_KI270435v1	1.69
+chrUn_KI270438v1	29.54
+chrUn_KI270442v1	2.38
+chrUn_KI270448v1	1.57
+chrUn_KI270465v1	20.30
+chrUn_KI270466v1	163.50
+chrUn_KI270467v1	185.90
+chrUn_KI270468v1	1.56
+chrUn_KI270507v1	2.95
+chrUn_KI270508v1	3.93
+chrUn_KI270509v1	3.52
+chrUn_KI270510v1	3.93
+chrUn_KI270511v1	1.77
+chrUn_KI270512v1	2.16
+chrUn_KI270515v1	3.58
+chrUn_KI270516v1	2.62
+chrUn_KI270517v1	3.55
+chrUn_KI270518v1	2.89
+chrUn_KI270519v1	1.96
+chrUn_KI270521v1	0.88
+chrUn_KI270522v1	0.60
+chrUn_KI270528v1	0.69
+chrUn_KI270529v1	2.11
+chrUn_KI270530v1	1.01
+chrUn_KI270538v1	1.86
+chrUn_KI270539v1	0.37
+chrUn_KI270544v1	4.55
+chrUn_KI270548v1	0.46
+chrUn_KI270579v1	0.99
+chrUn_KI270580v1	3.53
+chrUn_KI270581v1	0.88
+chrUn_KI270582v1	0.95
+chrUn_KI270583v1	4.87
+chrUn_KI270584v1	3.96
+chrUn_KI270587v1	1.39
+chrUn_KI270588v1	2.23
+chrUn_KI270589v1	1.65
+chrUn_KI270590v1	5.97
+chrUn_KI270591v1	4.20
+chrUn_KI270593v1	1.68
+chrUn_KI270741v1	0.92
+chrUn_KI270742v1	2.46
+chrUn_KI270743v1	0.85
+chrUn_KI270744v1	4.45
+chrUn_KI270745v1	0.62
+chrUn_KI270746v1	2.42
+chrUn_KI270747v1	0.41
+chrUn_KI270748v1	0.66
+chrUn_KI270749v1	1.38
+chrUn_KI270750v1	1.25
+chrUn_KI270751v1	2.96
+chrUn_KI270753v1	1.28
+chrUn_KI270754v1	2.29
+chrUn_KI270755v1	0.61
+chrUn_KI270756v1	0.90
+chrUn_KI270757v1	2.54
+chrX	0.81
+chrY	0.02
+
+Path	/work/aligned_reads/example_aligned/example_aligned.bam
+Creation time	NA

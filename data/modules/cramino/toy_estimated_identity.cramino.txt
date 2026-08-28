@@ -1,0 +1,30 @@
+File name	toy_estimated_identity.bam
+Number of alignments	5000
+% from total alignments	98.50
+Number of reads	4950
+Yield [Gb]	0.05
+Mean coverage	1.20
+Yield [Gb] (>25kb)	0.01
+N50	11000
+N75	8500
+Median length	9800.00
+Mean length	10100.25
+
+Median est. identity	98.70
+Mean est. identity	98.40
+Modal est. identity	99.0
+
+
+
+# Normalized read count per chromosome
+
+chr1	0.95
+chr2	1.02
+chrX	0.48
+chrY	0.01
+chrM	85.30
+chr1_KI270706v1_random	1.10
+chrUn_KI270333v1	42.00
+
+Path	/work/toy_estimated_identity.bam
+Creation time	NA

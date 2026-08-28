@@ -1,0 +1,23 @@
+File name	toy_no_contigs.bam
+Number of alignments	200
+% from total alignments	100.00
+Number of reads	200
+Yield [Gb]	0.001
+Mean coverage	0.00
+Yield [Gb] (>25kb)	0.00
+N50	800
+N75	650
+Median length	700.00
+Mean length	720.10
+
+Median identity	95.20
+Mean identity	94.80
+Modal identity	96.0
+
+
+
+# Warning - no contigs found in BAM file!
+
+
+Path	/work/toy_no_contigs.bam
+Creation time	NA
