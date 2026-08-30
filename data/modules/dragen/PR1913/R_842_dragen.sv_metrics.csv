@@ -1,0 +1,10 @@
+SV SUMMARY,R_842,Total number of structural variants (PASS),12293
+SV SUMMARY,R_842,Number of deletions (PASS),5407,43.98
+SV SUMMARY,R_842,Number of insertions (PASS),5683,46.22
+SV SUMMARY,R_842,Number of duplications (PASS),31,0.25
+SV SUMMARY,R_842,Number of breakend pairs (PASS),1172,9.53
+SV SUMMARY,R_184,Total number of structural variants (PASS),12154
+SV SUMMARY,R_184,Number of deletions (PASS),5146,42.33
+SV SUMMARY,R_184,Number of insertions (PASS),5919,48.70
+SV SUMMARY,R_184,Number of duplications (PASS),40,0.32
+SV SUMMARY,R_184,Number of breakend pairs (PASS),1049,8.63
