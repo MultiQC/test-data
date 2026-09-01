@@ -1,0 +1,33 @@
+[
+  {
+    "id": "fastqc",
+    "type": "software",
+    "title": "FastQC: A Quality Control Tool for High Throughput Sequence Data",
+    "author": [{ "family": "Andrews", "given": "S" }],
+    "issued": { "date-parts": [[2010]] },
+    "container-title": "Bioinformatics",
+    "DOI": "10.1093/bioinformatics/btv033",
+    "URL": "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/",
+    "custom": { "tool": "fastqc", "version": "0.12.1" }
+  },
+  {
+    "id": "samtools",
+    "type": "article-journal",
+    "title": "Twelve years of SAMtools and BCFtools",
+    "author": [
+      { "family": "Danecek", "given": "P" },
+      { "family": "Bonfield", "given": "J K" }
+    ],
+    "issued": { "date-parts": [[2021]] },
+    "container-title": "GigaScience",
+    "DOI": "10.1093/gigascience/giab008",
+    "URL": "http://www.htslib.org/",
+    "custom": { "tool": "samtools", "version": "1.21" }
+  },
+  {
+    "id": "snpsift",
+    "type": "software",
+    "DOI": "10.5281/zenodo.1234567",
+    "custom": { "tool": "snpsift", "version": "5.2" }
+  }
+]
