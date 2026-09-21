@@ -1,0 +1,70 @@
+{
+  "tool": "mgnifam",
+  "schema_version": 1,
+  "version": "3.1.0",
+  "command": "generate_families",
+  "chunk_id": "v2",
+  "exit_status": 0,
+  "parameters": {
+    "discard_min_rep_length": 100,
+    "discard_max_rep_length": 2000,
+    "discard_min_starting_membership": 0.9,
+    "max_seq_identity": 0.8,
+    "max_seed_seqs": 2000,
+    "max_gap_occupancy": 0.5,
+    "recruit_evalue_cutoff": 0.001,
+    "recruit_hit_length_percentage": 0.9
+  },
+  "families": {
+    "input": 14,
+    "successful": 12,
+    "discarded": 2,
+    "converged": 8,
+    "crashed": 0
+  },
+  "discard_reasons": {
+    "family representative length too small": 2
+  },
+  "histograms": {
+    "full_msa_size": {
+      "4": 1,
+      "13": 1,
+      "14": 1,
+      "17": 1,
+      "20": 1,
+      "29": 1,
+      "30": 1,
+      "35": 1,
+      "36": 1,
+      "58": 2,
+      "91": 1
+    },
+    "model_length": {
+      "107": 1,
+      "115": 2,
+      "117": 1,
+      "123": 1,
+      "125": 1,
+      "154": 1,
+      "164": 1,
+      "178": 1,
+      "180": 1,
+      "206": 1,
+      "539": 1
+    },
+    "representative_length": {
+      "107": 1,
+      "115": 1,
+      "116": 1,
+      "117": 1,
+      "123": 1,
+      "125": 1,
+      "158": 1,
+      "164": 1,
+      "179": 1,
+      "180": 1,
+      "206": 1,
+      "539": 1
+    }
+  }
+}
