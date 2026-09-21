@@ -1,0 +1,83 @@
+{
+  "tool": "mgnifam",
+  "schema_version": 1,
+  "version": "3.1.0",
+  "command": "update_families",
+  "chunk_id": "demo",
+  "exit_status": 0,
+  "parameters": {
+    "discard_min_rep_length": 75,
+    "discard_max_rep_length": 2000,
+    "discard_min_starting_membership": 0.9,
+    "max_seq_identity": 0.8,
+    "max_seed_seqs": 2000,
+    "max_gap_occupancy": 0.5,
+    "recruit_evalue_cutoff": 0.001,
+    "recruit_hit_length_percentage": 0.9,
+    "skip_refine": true
+  },
+  "families": {
+    "input": 14,
+    "successful": 14,
+    "discarded": 0,
+    "converged": 0,
+    "crashed": 0
+  },
+  "discard_reasons": {},
+  "histograms": {
+    "full_msa_size": {
+      "6": 1,
+      "13": 1,
+      "16": 1,
+      "17": 1,
+      "20": 2,
+      "29": 1,
+      "30": 1,
+      "35": 1,
+      "36": 1,
+      "58": 2,
+      "91": 1,
+      "166": 1
+    },
+    "model_length": {
+      "78": 1,
+      "99": 1,
+      "107": 1,
+      "115": 2,
+      "117": 1,
+      "123": 1,
+      "125": 1,
+      "154": 1,
+      "164": 1,
+      "178": 1,
+      "180": 1,
+      "206": 1,
+      "539": 1
+    },
+    "representative_length": {
+      "78": 1,
+      "99": 1,
+      "107": 1,
+      "115": 1,
+      "116": 1,
+      "117": 1,
+      "123": 1,
+      "125": 1,
+      "158": 1,
+      "164": 1,
+      "179": 1,
+      "180": 1,
+      "206": 1,
+      "539": 1
+    },
+    "model_length_change": {
+      "0": 14
+    },
+    "rounds_run": {
+      "1": 14
+    },
+    "retention": {
+      "1.0": 14
+    }
+  }
+}
