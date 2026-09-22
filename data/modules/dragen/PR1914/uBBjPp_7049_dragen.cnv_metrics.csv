@@ -1,0 +1,15 @@
+SEX GENOTYPER,,uBBjPp_7049,YX,0.913
+CNV SUMMARY,,Bases in reference genome,3711634147
+CNV SUMMARY,,Average alignment coverage over genome,0.36
+CNV SUMMARY,,Number of alignment records,3919609183
+CNV SUMMARY,,Number of filtered records (total),351125892,0.46
+CNV SUMMARY,,Number of filtered records (duplicates),30715,0.0
+CNV SUMMARY,,Number of filtered records (MAPQ),366155083,0.28
+CNV SUMMARY,,Number of filtered records (unmapped),310153558,0.65
+CNV SUMMARY,,Coverage uniformity,0.17
+CNV SUMMARY,,Number of target intervals,22308
+CNV SUMMARY,,Number of segments,1035
+CNV SUMMARY,,Number of amplifications,11711
+CNV SUMMARY,,Number of deletions,368177
+CNV SUMMARY,,Number of passing amplifications,10174,0.28
+CNV SUMMARY,,Number of passing deletions,291262,0.52

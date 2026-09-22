@@ -1,0 +1,5 @@
+SV SUMMARY,Igzaq_7,Total number of structural variants (PASS),11939
+SV SUMMARY,Igzaq_7,Number of deletions (PASS),4774,39.98
+SV SUMMARY,Igzaq_7,Number of insertions (PASS),6025,50.46
+SV SUMMARY,Igzaq_7,Number of duplications (PASS),36,0.30
+SV SUMMARY,Igzaq_7,Number of breakend pairs (PASS),1104,9.24
