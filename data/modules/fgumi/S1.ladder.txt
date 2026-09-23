@@ -1,0 +1,2 @@
+library	templates_seen	duplicate_fraction	window_templates	window_duplicate_fraction
+Unknown Library	6093	0.6717544723453143	6093	0.6717544723453143

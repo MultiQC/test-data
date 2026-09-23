@@ -1,0 +1,2 @@
+total_reads	passed_reads	failed_reads	pass_rate
+4000	4000	0	1

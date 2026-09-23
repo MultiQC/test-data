@@ -1,0 +1,2 @@
+accepted_sam_records	discarded_non_pf	discarded_poor_alignment	discarded_ns_in_umi	discarded_umis_to_short
+12186	0	0	0	0

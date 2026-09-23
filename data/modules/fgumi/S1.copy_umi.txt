@@ -1,0 +1,2 @@
+total_records	rx_written	rx_overwritten	names_trimmed
+12186	12186	12186	0

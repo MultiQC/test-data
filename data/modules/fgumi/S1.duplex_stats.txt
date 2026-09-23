@@ -1,0 +1,13 @@
+key	value	description
+raw_reads_considered	11912	Total raw reads considered from input file
+raw_reads_rejected	806	Total number of raw reads rejected before consensus calling
+raw_reads_used	11106	Total count of raw reads used in consensus reads
+frac_raw_reads_used	0.932337	Fraction of raw reads used in consensus reads
+raw_reads_rejected_for_insufficient_support	806	Insufficient reads to generate a consensus
+raw_reads_rejected_for_minority_alignment	0	Reads has a different, and minority, set of indels
+raw_reads_rejected_for_orphan_consensus	0	Only one of R1 or R2 consensus generated
+raw_reads_rejected_for_zero_bases_post_trimming	0	Read or mate had zero bases post trimming
+raw_reads_rejected_for_non_paired_reads	0	Unpaired/fragment reads not supported by Duplex caller
+raw_reads_rejected_for_single_strand_only	0	Only Generating One Strand of Duplex Consensus
+raw_reads_rejected_for_potential_umi_collision	0	Potential collision between independent duplex molecules
+consensus_reads_emitted	3194	Total number of consensus reads (R1+R2=2) emitted.
