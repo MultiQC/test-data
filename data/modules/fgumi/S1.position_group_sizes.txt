@@ -1,0 +1,2 @@
+position_group_size	count	fraction	fraction_gt_or_eq_position_group_size
+1	2000	1	1

@@ -1,0 +1,2 @@
+operation	kind	records_applied	dst_overwritten	src_missing
+RX::copy::BX	copy	12144	0	0
