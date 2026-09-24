@@ -1,0 +1,6 @@
+chromosome	position	reference_base	mismatch_base	count	depth
+chr1	3000	T	A	15	99
+chr1	1634	G	T	5	107
+chr1	3000	A	T	20	99
+chr1	2792	G	T	5	89
+chr1	3303	G	T	5	104
