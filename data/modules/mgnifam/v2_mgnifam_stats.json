@@ -26,6 +26,18 @@
     "family representative length too small": 2
   },
   "histograms": {
+    "seed_msa_size": {
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "10": 1,
+      "11": 2,
+      "13": 1,
+      "17": 1,
+      "21": 2,
+      "33": 1,
+      "36": 1
+    },
     "full_msa_size": {
       "4": 1,
       "13": 1,

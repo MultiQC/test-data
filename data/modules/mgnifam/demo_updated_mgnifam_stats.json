@@ -20,11 +20,12 @@
     "input": 14,
     "successful": 14,
     "discarded": 0,
-    "converged": 0,
+    "converged": null,
     "crashed": 0
   },
   "discard_reasons": {},
   "histograms": {
+    "seed_msa_size": {},
     "full_msa_size": {
       "6": 1,
       "13": 1,
