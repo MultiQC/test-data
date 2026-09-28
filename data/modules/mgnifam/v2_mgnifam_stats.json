@@ -1,7 +1,7 @@
 {
   "tool": "mgnifam",
   "schema_version": 1,
-  "version": "3.1.0",
+  "version": "4.0.0",
   "command": "generate_families",
   "chunk_id": "v2",
   "exit_status": 0,
