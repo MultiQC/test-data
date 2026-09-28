@@ -1,9 +1,9 @@
 {
   "tool": "mgnifam",
   "schema_version": 1,
-  "version": "3.1.0",
+  "version": "4.0.0",
   "command": "update_families",
-  "chunk_id": "demo_refine",
+  "chunk_id": "demo",
   "exit_status": 0,
   "parameters": {
     "discard_min_rep_length": 75,
@@ -14,76 +14,71 @@
     "max_gap_occupancy": 0.5,
     "recruit_evalue_cutoff": 0.001,
     "recruit_hit_length_percentage": 0.9,
-    "skip_refine": false
+    "skip_refine": true
   },
   "families": {
     "input": 14,
-    "successful": 13,
-    "discarded": 1,
-    "converged": 13,
+    "successful": 14,
+    "discarded": 0,
+    "converged": null,
     "crashed": 0
   },
-  "discard_reasons": {
-    "family representative length too small": 1
-  },
+  "discard_reasons": {},
   "histograms": {
+    "seed_msa_size": {},
     "full_msa_size": {
       "6": 1,
       "13": 1,
       "16": 1,
       "17": 1,
       "20": 2,
-      "29": 2,
+      "29": 1,
+      "30": 1,
       "35": 1,
       "36": 1,
-      "57": 1,
-      "58": 1,
-      "91": 1
+      "58": 2,
+      "91": 1,
+      "166": 1
     },
     "model_length": {
+      "78": 1,
       "99": 1,
-      "105": 1,
-      "110": 1,
-      "111": 2,
-      "122": 1,
-      "124": 1,
-      "149": 1,
-      "162": 1,
-      "177": 1,
-      "179": 1,
+      "107": 1,
+      "115": 2,
+      "117": 1,
+      "123": 1,
+      "125": 1,
+      "154": 1,
+      "164": 1,
+      "178": 1,
+      "180": 1,
       "206": 1,
       "539": 1
     },
     "representative_length": {
+      "78": 1,
       "99": 1,
-      "105": 1,
       "107": 1,
-      "108": 1,
-      "111": 1,
-      "122": 1,
-      "124": 1,
-      "156": 1,
-      "162": 1,
-      "178": 1,
+      "115": 1,
+      "116": 1,
+      "117": 1,
+      "123": 1,
+      "125": 1,
+      "158": 1,
+      "164": 1,
       "179": 1,
+      "180": 1,
       "206": 1,
       "539": 1
     },
     "model_length_change": {
-      "-14": 1,
-      "-6": 1,
-      "-5": 2,
-      "-4": 1,
-      "-2": 2,
-      "-1": 4,
-      "0": 3
+      "0": 14
     },
     "rounds_run": {
-      "2": 13,
-      "3": 1
+      "1": 14
     },
     "retention": {
-      "1.0": 13
+      "1.0": 14
     }
   }
 }
