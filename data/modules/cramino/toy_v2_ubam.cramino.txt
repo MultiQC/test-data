@@ -1,0 +1,22 @@
+File name	toy_v2_ubam.bam
+Number of alignments	500
+% from total reads	100.00
+Number of reads	500
+Yield [Gb]	0.01
+Mean coverage	NA
+Yield [Gb] (>25kb)	0.00
+N50	400
+N75	350
+Median length	380.00
+Mean length	390.50
+N50 aligned	400
+N75 aligned	350
+Median length aligned	380.00
+Mean length aligned	390.50
+
+Median estimated identity	97.00
+Mean estimated identity	96.50
+Modal estimated identity	98.0
+
+Path	/work/toy_v2_ubam.bam
+Creation time	NA
