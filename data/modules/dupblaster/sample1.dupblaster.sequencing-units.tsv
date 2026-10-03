@@ -1,0 +1,5 @@
+sample	library	sequencing_unit	templates	tiles	sequencing_duplicate_pairs	frac_sequencing_duplicate_pairs
+sample1	libA	HAAAADSXY:1	18662	936	1159	0.062105
+sample1	libA	HAAAADSXY:2	39073	936	2542	0.065058
+sample1	libB	HAAAADSXY:2	22491	936	1450	0.064470
+sample1	libB	HBBBBDSXY:1	13909	936	883	0.063484

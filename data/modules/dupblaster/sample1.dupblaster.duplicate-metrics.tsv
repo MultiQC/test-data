@@ -1,0 +1,3 @@
+sample	library	dupblaster_version	total_templates	duplicate_templates	frac_duplicates	mapped_pairs	unmapped_pairs	duplicate_pairs	raw_sequencing_duplicate_pairs	corrected_sequencing_duplicate_pairs	library_duplicate_pairs	frac_duplicate_pairs	frac_sequencing_duplicate_pairs	estimated_library_size	mapped_orphans	duplicate_orphans	unmapped_orphans	unmated_templates
+sample1	libA	0.3.0	59693	18893	0.321098	57735	800	18556	3701	3439	15117	0.321399	0.059565	78415	1158	337	0	0
+sample1	libB	0.3.0	37640	12140	0.327237	36400	500	11925	2333	2110	9815	0.327610	0.057967	47819	740	215	0	0
