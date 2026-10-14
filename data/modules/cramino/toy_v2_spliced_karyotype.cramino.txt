@@ -1,0 +1,25 @@
+File name	toy_v2_spliced_karyotype.bam
+Number of alignments	1000
+% from total reads	96.00
+Number of reads	950
+Yield [Gb]	1.50
+Mean coverage	5.00
+Yield [Gb] (>25kb)	0.20
+N50	600
+N75	500
+Median length	550.00
+Mean length	700.00
+
+
+
+# Normalized read count per chromosome
+
+chr1	0.90
+chrX	0.80
+
+Median number of exons	3
+Mean number of exons	3.20
+Fraction unspliced reads	0.10
+
+Path	/work/toy_v2_spliced_karyotype.bam
+Creation time	NA
