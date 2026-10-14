@@ -1,0 +1,6 @@
+sample	library	category	total	unique	duplicates	frac_duplicates	window_total	window_unique	window_duplicates	window_frac_duplicates
+sample3	libD	single_end	10000	8765	1235	0.123500	10000	8765	1235	0.123500
+sample3	libD	single_end	20000	16410	3590	0.179500	10000	7645	2355	0.235500
+sample3	libD	single_end	30000	23255	6745	0.224833	10000	6845	3155	0.315500
+sample3	libD	single_end	40000	29202	10798	0.269950	10000	5947	4053	0.405300
+sample3	libD	single_end	41424	29994	11430	0.275927	1424	792	632	0.443820

@@ -1,0 +1,5 @@
+sample	library	category	total	unique	duplicates	frac_duplicates	window_total	window_unique	window_duplicates	window_frac_duplicates
+sample2	libC	pairs	10000	9104	896	0.089600	10000	9104	896	0.089600
+sample2	libC	pairs	20000	17524	2476	0.123800	10000	8420	1580	0.158000
+sample2	libC	pairs	30000	25098	4902	0.163400	10000	7574	2426	0.242600
+sample2	libC	pairs	35924	29383	6541	0.182079	5924	4285	1639	0.276671
