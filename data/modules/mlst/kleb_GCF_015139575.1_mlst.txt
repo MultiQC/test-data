@@ -1,0 +1,2 @@
+FILE	SCHEME	ST	STATUS	SCORE	ALLELES
+input_kleb_GCF_015139575.1.fasta	koxytoca	-	OK	86	gapA(12);infB(29);mdh(17);pgi(9);phoE(20);rpoB(57);tonB(~114)

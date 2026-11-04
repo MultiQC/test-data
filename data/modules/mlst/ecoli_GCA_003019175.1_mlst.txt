@@ -1,0 +1,2 @@
+FILE	SCHEME	ST	STATUS	SCORE	ALLELES
+input_ecoli_GCA_003019175.1.fasta	ecoli_achtman_4	21	PERFECT	100	adk(16);fumC(4);gyrB(12);icd(16);mdh(9);purA(7);recA(7)
