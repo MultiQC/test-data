@@ -1,0 +1,11 @@
+pool	sample	sub_sample	reads	frac_of_pool	frac_bases_unextracted
+run4	sampleA		1320	0.220000	0.117647
+run4	sampleB		1067	0.177833	0.117647
+run4	sampleC		832	0.138667	0.117647
+run4	sampleD		674	0.112333	0.117647
+run4	sampleE		581	0.096833	0.117647
+run4	sampleF		509	0.084833	0.117647
+run4	sampleG		389	0.064833	0.117647
+run4	sampleH		248	0.041333	0.117647
+run4	sampleI		9	0.001500	0.117647
+run4	sampleJ		1	0.000167	0.117647

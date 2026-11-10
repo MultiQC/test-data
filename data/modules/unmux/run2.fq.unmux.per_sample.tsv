@@ -1,0 +1,4 @@
+pool	sample	sub_sample	reads	frac_of_pool	frac_bases_unextracted
+run2.fq	TAGGCTTC		1121	0.448400	0.117647
+run2.fq	CGAATCGT		879	0.351600	0.117647
+run2.fq	AGTCGGTA		228	0.091200	0.117647
