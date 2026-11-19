@@ -1,0 +1,5 @@
+Contig	Gene_Reoriented	Start	Strand	Top_Hit	Top_Hit_Length	Covered_Length	Coverage	Identical_AAs	Identity_Percentage	Overlapping_Contig_End
+contig_2 length=5348002 cov=29 circ=Y repeat=N  mult=1	dnaA	5193018	reverse	sp~B5XT51~DNAA_KLEP3	467	467	100.0	465	99.57	False
+contig_1 length=248503 cov=35 circ=Y repeat=N  mult=1	repA	9324	reverse	UniRef90_K7QPC2	337	337	100.0	337	100.0	False
+contig_3 length=52888 cov=45 circ=Y repeat=N  mult=1	repA	25761	reverse	UniRef90_A0A078LNI7	203	203	100.0	202	99.51	False
+contig_4 length=4165 cov=39 circ=Y repeat=Y  mult=1	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits

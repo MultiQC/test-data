@@ -1,0 +1,7 @@
+Contig	Gene_Reoriented	Start	Strand	Top_Hit	Top_Hit_Length	Covered_Length	Coverage	Identical_AAs	Identity_Percentage	Overlapping_Contig_End
+contig_1 length=5400185 cov=81 circ=Y repeat=N  mult=1	dnaA	1739146	forward	sp~B5XT51~DNAA_KLEP3	467	467	100.0	465	99.57	False
+contig_11 length=154182 cov=152 circ=N repeat=Y  mult=2	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored
+contig_4 length=139175 cov=25 circ=N repeat=N  mult=1	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored
+contig_10 length=34857 cov=238 circ=N repeat=Y  mult=3	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored
+contig_7 length=24994 cov=219 circ=N repeat=Y  mult=2	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored	Contig_ignored
+contig_9 length=4165 cov=196 circ=Y repeat=Y  mult=2	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits	No_MMseqs2_hits
