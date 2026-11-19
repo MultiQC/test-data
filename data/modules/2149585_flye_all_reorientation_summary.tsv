@@ -1,0 +1,3 @@
+Contig	Gene_Reoriented	Start	Strand	Top_Hit	Top_Hit_Length	Covered_Length	Coverage	Identical_AAs	Identity_Percentage	Overlapping_Contig_End
+contig_1 length=4679556 cov=159 circ=Y repeat=N  mult=1	dnaA	352015	forward	sp~B5QUQ0~DNAA_SALEP	466	466	100.0	465	99.79	False
+contig_2 length=59370 cov=243 circ=Y repeat=N  mult=1	repA	8907	reverse	UniRef90_Q57154	325	325	100.0	299	92.0	False
