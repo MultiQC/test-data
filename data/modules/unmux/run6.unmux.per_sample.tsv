@@ -1,0 +1,5 @@
+pool	sample	sub_sample	reads	frac_of_pool	frac_bases_unextracted
+run6	well05		747	0.186750	0.473684
+run6	well06		744	0.186000	0.473684
+run6	well07		791	0.197750	0.473684
+run6	well08		757	0.189250	0.473684

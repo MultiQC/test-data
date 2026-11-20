@@ -35,3 +35,26 @@ unmux run4.fq --pool run4 --group bc=barcodes.tsv --group bc::loc=0:0:8 \
 
 The run1 sample sheet pairs tumor and normal with bc01 and bc02 and with lib01 and lib02. The run4 sheet
 names bc01 to bc10 as sampleA to sampleJ.
+
+## Unassigned reasons
+
+Pools run5 and run6 add the `--metrics-unassigned` file, which counts the unassigned reads of a pool by reason.
+They come from the unmux release that added that flag, run on simulated reads that hold no real data. Each read
+is an 8 bp round 1 barcode, a 12 bp linker, an 8 bp round 2 barcode, an 8 bp round 3 barcode and a random
+insert. A set share of reads carries one fault each: a round 1, round 2 or round 3 barcode with 3 errors, a
+linker with 4 errors, a second round 3 barcode, or the one round 1 barcode no sample claims. run6 has more
+linker and round 2 faults than run5. The sample sheets give the round 1 barcodes bc01 to bc04 to well01 to
+well04 in run5 and well05 to well08 in run6, leaving bc05 unclaimed.
+
+```bash
+for pool in run5 run6; do
+  unmux $pool.fq --pool $pool \
+    --group round1=round1.tsv --group round1::loc=0:0:8,dist=1,minFindsPerGroup=1,maxFindsPerGroup=1 \
+    --group 'linker={L=GTGGCCGATGTT}' --group linker::loc=0:8:20,dist=2,minFindsPerGroup=1 \
+    --group round2=round2.tsv --group round2::loc=0:20:28,dist=1,minFindsPerGroup=1,maxFindsPerGroup=1 \
+    --group round3=round3.tsv --group round3::loc=0:28:44,dist=1,minFindsPerGroup=1,maxFindsPerGroup=1 \
+    --extract insert=0:36:end --template insert \
+    --sample-sheet samples.$pool.tsv \
+    --out '%pool.%sample.fq' "${metrics[@]}" --metrics-unassigned %pool.unmux.unassigned.tsv
+done
+```
