@@ -1,0 +1,7 @@
+pool	reason	group	stream	reads	frac_of_pool
+run5	min_finds_per_group	round1		148	0.037000
+run5	min_finds_per_group	linker		111	0.027750
+run5	min_finds_per_group	round2		122	0.030500
+run5	min_finds_per_group	round3		55	0.013750
+run5	max_finds_per_group	round3		55	0.013750
+run5	no_sample			84	0.021000

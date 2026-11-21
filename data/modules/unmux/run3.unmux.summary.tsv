@@ -1,0 +1,2 @@
+pool	total_reads	reads_assigned	reads_pass_through	reads_unassigned	reads_removed	frac_assigned	frac_bases_unextracted	mean_read_len_by_input
+run3	1500	0	1196	0	304	0.000000	0.117647	68
