@@ -1,0 +1,19 @@
+    Minimal SW score based on E-value = 55
+    Number of alignment processing threads = 10
+    Reads file: /mnt/input/SRR31139166_chr22_1_val_1.fq.gz
+    Reads file: /mnt/input/SRR31139166_chr22_2_val_2.fq.gz
+    Total reads = 30812
+
+ Results:
+    Total reads passing E-value threshold = 1150 (3.73)
+    Total reads failing E-value threshold = 29662 (96.27)
+    Minimum read length = 20
+    Maximum read length = 150
+    Mean read length    = 133
+
+ Coverage by database:
+    /mnt/output/references/rfam-5.8s-database-id98.fasta		0.00
+    /mnt/output/references/rfam-5s-database-id98.fasta		2.81
+    /mnt/output/references/silva-bac-16s-id90.fasta		0.14
+    /mnt/output/references/silva-euk-18s-id95.fasta		0.35
+
