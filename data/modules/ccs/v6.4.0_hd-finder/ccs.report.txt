@@ -1,0 +1,27 @@
+                           Double-Strand Reads  Single-Strand Reads
+Inputs                   :     118892 (96.13%)        9555 (3.863%)
+
+Passed                   :     100265 (84.33%)        5352 (56.01%)
+Failed                   :      18627 (15.67%)        4203 (43.99%)
+
+Tandem repeats           :         79 (0.424%)           3 (0.071%)
+
+Exclusive failed counts
+Below SNR threshold      :       1707 (9.164%)           0 (0.000%)
+Median length filter     :          0 (0.000%)           0 (0.000%)
+Shortcut filters         :          0 (0.000%)           0 (0.000%)
+Lacking full passes      :      12510 (67.16%)         174 (4.140%)
+Coverage drops           :         29 (0.156%)           8 (0.190%)
+Insufficient draft cov   :        469 (2.518%)         194 (4.616%)
+Draft too different      :          1 (0.005%)           0 (0.000%)
+Draft generation error   :       1047 (5.621%)          82 (1.951%)
+Draft above --max-length :          0 (0.000%)           0 (0.000%)
+Draft below --min-length :          8 (0.043%)           1 (0.024%)
+Reads failed polishing   :          0 (0.000%)           0 (0.000%)
+Empty coverage windows   :          0 (0.000%)           0 (0.000%)
+CCS did not converge     :          0 (0.000%)           0 (0.000%)
+CCS below minimum RQ     :       2856 (15.33%)        3744 (89.08%)
+Unknown error            :          0 (0.000%)           0 (0.000%)
+
+Additional passing metrics
+Missing adapters         :        890 (0.888%)         583 (10.89%)

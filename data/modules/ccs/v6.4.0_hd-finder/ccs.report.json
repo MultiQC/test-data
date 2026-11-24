@@ -1,0 +1,214 @@
+{
+    "_comment": "Created by pbcopper v2.0.0",
+    "attributes": [
+        {
+            "id": "ccs_processing.ds_reads_input",
+            "name": "DS reads: Inputs",
+            "value": 118892
+        },
+        {
+            "id": "ccs_processing.ss_reads_input",
+            "name": "SS reads: Inputs",
+            "value": 9555
+        },
+        {
+            "id": "ccs_processing.ds_reads_passed_yield",
+            "name": "DS reads: Passed",
+            "value": 100265
+        },
+        {
+            "id": "ccs_processing.ss_reads_passed_yield",
+            "name": "SS reads: Passed",
+            "value": 5352
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_yield",
+            "name": "DS reads: Failed",
+            "value": 18627
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_yield",
+            "name": "SS reads: Failed",
+            "value": 4203
+        },
+        {
+            "id": "ccs_processing.ds_reads_tandem_repeat",
+            "name": "DS reads: Tandem repeats",
+            "value": 79
+        },
+        {
+            "id": "ccs_processing.ss_reads_tandem_repeat",
+            "name": "SS reads: Tandem repeats",
+            "value": 3
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_poor_snr",
+            "name": "DS reads: Below SNR threshold",
+            "value": 1707
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_poor_snr",
+            "name": "SS reads: Below SNR threshold",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_median_length_filter",
+            "name": "DS reads: Median length filter",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_median_length_filter",
+            "name": "SS reads: Median length filter",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_2_pass_shortcut",
+            "name": "DS reads: Shortcut filters",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_2_pass_shortcut",
+            "name": "SS reads: Shortcut filters",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_too_few_passes",
+            "name": "DS reads: Lacking full passes",
+            "value": 12510
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_too_few_passes",
+            "name": "SS reads: Lacking full passes",
+            "value": 174
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_coverage_drops",
+            "name": "DS reads: Coverage drops",
+            "value": 29
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_coverage_drops",
+            "name": "SS reads: Coverage drops",
+            "value": 8
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_insufficient_draft_cov",
+            "name": "DS reads: Insufficient draft cov",
+            "value": 469
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_insufficient_draft_cov",
+            "name": "SS reads: Insufficient draft cov",
+            "value": 194
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_draft_too_different",
+            "name": "DS reads: Draft too different",
+            "value": 1
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_draft_too_different",
+            "name": "SS reads: Draft too different",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_draft_failure",
+            "name": "DS reads: Draft generation error",
+            "value": 1047
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_draft_failure",
+            "name": "SS reads: Draft generation error",
+            "value": 82
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_draft_too_long",
+            "name": "DS reads: Draft above --max-length",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_draft_too_long",
+            "name": "SS reads: Draft above --max-length",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_draft_too_short",
+            "name": "DS reads: Draft below --min-length",
+            "value": 8
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_draft_too_short",
+            "name": "SS reads: Draft below --min-length",
+            "value": 1
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_read_failed_polish",
+            "name": "DS reads: Reads failed polishing",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_read_failed_polish",
+            "name": "SS reads: Reads failed polishing",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_empty_window_during_polishing",
+            "name": "DS reads: Empty coverage windows",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_empty_window_during_polishing",
+            "name": "SS reads: Empty coverage windows",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_non_convergent",
+            "name": "DS reads: CCS did not converge",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_non_convergent",
+            "name": "SS reads: CCS did not converge",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_below_rq",
+            "name": "DS reads: CCS below minimum RQ",
+            "value": 2856
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_below_rq",
+            "name": "SS reads: CCS below minimum RQ",
+            "value": 3744
+        },
+        {
+            "id": "ccs_processing.ds_reads_filtered_unknown_error",
+            "name": "DS reads: Unknown error",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ss_reads_filtered_unknown_error",
+            "name": "SS reads: Unknown error",
+            "value": 0
+        },
+        {
+            "id": "ccs_processing.ds_reads_missing_adapters",
+            "name": "DS reads: Missing adapters",
+            "value": 890
+        },
+        {
+            "id": "ccs_processing.ss_reads_missing_adapters",
+            "name": "SS reads: Missing adapters",
+            "value": 583
+        }
+    ],
+    "dataset_uuids": [
+        ""
+    ],
+    "id": "ccs_processing",
+    "plotGroups": [],
+    "tables": [],
+    "title": "CCS Processing Report",
+    "uuid": "935f8e98-63e4-40b8-9d04-91998dee0a70",
+    "version": "1.0.1"
+}
