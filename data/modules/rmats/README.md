@@ -10,7 +10,7 @@ From the nf-core/rnasplice `test` profile (rMATS v4.3.0, run with `--variable-re
 
 - `<sample>_read_outcomes_by_bam.txt`: one `rmats.py --task prep` per BAM, with
   `[datetime]_read_outcomes_by_bam.txt` copied out of `--tmp`.
-- `<contrast>.rmats_summary.txt`: `summary.txt` from `rmats.py --task post` (with `--paired-stats`)
+- `<contrast>_summary.txt`: `summary.txt` from `rmats.py --task post` (with `--paired-stats`)
   for each contrast, renamed per contrast as the pipeline publishes it for MultiQC.
 
 ## `rmats_default_flags`
