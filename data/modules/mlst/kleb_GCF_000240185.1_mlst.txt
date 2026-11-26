@@ -1,0 +1,2 @@
+FILE	SCHEME	ST	STATUS	SCORE	ALLELES
+input_kleb_GCF_000240185.1.fasta	klebsiella	11	PERFECT	100	gapA(3);infB(3);mdh(1);pgi(1);phoE(1);rpoB(1);tonB(4)

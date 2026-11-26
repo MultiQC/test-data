@@ -1,0 +1,2 @@
+FILE	SCHEME	ST	STATUS	SCORE	ALLELES
+input_burkholderia_GCF_009586235.1.fasta	bcc	-	OK	83	atpD(700);gltB(354);gyrB(1386?);recA(769);lepA(38);phaC(93);trpB(828)

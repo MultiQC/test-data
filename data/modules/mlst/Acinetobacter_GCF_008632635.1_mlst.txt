@@ -1,0 +1,2 @@
+FILE	SCHEME	ST	STATUS	SCORE	ALLELES
+input_Acinetobacter_GCF_008632635.1.fasta	abaumannii_2	46	PERFECT	100	Pas_cpn60(5);Pas_fusA(12);Pas_gltA(11);Pas_pyrG(2);Pas_recA(14);Pas_rplB(9);Pas_rpoB(14)

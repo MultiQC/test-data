@@ -1,0 +1,2 @@
+FILE	SCHEME	ST	STATUS	SCORE	ALLELES
+input_cronobacter_GCF_001277215.2.fasta	cronobacter	7	PERFECT	100	atpD(10);fusA(7);glnS(6);gltB(7);gyrB(9);infB(14);pps(9)
