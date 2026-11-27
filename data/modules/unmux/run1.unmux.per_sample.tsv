@@ -1,0 +1,5 @@
+pool	sample	sub_sample	reads	frac_of_pool	frac_bases_unextracted
+run1	tumor	lib01	780	0.195000	0.189189
+run1	tumor	lib02	829	0.207250	0.189189
+run1	normal	lib01	627	0.156750	0.189189
+run1	normal	lib02	612	0.153000	0.189189
