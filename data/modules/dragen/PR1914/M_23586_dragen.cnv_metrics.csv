@@ -1,0 +1,15 @@
+SEX GENOTYPER,,M_23586,XX,0.891
+CNV SUMMARY,,Bases in reference genome,3174825398
+CNV SUMMARY,,Average alignment coverage over genome,0.42
+CNV SUMMARY,,Number of alignment records,3270623625
+CNV SUMMARY,,Number of filtered records (total),352859156,0.35
+CNV SUMMARY,,Number of filtered records (duplicates),6628,0.56
+CNV SUMMARY,,Number of filtered records (MAPQ),365993713,0.16
+CNV SUMMARY,,Number of filtered records (unmapped),376902704,0.35
+CNV SUMMARY,,Coverage uniformity,0.47
+CNV SUMMARY,,Number of target intervals,8539
+CNV SUMMARY,,Number of segments,369
+CNV SUMMARY,,Number of amplifications,31157
+CNV SUMMARY,,Number of deletions,118630
+CNV SUMMARY,,Number of passing amplifications,16072,0.3
+CNV SUMMARY,,Number of passing deletions,183645,0.52

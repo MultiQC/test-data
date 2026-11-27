@@ -1,0 +1,15 @@
+SV SUMMARY,gD_20754,Total number of structural variants (PASS),12197
+SV SUMMARY,gD_20754,Number of deletions (PASS),6332,51.91
+SV SUMMARY,gD_20754,Number of insertions (PASS),4627,37.93
+SV SUMMARY,gD_20754,Number of duplications (PASS),38,0.31
+SV SUMMARY,gD_20754,Number of breakend pairs (PASS),1200,9.83
+SV SUMMARY,yWr_5,Total number of structural variants (PASS),12273
+SV SUMMARY,yWr_5,Number of deletions (PASS),6614,53.89
+SV SUMMARY,yWr_5,Number of insertions (PASS),4244,34.57
+SV SUMMARY,yWr_5,Number of duplications (PASS),36,0.29
+SV SUMMARY,yWr_5,Number of breakend pairs (PASS),1379,11.23
+SV SUMMARY,jWiHo_5027,Total number of structural variants (PASS),10688
+SV SUMMARY,jWiHo_5027,Number of deletions (PASS),4628,43.30
+SV SUMMARY,jWiHo_5027,Number of insertions (PASS),4497,42.07
+SV SUMMARY,jWiHo_5027,Number of duplications (PASS),38,0.35
+SV SUMMARY,jWiHo_5027,Number of breakend pairs (PASS),1525,14.26
